@@ -1,4 +1,4 @@
-# MBG1032 Biyoistatistik Ders Notları
+# FEF3001 Yapay Zekaya Giriş
 
 ## Kaynaklar
 
@@ -21,7 +21,7 @@
 
 *Grup2: 5 Temmuz Cuma 8:30 - Grup1: 5 Temmuz Cuma 14:00*
 
-**İçerik**: Veri türleri ve verilerin işlenmesine dair bilgi verildi.  [Sunum linki](files/ders2.pdf)
+**İçerik**: Veri türleri ve verilerin işlenmesine dair bilgi verildi.  [Sunum linki](ders2.qmd)
 
 ## Ders03
 
