@@ -1,0 +1,17 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "FEF3001 Yapay Zekaya Giriş"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Ana Sayfa
+      - href: about.qmd
+        text: Hakkında
+format:
+  html:
+    theme: cosmo
+    #css: styles.css
+    toc: true

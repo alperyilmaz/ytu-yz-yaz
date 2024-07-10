@@ -1,0 +1,7 @@
+---
+title: Sayfa Bulunamadı
+---
+
+Aradığınız sayfa bulunamadı, sayfa taşınmış veya yeniden isimlendirilmiş olabilir. 
+
+Aradığınız sayfayı bulmak için ana sayfaya giderek arama yapabilirsiniz.

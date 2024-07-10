@@ -1,2 +1,3 @@
 # ytu-yz-yaz
-YTU Yapay Zeka Yaz Okulu Ders notları
+
+YTÜ Fen Fakültesi 2024 Yaz Okulu - Yapay Zekaya Giriş ders notları
