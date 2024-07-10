@@ -2,12 +2,12 @@
 
 ## Kaynaklar
 
-- Makine Öğrenmesinde Sınıflandırma Yöntemleri ve R Uygulamaları, Ersoy Öz & Selçuk Alp, Nobel Akademik Yayıncılık, 2020.
-- Veri Madenciliği Ve Makine Öğrenmesi İle Farklı Alanlarda Uygulamalar, Şenol Çelik, Nilay Köleoğlu, & Fatih Çemrek, Holistence Publications, 2022
-- Sağlık Bilimlerinde Yapay Zeka, Ahmet Rıza Şahin, Kamil Doğan, & Süleyman Sivri, Akademisyen Kitabevi A.Ş., 2020
-- Yapay Zeka, Atınç Yılmaz, Kodlab Yayın Dağıtım Yazılım Ltd. Şti., 2022
-- Machine Learning Algorithms, Giuseppe Bonaccorso, Packt Publishing, 2017.
-- Optimizasyon Modelleme ve Yapay Zeka Algoritmaları, Bayram Köse, Bahar Demirtürk, Efe Akademi Yayınları, 2023
+- *Makine Öğrenmesinde Sınıflandırma Yöntemleri ve R Uygulamaları*, Ersoy Öz & Selçuk Alp, Nobel Akademik Yayıncılık, 2020.
+- *Veri Madenciliği ve Makine Öğrenmesi İle Farklı Alanlarda Uygulamalar*, Şenol Çelik, Nilay Köleoğlu, & Fatih Çemrek, Holistence Publications, 2022
+- *Sağlık Bilimlerinde Yapay Zeka*, Ahmet Rıza Şahin, Kamil Doğan, & Süleyman Sivri, Akademisyen Kitabevi A.Ş., 2020
+- *Yapay Zeka*, Atınç Yılmaz, Kodlab Yayın Dağıtım Yazılım Ltd. Şti., 2022
+- *Machine Learning Algorithms*, Giuseppe Bonaccorso, Packt Publishing, 2017.
+- *Optimizasyon Modelleme ve Yapay Zeka Algoritmaları*, Bayram Köse, Bahar Demirtürk, Efe Akademi Yayınları, 2023
 
 ## Ders1
 
