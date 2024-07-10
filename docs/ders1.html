@@ -1,0 +1,1031 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>FEF3001 Yapay Zekaya Giriş – ChatGPT - no need to code anymore?</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
+
+<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">FEF3001 Yapay Zekaya Giriş</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Ana Sayfa</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">Hakkında</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#chatgpt-writes-code-for-us" id="toc-chatgpt-writes-code-for-us" class="nav-link active" data-scroll-target="#chatgpt-writes-code-for-us">ChatGPT writes code for us</a></li>
+  <li><a href="#chatgpt-can-fix-or-modify-the-code" id="toc-chatgpt-can-fix-or-modify-the-code" class="nav-link" data-scroll-target="#chatgpt-can-fix-or-modify-the-code">ChatGPT can fix or modify the code</a></li>
+  <li><a href="#is-it-the-end-of-programming" id="toc-is-it-the-end-of-programming" class="nav-link" data-scroll-target="#is-it-the-end-of-programming">Is it the end of programming?</a></li>
+  <li><a href="#thanks-for-showing-us-chatgpt-i-can-now-prepare-my-homeworks-easily" id="toc-thanks-for-showing-us-chatgpt-i-can-now-prepare-my-homeworks-easily" class="nav-link" data-scroll-target="#thanks-for-showing-us-chatgpt-i-can-now-prepare-my-homeworks-easily">Thanks for showing us ChatGPT, I can now prepare my homeworks easily!</a></li>
+  <li><a href="#large-language-models" id="toc-large-language-models" class="nav-link" data-scroll-target="#large-language-models">Large Language Models</a>
+  <ul class="collapse">
+  <li><a href="#closed-and-open-models" id="toc-closed-and-open-models" class="nav-link" data-scroll-target="#closed-and-open-models">Closed and Open models</a></li>
+  </ul></li>
+  <li><a href="#access-to-openai-models" id="toc-access-to-openai-models" class="nav-link" data-scroll-target="#access-to-openai-models">Access to OpenAI models</a></li>
+  <li><a href="#open-source-models" id="toc-open-source-models" class="nav-link" data-scroll-target="#open-source-models">Open source models</a>
+  <ul class="collapse">
+  <li><a href="#running-models-locally" id="toc-running-models-locally" class="nav-link" data-scroll-target="#running-models-locally">Running models locally</a>
+  <ul class="collapse">
+  <li><a href="#running-a-model-locally-using-jupyter-notebook-or-google-colab" id="toc-running-a-model-locally-using-jupyter-notebook-or-google-colab" class="nav-link" data-scroll-target="#running-a-model-locally-using-jupyter-notebook-or-google-colab">Running a model locally using Jupyter notebook or Google Colab</a></li>
+  <li><a href="#running-a-model-locally-with-ollama" id="toc-running-a-model-locally-with-ollama" class="nav-link" data-scroll-target="#running-a-model-locally-with-ollama">Running a model locally with Ollama</a></li>
+  <li><a href="#running-a-model-locally-with-user-interface" id="toc-running-a-model-locally-with-user-interface" class="nav-link" data-scroll-target="#running-a-model-locally-with-user-interface">Running a model locally with user interface</a></li>
+  </ul></li>
+  </ul></li>
+  <li><a href="#coding-with-llms" id="toc-coding-with-llms" class="nav-link" data-scroll-target="#coding-with-llms">Coding with LLMs</a>
+  <ul class="collapse">
+  <li><a href="#github-copilot" id="toc-github-copilot" class="nav-link" data-scroll-target="#github-copilot">Github CoPilot</a></li>
+  <li><a href="#free-github-copilot-alternative" id="toc-free-github-copilot-alternative" class="nav-link" data-scroll-target="#free-github-copilot-alternative">Free Github CoPilot alternative</a></li>
+  <li><a href="#open-source-local-alternatives" id="toc-open-source-local-alternatives" class="nav-link" data-scroll-target="#open-source-local-alternatives">Open source local alternatives</a></li>
+  </ul></li>
+  <li><a href="#prompt-engineering" id="toc-prompt-engineering" class="nav-link" data-scroll-target="#prompt-engineering">Prompt engineering</a>
+  <ul class="collapse">
+  <li><a href="#summarize-a-long-text" id="toc-summarize-a-long-text" class="nav-link" data-scroll-target="#summarize-a-long-text">1. Summarize a long text</a></li>
+  <li><a href="#prompts-on-various-topics" id="toc-prompts-on-various-topics" class="nav-link" data-scroll-target="#prompts-on-various-topics">2. Prompts on various topics</a></li>
+  <li><a href="#awesome-list-of-chatgpt-prompts" id="toc-awesome-list-of-chatgpt-prompts" class="nav-link" data-scroll-target="#awesome-list-of-chatgpt-prompts">3. Awesome list of ChatGPT prompts</a></li>
+  <li><a href="#use-chatgpt-with-ai-art-tools-create-a-website" id="toc-use-chatgpt-with-ai-art-tools-create-a-website" class="nav-link" data-scroll-target="#use-chatgpt-with-ai-art-tools-create-a-website">4. use <em>ChatGPT</em> with AI art tools create a website</a></li>
+  </ul></li>
+  <li><a href="#fine-tuning" id="toc-fine-tuning" class="nav-link" data-scroll-target="#fine-tuning">Fine-tuning</a></li>
+  <li><a href="#retrieval-augmented-generation-rag" id="toc-retrieval-augmented-generation-rag" class="nav-link" data-scroll-target="#retrieval-augmented-generation-rag">Retrieval Augmented Generation RAG</a>
+  <ul class="collapse">
+  <li><a href="#autollm" id="toc-autollm" class="nav-link" data-scroll-target="#autollm">AutoLLM</a></li>
+  </ul></li>
+  <li><a href="#agents" id="toc-agents" class="nav-link" data-scroll-target="#agents">Agents</a></li>
+  <li><a href="#modes-other-than-text" id="toc-modes-other-than-text" class="nav-link" data-scroll-target="#modes-other-than-text">Modes other than text</a>
+  <ul class="collapse">
+  <li><a href="#image-generation" id="toc-image-generation" class="nav-link" data-scroll-target="#image-generation">Image generation</a>
+  <ul class="collapse">
+  <li><a href="#dall-e-3-by-openai" id="toc-dall-e-3-by-openai" class="nav-link" data-scroll-target="#dall-e-3-by-openai">DALL-E 3 by OpenAI</a></li>
+  <li><a href="#midjourney-v6" id="toc-midjourney-v6" class="nav-link" data-scroll-target="#midjourney-v6">Midjourney v6</a></li>
+  <li><a href="#disinformation" id="toc-disinformation" class="nav-link" data-scroll-target="#disinformation">Disinformation</a></li>
+  </ul></li>
+  <li><a href="#video-generation" id="toc-video-generation" class="nav-link" data-scroll-target="#video-generation">Video generation</a>
+  <ul class="collapse">
+  <li><a href="#prompt-to-video" id="toc-prompt-to-video" class="nav-link" data-scroll-target="#prompt-to-video">Prompt to video</a></li>
+  <li><a href="#image-to-video" id="toc-image-to-video" class="nav-link" data-scroll-target="#image-to-video">Image to video</a></li>
+  </ul></li>
+  <li><a href="#music-or-sound-generation" id="toc-music-or-sound-generation" class="nav-link" data-scroll-target="#music-or-sound-generation">Music or sound generation</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">ChatGPT - no need to code anymore?</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>ChatGPT is released in December 2022 and it has taken the online world by storm. There are lots of blog posts, <a href="https://www.youtube.com/results?search_query=chatGPT">YouTube videos</a> about it. Because of that <a href="https://www.nytimes.com/2022/12/21/technology/ai-chatgpt-google-search.html">Google is worried</a> and is shifting its workforce to AI research and some people are worried that <a href="https://medium.com/codex/will-chat-gpt-replace-your-job-as-a-programmer-3492ad2cf449">chatGPT will bring an end to software engineering</a>.</p>
+<p>So, let’s dive in to the world of ChatGPT. Please note that you need an account at OpenAI to do queries at ChatGPT site.</p>
+<p>If you did some coding during our lecture, you probably searched online for a solution or even truobleshooting for an error message. In that case you most likely ended up at <a href="https://stackoverflow.com/">StackOverflow</a> site where developers/programmers are asking for help.</p>
+<p>In our earlier lectures, we have searched for fastest prime number if you type “fastest prime number function in python” in Google, you’ll get something like this:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="ders1_files/figure-html/80ecc652-321d-4cfe-b696-d8a529acf20f-1-5b000dc3-8afd-4485-94ca-3094726a398d.png" class="img-fluid figure-img"></p>
+<figcaption>image.png</figcaption>
+</figure>
+</div>
+<p>As you have noticed there are lots of results from StackOverflow. However; * If you check the dates on the results, some of them date back to 2011. In that page, you might have an example code from Python 2, which will likely to fail. * Some results are focused on “prime numbers up to N” and others are checking for primeness. So, the results are not customized for you. * Also, in another page you might have a sample code which might be wrapped within unnecessary code which will give error if you just copy/paste it.</p>
+<section id="chatgpt-writes-code-for-us" class="level2">
+<h2 class="anchored" data-anchor-id="chatgpt-writes-code-for-us">ChatGPT writes code for us</h2>
+<p>Let’s ask ChatGPT for a fast prime number function in Python</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="ders1_files/figure-html/8c44616e-9b01-40ec-9a8e-79cac94b7686-1-c47b6041-7502-4b5c-975f-3aed5f7a6d72.png" class="img-fluid figure-img"></p>
+<figcaption>image.png</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="ders1_files/figure-html/29bc948f-31c5-4590-ad3c-3eb89aa2d7e7-1-5cf90a7f-23d0-4443-a5ae-5038228bc973.png" class="img-fluid figure-img"></p>
+<figcaption>image.png</figcaption>
+</figure>
+</div>
+<p>Did you see what just happened! It provided code tailored for us and it also explained bits of the code. Have you noticed that the code contains the tricks we have learned during our lecture: * early stop: if a condition is met, return immediately True or False * instead of checking until N, we should check numbers until <span class="math inline">\(\sqrt{N}\)</span> (<strong>n </strong> 0.5** in Python)</p>
+<p>You can continue the conversation. Let’s ask for memoization.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="ders1_files/figure-html/58c60b8e-edbd-496c-bb3d-7a8f186c71bd-1-89136987-ee63-411f-9ccf-19f2a19e60bc.png" class="img-fluid figure-img"></p>
+<figcaption>image.png</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="ders1_files/figure-html/ee153591-845b-432e-9ebb-728264e85c7d-1-80f34cda-94b1-4921-88d2-63be64898777.png" class="img-fluid figure-img"></p>
+<figcaption>image.png</figcaption>
+</figure>
+</div>
+<p>Let’s get the code and test it here:</p>
+<div id="3c2b817e-fcf3-4842-9bd3-bbc25e6fe1f8" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> is_prime(n, memo<span class="op">=</span>{}):</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> n <span class="kw">in</span> memo:</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> memo[n]</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> n <span class="kw">in</span> (<span class="dv">2</span>, <span class="dv">3</span>):</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>        result <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">elif</span> n <span class="op">==</span> <span class="dv">1</span> <span class="kw">or</span> n <span class="op">%</span> <span class="dv">2</span> <span class="op">==</span> <span class="dv">0</span>:</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>        result <span class="op">=</span> <span class="va">False</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>        result <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">3</span>, <span class="bu">int</span>(n <span class="op">**</span> <span class="fl">0.5</span>) <span class="op">+</span> <span class="dv">1</span>, <span class="dv">2</span>):</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>            <span class="cf">if</span> n <span class="op">%</span> i <span class="op">==</span> <span class="dv">0</span>:</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>                result <span class="op">=</span> <span class="va">False</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>                <span class="cf">break</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>    memo[n] <span class="op">=</span> result</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> result</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div id="f42e155a-8843-41f0-b24d-e6fb95be626e" class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># is_prime(100000000003)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="alert alert-block alert-warning">
+<pre><code>&lt;i class="fas fa-fw fa-exclamation-circle mr-3 align-self-center"&gt;&lt;/i&gt;
+&lt;b&gt;Warning:&lt;/b&gt; At the time of writing this note (January 2023) chatGPT is known to provide results which are not exactly true!&lt;br&gt;So, be aware and don't use code or information you got from chatGPT as is without checking or confirming. </code></pre>
+</div>
+</section>
+<section id="chatgpt-can-fix-or-modify-the-code" class="level2">
+<h2 class="anchored" data-anchor-id="chatgpt-can-fix-or-modify-the-code">ChatGPT can fix or modify the code</h2>
+<p>You have a piece of code and it does not work as intended? Then you can ask ChatGPT to fix the code.</p>
+<p>Let’s provide a code with error and ask chatGPT to debug it:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="ders1_files/figure-html/10927694-eff3-465d-bdbd-b8ee48da5a3d-1-99ee6310-3f50-44b1-97ec-4f35780c91f2.png" class="img-fluid figure-img"></p>
+<figcaption>image.png</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="ders1_files/figure-html/767e95f6-a423-4908-8545-256bf9fe231b-1-85b81775-5f86-47ba-a80e-d9613b1619b1.png" class="img-fluid figure-img"></p>
+<figcaption>image.png</figcaption>
+</figure>
+</div>
+<p>So, ChatGPT can fix code! By the way, did you know that I used ChatGPT to prepare that example ;)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="ders1_files/figure-html/29f81b85-bdf8-414a-903f-4a49ae5c822c-1-f114f77a-0743-4bc1-8ce3-cc7f01a75845.png" class="img-fluid figure-img"></p>
+<figcaption>image.png</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="ders1_files/figure-html/cde16408-40de-43d7-a92d-e12cb9ec1647-1-08fe13f4-f4e3-450e-91ef-0a1054172f93.png" class="img-fluid figure-img"></p>
+<figcaption>image.png</figcaption>
+</figure>
+</div>
+</section>
+<section id="is-it-the-end-of-programming" class="level2">
+<h2 class="anchored" data-anchor-id="is-it-the-end-of-programming">Is it the end of programming?</h2>
+<p>You might think, <em>“we learned Python for a semester and but now there’s ChatGPT, no need to learn coding at all!”</em>. You might find content online which are exploring similar concerns. But more sane approach is “AI tools will increase speed and efficiency of developers also will decresase barriers to entry for new languages.</p>
+<p>The section below is taken from Github Copilot’s page: <img src="ders1_files/figure-html/9d70946d-175f-4bb2-b89d-d3c01777c25f-1-c0913c52-c72d-46b7-a4f4-1bba11c993ff.png" class="img-fluid" alt="image.png"></p>
+</section>
+<section id="thanks-for-showing-us-chatgpt-i-can-now-prepare-my-homeworks-easily" class="level2">
+<h2 class="anchored" data-anchor-id="thanks-for-showing-us-chatgpt-i-can-now-prepare-my-homeworks-easily">Thanks for showing us ChatGPT, I can now prepare my homeworks easily!</h2>
+<p>Seeing the capabilities of ChatGPT might give some hint about misuse. First of all, a homework is for you to learn a concept (remember the <strong>playing the guitar</strong> analogy?) so being involved in AI-assisted plagiarism is still a plagiarism and a loss on your side. (please also check the file <strong>00-academic-integrity.ipynb</strong> for adverse effects of plagiarism)</p>
+<p>Second of all, OpenAI and others are working on tools and ways to include watermarks in ChatGPT output so that it can be spotted easily.</p>
+<p>So, please be inspired by this tool, use it to augment your learning but do not use it for plagiarism.</p>
+</section>
+<section id="large-language-models" class="level1">
+<h1>Large Language Models</h1>
+<p>ChatGPT and beyond</p>
+<section id="closed-and-open-models" class="level2">
+<h2 class="anchored" data-anchor-id="closed-and-open-models">Closed and Open models</h2>
+<p>Currently there are several closed-source large language models which are developed by major corparations each took hundreds of millions to train * GPT3.5 (ChatGPT) and GPT4 <em>by OpenAI</em> * PaLM and Bard <em>by Google</em> * Claude <em>by Anthropics</em></p>
+</section>
+</section>
+<section id="access-to-openai-models" class="level1">
+<h1>Access to OpenAI models</h1>
+<p>There are large language models which are proprietary. You have free access to ChatGPT. There’s paid access to GPT4 over OpenAI website.</p>
+<p>You can also access GPT4 and DALL-E 3 through <a href="https://play.google.com/store/apps/details?id=com.microsoft.copilot">Microsoft CoPilot Android App</a>. The app allows text and image input and output.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/copilot-app1.jpeg" class="img-fluid figure-img"></p>
+<figcaption>app1</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/copilot-app2.jpeg" class="img-fluid figure-img"></p>
+<figcaption>app2</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/copilot-app3.jpeg" class="img-fluid figure-img"></p>
+<figcaption>app3</figcaption>
+</figure>
+</div>
+</section>
+<section id="open-source-models" class="level1">
+<h1>Open source models</h1>
+<p>You can not run ChatGPT or GPT4 locally on your computer (you can have API access though).</p>
+<ul>
+<li>OpenAI does not share the model weights</li>
+<li>Even if you have weights, you need an expensive computer to run it.</li>
+</ul>
+<p>Tech giants kept LLMs behind walls. However, in February of 2023, Meta (formerly Facebook) released LLAMA model. This sparked release of open source models. Initial language models were large but then smaller language models were released. These language models can be run in a laptop, locally!</p>
+<p>Please check the <a href="https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard">open source LLM leaderboard</a>. As of writing this text, models from <a href="https://mistral.ai/">Mistral.ai</a> were very promising and <a href="https://mistral.ai/news/mixtral-of-experts/">Mixtral model was evaluated as good as ChatGPT</a> although it’s much smaller.</p>
+<p>You can test LLAMA, Mistral models at <a href="https://labs.perplexity.ai/">Perplexity AI</a> site.</p>
+<p><img src="images/perplexity-main-page.png" class="img-fluid"></p>
+<blockquote class="blockquote">
+<p>About Perplexity AI (https://www.perplexity.ai/): Perplexity AI is a chatbot-style search engine that allows users to ask questions in natural language and receive accurate and comprehensive responses. The platform uses AI technology to gather information from multiple sources on the web, including academic databases, news outlets, YouTube, Reddit, and more. Perplexity AI then provides users with a summary containing source citations, enabling them to verify the information and dive deeper into a particular subject. Perplexity AI is a versatile tool that can assist various professions like researchers, writers, artists, musicians, and programmers in multiple tasks such as answering questions, generating text, writing creative content, and summarizing text. Advantages of Perplexity AI: * Provides fast and comprehensive answers to complex questions * Helps users learn new things and explore different perspectives * Improves users’ critical thinking and research skills by showing them the sources of the information</p>
+</blockquote>
+<section id="running-models-locally" class="level2">
+<h2 class="anchored" data-anchor-id="running-models-locally">Running models locally</h2>
+<p>Since developers share the model weights, it’s possible to download and run the models locally. There are various sizes of models. 7B (7 billion) models require around 4Gb memory, so you can run them in your laptop.</p>
+<p>You can run the models by installing PyTorch and some other libraries for Python and then writing some Python code. Or you can install <a href="https://ollama.ai/">Ollama</a> and then run any compatible model with it.</p>
+<p>Advantages of running a model locally: 1. Less Censorship 2. Better Data Privacy 3. Offline Usage 4. Cost Savings 5. Better Customization</p>
+<p>Disadvantages of running a model locally: 1. Resource Intensive 2. Slower Responses and Inferior Performance 3. Complex Setup</p>
+<section id="running-a-model-locally-using-jupyter-notebook-or-google-colab" class="level3">
+<h3 class="anchored" data-anchor-id="running-a-model-locally-using-jupyter-notebook-or-google-colab">Running a model locally using Jupyter notebook or Google Colab</h3>
+<p>You can actually run LLM models in Jupyter notebooks. However the process will require you to install lots of Python packages, downloading the model weights and then writing some Python code to ask questions to the model and then capturing the answer in a dictionary. Although there are some solutions for “chat-like” experience, the experince is more like “one-shot question and answer”.</p>
+<p>Please check the <a href="https://www.youtube.com/watch?v=eovBbABk3hw">Youtube video</a> which describes the process in Google Colab, where Google provides GPU (or TPU) to run the model in a Jupyter notebook environment.</p>
+</section>
+<section id="running-a-model-locally-with-ollama" class="level3">
+<h3 class="anchored" data-anchor-id="running-a-model-locally-with-ollama">Running a model locally with Ollama</h3>
+<p><img src="images/ollama-main-page.png" class="img-fluid"></p>
+<p>Please visit the <a href="https://ollama.ai/library">list of models page</a> to have an idea about specialized models. With Ollama, you can download and use any of those models.</p>
+<p>In the terminal, let’s list available models</p>
+<pre><code>$ ollama list
+
+NAME                ID              SIZE    MODIFIED
+deepseek-coder:6.7b 72be2442d736    3.8 GB  5 weeks ago     
+neural-chat:latest  73940af9fe02    4.1 GB  5 weeks ago     
+orca2:7b            ea98cc422de3    3.8 GB  5 weeks ago     
+phi:latest          c651b7a89d73    1.6 GB  14 hours ago    
+solar:latest        059fdabbe6e6    6.1 GB  2 hours ago     
+stablelm-zephyr:3b  7c596e78b1fc    1.6 GB  3 weeks ago</code></pre>
+<p>Let’s run <a href="https://www.microsoft.com/en-us/research/blog/phi-2-the-surprising-power-of-small-language-models/">Phi-2 by Microsoft</a>. Here’s info about Phi-2:</p>
+<blockquote class="blockquote">
+<p>a 2.7 billion-parameter language model that demonstrates outstanding reasoning and language understanding capabilities, showcasing state-of-the-art performance among base language models with less than 13 billion parameters. On complex benchmarks Phi-2 matches or outperforms models up to 25x larger, thanks to new innovations in model scaling and training data curation.</p>
+</blockquote>
+<pre><code>$ ollama run phi:latest
+
+&gt;&gt;&gt; why sky is blue?
+
+ The sky appears blue due to a phenomenon called Rayleigh scattering. When sunlight enters the Earth's atmosphere,
+it collides with molecules and tiny particles in the air, such as oxygen and nitrogen atoms. These collisions cause
+the shorter wavelengths of light (blue) to scatter more than the longer wavelengths (red, orange, yellow, green, and
+violet). As a result, our eyes perceive the scattered blue light to be dominant, which is why the sky appears blue to us.</code></pre>
+<p>As you can see, a small model, which can answer questions, help coding can be run locally.</p>
+</section>
+<section id="running-a-model-locally-with-user-interface" class="level3">
+<h3 class="anchored" data-anchor-id="running-a-model-locally-with-user-interface">Running a model locally with user interface</h3>
+<section id="ollama-web-ui" class="level4">
+<h4 class="anchored" data-anchor-id="ollama-web-ui">Ollama Web UI</h4>
+<p><img src="images/ollama-webui.png" class="img-fluid"></p>
+</section>
+<section id="llm-studio" class="level4">
+<h4 class="anchored" data-anchor-id="llm-studio">LLM Studio</h4>
+<p>You can install <a href="https://lmstudio.ai/">LM Studio</a> and then interact with local models with its user interface</p>
+<p><img src="images/lm-studio-main.gif" class="img-fluid"></p>
+</section>
+</section>
+</section>
+</section>
+<section id="coding-with-llms" class="level1">
+<h1>Coding with LLMs</h1>
+<section id="github-copilot" class="level2">
+<h2 class="anchored" data-anchor-id="github-copilot">Github CoPilot</h2>
+<div id="7b751fa8-7320-49be-a546-54acafcaa10c" class="cell" data-scrolled="true" data-execution_count="3">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="op">%%</span>HTML</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;</span>iframe width<span class="op">=</span><span class="st">"560"</span> height<span class="op">=</span><span class="st">"315"</span> src<span class="op">=</span><span class="st">"https://www.youtube.com/embed/ZapdeEJ7xJw?si=3DYWvMa7uudDhUnj"</span> title<span class="op">=</span><span class="st">"YouTube video player"</span> frameborder<span class="op">=</span><span class="st">"0"</span> allow<span class="op">=</span><span class="st">"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"</span> allowfullscreen<span class="op">&gt;&lt;/</span>iframe<span class="op">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZapdeEJ7xJw?si=3DYWvMa7uudDhUnj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+</div>
+</div>
+</section>
+<section id="free-github-copilot-alternative" class="level2">
+<h2 class="anchored" data-anchor-id="free-github-copilot-alternative">Free Github CoPilot alternative</h2>
+<p>Cody is Sourcegraph’s AI coding assistant, and it has a couple of features that no other assistant has to make you a 10x developer. You can check it out here: https://sourcegraph.com/cody</p>
+</section>
+<section id="open-source-local-alternatives" class="level2">
+<h2 class="anchored" data-anchor-id="open-source-local-alternatives">Open source local alternatives</h2>
+<p>Please visit https://tabby.tabbyml.com/ for more information</p>
+<p><img src="images/tabby-main-page.png" class="img-fluid"></p>
+</section>
+</section>
+<section id="prompt-engineering" class="level1">
+<h1>Prompt engineering</h1>
+<p>There are numerous example about use cases of ChatGPT. I would like to share interesting ones</p>
+<section id="summarize-a-long-text" class="level2">
+<h2 class="anchored" data-anchor-id="summarize-a-long-text">1. Summarize a long text</h2>
+<p>Just write “TL;DR” (stands for <em>too long didn’t read</em>) and then in double quotes paste the text</p>
+</section>
+<section id="prompts-on-various-topics" class="level2">
+<h2 class="anchored" data-anchor-id="prompts-on-various-topics">2. Prompts on various topics</h2>
+<p>https://mpost.io/100-best-chatgpt-prompts-to-unleash-ais-potential/</p>
+</section>
+<section id="awesome-list-of-chatgpt-prompts" class="level2">
+<h2 class="anchored" data-anchor-id="awesome-list-of-chatgpt-prompts">3. Awesome list of ChatGPT prompts</h2>
+<p>Please visit https://prompts.chat/ and explore prompts which will ask ChatGPT to act like anything.</p>
+</section>
+<section id="use-chatgpt-with-ai-art-tools-create-a-website" class="level2">
+<h2 class="anchored" data-anchor-id="use-chatgpt-with-ai-art-tools-create-a-website">4. use <em>ChatGPT</em> with AI art tools create a website</h2>
+<p>There are AI art tools which can generate visual content. * <a href="https://stablediffusionweb.com/#demo">Stable Diffusion</a> is a latent text-to-image diffusion model capable of generating photo-realistic images given any text input, cultivates autonomous freedom to produce incredible imagery, empowers billions of people to create stunning art within seconds. * <a href="https://openai.com/dall-e-2/">DALL-E 2</a> can create original, realistic images and art from a text description. It can combine concepts, attributes, and styles. * <a href="https://midjourney.com/home/">Midjourney</a> is an independent research lab exploring new mediums of thought and expanding the imaginative powers of the human species. Please visit <a href="https://midjourney.com/showcase/recent/">community showcase</a></p>
+<div id="a3805916-b7e9-4bc6-9ea7-04996af20c88" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.display <span class="im">import</span> YouTubeVideo</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>YouTubeVideo(<span class="st">'8I3NTE4cn5s'</span>, width<span class="op">=</span><span class="dv">800</span>, height<span class="op">=</span><span class="dv">450</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="1">
+
+        <iframe width="800" height="450" src="https://www.youtube.com/embed/8I3NTE4cn5s" frameborder="0" allowfullscreen=""></iframe>
+        
+</div>
+</div>
+</section>
+</section>
+<section id="fine-tuning" class="level1">
+<h1>Fine-tuning</h1>
+<p>Fine-tuning a Language Model (LLM) refers to the process of taking a pre-trained language model and further training it on a specific task or domain with a smaller dataset. Fine-tuning allows you to adapt the pre-trained model to a more specialized task or domain, leveraging the knowledge it gained during the initial training. This process is particularly useful when you have a specific language-related task or a dataset that is related to a specific domain, and you want the model to perform well in that specific context.</p>
+<p>The steps for fine-tuning typically involve taking the pre-trained model, modifying the last layers or adding task-specific layers, and then training the model on the task-specific dataset. Fine-tuning can lead to better performance on the targeted task, as the model has already learned general language patterns and can build upon that knowledge for the specific task at hand.</p>
+<p>Fine tuning might require a GPU depending on the LLM you are training. Also, if you have rapidly changing domain knowledge then fine tuning is also needed to be performed regulary, which is expensive and cumbersome.</p>
+</section>
+<section id="retrieval-augmented-generation-rag" class="level1">
+<h1>Retrieval Augmented Generation RAG</h1>
+<p>Chat with your documents</p>
+<p><img src="images/rag-diagram.png" class="img-fluid"></p>
+<p>image source: <a href="https://www.linkedin.com/pulse/chat-your-rag-tarek-abdelkhalek">Tarek AbdelKhalek</a></p>
+<section id="autollm" class="level2">
+<h2 class="anchored" data-anchor-id="autollm">AutoLLM</h2>
+<p>AutoLLM is capable of performing RAG on your documents. Please watch the video below:</p>
+<div id="629e0367-96a9-4564-a595-a3ec83adefcb" class="cell" data-execution_count="4">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="op">%%</span>HTML</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="op">&lt;</span>iframe width<span class="op">=</span><span class="st">"560"</span> height<span class="op">=</span><span class="st">"315"</span> src<span class="op">=</span><span class="st">"https://www.youtube.com/embed/Dh9pIWO1VJw?si=VDTJ3PbBDRAgxucS"</span> title<span class="op">=</span><span class="st">"YouTube video player"</span> frameborder<span class="op">=</span><span class="st">"0"</span> allow<span class="op">=</span><span class="st">"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"</span> allowfullscreen<span class="op">&gt;&lt;/</span>iframe<span class="op">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Dh9pIWO1VJw?si=VDTJ3PbBDRAgxucS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+</div>
+</div>
+</section>
+</section>
+<section id="agents" class="level1">
+<h1>Agents</h1>
+<p>AI agents are frameworks or entities that are designed to perform tasks autonomously using Large Language Models. These agents are capable of perceiving their environment, making decisions, and taking actions to achieve specific goals. The term “agent” emphasizes the idea that these entities can act on behalf of a user or a system, often with a degree of autonomy.</p>
+<ul>
+<li><a href="https://chatdev.toscl.com">chatdev</a>: Personalize your AI town</li>
+<li><a href="https://www.crewai.io/">crew.ai</a>: Framework for orchestrating role-playing, autonomous AI agents</li>
+<li><a href="https://microsoft.github.io/autogen/">Microsoft Autogen</a>: Enable next-gen large language model applications</li>
+</ul>
+<p>In <strong>extras</strong> folder, there are examples for Autogen and CrewAI agent frameworks</p>
+</section>
+<section id="modes-other-than-text" class="level1">
+<h1>Modes other than text</h1>
+<p>Gemini from Google and GPT4 from OpenAI are multimodal. They support vision and text. And expected to support sound, video etc. soon</p>
+<section id="image-generation" class="level2">
+<h2 class="anchored" data-anchor-id="image-generation">Image generation</h2>
+<section id="dall-e-3-by-openai" class="level3">
+<h3 class="anchored" data-anchor-id="dall-e-3-by-openai">DALL-E 3 by OpenAI</h3>
+<p>Prompt: “a dna strand with istanbul city as silhoutte in background”</p>
+<p>Revised prompt: “Imagine a detailed science meets architecture illustration. In the foreground, there’s a strand of DNA, magnified and glowing against a dark backdrop. This helix structure is precisely depicted, its familiar double-helix shape twisting majestically. Intertwining with this scientific image, in the background, there’s a silhouette representation of Istanbul city. The skyline shows off its marvelous historical architecture, including its domed mosques and towering minarets. The cityscape sits against a dusky eveningsky, the setting sun casting an orange glow on the horizon behind the buildings. The combination results in a fascinating juxtapositionof science and urban beauty.”</p>
+<p>Result:</p>
+<p><img src="images/dna-istanbul-dalle.png" class="img-fluid"></p>
+</section>
+<section id="midjourney-v6" class="level3">
+<h3 class="anchored" data-anchor-id="midjourney-v6">Midjourney v6</h3>
+<p>Midjourney <a href="https://mid-journey.ai/midjourney-v6-release/">announced v6</a> in December 2023. It can generate photorealistic images. Normally, you need to use their Discord channel to generate images free. Also, you can generate images using <a href="https://getimg.ai">getimg.ai</a>. I tried generating images using the following prompts</p>
+<ul>
+<li>Molecular biology lab with lots of students.</li>
+<li>Beautiful sea side with white sand beach and tropical trees on shore. The sea looks greenish blue</li>
+</ul>
+<p>The results are great:</p>
+<p><img src="images/getimg-ai.png" class="img-fluid"></p>
+</section>
+<section id="disinformation" class="level3">
+<h3 class="anchored" data-anchor-id="disinformation">Disinformation</h3>
+<p>Be aware of deepfake or AI-generated fake photos</p>
+<p>Fake Trump Photo</p>
+<p><img src="https://media.rnztools.nz/rnz/image/upload/s--SXTQegLG--/ar_16:10,c_fill,f_auto,g_auto,q_auto,w_1050/v1679710393/4LBL8A5_Fake_Trump_3_jfif.png" class="img-fluid"></p>
+<p>Fake Pope Photo</p>
+<p><img src="https://duet-cdn.vox-cdn.com/thumbor/0x0:1281x800/640x427/filters:focal(641x400:642x401):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/24539414/ai_pope_drip_god.jpg" class="img-fluid"></p>
+</section>
+</section>
+<section id="video-generation" class="level2">
+<h2 class="anchored" data-anchor-id="video-generation">Video generation</h2>
+<section id="prompt-to-video" class="level3">
+<h3 class="anchored" data-anchor-id="prompt-to-video">Prompt to video</h3>
+<ul>
+<li><a href="https://runwayml.com/ai-magic-tools/gen-2/">RunwayML Gen-2</a></li>
+<li><a href="https://pika.art">Pika</a></li>
+<li><a href="https://stability.ai/news/stable-video-diffusion-open-ai-video-model">Stable Video Diffusion</a> by Stable Diffusion</li>
+<li><a href="https://www.genmo.ai/">GENMO</a></li>
+</ul>
+</section>
+<section id="image-to-video" class="level3">
+<h3 class="anchored" data-anchor-id="image-to-video">Image to video</h3>
+<ul>
+<li><a href="https://www.genmo.ai/">GENMO</a></li>
+</ul>
+</section>
+</section>
+<section id="music-or-sound-generation" class="level2">
+<h2 class="anchored" data-anchor-id="music-or-sound-generation">Music or sound generation</h2>
+<ul>
+<li><a href="https://elevenlabs.io/">Elevenlabs</a> can convert text to speech online for free with our AI voice generator</li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

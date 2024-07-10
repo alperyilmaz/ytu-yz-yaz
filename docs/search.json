@@ -4,63 +4,42 @@
     "href": "index.html",
     "title": "MBG1032 Biyoistatistik Ders Notları",
     "section": "",
-    "text": "Kitap1: Introductory Statistics for the Life and Biomedical Sciences (Julie Vu, David Harrington) Leanpub sitesinden ücretsiz olarak (You Pay kısmını 0’a çekerek) indirebilirsiniz.\nKitap2: Principles of Biostatistics (Marcello Pagano, Kimberlee Gauvreau)\nKitap3: Biostatistics for the Biological and Health Sciences (Mario F. Triola, Marc M. Triola,Jason Roy)\nKitap4: R Programı İle Temel İstatistiksel Yöntemler Uygulamalı İstatistik Turcademy üzerinden ücretsiz olarak erişilebilir.\n\n\n\n\nTeorik (21 Şubat 2024): İlk derste, R programı çalıştırılabilecek ortamlar tanıtıldı. Ayrıca “Is Most Published Research Wrong?” başlıklı videodan bahsedildi. Söz konusu videoda p-value değerlerinin istatistik gücü oldukça zayıf şekilde bilimsel makalelerde kullanıldığı ve bu yüzden makalelerin tekrarlanabilirliğinin (reproducability) düşük olduğundan bahsedildi.\nUygulama (26 Şubat 2024): R Temelleri Sunum. Bu içerik için kullanılan ek kaynak, “An Introduction to R” adlı online kitap.\n\n\n\n\nTeorik (28 Şubat 2024): Veri setinin merkezini belirleyen ortalama ve mediandan bahsedildi. Veri setinin dağınıklığını özetleyen sayısal yöntemler (varyans, standart sapma) ve görsel yöntemler (histogram, boxplot) tanıtıldı. Sunum linki\nUygulama (4 Mart 2024): iris.xlsx dosyasını kullanarak, Excel’de hücre aralıklarını seçme, Ctrl ve Shift tuşları ile hızlı seçim ve gezinme gösterildi. Tek bir sütün için ortalama, medyan, 1. ve 3. çeyrek dilim hesaplama ve standard sapma hesabı yapıldı. Excel’de formüllerin başka hücrelere uygulanması gösterildi. Excel’in yeni versiyonunda Boxplot ve Histogram grafikleri çizilebileceği tartışıldı.\n\n\n\nTeorik (6 Mart 2024): Olaslık hesabına dair özellikler, küme prensibi üzerinden anlatıldı. Normal dağılımın özellikleri tanıtıldı. Sunum linki\nUygulama (11 Mart 2024): R’da pnorm(), qnorm() ve dnorm() fonksiyonları kullanarak ihtimal hesapları yapıldı ve normal dağılıma uygun rastgele sayılar üretildi. Excel’de normal dağılıma uygun sayılar üreten formüller kullanıldı.\n\n\n\nTeorik (13 Mart 2024): Poisson ve Bernoulli dağılımları (Poisson dağılımı ve Geometrik dağılım) tanıtıldı. Sunum linki\nPratik (18 Mart 2024): Normal dağılım örnekleri çözüldü. Uygulama sunum linki\n\n\n\nTeorik (20 Mart 2024): t statistik. Sunum linki\nPratik (25 Mart 2024): Poisson dağılımı ve Geometrik dağılım örnekleri çözüldü Uygulama sunum linki\n\n\n\nTeorik (27 Mart 2024): T-testi. Sunum linki\nPratik (01 Nisan 2024): T-testi uygulamaları Uygulama sunum linki\n\n\n\nTeorik (03 Nisan 2024): T-testi uygulamaları Sunum linki"
+    "text": "Makine Öğrenmesinde Sınıflandırma Yöntemleri ve R Uygulamaları, Ersoy Öz & Selçuk Alp, Nobel Akademik Yayıncılık, 2020.\nVeri Madenciliği Ve Makine Öğrenmesi İle Farklı Alanlarda Uygulamalar, Şenol Çelik, Nilay Köleoğlu, & Fatih Çemrek, Holistence Publications, 2022\nSağlık Bilimlerinde Yapay Zeka, Ahmet Rıza Şahin, Kamil Doğan, & Süleyman Sivri, Akademisyen Kitabevi A.Ş., 2020\nYapay Zeka, Atınç Yılmaz, Kodlab Yayın Dağıtım Yazılım Ltd. Şti., 2022\nMachine Learning Algorithms, Giuseppe Bonaccorso, Packt Publishing, 2017.\nOptimizasyon Modelleme ve Yapay Zeka Algoritmaları, Bayram Köse, Bahar Demirtürk, Efe Akademi Yayınları, 2023\n\n\n\n\nGrup2: 4 Temmuz Perşembe 8:30 - Grup1: 4 Temmuz Perşembe 18:00\nİçerik: İlk derste, ChatGPT ve benzeri büyük dil modelleri tanıtıldı. OpenAI Playground üzerinde “cümle tamamlama” kavramı ve “temparature” ayarı gösterildi. Daha iyi çıktı almak için Prompt ayarları anlatıldı. Dökümandan sorgu/chat yapmak için Gemini ve Claude örnekleri verildi. Yine Claude üzerinden kod yazdırma örneği işlendi. Sunum linki\n\n\n\n\nGrup2: 5 Temmuz Cuma 8:30 - Grup1: 5 Temmuz Cuma 14:00\nİçerik: Veri türleri ve verilerin işlenmesine dair bilgi verildi. Sunum linki\n\n\n\nGrup2: 11 Temmuz Perşembe 8:30 - Grup1: 11 Temmuz Perşembe 14:00\nİçerik: Confusion matrix ve sınıflandırma/regresyon değerlendirmesi Sunum linki\n\n\n\nGrup2: 12 Temmuz Cuma 8:30 - Grup1: 12 Temmuz Cuma 14:00\nİçerik: TBD Sunum linki"
   },
   {
     "objectID": "index.html#kaynaklar",
     "href": "index.html#kaynaklar",
     "title": "MBG1032 Biyoistatistik Ders Notları",
     "section": "",
-    "text": "Kitap1: Introductory Statistics for the Life and Biomedical Sciences (Julie Vu, David Harrington) Leanpub sitesinden ücretsiz olarak (You Pay kısmını 0’a çekerek) indirebilirsiniz.\nKitap2: Principles of Biostatistics (Marcello Pagano, Kimberlee Gauvreau)\nKitap3: Biostatistics for the Biological and Health Sciences (Mario F. Triola, Marc M. Triola,Jason Roy)\nKitap4: R Programı İle Temel İstatistiksel Yöntemler Uygulamalı İstatistik Turcademy üzerinden ücretsiz olarak erişilebilir."
+    "text": "Makine Öğrenmesinde Sınıflandırma Yöntemleri ve R Uygulamaları, Ersoy Öz & Selçuk Alp, Nobel Akademik Yayıncılık, 2020.\nVeri Madenciliği Ve Makine Öğrenmesi İle Farklı Alanlarda Uygulamalar, Şenol Çelik, Nilay Köleoğlu, & Fatih Çemrek, Holistence Publications, 2022\nSağlık Bilimlerinde Yapay Zeka, Ahmet Rıza Şahin, Kamil Doğan, & Süleyman Sivri, Akademisyen Kitabevi A.Ş., 2020\nYapay Zeka, Atınç Yılmaz, Kodlab Yayın Dağıtım Yazılım Ltd. Şti., 2022\nMachine Learning Algorithms, Giuseppe Bonaccorso, Packt Publishing, 2017.\nOptimizasyon Modelleme ve Yapay Zeka Algoritmaları, Bayram Köse, Bahar Demirtürk, Efe Akademi Yayınları, 2023"
   },
   {
     "objectID": "index.html#ders1",
     "href": "index.html#ders1",
     "title": "MBG1032 Biyoistatistik Ders Notları",
     "section": "",
-    "text": "Teorik (21 Şubat 2024): İlk derste, R programı çalıştırılabilecek ortamlar tanıtıldı. Ayrıca “Is Most Published Research Wrong?” başlıklı videodan bahsedildi. Söz konusu videoda p-value değerlerinin istatistik gücü oldukça zayıf şekilde bilimsel makalelerde kullanıldığı ve bu yüzden makalelerin tekrarlanabilirliğinin (reproducability) düşük olduğundan bahsedildi.\nUygulama (26 Şubat 2024): R Temelleri Sunum. Bu içerik için kullanılan ek kaynak, “An Introduction to R” adlı online kitap."
+    "text": "Grup2: 4 Temmuz Perşembe 8:30 - Grup1: 4 Temmuz Perşembe 18:00\nİçerik: İlk derste, ChatGPT ve benzeri büyük dil modelleri tanıtıldı. OpenAI Playground üzerinde “cümle tamamlama” kavramı ve “temparature” ayarı gösterildi. Daha iyi çıktı almak için Prompt ayarları anlatıldı. Dökümandan sorgu/chat yapmak için Gemini ve Claude örnekleri verildi. Yine Claude üzerinden kod yazdırma örneği işlendi. Sunum linki"
   },
   {
     "objectID": "index.html#ders2",
     "href": "index.html#ders2",
     "title": "MBG1032 Biyoistatistik Ders Notları",
     "section": "",
-    "text": "Teorik (28 Şubat 2024): Veri setinin merkezini belirleyen ortalama ve mediandan bahsedildi. Veri setinin dağınıklığını özetleyen sayısal yöntemler (varyans, standart sapma) ve görsel yöntemler (histogram, boxplot) tanıtıldı. Sunum linki\nUygulama (4 Mart 2024): iris.xlsx dosyasını kullanarak, Excel’de hücre aralıklarını seçme, Ctrl ve Shift tuşları ile hızlı seçim ve gezinme gösterildi. Tek bir sütün için ortalama, medyan, 1. ve 3. çeyrek dilim hesaplama ve standard sapma hesabı yapıldı. Excel’de formüllerin başka hücrelere uygulanması gösterildi. Excel’in yeni versiyonunda Boxplot ve Histogram grafikleri çizilebileceği tartışıldı."
+    "text": "Grup2: 5 Temmuz Cuma 8:30 - Grup1: 5 Temmuz Cuma 14:00\nİçerik: Veri türleri ve verilerin işlenmesine dair bilgi verildi. Sunum linki"
   },
   {
     "objectID": "index.html#ders03",
     "href": "index.html#ders03",
     "title": "MBG1032 Biyoistatistik Ders Notları",
     "section": "",
-    "text": "Teorik (6 Mart 2024): Olaslık hesabına dair özellikler, küme prensibi üzerinden anlatıldı. Normal dağılımın özellikleri tanıtıldı. Sunum linki\nUygulama (11 Mart 2024): R’da pnorm(), qnorm() ve dnorm() fonksiyonları kullanarak ihtimal hesapları yapıldı ve normal dağılıma uygun rastgele sayılar üretildi. Excel’de normal dağılıma uygun sayılar üreten formüller kullanıldı."
+    "text": "Grup2: 11 Temmuz Perşembe 8:30 - Grup1: 11 Temmuz Perşembe 14:00\nİçerik: Confusion matrix ve sınıflandırma/regresyon değerlendirmesi Sunum linki"
   },
   {
     "objectID": "index.html#ders04",
     "href": "index.html#ders04",
     "title": "MBG1032 Biyoistatistik Ders Notları",
     "section": "",
-    "text": "Teorik (13 Mart 2024): Poisson ve Bernoulli dağılımları (Poisson dağılımı ve Geometrik dağılım) tanıtıldı. Sunum linki\nPratik (18 Mart 2024): Normal dağılım örnekleri çözüldü. Uygulama sunum linki"
-  },
-  {
-    "objectID": "index.html#ders05",
-    "href": "index.html#ders05",
-    "title": "MBG1032 Biyoistatistik Ders Notları",
-    "section": "",
-    "text": "Teorik (20 Mart 2024): t statistik. Sunum linki\nPratik (25 Mart 2024): Poisson dağılımı ve Geometrik dağılım örnekleri çözüldü Uygulama sunum linki"
-  },
-  {
-    "objectID": "index.html#ders06",
-    "href": "index.html#ders06",
-    "title": "MBG1032 Biyoistatistik Ders Notları",
-    "section": "",
-    "text": "Teorik (27 Mart 2024): T-testi. Sunum linki\nPratik (01 Nisan 2024): T-testi uygulamaları Uygulama sunum linki"
-  },
-  {
-    "objectID": "index.html#ders07",
-    "href": "index.html#ders07",
-    "title": "MBG1032 Biyoistatistik Ders Notları",
-    "section": "",
-    "text": "Teorik (03 Nisan 2024): T-testi uygulamaları Sunum linki"
+    "text": "Grup2: 12 Temmuz Cuma 8:30 - Grup1: 12 Temmuz Cuma 14:00\nİçerik: TBD Sunum linki"
   },
   {
     "objectID": "about.html",
@@ -68,5 +47,243 @@
     "title": "FEF3001 Yapay Zekaya Giriş Ders Notları",
     "section": "",
     "text": "FEF3001 Yapay Zekaya Giriş Ders Notları\nYTÜ Fen Fakültesinde 2024 Yaz döneminde verilen FEF3001 kodlu dersin içerikleri sayfasıdır."
+  },
+  {
+    "objectID": "ders2.html#veri-analizi-veri-bilimi-makine-öğrenmesi",
+    "href": "ders2.html#veri-analizi-veri-bilimi-makine-öğrenmesi",
+    "title": "Veri tipleri ve işleme",
+    "section": "Veri analizi, veri bilimi, makine öğrenmesi",
+    "text": "Veri analizi, veri bilimi, makine öğrenmesi"
+  },
+  {
+    "objectID": "ders2.html#section",
+    "href": "ders2.html#section",
+    "title": "Veri tipleri ve işleme",
+    "section": "",
+    "text": "source"
+  },
+  {
+    "objectID": "ders2.html#veri-tipleri",
+    "href": "ders2.html#veri-tipleri",
+    "title": "Veri tipleri ve işleme",
+    "section": "Veri tipleri",
+    "text": "Veri tipleri\n\nrecord data\ntransaction data\ndata matrix\n\nsparse data matrix\n\ngraph-based data"
+  },
+  {
+    "objectID": "ders2.html#sıralı-veri-ordered-data",
+    "href": "ders2.html#sıralı-veri-ordered-data",
+    "title": "Veri tipleri ve işleme",
+    "section": "Sıralı veri / Ordered data",
+    "text": "Sıralı veri / Ordered data\n\n\nSequential / Temporal data\nSequence data\nTime series data\nSpatial data"
+  },
+  {
+    "objectID": "ders2.html#section-3",
+    "href": "ders2.html#section-3",
+    "title": "Veri tipleri ve işleme",
+    "section": "",
+    "text": "Figure 2.4"
+  },
+  {
+    "objectID": "ders2.html#veri-kalitesi",
+    "href": "ders2.html#veri-kalitesi",
+    "title": "Veri tipleri ve işleme",
+    "section": "Veri kalitesi",
+    "text": "Veri kalitesi\n Hatırlanacağı üzere, veri biliminde veri temizliği aşaması toplam sürenin %80’ini oluşturmaktadır.\n\nÖlçüm hataları / measurement error : ölçüm sırasında sayısal hata yapılması veya dahil edilmemesi gereken verinin dahil edilmesi\nGürültü / Noise and artifacts: ölçüm hatalarındaki rastgele olan bileşendir. Sinyal işleme yöntemleri ile gürültü kaldırılabilir ama bu sırada gerçek veri kaybı da gerçekleşebilir."
+  },
+  {
+    "objectID": "ders2.html#veri-kalitesi---2",
+    "href": "ders2.html#veri-kalitesi---2",
+    "title": "Veri tipleri ve işleme",
+    "section": "Veri kalitesi - 2",
+    "text": "Veri kalitesi - 2\n\nUç değer / Outlier\nKayıp veya eksik ölçüm / Missing value\n\nÇıkarma / Eliminate\nTahmin etme, doldurma / Estimate\nGöz ardı etme / Ignore\n\nUyumsuz ölçümler / Inconsistent values : örn. Ölçüm yapılan tekniğin değişmesi veya farklı tekniklerle toplanan değerlerin uyuşmazlığı\nTekrar eden veri / Duplicate data : aynı kişi bir veritabanında birden çok kez bulunabilir ama ismi aynı iki kişi tekrar sayılmaz"
+  },
+  {
+    "objectID": "ders2.html#veri-işleme",
+    "href": "ders2.html#veri-işleme",
+    "title": "Veri tipleri ve işleme",
+    "section": "Veri işleme",
+    "text": "Veri işleme\n\n\nAggregation\nSampling\nDimensionality reduction\nFeature subset selection\nFeature creation\nDiscretization and binarization\nVariable transformation"
+  },
+  {
+    "objectID": "ders2.html#aggregation",
+    "href": "ders2.html#aggregation",
+    "title": "Veri tipleri ve işleme",
+    "section": "Aggregation",
+    "text": "Aggregation\n\nGroup by - sum, mean\nHistogram"
+  },
+  {
+    "objectID": "ders2.html#aggregation-histogram",
+    "href": "ders2.html#aggregation-histogram",
+    "title": "Veri tipleri ve işleme",
+    "section": "Aggregation / Histogram",
+    "text": "Aggregation / Histogram"
+  },
+  {
+    "objectID": "ders2.html#sampling-örnekleme",
+    "href": "ders2.html#sampling-örnekleme",
+    "title": "Veri tipleri ve işleme",
+    "section": "Sampling / Örnekleme",
+    "text": "Sampling / Örnekleme\n\nSimple random sampling\nStratified sampling"
+  },
+  {
+    "objectID": "ders2.html#dimensionality-reduction",
+    "href": "ders2.html#dimensionality-reduction",
+    "title": "Veri tipleri ve işleme",
+    "section": "Dimensionality reduction",
+    "text": "Dimensionality reduction\n\n“The Curse of Dimensionality”: özellik/attribute sayısı arttıkça algoritmaların veya hesapların daha zor hale gelmesi. “Sparse” veri durumunda artık hesaplamaların (uzaklık, benzerlik) doğruluğunu yitirmesi\n\n\nLinear algebra techniques\n\nPCA: Principal Components Analysis\nSVD: Singular Value Decomposition"
+  },
+  {
+    "objectID": "ders2.html#others",
+    "href": "ders2.html#others",
+    "title": "Veri tipleri ve işleme",
+    "section": "Others",
+    "text": "Others\n\nFeature Subset Selection\n\nremove Redundant features or Irrelevant features\nFeature Weighting\n\nFeature Creation\n\nFeature Extraction: e.g Photo -&gt; edges, important areas, color scheme\nMapping the Data to a New Space : e.g Fourier Transformation\n\nDiscretization and Binarization\n\nCategory -&gt; Binary values\nContinous data -&gt; bins, categories, intervals\n\nVariable Transformation"
+  },
+  {
+    "objectID": "ders2.html#fourier-transformation",
+    "href": "ders2.html#fourier-transformation",
+    "title": "Veri tipleri ve işleme",
+    "section": "Fourier Transformation",
+    "text": "Fourier Transformation"
+  },
+  {
+    "objectID": "ders2.html#category-to-binary",
+    "href": "ders2.html#category-to-binary",
+    "title": "Veri tipleri ve işleme",
+    "section": "Category to binary",
+    "text": "Category to binary"
+  },
+  {
+    "objectID": "ders2.html#variable-transformation",
+    "href": "ders2.html#variable-transformation",
+    "title": "Veri tipleri ve işleme",
+    "section": "Variable Transformation",
+    "text": "Variable Transformation\n\n\nSimple functions: \\(x^k\\) , log(x), \\(e^x\\) , sqrt(x), \\(1/x\\), sin(x), or |x|\nNormalization or Standardization\n\nfor each value subtract mean and divide by standard deviation\ne.g. age and income data, find similarity between individuals\nmean = 0, sd = 1"
+  },
+  {
+    "objectID": "ders1.html",
+    "href": "ders1.html",
+    "title": "ChatGPT - no need to code anymore?",
+    "section": "",
+    "text": "ChatGPT is released in December 2022 and it has taken the online world by storm. There are lots of blog posts, YouTube videos about it. Because of that Google is worried and is shifting its workforce to AI research and some people are worried that chatGPT will bring an end to software engineering.\nSo, let’s dive in to the world of ChatGPT. Please note that you need an account at OpenAI to do queries at ChatGPT site.\nIf you did some coding during our lecture, you probably searched online for a solution or even truobleshooting for an error message. In that case you most likely ended up at StackOverflow site where developers/programmers are asking for help.\nIn our earlier lectures, we have searched for fastest prime number if you type “fastest prime number function in python” in Google, you’ll get something like this:\nAs you have noticed there are lots of results from StackOverflow. However; * If you check the dates on the results, some of them date back to 2011. In that page, you might have an example code from Python 2, which will likely to fail. * Some results are focused on “prime numbers up to N” and others are checking for primeness. So, the results are not customized for you. * Also, in another page you might have a sample code which might be wrapped within unnecessary code which will give error if you just copy/paste it."
+  },
+  {
+    "objectID": "ders1.html#chatgpt-writes-code-for-us",
+    "href": "ders1.html#chatgpt-writes-code-for-us",
+    "title": "ChatGPT - no need to code anymore?",
+    "section": "ChatGPT writes code for us",
+    "text": "ChatGPT writes code for us\nLet’s ask ChatGPT for a fast prime number function in Python\n\n\n\nimage.png\n\n\n\n\n\nimage.png\n\n\nDid you see what just happened! It provided code tailored for us and it also explained bits of the code. Have you noticed that the code contains the tricks we have learned during our lecture: * early stop: if a condition is met, return immediately True or False * instead of checking until N, we should check numbers until \\(\\sqrt{N}\\) (n  0.5** in Python)\nYou can continue the conversation. Let’s ask for memoization.\n\n\n\nimage.png\n\n\n\n\n\nimage.png\n\n\nLet’s get the code and test it here:\n\ndef is_prime(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n in (2, 3):\n        result = True\n    elif n == 1 or n % 2 == 0:\n        result = False\n    else:\n        result = True\n        for i in range(3, int(n ** 0.5) + 1, 2):\n            if n % i == 0:\n                result = False\n                break\n    memo[n] = result\n    return result\n\n\n# is_prime(100000000003)\n\n\n&lt;i class=\"fas fa-fw fa-exclamation-circle mr-3 align-self-center\"&gt;&lt;/i&gt;\n&lt;b&gt;Warning:&lt;/b&gt; At the time of writing this note (January 2023) chatGPT is known to provide results which are not exactly true!&lt;br&gt;So, be aware and don't use code or information you got from chatGPT as is without checking or confirming."
+  },
+  {
+    "objectID": "ders1.html#chatgpt-can-fix-or-modify-the-code",
+    "href": "ders1.html#chatgpt-can-fix-or-modify-the-code",
+    "title": "ChatGPT - no need to code anymore?",
+    "section": "ChatGPT can fix or modify the code",
+    "text": "ChatGPT can fix or modify the code\nYou have a piece of code and it does not work as intended? Then you can ask ChatGPT to fix the code.\nLet’s provide a code with error and ask chatGPT to debug it:\n\n\n\nimage.png\n\n\n\n\n\nimage.png\n\n\nSo, ChatGPT can fix code! By the way, did you know that I used ChatGPT to prepare that example ;)\n\n\n\nimage.png\n\n\n\n\n\nimage.png"
+  },
+  {
+    "objectID": "ders1.html#is-it-the-end-of-programming",
+    "href": "ders1.html#is-it-the-end-of-programming",
+    "title": "ChatGPT - no need to code anymore?",
+    "section": "Is it the end of programming?",
+    "text": "Is it the end of programming?\nYou might think, “we learned Python for a semester and but now there’s ChatGPT, no need to learn coding at all!”. You might find content online which are exploring similar concerns. But more sane approach is “AI tools will increase speed and efficiency of developers also will decresase barriers to entry for new languages.\nThe section below is taken from Github Copilot’s page:"
+  },
+  {
+    "objectID": "ders1.html#thanks-for-showing-us-chatgpt-i-can-now-prepare-my-homeworks-easily",
+    "href": "ders1.html#thanks-for-showing-us-chatgpt-i-can-now-prepare-my-homeworks-easily",
+    "title": "ChatGPT - no need to code anymore?",
+    "section": "Thanks for showing us ChatGPT, I can now prepare my homeworks easily!",
+    "text": "Thanks for showing us ChatGPT, I can now prepare my homeworks easily!\nSeeing the capabilities of ChatGPT might give some hint about misuse. First of all, a homework is for you to learn a concept (remember the playing the guitar analogy?) so being involved in AI-assisted plagiarism is still a plagiarism and a loss on your side. (please also check the file 00-academic-integrity.ipynb for adverse effects of plagiarism)\nSecond of all, OpenAI and others are working on tools and ways to include watermarks in ChatGPT output so that it can be spotted easily.\nSo, please be inspired by this tool, use it to augment your learning but do not use it for plagiarism."
+  },
+  {
+    "objectID": "ders1.html#closed-and-open-models",
+    "href": "ders1.html#closed-and-open-models",
+    "title": "ChatGPT - no need to code anymore?",
+    "section": "Closed and Open models",
+    "text": "Closed and Open models\nCurrently there are several closed-source large language models which are developed by major corparations each took hundreds of millions to train * GPT3.5 (ChatGPT) and GPT4 by OpenAI * PaLM and Bard by Google * Claude by Anthropics"
+  },
+  {
+    "objectID": "ders1.html#running-models-locally",
+    "href": "ders1.html#running-models-locally",
+    "title": "ChatGPT - no need to code anymore?",
+    "section": "Running models locally",
+    "text": "Running models locally\nSince developers share the model weights, it’s possible to download and run the models locally. There are various sizes of models. 7B (7 billion) models require around 4Gb memory, so you can run them in your laptop.\nYou can run the models by installing PyTorch and some other libraries for Python and then writing some Python code. Or you can install Ollama and then run any compatible model with it.\nAdvantages of running a model locally: 1. Less Censorship 2. Better Data Privacy 3. Offline Usage 4. Cost Savings 5. Better Customization\nDisadvantages of running a model locally: 1. Resource Intensive 2. Slower Responses and Inferior Performance 3. Complex Setup\n\nRunning a model locally using Jupyter notebook or Google Colab\nYou can actually run LLM models in Jupyter notebooks. However the process will require you to install lots of Python packages, downloading the model weights and then writing some Python code to ask questions to the model and then capturing the answer in a dictionary. Although there are some solutions for “chat-like” experience, the experince is more like “one-shot question and answer”.\nPlease check the Youtube video which describes the process in Google Colab, where Google provides GPU (or TPU) to run the model in a Jupyter notebook environment.\n\n\nRunning a model locally with Ollama\n\nPlease visit the list of models page to have an idea about specialized models. With Ollama, you can download and use any of those models.\nIn the terminal, let’s list available models\n$ ollama list\n\nNAME                ID              SIZE    MODIFIED\ndeepseek-coder:6.7b 72be2442d736    3.8 GB  5 weeks ago     \nneural-chat:latest  73940af9fe02    4.1 GB  5 weeks ago     \norca2:7b            ea98cc422de3    3.8 GB  5 weeks ago     \nphi:latest          c651b7a89d73    1.6 GB  14 hours ago    \nsolar:latest        059fdabbe6e6    6.1 GB  2 hours ago     \nstablelm-zephyr:3b  7c596e78b1fc    1.6 GB  3 weeks ago\nLet’s run Phi-2 by Microsoft. Here’s info about Phi-2:\n\na 2.7 billion-parameter language model that demonstrates outstanding reasoning and language understanding capabilities, showcasing state-of-the-art performance among base language models with less than 13 billion parameters. On complex benchmarks Phi-2 matches or outperforms models up to 25x larger, thanks to new innovations in model scaling and training data curation.\n\n$ ollama run phi:latest\n\n&gt;&gt;&gt; why sky is blue?\n\n The sky appears blue due to a phenomenon called Rayleigh scattering. When sunlight enters the Earth's atmosphere,\nit collides with molecules and tiny particles in the air, such as oxygen and nitrogen atoms. These collisions cause\nthe shorter wavelengths of light (blue) to scatter more than the longer wavelengths (red, orange, yellow, green, and\nviolet). As a result, our eyes perceive the scattered blue light to be dominant, which is why the sky appears blue to us.\nAs you can see, a small model, which can answer questions, help coding can be run locally.\n\n\nRunning a model locally with user interface\n\nOllama Web UI\n\n\n\nLLM Studio\nYou can install LM Studio and then interact with local models with its user interface"
+  },
+  {
+    "objectID": "ders1.html#github-copilot",
+    "href": "ders1.html#github-copilot",
+    "title": "ChatGPT - no need to code anymore?",
+    "section": "Github CoPilot",
+    "text": "Github CoPilot\n\n%%HTML\n&lt;iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ZapdeEJ7xJw?si=3DYWvMa7uudDhUnj\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen&gt;&lt;/iframe&gt;"
+  },
+  {
+    "objectID": "ders1.html#free-github-copilot-alternative",
+    "href": "ders1.html#free-github-copilot-alternative",
+    "title": "ChatGPT - no need to code anymore?",
+    "section": "Free Github CoPilot alternative",
+    "text": "Free Github CoPilot alternative\nCody is Sourcegraph’s AI coding assistant, and it has a couple of features that no other assistant has to make you a 10x developer. You can check it out here: https://sourcegraph.com/cody"
+  },
+  {
+    "objectID": "ders1.html#open-source-local-alternatives",
+    "href": "ders1.html#open-source-local-alternatives",
+    "title": "ChatGPT - no need to code anymore?",
+    "section": "Open source local alternatives",
+    "text": "Open source local alternatives\nPlease visit https://tabby.tabbyml.com/ for more information"
+  },
+  {
+    "objectID": "ders1.html#summarize-a-long-text",
+    "href": "ders1.html#summarize-a-long-text",
+    "title": "ChatGPT - no need to code anymore?",
+    "section": "1. Summarize a long text",
+    "text": "1. Summarize a long text\nJust write “TL;DR” (stands for too long didn’t read) and then in double quotes paste the text"
+  },
+  {
+    "objectID": "ders1.html#prompts-on-various-topics",
+    "href": "ders1.html#prompts-on-various-topics",
+    "title": "ChatGPT - no need to code anymore?",
+    "section": "2. Prompts on various topics",
+    "text": "2. Prompts on various topics\nhttps://mpost.io/100-best-chatgpt-prompts-to-unleash-ais-potential/"
+  },
+  {
+    "objectID": "ders1.html#awesome-list-of-chatgpt-prompts",
+    "href": "ders1.html#awesome-list-of-chatgpt-prompts",
+    "title": "ChatGPT - no need to code anymore?",
+    "section": "3. Awesome list of ChatGPT prompts",
+    "text": "3. Awesome list of ChatGPT prompts\nPlease visit https://prompts.chat/ and explore prompts which will ask ChatGPT to act like anything."
+  },
+  {
+    "objectID": "ders1.html#use-chatgpt-with-ai-art-tools-create-a-website",
+    "href": "ders1.html#use-chatgpt-with-ai-art-tools-create-a-website",
+    "title": "ChatGPT - no need to code anymore?",
+    "section": "4. use ChatGPT with AI art tools create a website",
+    "text": "4. use ChatGPT with AI art tools create a website\nThere are AI art tools which can generate visual content. * Stable Diffusion is a latent text-to-image diffusion model capable of generating photo-realistic images given any text input, cultivates autonomous freedom to produce incredible imagery, empowers billions of people to create stunning art within seconds. * DALL-E 2 can create original, realistic images and art from a text description. It can combine concepts, attributes, and styles. * Midjourney is an independent research lab exploring new mediums of thought and expanding the imaginative powers of the human species. Please visit community showcase\n\nfrom IPython.display import YouTubeVideo\nYouTubeVideo('8I3NTE4cn5s', width=800, height=450)"
+  },
+  {
+    "objectID": "ders1.html#autollm",
+    "href": "ders1.html#autollm",
+    "title": "ChatGPT - no need to code anymore?",
+    "section": "AutoLLM",
+    "text": "AutoLLM\nAutoLLM is capable of performing RAG on your documents. Please watch the video below:\n\n%%HTML\n&lt;iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Dh9pIWO1VJw?si=VDTJ3PbBDRAgxucS\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen&gt;&lt;/iframe&gt;"
+  },
+  {
+    "objectID": "ders1.html#image-generation",
+    "href": "ders1.html#image-generation",
+    "title": "ChatGPT - no need to code anymore?",
+    "section": "Image generation",
+    "text": "Image generation\n\nDALL-E 3 by OpenAI\nPrompt: “a dna strand with istanbul city as silhoutte in background”\nRevised prompt: “Imagine a detailed science meets architecture illustration. In the foreground, there’s a strand of DNA, magnified and glowing against a dark backdrop. This helix structure is precisely depicted, its familiar double-helix shape twisting majestically. Intertwining with this scientific image, in the background, there’s a silhouette representation of Istanbul city. The skyline shows off its marvelous historical architecture, including its domed mosques and towering minarets. The cityscape sits against a dusky eveningsky, the setting sun casting an orange glow on the horizon behind the buildings. The combination results in a fascinating juxtapositionof science and urban beauty.”\nResult:\n\n\n\nMidjourney v6\nMidjourney announced v6 in December 2023. It can generate photorealistic images. Normally, you need to use their Discord channel to generate images free. Also, you can generate images using getimg.ai. I tried generating images using the following prompts\n\nMolecular biology lab with lots of students.\nBeautiful sea side with white sand beach and tropical trees on shore. The sea looks greenish blue\n\nThe results are great:\n\n\n\nDisinformation\nBe aware of deepfake or AI-generated fake photos\nFake Trump Photo\n\nFake Pope Photo"
+  },
+  {
+    "objectID": "ders1.html#video-generation",
+    "href": "ders1.html#video-generation",
+    "title": "ChatGPT - no need to code anymore?",
+    "section": "Video generation",
+    "text": "Video generation\n\nPrompt to video\n\nRunwayML Gen-2\nPika\nStable Video Diffusion by Stable Diffusion\nGENMO\n\n\n\nImage to video\n\nGENMO"
+  },
+  {
+    "objectID": "ders1.html#music-or-sound-generation",
+    "href": "ders1.html#music-or-sound-generation",
+    "title": "ChatGPT - no need to code anymore?",
+    "section": "Music or sound generation",
+    "text": "Music or sound generation\n\nElevenlabs can convert text to speech online for free with our AI voice generator"
   }
 ]
