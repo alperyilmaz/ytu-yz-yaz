@@ -1,0 +1,180 @@
+---
+title: "Veri tipleri ve işleme"
+subtitle: "FEF3001 Yapay zekaya giriş - Ders2"
+author: "Alper Yılmaz"
+date: 2024-07-05
+format:
+  revealjs:
+    chalkboard: true
+    css: custom.css
+    smaller: true
+    scrollable: true
+typora-copy-images-to: images
+---
+
+## Veri analizi, veri bilimi, makine öğrenmesi
+
+![](attachments/image-20210331094929540.png)
+
+---
+
+##  {background-image="attachments/what-is-data-science.png" background-size=contain}
+
+:::{.footer style="text-align: right;"}
+[source](https://thedatascientist.com/data-science-considered-own-discipline/)
+:::
+
+
+
+## Veri tipleri
+
+* record data
+* transaction data
+* data matrix
+  * sparse data matrix
+* graph-based data
+
+---
+
+## {background-image="attachments/image-20210303092633663.png" background-size=contain}
+
+---
+
+## {background-image="attachments/image-20210303092951114.png" background-size=contain}
+
+---
+
+## Sıralı veri / Ordered data
+
+<br>
+
+* Sequential / Temporal data
+* Sequence data
+* Time series data
+* Spatial data
+
+---
+
+## {background-image="attachments/image-20210303093237590.png" background-size=contain}
+
+:::footer
+Figure 2.4
+:::
+---
+
+## Veri kalitesi
+
+<br>
+Hatırlanacağı üzere, veri biliminde veri temizliği aşaması toplam sürenin %80'ini oluşturmaktadır.
+
+* Ölçüm hataları / measurement error : ölçüm sırasında sayısal hata yapılması veya dahil edilmemesi gereken verinin dahil edilmesi
+* Gürültü / Noise and artifacts: ölçüm hatalarındaki rastgele olan bileşendir. Sinyal işleme yöntemleri ile gürültü kaldırılabilir ama bu sırada gerçek veri kaybı da gerçekleşebilir.
+
+---
+
+## {background-image="attachments/image-20210303094619905.png" background-size=contain}
+
+---
+
+## Veri kalitesi - 2
+
+* Uç değer / Outlier
+* Kayıp veya eksik ölçüm / Missing value
+  * Çıkarma / Eliminate
+  * Tahmin etme, doldurma / Estimate
+  * Göz ardı etme / Ignore
+* Uyumsuz ölçümler / Inconsistent values : örn. Ölçüm yapılan tekniğin değişmesi veya farklı tekniklerle toplanan değerlerin uyuşmazlığı
+* Tekrar eden veri / Duplicate data : aynı kişi bir veritabanında birden çok kez bulunabilir ama ismi aynı iki kişi tekrar sayılmaz
+
+---
+
+## Veri işleme
+
+<br>
+
+* Aggregation
+* Sampling
+* Dimensionality reduction
+* Feature subset selection
+* Feature creation
+* Discretization and binarization
+* Variable transformation
+
+---
+
+## Aggregation
+
+* Group by - sum, mean
+* Histogram
+
+![](attachments/image-20210303101029599.png)
+---
+
+## Aggregation / Histogram
+
+![](attachments/image-20210303101129845.png)
+
+---
+
+## Sampling / Örnekleme
+
+* Simple random sampling
+* Stratified sampling
+
+![](attachments/image-20210303101356875.png)
+
+---
+
+## Dimensionality reduction
+
+<br>
+
+"**The Curse of Dimensionality**": özellik/attribute sayısı arttıkça algoritmaların veya hesapların daha zor hale gelmesi. "Sparse" veri durumunda artık hesaplamaların (uzaklık, benzerlik) doğruluğunu yitirmesi
+
+<br>
+
+* Linear algebra techniques
+  * PCA: Principal Components Analysis
+  * SVD: Singular Value Decomposition
+
+---
+
+## Others
+
+* Feature Subset Selection
+  * remove *Redundant features* or *Irrelevant features*
+  * Feature Weighting
+* Feature Creation
+  * Feature Extraction: e.g Photo -> edges, important areas, color scheme
+  * Mapping the Data to a New Space : e.g Fourier Transformation
+* Discretization and Binarization
+  * Category -> Binary values
+  * Continous data -> bins, categories, intervals
+* Variable Transformation
+
+---
+
+## Fourier Transformation
+
+![](attachments/image-20210303102746456.png)
+---
+
+## Category to binary
+
+![](attachments/image-20210303102843081.png)
+
+---
+
+## Variable Transformation
+
+<br>
+
+* Simple functions: $x^k$ , log(x), $e^x$ , sqrt(x), $1/x$, sin(x), or |x|
+* Normalization or Standardization
+  * for each value subtract mean and divide by standard deviation
+  * e.g. age and income data, find similarity between individuals
+  * mean = 0, sd = 1
+
+---
+
+

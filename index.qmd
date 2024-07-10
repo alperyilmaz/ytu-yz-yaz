@@ -2,50 +2,38 @@
 
 ## Kaynaklar
 
-* Kitap1: [Introductory Statistics for the Life and Biomedical Sciences](https://www.openintro.org/book/biostat/) (*Julie Vu, David Harrington*) [Leanpub sitesinden](https://leanpub.com/biostat) ücretsiz olarak (*You Pay* kısmını 0'a çekerek) indirebilirsiniz. 
-* Kitap2: [Principles of Biostatistics](https://www.taylorfrancis.com/books/mono/10.1201/9780429489624/principles-biostatistics-marcello-pagano-kimberlee-gauvreau) (*Marcello Pagano, Kimberlee Gauvreau*)
-* Kitap3: [Biostatistics for the Biological and Health Sciences](https://www.pearson.com/en-us/subject-catalog/p/biostatistics-for-the-biological-and-health-sciences/P200000007576/9780137863792) (*Mario F. Triola, Marc M. Triola,Jason Roy*)
-* Kitap4: [R Programı İle Temel İstatistiksel Yöntemler Uygulamalı İstatistik](https://www.turcademy.com/tr/kitap/r-programi-ile-temel-istatistiksel-yontemler-uygulamali-istatistik-istatistik-yontemler-9789750263682) *Turcademy* üzerinden ücretsiz olarak erişilebilir.
+- Makine Öğrenmesinde Sınıflandırma Yöntemleri ve R Uygulamaları, Ersoy Öz & Selçuk Alp, Nobel Akademik Yayıncılık, 2020.
+- Veri Madenciliği Ve Makine Öğrenmesi İle Farklı Alanlarda Uygulamalar, Şenol Çelik, Nilay Köleoğlu, & Fatih Çemrek, Holistence Publications, 2022
+- Sağlık Bilimlerinde Yapay Zeka, Ahmet Rıza Şahin, Kamil Doğan, & Süleyman Sivri, Akademisyen Kitabevi A.Ş., 2020
+- Yapay Zeka, Atınç Yılmaz, Kodlab Yayın Dağıtım Yazılım Ltd. Şti., 2022
+- Machine Learning Algorithms, Giuseppe Bonaccorso, Packt Publishing, 2017.
+- Optimizasyon Modelleme ve Yapay Zeka Algoritmaları, Bayram Köse, Bahar Demirtürk, Efe Akademi Yayınları, 2023
 
 ## Ders1
 
-**Teorik** (*21 Şubat 2024*): İlk derste, R programı çalıştırılabilecek ortamlar tanıtıldı. Ayrıca "[Is Most Published Research Wrong?](https://www.youtube.com/watch?v=42QuXLucH3Q)" başlıklı videodan bahsedildi. Söz konusu videoda *p-value* değerlerinin istatistik gücü oldukça zayıf şekilde bilimsel makalelerde kullanıldığı ve bu yüzden makalelerin tekrarlanabilirliğinin (*reproducability*) düşük olduğundan bahsedildi.
+*Grup2: 4 Temmuz Perşembe 8:30 - Grup1: 4 Temmuz Perşembe 18:00*
 
-**Uygulama** (*26 Şubat 2024*): R Temelleri [Sunum](uygulama01.qmd). Bu içerik için kullanılan ek kaynak, "[An Introduction to R](https://intro2r.com/getting-started.html)" adlı online kitap.
+**İçerik**: İlk derste, ChatGPT ve benzeri büyük dil modelleri tanıtıldı. OpenAI Playground üzerinde "cümle tamamlama" kavramı ve "temparature" ayarı gösterildi. Daha iyi çıktı almak için Prompt ayarları anlatıldı. Dökümandan sorgu/chat yapmak için Gemini ve Claude örnekleri verildi. Yine Claude üzerinden kod yazdırma örneği işlendi. [Sunum linki](ders1.ipynb)
 
 <!--  Uygulamada kullanılacak dosyalar: [mtcars (Excel)](files/mtcars.xlsx) -->
 
 ## Ders2
 
-**Teorik** (*28 Şubat 2024*): Veri setinin merkezini belirleyen ortalama ve mediandan bahsedildi. Veri setinin dağınıklığını özetleyen sayısal yöntemler (varyans, standart sapma) ve görsel yöntemler (histogram, boxplot) tanıtıldı. [Sunum linki](ders02.qmd)
+*Grup2: 5 Temmuz Cuma 8:30 - Grup1: 5 Temmuz Cuma 14:00*
 
-**Uygulama** (*4 Mart 2024*): [iris.xlsx](files/iris.xlsx) dosyasını kullanarak, Excel'de hücre aralıklarını seçme, <kbd>Ctrl</kbd> ve <kbd>Shift</kbd> tuşları ile hızlı seçim ve gezinme gösterildi. Tek bir sütün için ortalama, medyan, 1. ve 3. çeyrek dilim hesaplama ve standard sapma hesabı yapıldı. Excel'de formüllerin başka hücrelere uygulanması gösterildi. Excel'in yeni versiyonunda Boxplot ve Histogram grafikleri çizilebileceği tartışıldı.
+**İçerik**: Veri türleri ve verilerin işlenmesine dair bilgi verildi.  [Sunum linki](files/ders2.pdf)
 
 ## Ders03
 
-**Teorik** (*6 Mart 2024*): Olaslık hesabına dair özellikler, küme prensibi üzerinden anlatıldı. Normal dağılımın özellikleri tanıtıldı. [Sunum linki](ders03.qmd)
+*Grup2: 11 Temmuz Perşembe 8:30 - Grup1: 11 Temmuz Perşembe 14:00*
 
-**Uygulama** (*11 Mart 2024*): R'da `pnorm()`, `qnorm()` ve `dnorm()` fonksiyonları kullanarak ihtimal hesapları yapıldı ve normal dağılıma uygun rastgele sayılar üretildi. Excel'de normal dağılıma uygun sayılar üreten formüller kullanıldı.
+**İçerik**: Confusion matrix ve sınıflandırma/regresyon değerlendirmesi [Sunum linki](ders03.qmd)
 
 ## Ders04
 
-**Teorik** (*13 Mart 2024*): Poisson ve Bernoulli dağılımları (Poisson dağılımı ve Geometrik dağılım) tanıtıldı. [Sunum linki](ders03.qmd)
+*Grup2: 12 Temmuz Cuma 8:30 - Grup1: 12 Temmuz Cuma 14:00*
 
-**Pratik** (*18 Mart 2024*): Normal dağılım örnekleri çözüldü. [Uygulama sunum linki](ders03-uygulama.qmd)
+**İçerik**: TBD [Sunum linki](ders04.qmd)
 
-## Ders05
 
-**Teorik** (*20 Mart 2024*): t statistik. [Sunum linki](ders04.qmd)
-
-**Pratik** (*25 Mart 2024*): Poisson dağılımı ve Geometrik dağılım örnekleri çözüldü [Uygulama sunum linki](ders03-uygulama.qmd)
-
-## Ders06
-
-**Teorik** (*27 Mart 2024*): T-testi. [Sunum linki](ders06.qmd)
-
-**Pratik** (*01 Nisan 2024*): T-testi uygulamaları [Uygulama sunum linki](ders06-uygulama.qmd)
-
-## Ders07
-
-**Teorik** (*03 Nisan 2024*): T-testi uygulamaları  [Sunum linki](ders06-uygulama.qmd)
 
