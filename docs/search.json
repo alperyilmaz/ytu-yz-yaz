@@ -163,126 +163,105 @@
   {
     "objectID": "ders1.html",
     "href": "ders1.html",
-    "title": "ChatGPT - no need to code anymore?",
+    "title": "GPT models",
     "section": "",
-    "text": "ChatGPT is released in December 2022 and it has taken the online world by storm. There are lots of blog posts, YouTube videos about it. Because of that Google is worried and is shifting its workforce to AI research and some people are worried that chatGPT will bring an end to software engineering.\nSo, let’s dive in to the world of ChatGPT. Please note that you need an account at OpenAI to do queries at ChatGPT site.\nIf you did some coding during our lecture, you probably searched online for a solution or even truobleshooting for an error message. In that case you most likely ended up at StackOverflow site where developers/programmers are asking for help.\nIn our earlier lectures, we have searched for fastest prime number if you type “fastest prime number function in python” in Google, you’ll get something like this:\nAs you have noticed there are lots of results from StackOverflow. However; * If you check the dates on the results, some of them date back to 2011. In that page, you might have an example code from Python 2, which will likely to fail. * Some results are focused on “prime numbers up to N” and others are checking for primeness. So, the results are not customized for you. * Also, in another page you might have a sample code which might be wrapped within unnecessary code which will give error if you just copy/paste it."
+    "text": "GPT1, GPT2 abd GPT3 were released couple years before ChatGPT and it was able to complete sentences. Please visit “How Does ChatGPT Work?” site for more information. After ChatGPT was released, large language models got “conversational”\nPlease visit OpenAI Playground completion site and select “gpt-3.5-turbo” as model. Type a incomplete sentence and then press Submit button.\nYou’ll see that the model will complete your sentence. If you turn on the “Show probabilities” option on right menu, you’ll get a glimpse of how GPT works.\nIf you complete the sentence and then hover over the words, you’ll see that the model had many words to chose from with certain probabilities. In this example, “my” is the 4th most probable word after Today is and “birthday” is most probable word after Today is my.\nOne of key settings of GPT models is temperature. If you decrease the temperature the model will choose the most probably words. If temperature is high, the model will be picking words with low probabalities, which will bring creative and diverse output.\nIf you decrease the temperature to zero, the output will be always same."
   },
   {
     "objectID": "ders1.html#chatgpt-writes-code-for-us",
     "href": "ders1.html#chatgpt-writes-code-for-us",
-    "title": "ChatGPT - no need to code anymore?",
+    "title": "GPT models",
     "section": "ChatGPT writes code for us",
     "text": "ChatGPT writes code for us\nLet’s ask ChatGPT for a fast prime number function in Python\n\n\n\nimage.png\n\n\n\n\n\nimage.png\n\n\nDid you see what just happened! It provided code tailored for us and it also explained bits of the code. Have you noticed that the code contains the tricks we have learned during our lecture: * early stop: if a condition is met, return immediately True or False * instead of checking until N, we should check numbers until \\(\\sqrt{N}\\) (n  0.5** in Python)\nYou can continue the conversation. Let’s ask for memoization.\n\n\n\nimage.png\n\n\n\n\n\nimage.png\n\n\nLet’s get the code and test it here:\n\ndef is_prime(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n in (2, 3):\n        result = True\n    elif n == 1 or n % 2 == 0:\n        result = False\n    else:\n        result = True\n        for i in range(3, int(n ** 0.5) + 1, 2):\n            if n % i == 0:\n                result = False\n                break\n    memo[n] = result\n    return result\n\n\n# is_prime(100000000003)\n\n\n&lt;i class=\"fas fa-fw fa-exclamation-circle mr-3 align-self-center\"&gt;&lt;/i&gt;\n&lt;b&gt;Warning:&lt;/b&gt; At the time of writing this note (January 2023) chatGPT is known to provide results which are not exactly true!&lt;br&gt;So, be aware and don't use code or information you got from chatGPT as is without checking or confirming."
   },
   {
     "objectID": "ders1.html#chatgpt-can-fix-or-modify-the-code",
     "href": "ders1.html#chatgpt-can-fix-or-modify-the-code",
-    "title": "ChatGPT - no need to code anymore?",
+    "title": "GPT models",
     "section": "ChatGPT can fix or modify the code",
     "text": "ChatGPT can fix or modify the code\nYou have a piece of code and it does not work as intended? Then you can ask ChatGPT to fix the code.\nLet’s provide a code with error and ask chatGPT to debug it:\n\n\n\nimage.png\n\n\n\n\n\nimage.png\n\n\nSo, ChatGPT can fix code! By the way, did you know that I used ChatGPT to prepare that example ;)\n\n\n\nimage.png\n\n\n\n\n\nimage.png"
   },
   {
     "objectID": "ders1.html#is-it-the-end-of-programming",
     "href": "ders1.html#is-it-the-end-of-programming",
-    "title": "ChatGPT - no need to code anymore?",
+    "title": "GPT models",
     "section": "Is it the end of programming?",
     "text": "Is it the end of programming?\nYou might think, “we learned Python for a semester and but now there’s ChatGPT, no need to learn coding at all!”. You might find content online which are exploring similar concerns. But more sane approach is “AI tools will increase speed and efficiency of developers also will decresase barriers to entry for new languages.\nThe section below is taken from Github Copilot’s page:"
   },
   {
     "objectID": "ders1.html#thanks-for-showing-us-chatgpt-i-can-now-prepare-my-homeworks-easily",
     "href": "ders1.html#thanks-for-showing-us-chatgpt-i-can-now-prepare-my-homeworks-easily",
-    "title": "ChatGPT - no need to code anymore?",
+    "title": "GPT models",
     "section": "Thanks for showing us ChatGPT, I can now prepare my homeworks easily!",
     "text": "Thanks for showing us ChatGPT, I can now prepare my homeworks easily!\nSeeing the capabilities of ChatGPT might give some hint about misuse. First of all, a homework is for you to learn a concept (remember the playing the guitar analogy?) so being involved in AI-assisted plagiarism is still a plagiarism and a loss on your side. (please also check the file 00-academic-integrity.ipynb for adverse effects of plagiarism)\nSecond of all, OpenAI and others are working on tools and ways to include watermarks in ChatGPT output so that it can be spotted easily.\nSo, please be inspired by this tool, use it to augment your learning but do not use it for plagiarism."
   },
   {
     "objectID": "ders1.html#closed-and-open-models",
     "href": "ders1.html#closed-and-open-models",
-    "title": "ChatGPT - no need to code anymore?",
+    "title": "GPT models",
     "section": "Closed and Open models",
     "text": "Closed and Open models\nCurrently there are several closed-source large language models which are developed by major corparations each took hundreds of millions to train * GPT3.5 (ChatGPT) and GPT4 by OpenAI * PaLM and Bard by Google * Claude by Anthropics"
   },
   {
+    "objectID": "ders1.html#claude-3.5-sonnet-by-antropic",
+    "href": "ders1.html#claude-3.5-sonnet-by-antropic",
+    "title": "GPT models",
+    "section": "Claude 3.5 Sonnet by Antropic",
+    "text": "Claude 3.5 Sonnet by Antropic\nClaude 3.5 is the latest version of Claude model. Antropic releases Claude in three sizes Haiku (smallest), Sonnet (medium) and Opus (largest). Currently, Claude 3.5 Sonnest is the best LLM. Generally Claude is good at creative writing but with the latest release it excels at coding as well. Also, Claude allows preview of the code (web-based) on right panel.\nBelow is as example where Claude 3.5 Sonnet was prompted “Please write game of snake in HTML, CSS and JS”. You can actually play the game!\n\nClaude also allows uploading documents (e.g. PDF) and asking questions about the document.\nYou can use Claude (with some limitations) at https://claude.ai/chat after registering an account for free."
+  },
+  {
+    "objectID": "ders1.html#gemini-by-google",
+    "href": "ders1.html#gemini-by-google",
+    "title": "GPT models",
+    "section": "Gemini by Google",
+    "text": "Gemini by Google\nGemini is actually an LLM with online search capacity. Also, you can download documents (via Google Drive) or point to YouTube videos to ask questions. Finally, Gemini has the longest context window of 1 million tokens (will fit around 10 books at once)."
+  },
+  {
     "objectID": "ders1.html#running-models-locally",
     "href": "ders1.html#running-models-locally",
-    "title": "ChatGPT - no need to code anymore?",
+    "title": "GPT models",
     "section": "Running models locally",
     "text": "Running models locally\nSince developers share the model weights, it’s possible to download and run the models locally. There are various sizes of models. 7B (7 billion) models require around 4Gb memory, so you can run them in your laptop.\nYou can run the models by installing PyTorch and some other libraries for Python and then writing some Python code. Or you can install Ollama and then run any compatible model with it.\nAdvantages of running a model locally: 1. Less Censorship 2. Better Data Privacy 3. Offline Usage 4. Cost Savings 5. Better Customization\nDisadvantages of running a model locally: 1. Resource Intensive 2. Slower Responses and Inferior Performance 3. Complex Setup\n\nRunning a model locally using Jupyter notebook or Google Colab\nYou can actually run LLM models in Jupyter notebooks. However the process will require you to install lots of Python packages, downloading the model weights and then writing some Python code to ask questions to the model and then capturing the answer in a dictionary. Although there are some solutions for “chat-like” experience, the experince is more like “one-shot question and answer”.\nPlease check the Youtube video which describes the process in Google Colab, where Google provides GPU (or TPU) to run the model in a Jupyter notebook environment.\n\n\nRunning a model locally with Ollama\n\nPlease visit the list of models page to have an idea about specialized models. With Ollama, you can download and use any of those models.\nIn the terminal, let’s list available models\n$ ollama list\n\nNAME                ID              SIZE    MODIFIED\ndeepseek-coder:6.7b 72be2442d736    3.8 GB  5 weeks ago     \nneural-chat:latest  73940af9fe02    4.1 GB  5 weeks ago     \norca2:7b            ea98cc422de3    3.8 GB  5 weeks ago     \nphi:latest          c651b7a89d73    1.6 GB  14 hours ago    \nsolar:latest        059fdabbe6e6    6.1 GB  2 hours ago     \nstablelm-zephyr:3b  7c596e78b1fc    1.6 GB  3 weeks ago\nLet’s run Phi-2 by Microsoft. Here’s info about Phi-2:\n\na 2.7 billion-parameter language model that demonstrates outstanding reasoning and language understanding capabilities, showcasing state-of-the-art performance among base language models with less than 13 billion parameters. On complex benchmarks Phi-2 matches or outperforms models up to 25x larger, thanks to new innovations in model scaling and training data curation.\n\n$ ollama run phi:latest\n\n&gt;&gt;&gt; why sky is blue?\n\n The sky appears blue due to a phenomenon called Rayleigh scattering. When sunlight enters the Earth's atmosphere,\nit collides with molecules and tiny particles in the air, such as oxygen and nitrogen atoms. These collisions cause\nthe shorter wavelengths of light (blue) to scatter more than the longer wavelengths (red, orange, yellow, green, and\nviolet). As a result, our eyes perceive the scattered blue light to be dominant, which is why the sky appears blue to us.\nAs you can see, a small model, which can answer questions, help coding can be run locally.\n\n\nRunning a model locally with user interface\n\nOllama Web UI\n\n\n\nLLM Studio\nYou can install LM Studio and then interact with local models with its user interface"
   },
   {
     "objectID": "ders1.html#github-copilot",
     "href": "ders1.html#github-copilot",
-    "title": "ChatGPT - no need to code anymore?",
+    "title": "GPT models",
     "section": "Github CoPilot",
     "text": "Github CoPilot\n\n%%HTML\n&lt;iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ZapdeEJ7xJw?si=3DYWvMa7uudDhUnj\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen&gt;&lt;/iframe&gt;"
   },
   {
     "objectID": "ders1.html#free-github-copilot-alternative",
     "href": "ders1.html#free-github-copilot-alternative",
-    "title": "ChatGPT - no need to code anymore?",
+    "title": "GPT models",
     "section": "Free Github CoPilot alternative",
     "text": "Free Github CoPilot alternative\nCody is Sourcegraph’s AI coding assistant, and it has a couple of features that no other assistant has to make you a 10x developer. You can check it out here: https://sourcegraph.com/cody"
   },
   {
     "objectID": "ders1.html#open-source-local-alternatives",
     "href": "ders1.html#open-source-local-alternatives",
-    "title": "ChatGPT - no need to code anymore?",
+    "title": "GPT models",
     "section": "Open source local alternatives",
     "text": "Open source local alternatives\nPlease visit https://tabby.tabbyml.com/ for more information"
   },
   {
-    "objectID": "ders1.html#summarize-a-long-text",
-    "href": "ders1.html#summarize-a-long-text",
-    "title": "ChatGPT - no need to code anymore?",
-    "section": "1. Summarize a long text",
-    "text": "1. Summarize a long text\nJust write “TL;DR” (stands for too long didn’t read) and then in double quotes paste the text"
-  },
-  {
-    "objectID": "ders1.html#prompts-on-various-topics",
-    "href": "ders1.html#prompts-on-various-topics",
-    "title": "ChatGPT - no need to code anymore?",
-    "section": "2. Prompts on various topics",
-    "text": "2. Prompts on various topics\nhttps://mpost.io/100-best-chatgpt-prompts-to-unleash-ais-potential/"
-  },
-  {
-    "objectID": "ders1.html#awesome-list-of-chatgpt-prompts",
-    "href": "ders1.html#awesome-list-of-chatgpt-prompts",
-    "title": "ChatGPT - no need to code anymore?",
-    "section": "3. Awesome list of ChatGPT prompts",
-    "text": "3. Awesome list of ChatGPT prompts\nPlease visit https://prompts.chat/ and explore prompts which will ask ChatGPT to act like anything."
-  },
-  {
-    "objectID": "ders1.html#use-chatgpt-with-ai-art-tools-create-a-website",
-    "href": "ders1.html#use-chatgpt-with-ai-art-tools-create-a-website",
-    "title": "ChatGPT - no need to code anymore?",
-    "section": "4. use ChatGPT with AI art tools create a website",
-    "text": "4. use ChatGPT with AI art tools create a website\nThere are AI art tools which can generate visual content. * Stable Diffusion is a latent text-to-image diffusion model capable of generating photo-realistic images given any text input, cultivates autonomous freedom to produce incredible imagery, empowers billions of people to create stunning art within seconds. * DALL-E 2 can create original, realistic images and art from a text description. It can combine concepts, attributes, and styles. * Midjourney is an independent research lab exploring new mediums of thought and expanding the imaginative powers of the human species. Please visit community showcase\n\nfrom IPython.display import YouTubeVideo\nYouTubeVideo('8I3NTE4cn5s', width=800, height=450)"
-  },
-  {
-    "objectID": "ders1.html#autollm",
-    "href": "ders1.html#autollm",
-    "title": "ChatGPT - no need to code anymore?",
-    "section": "AutoLLM",
-    "text": "AutoLLM\nAutoLLM is capable of performing RAG on your documents. Please watch the video below:\n\n%%HTML\n&lt;iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/Dh9pIWO1VJw?si=VDTJ3PbBDRAgxucS\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen&gt;&lt;/iframe&gt;"
-  },
-  {
     "objectID": "ders1.html#image-generation",
     "href": "ders1.html#image-generation",
-    "title": "ChatGPT - no need to code anymore?",
+    "title": "GPT models",
     "section": "Image generation",
     "text": "Image generation\n\nDALL-E 3 by OpenAI\nPrompt: “a dna strand with istanbul city as silhoutte in background”\nRevised prompt: “Imagine a detailed science meets architecture illustration. In the foreground, there’s a strand of DNA, magnified and glowing against a dark backdrop. This helix structure is precisely depicted, its familiar double-helix shape twisting majestically. Intertwining with this scientific image, in the background, there’s a silhouette representation of Istanbul city. The skyline shows off its marvelous historical architecture, including its domed mosques and towering minarets. The cityscape sits against a dusky eveningsky, the setting sun casting an orange glow on the horizon behind the buildings. The combination results in a fascinating juxtapositionof science and urban beauty.”\nResult:\n\n\n\nMidjourney v6\nMidjourney announced v6 in December 2023. It can generate photorealistic images. Normally, you need to use their Discord channel to generate images free. Also, you can generate images using getimg.ai. I tried generating images using the following prompts\n\nMolecular biology lab with lots of students.\nBeautiful sea side with white sand beach and tropical trees on shore. The sea looks greenish blue\n\nThe results are great:\n\n\n\nDisinformation\nBe aware of deepfake or AI-generated fake photos\nFake Trump Photo\n\nFake Pope Photo"
   },
   {
     "objectID": "ders1.html#video-generation",
     "href": "ders1.html#video-generation",
-    "title": "ChatGPT - no need to code anymore?",
+    "title": "GPT models",
     "section": "Video generation",
     "text": "Video generation\n\nPrompt to video\n\nRunwayML Gen-2\nPika\nStable Video Diffusion by Stable Diffusion\nGENMO\n\n\n\nImage to video\n\nGENMO"
   },
   {
     "objectID": "ders1.html#music-or-sound-generation",
     "href": "ders1.html#music-or-sound-generation",
-    "title": "ChatGPT - no need to code anymore?",
+    "title": "GPT models",
     "section": "Music or sound generation",
     "text": "Music or sound generation\n\nElevenlabs can convert text to speech online for free with our AI voice generator"
   }
