@@ -1,0 +1,142 @@
+---
+title: "Değerlendirme Ölçütleri"
+subtitle: "FEF3001 Yapay zekaya giriş - Ders3"
+author: "Alper Yılmaz"
+date: 2024-07-11
+format:
+  revealjs:
+    chalkboard: true
+    css: custom.css
+    smaller: true
+    scrollable: true
+    controls: true
+    touch: true
+typora-copy-images-to: images
+---
+
+## Değerlendirme ölçütleri / Performance Metrics
+
+* Sınıflandırma değerlendirme (Classification)
+* Regresyon değerlendirme (Regression)
+
+
+
+## Sınıflandırma ve Regresyon (Classification vs regression)
+
+![](attachments/1677785069046.png)
+
+[Source](https://www.linkedin.com/pulse/aipart3regression-vs-classification-models-arnab-mukherjee)
+
+##
+
+![](attachments/Screenshot-2023-05-02-at-9.57.48-AM.png)
+
+[Source](https://acua.qcri.org/blog/comparing-the-results-classification-vs-regression-models-in-machine-learning/)
+
+## Sınıflandırma ve Regresyon
+
+![](attachments/regression-data-vs-classification-data.png)
+
+[Source](https://www.sharpsightlabs.com/blog/regression-vs-classification/)
+
+##  
+
+![](attachments/1CbxJX9DXjxx17X4NupHrtw.webp)
+
+[Source](https://medium.com/@Nichu55/understanding-the-difference-between-regression-and-classification-c96862d7f4b0)
+
+## Fit
+
+![](attachments/1718273106637.svg)
+
+[Source](https://www.mathworks.com/discovery/overfitting.html)
+
+## Training
+
+![](attachments/2_train-test-split.jpg)
+
+[Source](https://builtin.com/data-science/train-test-split)
+
+## Training / Test
+
+![](attachments/1_train-test-split_0.jpg)
+
+[Source](https://builtin.com/data-science/train-test-split)
+
+
+
+## Classification Performance Metrics
+
+Bir Sınıflandırma modeli oluşturulduktan sonra bu model ile yapılan tahminlerin ne kadar doğru olduğuna dair değerlendirme yapılması gereklidir\.
+
+Aşağıda verilen confusion matrix \(karşılaştırma matrisi\) bir sınıflandırma modeline dair gerçekleşen durumları ve bu durumlara dair tahminleri verilmiştir\.
+
+|                     |         | Actual (Gerçek) |                |
+| :-----------------: | :-----: | :-------------: | :------------: |
+|                     |         |  True (Doğru)   | False (Yanlış) |
+| Prediction (Tahmin) | Pozitif |       TP        |       FP       |
+|                     | Negatif |       FN        |       TN       |
+
+TP : True Positive, FP : False Positive, FN : False Negative, TN : True Negative
+
+True ve false değeri bu modele dair gerçek sonuçları\, positive ve negative ise modele dair tahminleri göstermektedir\.
+
+## Classification Performance Metrics
+
+TP : Churn edeceğini tahmin ettiğimiz müşterilerimiz \(positive\)\, gerçekten churn etmiş \(true\)\.
+
+FP : Churn edeceğini tahmin ettiğimiz müşterilerimiz \(positive\)\, gerçekte churn etmemiş \(false\)\. — > Type 1 Error
+
+FN : Churn etmeyecek dediğimiz müşteriler \(negative\)\, gerçekte churn etmiş \(false\)\. — > Type 2 Error
+
+TN : Churn etmeyecek dediğimiz müşteriler \(negative\)\, gerçekte churn etmemiş \(true\)\.
+
+## Metrics
+
+**Accuracy**  *(Doğruluk)* : Doğru tahminlerin toplam veri kümesine oranıdır.
+
+**Precision** *(Kesinlik)*: Pozitif olarak tahmin edilen verilerin kaçının gerçekten pozitif olduğunu gösterir.
+
+**Recall**  *(Duyarlılık)*: Geliştirilen modelin pozitif olanların kaçını yakaladığını  gösterir.
+
+**F1 Score** *(F1 Skoru)*: F1 score, precision ve recall değerlerinin harmonik ortalamasıdır. Sınıf dağılımı benzer olduğunda accuracy kullanılabilirken, dengesiz veri setleri söz konusu olduğunda F1 skor daha iyi bir metriktir.
+
+**ROC Curve** *(ROC Eğrisi)*::Yanlış pozitif oranı ve gerçek pozitif oranı göz önünde bulundurarak x ekseninde ve y ekseninde 0'dan 100'e kadar olan değerlerin üzerinde bir eğri oluşturulur. Bu eğrinin altında kalan alana Area Under Curve (AUC) adı verilir. Bu alanın büyük olması modelin başarılı olduğunu gösterir. Grafikte yer alan mavi çizgi; ne kadar geniş bir alan kaplıyorsa modelin tahmin başarısı o kadar yüksek, ortadaki kesikli çizgiye ne kadar yakınsa modelin başarı oranı o kadar düşüktür.
+
+## ROC Curve
+
+![](images/hafta2_De%C4%9Ferlendirme%C3%96l%C3%A7%C3%BCtleri0.png)
+
+## Example
+
+|        |         | Actual |         |
+| :----: | :-----: | :----: | :-----: |
+|        |         |  True  |  False  |
+| Tahmin | Pozitif | TP (1) | FP (0)  |
+|        | Negatif | FN (7) | TN (92) |
+
+
+
+## Summary
+
+![](attachments/1QAlFTwg8Q1qbKSIXYU5eew.png)
+
+[Source](https://python.plainenglish.io/demystifying-performance-metrics-illuminating-machine-learning-model-evaluation-in-8977e10e87e9)
+
+## Python code
+
+
+```{python}
+#| echo: true
+from sklearn.metrics import confusion_matrix
+
+actual    = [1, 0, 1, 1, 0, 0, 1, 0, 1, 1]
+predicted = [0, 1, 1, 1, 1, 0, 1, 1, 0, 1]
+
+print("\nConfusion matrix")
+conf_mat = confusion_matrix(actual, predicted) 
+
+print(conf_mat)
+```
+
+## Regression Performance Metrics

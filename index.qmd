@@ -23,17 +23,17 @@
 
 **İçerik**: Veri türleri ve verilerin işlenmesine dair bilgi verildi.  [Sunum linki](ders2.qmd)
 
-## Ders03
+## Ders3
 
 *Grup2: 11 Temmuz Perşembe 8:30 - Grup1: 11 Temmuz Perşembe 14:00*
 
-**İçerik**: Confusion matrix ve sınıflandırma/regresyon değerlendirmesi [Sunum linki](ders03.qmd)
+**İçerik**: Confusion matrix ve sınıflandırma/regresyon değerlendirmesi [Sunum linki](ders3.qmd)
 
-## Ders04
+## Ders4
 
 *Grup2: 12 Temmuz Cuma 8:30 - Grup1: 12 Temmuz Cuma 14:00*
 
-**İçerik**: TBD [Sunum linki](ders04.qmd)
+**İçerik**: TBD [Sunum linki](ders4.qmd)
 
 
 
