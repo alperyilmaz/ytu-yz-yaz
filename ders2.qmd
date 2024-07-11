@@ -9,6 +9,8 @@ format:
     css: custom.css
     smaller: true
     scrollable: true
+    controls: true
+    touch: true
 typora-copy-images-to: images
 ---
 
