@@ -1,3 +1,11 @@
 # FEF3001 Yapay Zekaya Giriş Ders Notları
 
 YTÜ Fen Fakültesinde 2024 Yaz döneminde verilen FEF3001 kodlu dersin içerikleri  sayfasıdır.
+
+## Sıkça Sorulan Sorular
+
+1. Vize ne zaman? *Cevap: 18 Temmuz 2024 perşembe saat 12:00*
+2. Vize yüz yüze mi? *Cevap: Evet* 
+3. Vize konuları nelerdir? *Cevap: Yapay sinir ağı konusunun sonuna kadar*
+4. Vize test şeklinde mi ve kaç soru sorulur? *Cevap: Test şeklinde 20-30 soru planlanmaktadır*
+
