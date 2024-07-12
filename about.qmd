@@ -6,6 +6,10 @@ YTÜ Fen Fakültesinde 2024 Yaz döneminde verilen FEF3001 kodlu dersin içerikl
 
 1. Vize ne zaman? *Cevap: 18 Temmuz 2024 perşembe saat 12:00*
 2. Vize yüz yüze mi? *Cevap: Evet* 
-3. Vize konuları nelerdir? *Cevap: Yapay sinir ağı konusunun sonuna kadar*
-4. Vize test şeklinde mi ve kaç soru sorulur? *Cevap: Test şeklinde 20-30 soru planlanmaktadır*
-
+3. Sınavlar hangi derslikte yapılacak? *Cevap: B blok B1-D02 ve D04 İng için, B1-A06 A08 A10 D11 TR için*
+4. Vize konuları nelerdir? *Cevap: Yapay sinir ağı konusunun sonuna kadar*
+5. Yüklenen sunumlar dışında bir kaynaktan soru sorulacak mıdır? *Cevap: Temel olarak sunumlar kullanılacaktır fakat derste anlatılanlardan da sorumluyuz, ders video kaydı ve derste aldığınız notlarınızı da çalışınız*
+6. Vize test şeklinde mi ve kaç soru sorulur? *Cevap: Test şeklinde 20-30 soru planlanmaktadır*
+7. Çok fazla formül var, vizede formüller verilebilir mi? *Cevap: Bütün formüller verilmeyecektir, az kullanılan ve karmaşık olan formüller verilebilir* 
+8. Haftaya ders yapılacak mı? *Cevap: Sınav olduğu gün **sadece FEF3001 dersi** yapılmayacaktır, Cuma günü ders işlenecektir.*
+9. Yorum soruları sorulacak mı? *Cevap: Genelde bilgi ölçen sorular terich edilecektir*
