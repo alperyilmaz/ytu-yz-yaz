@@ -547,7 +547,7 @@ Alper Yılmaz
 </section>
 <section id="python-code" class="slide level2">
 <h2>Python code</h2>
-<div id="dd9b4a6f" class="cell" data-execution_count="1">
+<div id="0810dc4f" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> confusion_matrix</span>
 <span id="cb1-2"><a></a></span>
 <span id="cb1-3"><a></a>actual    <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">1</span>]</span>
@@ -567,6 +567,34 @@ Confusion matrix
 </section>
 <section id="regression-performance-metrics" class="slide level2">
 <h2>Regression Performance Metrics</h2>
+<p>Following metrics can be used to measure the performance of regression model output.</p>
+<ul>
+<li>Mean Error (ME)</li>
+<li>Mean Absolute Error (MAE)</li>
+<li>Mean Squared Error (MSE)</li>
+<li>Root Mean Squared Error (RMSE)</li>
+</ul>
+<p>There are much more advanced metrics but we’ll learn only essental ones</p>
+</section>
+<section id="mean-error-me" class="slide level2">
+<h2>Mean Error (ME)</h2>
+<p><span class="math display">\[ \text{ME} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i) \]</span></p>
+<p><span class="math inline">\(y_i\)</span>: Actual value, <span class="math inline">\(\hat{y}_i\)</span>: predicted value, n: number of observations</p>
+</section>
+<section id="mean-absolute-error-mae" class="slide level2">
+<h2>Mean Absolute Error (MAE)</h2>
+<p>Adding negative results is not right when using ME. Let’s take care of it.</p>
+<p><span class="math display">\[ \text{MAE} = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i| \]</span></p>
+<p>##Mean Squared Error (MSE)</p>
+<p><span class="math display">\[ \text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 \]</span></p>
+<p>Please note that squaring the error with punish the model more. Also, squaring a difference will take care of negative sign.</p>
+</section>
+<section id="root-mean-squared-error-rmse" class="slide level2">
+<h2>Root Mean Squared Error (RMSE)</h2>
+<p><span class="math display">\[ \text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2} \]</span></p>
+</section>
+<section id="section-2" class="slide level2">
+<h2></h2>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">

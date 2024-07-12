@@ -28,18 +28,151 @@
     "text": "Grup2: 5 Temmuz Cuma 8:30 - Grup1: 5 Temmuz Cuma 14:00\nİçerik: Veri türleri ve verilerin işlenmesine dair bilgi verildi. Sunum linki"
   },
   {
-    "objectID": "index.html#ders03",
-    "href": "index.html#ders03",
+    "objectID": "index.html#ders3",
+    "href": "index.html#ders3",
     "title": "FEF3001 Yapay Zekaya Giriş",
     "section": "",
     "text": "Grup2: 11 Temmuz Perşembe 8:30 - Grup1: 11 Temmuz Perşembe 14:00\nİçerik: Confusion matrix ve sınıflandırma/regresyon değerlendirmesi Sunum linki"
   },
   {
-    "objectID": "index.html#ders04",
-    "href": "index.html#ders04",
+    "objectID": "index.html#ders4",
+    "href": "index.html#ders4",
     "title": "FEF3001 Yapay Zekaya Giriş",
     "section": "",
     "text": "Grup2: 12 Temmuz Cuma 8:30 - Grup1: 12 Temmuz Cuma 14:00\nİçerik: TBD Sunum linki"
+  },
+  {
+    "objectID": "ders3.html#değerlendirme-ölçütleri-performance-metrics",
+    "href": "ders3.html#değerlendirme-ölçütleri-performance-metrics",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Değerlendirme ölçütleri / Performance Metrics",
+    "text": "Değerlendirme ölçütleri / Performance Metrics\n\nSınıflandırma değerlendirme (Classification)\nRegresyon değerlendirme (Regression)"
+  },
+  {
+    "objectID": "ders3.html#sınıflandırma-ve-regresyon-classification-vs-regression",
+    "href": "ders3.html#sınıflandırma-ve-regresyon-classification-vs-regression",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Sınıflandırma ve Regresyon (Classification vs regression)",
+    "text": "Sınıflandırma ve Regresyon (Classification vs regression)\n\nSource"
+  },
+  {
+    "objectID": "ders3.html#section",
+    "href": "ders3.html#section",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "",
+    "text": "Source"
+  },
+  {
+    "objectID": "ders3.html#sınıflandırma-ve-regresyon",
+    "href": "ders3.html#sınıflandırma-ve-regresyon",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Sınıflandırma ve Regresyon",
+    "text": "Sınıflandırma ve Regresyon\n\nSource"
+  },
+  {
+    "objectID": "ders3.html#section-1",
+    "href": "ders3.html#section-1",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "",
+    "text": "Source"
+  },
+  {
+    "objectID": "ders3.html#fit",
+    "href": "ders3.html#fit",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Fit",
+    "text": "Fit\n\nSource"
+  },
+  {
+    "objectID": "ders3.html#training",
+    "href": "ders3.html#training",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Training",
+    "text": "Training\n\nSource"
+  },
+  {
+    "objectID": "ders3.html#training-test",
+    "href": "ders3.html#training-test",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Training / Test",
+    "text": "Training / Test\n\nSource"
+  },
+  {
+    "objectID": "ders3.html#classification-performance-metrics",
+    "href": "ders3.html#classification-performance-metrics",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Classification Performance Metrics",
+    "text": "Classification Performance Metrics\nBir Sınıflandırma modeli oluşturulduktan sonra bu model ile yapılan tahminlerin ne kadar doğru olduğuna dair değerlendirme yapılması gereklidir.\nAşağıda verilen confusion matrix (karşılaştırma matrisi) bir sınıflandırma modeline dair gerçekleşen durumları ve bu durumlara dair tahminleri verilmiştir.\n\n\n\n\n\nActual (Gerçek)\n\n\n\n\n\n\n\nTrue (Doğru)\nFalse (Yanlış)\n\n\nPrediction (Tahmin)\nPozitif\nTP\nFP\n\n\n\nNegatif\nFN\nTN\n\n\n\nTP : True Positive, FP : False Positive, FN : False Negative, TN : True Negative\nTrue ve false değeri bu modele dair gerçek sonuçları, positive ve negative ise modele dair tahminleri göstermektedir."
+  },
+  {
+    "objectID": "ders3.html#classification-performance-metrics-1",
+    "href": "ders3.html#classification-performance-metrics-1",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Classification Performance Metrics",
+    "text": "Classification Performance Metrics\nTP : Churn edeceğini tahmin ettiğimiz müşterilerimiz (positive), gerçekten churn etmiş (true).\nFP : Churn edeceğini tahmin ettiğimiz müşterilerimiz (positive), gerçekte churn etmemiş (false). — &gt; Type 1 Error\nFN : Churn etmeyecek dediğimiz müşteriler (negative), gerçekte churn etmiş (false). — &gt; Type 2 Error\nTN : Churn etmeyecek dediğimiz müşteriler (negative), gerçekte churn etmemiş (true)."
+  },
+  {
+    "objectID": "ders3.html#metrics",
+    "href": "ders3.html#metrics",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Metrics",
+    "text": "Metrics\nAccuracy (Doğruluk) : Doğru tahminlerin toplam veri kümesine oranıdır.\nPrecision (Kesinlik): Pozitif olarak tahmin edilen verilerin kaçının gerçekten pozitif olduğunu gösterir.\nRecall (Duyarlılık): Geliştirilen modelin pozitif olanların kaçını yakaladığını gösterir.\nF1 Score (F1 Skoru): F1 score, precision ve recall değerlerinin harmonik ortalamasıdır. Sınıf dağılımı benzer olduğunda accuracy kullanılabilirken, dengesiz veri setleri söz konusu olduğunda F1 skor daha iyi bir metriktir.\nROC Curve (ROC Eğrisi)::Yanlış pozitif oranı ve gerçek pozitif oranı göz önünde bulundurarak x ekseninde ve y ekseninde 0’dan 100’e kadar olan değerlerin üzerinde bir eğri oluşturulur. Bu eğrinin altında kalan alana Area Under Curve (AUC) adı verilir. Bu alanın büyük olması modelin başarılı olduğunu gösterir. Grafikte yer alan mavi çizgi; ne kadar geniş bir alan kaplıyorsa modelin tahmin başarısı o kadar yüksek, ortadaki kesikli çizgiye ne kadar yakınsa modelin başarı oranı o kadar düşüktür."
+  },
+  {
+    "objectID": "ders3.html#roc-curve",
+    "href": "ders3.html#roc-curve",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "ROC Curve",
+    "text": "ROC Curve"
+  },
+  {
+    "objectID": "ders3.html#example",
+    "href": "ders3.html#example",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Example",
+    "text": "Example\n\n\n\n\n\nActual\n\n\n\n\n\n\n\nTrue\nFalse\n\n\nTahmin\nPozitif\nTP (1)\nFP (0)\n\n\n\nNegatif\nFN (7)\nTN (92)"
+  },
+  {
+    "objectID": "ders3.html#summary",
+    "href": "ders3.html#summary",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Summary",
+    "text": "Summary\n\nSource"
+  },
+  {
+    "objectID": "ders3.html#python-code",
+    "href": "ders3.html#python-code",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Python code",
+    "text": "Python code\n\nfrom sklearn.metrics import confusion_matrix\n\nactual    = [1, 0, 1, 1, 0, 0, 1, 0, 1, 1]\npredicted = [0, 1, 1, 1, 1, 0, 1, 1, 0, 1]\n\nprint(\"\\nConfusion matrix\")\nconf_mat = confusion_matrix(actual, predicted) \n\nprint(conf_mat)\n\n\nConfusion matrix\n[[1 3]\n [2 4]]"
+  },
+  {
+    "objectID": "ders3.html#regression-performance-metrics",
+    "href": "ders3.html#regression-performance-metrics",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Regression Performance Metrics",
+    "text": "Regression Performance Metrics\nFollowing metrics can be used to measure the performance of regression model output.\n\nMean Error (ME)\nMean Absolute Error (MAE)\nMean Squared Error (MSE)\nRoot Mean Squared Error (RMSE)\n\nThere are much more advanced metrics but we’ll learn only essental ones"
+  },
+  {
+    "objectID": "ders3.html#mean-error-me",
+    "href": "ders3.html#mean-error-me",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Mean Error (ME)",
+    "text": "Mean Error (ME)\n\\[ \\text{ME} = \\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i) \\]\n\\(y_i\\): Actual value, \\(\\hat{y}_i\\): predicted value, n: number of observations"
+  },
+  {
+    "objectID": "ders3.html#mean-absolute-error-mae",
+    "href": "ders3.html#mean-absolute-error-mae",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Mean Absolute Error (MAE)",
+    "text": "Mean Absolute Error (MAE)\nAdding negative results is not right when using ME. Let’s take care of it.\n\\[ \\text{MAE} = \\frac{1}{n} \\sum_{i=1}^{n} |y_i - \\hat{y}_i| \\]\n##Mean Squared Error (MSE)\n\\[ \\text{MSE} = \\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^2 \\]\nPlease note that squaring the error with punish the model more. Also, squaring a difference will take care of negative sign."
+  },
+  {
+    "objectID": "ders3.html#root-mean-squared-error-rmse",
+    "href": "ders3.html#root-mean-squared-error-rmse",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Root Mean Squared Error (RMSE)",
+    "text": "Root Mean Squared Error (RMSE)\n\\[ \\text{RMSE} = \\sqrt{\\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^2} \\]"
   },
   {
     "objectID": "ders1.html",
@@ -264,509 +397,5 @@
     "title": "FEF3001 Yapay Zekaya Giriş Ders Notları",
     "section": "",
     "text": "FEF3001 Yapay Zekaya Giriş Ders Notları\nYTÜ Fen Fakültesinde 2024 Yaz döneminde verilen FEF3001 kodlu dersin içerikleri sayfasıdır."
-  },
-  {
-    "objectID": "index.html#ders3",
-    "href": "index.html#ders3",
-    "title": "FEF3001 Yapay Zekaya Giriş",
-    "section": "",
-    "text": "Grup2: 11 Temmuz Perşembe 8:30 - Grup1: 11 Temmuz Perşembe 14:00\nİçerik: Confusion matrix ve sınıflandırma/regresyon değerlendirmesi Sunum linki"
-  },
-  {
-    "objectID": "index.html#ders4",
-    "href": "index.html#ders4",
-    "title": "FEF3001 Yapay Zekaya Giriş",
-    "section": "",
-    "text": "Grup2: 12 Temmuz Cuma 8:30 - Grup1: 12 Temmuz Cuma 14:00\nİçerik: TBD Sunum linki"
-  },
-  {
-    "objectID": "ders3.html#slayt-1",
-    "href": "ders3.html#slayt-1",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Slayt 1",
-    "text": "Slayt 1"
-  },
-  {
-    "objectID": "ders3.html#slayt-2",
-    "href": "ders3.html#slayt-2",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Slayt 2",
-    "text": "Slayt 2"
-  },
-  {
-    "objectID": "ders3.html#slayt3",
-    "href": "ders3.html#slayt3",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Slayt3",
-    "text": "Slayt3"
-  },
-  {
-    "objectID": "ders3.html#değer",
-    "href": "ders3.html#değer",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Değer",
-    "text": "Değer"
-  },
-  {
-    "objectID": "ders3.html#değerlendirme",
-    "href": "ders3.html#değerlendirme",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Değerlendirme",
-    "text": "Değerlendirme"
-  },
-  {
-    "objectID": "ders3.html#değerlendirme-ölç",
-    "href": "ders3.html#değerlendirme-ölç",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Değerlendirme ölç",
-    "text": "Değerlendirme ölç"
-  },
-  {
-    "objectID": "ders3.html#değerlendirme-ölçütler",
-    "href": "ders3.html#değerlendirme-ölçütler",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Değerlendirme ölçütler",
-    "text": "Değerlendirme ölçütler"
-  },
-  {
-    "objectID": "ders3.html#değerlendirme-ölçütleri",
-    "href": "ders3.html#değerlendirme-ölçütleri",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Değerlendirme ölçütleri",
-    "text": "Değerlendirme ölçütleri\n\nSınıflandırma değerlendirme\nRegresyon değerlendirme"
-  },
-  {
-    "objectID": "ders3.html#s",
-    "href": "ders3.html#s",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "S",
-    "text": "S"
-  },
-  {
-    "objectID": "ders3.html#sınıflan",
-    "href": "ders3.html#sınıflan",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Sınıflan",
-    "text": "Sınıflan"
-  },
-  {
-    "objectID": "ders3.html#sınıflandırma",
-    "href": "ders3.html#sınıflandırma",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Sınıflandırma",
-    "text": "Sınıflandırma"
-  },
-  {
-    "objectID": "ders3.html#sınıflandırma-ve",
-    "href": "ders3.html#sınıflandırma-ve",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Sınıflandırma ve",
-    "text": "Sınıflandırma ve"
-  },
-  {
-    "objectID": "ders3.html#sınıflandırma-ve-reg",
-    "href": "ders3.html#sınıflandırma-ve-reg",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Sınıflandırma ve Reg",
-    "text": "Sınıflandırma ve Reg"
-  },
-  {
-    "objectID": "ders3.html#sınıflandırma-ve-regres",
-    "href": "ders3.html#sınıflandırma-ve-regres",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Sınıflandırma ve Regres",
-    "text": "Sınıflandırma ve Regres"
-  },
-  {
-    "objectID": "ders3.html#sınıflandırma-ve-regresyon",
-    "href": "ders3.html#sınıflandırma-ve-regresyon",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Sınıflandırma ve Regresyon",
-    "text": "Sınıflandırma ve Regresyon\n\nSource"
-  },
-  {
-    "objectID": "ders3.html#sınıflandırm",
-    "href": "ders3.html#sınıflandırm",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Sınıflandırm",
-    "text": "Sınıflandırm"
-  },
-  {
-    "objectID": "ders3.html#sınıflandırma-ve-r",
-    "href": "ders3.html#sınıflandırma-ve-r",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Sınıflandırma ve r",
-    "text": "Sınıflandırma ve r"
-  },
-  {
-    "objectID": "ders3.html#sınıflandırma-ve-regre",
-    "href": "ders3.html#sınıflandırma-ve-regre",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Sınıflandırma ve regre",
-    "text": "Sınıflandırma ve regre"
-  },
-  {
-    "objectID": "ders3.html#sınıflandırma-ve-regresyon-1",
-    "href": "ders3.html#sınıflandırma-ve-regresyon-1",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Sınıflandırma ve Regresyon",
-    "text": "Sınıflandırma ve Regresyon\n\nSource"
-  },
-  {
-    "objectID": "ders3.html#section-1",
-    "href": "ders3.html#section-1",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "",
-    "text": "Source"
-  },
-  {
-    "objectID": "ders3.html#sınıflandırma-ve-regresyon-class",
-    "href": "ders3.html#sınıflandırma-ve-regresyon-class",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Sınıflandırma ve Regresyon (Class)",
-    "text": "Sınıflandırma ve Regresyon (Class)\n\nSource"
-  },
-  {
-    "objectID": "ders3.html#sınıflandırma-ve-regresyon-classificati",
-    "href": "ders3.html#sınıflandırma-ve-regresyon-classificati",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Sınıflandırma ve Regresyon (Classificati)",
-    "text": "Sınıflandırma ve Regresyon (Classificati)\n\nSource"
-  },
-  {
-    "objectID": "ders3.html#sınıflandırma-ve-regresyon-classification-vs",
-    "href": "ders3.html#sınıflandırma-ve-regresyon-classification-vs",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Sınıflandırma ve Regresyon (Classification vs)",
-    "text": "Sınıflandırma ve Regresyon (Classification vs)\n\nSource"
-  },
-  {
-    "objectID": "ders3.html#sınıflandırma-ve-regresyon-classification-vs-regre",
-    "href": "ders3.html#sınıflandırma-ve-regresyon-classification-vs-regre",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Sınıflandırma ve Regresyon (Classification vs regre)",
-    "text": "Sınıflandırma ve Regresyon (Classification vs regre)\n\nSource"
-  },
-  {
-    "objectID": "ders3.html#sınıflandırma-ve-regresyon-classification-vs-regression",
-    "href": "ders3.html#sınıflandırma-ve-regresyon-classification-vs-regression",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Sınıflandırma ve Regresyon (Classification vs regression)",
-    "text": "Sınıflandırma ve Regresyon (Classification vs regression)\n\nSource"
-  },
-  {
-    "objectID": "ders3.html#fit",
-    "href": "ders3.html#fit",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Fit",
-    "text": "Fit\n\nSource"
-  },
-  {
-    "objectID": "ders3.html#t",
-    "href": "ders3.html#t",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "T",
-    "text": "T"
-  },
-  {
-    "objectID": "ders3.html#traini",
-    "href": "ders3.html#traini",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Traini",
-    "text": "Traini"
-  },
-  {
-    "objectID": "ders3.html#training",
-    "href": "ders3.html#training",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Training",
-    "text": "Training\n\nSource"
-  },
-  {
-    "objectID": "ders3.html#training-te",
-    "href": "ders3.html#training-te",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Training / te",
-    "text": "Training / te"
-  },
-  {
-    "objectID": "ders3.html#training-tes",
-    "href": "ders3.html#training-tes",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Training / Tes",
-    "text": "Training / Tes"
-  },
-  {
-    "objectID": "ders3.html#training-test",
-    "href": "ders3.html#training-test",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Training / Test",
-    "text": "Training / Test\n\nSource"
-  },
-  {
-    "objectID": "ders3.html#tr",
-    "href": "ders3.html#tr",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Tr",
-    "text": "Tr"
-  },
-  {
-    "objectID": "ders3.html#değerlendirme-ölçütleri-performance-metrics",
-    "href": "ders3.html#değerlendirme-ölçütleri-performance-metrics",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Değerlendirme ölçütleri / Performance Metrics",
-    "text": "Değerlendirme ölçütleri / Performance Metrics\n\nSınıflandırma değerlendirme (Classification)\nRegresyon değerlendirme (Regression)"
-  },
-  {
-    "objectID": "ders3.html#summar",
-    "href": "ders3.html#summar",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Summar",
-    "text": "Summar"
-  },
-  {
-    "objectID": "ders3.html#summary",
-    "href": "ders3.html#summary",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Summary",
-    "text": "Summary\n\nSource"
-  },
-  {
-    "objectID": "ders3.html#pyt",
-    "href": "ders3.html#pyt",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "pyt",
-    "text": "pyt"
-  },
-  {
-    "objectID": "ders3.html#python-te",
-    "href": "ders3.html#python-te",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "python te",
-    "text": "python te"
-  },
-  {
-    "objectID": "ders3.html#python-test",
-    "href": "ders3.html#python-test",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "python test",
-    "text": "python test\n\nfrom sklearn.metrics import confusion_matrix\n\nactual    = [1, 0, 1, 1, 0, 0, 1, 0, 1, 1]\npredicted = [0, 1, 1, 1, 1, 0, 1, 1, 0, 1]\n\nprint(\"\\nConfusion matrix\")\nconf_mat = confusion_matrix(actual, predicted) \n\nprint(conf_mat)\n\n\nConfusion matrix\n[[1 3]\n [2 4]]"
-  },
-  {
-    "objectID": "ders3.html#cla",
-    "href": "ders3.html#cla",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Cla",
-    "text": "Cla"
-  },
-  {
-    "objectID": "ders3.html#classif",
-    "href": "ders3.html#classif",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Classif",
-    "text": "Classif"
-  },
-  {
-    "objectID": "ders3.html#classificatio",
-    "href": "ders3.html#classificatio",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Classificatio",
-    "text": "Classificatio"
-  },
-  {
-    "objectID": "ders3.html#classification-p",
-    "href": "ders3.html#classification-p",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Classification p",
-    "text": "Classification p"
-  },
-  {
-    "objectID": "ders3.html#classification-perm",
-    "href": "ders3.html#classification-perm",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Classification perm",
-    "text": "Classification perm"
-  },
-  {
-    "objectID": "ders3.html#classification-performa",
-    "href": "ders3.html#classification-performa",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Classification performa",
-    "text": "Classification performa"
-  },
-  {
-    "objectID": "ders3.html#classification-performace",
-    "href": "ders3.html#classification-performace",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Classification performace",
-    "text": "Classification performace"
-  },
-  {
-    "objectID": "ders3.html#classification-performance-met",
-    "href": "ders3.html#classification-performance-met",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Classification performance met",
-    "text": "Classification performance met"
-  },
-  {
-    "objectID": "ders3.html#section-2",
-    "href": "ders3.html#section-2",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "",
-    "text": "Classification\nPerformance\nMetrics"
-  },
-  {
-    "objectID": "ders3.html#classification",
-    "href": "ders3.html#classification",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Classification",
-    "text": "Classification"
-  },
-  {
-    "objectID": "ders3.html#classification-performance",
-    "href": "ders3.html#classification-performance",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Classification Performance",
-    "text": "Classification Performance"
-  },
-  {
-    "objectID": "ders3.html#classification-performance-1",
-    "href": "ders3.html#classification-performance-1",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Classification Performance",
-    "text": "Classification Performance"
-  },
-  {
-    "objectID": "ders3.html#regression-performance",
-    "href": "ders3.html#regression-performance",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Regression Performance",
-    "text": "Regression Performance"
-  },
-  {
-    "objectID": "ders3.html#title",
-    "href": "ders3.html#title",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "title",
-    "text": "title\n\nClassification\nPerformance\nMetrics"
-  },
-  {
-    "objectID": "ders3.html#section-3",
-    "href": "ders3.html#section-3",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "",
-    "text": "Note\n\n\nNote that there are five types of callouts, including: note, tip, warning, caution, and important."
-  },
-  {
-    "objectID": "ders3.html#classification-performance-metrics",
-    "href": "ders3.html#classification-performance-metrics",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Classification Performance Metrics",
-    "text": "Classification Performance Metrics\nBir Sınıflandırma modeli oluşturulduktan sonra bu model ile yapılan tahminlerin ne kadar doğru olduğuna dair değerlendirme yapılması gereklidir.\nAşağıda verilen confusion matrix (karşılaştırma matrisi) bir sınıflandırma modeline dair gerçekleşen durumları ve bu durumlara dair tahminleri verilmiştir.\n\n\n\n\n\nActual (Gerçek)\n\n\n\n\n\n\n\nTrue (Doğru)\nFalse (Yanlış)\n\n\nPrediction (Tahmin)\nPozitif\nTP\nFP\n\n\n\nNegatif\nFN\nTN\n\n\n\nTP : True Positive, FP : False Positive, FN : False Negative, TN : True Negative\nTrue ve false değeri bu modele dair gerçek sonuçları, positive ve negative ise modele dair tahminleri göstermektedir."
-  },
-  {
-    "objectID": "ders3.html#regression-performance-metrics",
-    "href": "ders3.html#regression-performance-metrics",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Regression Performance Metrics",
-    "text": "Regression Performance Metrics"
-  },
-  {
-    "objectID": "ders3.html#section",
-    "href": "ders3.html#section",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "",
-    "text": "Source"
-  },
-  {
-    "objectID": "ders3.html#python-code",
-    "href": "ders3.html#python-code",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Python code",
-    "text": "Python code\n\nfrom sklearn.metrics import confusion_matrix\n\nactual    = [1, 0, 1, 1, 0, 0, 1, 0, 1, 1]\npredicted = [0, 1, 1, 1, 1, 0, 1, 1, 0, 1]\n\nprint(\"\\nConfusion matrix\")\nconf_mat = confusion_matrix(actual, predicted) \n\nprint(conf_mat)\n\n\nConfusion matrix\n[[1 3]\n [2 4]]"
-  },
-  {
-    "objectID": "ders3.html#classi",
-    "href": "ders3.html#classi",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Classi",
-    "text": "Classi"
-  },
-  {
-    "objectID": "ders3.html#classification-perform",
-    "href": "ders3.html#classification-perform",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Classification Perform",
-    "text": "Classification Perform"
-  },
-  {
-    "objectID": "ders3.html#classification-performance-metri",
-    "href": "ders3.html#classification-performance-metri",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Classification Performance Metri",
-    "text": "Classification Performance Metri"
-  },
-  {
-    "objectID": "ders3.html#classification-performance-metrics-1",
-    "href": "ders3.html#classification-performance-metrics-1",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Classification Performance Metrics",
-    "text": "Classification Performance Metrics\nTP : Churn edeceğini tahmin ettiğimiz müşterilerimiz (positive), gerçekten churn etmiş (true).\nFP : Churn edeceğini tahmin ettiğimiz müşterilerimiz (positive), gerçekte churn etmemiş (false). — &gt; Type 1 Error\nFN : Churn etmeyecek dediğimiz müşteriler (negative), gerçekte churn etmiş (false). — &gt; Type 2 Error\nTN : Churn etmeyecek dediğimiz müşteriler (negative), gerçekte churn etmemiş (true)."
-  },
-  {
-    "objectID": "ders3.html#ac",
-    "href": "ders3.html#ac",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "AC",
-    "text": "AC"
-  },
-  {
-    "objectID": "ders3.html#accur",
-    "href": "ders3.html#accur",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Accur",
-    "text": "Accur"
-  },
-  {
-    "objectID": "ders3.html#accuracy",
-    "href": "ders3.html#accuracy",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Accuracy",
-    "text": "Accuracy\nAccuracy __ (Doğruluk) __ :  Doğru tahminlerin toplam veri kümesine oranıdır.\nPrecision (Kesinlik):  Pozitif olarak tahmin edilen verilerin kaçının gerçekten pozitif olduğunu gösterir."
-  },
-  {
-    "objectID": "ders3.html#metrics",
-    "href": "ders3.html#metrics",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Metrics",
-    "text": "Metrics\nAccuracy (Doğruluk) : Doğru tahminlerin toplam veri kümesine oranıdır.\nPrecision (Kesinlik): Pozitif olarak tahmin edilen verilerin kaçının gerçekten pozitif olduğunu gösterir.\nRecall (Duyarlılık): Geliştirilen modelin pozitif olanların kaçını yakaladığını gösterir.\nF1 Score (F1 Skoru): F1 score, precision ve recall değerlerinin harmonik ortalamasıdır. Sınıf dağılımı benzer olduğunda accuracy kullanılabilirken, dengesiz veri setleri söz konusu olduğunda F1 skor daha iyi bir metriktir.\nROC Curve (ROC Eğrisi)::Yanlış pozitif oranı ve gerçek pozitif oranı göz önünde bulundurarak x ekseninde ve y ekseninde 0’dan 100’e kadar olan değerlerin üzerinde bir eğri oluşturulur. Bu eğrinin altında kalan alana Area Under Curve (AUC) adı verilir. Bu alanın büyük olması modelin başarılı olduğunu gösterir. Grafikte yer alan mavi çizgi; ne kadar geniş bir alan kaplıyorsa modelin tahmin başarısı o kadar yüksek, ortadaki kesikli çizgiye ne kadar yakınsa modelin başarı oranı o kadar düşüktür."
-  },
-  {
-    "objectID": "ders3.html#e",
-    "href": "ders3.html#e",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "E",
-    "text": "E"
-  },
-  {
-    "objectID": "ders3.html#example",
-    "href": "ders3.html#example",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Example",
-    "text": "Example\n\n\n\n\n\nActual\n\n\n\n\n\n\n\nTrue\nFalse\n\n\nTahmin\nPozitif\nTP (1)\nFP (0)\n\n\n\nNegatif\nFN (7)\nTN (92)"
-  },
-  {
-    "objectID": "ders3.html#ro",
-    "href": "ders3.html#ro",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "RO",
-    "text": "RO"
-  },
-  {
-    "objectID": "ders3.html#roc-curve",
-    "href": "ders3.html#roc-curve",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "ROC Curve",
-    "text": "ROC Curve"
   }
 ]
