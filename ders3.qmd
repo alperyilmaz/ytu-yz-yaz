@@ -140,3 +140,41 @@ print(conf_mat)
 ```
 
 ## Regression Performance Metrics
+
+Following metrics can be used to measure the performance of regression model output.
+
+* Mean Error (ME)
+* Mean Absolute Error (MAE)
+* Mean Squared Error (MSE)
+* Root Mean Squared Error (RMSE)
+
+There are much more advanced metrics but we'll learn only essental ones
+
+
+
+## Mean Error (ME)
+
+$$ \text{ME} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i) $$
+
+$y_i$:  Actual value, $\hat{y}_i$: predicted value, n: number of observations
+
+## Mean Absolute Error (MAE)
+
+Adding negative results is not right when using ME. Let's take care of it.
+
+$$ \text{MAE} = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i| $$
+
+##Mean Squared Error (MSE)
+
+$$ \text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 $$
+
+Please note that squaring the error with punish the model more. Also, squaring a difference will take care of negative sign.
+
+## Root Mean Squared Error (RMSE)
+
+$$ \text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2} $$
+
+## 
+
+
+
