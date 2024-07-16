@@ -13,7 +13,7 @@
 
 *Grup2: 4 Temmuz Perşembe 8:30 - Grup1: 4 Temmuz Perşembe 18:00*
 
-**İçerik**: İlk derste, ChatGPT ve benzeri büyük dil modelleri tanıtıldı. OpenAI Playground üzerinde "cümle tamamlama" kavramı ve "temparature" ayarı gösterildi. Daha iyi çıktı almak için Prompt ayarları anlatıldı. Dökümandan sorgu/chat yapmak için Gemini ve Claude örnekleri verildi. Yine Claude üzerinden kod yazdırma örneği işlendi. [Sunum linki](ders1.ipynb)
+**İçerik**: İlk derste, ChatGPT ve benzeri büyük dil modelleri tanıtıldı. OpenAI Playground üzerinde "cümle tamamlama" kavramı ve "temparature" ayarı gösterildi. Daha iyi çıktı almak için Prompt ayarları anlatıldı. Dökümandan sorgu/chat yapmak için Gemini ve Claude örnekleri verildi. Yine Claude üzerinden kod yazdırma örneği işlendi. [İngilizce Sunum linki](ders1.ipynb), [Türkçe Sunum linki](ders1-TR.qmd) 
 
 <!--  Uygulamada kullanılacak dosyalar: [mtcars (Excel)](files/mtcars.xlsx) -->
 
