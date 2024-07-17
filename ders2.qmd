@@ -11,6 +11,8 @@ format:
     scrollable: true
     controls: true
     touch: true
+    history: false
+    progress: true
 typora-copy-images-to: images
 ---
 
