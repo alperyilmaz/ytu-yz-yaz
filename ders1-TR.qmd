@@ -89,11 +89,11 @@ def is_prime(n, memo={}):
 ```python
 # is_prime(100000000003)
 ```
+::: {.callout-warning title="Uyarı"}
+ Bu notu yazdığım sırada (Ocak 2023) chatGPT'nin tam olarak doğru olmayan sonuçlar verdiği biliniyordu!<br>Bu nedenle,
+chatGPT'den aldığınız kodu veya bilgiyi kontrol etmeden veya doğrulamadan olduğu gibi kullanmamaya dikkat ediniz.
+:::
 
-<div class="alert alert-block alert-warning">
-    <i class="fas fa-fw fa-exclamation-circle mr-3 align-self-center"></i>
-    <b>Uyarı:</b> Bu notu yazdığım sırada (Ocak 2023) chatGPT'nin tam olarak doğru olmayan sonuçlar verdiği biliniyordu!<br>Bu nedenle, chatGPT'den aldığınız kodu veya bilgiyi kontrol etmeden veya doğrulamadan olduğu gibi kullanmamaya dikkat edin. 
-</div>
 
 ## ChatGPT kodu düzeltebilir veya değiştirebilir
 
