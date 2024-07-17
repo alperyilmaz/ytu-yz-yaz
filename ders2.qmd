@@ -13,6 +13,7 @@ format:
     touch: true
     history: false
     progress: true
+    slide-number: c/t
 typora-copy-images-to: images
 ---
 
