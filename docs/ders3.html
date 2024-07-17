@@ -490,25 +490,96 @@ Alper Yılmaz
 </section>
 <section id="classification-performance-metrics-1" class="slide level2">
 <h2>Classification Performance Metrics</h2>
-<p>TP : Churn edeceğini tahmin ettiğimiz müşterilerimiz (positive), gerçekten churn etmiş (true).</p>
-<p>FP : Churn edeceğini tahmin ettiğimiz müşterilerimiz (positive), gerçekte churn etmemiş (false). — &gt; Type 1 Error</p>
-<p>FN : Churn etmeyecek dediğimiz müşteriler (negative), gerçekte churn etmiş (false). — &gt; Type 2 Error</p>
-<p>TN : Churn etmeyecek dediğimiz müşteriler (negative), gerçekte churn etmemiş (true).</p>
+<p>Tümör ve Hasta örnekleri ele alırsak, Normal örnekler <em>negatif</em> olarak, Tümör örnekleri de <em>pozitif</em> olarak değerlendirilebilir.</p>
+<p><br></p>
+<p>TP : Gerçekte Tümör olan hastayı (true/pozitif) Tümör olarak tahmin etmek (pozitif).</p>
+<p><br></p>
+<p>FP : Gerçekte Normal olan örneği (false/negatif) Tümör olarak tahmin etmek (pozitif). — &gt; Type 1 Error</p>
+<p><br></p>
+<p>FN : Gerçekte Tümor olan örneği (true/pozitif) Normal olarak tahmin etmek (negatif). — &gt; Type 2 Error</p>
+<p><br></p>
+<p>TN : Gerçekte Normal olan örneği (false/negatif) Normal olarak tahmin etmek (negatif).</p>
 </section>
 <section id="metrics" class="slide level2">
 <h2>Metrics</h2>
 <p><strong>Accuracy</strong> <em>(Doğruluk)</em> : Doğru tahminlerin toplam veri kümesine oranıdır.</p>
 <p><strong>Precision</strong> <em>(Kesinlik)</em>: Pozitif olarak tahmin edilen verilerin kaçının gerçekten pozitif olduğunu gösterir.</p>
-<p><strong>Recall</strong> <em>(Duyarlılık)</em>: Geliştirilen modelin pozitif olanların kaçını yakaladığını gösterir.</p>
+<p><strong>Recall or Sensitivity</strong> <em>(Duyarlılık)</em>: Geliştirilen modelin pozitif olanların kaçını yakaladığını gösterir.</p>
 <p><strong>F1 Score</strong> <em>(F1 Skoru)</em>: F1 score, precision ve recall değerlerinin harmonik ortalamasıdır. Sınıf dağılımı benzer olduğunda accuracy kullanılabilirken, dengesiz veri setleri söz konusu olduğunda F1 skor daha iyi bir metriktir.</p>
-<p><strong>ROC Curve</strong> <em>(ROC Eğrisi)</em>::Yanlış pozitif oranı ve gerçek pozitif oranı göz önünde bulundurarak x ekseninde ve y ekseninde 0’dan 100’e kadar olan değerlerin üzerinde bir eğri oluşturulur. Bu eğrinin altında kalan alana Area Under Curve (AUC) adı verilir. Bu alanın büyük olması modelin başarılı olduğunu gösterir. Grafikte yer alan mavi çizgi; ne kadar geniş bir alan kaplıyorsa modelin tahmin başarısı o kadar yüksek, ortadaki kesikli çizgiye ne kadar yakınsa modelin başarı oranı o kadar düşüktür.</p>
+<p><strong>ROC Curve</strong> <em>(ROC Eğrisi)</em>: Yanlış pozitif oranı ve gerçek pozitif oranı göz önünde bulundurarak x ekseninde ve y ekseninde 0’dan 100’e kadar olan değerlerin üzerinde bir eğri oluşturulur. Bu eğrinin altında kalan alana Area Under Curve (AUC) adı verilir. Bu alanın büyük olması modelin başarılı olduğunu gösterir. Grafikte yer alan mavi çizgi; ne kadar geniş bir alan kaplıyorsa modelin tahmin başarısı o kadar yüksek, ortadaki kesikli çizgiye ne kadar yakınsa modelin başarı oranı o kadar düşüktür.</p>
 </section>
 <section id="roc-curve" class="slide level2">
 <h2>ROC Curve</h2>
 
 <img data-src="images/hafta2_DeğerlendirmeÖlçütleri0.png" class="r-stretch"></section>
+<section id="why-too-many-metrics" class="slide level2">
+<h2>Why too many metrics?</h2>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p>Neden birden fazla metrik kullanılıyor, bir örnek ile görelim. Yandaki durum için, 8 Normal ve 2 Tümör olan bir durumda, her örnek için Normal diye tahminde bulunursak. True Negatif (TN) sayısı 8 ve False Negatif (FN) sayısı ise 2 olmaktadır.</p>
+<p>Bu durumda, doğruluk, accuracy</p>
+<p>ACC = (TP + TN) / (TP + FP + TN + FN)</p>
+<p>formülünden dolayı 8 / 10 = 0.8 yani %80 olarak hesaplanmaktadır.</p>
+<p>Fakat, Duyarlılık/Sensitivity</p>
+<p>SENS = TP / (TP + FN)</p>
+<p>formülünden 0 çıkmaktadır.</p>
+</div><div class="column" style="width:40%;">
+<table>
+<thead>
+<tr class="header">
+<th>Actual Label</th>
+<th>Prediction</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Tumor</td>
+<td>Normal</td>
+</tr>
+<tr class="even">
+<td>Tumor</td>
+<td>Normal</td>
+</tr>
+<tr class="odd">
+<td>Normal</td>
+<td>Normal</td>
+</tr>
+<tr class="even">
+<td>Normal</td>
+<td>Normal</td>
+</tr>
+<tr class="odd">
+<td>Normal</td>
+<td>Normal</td>
+</tr>
+<tr class="even">
+<td>Normal</td>
+<td>Normal</td>
+</tr>
+<tr class="odd">
+<td>Normal</td>
+<td>Normal</td>
+</tr>
+<tr class="even">
+<td>Normal</td>
+<td>Normal</td>
+</tr>
+<tr class="odd">
+<td>Normal</td>
+<td>Normal</td>
+</tr>
+<tr class="even">
+<td>Normal</td>
+<td>Normal</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
 <section id="example" class="slide level2">
 <h2>Example</h2>
+<p>100 kişilik bir çalışmada, 25 Tümör hastası ve 75 Normal birey bulunmaktadır. Normal (negatif) olan 70 kişi Normal olarak tahmin edilmştir (TN: True Negatif). 5 kişi Normal olduğu halde Tümör olarak tahmin edilmiştir (FP: False pozitif). Gerçekte Tümör olan 15 kişi Tümör olarak tahmin edilmiştir (TP: True pozitif). Son olarak, 10 kişi Tümör olduğu halde Normal olarak tahmin edilmiştir (FN: False negatif). Bu duruma göre Confusion Matrix aşağıdaki gibi hesaplanacaktır.</p>
 <table>
 <thead>
 <tr class="header">
@@ -528,17 +599,25 @@ Alper Yılmaz
 <tr class="even">
 <td style="text-align: center;">Tahmin</td>
 <td style="text-align: center;">Pozitif</td>
-<td style="text-align: center;">TP (1)</td>
-<td style="text-align: center;">FP (0)</td>
+<td style="text-align: center;">TP (15)</td>
+<td style="text-align: center;">FP (5)</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;"></td>
 <td style="text-align: center;">Negatif</td>
-<td style="text-align: center;">FN (7)</td>
-<td style="text-align: center;">TN (92)</td>
+<td style="text-align: center;">FN (10)</td>
+<td style="text-align: center;">TN (70)</td>
 </tr>
 </tbody>
 </table>
+</section>
+<section id="example-1" class="slide level2">
+<h2>Example</h2>
+<p>Bu durumda,</p>
+<p>Doğruluk (Accuracy) ACC = (TP + TN) / (TP + TN + FN + FP) = 0.85</p>
+<p>Duyarlılık (Sensitivity) SENS = TP / (TP + FN) = 0.60</p>
+<p>Kesinlik (Precision) PREC = TP / (TP + FP) = 0.75</p>
+<p>F1 Skor = 2 x (PREC x SENS) / (PREC + SENS) = 0.6667</p>
 </section>
 <section id="summary" class="slide level2">
 <h2>Summary</h2>
@@ -547,7 +626,7 @@ Alper Yılmaz
 </section>
 <section id="python-code" class="slide level2">
 <h2>Python code</h2>
-<div id="4b3ffedf" class="cell" data-execution_count="1">
+<div id="a6e96a8f" class="cell" data-execution_count="1">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> confusion_matrix</span>
 <span id="cb1-2"><a></a></span>
 <span id="cb1-3"><a></a>actual    <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">0</span>, <span class="dv">1</span>, <span class="dv">1</span>]</span>
@@ -585,16 +664,15 @@ Confusion matrix
 <h2>Mean Absolute Error (MAE)</h2>
 <p>Adding negative results is not right when using ME. Let’s take care of it.</p>
 <p><span class="math display">\[ \text{MAE} = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i| \]</span></p>
-<p>##Mean Squared Error (MSE)</p>
+</section>
+<section id="mean-squared-error-mse" class="slide level2">
+<h2>Mean Squared Error (MSE)</h2>
 <p><span class="math display">\[ \text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 \]</span></p>
 <p>Please note that squaring the error with punish the model more. Also, squaring a difference will take care of negative sign.</p>
 </section>
 <section id="root-mean-squared-error-rmse" class="slide level2">
 <h2>Root Mean Squared Error (RMSE)</h2>
 <p><span class="math display">\[ \text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2} \]</span></p>
-</section>
-<section id="section-2" class="slide level2">
-<h2></h2>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">

@@ -109,14 +109,14 @@
     "href": "ders3.html#classification-performance-metrics-1",
     "title": "Değerlendirme Ölçütleri",
     "section": "Classification Performance Metrics",
-    "text": "Classification Performance Metrics\nTP : Churn edeceğini tahmin ettiğimiz müşterilerimiz (positive), gerçekten churn etmiş (true).\nFP : Churn edeceğini tahmin ettiğimiz müşterilerimiz (positive), gerçekte churn etmemiş (false). — &gt; Type 1 Error\nFN : Churn etmeyecek dediğimiz müşteriler (negative), gerçekte churn etmiş (false). — &gt; Type 2 Error\nTN : Churn etmeyecek dediğimiz müşteriler (negative), gerçekte churn etmemiş (true)."
+    "text": "Classification Performance Metrics\nTümör ve Hasta örnekleri ele alırsak, Normal örnekler negatif olarak, Tümör örnekleri de pozitif olarak değerlendirilebilir.\n\nTP : Gerçekte Tümör olan hastayı (true/pozitif) Tümör olarak tahmin etmek (pozitif).\n\nFP : Gerçekte Normal olan örneği (false/negatif) Tümör olarak tahmin etmek (pozitif). — &gt; Type 1 Error\n\nFN : Gerçekte Tümor olan örneği (true/pozitif) Normal olarak tahmin etmek (negatif). — &gt; Type 2 Error\n\nTN : Gerçekte Normal olan örneği (false/negatif) Normal olarak tahmin etmek (negatif)."
   },
   {
     "objectID": "ders3.html#metrics",
     "href": "ders3.html#metrics",
     "title": "Değerlendirme Ölçütleri",
     "section": "Metrics",
-    "text": "Metrics\nAccuracy (Doğruluk) : Doğru tahminlerin toplam veri kümesine oranıdır.\nPrecision (Kesinlik): Pozitif olarak tahmin edilen verilerin kaçının gerçekten pozitif olduğunu gösterir.\nRecall (Duyarlılık): Geliştirilen modelin pozitif olanların kaçını yakaladığını gösterir.\nF1 Score (F1 Skoru): F1 score, precision ve recall değerlerinin harmonik ortalamasıdır. Sınıf dağılımı benzer olduğunda accuracy kullanılabilirken, dengesiz veri setleri söz konusu olduğunda F1 skor daha iyi bir metriktir.\nROC Curve (ROC Eğrisi)::Yanlış pozitif oranı ve gerçek pozitif oranı göz önünde bulundurarak x ekseninde ve y ekseninde 0’dan 100’e kadar olan değerlerin üzerinde bir eğri oluşturulur. Bu eğrinin altında kalan alana Area Under Curve (AUC) adı verilir. Bu alanın büyük olması modelin başarılı olduğunu gösterir. Grafikte yer alan mavi çizgi; ne kadar geniş bir alan kaplıyorsa modelin tahmin başarısı o kadar yüksek, ortadaki kesikli çizgiye ne kadar yakınsa modelin başarı oranı o kadar düşüktür."
+    "text": "Metrics\nAccuracy (Doğruluk) : Doğru tahminlerin toplam veri kümesine oranıdır.\nPrecision (Kesinlik): Pozitif olarak tahmin edilen verilerin kaçının gerçekten pozitif olduğunu gösterir.\nRecall or Sensitivity (Duyarlılık): Geliştirilen modelin pozitif olanların kaçını yakaladığını gösterir.\nF1 Score (F1 Skoru): F1 score, precision ve recall değerlerinin harmonik ortalamasıdır. Sınıf dağılımı benzer olduğunda accuracy kullanılabilirken, dengesiz veri setleri söz konusu olduğunda F1 skor daha iyi bir metriktir.\nROC Curve (ROC Eğrisi): Yanlış pozitif oranı ve gerçek pozitif oranı göz önünde bulundurarak x ekseninde ve y ekseninde 0’dan 100’e kadar olan değerlerin üzerinde bir eğri oluşturulur. Bu eğrinin altında kalan alana Area Under Curve (AUC) adı verilir. Bu alanın büyük olması modelin başarılı olduğunu gösterir. Grafikte yer alan mavi çizgi; ne kadar geniş bir alan kaplıyorsa modelin tahmin başarısı o kadar yüksek, ortadaki kesikli çizgiye ne kadar yakınsa modelin başarı oranı o kadar düşüktür."
   },
   {
     "objectID": "ders3.html#roc-curve",
@@ -126,11 +126,25 @@
     "text": "ROC Curve"
   },
   {
+    "objectID": "ders3.html#why-too-many-metrics",
+    "href": "ders3.html#why-too-many-metrics",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Why too many metrics?",
+    "text": "Why too many metrics?\n\n\nNeden birden fazla metrik kullanılıyor, bir örnek ile görelim. Yandaki durum için, 8 Normal ve 2 Tümör olan bir durumda, her örnek için Normal diye tahminde bulunursak. True Negatif (TN) sayısı 8 ve False Negatif (FN) sayısı ise 2 olmaktadır.\nBu durumda, doğruluk, accuracy\nACC = (TP + TN) / (TP + FP + TN + FN)\nformülünden dolayı 8 / 10 = 0.8 yani %80 olarak hesaplanmaktadır.\nFakat, Duyarlılık/Sensitivity\nSENS = TP / (TP + FN)\nformülünden 0 çıkmaktadır.\n\n\n\n\nActual Label\nPrediction\n\n\n\n\nTumor\nNormal\n\n\nTumor\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal"
+  },
+  {
     "objectID": "ders3.html#example",
     "href": "ders3.html#example",
     "title": "Değerlendirme Ölçütleri",
     "section": "Example",
-    "text": "Example\n\n\n\n\n\nActual\n\n\n\n\n\n\n\nTrue\nFalse\n\n\nTahmin\nPozitif\nTP (1)\nFP (0)\n\n\n\nNegatif\nFN (7)\nTN (92)"
+    "text": "Example\n100 kişilik bir çalışmada, 25 Tümör hastası ve 75 Normal birey bulunmaktadır. Normal (negatif) olan 70 kişi Normal olarak tahmin edilmştir (TN: True Negatif). 5 kişi Normal olduğu halde Tümör olarak tahmin edilmiştir (FP: False pozitif). Gerçekte Tümör olan 15 kişi Tümör olarak tahmin edilmiştir (TP: True pozitif). Son olarak, 10 kişi Tümör olduğu halde Normal olarak tahmin edilmiştir (FN: False negatif). Bu duruma göre Confusion Matrix aşağıdaki gibi hesaplanacaktır.\n\n\n\n\n\nActual\n\n\n\n\n\n\n\nTrue\nFalse\n\n\nTahmin\nPozitif\nTP (15)\nFP (5)\n\n\n\nNegatif\nFN (10)\nTN (70)"
+  },
+  {
+    "objectID": "ders3.html#example-1",
+    "href": "ders3.html#example-1",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Example",
+    "text": "Example\nBu durumda,\nDoğruluk (Accuracy) ACC = (TP + TN) / (TP + TN + FN + FP) = 0.85\nDuyarlılık (Sensitivity) SENS = TP / (TP + FN) = 0.60\nKesinlik (Precision) PREC = TP / (TP + FP) = 0.75\nF1 Skor = 2 x (PREC x SENS) / (PREC + SENS) = 0.6667"
   },
   {
     "objectID": "ders3.html#summary",
@@ -165,7 +179,14 @@
     "href": "ders3.html#mean-absolute-error-mae",
     "title": "Değerlendirme Ölçütleri",
     "section": "Mean Absolute Error (MAE)",
-    "text": "Mean Absolute Error (MAE)\nAdding negative results is not right when using ME. Let’s take care of it.\n\\[ \\text{MAE} = \\frac{1}{n} \\sum_{i=1}^{n} |y_i - \\hat{y}_i| \\]\n##Mean Squared Error (MSE)\n\\[ \\text{MSE} = \\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^2 \\]\nPlease note that squaring the error with punish the model more. Also, squaring a difference will take care of negative sign."
+    "text": "Mean Absolute Error (MAE)\nAdding negative results is not right when using ME. Let’s take care of it.\n\\[ \\text{MAE} = \\frac{1}{n} \\sum_{i=1}^{n} |y_i - \\hat{y}_i| \\]"
+  },
+  {
+    "objectID": "ders3.html#mean-squared-error-mse",
+    "href": "ders3.html#mean-squared-error-mse",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Mean Squared Error (MSE)",
+    "text": "Mean Squared Error (MSE)\n\\[ \\text{MSE} = \\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^2 \\]\nPlease note that squaring the error with punish the model more. Also, squaring a difference will take care of negative sign."
   },
   {
     "objectID": "ders3.html#root-mean-squared-error-rmse",
