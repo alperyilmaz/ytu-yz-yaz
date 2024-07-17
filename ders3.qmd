@@ -85,13 +85,23 @@ True ve false değeri bu modele dair gerçek sonuçları\, positive ve negative 
 
 ## Classification Performance Metrics
 
-TP : Churn edeceğini tahmin ettiğimiz müşterilerimiz \(positive\)\, gerçekten churn etmiş \(true\)\.
+Tümör ve Hasta örnekleri ele alırsak, Normal örnekler *negatif* olarak, Tümör örnekleri de *pozitif* olarak değerlendirilebilir.
 
-FP : Churn edeceğini tahmin ettiğimiz müşterilerimiz \(positive\)\, gerçekte churn etmemiş \(false\)\. — > Type 1 Error
+<br>
 
-FN : Churn etmeyecek dediğimiz müşteriler \(negative\)\, gerçekte churn etmiş \(false\)\. — > Type 2 Error
+TP : Gerçekte Tümör olan hastayı (true/pozitif) Tümör olarak tahmin etmek (pozitif).
 
-TN : Churn etmeyecek dediğimiz müşteriler \(negative\)\, gerçekte churn etmemiş \(true\)\.
+<br>
+
+FP : Gerçekte Normal olan örneği (false/negatif) Tümör olarak tahmin etmek (pozitif). — > Type 1 Error
+
+<br>
+
+FN : Gerçekte Tümor olan örneği (true/pozitif) Normal olarak tahmin etmek (negatif). — > Type 2 Error
+
+<br>
+
+TN : Gerçekte Normal olan örneği (false/negatif) Normal olarak tahmin etmek (negatif).
 
 ## Metrics
 
@@ -99,25 +109,77 @@ TN : Churn etmeyecek dediğimiz müşteriler \(negative\)\, gerçekte churn etme
 
 **Precision** *(Kesinlik)*: Pozitif olarak tahmin edilen verilerin kaçının gerçekten pozitif olduğunu gösterir.
 
-**Recall**  *(Duyarlılık)*: Geliştirilen modelin pozitif olanların kaçını yakaladığını  gösterir.
+**Recall or Sensitivity**  *(Duyarlılık)*: Geliştirilen modelin pozitif olanların kaçını yakaladığını  gösterir.
 
 **F1 Score** *(F1 Skoru)*: F1 score, precision ve recall değerlerinin harmonik ortalamasıdır. Sınıf dağılımı benzer olduğunda accuracy kullanılabilirken, dengesiz veri setleri söz konusu olduğunda F1 skor daha iyi bir metriktir.
 
-**ROC Curve** *(ROC Eğrisi)*::Yanlış pozitif oranı ve gerçek pozitif oranı göz önünde bulundurarak x ekseninde ve y ekseninde 0'dan 100'e kadar olan değerlerin üzerinde bir eğri oluşturulur. Bu eğrinin altında kalan alana Area Under Curve (AUC) adı verilir. Bu alanın büyük olması modelin başarılı olduğunu gösterir. Grafikte yer alan mavi çizgi; ne kadar geniş bir alan kaplıyorsa modelin tahmin başarısı o kadar yüksek, ortadaki kesikli çizgiye ne kadar yakınsa modelin başarı oranı o kadar düşüktür.
+**ROC Curve** *(ROC Eğrisi)*: Yanlış pozitif oranı ve gerçek pozitif oranı göz önünde bulundurarak x ekseninde ve y ekseninde 0'dan 100'e kadar olan değerlerin üzerinde bir eğri oluşturulur. Bu eğrinin altında kalan alana Area Under Curve (AUC) adı verilir. Bu alanın büyük olması modelin başarılı olduğunu gösterir. Grafikte yer alan mavi çizgi; ne kadar geniş bir alan kaplıyorsa modelin tahmin başarısı o kadar yüksek, ortadaki kesikli çizgiye ne kadar yakınsa modelin başarı oranı o kadar düşüktür.
 
 ## ROC Curve
 
 ![](images/hafta2_De%C4%9Ferlendirme%C3%96l%C3%A7%C3%BCtleri0.png)
 
+## Why too many metrics?
+
+:::: {.columns}
+
+::: {.column width="60%"}
+Neden birden fazla metrik kullanılıyor, bir örnek ile görelim. Yandaki durum için, 8 Normal ve 2 Tümör olan bir durumda, her örnek için
+Normal diye tahminde bulunursak. True Negatif (TN) sayısı 8 ve False Negatif (FN) sayısı ise 2 olmaktadır.
+
+Bu durumda, doğruluk, accuracy
+
+ACC = (TP + TN) / (TP + FP + TN + FN)
+
+formülünden dolayı 8 / 10 = 0.8 yani %80 olarak hesaplanmaktadır.
+
+Fakat, Duyarlılık/Sensitivity
+
+SENS = TP / (TP + FN)
+
+formülünden 0 çıkmaktadır.
+:::
+
+::: {.column width="40%"}
+
+| Actual Label  | Prediction |
+|--------|------------|
+| Tumor | Normal     |
+| Tumor  | Normal      |
+| Normal | Normal      |
+| Normal  | Normal     |
+| Normal | Normal     |
+| Normal  | Normal      |
+| Normal | Normal      |
+| Normal  | Normal     |
+| Normal | Normal     |
+| Normal  | Normal      |
+
+:::
+::::
+
+
 ## Example
+
+100 kişilik bir çalışmada, 25 Tümör hastası ve 75 Normal birey bulunmaktadır. Normal (negatif) olan 70 kişi Normal olarak tahmin edilmştir (TN: True Negatif). 5 kişi Normal olduğu halde Tümör olarak tahmin edilmiştir (FP: False pozitif).  Gerçekte Tümör olan 15 kişi Tümör olarak tahmin edilmiştir (TP: True pozitif). Son olarak, 10 kişi Tümör olduğu halde Normal olarak tahmin edilmiştir (FN: False negatif). Bu duruma göre Confusion Matrix aşağıdaki gibi hesaplanacaktır.  
 
 |        |         | Actual |         |
 | :----: | :-----: | :----: | :-----: |
 |        |         |  True  |  False  |
-| Tahmin | Pozitif | TP (1) | FP (0)  |
-|        | Negatif | FN (7) | TN (92) |
+| Tahmin | Pozitif | TP (15) | FP (5)  |
+|        | Negatif | FN (10) | TN (70) |
 
+## Example
 
+Bu durumda, 
+
+Doğruluk (Accuracy) ACC = (TP + TN) / (TP + TN + FN + FP) = 0.85
+ 
+Duyarlılık (Sensitivity) SENS = TP / (TP + FN) = 0.60
+
+Kesinlik (Precision) PREC = TP / (TP + FP) = 0.75
+
+F1 Skor = 2 x (PREC x SENS) / (PREC + SENS) = 0.6667 
 
 ## Summary
 
@@ -166,7 +228,7 @@ Adding negative results is not right when using ME. Let's take care of it.
 
 $$ \text{MAE} = \frac{1}{n} \sum_{i=1}^{n} |y_i - \hat{y}_i| $$
 
-##Mean Squared Error (MSE)
+## Mean Squared Error (MSE)
 
 $$ \text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 $$
 
@@ -175,8 +237,6 @@ Please note that squaring the error with punish the model more. Also, squaring a
 ## Root Mean Squared Error (RMSE)
 
 $$ \text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2} $$
-
-## 
 
 
 
