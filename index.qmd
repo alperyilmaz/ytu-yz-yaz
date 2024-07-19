@@ -39,6 +39,6 @@
 
 *Grup2: 19 Temmuz Cuma 8:30 - Grup1: 19 Temmuz Cuma 14:00*
 
-**İçerik**: Sınıflandırma metodları [Sunum linki](ders5.qmd)
+**İçerik**: Sınıflandırma metodları [İngilizce Sunum linki](ders5.qmd), [Türkçe Sunum Linki](ders5-TR.qmd)
 
 
