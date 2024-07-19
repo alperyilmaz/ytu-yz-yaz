@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>FEF3001 Yapay Zekaya Giriş</title>
+<title>FEF3001 Yapay Zekaya Giriş – id3-decision-tree-tr</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -88,7 +88,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Ana Sayfa</span></a>
   </li>  
   <li class="nav-item">
@@ -111,15 +111,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#fef3001-yapay-zekaya-giriş" id="toc-fef3001-yapay-zekaya-giriş" class="nav-link active" data-scroll-target="#fef3001-yapay-zekaya-giriş">FEF3001 Yapay Zekaya Giriş</a>
-  <ul class="collapse">
-  <li><a href="#kaynaklar" id="toc-kaynaklar" class="nav-link" data-scroll-target="#kaynaklar">Kaynaklar</a></li>
-  <li><a href="#ders1" id="toc-ders1" class="nav-link" data-scroll-target="#ders1">Ders1</a></li>
-  <li><a href="#ders2" id="toc-ders2" class="nav-link" data-scroll-target="#ders2">Ders2</a></li>
-  <li><a href="#ders3" id="toc-ders3" class="nav-link" data-scroll-target="#ders3">Ders3</a></li>
-  <li><a href="#ders4" id="toc-ders4" class="nav-link" data-scroll-target="#ders4">Ders4</a></li>
-  <li><a href="#ders5" id="toc-ders5" class="nav-link" data-scroll-target="#ders5">Ders5</a></li>
-  </ul></li>
+  <li><a href="#karar-ağacı-algoritması" id="toc-karar-ağacı-algoritması" class="nav-link active" data-scroll-target="#karar-ağacı-algoritması">Karar Ağacı Algoritması</a></li>
+  <li><a href="#id3-algoritması-kullanarak-sınıflandırma" id="toc-id3-algoritması-kullanarak-sınıflandırma" class="nav-link" data-scroll-target="#id3-algoritması-kullanarak-sınıflandırma"><strong>ID3 algoritması kullanarak sınıflandırma</strong></a></li>
+  <li><a href="#cart-algoritması-kullanarak-sınıflandırma" id="toc-cart-algoritması-kullanarak-sınıflandırma" class="nav-link" data-scroll-target="#cart-algoritması-kullanarak-sınıflandırma">CART algoritması kullanarak sınıflandırma</a></li>
   </ul>
 </nav>
     </div>
@@ -129,47 +123,88 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="fef3001-yapay-zekaya-giriş" class="level1">
-<h1>FEF3001 Yapay Zekaya Giriş</h1>
-<section id="kaynaklar" class="level2">
-<h2 class="anchored" data-anchor-id="kaynaklar">Kaynaklar</h2>
-<ul>
-<li><em>Makine Öğrenmesinde Sınıflandırma Yöntemleri ve R Uygulamaları</em>, Ersoy Öz &amp; Selçuk Alp, Nobel Akademik Yayıncılık, 2020.</li>
-<li><em>Veri Madenciliği ve Makine Öğrenmesi İle Farklı Alanlarda Uygulamalar</em>, Şenol Çelik, Nilay Köleoğlu, &amp; Fatih Çemrek, Holistence Publications, 2022</li>
-<li><em>Sağlık Bilimlerinde Yapay Zeka</em>, Ahmet Rıza Şahin, Kamil Doğan, &amp; Süleyman Sivri, Akademisyen Kitabevi A.Ş., 2020</li>
-<li><em>Yapay Zeka</em>, Atınç Yılmaz, Kodlab Yayın Dağıtım Yazılım Ltd.&nbsp;Şti., 2022</li>
-<li><em>Machine Learning Algorithms</em>, Giuseppe Bonaccorso, Packt Publishing, 2017.</li>
-<li><em>Optimizasyon Modelleme ve Yapay Zeka Algoritmaları</em>, Bayram Köse, Bahar Demirtürk, Efe Akademi Yayınları, 2023</li>
-</ul>
+<section id="karar-ağacı-algoritması" class="level1">
+<h1>Karar Ağacı Algoritması</h1>
+<p><strong>Kaynak:</strong> <a href="https://medium.datadriveninvestor.com/decision-tree-algorithm-with-hands-on-example-e6c2afb40d38">https://medium.datadriveninvestor.com/decision-tree-algorithm-with-hands-on-example-e6c2afb40d38</a></p>
+<p><strong>Entropi</strong></p>
+<p>Makine öğreniminde, entropi işlenen bilgideki rastgeleliğin bir ölçüsüdür. Entropi ne kadar yüksek olursa, o bilgiden herhangi bir sonuç çıkarmak o kadar zor olur.</p>
+<p><img src="attachments/10uVq1Kv1CyiH3VgfY-pl-Q.png" class="img-fluid"></p>
+<p><strong>Bilgi Kazancı</strong></p>
+<p>Bilgi kazancı, bir rastgele değişken veya sinyalle ilgili olarak başka bir rastgele değişkeni gözlemleyerek elde edilen bilgi miktarı olarak tanımlanabilir. Ebeveyn düğümün entropisi ile çocuk düğümlerin ağırlıklı ortalama entropisi arasındaki fark olarak düşünülebilir.</p>
+<p><img src="attachments/16dQPb_BI5pBaUGKYBKMF4A.png" class="img-fluid"></p>
+<p><strong>Gini Safsızlığı</strong></p>
+<p>Gini safsızlığı, kümeden rastgele seçilen bir elemanın, alt kümedeki etiketlerin dağılımına göre rastgele etiketlendiğinde ne sıklıkla yanlış etiketleneceğinin bir ölçüsüdür.</p>
+<p><img src="attachments/1FAijCE_5ypjW5VTFWiAFcw.png" class="img-fluid"></p>
+<p>Gini safsızlığı <strong>0 ile alt sınırlıdır</strong> ve veri kümesi yalnızca bir sınıf içeriyorsa 0 olur.</p>
+<p><img src="attachments/0vd_2JGIFvrIBpjBW.png" class="img-fluid"></p>
+<p>Karar ağacı oluşturmak için birçok algoritma vardır. Bunlar:</p>
+<ol type="1">
+<li><strong>CART</strong> (Sınıflandırma ve Regresyon Ağaçları) — Bu, metrik olarak Gini safsızlığını kullanır.</li>
+<li><strong>ID3</strong> (Yinelemeli Bölücü 3) — Bu, metrik olarak entropi ve bilgi kazancını kullanır.</li>
+</ol>
+<p>Bu makalede ID3’ü ele alacağım. Bunu anladıktan sonra, aynısını CART kullanarak uygulamak kolay olacaktır.</p>
 </section>
-<section id="ders1" class="level2">
-<h2 class="anchored" data-anchor-id="ders1">Ders1</h2>
-<p><em>Grup2: 4 Temmuz Perşembe 8:30 - Grup1: 4 Temmuz Perşembe 18:00</em></p>
-<p><strong>İçerik</strong>: İlk derste, ChatGPT ve benzeri büyük dil modelleri tanıtıldı. OpenAI Playground üzerinde “cümle tamamlama” kavramı ve “temparature” ayarı gösterildi. Daha iyi çıktı almak için Prompt ayarları anlatıldı. Dökümandan sorgu/chat yapmak için Gemini ve Claude örnekleri verildi. Yine Claude üzerinden kod yazdırma örneği işlendi. <a href="./ders1.html">İngilizce Sunum linki</a>, <a href="./ders1-TR.html">Türkçe Sunum linki</a></p>
-<!--  Uygulamada kullanılacak dosyalar: [mtcars (Excel)](files/mtcars.xlsx) -->
+<section id="id3-algoritması-kullanarak-sınıflandırma" class="level1">
+<h1><strong>ID3 algoritması kullanarak sınıflandırma</strong></h1>
+<p>Futbol oynayıp oynamama kararını belirleyeceğimiz bir veri setini düşünün.</p>
+<p><img src="attachments/1Jr1Qf-m1u-vGzDao6_CxqA.png" class="img-fluid"></p>
+<p>Burada bağımlı değişkeni belirlemek için dört bağımsız değişken vardır. Bağımsız değişkenler Hava Durumu, Sıcaklık, Nem ve Rüzgardır. Bağımlı değişken ise futbol oynayıp oynamama durumudur.</p>
+<p>İlk adım olarak, karar ağacımız için ebeveyn düğümü bulmalıyız. Bunun için şu adımları izleyin:</p>
+<p><strong><em>Sınıf değişkeninin entropisini bulun.</em></strong></p>
+<p>E(S) = -[(9/14)log(9/14) + (5/14)log(5/14)] = 0.94</p>
+<p>not: Burada genellikle 2 tabanında logaritma alırız. Burada toplam 14 evet/hayır var. Bunların 9’u evet ve 5’i hayır. Buna dayanarak yukarıdaki olasılığı hesapladık.</p>
+<p>Yukarıdaki verilerden hava durumu için aşağıdaki tabloyu kolayca elde edebiliriz:</p>
+<p><img src="attachments/1rOMu0nVD-8NL93eeUBDKoA.png" class="img-fluid"></p>
+<p><strong><em>Şimdi ağırlıklı ortalama entropiyi hesaplamamız gerekiyor.</em></strong> Yani, her özelliğin ağırlıklarının olasılıklarla çarpımının toplamını bulduk.</p>
+<p>E(S, hava durumu) = (5/14)<em>E(3,2) + (4/14)</em>E(4,0) + (5/14)*E(2,3) = (5/14)(-(3/5)log(3/5)-(2/5)log(2/5))+ (4/14)(0) + (5/14)((2/5)log(2/5)-(3/5)log(3/5)) = 0.693</p>
+<p><strong><em>Bir sonraki adım bilgi kazancını bulmaktır.</em></strong> Bu, ebeveyn entropisi ile yukarıda bulduğumuz ağırlıklı ortalama entropi arasındaki farktır.</p>
+<p>IG(S, hava durumu) = 0.94 - 0.693 = 0.247</p>
+<p>Benzer şekilde Sıcaklık, Nem ve Rüzgar için Bilgi Kazancını bulun.</p>
+<p>IG(S, Sıcaklık) = 0.940 - 0.911 = 0.029</p>
+<p>IG(S, Nem) = 0.940 - 0.788 = 0.152</p>
+<p>IG(S, Rüzgar) = 0.940 - 0.8932 = 0.048</p>
+<p><strong><em>Şimdi en büyük entropi kazancına sahip özelliği seçin.</em></strong> Burada bu Hava Durumu’dur. Dolayısıyla karar ağacımızın ilk düğümünü (kök düğüm) oluşturur.</p>
+<p>Şimdi verilerimiz şu şekilde görünüyor:</p>
+<p><img src="attachments/1KI7pcnTFj8-lUlWWf8jyUQ.png" class="img-fluid"></p>
+<p><img src="attachments/11ymNk25hriSrCP68mEYkgw.png" class="img-fluid"></p>
+<p><img src="attachments/1i27fcwvuySvkrk47w94btQ.png" class="img-fluid"></p>
+<p>Bulutlu sadece ‘Evet’ sınıfına ait örnekler içerdiğinden, bunu evet olarak ayarlayabiliriz. Yani hava durumu bulutlu ise futbol oynanacak demektir. Şimdi karar ağacımız şu şekilde görünüyor:</p>
+<p><img src="attachments/1mQO1YDzYCNWK93q-DM_W8Q.png" class="img-fluid"></p>
+<p>Bir sonraki adım, karar ağacımızdaki bir sonraki düğümü bulmaktır. Şimdi güneşli altında bir tane bulacağız. Sıcaklık, Nem veya Rüzgardan hangisinin daha yüksek bilgi kazancına sahip olduğunu belirlememiz gerekiyor.</p>
+<p><img src="attachments/1u6qNRhXbMYUBGBGGK-UVaA.png" class="img-fluid"></p>
+<p>Ebeveyn entropisini hesaplayın E(güneşli)</p>
+<p>E(güneşli) = (-(3/5)log(3/5)-(2/5)log(2/5)) = 0.971.</p>
+<p>Şimdi Sıcaklığın bilgi kazancını hesaplayın. IG(güneşli, Sıcaklık)</p>
+<p><img src="attachments/1VNuJeqlMcdEPtZpnKsVuKQ.png" class="img-fluid"></p>
+<p>E(güneşli, Sıcaklık) = (2/5)<em>E(0,2) + (2/5)</em>E(1,1) + (1/5)*E(1,0)=2/5=0.4</p>
+<p>Şimdi bilgi kazancını hesaplayın.</p>
+<p>IG(güneşli, Sıcaklık) = 0.971–0.4 =0.571</p>
+<p>Benzer şekilde şunları elde ederiz:</p>
+<p>IG(güneşli, Nem) = 0.971</p>
+<p>IG(güneşli, Rüzgar) = 0.020</p>
+<p>Burada IG(güneşli, Nem) en büyük değerdir. Bu nedenle Nem, güneşli altına gelen düğümdür.</p>
+<p><img src="attachments/12rTQYXrLvNQ2PVSUQpPxWw.png" class="img-fluid"></p>
+<p>Nem için yukarıdaki tablodan, nem normal ise oyunun gerçekleşeceğini ve yüksek ise gerçekleşmeyeceğini söyleyebiliriz. Benzer şekilde, yağmurlu altındaki düğümleri bulun.</p>
+<p><strong><em>Not: Entropisi 0’dan büyük olan bir dal daha fazla bölünmeye ihtiyaç duyar.</em></strong></p>
+<p>Sonuç olarak, karar ağacımız aşağıdaki gibi görünecektir:</p>
+<p><img src="attachments/1Y1q49zm6-F7G-SHsMynS7w.png" class="img-fluid"></p>
 </section>
-<section id="ders2" class="level2">
-<h2 class="anchored" data-anchor-id="ders2">Ders2</h2>
-<p><em>Grup2: 5 Temmuz Cuma 8:30 - Grup1: 5 Temmuz Cuma 14:00</em></p>
-<p><strong>İçerik</strong>: Veri türleri ve verilerin işlenmesine dair bilgi verildi. <a href="./ders2.html">Sunum linki</a></p>
-</section>
-<section id="ders3" class="level2">
-<h2 class="anchored" data-anchor-id="ders3">Ders3</h2>
-<p><em>Grup2: 11 Temmuz Perşembe 8:30 - Grup1: 11 Temmuz Perşembe 14:00</em></p>
-<p><strong>İçerik</strong>: Confusion matrix ve sınıflandırma/regresyon değerlendirmesi <a href="./ders3.html">Sunum linki</a></p>
-</section>
-<section id="ders4" class="level2">
-<h2 class="anchored" data-anchor-id="ders4">Ders4</h2>
-<p><em>Grup2: 12 Temmuz Cuma 8:30 - Grup1: 12 Temmuz Cuma 14:00</em></p>
-<p><strong>İçerik</strong>: Yapay sinir ağları <a href="files/neural_network.pdf">Sunum linki</a>. Derste kullanılan yapay sinir ağı demo sayfaları için <a href="https://ml-playground.com/">link1</a> ve <a href="https://akarzazi.github.io/neural-network-playground/">link2</a></p>
-</section>
-<section id="ders5" class="level2">
-<h2 class="anchored" data-anchor-id="ders5">Ders5</h2>
-<p><em>Grup2: 19 Temmuz Cuma 8:30 - Grup1: 19 Temmuz Cuma 14:00</em></p>
-<p><strong>İçerik</strong>: Sınıflandırma metodları <a href="./ders5.html">İngilizce Sunum linki</a>, <a href="./ders5-TR.html">Türkçe Sunum Linki</a></p>
+<section id="cart-algoritması-kullanarak-sınıflandırma" class="level1">
+<h1>CART algoritması kullanarak sınıflandırma</h1>
+<p>CART kullanarak sınıflandırma buna benzerdir. Ancak entropi yerine Gini safsızlığını kullanırız.</p>
+<p><strong>İlk adım olarak karar ağacımızın kök düğümünü bulacağız. Bunun için sınıf değişkeninin Gini indeksini hesaplayın</strong></p>
+<p>Gini(S) = 1 - [(9/14)² + (5/14)²] = 0.4591</p>
+<p><strong>Bir sonraki adım olarak, Gini kazancını hesaplayacağız.</strong> Bunun için önce Hava Durumu, Sıcaklık, Nem ve Rüzgarın ağırlıklı ortalama Gini safsızlığını bulacağız.</p>
+<p>İlk olarak Hava Durumu durumunu ele alalım</p>
+<p><img src="attachments/1sGBLA1S89i7ftAgTWbYaHw.png" class="img-fluid"></p>
+<p>Gini(S, hava durumu) = (5/14)gini(3,2) + (4/14)<em>gini(4,0)+ (5/14)</em>gini(2,3) = (5/14)(1 - (3/5)² - (2/5)²) + (4/14)*0 + (5/14)(1 - (2/5)² - (3/5)²)= 0.171+0+0.171 = 0.342</p>
+<p>Gini kazancı (S, hava durumu) = 0.459 - 0.342 = 0.117</p>
+<p>Gini kazancı(S, Sıcaklık) = 0.459 - 0.4405 = 0.0185</p>
+<p>Gini kazancı(S, Nem) = 0.459 - 0.3674 = 0.0916</p>
+<p>Gini kazancı(S, rüzgar) = 0.459 - 0.4286 = 0.0304</p>
+<p>Daha yüksek Gini kazancına sahip olanı seçin. Hava durumu için Gini kazancı daha yüksektir. Bu yüzden onu kök düğümümüz olarak seçebiliriz.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
