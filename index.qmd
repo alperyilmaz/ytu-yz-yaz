@@ -35,5 +35,10 @@
 
 **İçerik**: Yapay sinir ağları [Sunum linki](files/neural_network.pdf). Derste kullanılan yapay sinir ağı demo sayfaları için [link1](https://ml-playground.com/) ve [link2](https://akarzazi.github.io/neural-network-playground/)
 
+## Ders5
+
+*Grup2: 19 Temmuz Cuma 8:30 - Grup1: 19 Temmuz Cuma 14:00*
+
+**İçerik**: Sınıflandırma metodları [Sunum linki](ders5.qmd)
 
 

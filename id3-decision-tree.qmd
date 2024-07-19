@@ -1,0 +1,148 @@
+---
+title: "Decision Tree Algoritm"
+format: html
+typora-copy-images-to: images
+---
+
+**Taken from** [https://medium.datadriveninvestor.com/decision-tree-algorithm-with-hands-on-example-e6c2afb40d38](https://medium.datadriveninvestor.com/decision-tree-algorithm-with-hands-on-example-e6c2afb40d38)
+
+**Entropy**
+
+In machine learning, entropy is a measure of the randomness in the  information being processed. The higher the entropy, the harder it is to draw any conclusions from that information.
+
+![](attachments/10uVq1Kv1CyiH3VgfY-pl-Q.png)
+
+**Information Gain**
+
+Information gain can be defined as the amount of information gained about a random  variable or signal from observing another random variable.It can be  considered as the difference between the entropy of parent node and  weighted average entropy of child nodes.
+
+![](attachments/16dQPb_BI5pBaUGKYBKMF4A.png)
+
+**Gini Impurity**
+
+Gini impurity is a measure of how often a randomly chosen element from the  set would be incorrectly labeled if it was randomly labeled according to the distribution of labels in the subset.
+
+![](attachments/1FAijCE_5ypjW5VTFWiAFcw.png)
+
+Gini impurity is **lower bounded by 0**, with 0 occurring if the data set contains only one class.
+
+![](attachments/0vd_2JGIFvrIBpjBW.png)
+
+There are many algorithms there to build a decision tree. They are
+
+1. **CART** (Classification and Regression Trees) — This makes use of Gini impurity as the metric.
+2. **ID3** (Iterative Dichotomiser 3) — This uses entropy and information gain as metric.
+
+In this article, I will go through ID3. Once you got it it is easy to implement the same using CART.
+
+# **Classification using the ID3 algorithm**
+
+Consider whether a dataset based on which we will determine whether to play football or not.
+
+![](attachments/1Jr1Qf-m1u-vGzDao6_CxqA.png)
+
+Here There are for independent variables to determine the dependent  variable. The independent variables are Outlook, Temperature, Humidity,  and Wind. The dependent variable is whether to play football or not.
+
+As the first step, we have to find the parent node for our decision tree. For that follow the steps:
+
+***Find the entropy of the class variable.\***
+
+E(S) = -[(9/14)log(9/14) + (5/14)log(5/14)] = 0.94
+
+note: Here typically we will take log to base 2.Here total there are 14  yes/no. Out of which 9 yes and 5 no.Based on it we calculated  probability above.
+
+From the above data for outlook we can arrive at the following table easily
+
+![](attachments/1rOMu0nVD-8NL93eeUBDKoA.png)
+
+***Now we have to calculate average weighted entropy\***. ie, we have found the total of weights of each feature multiplied by probabilities.
+
+E(S, outlook) = (5/14)*E(3,2) + (4/14)*E(4,0) + (5/14)*E(2,3) =  (5/14)(-(3/5)log(3/5)-(2/5)log(2/5))+ (4/14)(0) +  (5/14)((2/5)log(2/5)-(3/5)log(3/5)) = 0.693
+
+***The next step is to find the information gain\***. It is the difference between parent entropy and average weighted entropy we found above.
+
+IG(S, outlook) = 0.94 - 0.693 = 0.247
+
+Similarly find Information gain for Temperature, Humidity, and Windy.
+
+IG(S, Temperature) = 0.940 - 0.911 = 0.029
+
+IG(S, Humidity) = 0.940 - 0.788 = 0.152
+
+IG(S, Windy) = 0.940 - 0.8932 = 0.048
+
+***Now select the feature having the largest entropy gain\***. Here it is Outlook. So it forms the first node(root node) of our decision tree.
+
+Now our data look as follows
+
+![](attachments/1KI7pcnTFj8-lUlWWf8jyUQ.png)
+
+![](attachments/11ymNk25hriSrCP68mEYkgw.png)
+
+![](attachments/1i27fcwvuySvkrk47w94btQ.png)
+
+Since overcast contains only examples of class ‘Yes’ we can set it as yes.  That means If outlook is overcast football will be played. Now our  decision tree looks as follows.
+
+![](attachments/1mQO1YDzYCNWK93q-DM_W8Q.png)
+
+The next step is to find the next node in our decision tree. Now we will  find one under sunny. We have to determine which of the following  Temperature, Humidity or Wind has higher information gain.
+
+![](attachments/1u6qNRhXbMYUBGBGGK-UVaA.png)
+
+Calculate parent entropy E(sunny)
+
+E(sunny) = (-(3/5)log(3/5)-(2/5)log(2/5)) = 0.971.
+
+Now Calculate the information gain of Temperature. IG(sunny, Temperature)
+
+![](attachments/1VNuJeqlMcdEPtZpnKsVuKQ.png)
+
+E(sunny, Temperature) = (2/5)*E(0,2) + (2/5)*E(1,1) + (1/5)*E(1,0)=2/5=0.4
+
+Now calculate information gain.
+
+IG(sunny, Temperature) = 0.971–0.4 =0.571
+
+Similarly we get
+
+IG(sunny, Humidity) = 0.971
+
+IG(sunny, Windy) = 0.020
+
+Here IG(sunny, Humidity) is the largest value. So Humidity is the node that comes under sunny.
+
+![](attachments/12rTQYXrLvNQ2PVSUQpPxWw.png)
+
+For humidity from the above table, we can say that play will occur if  humidity is normal and will not occur if it is high. Similarly, find the nodes under rainy.
+
+***Note: A branch with entropy more than 0 needs further splitting.\***
+
+Finally, our decision tree will look as below:
+
+![](attachments/1Y1q49zm6-F7G-SHsMynS7w.png)
+
+# Classification using CART algorithm
+
+Classification using CART is similar to it. But instead of entropy, we use Gini impurity.
+
+**So as the first step we will find the root node of our decision tree. For that Calculate the Gini index of the class variable**
+
+Gini(S) = 1 - [(9/14)² + (5/14)²] = 0.4591
+
+**As the next step, we will calculate the Gini gain.** For that first, we will find the average weighted Gini impurity of Outlook, Temperature, Humidity, and Windy.
+
+First, consider case of Outlook
+
+![](attachments/1sGBLA1S89i7ftAgTWbYaHw.png)
+
+Gini(S, outlook) = (5/14)gini(3,2) + (4/14)*gini(4,0)+ (5/14)*gini(2,3) =  (5/14)(1 - (3/5)² - (2/5)²) + (4/14)*0 + (5/14)(1 - (2/5)² - (3/5)²)=  0.171+0+0.171 = 0.342
+
+Gini gain (S, outlook) = 0.459 - 0.342 = 0.117
+
+Gini gain(S, Temperature) = 0.459 - 0.4405 = 0.0185
+
+Gini gain(S, Humidity) = 0.459 - 0.3674 = 0.0916
+
+Gini gain(S, windy) = 0.459 - 0.4286 = 0.0304
+
+Choose one that has a higher Gini gain. Gini gain is higher for outlook. So we can choose it as our root node.
