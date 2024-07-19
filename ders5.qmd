@@ -84,8 +84,8 @@ typora-copy-images-to: images
 3. Financial Applications
     * Credit scoring (approve/deny loan applications)
     * Fraud detection in transactions
-    :::
-    ::: {.column width="50%"}
+:::
+::: {.column width="50%"}
 4. Healthcare
     * Disease diagnosis based on symptoms and test results
     * Predicting patient readmission risk
@@ -96,8 +96,8 @@ typora-copy-images-to: images
     * Authorship attribution
     * Genre classification of texts
     * Language identification
-    :::
-    ::::
+:::
+::::
 
 ## Your Turn
 
