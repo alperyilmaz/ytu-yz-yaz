@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>FEF3001 Yapay Zekaya Giriş</title>
+<title>FEF3001 Yapay Zekaya Giriş – Decision Tree Algoritm</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -88,7 +88,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Ana Sayfa</span></a>
   </li>  
   <li class="nav-item">
@@ -111,65 +111,112 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#fef3001-yapay-zekaya-giriş" id="toc-fef3001-yapay-zekaya-giriş" class="nav-link active" data-scroll-target="#fef3001-yapay-zekaya-giriş">FEF3001 Yapay Zekaya Giriş</a>
-  <ul class="collapse">
-  <li><a href="#kaynaklar" id="toc-kaynaklar" class="nav-link" data-scroll-target="#kaynaklar">Kaynaklar</a></li>
-  <li><a href="#ders1" id="toc-ders1" class="nav-link" data-scroll-target="#ders1">Ders1</a></li>
-  <li><a href="#ders2" id="toc-ders2" class="nav-link" data-scroll-target="#ders2">Ders2</a></li>
-  <li><a href="#ders3" id="toc-ders3" class="nav-link" data-scroll-target="#ders3">Ders3</a></li>
-  <li><a href="#ders4" id="toc-ders4" class="nav-link" data-scroll-target="#ders4">Ders4</a></li>
-  <li><a href="#ders5" id="toc-ders5" class="nav-link" data-scroll-target="#ders5">Ders5</a></li>
-  </ul></li>
+  <li><a href="#classification-using-the-id3-algorithm" id="toc-classification-using-the-id3-algorithm" class="nav-link active" data-scroll-target="#classification-using-the-id3-algorithm"><strong>Classification using the ID3 algorithm</strong></a></li>
+  <li><a href="#classification-using-cart-algorithm" id="toc-classification-using-cart-algorithm" class="nav-link" data-scroll-target="#classification-using-cart-algorithm">Classification using CART algorithm</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Decision Tree Algoritm</h1>
+</div>
 
 
 
-<section id="fef3001-yapay-zekaya-giriş" class="level1">
-<h1>FEF3001 Yapay Zekaya Giriş</h1>
-<section id="kaynaklar" class="level2">
-<h2 class="anchored" data-anchor-id="kaynaklar">Kaynaklar</h2>
-<ul>
-<li><em>Makine Öğrenmesinde Sınıflandırma Yöntemleri ve R Uygulamaları</em>, Ersoy Öz &amp; Selçuk Alp, Nobel Akademik Yayıncılık, 2020.</li>
-<li><em>Veri Madenciliği ve Makine Öğrenmesi İle Farklı Alanlarda Uygulamalar</em>, Şenol Çelik, Nilay Köleoğlu, &amp; Fatih Çemrek, Holistence Publications, 2022</li>
-<li><em>Sağlık Bilimlerinde Yapay Zeka</em>, Ahmet Rıza Şahin, Kamil Doğan, &amp; Süleyman Sivri, Akademisyen Kitabevi A.Ş., 2020</li>
-<li><em>Yapay Zeka</em>, Atınç Yılmaz, Kodlab Yayın Dağıtım Yazılım Ltd.&nbsp;Şti., 2022</li>
-<li><em>Machine Learning Algorithms</em>, Giuseppe Bonaccorso, Packt Publishing, 2017.</li>
-<li><em>Optimizasyon Modelleme ve Yapay Zeka Algoritmaları</em>, Bayram Köse, Bahar Demirtürk, Efe Akademi Yayınları, 2023</li>
-</ul>
-</section>
-<section id="ders1" class="level2">
-<h2 class="anchored" data-anchor-id="ders1">Ders1</h2>
-<p><em>Grup2: 4 Temmuz Perşembe 8:30 - Grup1: 4 Temmuz Perşembe 18:00</em></p>
-<p><strong>İçerik</strong>: İlk derste, ChatGPT ve benzeri büyük dil modelleri tanıtıldı. OpenAI Playground üzerinde “cümle tamamlama” kavramı ve “temparature” ayarı gösterildi. Daha iyi çıktı almak için Prompt ayarları anlatıldı. Dökümandan sorgu/chat yapmak için Gemini ve Claude örnekleri verildi. Yine Claude üzerinden kod yazdırma örneği işlendi. <a href="./ders1.html">İngilizce Sunum linki</a>, <a href="./ders1-TR.html">Türkçe Sunum linki</a></p>
-<!--  Uygulamada kullanılacak dosyalar: [mtcars (Excel)](files/mtcars.xlsx) -->
-</section>
-<section id="ders2" class="level2">
-<h2 class="anchored" data-anchor-id="ders2">Ders2</h2>
-<p><em>Grup2: 5 Temmuz Cuma 8:30 - Grup1: 5 Temmuz Cuma 14:00</em></p>
-<p><strong>İçerik</strong>: Veri türleri ve verilerin işlenmesine dair bilgi verildi. <a href="./ders2.html">Sunum linki</a></p>
-</section>
-<section id="ders3" class="level2">
-<h2 class="anchored" data-anchor-id="ders3">Ders3</h2>
-<p><em>Grup2: 11 Temmuz Perşembe 8:30 - Grup1: 11 Temmuz Perşembe 14:00</em></p>
-<p><strong>İçerik</strong>: Confusion matrix ve sınıflandırma/regresyon değerlendirmesi <a href="./ders3.html">Sunum linki</a></p>
-</section>
-<section id="ders4" class="level2">
-<h2 class="anchored" data-anchor-id="ders4">Ders4</h2>
-<p><em>Grup2: 12 Temmuz Cuma 8:30 - Grup1: 12 Temmuz Cuma 14:00</em></p>
-<p><strong>İçerik</strong>: Yapay sinir ağları <a href="files/neural_network.pdf">Sunum linki</a>. Derste kullanılan yapay sinir ağı demo sayfaları için <a href="https://ml-playground.com/">link1</a> ve <a href="https://akarzazi.github.io/neural-network-playground/">link2</a></p>
-</section>
-<section id="ders5" class="level2">
-<h2 class="anchored" data-anchor-id="ders5">Ders5</h2>
-<p><em>Grup2: 19 Temmuz Cuma 8:30 - Grup1: 19 Temmuz Cuma 14:00</em></p>
-<p><strong>İçerik</strong>: Sınıflandırma metodları <a href="./ders5.html">Sunum linki</a></p>
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
 
 
+</header>
+
+
+<p><strong>Taken from</strong> <a href="https://medium.datadriveninvestor.com/decision-tree-algorithm-with-hands-on-example-e6c2afb40d38">https://medium.datadriveninvestor.com/decision-tree-algorithm-with-hands-on-example-e6c2afb40d38</a></p>
+<p><strong>Entropy</strong></p>
+<p>In machine learning, entropy is a measure of the randomness in the information being processed. The higher the entropy, the harder it is to draw any conclusions from that information.</p>
+<p><img src="attachments/10uVq1Kv1CyiH3VgfY-pl-Q.png" class="img-fluid"></p>
+<p><strong>Information Gain</strong></p>
+<p>Information gain can be defined as the amount of information gained about a random variable or signal from observing another random variable.It can be considered as the difference between the entropy of parent node and weighted average entropy of child nodes.</p>
+<p><img src="attachments/16dQPb_BI5pBaUGKYBKMF4A.png" class="img-fluid"></p>
+<p><strong>Gini Impurity</strong></p>
+<p>Gini impurity is a measure of how often a randomly chosen element from the set would be incorrectly labeled if it was randomly labeled according to the distribution of labels in the subset.</p>
+<p><img src="attachments/1FAijCE_5ypjW5VTFWiAFcw.png" class="img-fluid"></p>
+<p>Gini impurity is <strong>lower bounded by 0</strong>, with 0 occurring if the data set contains only one class.</p>
+<p><img src="attachments/0vd_2JGIFvrIBpjBW.png" class="img-fluid"></p>
+<p>There are many algorithms there to build a decision tree. They are</p>
+<ol type="1">
+<li><strong>CART</strong> (Classification and Regression Trees) — This makes use of Gini impurity as the metric.</li>
+<li><strong>ID3</strong> (Iterative Dichotomiser 3) — This uses entropy and information gain as metric.</li>
+</ol>
+<p>In this article, I will go through ID3. Once you got it it is easy to implement the same using CART.</p>
+<section id="classification-using-the-id3-algorithm" class="level1">
+<h1><strong>Classification using the ID3 algorithm</strong></h1>
+<p>Consider whether a dataset based on which we will determine whether to play football or not.</p>
+<p><img src="attachments/1Jr1Qf-m1u-vGzDao6_CxqA.png" class="img-fluid"></p>
+<p>Here There are for independent variables to determine the dependent variable. The independent variables are Outlook, Temperature, Humidity, and Wind. The dependent variable is whether to play football or not.</p>
+<p>As the first step, we have to find the parent node for our decision tree. For that follow the steps:</p>
+<p>*<strong>Find the entropy of the class variable.*</strong></p>
+<p>E(S) = -[(9/14)log(9/14) + (5/14)log(5/14)] = 0.94</p>
+<p>note: Here typically we will take log to base 2.Here total there are 14 yes/no. Out of which 9 yes and 5 no.Based on it we calculated probability above.</p>
+<p>From the above data for outlook we can arrive at the following table easily</p>
+<p><img src="attachments/1rOMu0nVD-8NL93eeUBDKoA.png" class="img-fluid"></p>
+<p>*<strong>Now we have to calculate average weighted entropy*</strong>. ie, we have found the total of weights of each feature multiplied by probabilities.</p>
+<p>E(S, outlook) = (5/14)<em>E(3,2) + (4/14)</em>E(4,0) + (5/14)*E(2,3) = (5/14)(-(3/5)log(3/5)-(2/5)log(2/5))+ (4/14)(0) + (5/14)((2/5)log(2/5)-(3/5)log(3/5)) = 0.693</p>
+<p>*<strong>The next step is to find the information gain*</strong>. It is the difference between parent entropy and average weighted entropy we found above.</p>
+<p>IG(S, outlook) = 0.94 - 0.693 = 0.247</p>
+<p>Similarly find Information gain for Temperature, Humidity, and Windy.</p>
+<p>IG(S, Temperature) = 0.940 - 0.911 = 0.029</p>
+<p>IG(S, Humidity) = 0.940 - 0.788 = 0.152</p>
+<p>IG(S, Windy) = 0.940 - 0.8932 = 0.048</p>
+<p>*<strong>Now select the feature having the largest entropy gain*</strong>. Here it is Outlook. So it forms the first node(root node) of our decision tree.</p>
+<p>Now our data look as follows</p>
+<p><img src="attachments/1KI7pcnTFj8-lUlWWf8jyUQ.png" class="img-fluid"></p>
+<p><img src="attachments/11ymNk25hriSrCP68mEYkgw.png" class="img-fluid"></p>
+<p><img src="attachments/1i27fcwvuySvkrk47w94btQ.png" class="img-fluid"></p>
+<p>Since overcast contains only examples of class ‘Yes’ we can set it as yes. That means If outlook is overcast football will be played. Now our decision tree looks as follows.</p>
+<p><img src="attachments/1mQO1YDzYCNWK93q-DM_W8Q.png" class="img-fluid"></p>
+<p>The next step is to find the next node in our decision tree. Now we will find one under sunny. We have to determine which of the following Temperature, Humidity or Wind has higher information gain.</p>
+<p><img src="attachments/1u6qNRhXbMYUBGBGGK-UVaA.png" class="img-fluid"></p>
+<p>Calculate parent entropy E(sunny)</p>
+<p>E(sunny) = (-(3/5)log(3/5)-(2/5)log(2/5)) = 0.971.</p>
+<p>Now Calculate the information gain of Temperature. IG(sunny, Temperature)</p>
+<p><img src="attachments/1VNuJeqlMcdEPtZpnKsVuKQ.png" class="img-fluid"></p>
+<p>E(sunny, Temperature) = (2/5)<em>E(0,2) + (2/5)</em>E(1,1) + (1/5)*E(1,0)=2/5=0.4</p>
+<p>Now calculate information gain.</p>
+<p>IG(sunny, Temperature) = 0.971–0.4 =0.571</p>
+<p>Similarly we get</p>
+<p>IG(sunny, Humidity) = 0.971</p>
+<p>IG(sunny, Windy) = 0.020</p>
+<p>Here IG(sunny, Humidity) is the largest value. So Humidity is the node that comes under sunny.</p>
+<p><img src="attachments/12rTQYXrLvNQ2PVSUQpPxWw.png" class="img-fluid"></p>
+<p>For humidity from the above table, we can say that play will occur if humidity is normal and will not occur if it is high. Similarly, find the nodes under rainy.</p>
+<p>*<strong>Note: A branch with entropy more than 0 needs further splitting.*</strong></p>
+<p>Finally, our decision tree will look as below:</p>
+<p><img src="attachments/1Y1q49zm6-F7G-SHsMynS7w.png" class="img-fluid"></p>
 </section>
+<section id="classification-using-cart-algorithm" class="level1">
+<h1>Classification using CART algorithm</h1>
+<p>Classification using CART is similar to it. But instead of entropy, we use Gini impurity.</p>
+<p><strong>So as the first step we will find the root node of our decision tree. For that Calculate the Gini index of the class variable</strong></p>
+<p>Gini(S) = 1 - [(9/14)² + (5/14)²] = 0.4591</p>
+<p><strong>As the next step, we will calculate the Gini gain.</strong> For that first, we will find the average weighted Gini impurity of Outlook, Temperature, Humidity, and Windy.</p>
+<p>First, consider case of Outlook</p>
+<p><img src="attachments/1sGBLA1S89i7ftAgTWbYaHw.png" class="img-fluid"></p>
+<p>Gini(S, outlook) = (5/14)gini(3,2) + (4/14)<em>gini(4,0)+ (5/14)</em>gini(2,3) = (5/14)(1 - (3/5)² - (2/5)²) + (4/14)*0 + (5/14)(1 - (2/5)² - (3/5)²)= 0.171+0+0.171 = 0.342</p>
+<p>Gini gain (S, outlook) = 0.459 - 0.342 = 0.117</p>
+<p>Gini gain(S, Temperature) = 0.459 - 0.4405 = 0.0185</p>
+<p>Gini gain(S, Humidity) = 0.459 - 0.3674 = 0.0916</p>
+<p>Gini gain(S, windy) = 0.459 - 0.4286 = 0.0304</p>
+<p>Choose one that has a higher Gini gain. Gini gain is higher for outlook. So we can choose it as our root node.</p>
+
+
 </section>
 
 </main> <!-- /main -->
