@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2024-07-21">
 
-<title>FEF3001 Yapay Zekaya Giriş – Decision Tree Algoritm</title>
+<title>FEF3001 Yapay Zekaya Giriş – Midterm Results / Vize Sonuçları</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -66,6 +67,15 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/htmlwidgets-1.6.2/htmlwidgets.js"></script>
+<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
+<script src="site_libs/datatables-binding-0.30/datatables.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<link href="site_libs/dt-core-1.13.4/css/jquery.dataTables.min.css" rel="stylesheet">
+<link href="site_libs/dt-core-1.13.4/css/jquery.dataTables.extra.css" rel="stylesheet">
+<script src="site_libs/dt-core-1.13.4/js/jquery.dataTables.min.js"></script>
+<link href="site_libs/crosstalk-1.2.0/css/crosstalk.min.css" rel="stylesheet">
+<script src="site_libs/crosstalk-1.2.0/js/crosstalk.min.js"></script>
 
 
 </head>
@@ -92,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Ana Sayfa</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./midterm-grades.html"> 
+    <a class="nav-link active" href="./midterm-grades.html" aria-current="page"> 
 <span class="menu-text">Notlar</span></a>
   </li>  
   <li class="nav-item">
@@ -115,8 +125,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#classification-using-the-id3-algorithm" id="toc-classification-using-the-id3-algorithm" class="nav-link active" data-scroll-target="#classification-using-the-id3-algorithm"><strong>Classification using the ID3 algorithm</strong></a></li>
-  <li><a href="#classification-using-cart-algorithm" id="toc-classification-using-cart-algorithm" class="nav-link" data-scroll-target="#classification-using-cart-algorithm">Classification using CART algorithm</a></li>
+  <li><a href="#grup-1-türkçe-sonuçları" id="toc-grup-1-türkçe-sonuçları" class="nav-link active" data-scroll-target="#grup-1-türkçe-sonuçları">Grup 1 (Türkçe) sonuçları</a></li>
+  <li><a href="#group-2-en-results" id="toc-group-2-en-results" class="nav-link" data-scroll-target="#group-2-en-results">Group 2 (EN) results</a></li>
   </ul>
 </nav>
     </div>
@@ -125,7 +135,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Decision Tree Algoritm</h1>
+<h1 class="title">Midterm Results / Vize Sonuçları</h1>
 </div>
 
 
@@ -133,6 +143,12 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 21, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -142,83 +158,45 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><strong>Taken from</strong> <a href="https://medium.datadriveninvestor.com/decision-tree-algorithm-with-hands-on-example-e6c2afb40d38">https://medium.datadriveninvestor.com/decision-tree-algorithm-with-hands-on-example-e6c2afb40d38</a></p>
-<p><strong>Entropy</strong></p>
-<p>In machine learning, entropy is a measure of the randomness in the information being processed. The higher the entropy, the harder it is to draw any conclusions from that information.</p>
-<p><img src="attachments/10uVq1Kv1CyiH3VgfY-pl-Q.png" class="img-fluid"></p>
-<p><strong>Information Gain</strong></p>
-<p>Information gain can be defined as the amount of information gained about a random variable or signal from observing another random variable.It can be considered as the difference between the entropy of parent node and weighted average entropy of child nodes.</p>
-<p><img src="attachments/16dQPb_BI5pBaUGKYBKMF4A.png" class="img-fluid"></p>
-<p><strong>Gini Impurity</strong></p>
-<p>Gini impurity is a measure of how often a randomly chosen element from the set would be incorrectly labeled if it was randomly labeled according to the distribution of labels in the subset.</p>
-<p><img src="attachments/1FAijCE_5ypjW5VTFWiAFcw.png" class="img-fluid"></p>
-<p>Gini impurity is <strong>lower bounded by 0</strong>, with 0 occurring if the data set contains only one class.</p>
-<p><img src="attachments/0vd_2JGIFvrIBpjBW.png" class="img-fluid"></p>
-<p>There are many algorithms there to build a decision tree. They are</p>
-<ol type="1">
-<li><strong>CART</strong> (Classification and Regression Trees) — This makes use of Gini impurity as the metric.</li>
-<li><strong>ID3</strong> (Iterative Dichotomiser 3) — This uses entropy and information gain as metric.</li>
-</ol>
-<p>In this article, I will go through ID3. Once you got it it is easy to implement the same using CART.</p>
-<section id="classification-using-the-id3-algorithm" class="level1">
-<h1><strong>Classification using the ID3 algorithm</strong></h1>
-<p>Consider whether a dataset based on which we will determine whether to play football or not.</p>
-<p><img src="attachments/1Jr1Qf-m1u-vGzDao6_CxqA.png" class="img-fluid"></p>
-<p>Here There are for independent variables to determine the dependent variable. The independent variables are Outlook, Temperature, Humidity, and Wind. The dependent variable is whether to play football or not.</p>
-<p>As the first step, we have to find the parent node for our decision tree. For that follow the steps:</p>
-<p>*<strong>Find the entropy of the class variable.*</strong></p>
-<p>E(S) = -[(9/14)log(9/14) + (5/14)log(5/14)] = 0.94</p>
-<p>note: Here typically we will take log to base 2.Here total there are 14 yes/no. Out of which 9 yes and 5 no.Based on it we calculated probability above.</p>
-<p>From the above data for outlook we can arrive at the following table easily</p>
-<p><img src="attachments/1rOMu0nVD-8NL93eeUBDKoA.png" class="img-fluid"></p>
-<p>*<strong>Now we have to calculate average weighted entropy*</strong>. ie, we have found the total of weights of each feature multiplied by probabilities.</p>
-<p>E(S, outlook) = (5/14)<em>E(3,2) + (4/14)</em>E(4,0) + (5/14)*E(2,3) = (5/14)(-(3/5)log(3/5)-(2/5)log(2/5))+ (4/14)(0) + (5/14)((2/5)log(2/5)-(3/5)log(3/5)) = 0.693</p>
-<p>*<strong>The next step is to find the information gain*</strong>. It is the difference between parent entropy and average weighted entropy we found above.</p>
-<p>IG(S, outlook) = 0.94 - 0.693 = 0.247</p>
-<p>Similarly find Information gain for Temperature, Humidity, and Windy.</p>
-<p>IG(S, Temperature) = 0.940 - 0.911 = 0.029</p>
-<p>IG(S, Humidity) = 0.940 - 0.788 = 0.152</p>
-<p>IG(S, Windy) = 0.940 - 0.8932 = 0.048</p>
-<p>*<strong>Now select the feature having the largest entropy gain*</strong>. Here it is Outlook. So it forms the first node(root node) of our decision tree.</p>
-<p>Now our data look as follows</p>
-<p><img src="attachments/1KI7pcnTFj8-lUlWWf8jyUQ.png" class="img-fluid"></p>
-<p><img src="attachments/11ymNk25hriSrCP68mEYkgw.png" class="img-fluid"></p>
-<p><img src="attachments/1i27fcwvuySvkrk47w94btQ.png" class="img-fluid"></p>
-<p>Since overcast contains only examples of class ‘Yes’ we can set it as yes. That means If outlook is overcast football will be played. Now our decision tree looks as follows.</p>
-<p><img src="attachments/1mQO1YDzYCNWK93q-DM_W8Q.png" class="img-fluid"></p>
-<p>The next step is to find the next node in our decision tree. Now we will find one under sunny. We have to determine which of the following Temperature, Humidity or Wind has higher information gain.</p>
-<p><img src="attachments/1u6qNRhXbMYUBGBGGK-UVaA.png" class="img-fluid"></p>
-<p>Calculate parent entropy E(sunny)</p>
-<p>E(sunny) = (-(3/5)log(3/5)-(2/5)log(2/5)) = 0.971.</p>
-<p>Now Calculate the information gain of Temperature. IG(sunny, Temperature)</p>
-<p><img src="attachments/1VNuJeqlMcdEPtZpnKsVuKQ.png" class="img-fluid"></p>
-<p>E(sunny, Temperature) = (2/5)<em>E(0,2) + (2/5)</em>E(1,1) + (1/5)*E(1,0)=2/5=0.4</p>
-<p>Now calculate information gain.</p>
-<p>IG(sunny, Temperature) = 0.971–0.4 =0.571</p>
-<p>Similarly we get</p>
-<p>IG(sunny, Humidity) = 0.971</p>
-<p>IG(sunny, Windy) = 0.020</p>
-<p>Here IG(sunny, Humidity) is the largest value. So Humidity is the node that comes under sunny.</p>
-<p><img src="attachments/12rTQYXrLvNQ2PVSUQpPxWw.png" class="img-fluid"></p>
-<p>For humidity from the above table, we can say that play will occur if humidity is normal and will not occur if it is high. Similarly, find the nodes under rainy.</p>
-<p>*<strong>Note: A branch with entropy more than 0 needs further splitting.*</strong></p>
-<p>Finally, our decision tree will look as below:</p>
-<p><img src="attachments/1Y1q49zm6-F7G-SHsMynS7w.png" class="img-fluid"></p>
+<section id="grup-1-türkçe-sonuçları" class="level2">
+<h2 class="anchored" data-anchor-id="grup-1-türkçe-sonuçları">Grup 1 (Türkçe) sonuçları</h2>
+<p>Sınava katılan öğrenci sayısı: <strong>189</strong> ve vize notlarının ortalaması: <strong>59.6</strong>. Aşağıda, vize notlarının dağılımı verilmiştir.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="midterm-grades_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>Aşağıdaki tabloda, sayfaları gezinerek veya arama kutusunda öğrenci numaranızı arayarak notlarınızı öğrenebilirsiniz.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-658a5694d42851662176" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-658a5694d42851662176">{"x":{"filter":"none","vertical":false,"data":[["21023051","Ç19046086","21025035","21022068","21022022","22025031","22025079","19025045","21025011","21025069","21025074","23025613","21025043","22025061","23025037","22025083","22025014","21025007","22025071","22025005","23025609","21025014","23025610","21025058","21025080","22025065","22025012","21025019","23025501","22025053","21025023","22025015","21022014","21022042","22025023","22022072","21022079","21025061","21025006","20025051","20025083","21023071","22028704","22028040","22028067","Ç19024013","22028011","22028057","22028041","21028042","21028049","Ç19056064","22028068","21028022","22028032","23025003","23028051","23028615","22028074","22028055","22028023","21028068","22028058","22028072","22028062","22023620","22028014","22028038","22028027","23028606","22028012","22028063","21028061","21024070","21024090","22028024","20028011","22028701","21028008","21028005","22028046","22028073","22028029","23028703","22028018","22028078","22028065","23028609","23027049","20028068","21023056","21023034","21023033","19012505","20023051","20023056","21023053","23023603","22023058","20023043","20023067","21023054","21023611","21023006","21023079","22023028","22023601","20023904","23023602","23023627","22023046","20023049","22023628","21023025","22023618","22023026","23023625","21023057","21023081","23023632","22023606","22023623","20023040","22023613","20023085","21023043","20023057","21023608","20023062","23023626","20023083","22023617","21023063","21023055","17022049","22027018","21027012","21027054","21027061","21027025","22027057","22027602","22027037","21027003","22027046","20027047","21027042","21027041","21027071","21027028","21027045","21027001","21027027","21027024","22027066","21027069","21027002","22027603","21027016","22027064","22027032","21027064","21027050","21027051","22027601","22027016","21027047","21027067","21027063","22027044","21027068","21027026","22027068","21027052","21027900","21027015","22027024","21027005","22027033","21027040","21027011","21027044","22027034","21027043","21027049","21027009","22027069","21027008","21027062"],[40,75,50,30,60,50,55,50,65,70,40,70,70,25,45,75,80,60,50,60,80,55,80,85,45,75,90,65,90,75,65,80,55,60,90,65,60,65,65,55,50,45,55,75,65,50,45,65,65,35,75,80,35,55,95,55,70,45,70,60,80,80,55,75,60,45,75,65,85,75,70,70,65,80,40,65,50,75,40,70,80,70,65,65,65,60,80,65,45,60,50,50,85,85,50,45,55,80,60,35,85,5,55,55,70,75,90,45,75,45,40,60,70,45,65,90,45,50,40,50,45,40,80,70,85,75,55,70,90,85,70,95,60,55,25,60,75,50,75,55,60,60,70,65,50,30,55,45,55,45,60,60,45,55,35,70,50,45,40,50,35,55,60,65,60,90,40,40,30,35,35,60,60,50,35,50,80,60,35,50,55,55,30,50,45,65,55,50,35]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>id<\/th>\n      <th>midterm<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":1}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
 </section>
-<section id="classification-using-cart-algorithm" class="level1">
-<h1>Classification using CART algorithm</h1>
-<p>Classification using CART is similar to it. But instead of entropy, we use Gini impurity.</p>
-<p><strong>So as the first step we will find the root node of our decision tree. For that Calculate the Gini index of the class variable</strong></p>
-<p>Gini(S) = 1 - [(9/14)² + (5/14)²] = 0.4591</p>
-<p><strong>As the next step, we will calculate the Gini gain.</strong> For that first, we will find the average weighted Gini impurity of Outlook, Temperature, Humidity, and Windy.</p>
-<p>First, consider case of Outlook</p>
-<p><img src="attachments/1sGBLA1S89i7ftAgTWbYaHw.png" class="img-fluid"></p>
-<p>Gini(S, outlook) = (5/14)gini(3,2) + (4/14)<em>gini(4,0)+ (5/14)</em>gini(2,3) = (5/14)(1 - (3/5)² - (2/5)²) + (4/14)*0 + (5/14)(1 - (2/5)² - (3/5)²)= 0.171+0+0.171 = 0.342</p>
-<p>Gini gain (S, outlook) = 0.459 - 0.342 = 0.117</p>
-<p>Gini gain(S, Temperature) = 0.459 - 0.4405 = 0.0185</p>
-<p>Gini gain(S, Humidity) = 0.459 - 0.3674 = 0.0916</p>
-<p>Gini gain(S, windy) = 0.459 - 0.4286 = 0.0304</p>
-<p>Choose one that has a higher Gini gain. Gini gain is higher for outlook. So we can choose it as our root node.</p>
+<section id="group-2-en-results" class="level2">
+<h2 class="anchored" data-anchor-id="group-2-en-results">Group 2 (EN) results</h2>
+<p>Total number of students took the exam: <strong>70</strong> and average score is: <strong>60.5</strong>. Below is the distribution of scores:</p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="midterm-grades_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>And here’s the scores. You can scroll pages or search for your student number in search box.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-36e33c6458320be67e59" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-36e33c6458320be67e59">{"x":{"filter":"none","vertical":false,"data":[["21022073","22012062","22022027","23022049","21022081","22022005","21022602","20022080","16022040","2102D009","21022062","19022084","18022028","19022015","18022047","21022041","22022076","20022071","20022006","19022017","21022048","17022058","2202D003","21022052","18022056","21022049","20022035","19022016","17022043","19022058","19022049","19022801","23022017","20022067","20022074","22022003","20022084","23022025","18022067","21022069","20022017","21022051","22022002","21025013","17022012","20022070","21025066","19022605","21025065","22025018","22025039","21025038","22022059","21025050","17022014","21025052","21022066","20022022","19012121","22025080","20022605","2202D011","22025050","21025004","21025053","22025043","2102D004","23025023","23025605","23025614"],[90,75,80,55,55,40,80,50,45,100,45,60,55,30,50,70,25,80,80,80,60,55,80,35,45,50,75,85,35,65,70,45,35,55,50,55,60,60,35,95,60,65,65,60,60,80,40,55,60,35,75,55,40,75,40,80,65,50,60,55,65,75,75,70,60,85,85,70,60,25]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>id<\/th>\n      <th>midterm<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":1}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
 
 
 </section>

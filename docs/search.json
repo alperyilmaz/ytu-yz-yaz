@@ -49,158 +49,585 @@
     "text": "Grup2: 19 Temmuz Cuma 8:30 - Grup1: 19 Temmuz Cuma 14:00\nİçerik: Sınıflandırma metodları İngilizce Sunum linki, Türkçe Sunum Linki"
   },
   {
-    "objectID": "ders3.html#değerlendirme-ölçütleri-performance-metrics",
-    "href": "ders3.html#değerlendirme-ölçütleri-performance-metrics",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Değerlendirme ölçütleri / Performance Metrics",
-    "text": "Değerlendirme ölçütleri / Performance Metrics\n\nSınıflandırma değerlendirme (Classification)\nRegresyon değerlendirme (Regression)"
-  },
-  {
-    "objectID": "ders3.html#sınıflandırma-ve-regresyon-classification-vs-regression",
-    "href": "ders3.html#sınıflandırma-ve-regresyon-classification-vs-regression",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Sınıflandırma ve Regresyon (Classification vs regression)",
-    "text": "Sınıflandırma ve Regresyon (Classification vs regression)\n\nSource"
-  },
-  {
-    "objectID": "ders3.html#section",
-    "href": "ders3.html#section",
-    "title": "Değerlendirme Ölçütleri",
+    "objectID": "id3-decision-tree-TR.html",
+    "href": "id3-decision-tree-TR.html",
+    "title": "Karar Ağacı Algoritması",
     "section": "",
-    "text": "Source"
+    "text": "Karar Ağacı Algoritması\nKaynak: https://medium.datadriveninvestor.com/decision-tree-algorithm-with-hands-on-example-e6c2afb40d38\nEntropi\nMakine öğreniminde, entropi işlenen bilgideki rastgeleliğin bir ölçüsüdür. Entropi ne kadar yüksek olursa, o bilgiden herhangi bir sonuç çıkarmak o kadar zor olur.\n\nBilgi Kazancı\nBilgi kazancı, bir rastgele değişken veya sinyalle ilgili olarak başka bir rastgele değişkeni gözlemleyerek elde edilen bilgi miktarı olarak tanımlanabilir. Ebeveyn düğümün entropisi ile çocuk düğümlerin ağırlıklı ortalama entropisi arasındaki fark olarak düşünülebilir.\n\nGini Safsızlığı\nGini safsızlığı, kümeden rastgele seçilen bir elemanın, alt kümedeki etiketlerin dağılımına göre rastgele etiketlendiğinde ne sıklıkla yanlış etiketleneceğinin bir ölçüsüdür.\n\nGini safsızlığı 0 ile alt sınırlıdır ve veri kümesi yalnızca bir sınıf içeriyorsa 0 olur.\n\nKarar ağacı oluşturmak için birçok algoritma vardır. Bunlar:\n\nCART (Sınıflandırma ve Regresyon Ağaçları) — Bu, metrik olarak Gini safsızlığını kullanır.\nID3 (Yinelemeli Bölücü 3) — Bu, metrik olarak entropi ve bilgi kazancını kullanır.\n\nBu makalede ID3’ü ele alacağım. Bunu anladıktan sonra, aynısını CART kullanarak uygulamak kolay olacaktır.\n\n\nID3 algoritması kullanarak sınıflandırma\nFutbol oynayıp oynamama kararını belirleyeceğimiz bir veri setini düşünün.\n\nBurada bağımlı değişkeni belirlemek için dört bağımsız değişken vardır. Bağımsız değişkenler Hava Durumu, Sıcaklık, Nem ve Rüzgardır. Bağımlı değişken ise futbol oynayıp oynamama durumudur.\nİlk adım olarak, karar ağacımız için ebeveyn düğümü bulmalıyız. Bunun için şu adımları izleyin:\nSınıf değişkeninin entropisini bulun.\nE(S) = -[(9/14)log(9/14) + (5/14)log(5/14)] = 0.94\nnot: Burada genellikle 2 tabanında logaritma alırız. Burada toplam 14 evet/hayır var. Bunların 9’u evet ve 5’i hayır. Buna dayanarak yukarıdaki olasılığı hesapladık.\nYukarıdaki verilerden hava durumu için aşağıdaki tabloyu kolayca elde edebiliriz:\n\nŞimdi ağırlıklı ortalama entropiyi hesaplamamız gerekiyor. Yani, her özelliğin ağırlıklarının olasılıklarla çarpımının toplamını bulduk.\nE(S, hava durumu) = (5/14)E(3,2) + (4/14)E(4,0) + (5/14)*E(2,3) = (5/14)(-(3/5)log(3/5)-(2/5)log(2/5))+ (4/14)(0) + (5/14)((2/5)log(2/5)-(3/5)log(3/5)) = 0.693\nBir sonraki adım bilgi kazancını bulmaktır. Bu, ebeveyn entropisi ile yukarıda bulduğumuz ağırlıklı ortalama entropi arasındaki farktır.\nIG(S, hava durumu) = 0.94 - 0.693 = 0.247\nBenzer şekilde Sıcaklık, Nem ve Rüzgar için Bilgi Kazancını bulun.\nIG(S, Sıcaklık) = 0.940 - 0.911 = 0.029\nIG(S, Nem) = 0.940 - 0.788 = 0.152\nIG(S, Rüzgar) = 0.940 - 0.8932 = 0.048\nŞimdi en büyük entropi kazancına sahip özelliği seçin. Burada bu Hava Durumu’dur. Dolayısıyla karar ağacımızın ilk düğümünü (kök düğüm) oluşturur.\nŞimdi verilerimiz şu şekilde görünüyor:\n\n\n\nBulutlu sadece ‘Evet’ sınıfına ait örnekler içerdiğinden, bunu evet olarak ayarlayabiliriz. Yani hava durumu bulutlu ise futbol oynanacak demektir. Şimdi karar ağacımız şu şekilde görünüyor:\n\nBir sonraki adım, karar ağacımızdaki bir sonraki düğümü bulmaktır. Şimdi güneşli altında bir tane bulacağız. Sıcaklık, Nem veya Rüzgardan hangisinin daha yüksek bilgi kazancına sahip olduğunu belirlememiz gerekiyor.\n\nEbeveyn entropisini hesaplayın E(güneşli)\nE(güneşli) = (-(3/5)log(3/5)-(2/5)log(2/5)) = 0.971.\nŞimdi Sıcaklığın bilgi kazancını hesaplayın. IG(güneşli, Sıcaklık)\n\nE(güneşli, Sıcaklık) = (2/5)E(0,2) + (2/5)E(1,1) + (1/5)*E(1,0)=2/5=0.4\nŞimdi bilgi kazancını hesaplayın.\nIG(güneşli, Sıcaklık) = 0.971–0.4 =0.571\nBenzer şekilde şunları elde ederiz:\nIG(güneşli, Nem) = 0.971\nIG(güneşli, Rüzgar) = 0.020\nBurada IG(güneşli, Nem) en büyük değerdir. Bu nedenle Nem, güneşli altına gelen düğümdür.\n\nNem için yukarıdaki tablodan, nem normal ise oyunun gerçekleşeceğini ve yüksek ise gerçekleşmeyeceğini söyleyebiliriz. Benzer şekilde, yağmurlu altındaki düğümleri bulun.\nNot: Entropisi 0’dan büyük olan bir dal daha fazla bölünmeye ihtiyaç duyar.\nSonuç olarak, karar ağacımız aşağıdaki gibi görünecektir:\n\n\n\nCART algoritması kullanarak sınıflandırma\nCART kullanarak sınıflandırma buna benzerdir. Ancak entropi yerine Gini safsızlığını kullanırız.\nİlk adım olarak karar ağacımızın kök düğümünü bulacağız. Bunun için sınıf değişkeninin Gini indeksini hesaplayın\nGini(S) = 1 - [(9/14)² + (5/14)²] = 0.4591\nBir sonraki adım olarak, Gini kazancını hesaplayacağız. Bunun için önce Hava Durumu, Sıcaklık, Nem ve Rüzgarın ağırlıklı ortalama Gini safsızlığını bulacağız.\nİlk olarak Hava Durumu durumunu ele alalım\n\nGini(S, hava durumu) = (5/14)gini(3,2) + (4/14)gini(4,0)+ (5/14)gini(2,3) = (5/14)(1 - (3/5)² - (2/5)²) + (4/14)*0 + (5/14)(1 - (2/5)² - (3/5)²)= 0.171+0+0.171 = 0.342\nGini kazancı (S, hava durumu) = 0.459 - 0.342 = 0.117\nGini kazancı(S, Sıcaklık) = 0.459 - 0.4405 = 0.0185\nGini kazancı(S, Nem) = 0.459 - 0.3674 = 0.0916\nGini kazancı(S, rüzgar) = 0.459 - 0.4286 = 0.0304\nDaha yüksek Gini kazancına sahip olanı seçin. Hava durumu için Gini kazancı daha yüksektir. Bu yüzden onu kök düğümümüz olarak seçebiliriz."
   },
   {
-    "objectID": "ders3.html#sınıflandırma-ve-regresyon",
-    "href": "ders3.html#sınıflandırma-ve-regresyon",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Sınıflandırma ve Regresyon",
-    "text": "Sınıflandırma ve Regresyon\n\nSource"
-  },
-  {
-    "objectID": "ders3.html#section-1",
-    "href": "ders3.html#section-1",
-    "title": "Değerlendirme Ölçütleri",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "FEF3001 Yapay Zekaya Giriş Ders Notları",
     "section": "",
-    "text": "Source"
+    "text": "YTÜ Fen Fakültesinde 2024 Yaz döneminde verilen FEF3001 kodlu dersin içerikleri sayfasıdır.\n\n\n\nVize ne zaman? Cevap: 18 Temmuz 2024 perşembe saat 12:00\nVize yüz yüze mi? Cevap: Evet\nSınavlar hangi derslikte yapılacak? Cevap: Sınav derslikleri Fen Fakültesi sayfasında duyurulmuştur. Lütfen grubunuza (İng veya Türkçe) ve bölümünüze uygun derslikte sınava giriniz.\nVize konuları nelerdir? Cevap: Yapay sinir ağı konusunun sonuna kadar\nYüklenen sunumlar dışında bir kaynaktan soru sorulacak mıdır? Cevap: Temel olarak sunumlar kullanılacaktır fakat derste anlatılanlardan da sorumluyuz, ders video kaydı ve derste aldığınız notlarınızı da çalışınız\nVize test şeklinde mi ve kaç soru sorulur? Cevap: Test şeklinde 20-30 soru planlanmaktadır\nÇok fazla formül var, vizede formüller verilebilir mi? Cevap: Bütün formüller verilmeyecektir, az kullanılan ve karmaşık olan formüller verilebilir\nHaftaya ders yapılacak mı? Cevap: Sınav olduğu gün sadece FEF3001 dersi yapılmayacaktır, Cuma günü ders işlenecektir.\nYorum soruları sorulacak mı? Cevap: Genelde bilgi ölçen sorular terich edilecektir"
   },
   {
-    "objectID": "ders3.html#fit",
-    "href": "ders3.html#fit",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Fit",
-    "text": "Fit\n\nSource"
+    "objectID": "about.html#sıkça-sorulan-sorular",
+    "href": "about.html#sıkça-sorulan-sorular",
+    "title": "FEF3001 Yapay Zekaya Giriş Ders Notları",
+    "section": "",
+    "text": "Vize ne zaman? Cevap: 18 Temmuz 2024 perşembe saat 12:00\nVize yüz yüze mi? Cevap: Evet\nSınavlar hangi derslikte yapılacak? Cevap: Sınav derslikleri Fen Fakültesi sayfasında duyurulmuştur. Lütfen grubunuza (İng veya Türkçe) ve bölümünüze uygun derslikte sınava giriniz.\nVize konuları nelerdir? Cevap: Yapay sinir ağı konusunun sonuna kadar\nYüklenen sunumlar dışında bir kaynaktan soru sorulacak mıdır? Cevap: Temel olarak sunumlar kullanılacaktır fakat derste anlatılanlardan da sorumluyuz, ders video kaydı ve derste aldığınız notlarınızı da çalışınız\nVize test şeklinde mi ve kaç soru sorulur? Cevap: Test şeklinde 20-30 soru planlanmaktadır\nÇok fazla formül var, vizede formüller verilebilir mi? Cevap: Bütün formüller verilmeyecektir, az kullanılan ve karmaşık olan formüller verilebilir\nHaftaya ders yapılacak mı? Cevap: Sınav olduğu gün sadece FEF3001 dersi yapılmayacaktır, Cuma günü ders işlenecektir.\nYorum soruları sorulacak mı? Cevap: Genelde bilgi ölçen sorular terich edilecektir"
   },
   {
-    "objectID": "ders3.html#training",
-    "href": "ders3.html#training",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Training",
-    "text": "Training\n\nSource"
+    "objectID": "ders1.html",
+    "href": "ders1.html",
+    "title": "GPT models",
+    "section": "",
+    "text": "GPT1, GPT2 abd GPT3 were released couple years before ChatGPT and it was able to complete sentences. Please visit “How Does ChatGPT Work?” site for more information. After ChatGPT was released, large language models got “conversational”\nPlease visit OpenAI Playground completion site and select “gpt-3.5-turbo” as model. Type a incomplete sentence and then press Submit button.\nYou’ll see that the model will complete your sentence. If you turn on the “Show probabilities” option on right menu, you’ll get a glimpse of how GPT works.\nIf you complete the sentence and then hover over the words, you’ll see that the model had many words to chose from with certain probabilities. In this example, “my” is the 4th most probable word after Today is and “birthday” is most probable word after Today is my.\nOne of key settings of GPT models is temperature. If you decrease the temperature the model will choose the most probably words. If temperature is high, the model will be picking words with low probabalities, which will bring creative and diverse output.\nIf you decrease the temperature to zero, the output will be always same."
   },
   {
-    "objectID": "ders3.html#training-test",
-    "href": "ders3.html#training-test",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Training / Test",
-    "text": "Training / Test\n\nSource"
+    "objectID": "ders1.html#chatgpt-writes-code-for-us",
+    "href": "ders1.html#chatgpt-writes-code-for-us",
+    "title": "GPT models",
+    "section": "ChatGPT writes code for us",
+    "text": "ChatGPT writes code for us\nLet’s ask ChatGPT for a fast prime number function in Python\n\n\n\nimage.png\n\n\n\n\n\nimage.png\n\n\nDid you see what just happened! It provided code tailored for us and it also explained bits of the code. Have you noticed that the code contains the tricks we have learned during our lecture: * early stop: if a condition is met, return immediately True or False * instead of checking until N, we should check numbers until \\(\\sqrt{N}\\) (n  0.5** in Python)\nYou can continue the conversation. Let’s ask for memoization.\n\n\n\nimage.png\n\n\n\n\n\nimage.png\n\n\nLet’s get the code and test it here:\n\ndef is_prime(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n in (2, 3):\n        result = True\n    elif n == 1 or n % 2 == 0:\n        result = False\n    else:\n        result = True\n        for i in range(3, int(n ** 0.5) + 1, 2):\n            if n % i == 0:\n                result = False\n                break\n    memo[n] = result\n    return result\n\n\n# is_prime(100000000003)\n\n\n&lt;i class=\"fas fa-fw fa-exclamation-circle mr-3 align-self-center\"&gt;&lt;/i&gt;\n&lt;b&gt;Warning:&lt;/b&gt; At the time of writing this note (January 2023) chatGPT is known to provide results which are not exactly true!&lt;br&gt;So, be aware and don't use code or information you got from chatGPT as is without checking or confirming."
   },
   {
-    "objectID": "ders3.html#classification-performance-metrics",
-    "href": "ders3.html#classification-performance-metrics",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Classification Performance Metrics",
-    "text": "Classification Performance Metrics\nBir Sınıflandırma modeli oluşturulduktan sonra bu model ile yapılan tahminlerin ne kadar doğru olduğuna dair değerlendirme yapılması gereklidir.\nAşağıda verilen confusion matrix (karşılaştırma matrisi) bir sınıflandırma modeline dair gerçekleşen durumları ve bu durumlara dair tahminleri verilmiştir.\n\n\n\n\n\nActual (Gerçek)\n\n\n\n\n\n\n\nTrue (Doğru)\nFalse (Yanlış)\n\n\nPrediction (Tahmin)\nPozitif\nTP\nFP\n\n\n\nNegatif\nFN\nTN\n\n\n\nTP : True Positive, FP : False Positive, FN : False Negative, TN : True Negative\nTrue ve false değeri bu modele dair gerçek sonuçları, positive ve negative ise modele dair tahminleri göstermektedir."
+    "objectID": "ders1.html#chatgpt-can-fix-or-modify-the-code",
+    "href": "ders1.html#chatgpt-can-fix-or-modify-the-code",
+    "title": "GPT models",
+    "section": "ChatGPT can fix or modify the code",
+    "text": "ChatGPT can fix or modify the code\nYou have a piece of code and it does not work as intended? Then you can ask ChatGPT to fix the code.\nLet’s provide a code with error and ask chatGPT to debug it:\n\n\n\nimage.png\n\n\n\n\n\nimage.png\n\n\nSo, ChatGPT can fix code! By the way, did you know that I used ChatGPT to prepare that example ;)\n\n\n\nimage.png\n\n\n\n\n\nimage.png"
   },
   {
-    "objectID": "ders3.html#classification-performance-metrics-1",
-    "href": "ders3.html#classification-performance-metrics-1",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Classification Performance Metrics",
-    "text": "Classification Performance Metrics\nTümör ve Hasta örnekleri ele alırsak, Normal örnekler negatif olarak, Tümör örnekleri de pozitif olarak değerlendirilebilir.\n\nTP : Gerçekte Tümör olan hastayı (true/pozitif) Tümör olarak tahmin etmek (pozitif).\n\nFP : Gerçekte Normal olan örneği (false/negatif) Tümör olarak tahmin etmek (pozitif). — &gt; Type 1 Error\n\nFN : Gerçekte Tümor olan örneği (true/pozitif) Normal olarak tahmin etmek (negatif). — &gt; Type 2 Error\n\nTN : Gerçekte Normal olan örneği (false/negatif) Normal olarak tahmin etmek (negatif)."
+    "objectID": "ders1.html#is-it-the-end-of-programming",
+    "href": "ders1.html#is-it-the-end-of-programming",
+    "title": "GPT models",
+    "section": "Is it the end of programming?",
+    "text": "Is it the end of programming?\nYou might think, “we learned Python for a semester and but now there’s ChatGPT, no need to learn coding at all!”. You might find content online which are exploring similar concerns. But more sane approach is “AI tools will increase speed and efficiency of developers also will decresase barriers to entry for new languages.\nThe section below is taken from Github Copilot’s page:"
   },
   {
-    "objectID": "ders3.html#metrics",
-    "href": "ders3.html#metrics",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Metrics",
-    "text": "Metrics\nAccuracy (Doğruluk) : Doğru tahminlerin toplam veri kümesine oranıdır.\nPrecision (Kesinlik): Pozitif olarak tahmin edilen verilerin kaçının gerçekten pozitif olduğunu gösterir.\nRecall or Sensitivity (Duyarlılık): Geliştirilen modelin pozitif olanların kaçını yakaladığını gösterir.\nF1 Score (F1 Skoru): F1 score, precision ve recall değerlerinin harmonik ortalamasıdır. Sınıf dağılımı benzer olduğunda accuracy kullanılabilirken, dengesiz veri setleri söz konusu olduğunda F1 skor daha iyi bir metriktir.\nROC Curve (ROC Eğrisi): Yanlış pozitif oranı ve gerçek pozitif oranı göz önünde bulundurarak x ekseninde ve y ekseninde 0’dan 100’e kadar olan değerlerin üzerinde bir eğri oluşturulur. Bu eğrinin altında kalan alana Area Under Curve (AUC) adı verilir. Bu alanın büyük olması modelin başarılı olduğunu gösterir. Grafikte yer alan mavi çizgi; ne kadar geniş bir alan kaplıyorsa modelin tahmin başarısı o kadar yüksek, ortadaki kesikli çizgiye ne kadar yakınsa modelin başarı oranı o kadar düşüktür."
+    "objectID": "ders1.html#thanks-for-showing-us-chatgpt-i-can-now-prepare-my-homeworks-easily",
+    "href": "ders1.html#thanks-for-showing-us-chatgpt-i-can-now-prepare-my-homeworks-easily",
+    "title": "GPT models",
+    "section": "Thanks for showing us ChatGPT, I can now prepare my homeworks easily!",
+    "text": "Thanks for showing us ChatGPT, I can now prepare my homeworks easily!\nSeeing the capabilities of ChatGPT might give some hint about misuse. First of all, a homework is for you to learn a concept (remember the playing the guitar analogy?) so being involved in AI-assisted plagiarism is still a plagiarism and a loss on your side. (please also check the file 00-academic-integrity.ipynb for adverse effects of plagiarism)\nSecond of all, OpenAI and others are working on tools and ways to include watermarks in ChatGPT output so that it can be spotted easily.\nSo, please be inspired by this tool, use it to augment your learning but do not use it for plagiarism."
   },
   {
-    "objectID": "ders3.html#roc-curve",
-    "href": "ders3.html#roc-curve",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "ROC Curve",
-    "text": "ROC Curve"
+    "objectID": "ders1.html#closed-and-open-models",
+    "href": "ders1.html#closed-and-open-models",
+    "title": "GPT models",
+    "section": "Closed and Open models",
+    "text": "Closed and Open models\nCurrently there are several closed-source large language models which are developed by major corparations each took hundreds of millions to train * GPT3.5 (ChatGPT) and GPT4 by OpenAI * PaLM and Bard by Google * Claude by Anthropics"
   },
   {
-    "objectID": "ders3.html#why-too-many-metrics",
-    "href": "ders3.html#why-too-many-metrics",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Why too many metrics?",
-    "text": "Why too many metrics?\n\n\nNeden birden fazla metrik kullanılıyor, bir örnek ile görelim. Yandaki durum için, 8 Normal ve 2 Tümör olan bir durumda, her örnek için Normal diye tahminde bulunursak. True Negatif (TN) sayısı 8 ve False Negatif (FN) sayısı ise 2 olmaktadır.\nBu durumda, doğruluk, accuracy\nACC = (TP + TN) / (TP + FP + TN + FN)\nformülünden dolayı 8 / 10 = 0.8 yani %80 olarak hesaplanmaktadır.\nFakat, Duyarlılık/Sensitivity\nSENS = TP / (TP + FN)\nformülünden 0 çıkmaktadır.\n\n\n\n\nActual Label\nPrediction\n\n\n\n\nTumor\nNormal\n\n\nTumor\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal"
+    "objectID": "ders1.html#claude-3.5-sonnet-by-antropic",
+    "href": "ders1.html#claude-3.5-sonnet-by-antropic",
+    "title": "GPT models",
+    "section": "Claude 3.5 Sonnet by Antropic",
+    "text": "Claude 3.5 Sonnet by Antropic\nClaude 3.5 is the latest version of Claude model. Antropic releases Claude in three sizes Haiku (smallest), Sonnet (medium) and Opus (largest). Currently, Claude 3.5 Sonnest is the best LLM. Generally Claude is good at creative writing but with the latest release it excels at coding as well. Also, Claude allows preview of the code (web-based) on right panel.\nBelow is as example where Claude 3.5 Sonnet was prompted “Please write game of snake in HTML, CSS and JS”. You can actually play the game!\n\nClaude also allows uploading documents (e.g. PDF) and asking questions about the document.\nYou can use Claude (with some limitations) at https://claude.ai/chat after registering an account for free."
   },
   {
-    "objectID": "ders3.html#example",
-    "href": "ders3.html#example",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Example",
-    "text": "Example\n100 kişilik bir çalışmada, 25 Tümör hastası ve 75 Normal birey bulunmaktadır. Normal (negatif) olan 70 kişi Normal olarak tahmin edilmştir (TN: True Negatif). 5 kişi Normal olduğu halde Tümör olarak tahmin edilmiştir (FP: False pozitif). Gerçekte Tümör olan 15 kişi Tümör olarak tahmin edilmiştir (TP: True pozitif). Son olarak, 10 kişi Tümör olduğu halde Normal olarak tahmin edilmiştir (FN: False negatif). Bu duruma göre Confusion Matrix aşağıdaki gibi hesaplanacaktır.\n\n\n\n\n\nActual\n\n\n\n\n\n\n\nTrue\nFalse\n\n\nTahmin\nPozitif\nTP (15)\nFP (5)\n\n\n\nNegatif\nFN (10)\nTN (70)"
+    "objectID": "ders1.html#gemini-by-google",
+    "href": "ders1.html#gemini-by-google",
+    "title": "GPT models",
+    "section": "Gemini by Google",
+    "text": "Gemini by Google\nGemini is actually an LLM with online search capacity. Also, you can download documents (via Google Drive) or point to YouTube videos to ask questions. Finally, Gemini has the longest context window of 1 million tokens (will fit around 10 books at once)."
   },
   {
-    "objectID": "ders3.html#example-1",
-    "href": "ders3.html#example-1",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Example",
-    "text": "Example\nBu durumda,\nDoğruluk (Accuracy) ACC = (TP + TN) / (TP + TN + FN + FP) = 0.85\nDuyarlılık (Sensitivity) SENS = TP / (TP + FN) = 0.60\nKesinlik (Precision) PREC = TP / (TP + FP) = 0.75\nF1 Skor = 2 x (PREC x SENS) / (PREC + SENS) = 0.6667"
+    "objectID": "ders1.html#running-models-locally",
+    "href": "ders1.html#running-models-locally",
+    "title": "GPT models",
+    "section": "Running models locally",
+    "text": "Running models locally\nSince developers share the model weights, it’s possible to download and run the models locally. There are various sizes of models. 7B (7 billion) models require around 4Gb memory, so you can run them in your laptop.\nYou can run the models by installing PyTorch and some other libraries for Python and then writing some Python code. Or you can install Ollama and then run any compatible model with it.\nAdvantages of running a model locally: 1. Less Censorship 2. Better Data Privacy 3. Offline Usage 4. Cost Savings 5. Better Customization\nDisadvantages of running a model locally: 1. Resource Intensive 2. Slower Responses and Inferior Performance 3. Complex Setup\n\nRunning a model locally using Jupyter notebook or Google Colab\nYou can actually run LLM models in Jupyter notebooks. However the process will require you to install lots of Python packages, downloading the model weights and then writing some Python code to ask questions to the model and then capturing the answer in a dictionary. Although there are some solutions for “chat-like” experience, the experince is more like “one-shot question and answer”.\nPlease check the Youtube video which describes the process in Google Colab, where Google provides GPU (or TPU) to run the model in a Jupyter notebook environment.\n\n\nRunning a model locally with Ollama\n\nPlease visit the list of models page to have an idea about specialized models. With Ollama, you can download and use any of those models.\nIn the terminal, let’s list available models\n$ ollama list\n\nNAME                ID              SIZE    MODIFIED\ndeepseek-coder:6.7b 72be2442d736    3.8 GB  5 weeks ago     \nneural-chat:latest  73940af9fe02    4.1 GB  5 weeks ago     \norca2:7b            ea98cc422de3    3.8 GB  5 weeks ago     \nphi:latest          c651b7a89d73    1.6 GB  14 hours ago    \nsolar:latest        059fdabbe6e6    6.1 GB  2 hours ago     \nstablelm-zephyr:3b  7c596e78b1fc    1.6 GB  3 weeks ago\nLet’s run Phi-2 by Microsoft. Here’s info about Phi-2:\n\na 2.7 billion-parameter language model that demonstrates outstanding reasoning and language understanding capabilities, showcasing state-of-the-art performance among base language models with less than 13 billion parameters. On complex benchmarks Phi-2 matches or outperforms models up to 25x larger, thanks to new innovations in model scaling and training data curation.\n\n$ ollama run phi:latest\n\n&gt;&gt;&gt; why sky is blue?\n\n The sky appears blue due to a phenomenon called Rayleigh scattering. When sunlight enters the Earth's atmosphere,\nit collides with molecules and tiny particles in the air, such as oxygen and nitrogen atoms. These collisions cause\nthe shorter wavelengths of light (blue) to scatter more than the longer wavelengths (red, orange, yellow, green, and\nviolet). As a result, our eyes perceive the scattered blue light to be dominant, which is why the sky appears blue to us.\nAs you can see, a small model, which can answer questions, help coding can be run locally.\n\n\nRunning a model locally with user interface\n\nOllama Web UI\n\n\n\nLLM Studio\nYou can install LM Studio and then interact with local models with its user interface"
   },
   {
-    "objectID": "ders3.html#summary",
-    "href": "ders3.html#summary",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Summary",
-    "text": "Summary\n\nSource"
+    "objectID": "ders1.html#github-copilot",
+    "href": "ders1.html#github-copilot",
+    "title": "GPT models",
+    "section": "Github CoPilot",
+    "text": "Github CoPilot\n\n%%HTML\n&lt;iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ZapdeEJ7xJw?si=3DYWvMa7uudDhUnj\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen&gt;&lt;/iframe&gt;"
   },
   {
-    "objectID": "ders3.html#python-code",
-    "href": "ders3.html#python-code",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Python code",
-    "text": "Python code\n\nfrom sklearn.metrics import confusion_matrix\n\nactual    = [1, 0, 1, 1, 0, 0, 1, 0, 1, 1]\npredicted = [0, 1, 1, 1, 1, 0, 1, 1, 0, 1]\n\nprint(\"\\nConfusion matrix\")\nconf_mat = confusion_matrix(actual, predicted) \n\nprint(conf_mat)\n\n\nConfusion matrix\n[[1 3]\n [2 4]]"
+    "objectID": "ders1.html#free-github-copilot-alternative",
+    "href": "ders1.html#free-github-copilot-alternative",
+    "title": "GPT models",
+    "section": "Free Github CoPilot alternative",
+    "text": "Free Github CoPilot alternative\nCody is Sourcegraph’s AI coding assistant, and it has a couple of features that no other assistant has to make you a 10x developer. You can check it out here: https://sourcegraph.com/cody"
   },
   {
-    "objectID": "ders3.html#regression-performance-metrics",
-    "href": "ders3.html#regression-performance-metrics",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Regression Performance Metrics",
-    "text": "Regression Performance Metrics\nFollowing metrics can be used to measure the performance of regression model output.\n\nMean Error (ME)\nMean Absolute Error (MAE)\nMean Squared Error (MSE)\nRoot Mean Squared Error (RMSE)\n\nThere are much more advanced metrics but we’ll learn only essental ones"
+    "objectID": "ders1.html#open-source-local-alternatives",
+    "href": "ders1.html#open-source-local-alternatives",
+    "title": "GPT models",
+    "section": "Open source local alternatives",
+    "text": "Open source local alternatives\nPlease visit https://tabby.tabbyml.com/ for more information"
   },
   {
-    "objectID": "ders3.html#mean-error-me",
-    "href": "ders3.html#mean-error-me",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Mean Error (ME)",
-    "text": "Mean Error (ME)\n\\[ \\text{ME} = \\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i) \\]\n\\(y_i\\): Actual value, \\(\\hat{y}_i\\): predicted value, n: number of observations"
+    "objectID": "ders1.html#image-generation",
+    "href": "ders1.html#image-generation",
+    "title": "GPT models",
+    "section": "Image generation",
+    "text": "Image generation\n\nDALL-E 3 by OpenAI\nPrompt: “a dna strand with istanbul city as silhoutte in background”\nRevised prompt: “Imagine a detailed science meets architecture illustration. In the foreground, there’s a strand of DNA, magnified and glowing against a dark backdrop. This helix structure is precisely depicted, its familiar double-helix shape twisting majestically. Intertwining with this scientific image, in the background, there’s a silhouette representation of Istanbul city. The skyline shows off its marvelous historical architecture, including its domed mosques and towering minarets. The cityscape sits against a dusky eveningsky, the setting sun casting an orange glow on the horizon behind the buildings. The combination results in a fascinating juxtapositionof science and urban beauty.”\nResult:\n\n\n\nMidjourney v6\nMidjourney announced v6 in December 2023. It can generate photorealistic images. Normally, you need to use their Discord channel to generate images free. Also, you can generate images using getimg.ai. I tried generating images using the following prompts\n\nMolecular biology lab with lots of students.\nBeautiful sea side with white sand beach and tropical trees on shore. The sea looks greenish blue\n\nThe results are great:\n\n\n\nDisinformation\nBe aware of deepfake or AI-generated fake photos\nFake Trump Photo\n\nFake Pope Photo"
   },
   {
-    "objectID": "ders3.html#mean-absolute-error-mae",
-    "href": "ders3.html#mean-absolute-error-mae",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Mean Absolute Error (MAE)",
-    "text": "Mean Absolute Error (MAE)\nAdding negative results is not right when using ME. Let’s take care of it.\n\\[ \\text{MAE} = \\frac{1}{n} \\sum_{i=1}^{n} |y_i - \\hat{y}_i| \\]"
+    "objectID": "ders1.html#video-generation",
+    "href": "ders1.html#video-generation",
+    "title": "GPT models",
+    "section": "Video generation",
+    "text": "Video generation\n\nPrompt to video\n\nRunwayML Gen-2\nPika\nStable Video Diffusion by Stable Diffusion\nGENMO\n\n\n\nImage to video\n\nGENMO"
   },
   {
-    "objectID": "ders3.html#mean-squared-error-mse",
-    "href": "ders3.html#mean-squared-error-mse",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Mean Squared Error (MSE)",
-    "text": "Mean Squared Error (MSE)\n\\[ \\text{MSE} = \\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^2 \\]\nPlease note that squaring the error with punish the model more. Also, squaring a difference will take care of negative sign."
+    "objectID": "ders1.html#music-or-sound-generation",
+    "href": "ders1.html#music-or-sound-generation",
+    "title": "GPT models",
+    "section": "Music or sound generation",
+    "text": "Music or sound generation\n\nElevenlabs can convert text to speech online for free with our AI voice generator"
   },
   {
-    "objectID": "ders3.html#root-mean-squared-error-rmse",
-    "href": "ders3.html#root-mean-squared-error-rmse",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Root Mean Squared Error (RMSE)",
-    "text": "Root Mean Squared Error (RMSE)\n\\[ \\text{RMSE} = \\sqrt{\\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^2} \\]"
+    "objectID": "id3-decision-tree.html",
+    "href": "id3-decision-tree.html",
+    "title": "Decision Tree Algoritm",
+    "section": "",
+    "text": "Taken from https://medium.datadriveninvestor.com/decision-tree-algorithm-with-hands-on-example-e6c2afb40d38\nEntropy\nIn machine learning, entropy is a measure of the randomness in the information being processed. The higher the entropy, the harder it is to draw any conclusions from that information.\n\nInformation Gain\nInformation gain can be defined as the amount of information gained about a random variable or signal from observing another random variable.It can be considered as the difference between the entropy of parent node and weighted average entropy of child nodes.\n\nGini Impurity\nGini impurity is a measure of how often a randomly chosen element from the set would be incorrectly labeled if it was randomly labeled according to the distribution of labels in the subset.\n\nGini impurity is lower bounded by 0, with 0 occurring if the data set contains only one class.\n\nThere are many algorithms there to build a decision tree. They are\n\nCART (Classification and Regression Trees) — This makes use of Gini impurity as the metric.\nID3 (Iterative Dichotomiser 3) — This uses entropy and information gain as metric.\n\nIn this article, I will go through ID3. Once you got it it is easy to implement the same using CART.\n\nClassification using the ID3 algorithm\nConsider whether a dataset based on which we will determine whether to play football or not.\n\nHere There are for independent variables to determine the dependent variable. The independent variables are Outlook, Temperature, Humidity, and Wind. The dependent variable is whether to play football or not.\nAs the first step, we have to find the parent node for our decision tree. For that follow the steps:\n*Find the entropy of the class variable.*\nE(S) = -[(9/14)log(9/14) + (5/14)log(5/14)] = 0.94\nnote: Here typically we will take log to base 2.Here total there are 14 yes/no. Out of which 9 yes and 5 no.Based on it we calculated probability above.\nFrom the above data for outlook we can arrive at the following table easily\n\n*Now we have to calculate average weighted entropy*. ie, we have found the total of weights of each feature multiplied by probabilities.\nE(S, outlook) = (5/14)E(3,2) + (4/14)E(4,0) + (5/14)*E(2,3) = (5/14)(-(3/5)log(3/5)-(2/5)log(2/5))+ (4/14)(0) + (5/14)((2/5)log(2/5)-(3/5)log(3/5)) = 0.693\n*The next step is to find the information gain*. It is the difference between parent entropy and average weighted entropy we found above.\nIG(S, outlook) = 0.94 - 0.693 = 0.247\nSimilarly find Information gain for Temperature, Humidity, and Windy.\nIG(S, Temperature) = 0.940 - 0.911 = 0.029\nIG(S, Humidity) = 0.940 - 0.788 = 0.152\nIG(S, Windy) = 0.940 - 0.8932 = 0.048\n*Now select the feature having the largest entropy gain*. Here it is Outlook. So it forms the first node(root node) of our decision tree.\nNow our data look as follows\n\n\n\nSince overcast contains only examples of class ‘Yes’ we can set it as yes. That means If outlook is overcast football will be played. Now our decision tree looks as follows.\n\nThe next step is to find the next node in our decision tree. Now we will find one under sunny. We have to determine which of the following Temperature, Humidity or Wind has higher information gain.\n\nCalculate parent entropy E(sunny)\nE(sunny) = (-(3/5)log(3/5)-(2/5)log(2/5)) = 0.971.\nNow Calculate the information gain of Temperature. IG(sunny, Temperature)\n\nE(sunny, Temperature) = (2/5)E(0,2) + (2/5)E(1,1) + (1/5)*E(1,0)=2/5=0.4\nNow calculate information gain.\nIG(sunny, Temperature) = 0.971–0.4 =0.571\nSimilarly we get\nIG(sunny, Humidity) = 0.971\nIG(sunny, Windy) = 0.020\nHere IG(sunny, Humidity) is the largest value. So Humidity is the node that comes under sunny.\n\nFor humidity from the above table, we can say that play will occur if humidity is normal and will not occur if it is high. Similarly, find the nodes under rainy.\n*Note: A branch with entropy more than 0 needs further splitting.*\nFinally, our decision tree will look as below:\n\n\n\nClassification using CART algorithm\nClassification using CART is similar to it. But instead of entropy, we use Gini impurity.\nSo as the first step we will find the root node of our decision tree. For that Calculate the Gini index of the class variable\nGini(S) = 1 - [(9/14)² + (5/14)²] = 0.4591\nAs the next step, we will calculate the Gini gain. For that first, we will find the average weighted Gini impurity of Outlook, Temperature, Humidity, and Windy.\nFirst, consider case of Outlook\n\nGini(S, outlook) = (5/14)gini(3,2) + (4/14)gini(4,0)+ (5/14)gini(2,3) = (5/14)(1 - (3/5)² - (2/5)²) + (4/14)*0 + (5/14)(1 - (2/5)² - (3/5)²)= 0.171+0+0.171 = 0.342\nGini gain (S, outlook) = 0.459 - 0.342 = 0.117\nGini gain(S, Temperature) = 0.459 - 0.4405 = 0.0185\nGini gain(S, Humidity) = 0.459 - 0.3674 = 0.0916\nGini gain(S, windy) = 0.459 - 0.4286 = 0.0304\nChoose one that has a higher Gini gain. Gini gain is higher for outlook. So we can choose it as our root node."
+  },
+  {
+    "objectID": "midterm-grades.html",
+    "href": "midterm-grades.html",
+    "title": "Midterm Results / Vize Sonuçları",
+    "section": "",
+    "text": "Sınava katılan öğrenci sayısı: 189 ve vize notlarının ortalaması: 59.6. Aşağıda, vize notlarının dağılımı verilmiştir.\n\n\n\n\n\n\n\n\n\nAşağıdaki tabloda, sayfaları gezinerek veya arama kutusunda öğrenci numaranızı arayarak notlarınızı öğrenebilirsiniz."
+  },
+  {
+    "objectID": "midterm-grades.html#grup-1-türkçe-sonuçları",
+    "href": "midterm-grades.html#grup-1-türkçe-sonuçları",
+    "title": "Midterm Results / Vize Sonuçları",
+    "section": "",
+    "text": "Sınava katılan öğrenci sayısı: 189 ve vize notlarının ortalaması: 59.6. Aşağıda, vize notlarının dağılımı verilmiştir.\n\n\n\n\n\n\n\n\n\nAşağıdaki tabloda, sayfaları gezinerek veya arama kutusunda öğrenci numaranızı arayarak notlarınızı öğrenebilirsiniz."
+  },
+  {
+    "objectID": "midterm-grades.html#group-2-en-results",
+    "href": "midterm-grades.html#group-2-en-results",
+    "title": "Midterm Results / Vize Sonuçları",
+    "section": "Group 2 (EN) results",
+    "text": "Group 2 (EN) results\nTotal number of students took the exam: 70 and average score is: 60.5. Below is the distribution of scores:\n\n\n\n\n\n\n\n\n\nAnd here’s the scores. You can scroll pages or search for your student number in search box."
+  },
+  {
+    "objectID": "ders5-TR.html#içerik",
+    "href": "ders5-TR.html#içerik",
+    "title": "Sınıflandırma Yöntemleri",
+    "section": "İçerik",
+    "text": "İçerik\n\n\n\nDenetimli öğrenmeye giriş\nSınıflandırmanın tanımı ve uygulamaları\nVeri hazırlama\n\nÖzellik seçimi ve ön işleme ✅\n\nYöntemler\n\nKarar Ağaçları\nRastgele Orman\nDestek Vektör Makineleri (SVM)\nLojistik Regresyon\nK-en yakın komşu\nNaive Bayes\nYapay Sinir Ağları ✅\n\n\n\n\nEnsemble yöntemleri\nDeğerlendirme ✅\n\nKarmaşıklık Matrisi ✅\nDoğruluk, hassasiyet, geri çağırma, F1-skoru ✅\nROC eğrileri ✅\n\nAşırı öğrenme (overfitting) ve yetersiz öğrenme (underfitting) ✅\nÇapraz doğrulama (Cross Validation)"
+  },
+  {
+    "objectID": "ders5-TR.html#section",
+    "href": "ders5-TR.html#section",
+    "title": "Sınıflandırma Yöntemleri",
+    "section": "",
+    "text": "Denetimli Öğrenme\n\nKaynak"
+  },
+  {
+    "objectID": "ders5-TR.html#section-1",
+    "href": "ders5-TR.html#section-1",
+    "title": "Sınıflandırma Yöntemleri",
+    "section": "",
+    "text": "Denetimsiz Öğrenme\n\nKaynak"
+  },
+  {
+    "objectID": "ders5-TR.html#sınıflandırmanın-tanımı",
+    "href": "ders5-TR.html#sınıflandırmanın-tanımı",
+    "title": "Sınıflandırma Yöntemleri",
+    "section": "Sınıflandırmanın tanımı",
+    "text": "Sınıflandırmanın tanımı\n\nDenetimli öğrenmenin bir türü\nAmaç: Giriş verilerini önceden tanımlanmış sınıflara veya kategorilere ayırmak\nModel, sınıflar arasında karar sınırları çizmeyi öğrenir\nÇıktı, ayrık bir sınıf etiketidir (sürekli değerler tahmin eden regresyondan farklı olarak)"
+  },
+  {
+    "objectID": "ders5-TR.html#uygulamalar",
+    "href": "ders5-TR.html#uygulamalar",
+    "title": "Sınıflandırma Yöntemleri",
+    "section": "Uygulamalar",
+    "text": "Uygulamalar\n\n\n\nMetin Sınıflandırma\n\nE-postalarda spam tespiti\nÜrün yorumlarının duygu analizi\nHaber makalelerinin kategorize edilmesi\n\nGörüntü Sınıflandırma\n\nHastalık tespiti için tıbbi görüntüleme\nYüz tanıma sistemleri\nBitki veya hayvan türlerinin tanımlanması\n\nFinansal Uygulamalar\n\nKredi puanlaması (kredi başvurularını onaylama/reddetme)\nİşlemlerde dolandırıcılık tespiti\n\n\n\n\nSağlık Hizmetleri\n\nBelirtiler ve test sonuçlarına dayalı hastalık teşhisi\nHasta yeniden yatış riskini tahmin etme\n\nÇevre Bilimi\n\nİklim deseni sınıflandırması\nTür habitat tahmini\n\nEdebiyat ve Dilbilim\n\nYazarlık atfı\nMetinlerin tür sınıflandırması\nDil tanımlama"
+  },
+  {
+    "objectID": "ders5-TR.html#sıra-sizde",
+    "href": "ders5-TR.html#sıra-sizde",
+    "title": "Sınıflandırma Yöntemleri",
+    "section": "Sıra Sizde",
+    "text": "Sıra Sizde\nZoom sohbet penceresinde lütfen bölümünüzü ve alanınızla ilgili bir sınıflandırma görevi örneği yazın"
+  },
+  {
+    "objectID": "ders5-TR.html#sıra-sizde-1",
+    "href": "ders5-TR.html#sıra-sizde-1",
+    "title": "Sınıflandırma Yöntemleri",
+    "section": "Sıra Sizde",
+    "text": "Sıra Sizde\nBir örnek seçin ve veriler hakkında tartışın\nKaggle’ı ziyaret edin ve ilgili veri setini bulun"
+  },
+  {
+    "objectID": "ders5-TR.html#karar-ağaçları",
+    "href": "ders5-TR.html#karar-ağaçları",
+    "title": "Sınıflandırma Yöntemleri",
+    "section": "Karar Ağaçları",
+    "text": "Karar Ağaçları\nKarar Ağaçları, kararların ve olası sonuçlarının ağaç benzeri bir modelini kullanan bir sınıflandırma yöntemidir. Algoritma, veriyi özellik değerlerine göre bölen bir dizi eğer-o zaman-değilse karar kuralını öğrenir ve bir akış şemasına benzeyen bir yapı oluşturur. Her iç düğüm bir özellik üzerinde bir “test”i temsil eder, her dal testin sonucunu temsil eder ve her yaprak düğüm bir sınıf etiketi veya kararı temsil eder.\ndal, test, yaprak"
+  },
+  {
+    "objectID": "ders5-TR.html#örnek",
+    "href": "ders5-TR.html#örnek",
+    "title": "Sınıflandırma Yöntemleri",
+    "section": "Örnek",
+    "text": "Örnek\n\n\n\n\n\n\n\n\n\n\n\n\nÇalışılan saat\nÖnceki Puan\nUygulamaya Katıldı\nGeçti?\n\n\n\n\n3\n60\nHayır\n?\n\n\n4\n75\nHayır\n?\n\n\n7\n80\nEvet\n?"
+  },
+  {
+    "objectID": "ders5-TR.html#karar-ağacı-oluşturma-için-temel-metrikler",
+    "href": "ders5-TR.html#karar-ağacı-oluşturma-için-temel-metrikler",
+    "title": "Sınıflandırma Yöntemleri",
+    "section": "Karar Ağacı Oluşturma için Temel Metrikler",
+    "text": "Karar Ağacı Oluşturma için Temel Metrikler\nSorular: Hangi özellik ilk dal olur? Hangi değerde bir dal oluştururuz (5 saat, 70 puan, vb.)\n\n\nEntropi\nBilgi Kazancı\nGini Safsızlığı"
+  },
+  {
+    "objectID": "ders5-TR.html#entropi",
+    "href": "ders5-TR.html#entropi",
+    "title": "Sınıflandırma Yöntemleri",
+    "section": "Entropi",
+    "text": "Entropi\n\nEntropi, bir örnek kümesindeki safsızlık veya belirsizlik ölçüsüdür. Karar ağaçları bağlamında, bir veri kümesindeki sınıf etiketlerinin düzensizliğini ölçer.\n\nFormül: \\(H(S) = -\\sum_{i=1}^{c} p_i \\log_2(p_i)\\)\nBurada \\(S\\) veri kümesi, \\(c\\) sınıf sayısı ve \\(p_i\\), \\(i\\) sınıfına ait örneklerin oranıdır.\n\n0 (tamamen saf, tüm örnekler bir sınıfa ait) ile \\(\\log_2(c)\\) (tamamen saf olmayan, tüm sınıflara eşit dağılım) arasında değişir.\nBilgi kazancını hesaplamak için kullanılır."
+  },
+  {
+    "objectID": "ders5-TR.html#bilgi-kazancı",
+    "href": "ders5-TR.html#bilgi-kazancı",
+    "title": "Sınıflandırma Yöntemleri",
+    "section": "Bilgi Kazancı",
+    "text": "Bilgi Kazancı\n\nBilgi kazancı, veriyi belirli bir özelliğe göre bölerek elde edilen entropi azalmasını ölçer. Karar ağacının her düğümünde hangi özelliğin bölünmesi gerektiğini belirlemeye yardımcı olur.\n\nFormül: \\(IG(S, A) = H(S) - \\sum_{v \\in Values(A)} \\frac{|S_v|}{|S|} H(S_v)\\)\nBurada \\(S\\) veri kümesi, \\(A\\) bölünme için düşünülen özellik, \\(Values(A)\\) \\(A\\) özelliğinin olası değerleri ve \\(S_v\\), \\(A\\) özelliğinin \\(v\\) değerine sahip olduğu \\(S\\)’nin alt kümesidir.\n\nDaha yüksek bilgi kazancı, sınıflandırma için daha faydalı bir özelliği gösterir.\nGenellikle her düğümde bölünme için en yüksek bilgi kazancına sahip özellik seçilir."
+  },
+  {
+    "objectID": "ders5-TR.html#gini-safsızlığı",
+    "href": "ders5-TR.html#gini-safsızlığı",
+    "title": "Sınıflandırma Yöntemleri",
+    "section": "Gini Safsızlığı",
+    "text": "Gini Safsızlığı\n\nGini safsızlığı, bir örnek kümesinin safsızlığını ölçmek için entropiye bir alternatiftir. Rastgele seçilen bir elemanın, alt kümedeki etiket dağılımına göre rastgele etiketlendirilirse yanlış sınıflandırılma olasılığını temsil eder.\n\nFormül: \\(Gini(S) = 1 - \\sum_{i=1}^{c} (p_i)^2\\)\nBurada \\(S\\) veri kümesi, \\(c\\) sınıf sayısı ve \\(p_i\\), \\(i\\) sınıfına ait örneklerin oranıdır.\n\n0 (tamamen saf) ile \\(1 - \\frac{1}{c}\\) (tamamen saf olmayan) arasında değişir.\nGenellikle CART (Sınıflandırma ve Regresyon Ağaçları) gibi algoritmalarda kullanılır.\n\nEntropi (bilgi kazancı ile) veya Gini safsızlığı kullanma seçimi genellikle karar ağacı algoritmasının belirli uygulamasına bağlıdır. Pratikte, genellikle benzer sonuçlar verirler."
+  },
+  {
+    "objectID": "ders5-TR.html#karar-ağacı-oluşturma-algoritmaları",
+    "href": "ders5-TR.html#karar-ağacı-oluşturma-algoritmaları",
+    "title": "Sınıflandırma Yöntemleri",
+    "section": "Karar ağacı oluşturma algoritmaları",
+    "text": "Karar ağacı oluşturma algoritmaları\n\nID3\nCART\n\nAlgoritmalar hakkında detaylar için lütfen bu bağlantıyı ziyaret edin"
+  },
+  {
+    "objectID": "ders5-TR.html#r-ile-bir-örnek",
+    "href": "ders5-TR.html#r-ile-bir-örnek",
+    "title": "Sınıflandırma Yöntemleri",
+    "section": "R ile bir örnek",
+    "text": "R ile bir örnek\nhttps://www.dataspoof.info/post/decision-tree-classification-in-r/\nhttps://forum.posit.co/t/decision-tree-in-r/5561/5"
+  },
+  {
+    "objectID": "ders5-TR.html#section-2",
+    "href": "ders5-TR.html#section-2",
+    "title": "Sınıflandırma Yöntemleri",
+    "section": "",
+    "text": "Karar Ağaçlarının Avantajları:\n\nYorumlanabilirlik: Uzman olmayanlar için bile anlaşılması ve açıklanması kolaydır. Karar verme süreci görsel olarak temsil edilebilir.\nAz veya hiç veri ön işleme gerektirmez: Normalizasyon veya ölçeklendirme ihtiyacı olmadan hem sayısal hem de kategorik verileri işleyebilir.\nHesaplama açısından verimli: Özellikle küçük ve orta ölçekli veri setleriyle eğitim ve tahmin yapmak genellikle hızlıdır.\n\nDezavantajları:\n\nAşırı öğrenme: Özellikle derin ağaçlarda aşırı öğrenmeye eğilimlidir, bu da yeni verilerde zayıf genellemeye yol açar.\nİstikrarsızlık: Verideki küçük değişiklikler tamamen farklı bir ağacın oluşturulmasına neden olabilir.\nYüksek boyutlu verilerle zorluk: Birçok özellikle hesaplama açısından pahalı hale gelebilir ve aşırı öğrenmeye eğilimli olabilir."
+  },
+  {
+    "objectID": "ders5-TR.html#quiz-zamanı",
+    "href": "ders5-TR.html#quiz-zamanı",
+    "title": "Sınıflandırma Yöntemleri",
+    "section": "Quiz zamanı",
+    "text": "Quiz zamanı"
+  },
+  {
+    "objectID": "ders5-TR.html#rastgele-orman-random-forest",
+    "href": "ders5-TR.html#rastgele-orman-random-forest",
+    "title": "Sınıflandırma Yöntemleri",
+    "section": "Rastgele Orman (Random Forest)",
+    "text": "Rastgele Orman (Random Forest)\nRastgele orman, Leo Breiman ve Adele Cutler tarafından tescillenen, birden çok karar ağacının çıktısını birleştirerek tek bir sonuca ulaşan yaygın olarak kullanılan bir makine öğrenimi algoritmasıdır.\nRastgele ormanlar, eğitim sırasında çok sayıda karar ağacı oluşturarak çalışan ve sınıflandırma, regresyon ve diğer görevler için kullanılan bir topluluk öğrenme yöntemidir. Sınıflandırma görevleri için rastgele ormanın çıktısı, çoğu ağaç tarafından seçilen sınıftır."
+  },
+  {
+    "objectID": "ders5-TR.html#kaggle-örneği",
+    "href": "ders5-TR.html#kaggle-örneği",
+    "title": "Sınıflandırma Yöntemleri",
+    "section": "Kaggle örneği",
+    "text": "Kaggle örneği\nLütfen şu adresi ziyaret edin: https://www.kaggle.com/code/lara311/diabetes-prediction-using-machine-learning"
+  },
+  {
+    "objectID": "ders5-TR.html#destek-vektör-makineleri",
+    "href": "ders5-TR.html#destek-vektör-makineleri",
+    "title": "Sınıflandırma Yöntemleri",
+    "section": "Destek Vektör Makineleri",
+    "text": "Destek Vektör Makineleri\nTemel Fikir\nFarklı türdeki nesneleri, örneğin elmaları ve portakalları, renk, şekil ve boyut gibi özelliklerine göre ayırmaya çalıştığınızı hayal edin. İki tür nesneyi mümkün olduğunca doğru bir şekilde ayıran bir çizgi (veya daha yüksek boyutlarda bir hiper düzlem) çizmek istiyorsunuz.\nDestek Vektör Makineleri = Support Vector Machines (SVM)"
+  },
+  {
+    "objectID": "ders5-TR.html#svm-yöntemi",
+    "href": "ders5-TR.html#svm-yöntemi",
+    "title": "Sınıflandırma Yöntemleri",
+    "section": "SVM Yöntemi",
+    "text": "SVM Yöntemi\nDestek Vektör Makinesi, veriyi farklı sınıflara ayıran en iyi hiper düzlemi bulmayı amaçlayan bir tür denetimli öğrenme algoritmasıdır. İşte nasıl çalıştığı:\n\nVeri Hazırlama: İlgili özellikleri (öznitelikleri) ve etiketleri (örneğin, “elma” veya “portakal”) olan nesnelerin (örneğin, elmalar ve portakallar) bir veri setini toplayın.\nVerileri Çizme: Veri noktalarını bir özellik uzayında çizin, burada her eksen bir özelliği (örneğin, renk, şekil, boyut) temsil eder.\nHiperdüzlemi Bulma: Amaç, veri noktalarını farklı sınıflara ayıran bir hiperdüzlem bulmaktır. Hiperdüzlem, özellik uzayını iki bölgeye ayıran bir çizgi (2B’de) veya düzlem (3B’de) dir.\nMarjini Maksimize Etme: SVM algoritması, iki sınıf arasındaki marjini maksimize eden hiperdüzlemi bulmaya çalışır. Marj, hiperdüzlem ile hiperdüzlemin her iki tarafındaki en yakın veri noktaları (destek vektörleri olarak adlandırılır) arasındaki mesafedir.\nDestek Vektörleri: Destek vektörleri, hiperdüzleme en yakın olan ve konumu üzerinde en çok etkiye sahip olan veri noktalarıdır. Bunlar, hiperdüzlemi tanımlamaya yardımcı olan “destekler”dir."
+  },
+  {
+    "objectID": "ders5-TR.html#destek-vektör-makineleri-1",
+    "href": "ders5-TR.html#destek-vektör-makineleri-1",
+    "title": "Sınıflandırma Yöntemleri",
+    "section": "Destek Vektör Makineleri",
+    "text": "Destek Vektör Makineleri\nTemel Kavramlar\n\nHiperdüzlem: Verileri farklı sınıflara ayıran bir çizgi (2B’de) veya düzlem (3B’de).\nMarj: Hiperdüzlem ile hiperdüzlemin her iki tarafındaki en yakın veri noktaları (destek vektörleri) arasındaki mesafe.\nDestek Vektörleri: Hiperdüzleme en yakın olan ve konumu üzerinde en çok etkiye sahip olan veri noktaları."
+  },
+  {
+    "objectID": "ders5-TR.html#svmler-neden-faydalıdır",
+    "href": "ders5-TR.html#svmler-neden-faydalıdır",
+    "title": "Sınıflandırma Yöntemleri",
+    "section": "SVM’ler Neden Faydalıdır",
+    "text": "SVM’ler Neden Faydalıdır\nSVM’ler güçlüdür çünkü:\n\nYüksek boyutlu verileri işleyebilirler\nGürültüye ve aykırı değerlere karşı dayanıklıdırlar\nHem sınıflandırma hem de regresyon görevleri için kullanılabilirler\nKarar sınırının net bir geometrik yorumunu sağlarlar"
+  },
+  {
+    "objectID": "ders5-TR.html#section-3",
+    "href": "ders5-TR.html#section-3",
+    "title": "Sınıflandırma Yöntemleri",
+    "section": "",
+    "text": "H1 sınıfları ayırmaz. H2 ayırır, ancak sadece küçük bir marjla. H3 onları maksimum marjla ayırır. Kaynak"
+  },
+  {
+    "objectID": "ders5-TR.html#section-4",
+    "href": "ders5-TR.html#section-4",
+    "title": "Sınıflandırma Yöntemleri",
+    "section": "",
+    "text": "İki sınıftan örneklerle eğitilmiş bir SVM için maksimum marjlı hiperdüzlem ve marjlar. Marj üzerindeki örneklere destek vektörleri denir. Kaynak"
+  },
+  {
+    "objectID": "ders5-TR.html#section-5",
+    "href": "ders5-TR.html#section-5",
+    "title": "Sınıflandırma Yöntemleri",
+    "section": "",
+    "text": "SVM için çevrimiçi interaktif bir demo için lütfen SVM demo sitesini ziyaret edin."
+  },
+  {
+    "objectID": "ders5-TR.html#lojistik-regresyon",
+    "href": "ders5-TR.html#lojistik-regresyon",
+    "title": "Sınıflandırma Yöntemleri",
+    "section": "Lojistik Regresyon",
+    "text": "Lojistik Regresyon\nTemel Fikir\nLojistik regresyon, bir sonucun, olayın veya gözlemin olasılığını tahmin ederek ikili sınıflandırma görevlerini gerçekleştiren denetimli bir makine öğrenimi algoritmasıdır. Model, iki olası sonuçla sınırlı ikili bir sonuç sunar: evet/hayır, 0/1 veya doğru/yanlış."
+  },
+  {
+    "objectID": "ders5-TR.html#lojistik-regresyon-yöntemi",
+    "href": "ders5-TR.html#lojistik-regresyon-yöntemi",
+    "title": "Sınıflandırma Yöntemleri",
+    "section": "Lojistik Regresyon Yöntemi",
+    "text": "Lojistik Regresyon Yöntemi\nLojistik Regresyon, bir dizi girdi değişkenine (örneğin, puanlar) dayalı olarak bir olayın gerçekleşme olasılığını (örneğin, sınavı geçme) modelleyen bir tür denetimli öğrenme algoritmasıdır. İşte nasıl çalıştığı:\n\nVeri Hazırlama: Girdi değişkenleri (örneğin, puanlar) ve çıktı değişkenleri (örneğin, geçti/kaldı) için bir veri seti toplayın.\nLojistik Fonksiyon: Lojistik fonksiyon, aynı zamanda sigmoid fonksiyonu olarak da bilinen, olayın gerçekleşme olasılığını modellemek için kullanılır. Girdi değişkenlerini 0 ile 1 arasında bir olasılığa eşler.\nLog-Odds: Lojistik fonksiyon, olayın gerçekleşme olasılığının log-odds’una dayanır, bu da olayın gerçekleşme olasılığının olayın gerçekleşmeme olasılığına oranının logaritmasıdır.\nKatsayılar: Algoritma, her girdi değişkeni için katsayıları (ağırlıkları) öğrenir, bu da her değişkenin çıktıyı tahmin etmedeki önemini belirler.\nKarar Sınırı: Algoritma, katsayıları ve lojistik fonksiyonu kullanarak bir karar sınırı oluşturur, bu da girdi uzayını iki bölgeye ayırır: her sınıf için bir tane (örneğin, geçti ve kaldı).\nTahmin: Yeni bir girdi için, algoritma lojistik fonksiyonu ve öğrenilen katsayıları kullanarak olayın gerçekleşme olasılığını hesaplar. Eğer olasılık belirli bir eşiğin üzerindeyse (örneğin, 0.5), algoritma olayın gerçekleşeceğini tahmin eder (örneğin, öğrenci geçecek)."
+  },
+  {
+    "objectID": "ders5-TR.html#temel-kavramlar",
+    "href": "ders5-TR.html#temel-kavramlar",
+    "title": "Sınıflandırma Yöntemleri",
+    "section": "Temel Kavramlar",
+    "text": "Temel Kavramlar\n\nLojistik Fonksiyon: Girdi değişkenlerini 0 ile 1 arasında bir olasılığa eşleyen matematiksel bir fonksiyon.\nLog-Odds: Olayın gerçekleşme olasılığının olayın gerçekleşmeme olasılığına oranının logaritması.\nKatsayılar: Algoritmanın her girdi değişkeni için öğrendiği ağırlıklar, bunlar çıktıyı tahmin etmedeki önemlerini belirler.\nKarar Sınırı: Girdi uzayını iki bölgeye ayıran sınır, her sınıf için bir tane."
+  },
+  {
+    "objectID": "ders5-TR.html#lojistik-regresyon-neden-faydalıdır",
+    "href": "ders5-TR.html#lojistik-regresyon-neden-faydalıdır",
+    "title": "Sınıflandırma Yöntemleri",
+    "section": "Lojistik Regresyon Neden Faydalıdır",
+    "text": "Lojistik Regresyon Neden Faydalıdır\nLojistik Regresyon popüler bir algoritmadır çünkü:\n\nUygulaması ve yorumlanması kolaydır\nBirden çok girdi değişkenini işleyebilir\nHer tahmin için bir olasılık tahmini sağlar\nTıp, finans ve pazarlama gibi birçok alanda yaygın olarak kullanılır"
+  },
+  {
+    "objectID": "ders2.html#veri-analizi-veri-bilimi-makine-öğrenmesi",
+    "href": "ders2.html#veri-analizi-veri-bilimi-makine-öğrenmesi",
+    "title": "Veri tipleri ve işleme",
+    "section": "Veri analizi, veri bilimi, makine öğrenmesi",
+    "text": "Veri analizi, veri bilimi, makine öğrenmesi"
+  },
+  {
+    "objectID": "ders2.html#section",
+    "href": "ders2.html#section",
+    "title": "Veri tipleri ve işleme",
+    "section": "",
+    "text": "source"
+  },
+  {
+    "objectID": "ders2.html#veri-tipleri",
+    "href": "ders2.html#veri-tipleri",
+    "title": "Veri tipleri ve işleme",
+    "section": "Veri tipleri",
+    "text": "Veri tipleri\n\nrecord data\ntransaction data\ndata matrix\n\nsparse data matrix\n\ngraph-based data"
+  },
+  {
+    "objectID": "ders2.html#sıralı-veri-ordered-data",
+    "href": "ders2.html#sıralı-veri-ordered-data",
+    "title": "Veri tipleri ve işleme",
+    "section": "Sıralı veri / Ordered data",
+    "text": "Sıralı veri / Ordered data\n\n\nSequential / Temporal data\nSequence data\nTime series data\nSpatial data"
+  },
+  {
+    "objectID": "ders2.html#section-3",
+    "href": "ders2.html#section-3",
+    "title": "Veri tipleri ve işleme",
+    "section": "",
+    "text": "Figure 2.4"
+  },
+  {
+    "objectID": "ders2.html#veri-kalitesi",
+    "href": "ders2.html#veri-kalitesi",
+    "title": "Veri tipleri ve işleme",
+    "section": "Veri kalitesi",
+    "text": "Veri kalitesi\n Hatırlanacağı üzere, veri biliminde veri temizliği aşaması toplam sürenin %80’ini oluşturmaktadır.\n\nÖlçüm hataları / measurement error : ölçüm sırasında sayısal hata yapılması veya dahil edilmemesi gereken verinin dahil edilmesi\nGürültü / Noise and artifacts: ölçüm hatalarındaki rastgele olan bileşendir. Sinyal işleme yöntemleri ile gürültü kaldırılabilir ama bu sırada gerçek veri kaybı da gerçekleşebilir."
+  },
+  {
+    "objectID": "ders2.html#veri-kalitesi---2",
+    "href": "ders2.html#veri-kalitesi---2",
+    "title": "Veri tipleri ve işleme",
+    "section": "Veri kalitesi - 2",
+    "text": "Veri kalitesi - 2\n\nUç değer / Outlier\nKayıp veya eksik ölçüm / Missing value\n\nÇıkarma / Eliminate\nTahmin etme, doldurma / Estimate\nGöz ardı etme / Ignore\n\nUyumsuz ölçümler / Inconsistent values : örn. Ölçüm yapılan tekniğin değişmesi veya farklı tekniklerle toplanan değerlerin uyuşmazlığı\nTekrar eden veri / Duplicate data : aynı kişi bir veritabanında birden çok kez bulunabilir ama ismi aynı iki kişi tekrar sayılmaz"
+  },
+  {
+    "objectID": "ders2.html#veri-işleme",
+    "href": "ders2.html#veri-işleme",
+    "title": "Veri tipleri ve işleme",
+    "section": "Veri işleme",
+    "text": "Veri işleme\n\n\nAggregation\nSampling\nDimensionality reduction\nFeature subset selection\nFeature creation\nDiscretization and binarization\nVariable transformation"
+  },
+  {
+    "objectID": "ders2.html#aggregation",
+    "href": "ders2.html#aggregation",
+    "title": "Veri tipleri ve işleme",
+    "section": "Aggregation",
+    "text": "Aggregation\n\nGroup by - sum, mean\nHistogram"
+  },
+  {
+    "objectID": "ders2.html#aggregation-histogram",
+    "href": "ders2.html#aggregation-histogram",
+    "title": "Veri tipleri ve işleme",
+    "section": "Aggregation / Histogram",
+    "text": "Aggregation / Histogram"
+  },
+  {
+    "objectID": "ders2.html#sampling-örnekleme",
+    "href": "ders2.html#sampling-örnekleme",
+    "title": "Veri tipleri ve işleme",
+    "section": "Sampling / Örnekleme",
+    "text": "Sampling / Örnekleme\n\nSimple random sampling\nStratified sampling"
+  },
+  {
+    "objectID": "ders2.html#dimensionality-reduction",
+    "href": "ders2.html#dimensionality-reduction",
+    "title": "Veri tipleri ve işleme",
+    "section": "Dimensionality reduction",
+    "text": "Dimensionality reduction\n\n“The Curse of Dimensionality”: özellik/attribute sayısı arttıkça algoritmaların veya hesapların daha zor hale gelmesi. “Sparse” veri durumunda artık hesaplamaların (uzaklık, benzerlik) doğruluğunu yitirmesi\n\n\nLinear algebra techniques\n\nPCA: Principal Components Analysis\nSVD: Singular Value Decomposition"
+  },
+  {
+    "objectID": "ders2.html#others",
+    "href": "ders2.html#others",
+    "title": "Veri tipleri ve işleme",
+    "section": "Others",
+    "text": "Others\n\nFeature Subset Selection\n\nremove Redundant features or Irrelevant features\nFeature Weighting\n\nFeature Creation\n\nFeature Extraction: e.g Photo -&gt; edges, important areas, color scheme\nMapping the Data to a New Space : e.g Fourier Transformation\n\nDiscretization and Binarization\n\nCategory -&gt; Binary values\nContinous data -&gt; bins, categories, intervals\n\nVariable Transformation"
+  },
+  {
+    "objectID": "ders2.html#fourier-transformation",
+    "href": "ders2.html#fourier-transformation",
+    "title": "Veri tipleri ve işleme",
+    "section": "Fourier Transformation",
+    "text": "Fourier Transformation"
+  },
+  {
+    "objectID": "ders2.html#category-to-binary",
+    "href": "ders2.html#category-to-binary",
+    "title": "Veri tipleri ve işleme",
+    "section": "Category to binary",
+    "text": "Category to binary"
+  },
+  {
+    "objectID": "ders2.html#variable-transformation",
+    "href": "ders2.html#variable-transformation",
+    "title": "Veri tipleri ve işleme",
+    "section": "Variable Transformation",
+    "text": "Variable Transformation\n\n\nSimple functions: \\(x^k\\) , log(x), \\(e^x\\) , sqrt(x), \\(1/x\\), sin(x), or |x|\nNormalization or Standardization\n\nfor each value subtract mean and divide by standard deviation\ne.g. age and income data, find similarity between individuals\nmean = 0, sd = 1"
+  },
+  {
+    "objectID": "ders1-TR.html",
+    "href": "ders1-TR.html",
+    "title": "GPT modelleri",
+    "section": "",
+    "text": "GPT1, GPT2 ve GPT3, ChatGPT’den birkaç yıl önce piyasaya sürüldü ve cümleleri tamamlama yeteneğine sahipti. Daha fazla bilgi için “ChatGPT Nasıl Çalışır?” sitesini ziyaret edin. ChatGPT’nin piyasaya sürülmesinden sonra, büyük dil modelleri “konuşma yeteneği” kazandı.\nLütfen OpenAI Playground tamamlama sitesini ziyaret edin ve model olarak “gpt-3.5-turbo”yu seçin. Tamamlanmamış bir cümle yazın ve ardından Gönder düğmesine basın.\n\nModelin cümlenizi tamamladığını göreceksiniz. Sağ menüdeki “Olasılıkları göster” seçeneğini açarsanız, GPT’nin nasıl çalıştığına dair bir fikir edinebilirsiniz.\n\nCümleyi tamamlayıp kelimelerin üzerine geldiğinizde, modelin belirli olasılıklarla seçebileceği birçok kelime olduğunu göreceksiniz. Bu örnekte, “my” kelimesi Today is ifadesinden sonra 4. en olası kelimedir ve “birthday” kelimesi Today is my ifadesinden sonra en olası kelimedir.\n\n\nGPT modellerinin temel ayarlarından biri sıcaklık değeridir. Sıcaklığı azaltırsanız, model en olası kelimeleri seçecektir. Sıcaklık yüksekse, model düşük olasılıklı kelimeleri seçecektir, bu da yaratıcı ve çeşitli çıktılar sağlayacaktır.\nSıcaklığı sıfıra düşürürseniz, çıktı her zaman aynı olacaktır."
+  },
+  {
+    "objectID": "ders1-TR.html#chatgpt-bizim-için-kod-yazıyor",
+    "href": "ders1-TR.html#chatgpt-bizim-için-kod-yazıyor",
+    "title": "GPT modelleri",
+    "section": "ChatGPT bizim için kod yazıyor",
+    "text": "ChatGPT bizim için kod yazıyor\nHadi ChatGPT’den Python’da hızlı bir asal sayı fonksiyonu isteyelim\n\n\nAz önce ne olduğunu gördünüz mü! Bize özel hazırlanmış bir kod sağladı ve kodun parçalarını da açıkladı. Kodun dersimiz sırasında öğrendiğimiz püf noktaları içerdiğini fark ettiniz mi: * erken durma: bir koşul karşılanırsa, hemen True veya False döndür * N’ye kadar kontrol etmek yerine, \\(\\sqrt{N}\\)’e kadar olan sayıları kontrol etmeliyiz (Python’da n  0.5**)\nKonuşmaya devam edebilirsiniz. Hadi memoization isteyelim.\n\n\nHadi kodu alalım ve burada test edelim:\ndef is_prime(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n in (2, 3):\n        result = True\n    elif n == 1 or n % 2 == 0:\n        result = False\n    else:\n        result = True\n        for i in range(3, int(n ** 0.5) + 1, 2):\n            if n % i == 0:\n                result = False\n                break\n    memo[n] = result\n    return result\n# is_prime(100000000003)\n\n\n\n\n\n\nUyarı\n\n\n\nBu notu yazdığım sırada (Ocak 2023) chatGPT’nin tam olarak doğru olmayan sonuçlar verdiği biliniyordu!Bu nedenle, chatGPT’den aldığınız kodu veya bilgiyi kontrol etmeden veya doğrulamadan olduğu gibi kullanmamaya dikkat ediniz."
+  },
+  {
+    "objectID": "ders1-TR.html#chatgpt-kodu-düzeltebilir-veya-değiştirebilir",
+    "href": "ders1-TR.html#chatgpt-kodu-düzeltebilir-veya-değiştirebilir",
+    "title": "GPT modelleri",
+    "section": "ChatGPT kodu düzeltebilir veya değiştirebilir",
+    "text": "ChatGPT kodu düzeltebilir veya değiştirebilir\nElinizde bir kod parçası var ve istediğiniz gibi çalışmıyor mu? O zaman ChatGPT’den kodu düzeltmesini isteyebilirsiniz.\nHatalı bir kod verelim ve chatGPT’den hata ayıklamasını isteyelim:\n\n\nDemek ki ChatGPT kodu düzeltebiliyor! Bu arada, o örneği hazırlamak için ChatGPT’yi kullandığımı biliyor muydunuz? ;)"
+  },
+  {
+    "objectID": "ders1-TR.html#bu-programlamanın-sonu-mu",
+    "href": "ders1-TR.html#bu-programlamanın-sonu-mu",
+    "title": "GPT modelleri",
+    "section": "Bu programlamanın sonu mu?",
+    "text": "Bu programlamanın sonu mu?\n“Bir dönem boyunca Python öğrendik ama şimdi ChatGPT var, hiç kod öğrenmeye gerek yok!” diye düşünebilirsiniz. Benzer endişeleri araştıran çevrimiçi içerikler bulabilirsiniz. Ancak daha makul yaklaşım, “AI araçları geliştiricilerin hızını ve verimliliğini artıracak ve ayrıca yeni dillere giriş engellerini azaltacak” şeklindedir.\nAşağıdaki bölüm Github Copilot’un sayfasından alınmıştır:"
+  },
+  {
+    "objectID": "ders1-TR.html#chatgptyi-gösterdiğiniz-için-teşekkürler-artık-ödevlerimi-kolayca-hazırlayabilirim",
+    "href": "ders1-TR.html#chatgptyi-gösterdiğiniz-için-teşekkürler-artık-ödevlerimi-kolayca-hazırlayabilirim",
+    "title": "GPT modelleri",
+    "section": "ChatGPT’yi gösterdiğiniz için teşekkürler, artık ödevlerimi kolayca hazırlayabilirim!",
+    "text": "ChatGPT’yi gösterdiğiniz için teşekkürler, artık ödevlerimi kolayca hazırlayabilirim!\nChatGPT’nin yeteneklerini görmek, yanlış kullanım hakkında bazı ipuçları verebilir. Öncelikle, bir ödev sizin bir kavramı öğrenmeniz içindir (gitar çalma benzetmesini hatırlayın?) bu nedenle AI destekli intihal yapmak hala bir intihaldir ve sizin açınızdan bir kayıptır. (lütfen intihalin olumsuz etkileri için 00-academic-integrity.ipynb dosyasını da kontrol edin)\nİkincisi, OpenAI ve diğerleri ChatGPT çıktısına kolayca fark edilebilecek filigranlar eklemek için araçlar ve yöntemler üzerinde çalışıyor.\nBu yüzden lütfen bu araçtan ilham alın, öğrenmenizi geliştirmek için kullanın ama intihal için kullanmayın."
+  },
+  {
+    "objectID": "ders1-TR.html#kapalı-ve-açık-modeller",
+    "href": "ders1-TR.html#kapalı-ve-açık-modeller",
+    "title": "GPT modelleri",
+    "section": "Kapalı ve Açık modeller",
+    "text": "Kapalı ve Açık modeller\nŞu anda, her biri eğitilmek için yüz milyonlarca dolar harcanan ve büyük şirketler tarafından geliştirilen birkaç kapalı kaynaklı büyük dil modeli var: * GPT3.5 (ChatGPT) ve GPT4 OpenAI tarafından * PaLM ve Bard Google tarafından * Claude Anthropics tarafından"
+  },
+  {
+    "objectID": "ders1-TR.html#claude-3.5-sonnet-by-antropic",
+    "href": "ders1-TR.html#claude-3.5-sonnet-by-antropic",
+    "title": "GPT modelleri",
+    "section": "Claude 3.5 Sonnet by Antropic",
+    "text": "Claude 3.5 Sonnet by Antropic\nClaude 3.5, Claude modelinin en son sürümüdür. Antropic, Claude’u üç boyutta piyasaya sürer: Haiku (en küçük), Sonnet (orta) ve Opus (en büyük). Şu anda, Claude 3.5 Sonnest en iyi LLM’dir. Genellikle Claude yaratıcı yazma konusunda iyidir, ancak son sürümüyle kodlamada da mükemmelleşmiştir. Ayrıca, Claude sağ panelde kodun önizlemesine (web tabanlı) izin verir.\nAşağıda, Claude 3.5 Sonnet’e “Lütfen HTML, CSS ve JS ile yılan oyunu yaz” komutu verildiğinde oluşturulan bir örnek yer alıyor. Oyunu gerçekten oynayabilirsiniz!\n\nClaude ayrıca belgeleri (örneğin PDF) yüklemeye ve belge hakkında sorular sormaya izin verir.\nClaude’u (bazı sınırlamalarla) ücretsiz bir hesap kaydettikten sonra https://claude.ai/chat adresinde kullanabilirsiniz."
+  },
+  {
+    "objectID": "ders1-TR.html#gemini-by-google",
+    "href": "ders1-TR.html#gemini-by-google",
+    "title": "GPT modelleri",
+    "section": "Gemini by Google",
+    "text": "Gemini by Google\nGemini aslında çevrimiçi arama kapasitesine sahip bir LLM’dir. Ayrıca, (Google Drive aracılığıyla) belgeler indirebilir veya sorular sormak için YouTube videolarına yönlendirebilirsiniz. Son olarak, Gemini 1 milyon belirteçlik en uzun bağlam penceresine sahiptir (bir kerede yaklaşık 10 kitap sığacaktır)."
+  },
+  {
+    "objectID": "ders1-TR.html#modelleri-lokal-olarak-çalıştırma",
+    "href": "ders1-TR.html#modelleri-lokal-olarak-çalıştırma",
+    "title": "GPT modelleri",
+    "section": "Modelleri lokal olarak çalıştırma",
+    "text": "Modelleri lokal olarak çalıştırma\nGeliştiriciler model ağırlıklarını paylaştığı için, modelleri indirip yerel olarak çalıştırmak mümkün. Çeşitli boyutlarda modeller var. 7B (7 milyar) modeller yaklaşık 4Gb bellek gerektiriyor, bu yüzden onları dizüstü bilgisayarınızda çalıştırabilirsiniz.\nModelleri, Python için PyTorch ve bazı diğer kütüphaneleri kurarak ve ardından biraz Python kodu yazarak çalıştırabilirsiniz. Ya da Ollama’yı kurabilir ve ardından onunla uyumlu herhangi bir modeli çalıştırabilirsiniz.\nBir modeli yerel olarak çalıştırmanın avantajları: 1. Daha Az Sansür 2. Daha İyi Veri Gizliliği 3. Çevrimdışı Kullanım 4. Maliyet Tasarrufu 5. Daha İyi Özelleştirme\nBir modeli yerel olarak çalıştırmanın dezavantajları: 1. Kaynak Yoğun 2. Daha Yavaş Yanıtlar ve Daha Düşük Performans 3. Karmaşık Kurulum\n\nJupyter notebook veya Google Colab kullanarak lokal olarak model çalıştırma\nAslında LLM modellerini Jupyter notebook’larında çalıştırabilirsiniz. Ancak bu süreç, birçok Python paketini kurmanızı, model ağırlıklarını indirmenizi ve ardından modele soru sormak ve yanıtı bir sözlükte yakalamak için biraz Python kodu yazmanızı gerektirecektir. “Sohbet benzeri” deneyim için bazı çözümler olsa da, deneyim daha çok “tek seferlik soru ve cevap” gibidir.\nLütfen Google’ın bir Jupyter notebook ortamında modeli çalıştırmak için GPU (veya TPU) sağladığı Google Colab’daki süreci anlatan YouTube videosunu kontrol edin.\n\n\nOllama ile lokal olarak model çalıştırma\n\nÖzelleştirilmiş modeller hakkında bir fikir edinmek için lütfen modeller listesi sayfasını ziyaret edin. Ollama ile, bu modellerden herhangi birini indirebilir ve kullanabilirsiniz.\nTerminalde, mevcut modelleri listeleyelim\n$ ollama list\n\nNAME                ID              SIZE    MODIFIED\ndeepseek-coder:6.7b 72be2442d736    3.8 GB  5 weeks ago     \nneural-chat:latest  73940af9fe02    4.1 GB  5 weeks ago     \norca2:7b            ea98cc422de3    3.8 GB  5 weeks ago     \nphi:latest          c651b7a89d73    1.6 GB  14 hours ago    \nsolar:latest        059fdabbe6e6    6.1 GB  2 hours ago     \nstablelm-zephyr:3b  7c596e78b1fc    1.6 GB  3 weeks ago\nMicrosoft tarafından geliştirilen Phi-2’yi çalıştıralım. İşte Phi-2 hakkında bilgi:\n\n2,7 milyar parametreli bir dil modeli olan Phi-2, olağanüstü akıl yürütme ve dil anlama yetenekleri sergiliyor ve 13 milyar parametreden daha az olan temel dil modelleri arasında en son teknoloji performansı gösteriyor. Karmaşık kıyaslamalarda Phi-2, model ölçeklendirme ve eğitim verisi kürasyon konusundaki yeni yenilikler sayesinde 25 kat daha büyük modellere eşdeğer veya daha iyi performans gösteriyor.\n\n$ ollama run phi:latest\n\n&gt;&gt;&gt; Gökyüzü neden mavi?\n\nGökyüzü, Rayleigh saçılması adı verilen bir fenomen nedeniyle mavi görünür. Güneş ışığı Dünya'nın atmosferine girdiğinde, oksijen ve azot atomları gibi havadaki moleküller ve küçük parçacıklarla çarpışır. Bu çarpışmalar, ışığın daha kısa dalga boylarının (mavi) daha uzun dalga boylarından (kırmızı, turuncu, sarı, yeşil ve mor) daha fazla saçılmasına neden olur.\nSonuç olarak, gözlerimiz saçılan mavi ışığı baskın olarak algılar ve bu nedenle gökyüzü bize mavi görünür.\nGördüğünüz gibi, soruları cevaplayabilen, kodlama konusunda yardımcı olabilen küçük bir model yerel olarak çalıştırılabilir.\n\n\nKullanıcı arayüzü ile lokal olarak model çalıştırma\n\nOllama Web UI\n\n\n\nLLM Studio\nLM Studio’yu kurabilir ve ardından kullanıcı arayüzü ile yerel modellerle etkileşime geçebilirsiniz"
+  },
+  {
+    "objectID": "ders1-TR.html#github-copilot",
+    "href": "ders1-TR.html#github-copilot",
+    "title": "GPT modelleri",
+    "section": "Github CoPilot",
+    "text": "Github CoPilot"
+  },
+  {
+    "objectID": "ders1-TR.html#ücretsiz-github-copilot-alternatifi",
+    "href": "ders1-TR.html#ücretsiz-github-copilot-alternatifi",
+    "title": "GPT modelleri",
+    "section": "Ücretsiz Github CoPilot alternatifi",
+    "text": "Ücretsiz Github CoPilot alternatifi\nCody, Sourcegraph’in AI kodlama asistanıdır ve sizi 10x geliştirici yapacak başka hiçbir asistanın sahip olmadığı birkaç özelliğe sahiptir. Buradan inceleyebilirsiniz: https://sourcegraph.com/cody"
+  },
+  {
+    "objectID": "ders1-TR.html#açık-kaynak-lokal-alternatifler",
+    "href": "ders1-TR.html#açık-kaynak-lokal-alternatifler",
+    "title": "GPT modelleri",
+    "section": "Açık kaynak lokal alternatifler",
+    "text": "Açık kaynak lokal alternatifler\nDaha fazla bilgi için lütfen https://tabby.tabbyml.com/ adresini ziyaret edin"
+  },
+  {
+    "objectID": "ders1-TR.html#görüntü-üretimi",
+    "href": "ders1-TR.html#görüntü-üretimi",
+    "title": "GPT modelleri",
+    "section": "Görüntü Üretimi",
+    "text": "Görüntü Üretimi\n\nOpenAI’dan DALL-E 3\nİstek: “arka planda istanbul şehri silüeti olan bir dna sarmalı”\nDüzeltilmiş istek: “Bilim ve mimarinin buluştuğu detaylı bir illüstrasyon hayal edin. Ön planda, karanlık bir arka plan üzerinde büyütülmüş ve parlayan bir DNA sarmalı var. Bu sarmal yapı tam olarak betimlenmiş, tanıdık çift sarmal şekli muhteşem bir şekilde kıvrılıyor. Bu bilimsel görüntüyle iç içe geçmiş şekilde, arka planda İstanbul şehrinin bir silüet temsili var. Şehir silueti, kubbeli camileri ve yükselen minareleriyle muhteşem tarihi mimarisini sergiliyor. Şehir manzarası, akşamüstü gökyüzüne karşı duruyor, batan güneş binaların arkasındaki ufukta turuncu bir parıltı yaratıyor. Bu kombinasyon, bilim ve şehir güzelliğinin büyüleyici bir yan yana gelişiyle sonuçlanıyor.”\nSonuç:\n\n\n\nMidjourney v6\nMidjourney, Aralık 2023’te v6’yı duyurdu. Fotogerçekçi görüntüler üretebiliyor. Normalde, ücretsiz görüntü üretmek için Discord kanallarını kullanmanız gerekir. Ayrıca, getimg.ai kullanarak da görüntüler üretebilirsiniz. Aşağıdaki isteklerle görüntüler üretmeyi denedim:\n\nÇok sayıda öğrencinin olduğu moleküler biyoloji laboratuvarı.\nBeyaz kumlu güzel bir deniz kenarı ve kıyıda tropikal ağaçlar. Deniz yeşilimsi mavi görünüyor.\n\nSonuçlar harika:\n\n\n\nDezenformasyon\nDeepfake veya yapay zeka tarafından üretilmiş sahte fotoğraflara dikkat edin\nSahte Trump Fotoğrafı\n\nSahte Papa Fotoğrafı"
+  },
+  {
+    "objectID": "ders1-TR.html#video-üretimi",
+    "href": "ders1-TR.html#video-üretimi",
+    "title": "GPT modelleri",
+    "section": "Video Üretimi",
+    "text": "Video Üretimi\n\nİstekten videoya\n\nRunwayML Gen-2\nPika\nStable Diffusion’dan Stable Video Diffusion\nGENMO\n\n\n\nGörüntüden videoya\n\nGENMO"
+  },
+  {
+    "objectID": "ders1-TR.html#müzik-veya-ses-üretimi",
+    "href": "ders1-TR.html#müzik-veya-ses-üretimi",
+    "title": "GPT modelleri",
+    "section": "Müzik veya Ses Üretimi",
+    "text": "Müzik veya Ses Üretimi\n\nElevenlabs yapay zeka ses üreticimizle metni çevrimiçi olarak ücretsiz konuşmaya dönüştürebilir"
   },
   {
     "objectID": "ders5.html#contents",
@@ -413,577 +840,157 @@
     "text": "Why Logistic Regression is Useful\nLogistic Regression is a popular algorithm because it:\n\nIs easy to implement and interpret\nCan handle multiple input variables\nProvides a probability estimate for each prediction\nIs widely used in many fields, such as medicine, finance, and marketing"
   },
   {
-    "objectID": "ders1-TR.html",
-    "href": "ders1-TR.html",
-    "title": "GPT modelleri",
+    "objectID": "ders3.html#değerlendirme-ölçütleri-performance-metrics",
+    "href": "ders3.html#değerlendirme-ölçütleri-performance-metrics",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Değerlendirme ölçütleri / Performance Metrics",
+    "text": "Değerlendirme ölçütleri / Performance Metrics\n\nSınıflandırma değerlendirme (Classification)\nRegresyon değerlendirme (Regression)"
+  },
+  {
+    "objectID": "ders3.html#sınıflandırma-ve-regresyon-classification-vs-regression",
+    "href": "ders3.html#sınıflandırma-ve-regresyon-classification-vs-regression",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Sınıflandırma ve Regresyon (Classification vs regression)",
+    "text": "Sınıflandırma ve Regresyon (Classification vs regression)\n\nSource"
+  },
+  {
+    "objectID": "ders3.html#section",
+    "href": "ders3.html#section",
+    "title": "Değerlendirme Ölçütleri",
     "section": "",
-    "text": "GPT1, GPT2 ve GPT3, ChatGPT’den birkaç yıl önce piyasaya sürüldü ve cümleleri tamamlama yeteneğine sahipti. Daha fazla bilgi için “ChatGPT Nasıl Çalışır?” sitesini ziyaret edin. ChatGPT’nin piyasaya sürülmesinden sonra, büyük dil modelleri “konuşma yeteneği” kazandı.\nLütfen OpenAI Playground tamamlama sitesini ziyaret edin ve model olarak “gpt-3.5-turbo”yu seçin. Tamamlanmamış bir cümle yazın ve ardından Gönder düğmesine basın.\n\nModelin cümlenizi tamamladığını göreceksiniz. Sağ menüdeki “Olasılıkları göster” seçeneğini açarsanız, GPT’nin nasıl çalıştığına dair bir fikir edinebilirsiniz.\n\nCümleyi tamamlayıp kelimelerin üzerine geldiğinizde, modelin belirli olasılıklarla seçebileceği birçok kelime olduğunu göreceksiniz. Bu örnekte, “my” kelimesi Today is ifadesinden sonra 4. en olası kelimedir ve “birthday” kelimesi Today is my ifadesinden sonra en olası kelimedir.\n\n\nGPT modellerinin temel ayarlarından biri sıcaklık değeridir. Sıcaklığı azaltırsanız, model en olası kelimeleri seçecektir. Sıcaklık yüksekse, model düşük olasılıklı kelimeleri seçecektir, bu da yaratıcı ve çeşitli çıktılar sağlayacaktır.\nSıcaklığı sıfıra düşürürseniz, çıktı her zaman aynı olacaktır."
+    "text": "Source"
   },
   {
-    "objectID": "ders1-TR.html#chatgpt-bizim-için-kod-yazıyor",
-    "href": "ders1-TR.html#chatgpt-bizim-için-kod-yazıyor",
-    "title": "GPT modelleri",
-    "section": "ChatGPT bizim için kod yazıyor",
-    "text": "ChatGPT bizim için kod yazıyor\nHadi ChatGPT’den Python’da hızlı bir asal sayı fonksiyonu isteyelim\n\n\nAz önce ne olduğunu gördünüz mü! Bize özel hazırlanmış bir kod sağladı ve kodun parçalarını da açıkladı. Kodun dersimiz sırasında öğrendiğimiz püf noktaları içerdiğini fark ettiniz mi: * erken durma: bir koşul karşılanırsa, hemen True veya False döndür * N’ye kadar kontrol etmek yerine, \\(\\sqrt{N}\\)’e kadar olan sayıları kontrol etmeliyiz (Python’da n  0.5**)\nKonuşmaya devam edebilirsiniz. Hadi memoization isteyelim.\n\n\nHadi kodu alalım ve burada test edelim:\ndef is_prime(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n in (2, 3):\n        result = True\n    elif n == 1 or n % 2 == 0:\n        result = False\n    else:\n        result = True\n        for i in range(3, int(n ** 0.5) + 1, 2):\n            if n % i == 0:\n                result = False\n                break\n    memo[n] = result\n    return result\n# is_prime(100000000003)\n\n\n\n\n\n\nUyarı\n\n\n\nBu notu yazdığım sırada (Ocak 2023) chatGPT’nin tam olarak doğru olmayan sonuçlar verdiği biliniyordu!Bu nedenle, chatGPT’den aldığınız kodu veya bilgiyi kontrol etmeden veya doğrulamadan olduğu gibi kullanmamaya dikkat ediniz."
+    "objectID": "ders3.html#sınıflandırma-ve-regresyon",
+    "href": "ders3.html#sınıflandırma-ve-regresyon",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Sınıflandırma ve Regresyon",
+    "text": "Sınıflandırma ve Regresyon\n\nSource"
   },
   {
-    "objectID": "ders1-TR.html#chatgpt-kodu-düzeltebilir-veya-değiştirebilir",
-    "href": "ders1-TR.html#chatgpt-kodu-düzeltebilir-veya-değiştirebilir",
-    "title": "GPT modelleri",
-    "section": "ChatGPT kodu düzeltebilir veya değiştirebilir",
-    "text": "ChatGPT kodu düzeltebilir veya değiştirebilir\nElinizde bir kod parçası var ve istediğiniz gibi çalışmıyor mu? O zaman ChatGPT’den kodu düzeltmesini isteyebilirsiniz.\nHatalı bir kod verelim ve chatGPT’den hata ayıklamasını isteyelim:\n\n\nDemek ki ChatGPT kodu düzeltebiliyor! Bu arada, o örneği hazırlamak için ChatGPT’yi kullandığımı biliyor muydunuz? ;)"
-  },
-  {
-    "objectID": "ders1-TR.html#bu-programlamanın-sonu-mu",
-    "href": "ders1-TR.html#bu-programlamanın-sonu-mu",
-    "title": "GPT modelleri",
-    "section": "Bu programlamanın sonu mu?",
-    "text": "Bu programlamanın sonu mu?\n“Bir dönem boyunca Python öğrendik ama şimdi ChatGPT var, hiç kod öğrenmeye gerek yok!” diye düşünebilirsiniz. Benzer endişeleri araştıran çevrimiçi içerikler bulabilirsiniz. Ancak daha makul yaklaşım, “AI araçları geliştiricilerin hızını ve verimliliğini artıracak ve ayrıca yeni dillere giriş engellerini azaltacak” şeklindedir.\nAşağıdaki bölüm Github Copilot’un sayfasından alınmıştır:"
-  },
-  {
-    "objectID": "ders1-TR.html#chatgptyi-gösterdiğiniz-için-teşekkürler-artık-ödevlerimi-kolayca-hazırlayabilirim",
-    "href": "ders1-TR.html#chatgptyi-gösterdiğiniz-için-teşekkürler-artık-ödevlerimi-kolayca-hazırlayabilirim",
-    "title": "GPT modelleri",
-    "section": "ChatGPT’yi gösterdiğiniz için teşekkürler, artık ödevlerimi kolayca hazırlayabilirim!",
-    "text": "ChatGPT’yi gösterdiğiniz için teşekkürler, artık ödevlerimi kolayca hazırlayabilirim!\nChatGPT’nin yeteneklerini görmek, yanlış kullanım hakkında bazı ipuçları verebilir. Öncelikle, bir ödev sizin bir kavramı öğrenmeniz içindir (gitar çalma benzetmesini hatırlayın?) bu nedenle AI destekli intihal yapmak hala bir intihaldir ve sizin açınızdan bir kayıptır. (lütfen intihalin olumsuz etkileri için 00-academic-integrity.ipynb dosyasını da kontrol edin)\nİkincisi, OpenAI ve diğerleri ChatGPT çıktısına kolayca fark edilebilecek filigranlar eklemek için araçlar ve yöntemler üzerinde çalışıyor.\nBu yüzden lütfen bu araçtan ilham alın, öğrenmenizi geliştirmek için kullanın ama intihal için kullanmayın."
-  },
-  {
-    "objectID": "ders1-TR.html#kapalı-ve-açık-modeller",
-    "href": "ders1-TR.html#kapalı-ve-açık-modeller",
-    "title": "GPT modelleri",
-    "section": "Kapalı ve Açık modeller",
-    "text": "Kapalı ve Açık modeller\nŞu anda, her biri eğitilmek için yüz milyonlarca dolar harcanan ve büyük şirketler tarafından geliştirilen birkaç kapalı kaynaklı büyük dil modeli var: * GPT3.5 (ChatGPT) ve GPT4 OpenAI tarafından * PaLM ve Bard Google tarafından * Claude Anthropics tarafından"
-  },
-  {
-    "objectID": "ders1-TR.html#claude-3.5-sonnet-by-antropic",
-    "href": "ders1-TR.html#claude-3.5-sonnet-by-antropic",
-    "title": "GPT modelleri",
-    "section": "Claude 3.5 Sonnet by Antropic",
-    "text": "Claude 3.5 Sonnet by Antropic\nClaude 3.5, Claude modelinin en son sürümüdür. Antropic, Claude’u üç boyutta piyasaya sürer: Haiku (en küçük), Sonnet (orta) ve Opus (en büyük). Şu anda, Claude 3.5 Sonnest en iyi LLM’dir. Genellikle Claude yaratıcı yazma konusunda iyidir, ancak son sürümüyle kodlamada da mükemmelleşmiştir. Ayrıca, Claude sağ panelde kodun önizlemesine (web tabanlı) izin verir.\nAşağıda, Claude 3.5 Sonnet’e “Lütfen HTML, CSS ve JS ile yılan oyunu yaz” komutu verildiğinde oluşturulan bir örnek yer alıyor. Oyunu gerçekten oynayabilirsiniz!\n\nClaude ayrıca belgeleri (örneğin PDF) yüklemeye ve belge hakkında sorular sormaya izin verir.\nClaude’u (bazı sınırlamalarla) ücretsiz bir hesap kaydettikten sonra https://claude.ai/chat adresinde kullanabilirsiniz."
-  },
-  {
-    "objectID": "ders1-TR.html#gemini-by-google",
-    "href": "ders1-TR.html#gemini-by-google",
-    "title": "GPT modelleri",
-    "section": "Gemini by Google",
-    "text": "Gemini by Google\nGemini aslında çevrimiçi arama kapasitesine sahip bir LLM’dir. Ayrıca, (Google Drive aracılığıyla) belgeler indirebilir veya sorular sormak için YouTube videolarına yönlendirebilirsiniz. Son olarak, Gemini 1 milyon belirteçlik en uzun bağlam penceresine sahiptir (bir kerede yaklaşık 10 kitap sığacaktır)."
-  },
-  {
-    "objectID": "ders1-TR.html#modelleri-lokal-olarak-çalıştırma",
-    "href": "ders1-TR.html#modelleri-lokal-olarak-çalıştırma",
-    "title": "GPT modelleri",
-    "section": "Modelleri lokal olarak çalıştırma",
-    "text": "Modelleri lokal olarak çalıştırma\nGeliştiriciler model ağırlıklarını paylaştığı için, modelleri indirip yerel olarak çalıştırmak mümkün. Çeşitli boyutlarda modeller var. 7B (7 milyar) modeller yaklaşık 4Gb bellek gerektiriyor, bu yüzden onları dizüstü bilgisayarınızda çalıştırabilirsiniz.\nModelleri, Python için PyTorch ve bazı diğer kütüphaneleri kurarak ve ardından biraz Python kodu yazarak çalıştırabilirsiniz. Ya da Ollama’yı kurabilir ve ardından onunla uyumlu herhangi bir modeli çalıştırabilirsiniz.\nBir modeli yerel olarak çalıştırmanın avantajları: 1. Daha Az Sansür 2. Daha İyi Veri Gizliliği 3. Çevrimdışı Kullanım 4. Maliyet Tasarrufu 5. Daha İyi Özelleştirme\nBir modeli yerel olarak çalıştırmanın dezavantajları: 1. Kaynak Yoğun 2. Daha Yavaş Yanıtlar ve Daha Düşük Performans 3. Karmaşık Kurulum\n\nJupyter notebook veya Google Colab kullanarak lokal olarak model çalıştırma\nAslında LLM modellerini Jupyter notebook’larında çalıştırabilirsiniz. Ancak bu süreç, birçok Python paketini kurmanızı, model ağırlıklarını indirmenizi ve ardından modele soru sormak ve yanıtı bir sözlükte yakalamak için biraz Python kodu yazmanızı gerektirecektir. “Sohbet benzeri” deneyim için bazı çözümler olsa da, deneyim daha çok “tek seferlik soru ve cevap” gibidir.\nLütfen Google’ın bir Jupyter notebook ortamında modeli çalıştırmak için GPU (veya TPU) sağladığı Google Colab’daki süreci anlatan YouTube videosunu kontrol edin.\n\n\nOllama ile lokal olarak model çalıştırma\n\nÖzelleştirilmiş modeller hakkında bir fikir edinmek için lütfen modeller listesi sayfasını ziyaret edin. Ollama ile, bu modellerden herhangi birini indirebilir ve kullanabilirsiniz.\nTerminalde, mevcut modelleri listeleyelim\n$ ollama list\n\nNAME                ID              SIZE    MODIFIED\ndeepseek-coder:6.7b 72be2442d736    3.8 GB  5 weeks ago     \nneural-chat:latest  73940af9fe02    4.1 GB  5 weeks ago     \norca2:7b            ea98cc422de3    3.8 GB  5 weeks ago     \nphi:latest          c651b7a89d73    1.6 GB  14 hours ago    \nsolar:latest        059fdabbe6e6    6.1 GB  2 hours ago     \nstablelm-zephyr:3b  7c596e78b1fc    1.6 GB  3 weeks ago\nMicrosoft tarafından geliştirilen Phi-2’yi çalıştıralım. İşte Phi-2 hakkında bilgi:\n\n2,7 milyar parametreli bir dil modeli olan Phi-2, olağanüstü akıl yürütme ve dil anlama yetenekleri sergiliyor ve 13 milyar parametreden daha az olan temel dil modelleri arasında en son teknoloji performansı gösteriyor. Karmaşık kıyaslamalarda Phi-2, model ölçeklendirme ve eğitim verisi kürasyon konusundaki yeni yenilikler sayesinde 25 kat daha büyük modellere eşdeğer veya daha iyi performans gösteriyor.\n\n$ ollama run phi:latest\n\n&gt;&gt;&gt; Gökyüzü neden mavi?\n\nGökyüzü, Rayleigh saçılması adı verilen bir fenomen nedeniyle mavi görünür. Güneş ışığı Dünya'nın atmosferine girdiğinde, oksijen ve azot atomları gibi havadaki moleküller ve küçük parçacıklarla çarpışır. Bu çarpışmalar, ışığın daha kısa dalga boylarının (mavi) daha uzun dalga boylarından (kırmızı, turuncu, sarı, yeşil ve mor) daha fazla saçılmasına neden olur.\nSonuç olarak, gözlerimiz saçılan mavi ışığı baskın olarak algılar ve bu nedenle gökyüzü bize mavi görünür.\nGördüğünüz gibi, soruları cevaplayabilen, kodlama konusunda yardımcı olabilen küçük bir model yerel olarak çalıştırılabilir.\n\n\nKullanıcı arayüzü ile lokal olarak model çalıştırma\n\nOllama Web UI\n\n\n\nLLM Studio\nLM Studio’yu kurabilir ve ardından kullanıcı arayüzü ile yerel modellerle etkileşime geçebilirsiniz"
-  },
-  {
-    "objectID": "ders1-TR.html#github-copilot",
-    "href": "ders1-TR.html#github-copilot",
-    "title": "GPT modelleri",
-    "section": "Github CoPilot",
-    "text": "Github CoPilot"
-  },
-  {
-    "objectID": "ders1-TR.html#ücretsiz-github-copilot-alternatifi",
-    "href": "ders1-TR.html#ücretsiz-github-copilot-alternatifi",
-    "title": "GPT modelleri",
-    "section": "Ücretsiz Github CoPilot alternatifi",
-    "text": "Ücretsiz Github CoPilot alternatifi\nCody, Sourcegraph’in AI kodlama asistanıdır ve sizi 10x geliştirici yapacak başka hiçbir asistanın sahip olmadığı birkaç özelliğe sahiptir. Buradan inceleyebilirsiniz: https://sourcegraph.com/cody"
-  },
-  {
-    "objectID": "ders1-TR.html#açık-kaynak-lokal-alternatifler",
-    "href": "ders1-TR.html#açık-kaynak-lokal-alternatifler",
-    "title": "GPT modelleri",
-    "section": "Açık kaynak lokal alternatifler",
-    "text": "Açık kaynak lokal alternatifler\nDaha fazla bilgi için lütfen https://tabby.tabbyml.com/ adresini ziyaret edin"
-  },
-  {
-    "objectID": "ders1-TR.html#görüntü-üretimi",
-    "href": "ders1-TR.html#görüntü-üretimi",
-    "title": "GPT modelleri",
-    "section": "Görüntü Üretimi",
-    "text": "Görüntü Üretimi\n\nOpenAI’dan DALL-E 3\nİstek: “arka planda istanbul şehri silüeti olan bir dna sarmalı”\nDüzeltilmiş istek: “Bilim ve mimarinin buluştuğu detaylı bir illüstrasyon hayal edin. Ön planda, karanlık bir arka plan üzerinde büyütülmüş ve parlayan bir DNA sarmalı var. Bu sarmal yapı tam olarak betimlenmiş, tanıdık çift sarmal şekli muhteşem bir şekilde kıvrılıyor. Bu bilimsel görüntüyle iç içe geçmiş şekilde, arka planda İstanbul şehrinin bir silüet temsili var. Şehir silueti, kubbeli camileri ve yükselen minareleriyle muhteşem tarihi mimarisini sergiliyor. Şehir manzarası, akşamüstü gökyüzüne karşı duruyor, batan güneş binaların arkasındaki ufukta turuncu bir parıltı yaratıyor. Bu kombinasyon, bilim ve şehir güzelliğinin büyüleyici bir yan yana gelişiyle sonuçlanıyor.”\nSonuç:\n\n\n\nMidjourney v6\nMidjourney, Aralık 2023’te v6’yı duyurdu. Fotogerçekçi görüntüler üretebiliyor. Normalde, ücretsiz görüntü üretmek için Discord kanallarını kullanmanız gerekir. Ayrıca, getimg.ai kullanarak da görüntüler üretebilirsiniz. Aşağıdaki isteklerle görüntüler üretmeyi denedim:\n\nÇok sayıda öğrencinin olduğu moleküler biyoloji laboratuvarı.\nBeyaz kumlu güzel bir deniz kenarı ve kıyıda tropikal ağaçlar. Deniz yeşilimsi mavi görünüyor.\n\nSonuçlar harika:\n\n\n\nDezenformasyon\nDeepfake veya yapay zeka tarafından üretilmiş sahte fotoğraflara dikkat edin\nSahte Trump Fotoğrafı\n\nSahte Papa Fotoğrafı"
-  },
-  {
-    "objectID": "ders1-TR.html#video-üretimi",
-    "href": "ders1-TR.html#video-üretimi",
-    "title": "GPT modelleri",
-    "section": "Video Üretimi",
-    "text": "Video Üretimi\n\nİstekten videoya\n\nRunwayML Gen-2\nPika\nStable Diffusion’dan Stable Video Diffusion\nGENMO\n\n\n\nGörüntüden videoya\n\nGENMO"
-  },
-  {
-    "objectID": "ders1-TR.html#müzik-veya-ses-üretimi",
-    "href": "ders1-TR.html#müzik-veya-ses-üretimi",
-    "title": "GPT modelleri",
-    "section": "Müzik veya Ses Üretimi",
-    "text": "Müzik veya Ses Üretimi\n\nElevenlabs yapay zeka ses üreticimizle metni çevrimiçi olarak ücretsiz konuşmaya dönüştürebilir"
-  },
-  {
-    "objectID": "ders2.html#veri-analizi-veri-bilimi-makine-öğrenmesi",
-    "href": "ders2.html#veri-analizi-veri-bilimi-makine-öğrenmesi",
-    "title": "Veri tipleri ve işleme",
-    "section": "Veri analizi, veri bilimi, makine öğrenmesi",
-    "text": "Veri analizi, veri bilimi, makine öğrenmesi"
-  },
-  {
-    "objectID": "ders2.html#section",
-    "href": "ders2.html#section",
-    "title": "Veri tipleri ve işleme",
+    "objectID": "ders3.html#section-1",
+    "href": "ders3.html#section-1",
+    "title": "Değerlendirme Ölçütleri",
     "section": "",
-    "text": "source"
+    "text": "Source"
   },
   {
-    "objectID": "ders2.html#veri-tipleri",
-    "href": "ders2.html#veri-tipleri",
-    "title": "Veri tipleri ve işleme",
-    "section": "Veri tipleri",
-    "text": "Veri tipleri\n\nrecord data\ntransaction data\ndata matrix\n\nsparse data matrix\n\ngraph-based data"
+    "objectID": "ders3.html#fit",
+    "href": "ders3.html#fit",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Fit",
+    "text": "Fit\n\nSource"
   },
   {
-    "objectID": "ders2.html#sıralı-veri-ordered-data",
-    "href": "ders2.html#sıralı-veri-ordered-data",
-    "title": "Veri tipleri ve işleme",
-    "section": "Sıralı veri / Ordered data",
-    "text": "Sıralı veri / Ordered data\n\n\nSequential / Temporal data\nSequence data\nTime series data\nSpatial data"
+    "objectID": "ders3.html#training",
+    "href": "ders3.html#training",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Training",
+    "text": "Training\n\nSource"
   },
   {
-    "objectID": "ders2.html#section-3",
-    "href": "ders2.html#section-3",
-    "title": "Veri tipleri ve işleme",
-    "section": "",
-    "text": "Figure 2.4"
+    "objectID": "ders3.html#training-test",
+    "href": "ders3.html#training-test",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Training / Test",
+    "text": "Training / Test\n\nSource"
   },
   {
-    "objectID": "ders2.html#veri-kalitesi",
-    "href": "ders2.html#veri-kalitesi",
-    "title": "Veri tipleri ve işleme",
-    "section": "Veri kalitesi",
-    "text": "Veri kalitesi\n Hatırlanacağı üzere, veri biliminde veri temizliği aşaması toplam sürenin %80’ini oluşturmaktadır.\n\nÖlçüm hataları / measurement error : ölçüm sırasında sayısal hata yapılması veya dahil edilmemesi gereken verinin dahil edilmesi\nGürültü / Noise and artifacts: ölçüm hatalarındaki rastgele olan bileşendir. Sinyal işleme yöntemleri ile gürültü kaldırılabilir ama bu sırada gerçek veri kaybı da gerçekleşebilir."
+    "objectID": "ders3.html#classification-performance-metrics",
+    "href": "ders3.html#classification-performance-metrics",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Classification Performance Metrics",
+    "text": "Classification Performance Metrics\nBir Sınıflandırma modeli oluşturulduktan sonra bu model ile yapılan tahminlerin ne kadar doğru olduğuna dair değerlendirme yapılması gereklidir.\nAşağıda verilen confusion matrix (karşılaştırma matrisi) bir sınıflandırma modeline dair gerçekleşen durumları ve bu durumlara dair tahminleri verilmiştir.\n\n\n\n\n\nActual (Gerçek)\n\n\n\n\n\n\n\nTrue (Doğru)\nFalse (Yanlış)\n\n\nPrediction (Tahmin)\nPozitif\nTP\nFP\n\n\n\nNegatif\nFN\nTN\n\n\n\nTP : True Positive, FP : False Positive, FN : False Negative, TN : True Negative\nTrue ve false değeri bu modele dair gerçek sonuçları, positive ve negative ise modele dair tahminleri göstermektedir."
   },
   {
-    "objectID": "ders2.html#veri-kalitesi---2",
-    "href": "ders2.html#veri-kalitesi---2",
-    "title": "Veri tipleri ve işleme",
-    "section": "Veri kalitesi - 2",
-    "text": "Veri kalitesi - 2\n\nUç değer / Outlier\nKayıp veya eksik ölçüm / Missing value\n\nÇıkarma / Eliminate\nTahmin etme, doldurma / Estimate\nGöz ardı etme / Ignore\n\nUyumsuz ölçümler / Inconsistent values : örn. Ölçüm yapılan tekniğin değişmesi veya farklı tekniklerle toplanan değerlerin uyuşmazlığı\nTekrar eden veri / Duplicate data : aynı kişi bir veritabanında birden çok kez bulunabilir ama ismi aynı iki kişi tekrar sayılmaz"
+    "objectID": "ders3.html#classification-performance-metrics-1",
+    "href": "ders3.html#classification-performance-metrics-1",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Classification Performance Metrics",
+    "text": "Classification Performance Metrics\nTümör ve Hasta örnekleri ele alırsak, Normal örnekler negatif olarak, Tümör örnekleri de pozitif olarak değerlendirilebilir.\n\nTP : Gerçekte Tümör olan hastayı (true/pozitif) Tümör olarak tahmin etmek (pozitif).\n\nFP : Gerçekte Normal olan örneği (false/negatif) Tümör olarak tahmin etmek (pozitif). — &gt; Type 1 Error\n\nFN : Gerçekte Tümor olan örneği (true/pozitif) Normal olarak tahmin etmek (negatif). — &gt; Type 2 Error\n\nTN : Gerçekte Normal olan örneği (false/negatif) Normal olarak tahmin etmek (negatif)."
   },
   {
-    "objectID": "ders2.html#veri-işleme",
-    "href": "ders2.html#veri-işleme",
-    "title": "Veri tipleri ve işleme",
-    "section": "Veri işleme",
-    "text": "Veri işleme\n\n\nAggregation\nSampling\nDimensionality reduction\nFeature subset selection\nFeature creation\nDiscretization and binarization\nVariable transformation"
+    "objectID": "ders3.html#metrics",
+    "href": "ders3.html#metrics",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Metrics",
+    "text": "Metrics\nAccuracy (Doğruluk) : Doğru tahminlerin toplam veri kümesine oranıdır.\nPrecision (Kesinlik): Pozitif olarak tahmin edilen verilerin kaçının gerçekten pozitif olduğunu gösterir.\nRecall or Sensitivity (Duyarlılık): Geliştirilen modelin pozitif olanların kaçını yakaladığını gösterir.\nF1 Score (F1 Skoru): F1 score, precision ve recall değerlerinin harmonik ortalamasıdır. Sınıf dağılımı benzer olduğunda accuracy kullanılabilirken, dengesiz veri setleri söz konusu olduğunda F1 skor daha iyi bir metriktir.\nROC Curve (ROC Eğrisi): Yanlış pozitif oranı ve gerçek pozitif oranı göz önünde bulundurarak x ekseninde ve y ekseninde 0’dan 100’e kadar olan değerlerin üzerinde bir eğri oluşturulur. Bu eğrinin altında kalan alana Area Under Curve (AUC) adı verilir. Bu alanın büyük olması modelin başarılı olduğunu gösterir. Grafikte yer alan mavi çizgi; ne kadar geniş bir alan kaplıyorsa modelin tahmin başarısı o kadar yüksek, ortadaki kesikli çizgiye ne kadar yakınsa modelin başarı oranı o kadar düşüktür."
   },
   {
-    "objectID": "ders2.html#aggregation",
-    "href": "ders2.html#aggregation",
-    "title": "Veri tipleri ve işleme",
-    "section": "Aggregation",
-    "text": "Aggregation\n\nGroup by - sum, mean\nHistogram"
+    "objectID": "ders3.html#roc-curve",
+    "href": "ders3.html#roc-curve",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "ROC Curve",
+    "text": "ROC Curve"
   },
   {
-    "objectID": "ders2.html#aggregation-histogram",
-    "href": "ders2.html#aggregation-histogram",
-    "title": "Veri tipleri ve işleme",
-    "section": "Aggregation / Histogram",
-    "text": "Aggregation / Histogram"
+    "objectID": "ders3.html#why-too-many-metrics",
+    "href": "ders3.html#why-too-many-metrics",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Why too many metrics?",
+    "text": "Why too many metrics?\n\n\nNeden birden fazla metrik kullanılıyor, bir örnek ile görelim. Yandaki durum için, 8 Normal ve 2 Tümör olan bir durumda, her örnek için Normal diye tahminde bulunursak. True Negatif (TN) sayısı 8 ve False Negatif (FN) sayısı ise 2 olmaktadır.\nBu durumda, doğruluk, accuracy\nACC = (TP + TN) / (TP + FP + TN + FN)\nformülünden dolayı 8 / 10 = 0.8 yani %80 olarak hesaplanmaktadır.\nFakat, Duyarlılık/Sensitivity\nSENS = TP / (TP + FN)\nformülünden 0 çıkmaktadır.\n\n\n\n\nActual Label\nPrediction\n\n\n\n\nTumor\nNormal\n\n\nTumor\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal"
   },
   {
-    "objectID": "ders2.html#sampling-örnekleme",
-    "href": "ders2.html#sampling-örnekleme",
-    "title": "Veri tipleri ve işleme",
-    "section": "Sampling / Örnekleme",
-    "text": "Sampling / Örnekleme\n\nSimple random sampling\nStratified sampling"
+    "objectID": "ders3.html#example",
+    "href": "ders3.html#example",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Example",
+    "text": "Example\n100 kişilik bir çalışmada, 25 Tümör hastası ve 75 Normal birey bulunmaktadır. Normal (negatif) olan 70 kişi Normal olarak tahmin edilmştir (TN: True Negatif). 5 kişi Normal olduğu halde Tümör olarak tahmin edilmiştir (FP: False pozitif). Gerçekte Tümör olan 15 kişi Tümör olarak tahmin edilmiştir (TP: True pozitif). Son olarak, 10 kişi Tümör olduğu halde Normal olarak tahmin edilmiştir (FN: False negatif). Bu duruma göre Confusion Matrix aşağıdaki gibi hesaplanacaktır.\n\n\n\n\n\nActual\n\n\n\n\n\n\n\nTrue\nFalse\n\n\nTahmin\nPozitif\nTP (15)\nFP (5)\n\n\n\nNegatif\nFN (10)\nTN (70)"
   },
   {
-    "objectID": "ders2.html#dimensionality-reduction",
-    "href": "ders2.html#dimensionality-reduction",
-    "title": "Veri tipleri ve işleme",
-    "section": "Dimensionality reduction",
-    "text": "Dimensionality reduction\n\n“The Curse of Dimensionality”: özellik/attribute sayısı arttıkça algoritmaların veya hesapların daha zor hale gelmesi. “Sparse” veri durumunda artık hesaplamaların (uzaklık, benzerlik) doğruluğunu yitirmesi\n\n\nLinear algebra techniques\n\nPCA: Principal Components Analysis\nSVD: Singular Value Decomposition"
+    "objectID": "ders3.html#example-1",
+    "href": "ders3.html#example-1",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Example",
+    "text": "Example\nBu durumda,\nDoğruluk (Accuracy) ACC = (TP + TN) / (TP + TN + FN + FP) = 0.85\nDuyarlılık (Sensitivity) SENS = TP / (TP + FN) = 0.60\nKesinlik (Precision) PREC = TP / (TP + FP) = 0.75\nF1 Skor = 2 x (PREC x SENS) / (PREC + SENS) = 0.6667"
   },
   {
-    "objectID": "ders2.html#others",
-    "href": "ders2.html#others",
-    "title": "Veri tipleri ve işleme",
-    "section": "Others",
-    "text": "Others\n\nFeature Subset Selection\n\nremove Redundant features or Irrelevant features\nFeature Weighting\n\nFeature Creation\n\nFeature Extraction: e.g Photo -&gt; edges, important areas, color scheme\nMapping the Data to a New Space : e.g Fourier Transformation\n\nDiscretization and Binarization\n\nCategory -&gt; Binary values\nContinous data -&gt; bins, categories, intervals\n\nVariable Transformation"
+    "objectID": "ders3.html#summary",
+    "href": "ders3.html#summary",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Summary",
+    "text": "Summary\n\nSource"
   },
   {
-    "objectID": "ders2.html#fourier-transformation",
-    "href": "ders2.html#fourier-transformation",
-    "title": "Veri tipleri ve işleme",
-    "section": "Fourier Transformation",
-    "text": "Fourier Transformation"
+    "objectID": "ders3.html#python-code",
+    "href": "ders3.html#python-code",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Python code",
+    "text": "Python code\n\nfrom sklearn.metrics import confusion_matrix\n\nactual    = [1, 0, 1, 1, 0, 0, 1, 0, 1, 1]\npredicted = [0, 1, 1, 1, 1, 0, 1, 1, 0, 1]\n\nprint(\"\\nConfusion matrix\")\nconf_mat = confusion_matrix(actual, predicted) \n\nprint(conf_mat)\n\n\nConfusion matrix\n[[1 3]\n [2 4]]"
   },
   {
-    "objectID": "ders2.html#category-to-binary",
-    "href": "ders2.html#category-to-binary",
-    "title": "Veri tipleri ve işleme",
-    "section": "Category to binary",
-    "text": "Category to binary"
+    "objectID": "ders3.html#regression-performance-metrics",
+    "href": "ders3.html#regression-performance-metrics",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Regression Performance Metrics",
+    "text": "Regression Performance Metrics\nFollowing metrics can be used to measure the performance of regression model output.\n\nMean Error (ME)\nMean Absolute Error (MAE)\nMean Squared Error (MSE)\nRoot Mean Squared Error (RMSE)\n\nThere are much more advanced metrics but we’ll learn only essental ones"
   },
   {
-    "objectID": "ders2.html#variable-transformation",
-    "href": "ders2.html#variable-transformation",
-    "title": "Veri tipleri ve işleme",
-    "section": "Variable Transformation",
-    "text": "Variable Transformation\n\n\nSimple functions: \\(x^k\\) , log(x), \\(e^x\\) , sqrt(x), \\(1/x\\), sin(x), or |x|\nNormalization or Standardization\n\nfor each value subtract mean and divide by standard deviation\ne.g. age and income data, find similarity between individuals\nmean = 0, sd = 1"
+    "objectID": "ders3.html#mean-error-me",
+    "href": "ders3.html#mean-error-me",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Mean Error (ME)",
+    "text": "Mean Error (ME)\n\\[ \\text{ME} = \\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i) \\]\n\\(y_i\\): Actual value, \\(\\hat{y}_i\\): predicted value, n: number of observations"
   },
   {
-    "objectID": "id3-decision-tree.html",
-    "href": "id3-decision-tree.html",
-    "title": "Decision Tree Algoritm",
-    "section": "",
-    "text": "Taken from https://medium.datadriveninvestor.com/decision-tree-algorithm-with-hands-on-example-e6c2afb40d38\nEntropy\nIn machine learning, entropy is a measure of the randomness in the information being processed. The higher the entropy, the harder it is to draw any conclusions from that information.\n\nInformation Gain\nInformation gain can be defined as the amount of information gained about a random variable or signal from observing another random variable.It can be considered as the difference between the entropy of parent node and weighted average entropy of child nodes.\n\nGini Impurity\nGini impurity is a measure of how often a randomly chosen element from the set would be incorrectly labeled if it was randomly labeled according to the distribution of labels in the subset.\n\nGini impurity is lower bounded by 0, with 0 occurring if the data set contains only one class.\n\nThere are many algorithms there to build a decision tree. They are\n\nCART (Classification and Regression Trees) — This makes use of Gini impurity as the metric.\nID3 (Iterative Dichotomiser 3) — This uses entropy and information gain as metric.\n\nIn this article, I will go through ID3. Once you got it it is easy to implement the same using CART.\n\nClassification using the ID3 algorithm\nConsider whether a dataset based on which we will determine whether to play football or not.\n\nHere There are for independent variables to determine the dependent variable. The independent variables are Outlook, Temperature, Humidity, and Wind. The dependent variable is whether to play football or not.\nAs the first step, we have to find the parent node for our decision tree. For that follow the steps:\n*Find the entropy of the class variable.*\nE(S) = -[(9/14)log(9/14) + (5/14)log(5/14)] = 0.94\nnote: Here typically we will take log to base 2.Here total there are 14 yes/no. Out of which 9 yes and 5 no.Based on it we calculated probability above.\nFrom the above data for outlook we can arrive at the following table easily\n\n*Now we have to calculate average weighted entropy*. ie, we have found the total of weights of each feature multiplied by probabilities.\nE(S, outlook) = (5/14)E(3,2) + (4/14)E(4,0) + (5/14)*E(2,3) = (5/14)(-(3/5)log(3/5)-(2/5)log(2/5))+ (4/14)(0) + (5/14)((2/5)log(2/5)-(3/5)log(3/5)) = 0.693\n*The next step is to find the information gain*. It is the difference between parent entropy and average weighted entropy we found above.\nIG(S, outlook) = 0.94 - 0.693 = 0.247\nSimilarly find Information gain for Temperature, Humidity, and Windy.\nIG(S, Temperature) = 0.940 - 0.911 = 0.029\nIG(S, Humidity) = 0.940 - 0.788 = 0.152\nIG(S, Windy) = 0.940 - 0.8932 = 0.048\n*Now select the feature having the largest entropy gain*. Here it is Outlook. So it forms the first node(root node) of our decision tree.\nNow our data look as follows\n\n\n\nSince overcast contains only examples of class ‘Yes’ we can set it as yes. That means If outlook is overcast football will be played. Now our decision tree looks as follows.\n\nThe next step is to find the next node in our decision tree. Now we will find one under sunny. We have to determine which of the following Temperature, Humidity or Wind has higher information gain.\n\nCalculate parent entropy E(sunny)\nE(sunny) = (-(3/5)log(3/5)-(2/5)log(2/5)) = 0.971.\nNow Calculate the information gain of Temperature. IG(sunny, Temperature)\n\nE(sunny, Temperature) = (2/5)E(0,2) + (2/5)E(1,1) + (1/5)*E(1,0)=2/5=0.4\nNow calculate information gain.\nIG(sunny, Temperature) = 0.971–0.4 =0.571\nSimilarly we get\nIG(sunny, Humidity) = 0.971\nIG(sunny, Windy) = 0.020\nHere IG(sunny, Humidity) is the largest value. So Humidity is the node that comes under sunny.\n\nFor humidity from the above table, we can say that play will occur if humidity is normal and will not occur if it is high. Similarly, find the nodes under rainy.\n*Note: A branch with entropy more than 0 needs further splitting.*\nFinally, our decision tree will look as below:\n\n\n\nClassification using CART algorithm\nClassification using CART is similar to it. But instead of entropy, we use Gini impurity.\nSo as the first step we will find the root node of our decision tree. For that Calculate the Gini index of the class variable\nGini(S) = 1 - [(9/14)² + (5/14)²] = 0.4591\nAs the next step, we will calculate the Gini gain. For that first, we will find the average weighted Gini impurity of Outlook, Temperature, Humidity, and Windy.\nFirst, consider case of Outlook\n\nGini(S, outlook) = (5/14)gini(3,2) + (4/14)gini(4,0)+ (5/14)gini(2,3) = (5/14)(1 - (3/5)² - (2/5)²) + (4/14)*0 + (5/14)(1 - (2/5)² - (3/5)²)= 0.171+0+0.171 = 0.342\nGini gain (S, outlook) = 0.459 - 0.342 = 0.117\nGini gain(S, Temperature) = 0.459 - 0.4405 = 0.0185\nGini gain(S, Humidity) = 0.459 - 0.3674 = 0.0916\nGini gain(S, windy) = 0.459 - 0.4286 = 0.0304\nChoose one that has a higher Gini gain. Gini gain is higher for outlook. So we can choose it as our root node."
+    "objectID": "ders3.html#mean-absolute-error-mae",
+    "href": "ders3.html#mean-absolute-error-mae",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Mean Absolute Error (MAE)",
+    "text": "Mean Absolute Error (MAE)\nAdding negative results is not right when using ME. Let’s take care of it.\n\\[ \\text{MAE} = \\frac{1}{n} \\sum_{i=1}^{n} |y_i - \\hat{y}_i| \\]"
   },
   {
-    "objectID": "ders1.html",
-    "href": "ders1.html",
-    "title": "GPT models",
-    "section": "",
-    "text": "GPT1, GPT2 abd GPT3 were released couple years before ChatGPT and it was able to complete sentences. Please visit “How Does ChatGPT Work?” site for more information. After ChatGPT was released, large language models got “conversational”\nPlease visit OpenAI Playground completion site and select “gpt-3.5-turbo” as model. Type a incomplete sentence and then press Submit button.\nYou’ll see that the model will complete your sentence. If you turn on the “Show probabilities” option on right menu, you’ll get a glimpse of how GPT works.\nIf you complete the sentence and then hover over the words, you’ll see that the model had many words to chose from with certain probabilities. In this example, “my” is the 4th most probable word after Today is and “birthday” is most probable word after Today is my.\nOne of key settings of GPT models is temperature. If you decrease the temperature the model will choose the most probably words. If temperature is high, the model will be picking words with low probabalities, which will bring creative and diverse output.\nIf you decrease the temperature to zero, the output will be always same."
+    "objectID": "ders3.html#mean-squared-error-mse",
+    "href": "ders3.html#mean-squared-error-mse",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Mean Squared Error (MSE)",
+    "text": "Mean Squared Error (MSE)\n\\[ \\text{MSE} = \\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^2 \\]\nPlease note that squaring the error with punish the model more. Also, squaring a difference will take care of negative sign."
   },
   {
-    "objectID": "ders1.html#chatgpt-writes-code-for-us",
-    "href": "ders1.html#chatgpt-writes-code-for-us",
-    "title": "GPT models",
-    "section": "ChatGPT writes code for us",
-    "text": "ChatGPT writes code for us\nLet’s ask ChatGPT for a fast prime number function in Python\n\n\n\nimage.png\n\n\n\n\n\nimage.png\n\n\nDid you see what just happened! It provided code tailored for us and it also explained bits of the code. Have you noticed that the code contains the tricks we have learned during our lecture: * early stop: if a condition is met, return immediately True or False * instead of checking until N, we should check numbers until \\(\\sqrt{N}\\) (n  0.5** in Python)\nYou can continue the conversation. Let’s ask for memoization.\n\n\n\nimage.png\n\n\n\n\n\nimage.png\n\n\nLet’s get the code and test it here:\n\ndef is_prime(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n in (2, 3):\n        result = True\n    elif n == 1 or n % 2 == 0:\n        result = False\n    else:\n        result = True\n        for i in range(3, int(n ** 0.5) + 1, 2):\n            if n % i == 0:\n                result = False\n                break\n    memo[n] = result\n    return result\n\n\n# is_prime(100000000003)\n\n\n&lt;i class=\"fas fa-fw fa-exclamation-circle mr-3 align-self-center\"&gt;&lt;/i&gt;\n&lt;b&gt;Warning:&lt;/b&gt; At the time of writing this note (January 2023) chatGPT is known to provide results which are not exactly true!&lt;br&gt;So, be aware and don't use code or information you got from chatGPT as is without checking or confirming."
-  },
-  {
-    "objectID": "ders1.html#chatgpt-can-fix-or-modify-the-code",
-    "href": "ders1.html#chatgpt-can-fix-or-modify-the-code",
-    "title": "GPT models",
-    "section": "ChatGPT can fix or modify the code",
-    "text": "ChatGPT can fix or modify the code\nYou have a piece of code and it does not work as intended? Then you can ask ChatGPT to fix the code.\nLet’s provide a code with error and ask chatGPT to debug it:\n\n\n\nimage.png\n\n\n\n\n\nimage.png\n\n\nSo, ChatGPT can fix code! By the way, did you know that I used ChatGPT to prepare that example ;)\n\n\n\nimage.png\n\n\n\n\n\nimage.png"
-  },
-  {
-    "objectID": "ders1.html#is-it-the-end-of-programming",
-    "href": "ders1.html#is-it-the-end-of-programming",
-    "title": "GPT models",
-    "section": "Is it the end of programming?",
-    "text": "Is it the end of programming?\nYou might think, “we learned Python for a semester and but now there’s ChatGPT, no need to learn coding at all!”. You might find content online which are exploring similar concerns. But more sane approach is “AI tools will increase speed and efficiency of developers also will decresase barriers to entry for new languages.\nThe section below is taken from Github Copilot’s page:"
-  },
-  {
-    "objectID": "ders1.html#thanks-for-showing-us-chatgpt-i-can-now-prepare-my-homeworks-easily",
-    "href": "ders1.html#thanks-for-showing-us-chatgpt-i-can-now-prepare-my-homeworks-easily",
-    "title": "GPT models",
-    "section": "Thanks for showing us ChatGPT, I can now prepare my homeworks easily!",
-    "text": "Thanks for showing us ChatGPT, I can now prepare my homeworks easily!\nSeeing the capabilities of ChatGPT might give some hint about misuse. First of all, a homework is for you to learn a concept (remember the playing the guitar analogy?) so being involved in AI-assisted plagiarism is still a plagiarism and a loss on your side. (please also check the file 00-academic-integrity.ipynb for adverse effects of plagiarism)\nSecond of all, OpenAI and others are working on tools and ways to include watermarks in ChatGPT output so that it can be spotted easily.\nSo, please be inspired by this tool, use it to augment your learning but do not use it for plagiarism."
-  },
-  {
-    "objectID": "ders1.html#closed-and-open-models",
-    "href": "ders1.html#closed-and-open-models",
-    "title": "GPT models",
-    "section": "Closed and Open models",
-    "text": "Closed and Open models\nCurrently there are several closed-source large language models which are developed by major corparations each took hundreds of millions to train * GPT3.5 (ChatGPT) and GPT4 by OpenAI * PaLM and Bard by Google * Claude by Anthropics"
-  },
-  {
-    "objectID": "ders1.html#claude-3.5-sonnet-by-antropic",
-    "href": "ders1.html#claude-3.5-sonnet-by-antropic",
-    "title": "GPT models",
-    "section": "Claude 3.5 Sonnet by Antropic",
-    "text": "Claude 3.5 Sonnet by Antropic\nClaude 3.5 is the latest version of Claude model. Antropic releases Claude in three sizes Haiku (smallest), Sonnet (medium) and Opus (largest). Currently, Claude 3.5 Sonnest is the best LLM. Generally Claude is good at creative writing but with the latest release it excels at coding as well. Also, Claude allows preview of the code (web-based) on right panel.\nBelow is as example where Claude 3.5 Sonnet was prompted “Please write game of snake in HTML, CSS and JS”. You can actually play the game!\n\nClaude also allows uploading documents (e.g. PDF) and asking questions about the document.\nYou can use Claude (with some limitations) at https://claude.ai/chat after registering an account for free."
-  },
-  {
-    "objectID": "ders1.html#gemini-by-google",
-    "href": "ders1.html#gemini-by-google",
-    "title": "GPT models",
-    "section": "Gemini by Google",
-    "text": "Gemini by Google\nGemini is actually an LLM with online search capacity. Also, you can download documents (via Google Drive) or point to YouTube videos to ask questions. Finally, Gemini has the longest context window of 1 million tokens (will fit around 10 books at once)."
-  },
-  {
-    "objectID": "ders1.html#running-models-locally",
-    "href": "ders1.html#running-models-locally",
-    "title": "GPT models",
-    "section": "Running models locally",
-    "text": "Running models locally\nSince developers share the model weights, it’s possible to download and run the models locally. There are various sizes of models. 7B (7 billion) models require around 4Gb memory, so you can run them in your laptop.\nYou can run the models by installing PyTorch and some other libraries for Python and then writing some Python code. Or you can install Ollama and then run any compatible model with it.\nAdvantages of running a model locally: 1. Less Censorship 2. Better Data Privacy 3. Offline Usage 4. Cost Savings 5. Better Customization\nDisadvantages of running a model locally: 1. Resource Intensive 2. Slower Responses and Inferior Performance 3. Complex Setup\n\nRunning a model locally using Jupyter notebook or Google Colab\nYou can actually run LLM models in Jupyter notebooks. However the process will require you to install lots of Python packages, downloading the model weights and then writing some Python code to ask questions to the model and then capturing the answer in a dictionary. Although there are some solutions for “chat-like” experience, the experince is more like “one-shot question and answer”.\nPlease check the Youtube video which describes the process in Google Colab, where Google provides GPU (or TPU) to run the model in a Jupyter notebook environment.\n\n\nRunning a model locally with Ollama\n\nPlease visit the list of models page to have an idea about specialized models. With Ollama, you can download and use any of those models.\nIn the terminal, let’s list available models\n$ ollama list\n\nNAME                ID              SIZE    MODIFIED\ndeepseek-coder:6.7b 72be2442d736    3.8 GB  5 weeks ago     \nneural-chat:latest  73940af9fe02    4.1 GB  5 weeks ago     \norca2:7b            ea98cc422de3    3.8 GB  5 weeks ago     \nphi:latest          c651b7a89d73    1.6 GB  14 hours ago    \nsolar:latest        059fdabbe6e6    6.1 GB  2 hours ago     \nstablelm-zephyr:3b  7c596e78b1fc    1.6 GB  3 weeks ago\nLet’s run Phi-2 by Microsoft. Here’s info about Phi-2:\n\na 2.7 billion-parameter language model that demonstrates outstanding reasoning and language understanding capabilities, showcasing state-of-the-art performance among base language models with less than 13 billion parameters. On complex benchmarks Phi-2 matches or outperforms models up to 25x larger, thanks to new innovations in model scaling and training data curation.\n\n$ ollama run phi:latest\n\n&gt;&gt;&gt; why sky is blue?\n\n The sky appears blue due to a phenomenon called Rayleigh scattering. When sunlight enters the Earth's atmosphere,\nit collides with molecules and tiny particles in the air, such as oxygen and nitrogen atoms. These collisions cause\nthe shorter wavelengths of light (blue) to scatter more than the longer wavelengths (red, orange, yellow, green, and\nviolet). As a result, our eyes perceive the scattered blue light to be dominant, which is why the sky appears blue to us.\nAs you can see, a small model, which can answer questions, help coding can be run locally.\n\n\nRunning a model locally with user interface\n\nOllama Web UI\n\n\n\nLLM Studio\nYou can install LM Studio and then interact with local models with its user interface"
-  },
-  {
-    "objectID": "ders1.html#github-copilot",
-    "href": "ders1.html#github-copilot",
-    "title": "GPT models",
-    "section": "Github CoPilot",
-    "text": "Github CoPilot\n\n%%HTML\n&lt;iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ZapdeEJ7xJw?si=3DYWvMa7uudDhUnj\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen&gt;&lt;/iframe&gt;"
-  },
-  {
-    "objectID": "ders1.html#free-github-copilot-alternative",
-    "href": "ders1.html#free-github-copilot-alternative",
-    "title": "GPT models",
-    "section": "Free Github CoPilot alternative",
-    "text": "Free Github CoPilot alternative\nCody is Sourcegraph’s AI coding assistant, and it has a couple of features that no other assistant has to make you a 10x developer. You can check it out here: https://sourcegraph.com/cody"
-  },
-  {
-    "objectID": "ders1.html#open-source-local-alternatives",
-    "href": "ders1.html#open-source-local-alternatives",
-    "title": "GPT models",
-    "section": "Open source local alternatives",
-    "text": "Open source local alternatives\nPlease visit https://tabby.tabbyml.com/ for more information"
-  },
-  {
-    "objectID": "ders1.html#image-generation",
-    "href": "ders1.html#image-generation",
-    "title": "GPT models",
-    "section": "Image generation",
-    "text": "Image generation\n\nDALL-E 3 by OpenAI\nPrompt: “a dna strand with istanbul city as silhoutte in background”\nRevised prompt: “Imagine a detailed science meets architecture illustration. In the foreground, there’s a strand of DNA, magnified and glowing against a dark backdrop. This helix structure is precisely depicted, its familiar double-helix shape twisting majestically. Intertwining with this scientific image, in the background, there’s a silhouette representation of Istanbul city. The skyline shows off its marvelous historical architecture, including its domed mosques and towering minarets. The cityscape sits against a dusky eveningsky, the setting sun casting an orange glow on the horizon behind the buildings. The combination results in a fascinating juxtapositionof science and urban beauty.”\nResult:\n\n\n\nMidjourney v6\nMidjourney announced v6 in December 2023. It can generate photorealistic images. Normally, you need to use their Discord channel to generate images free. Also, you can generate images using getimg.ai. I tried generating images using the following prompts\n\nMolecular biology lab with lots of students.\nBeautiful sea side with white sand beach and tropical trees on shore. The sea looks greenish blue\n\nThe results are great:\n\n\n\nDisinformation\nBe aware of deepfake or AI-generated fake photos\nFake Trump Photo\n\nFake Pope Photo"
-  },
-  {
-    "objectID": "ders1.html#video-generation",
-    "href": "ders1.html#video-generation",
-    "title": "GPT models",
-    "section": "Video generation",
-    "text": "Video generation\n\nPrompt to video\n\nRunwayML Gen-2\nPika\nStable Video Diffusion by Stable Diffusion\nGENMO\n\n\n\nImage to video\n\nGENMO"
-  },
-  {
-    "objectID": "ders1.html#music-or-sound-generation",
-    "href": "ders1.html#music-or-sound-generation",
-    "title": "GPT models",
-    "section": "Music or sound generation",
-    "text": "Music or sound generation\n\nElevenlabs can convert text to speech online for free with our AI voice generator"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "FEF3001 Yapay Zekaya Giriş Ders Notları",
-    "section": "",
-    "text": "YTÜ Fen Fakültesinde 2024 Yaz döneminde verilen FEF3001 kodlu dersin içerikleri sayfasıdır.\n\n\n\nVize ne zaman? Cevap: 18 Temmuz 2024 perşembe saat 12:00\nVize yüz yüze mi? Cevap: Evet\nSınavlar hangi derslikte yapılacak? Cevap: Sınav derslikleri Fen Fakültesi sayfasında duyurulmuştur. Lütfen grubunuza (İng veya Türkçe) ve bölümünüze uygun derslikte sınava giriniz.\nVize konuları nelerdir? Cevap: Yapay sinir ağı konusunun sonuna kadar\nYüklenen sunumlar dışında bir kaynaktan soru sorulacak mıdır? Cevap: Temel olarak sunumlar kullanılacaktır fakat derste anlatılanlardan da sorumluyuz, ders video kaydı ve derste aldığınız notlarınızı da çalışınız\nVize test şeklinde mi ve kaç soru sorulur? Cevap: Test şeklinde 20-30 soru planlanmaktadır\nÇok fazla formül var, vizede formüller verilebilir mi? Cevap: Bütün formüller verilmeyecektir, az kullanılan ve karmaşık olan formüller verilebilir\nHaftaya ders yapılacak mı? Cevap: Sınav olduğu gün sadece FEF3001 dersi yapılmayacaktır, Cuma günü ders işlenecektir.\nYorum soruları sorulacak mı? Cevap: Genelde bilgi ölçen sorular terich edilecektir"
-  },
-  {
-    "objectID": "about.html#sıkça-sorulan-sorular",
-    "href": "about.html#sıkça-sorulan-sorular",
-    "title": "FEF3001 Yapay Zekaya Giriş Ders Notları",
-    "section": "",
-    "text": "Vize ne zaman? Cevap: 18 Temmuz 2024 perşembe saat 12:00\nVize yüz yüze mi? Cevap: Evet\nSınavlar hangi derslikte yapılacak? Cevap: Sınav derslikleri Fen Fakültesi sayfasında duyurulmuştur. Lütfen grubunuza (İng veya Türkçe) ve bölümünüze uygun derslikte sınava giriniz.\nVize konuları nelerdir? Cevap: Yapay sinir ağı konusunun sonuna kadar\nYüklenen sunumlar dışında bir kaynaktan soru sorulacak mıdır? Cevap: Temel olarak sunumlar kullanılacaktır fakat derste anlatılanlardan da sorumluyuz, ders video kaydı ve derste aldığınız notlarınızı da çalışınız\nVize test şeklinde mi ve kaç soru sorulur? Cevap: Test şeklinde 20-30 soru planlanmaktadır\nÇok fazla formül var, vizede formüller verilebilir mi? Cevap: Bütün formüller verilmeyecektir, az kullanılan ve karmaşık olan formüller verilebilir\nHaftaya ders yapılacak mı? Cevap: Sınav olduğu gün sadece FEF3001 dersi yapılmayacaktır, Cuma günü ders işlenecektir.\nYorum soruları sorulacak mı? Cevap: Genelde bilgi ölçen sorular terich edilecektir"
-  },
-  {
-    "objectID": "ders5-TR.html#içerik",
-    "href": "ders5-TR.html#içerik",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "İçerik",
-    "text": "İçerik\n\n\n\nDenetimli öğrenmeye giriş\nSınıflandırmanın tanımı ve uygulamaları\nVeri hazırlama\n\nÖzellik seçimi ve ön işleme ✅\n\nYöntemler\n\nKarar Ağaçları\nRastgele Orman\nDestek Vektör Makineleri (SVM)\nLojistik Regresyon\nK-en yakın komşu\nNaive Bayes\nYapay Sinir Ağları ✅\n\n\n\n\nEnsemble yöntemleri\nDeğerlendirme ✅\n\nKarmaşıklık Matrisi ✅\nDoğruluk, hassasiyet, geri çağırma, F1-skoru ✅\nROC eğrileri ✅\n\nAşırı öğrenme (overfitting) ve yetersiz öğrenme (underfitting) ✅\nÇapraz doğrulama (Cross Validation)"
-  },
-  {
-    "objectID": "ders5-TR.html#section",
-    "href": "ders5-TR.html#section",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "",
-    "text": "Denetimli Öğrenme\n\nKaynak"
-  },
-  {
-    "objectID": "ders5-TR.html#section-1",
-    "href": "ders5-TR.html#section-1",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "",
-    "text": "Denetimsiz Öğrenme\n\nKaynak"
-  },
-  {
-    "objectID": "ders5-TR.html#sınıflandırmanın-tanımı",
-    "href": "ders5-TR.html#sınıflandırmanın-tanımı",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "Sınıflandırmanın tanımı",
-    "text": "Sınıflandırmanın tanımı\n\nDenetimli öğrenmenin bir türü\nAmaç: Giriş verilerini önceden tanımlanmış sınıflara veya kategorilere ayırmak\nModel, sınıflar arasında karar sınırları çizmeyi öğrenir\nÇıktı, ayrık bir sınıf etiketidir (sürekli değerler tahmin eden regresyondan farklı olarak)"
-  },
-  {
-    "objectID": "ders5-TR.html#uygulamalar",
-    "href": "ders5-TR.html#uygulamalar",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "Uygulamalar",
-    "text": "Uygulamalar\n\n\n\nMetin Sınıflandırma\n\nE-postalarda spam tespiti\nÜrün yorumlarının duygu analizi\nHaber makalelerinin kategorize edilmesi\n\nGörüntü Sınıflandırma\n\nHastalık tespiti için tıbbi görüntüleme\nYüz tanıma sistemleri\nBitki veya hayvan türlerinin tanımlanması\n\nFinansal Uygulamalar\n\nKredi puanlaması (kredi başvurularını onaylama/reddetme)\nİşlemlerde dolandırıcılık tespiti\n\n\n\n\nSağlık Hizmetleri\n\nBelirtiler ve test sonuçlarına dayalı hastalık teşhisi\nHasta yeniden yatış riskini tahmin etme\n\nÇevre Bilimi\n\nİklim deseni sınıflandırması\nTür habitat tahmini\n\nEdebiyat ve Dilbilim\n\nYazarlık atfı\nMetinlerin tür sınıflandırması\nDil tanımlama"
-  },
-  {
-    "objectID": "ders5-TR.html#sıra-sizde",
-    "href": "ders5-TR.html#sıra-sizde",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "Sıra Sizde",
-    "text": "Sıra Sizde\nZoom sohbet penceresinde lütfen bölümünüzü ve alanınızla ilgili bir sınıflandırma görevi örneği yazın"
-  },
-  {
-    "objectID": "ders5-TR.html#sıra-sizde-1",
-    "href": "ders5-TR.html#sıra-sizde-1",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "Sıra Sizde",
-    "text": "Sıra Sizde\nBir örnek seçin ve veriler hakkında tartışın\nKaggle’ı ziyaret edin ve ilgili veri setini bulun"
-  },
-  {
-    "objectID": "ders5-TR.html#karar-ağaçları",
-    "href": "ders5-TR.html#karar-ağaçları",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "Karar Ağaçları",
-    "text": "Karar Ağaçları\nKarar Ağaçları, kararların ve olası sonuçlarının ağaç benzeri bir modelini kullanan bir sınıflandırma yöntemidir. Algoritma, veriyi özellik değerlerine göre bölen bir dizi eğer-o zaman-değilse karar kuralını öğrenir ve bir akış şemasına benzeyen bir yapı oluşturur. Her iç düğüm bir özellik üzerinde bir “test”i temsil eder, her dal testin sonucunu temsil eder ve her yaprak düğüm bir sınıf etiketi veya kararı temsil eder.\ndal, test, yaprak"
-  },
-  {
-    "objectID": "ders5-TR.html#örnek",
-    "href": "ders5-TR.html#örnek",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "Örnek",
-    "text": "Örnek\n\n\n\n\n\n\n\n\n\n\n\n\nÇalışılan saat\nÖnceki Puan\nUygulamaya Katıldı\nGeçti?\n\n\n\n\n3\n60\nHayır\n?\n\n\n4\n75\nHayır\n?\n\n\n7\n80\nEvet\n?"
-  },
-  {
-    "objectID": "ders5-TR.html#karar-ağacı-oluşturma-için-temel-metrikler",
-    "href": "ders5-TR.html#karar-ağacı-oluşturma-için-temel-metrikler",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "Karar Ağacı Oluşturma için Temel Metrikler",
-    "text": "Karar Ağacı Oluşturma için Temel Metrikler\nSorular: Hangi özellik ilk dal olur? Hangi değerde bir dal oluştururuz (5 saat, 70 puan, vb.)\n\n\nEntropi\nBilgi Kazancı\nGini Safsızlığı"
-  },
-  {
-    "objectID": "ders5-TR.html#entropi",
-    "href": "ders5-TR.html#entropi",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "Entropi",
-    "text": "Entropi\n\nEntropi, bir örnek kümesindeki safsızlık veya belirsizlik ölçüsüdür. Karar ağaçları bağlamında, bir veri kümesindeki sınıf etiketlerinin düzensizliğini ölçer.\n\nFormül: \\(H(S) = -\\sum_{i=1}^{c} p_i \\log_2(p_i)\\)\nBurada \\(S\\) veri kümesi, \\(c\\) sınıf sayısı ve \\(p_i\\), \\(i\\) sınıfına ait örneklerin oranıdır.\n\n0 (tamamen saf, tüm örnekler bir sınıfa ait) ile \\(\\log_2(c)\\) (tamamen saf olmayan, tüm sınıflara eşit dağılım) arasında değişir.\nBilgi kazancını hesaplamak için kullanılır."
-  },
-  {
-    "objectID": "ders5-TR.html#bilgi-kazancı",
-    "href": "ders5-TR.html#bilgi-kazancı",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "Bilgi Kazancı",
-    "text": "Bilgi Kazancı\n\nBilgi kazancı, veriyi belirli bir özelliğe göre bölerek elde edilen entropi azalmasını ölçer. Karar ağacının her düğümünde hangi özelliğin bölünmesi gerektiğini belirlemeye yardımcı olur.\n\nFormül: \\(IG(S, A) = H(S) - \\sum_{v \\in Values(A)} \\frac{|S_v|}{|S|} H(S_v)\\)\nBurada \\(S\\) veri kümesi, \\(A\\) bölünme için düşünülen özellik, \\(Values(A)\\) \\(A\\) özelliğinin olası değerleri ve \\(S_v\\), \\(A\\) özelliğinin \\(v\\) değerine sahip olduğu \\(S\\)’nin alt kümesidir.\n\nDaha yüksek bilgi kazancı, sınıflandırma için daha faydalı bir özelliği gösterir.\nGenellikle her düğümde bölünme için en yüksek bilgi kazancına sahip özellik seçilir."
-  },
-  {
-    "objectID": "ders5-TR.html#gini-safsızlığı",
-    "href": "ders5-TR.html#gini-safsızlığı",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "Gini Safsızlığı",
-    "text": "Gini Safsızlığı\n\nGini safsızlığı, bir örnek kümesinin safsızlığını ölçmek için entropiye bir alternatiftir. Rastgele seçilen bir elemanın, alt kümedeki etiket dağılımına göre rastgele etiketlendirilirse yanlış sınıflandırılma olasılığını temsil eder.\n\nFormül: \\(Gini(S) = 1 - \\sum_{i=1}^{c} (p_i)^2\\)\nBurada \\(S\\) veri kümesi, \\(c\\) sınıf sayısı ve \\(p_i\\), \\(i\\) sınıfına ait örneklerin oranıdır.\n\n0 (tamamen saf) ile \\(1 - \\frac{1}{c}\\) (tamamen saf olmayan) arasında değişir.\nGenellikle CART (Sınıflandırma ve Regresyon Ağaçları) gibi algoritmalarda kullanılır.\n\nEntropi (bilgi kazancı ile) veya Gini safsızlığı kullanma seçimi genellikle karar ağacı algoritmasının belirli uygulamasına bağlıdır. Pratikte, genellikle benzer sonuçlar verirler."
-  },
-  {
-    "objectID": "ders5-TR.html#karar-ağacı-oluşturma-algoritmaları",
-    "href": "ders5-TR.html#karar-ağacı-oluşturma-algoritmaları",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "Karar ağacı oluşturma algoritmaları",
-    "text": "Karar ağacı oluşturma algoritmaları\n\nID3\nCART\n\nAlgoritmalar hakkında detaylar için lütfen bu bağlantıyı ziyaret edin"
-  },
-  {
-    "objectID": "ders5-TR.html#r-ile-bir-örnek",
-    "href": "ders5-TR.html#r-ile-bir-örnek",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "R ile bir örnek",
-    "text": "R ile bir örnek\nhttps://www.dataspoof.info/post/decision-tree-classification-in-r/\nhttps://forum.posit.co/t/decision-tree-in-r/5561/5"
-  },
-  {
-    "objectID": "ders5-TR.html#section-2",
-    "href": "ders5-TR.html#section-2",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "",
-    "text": "Karar Ağaçlarının Avantajları:\n\nYorumlanabilirlik: Uzman olmayanlar için bile anlaşılması ve açıklanması kolaydır. Karar verme süreci görsel olarak temsil edilebilir.\nAz veya hiç veri ön işleme gerektirmez: Normalizasyon veya ölçeklendirme ihtiyacı olmadan hem sayısal hem de kategorik verileri işleyebilir.\nHesaplama açısından verimli: Özellikle küçük ve orta ölçekli veri setleriyle eğitim ve tahmin yapmak genellikle hızlıdır.\n\nDezavantajları:\n\nAşırı öğrenme: Özellikle derin ağaçlarda aşırı öğrenmeye eğilimlidir, bu da yeni verilerde zayıf genellemeye yol açar.\nİstikrarsızlık: Verideki küçük değişiklikler tamamen farklı bir ağacın oluşturulmasına neden olabilir.\nYüksek boyutlu verilerle zorluk: Birçok özellikle hesaplama açısından pahalı hale gelebilir ve aşırı öğrenmeye eğilimli olabilir."
-  },
-  {
-    "objectID": "ders5-TR.html#sınav-zamanı",
-    "href": "ders5-TR.html#sınav-zamanı",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "Sınav zamanı",
-    "text": "Sınav zamanı"
-  },
-  {
-    "objectID": "ders5-TR.html#rastgele-orman",
-    "href": "ders5-TR.html#rastgele-orman",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "Rastgele Orman",
-    "text": "Rastgele Orman\nRastgele orman, Leo Breiman ve Adele Cutler tarafından tescillenen, birden çok karar ağacının çıktısını birleştirerek tek bir sonuca ulaşan yaygın olarak kullanılan bir makine öğrenimi algoritmasıdır.\nRastgele ormanlar, eğitim sırasında çok sayıda karar ağacı oluşturarak çalışan ve sınıflandırma, regresyon ve diğer görevler için kullanılan bir topluluk öğrenme yöntemidir. Sınıflandırma görevleri için rastgele ormanın çıktısı, çoğu ağaç tarafından seçilen sınıftır."
-  },
-  {
-    "objectID": "ders5-TR.html#kaggle-örneği",
-    "href": "ders5-TR.html#kaggle-örneği",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "Kaggle örneği",
-    "text": "Kaggle örneği\nLütfen şu adresi ziyaret edin: https://www.kaggle.com/code/lara311/diabetes-prediction-using-machine-learning"
-  },
-  {
-    "objectID": "ders5-TR.html#destek-vektör-makineleri",
-    "href": "ders5-TR.html#destek-vektör-makineleri",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "Destek Vektör Makineleri",
-    "text": "Destek Vektör Makineleri\nTemel Fikir\nFarklı türdeki nesneleri, örneğin elmaları ve portakalları, renk, şekil ve boyut gibi özelliklerine göre ayırmaya çalıştığınızı hayal edin. İki tür nesneyi mümkün olduğunca doğru bir şekilde ayıran bir çizgi (veya daha yüksek boyutlarda bir hiper düzlem) çizmek istiyorsunuz.\nDestek Vektör Makineleri = Support Vector Machines (SVM)"
-  },
-  {
-    "objectID": "ders5-TR.html#svm-yöntemi",
-    "href": "ders5-TR.html#svm-yöntemi",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "SVM Yöntemi",
-    "text": "SVM Yöntemi\nDestek Vektör Makinesi, veriyi farklı sınıflara ayıran en iyi hiper düzlemi bulmayı amaçlayan bir tür denetimli öğrenme algoritmasıdır. İşte nasıl çalıştığı:\n\nVeri Hazırlama: İlgili özellikleri (öznitelikleri) ve etiketleri (örneğin, “elma” veya “portakal”) olan nesnelerin (örneğin, elmalar ve portakallar) bir veri setini toplayın.\nVerileri Çizme: Veri noktalarını bir özellik uzayında çizin, burada her eksen bir özelliği (örneğin, renk, şekil, boyut) temsil eder.\nHiperdüzlemi Bulma: Amaç, veri noktalarını farklı sınıflara ayıran bir hiperdüzlem bulmaktır. Hiperdüzlem, özellik uzayını iki bölgeye ayıran bir çizgi (2B’de) veya düzlem (3B’de) dir.\nMarjini Maksimize Etme: SVM algoritması, iki sınıf arasındaki marjini maksimize eden hiperdüzlemi bulmaya çalışır. Marj, hiperdüzlem ile hiperdüzlemin her iki tarafındaki en yakın veri noktaları (destek vektörleri olarak adlandırılır) arasındaki mesafedir.\nDestek Vektörleri: Destek vektörleri, hiperdüzleme en yakın olan ve konumu üzerinde en çok etkiye sahip olan veri noktalarıdır. Bunlar, hiperdüzlemi tanımlamaya yardımcı olan “destekler”dir."
-  },
-  {
-    "objectID": "ders5-TR.html#destek-vektör-makineleri-1",
-    "href": "ders5-TR.html#destek-vektör-makineleri-1",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "Destek Vektör Makineleri",
-    "text": "Destek Vektör Makineleri\nTemel Kavramlar\n\nHiperdüzlem: Verileri farklı sınıflara ayıran bir çizgi (2B’de) veya düzlem (3B’de).\nMarj: Hiperdüzlem ile hiperdüzlemin her iki tarafındaki en yakın veri noktaları (destek vektörleri) arasındaki mesafe.\nDestek Vektörleri: Hiperdüzleme en yakın olan ve konumu üzerinde en çok etkiye sahip olan veri noktaları."
-  },
-  {
-    "objectID": "ders5-TR.html#svmler-neden-faydalıdır",
-    "href": "ders5-TR.html#svmler-neden-faydalıdır",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "SVM’ler Neden Faydalıdır",
-    "text": "SVM’ler Neden Faydalıdır\nSVM’ler güçlüdür çünkü:\n\nYüksek boyutlu verileri işleyebilirler\nGürültüye ve aykırı değerlere karşı dayanıklıdırlar\nHem sınıflandırma hem de regresyon görevleri için kullanılabilirler\nKarar sınırının net bir geometrik yorumunu sağlarlar"
-  },
-  {
-    "objectID": "ders5-TR.html#section-3",
-    "href": "ders5-TR.html#section-3",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "",
-    "text": "H1 sınıfları ayırmaz. H2 ayırır, ancak sadece küçük bir marjla. H3 onları maksimum marjla ayırır. Kaynak"
-  },
-  {
-    "objectID": "ders5-TR.html#section-4",
-    "href": "ders5-TR.html#section-4",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "",
-    "text": "İki sınıftan örneklerle eğitilmiş bir SVM için maksimum marjlı hiperdüzlem ve marjlar. Marj üzerindeki örneklere destek vektörleri denir. Kaynak"
-  },
-  {
-    "objectID": "ders5-TR.html#section-5",
-    "href": "ders5-TR.html#section-5",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "",
-    "text": "SVM için çevrimiçi interaktif bir demo için lütfen SVM demo sitesini ziyaret edin."
-  },
-  {
-    "objectID": "ders5-TR.html#lojistik-regresyon",
-    "href": "ders5-TR.html#lojistik-regresyon",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "Lojistik Regresyon",
-    "text": "Lojistik Regresyon\nTemel Fikir\nLojistik regresyon, bir sonucun, olayın veya gözlemin olasılığını tahmin ederek ikili sınıflandırma görevlerini gerçekleştiren denetimli bir makine öğrenimi algoritmasıdır. Model, iki olası sonuçla sınırlı ikili bir sonuç sunar: evet/hayır, 0/1 veya doğru/yanlış."
-  },
-  {
-    "objectID": "ders5-TR.html#lojistik-regresyon-yöntemi",
-    "href": "ders5-TR.html#lojistik-regresyon-yöntemi",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "Lojistik Regresyon Yöntemi",
-    "text": "Lojistik Regresyon Yöntemi\nLojistik Regresyon, bir dizi girdi değişkenine (örneğin, puanlar) dayalı olarak bir olayın gerçekleşme olasılığını (örneğin, sınavı geçme) modelleyen bir tür denetimli öğrenme algoritmasıdır. İşte nasıl çalıştığı:\n\nVeri Hazırlama: Girdi değişkenleri (örneğin, puanlar) ve çıktı değişkenleri (örneğin, geçti/kaldı) için bir veri seti toplayın.\nLojistik Fonksiyon: Lojistik fonksiyon, aynı zamanda sigmoid fonksiyonu olarak da bilinen, olayın gerçekleşme olasılığını modellemek için kullanılır. Girdi değişkenlerini 0 ile 1 arasında bir olasılığa eşler.\nLog-Odds: Lojistik fonksiyon, olayın gerçekleşme olasılığının log-odds’una dayanır, bu da olayın gerçekleşme olasılığının olayın gerçekleşmeme olasılığına oranının logaritmasıdır.\nKatsayılar: Algoritma, her girdi değişkeni için katsayıları (ağırlıkları) öğrenir, bu da her değişkenin çıktıyı tahmin etmedeki önemini belirler.\nKarar Sınırı: Algoritma, katsayıları ve lojistik fonksiyonu kullanarak bir karar sınırı oluşturur, bu da girdi uzayını iki bölgeye ayırır: her sınıf için bir tane (örneğin, geçti ve kaldı).\nTahmin: Yeni bir girdi için, algoritma lojistik fonksiyonu ve öğrenilen katsayıları kullanarak olayın gerçekleşme olasılığını hesaplar. Eğer olasılık belirli bir eşiğin üzerindeyse (örneğin, 0.5), algoritma olayın gerçekleşeceğini tahmin eder (örneğin, öğrenci geçecek)."
-  },
-  {
-    "objectID": "ders5-TR.html#temel-kavramlar",
-    "href": "ders5-TR.html#temel-kavramlar",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "Temel Kavramlar",
-    "text": "Temel Kavramlar\n\nLojistik Fonksiyon: Girdi değişkenlerini 0 ile 1 arasında bir olasılığa eşleyen matematiksel bir fonksiyon.\nLog-Odds: Olayın gerçekleşme olasılığının olayın gerçekleşmeme olasılığına oranının logaritması.\nKatsayılar: Algoritmanın her girdi değişkeni için öğrendiği ağırlıklar, bunlar çıktıyı tahmin etmedeki önemlerini belirler.\nKarar Sınırı: Girdi uzayını iki bölgeye ayıran sınır, her sınıf için bir tane."
-  },
-  {
-    "objectID": "ders5-TR.html#lojistik-regresyon-neden-faydalıdır",
-    "href": "ders5-TR.html#lojistik-regresyon-neden-faydalıdır",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "Lojistik Regresyon Neden Faydalıdır",
-    "text": "Lojistik Regresyon Neden Faydalıdır\nLojistik Regresyon popüler bir algoritmadır çünkü:\n\nUygulaması ve yorumlanması kolaydır\nBirden çok girdi değişkenini işleyebilir\nHer tahmin için bir olasılık tahmini sağlar\nTıp, finans ve pazarlama gibi birçok alanda yaygın olarak kullanılır"
-  },
-  {
-    "objectID": "ders5-TR.html#quiz-zamanı",
-    "href": "ders5-TR.html#quiz-zamanı",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "Quiz zamanı",
-    "text": "Quiz zamanı"
-  },
-  {
-    "objectID": "ders5-TR.html#rastgele-orman-random-forest",
-    "href": "ders5-TR.html#rastgele-orman-random-forest",
-    "title": "Sınıflandırma Yöntemleri",
-    "section": "Rastgele Orman (Random Forest)",
-    "text": "Rastgele Orman (Random Forest)\nRastgele orman, Leo Breiman ve Adele Cutler tarafından tescillenen, birden çok karar ağacının çıktısını birleştirerek tek bir sonuca ulaşan yaygın olarak kullanılan bir makine öğrenimi algoritmasıdır.\nRastgele ormanlar, eğitim sırasında çok sayıda karar ağacı oluşturarak çalışan ve sınıflandırma, regresyon ve diğer görevler için kullanılan bir topluluk öğrenme yöntemidir. Sınıflandırma görevleri için rastgele ormanın çıktısı, çoğu ağaç tarafından seçilen sınıftır."
-  },
-  {
-    "objectID": "id3-decision-tree-TR.html",
-    "href": "id3-decision-tree-TR.html",
-    "title": "Karar Ağacı Algoritması",
-    "section": "",
-    "text": "Karar Ağacı Algoritması\nKaynak: https://medium.datadriveninvestor.com/decision-tree-algorithm-with-hands-on-example-e6c2afb40d38\nEntropi\nMakine öğreniminde, entropi işlenen bilgideki rastgeleliğin bir ölçüsüdür. Entropi ne kadar yüksek olursa, o bilgiden herhangi bir sonuç çıkarmak o kadar zor olur.\n\nBilgi Kazancı\nBilgi kazancı, bir rastgele değişken veya sinyalle ilgili olarak başka bir rastgele değişkeni gözlemleyerek elde edilen bilgi miktarı olarak tanımlanabilir. Ebeveyn düğümün entropisi ile çocuk düğümlerin ağırlıklı ortalama entropisi arasındaki fark olarak düşünülebilir.\n\nGini Safsızlığı\nGini safsızlığı, kümeden rastgele seçilen bir elemanın, alt kümedeki etiketlerin dağılımına göre rastgele etiketlendiğinde ne sıklıkla yanlış etiketleneceğinin bir ölçüsüdür.\n\nGini safsızlığı 0 ile alt sınırlıdır ve veri kümesi yalnızca bir sınıf içeriyorsa 0 olur.\n\nKarar ağacı oluşturmak için birçok algoritma vardır. Bunlar:\n\nCART (Sınıflandırma ve Regresyon Ağaçları) — Bu, metrik olarak Gini safsızlığını kullanır.\nID3 (Yinelemeli Bölücü 3) — Bu, metrik olarak entropi ve bilgi kazancını kullanır.\n\nBu makalede ID3’ü ele alacağım. Bunu anladıktan sonra, aynısını CART kullanarak uygulamak kolay olacaktır.\n\n\nID3 algoritması kullanarak sınıflandırma\nFutbol oynayıp oynamama kararını belirleyeceğimiz bir veri setini düşünün.\n\nBurada bağımlı değişkeni belirlemek için dört bağımsız değişken vardır. Bağımsız değişkenler Hava Durumu, Sıcaklık, Nem ve Rüzgardır. Bağımlı değişken ise futbol oynayıp oynamama durumudur.\nİlk adım olarak, karar ağacımız için ebeveyn düğümü bulmalıyız. Bunun için şu adımları izleyin:\nSınıf değişkeninin entropisini bulun.\nE(S) = -[(9/14)log(9/14) + (5/14)log(5/14)] = 0.94\nnot: Burada genellikle 2 tabanında logaritma alırız. Burada toplam 14 evet/hayır var. Bunların 9’u evet ve 5’i hayır. Buna dayanarak yukarıdaki olasılığı hesapladık.\nYukarıdaki verilerden hava durumu için aşağıdaki tabloyu kolayca elde edebiliriz:\n\nŞimdi ağırlıklı ortalama entropiyi hesaplamamız gerekiyor. Yani, her özelliğin ağırlıklarının olasılıklarla çarpımının toplamını bulduk.\nE(S, hava durumu) = (5/14)E(3,2) + (4/14)E(4,0) + (5/14)*E(2,3) = (5/14)(-(3/5)log(3/5)-(2/5)log(2/5))+ (4/14)(0) + (5/14)((2/5)log(2/5)-(3/5)log(3/5)) = 0.693\nBir sonraki adım bilgi kazancını bulmaktır. Bu, ebeveyn entropisi ile yukarıda bulduğumuz ağırlıklı ortalama entropi arasındaki farktır.\nIG(S, hava durumu) = 0.94 - 0.693 = 0.247\nBenzer şekilde Sıcaklık, Nem ve Rüzgar için Bilgi Kazancını bulun.\nIG(S, Sıcaklık) = 0.940 - 0.911 = 0.029\nIG(S, Nem) = 0.940 - 0.788 = 0.152\nIG(S, Rüzgar) = 0.940 - 0.8932 = 0.048\nŞimdi en büyük entropi kazancına sahip özelliği seçin. Burada bu Hava Durumu’dur. Dolayısıyla karar ağacımızın ilk düğümünü (kök düğüm) oluşturur.\nŞimdi verilerimiz şu şekilde görünüyor:\n\n\n\nBulutlu sadece ‘Evet’ sınıfına ait örnekler içerdiğinden, bunu evet olarak ayarlayabiliriz. Yani hava durumu bulutlu ise futbol oynanacak demektir. Şimdi karar ağacımız şu şekilde görünüyor:\n\nBir sonraki adım, karar ağacımızdaki bir sonraki düğümü bulmaktır. Şimdi güneşli altında bir tane bulacağız. Sıcaklık, Nem veya Rüzgardan hangisinin daha yüksek bilgi kazancına sahip olduğunu belirlememiz gerekiyor.\n\nEbeveyn entropisini hesaplayın E(güneşli)\nE(güneşli) = (-(3/5)log(3/5)-(2/5)log(2/5)) = 0.971.\nŞimdi Sıcaklığın bilgi kazancını hesaplayın. IG(güneşli, Sıcaklık)\n\nE(güneşli, Sıcaklık) = (2/5)E(0,2) + (2/5)E(1,1) + (1/5)*E(1,0)=2/5=0.4\nŞimdi bilgi kazancını hesaplayın.\nIG(güneşli, Sıcaklık) = 0.971–0.4 =0.571\nBenzer şekilde şunları elde ederiz:\nIG(güneşli, Nem) = 0.971\nIG(güneşli, Rüzgar) = 0.020\nBurada IG(güneşli, Nem) en büyük değerdir. Bu nedenle Nem, güneşli altına gelen düğümdür.\n\nNem için yukarıdaki tablodan, nem normal ise oyunun gerçekleşeceğini ve yüksek ise gerçekleşmeyeceğini söyleyebiliriz. Benzer şekilde, yağmurlu altındaki düğümleri bulun.\nNot: Entropisi 0’dan büyük olan bir dal daha fazla bölünmeye ihtiyaç duyar.\nSonuç olarak, karar ağacımız aşağıdaki gibi görünecektir:\n\n\n\nCART algoritması kullanarak sınıflandırma\nCART kullanarak sınıflandırma buna benzerdir. Ancak entropi yerine Gini safsızlığını kullanırız.\nİlk adım olarak karar ağacımızın kök düğümünü bulacağız. Bunun için sınıf değişkeninin Gini indeksini hesaplayın\nGini(S) = 1 - [(9/14)² + (5/14)²] = 0.4591\nBir sonraki adım olarak, Gini kazancını hesaplayacağız. Bunun için önce Hava Durumu, Sıcaklık, Nem ve Rüzgarın ağırlıklı ortalama Gini safsızlığını bulacağız.\nİlk olarak Hava Durumu durumunu ele alalım\n\nGini(S, hava durumu) = (5/14)gini(3,2) + (4/14)gini(4,0)+ (5/14)gini(2,3) = (5/14)(1 - (3/5)² - (2/5)²) + (4/14)*0 + (5/14)(1 - (2/5)² - (3/5)²)= 0.171+0+0.171 = 0.342\nGini kazancı (S, hava durumu) = 0.459 - 0.342 = 0.117\nGini kazancı(S, Sıcaklık) = 0.459 - 0.4405 = 0.0185\nGini kazancı(S, Nem) = 0.459 - 0.3674 = 0.0916\nGini kazancı(S, rüzgar) = 0.459 - 0.4286 = 0.0304\nDaha yüksek Gini kazancına sahip olanı seçin. Hava durumu için Gini kazancı daha yüksektir. Bu yüzden onu kök düğümümüz olarak seçebiliriz."
+    "objectID": "ders3.html#root-mean-squared-error-rmse",
+    "href": "ders3.html#root-mean-squared-error-rmse",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Root Mean Squared Error (RMSE)",
+    "text": "Root Mean Squared Error (RMSE)\n\\[ \\text{RMSE} = \\sqrt{\\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^2} \\]"
   }
 ]
