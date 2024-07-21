@@ -2,6 +2,9 @@ project:
   type: website
   output-dir: docs
 
+execute:
+  freeze: auto
+
 website:
   title: "FEF3001 Yapay Zekaya Giriş"
   navbar:
