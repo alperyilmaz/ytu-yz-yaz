@@ -39,7 +39,7 @@ Aşağıdaki tabloda, sayfaları gezinerek veya arama kutusunda öğrenci numara
 ```{r}
 #| echo: false
 
-tr_data |> datatable(rownames = FALSE)
+tr_data |> arrange(id) |> datatable(rownames = FALSE)
 ```
 
 ## Group 2 (EN) results
@@ -65,6 +65,6 @@ And here's the scores. You can scroll pages or search for your student number in
 ```{r}
 #| echo: false
 
-en_data |> datatable(rownames = FALSE)
+en_data |> arrange(id) |> datatable(rownames = FALSE)
 ```
 
