@@ -8,6 +8,8 @@ website:
     left:
       - href: index.qmd
         text: Ana Sayfa
+      - href: midterm-grades.qmd
+        text: Notlar
       - href: about.qmd
         text: Hakkında
 format:

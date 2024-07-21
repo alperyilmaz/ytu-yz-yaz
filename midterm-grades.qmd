@@ -1,0 +1,70 @@
+---
+title: "Midterm Results / Vize Sonuçları"
+date: "20240721"
+format: html
+typora-copy-images-to: images
+---
+
+
+## Grup 1 (Türkçe) sonuçları
+
+```{r}
+#| echo: false
+#| warning: false
+#| messages: false
+library(tidyverse)
+library(DT)
+tr_data <- read_csv("tr-midterm-scores.csv",col_types = "ci")
+en_data <- read_csv("en-midterm-scores.csv",col_types = "ci")
+```
+
+Sınava katılan öğrenci sayısı: **`r nrow(tr_data)`** ve vize notlarının ortalaması: **`r round(mean(tr_data$midterm),1)`**. Aşağıda, vize notlarının dağılımı verilmiştir.
+
+```{r}
+#| echo: false
+#| fig-height: 4
+tr_data |>
+  select(id, midterm) |>
+  count(midterm) |>
+  ggplot(aes(x=midterm, y=n)) +
+  geom_col() +
+  scale_x_continuous(breaks = seq(5, 100, by = 5)) +
+  labs(x = "Vize Notu", y = "Öğrenci Sayısı") +
+  theme_linedraw()
+```
+Aşağıdaki tabloda, sayfaları gezinerek veya arama kutusunda öğrenci numaranızı arayarak notlarınızı öğrenebilirsiniz.
+
+
+
+```{r}
+#| echo: false
+
+tr_data |> datatable(rownames = FALSE)
+```
+
+## Group 2 (EN) results
+
+Total number of students took the exam: **`r nrow(en_data)`** and average score is: **`r mean(en_data$midterm)`**. Below is the distribution of scores:
+
+```{r}
+#| echo: false
+#| fig-height: 4
+en_data |>
+  select(id, midterm) |> 
+  count(midterm) |> 
+  ggplot(aes(x=midterm, y=n)) + 
+  geom_col() + 
+  scale_x_continuous(breaks = seq(5, 100, by = 5)) +  
+  labs(x = "Midterm Score", y = "Number of Students") + 
+  theme_linedraw() 
+```
+
+And here's the scores. You can scroll pages or search for your student number in search box.
+
+
+```{r}
+#| echo: false
+
+en_data |> datatable(rownames = FALSE)
+```
+
