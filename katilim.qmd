@@ -1,0 +1,98 @@
+---
+title: "Attendance and Quizes / Katılım ve Quizler"
+date: "20240722"
+format: html
+typora-copy-images-to: images
+---
+
+# Derse Katılım / Attendance
+
+Zoom üzerinden süre olarak katılımınız alınarak, toplam ders süremize[^1] göre oran hesaplanmıştır. Dersin üçte birinden (1/3 ya da 0.3) az katılan öğrenci o derse katılmamış sayılacaktır.
+
+Aşağıdaki tablolarda her bir ders günü için Zoom süresi ve katılım oranı verilmiştir.
+
+::: {.callout-caution collapse="true" icon=false}
+## Click for translation
+Your participation time has been recorded via Zoom, and a ratio has been calculated based on our total lesson duration. A student who participates less than one-third (1/3 or 0.3) of the lesson will be considered as not having attended that lesson.
+
+In the tables below, the Zoom duration and participation ratio for each lesson day are provided.
+:::
+
+## Group1 / Grup1 Türkçe
+
+```{r}
+#| echo: false
+#| warning: false
+#| messages: false
+library(tidyverse)
+library(DT)
+library(glue)
+read_csv("attandance_20240719_tr.csv") |>
+  arrange(student_id) |>
+  datatable(rownames = FALSE)
+```
+
+## Group2 / Grup2 İngilizce
+
+```{r}
+#| echo: false
+#| warning: false
+#| messages: false
+read_csv("attandance_20240719_en.csv") |>
+  arrange(student_id) |>
+  datatable(rownames = FALSE)
+```
+
+# Quizler
+
+Derste yapılan quizlerde en az bir doğru cevap verilmesi gerekmektedir. Bütün cevapları yanlış olan öğrenciler quize girmemiş sayılacaktır.
+
+Aşağıdaki tablolarda her bir quiz için doğru cevap ve toplam soru sayısı verilmiştir.
+
+::: {.callout-caution collapse="true" icon=false}
+## Click for translation
+In the quizzes given during the lesson, at least one correct answer is required. Students who have all answers incorrect will be considered as not having taken the quiz.
+
+In the tables below, the number of correct answers and total number of questions for each quiz are provided.
+:::
+
+## Group1 / Grup1 Türkçe
+
+```{r}
+#| echo: false
+#| warning: false
+#| messages: false
+data <- readxl::read_excel("quiz1_20240719_tr.xlsx","Participant Data")
+
+data |>
+      janitor::clean_names() |>
+      select(first_name, correct, 8:12) |>
+      mutate(total = 3) |>
+      mutate( new_column = glue("{correct} / {total}")) |>
+      select(student_id=first_name, result=new_column) |>
+      arrange(student_id) |> 
+      datatable(rownames=FALSE)
+```
+
+## Group2 / Grup2 İngilizce
+
+```{r}
+#| echo: false
+#| warning: false
+#| messages: false
+data <- readxl::read_excel("quiz1_20240719_en.xlsx","Participant Data")
+
+data |>
+  janitor::clean_names() |>
+  select(first_name, correct, 8:12) |>
+  rowwise() |>
+  mutate(total = sum(across(2:7))) |>
+  ungroup() |>
+  mutate(total = max(total), new_column = glue("{correct} / {total}")) |>
+  select(student_id=first_name, result=new_column) |>
+  arrange(student_id) |>
+  datatable(rownames=FALSE)
+```
+
+
+[^1]: Beklenen ders süresi (yaklaşık 3 saat) değil, işlenen süre. Yani maksimum süre, ders süresi olarak alınmıştır.
