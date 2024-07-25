@@ -12,7 +12,7 @@
 
   <meta name="author" content="Alper Yılmaz">
   <meta name="dcterms.date" content="2024-07-25">
-  <title>FEF3001 Yapay Zekaya Giriş – Regression Methods</title>
+  <title>FEF3001 Yapay Zekaya Giriş – Regresyon Yöntemleri</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -331,8 +331,8 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Regression Methods</h1>
-  <p class="subtitle">FEF3001 Yapay zekaya giriş - Ders6</p>
+  <h1 class="title">Regresyon Yöntemleri</h1>
+  <p class="subtitle">FEF3001 Yapay Zekaya Giriş - Ders 6</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -344,94 +344,94 @@ Alper Yılmaz
 
   <p class="date">2024-07-25</p>
 </section>
-<section id="contents" class="slide level2">
-<h2>Contents</h2>
+<section id="içerik" class="slide level2">
+<h2>İçerik</h2>
 <ul>
-<li>Definition of regression</li>
-<li>Types of regression (linear, polynomial, and ensemble methods)
+<li>Regresyonun tanımı</li>
+<li>Regresyon türleri (doğrusal, polinom ve topluluk yöntemleri)
 <ul>
-<li>Linear Regression: Simple Linear Regression, Ordinary Least Squares method, Evaluating model performance (R-squared, RMSE)</li>
-<li>Polynomial Regression: When to use polynomial regression, overfitting</li>
-<li>Regression with Random Forest: Random Forest algorithm for regression, Advantages (handling non-linearity, feature importance)</li>
-<li>Other types of regression: Logistic regression (for binary outcomes), Ridge and Lasso regression (regularization techniques)</li>
+<li>Doğrusal Regresyon: Basit Doğrusal Regresyon, En Küçük Kareler yöntemi, Model performansının değerlendirilmesi (R-kare, RMSE)</li>
+<li>Polinom Regresyon: Ne zaman polinom regresyon kullanılır, aşırı uyum</li>
+<li>Rastgele Orman ile Regresyon: Regresyon için Rastgele Orman algoritması, Avantajları (doğrusal olmayan ilişkileri ele alma, özellik önemi)</li>
+<li>Diğer regresyon türleri: Lojistik regresyon (ikili sonuçlar için), Ridge ve Lasso regresyonu (düzenlileştirme teknikleri)</li>
 </ul></li>
-<li>Examples on Excel</li>
-<li>Code examples in R and Python</li>
+<li>Excel’de örnekler</li>
+<li>R ve Python’da kod örnekleri</li>
 </ul>
 </section>
-<section id="regression" class="slide level2 scrollable">
-<h2>Regression</h2>
-<p>Regression is a statistical method used in data analysis and machine learning to model and analyze the relationship between a dependent variable (often called the target or outcome variable) and one or more independent variables (also known as predictors or features). The primary goal of regression is to estimate how changes in the independent variables are associated with changes in the dependent variable, allowing for prediction and inference.</p>
-<p>Key points about regression:</p>
+<section id="regresyon" class="slide level2 scrollable">
+<h2>Regresyon</h2>
+<p>Regresyon, bir bağımlı değişken (genellikle hedef veya sonuç değişkeni olarak adlandırılır) ile bir veya daha fazla bağımsız değişken (ayrıca tahmin edici veya özellik olarak da bilinir) arasındaki ilişkiyi modellemek ve analiz etmek için veri analizinde ve makine öğrenmesinde kullanılan istatistiksel bir yöntemdir. Regresyonun temel amacı, bağımsız değişkenlerdeki değişikliklerin bağımlı değişkendeki değişikliklerle nasıl ilişkili olduğunu tahmin etmek ve çıkarım yapmaktır.</p>
+<p>Regresyon hakkında önemli noktalar:</p>
 <ol type="1">
-<li>It helps identify and quantify relationships between variables.</li>
-<li>It can be used for both prediction and understanding the impact of variables.</li>
-<li>There are various types of regression, including linear, polynomial, and more complex methods like Random Forest or Neural networks for regression.</li>
-<li>Regression models can handle both continuous and categorical variables.</li>
-<li>It’s widely used in many fields, including science, economics, and social sciences.</li>
+<li>Değişkenler arasındaki ilişkileri tanımlamaya ve ölçmeye yardımcı olur.</li>
+<li>Hem tahmin hem de değişkenlerin etkisini anlamak için kullanılabilir.</li>
+<li>Doğrusal, polinom ve Rastgele Orman veya regresyon için Sinir Ağları gibi daha karmaşık yöntemler dahil olmak üzere çeşitli regresyon türleri vardır.</li>
+<li>Regresyon modelleri hem sürekli hem de kategorik değişkenleri ele alabilir.</li>
+<li>Bilim, ekonomi ve sosyal bilimler dahil olmak üzere birçok alanda yaygın olarak kullanılır.</li>
 </ol>
 </section>
-<section id="linear-regression" class="slide level2">
-<h2>Linear Regression</h2>
+<section id="doğrusal-lineer-regresyon" class="slide level2">
+<h2>Doğrusal (Lineer) Regresyon</h2>
 
-<img data-src="images/linear-regression-summary.png" class="r-stretch"></section>
-<section id="linear-regression-1" class="slide level2">
-<h2>Linear Regression</h2>
+<img data-src="images/linear-regression-summary-TR.png" class="r-stretch"></section>
+<section id="doğrusal-regresyon" class="slide level2">
+<h2>Doğrusal Regresyon</h2>
 
-<img data-src="images/linear-regression-point-detail.png" class="r-stretch"></section>
-<section id="linear-regression-2" class="slide level2">
-<h2>Linear Regression</h2>
-<p>try finding the best line: <a href="https://www.geogebra.org/m/xC6zq7Zv">https://www.geogebra.org/m/xC6zq7Zv</a></p>
+<img data-src="images/linear-regression-point-detail-TR.png" class="r-stretch"></section>
+<section id="doğrusal-regresyon-1" class="slide level2">
+<h2>Doğrusal Regresyon</h2>
+<p>En iyi doğruyu bulmayı deneyin: <a href="https://www.geogebra.org/m/xC6zq7Zv">https://www.geogebra.org/m/xC6zq7Zv</a></p>
 </section>
-<section id="ols-method" class="slide level2">
-<h2>OLS method</h2>
-<p>Ordinary Least Squares (OLS) is a statistical method used to estimate the parameters of a linear regression model. It’s the most common technique for fitting a line to a set of data points in linear regression.</p>
-<p>OLS is a method that minimizes the sum of the squared differences between the observed dependent variable values and the predicted values by the linear function of the independent variable(s). In other words, it finds the line (or hyperplane in multiple dimensions) that best fits the data by minimizing the sum of the squared residuals.</p>
-<p>Please visit <a href="https://en.wikipedia.org/wiki/Ordinary_least_squares">OLS Method</a> at Wikipedia for technical details.</p>
+<section id="en-küçük-kareler-ols-yöntemi" class="slide level2">
+<h2>En Küçük Kareler (OLS) Yöntemi</h2>
+<p>En Küçük Kareler (Ordinary Least Squares - OLS), doğrusal bir regresyon modelinin parametrelerini tahmin etmek için kullanılan istatistiksel bir yöntemdir. Doğrusal regresyonda bir veri kümesine doğru yerleştirmek için en yaygın kullanılan tekniktir.</p>
+<p>OLS, gözlemlenen bağımlı değişken değerleri ile bağımsız değişken(ler)in doğrusal fonksiyonu tarafından tahmin edilen değerler arasındaki farkların karelerinin toplamını en aza indiren bir yöntemdir. Başka bir deyişle, kare artıkların toplamını en aza indirerek verilere en iyi uyan çizgiyi (veya çoklu boyutlarda hiperplane) bulur.</p>
+<p>Teknik detaylar için lütfen Wikipedia’daki <a href="https://en.wikipedia.org/wiki/Ordinary_least_squares">OLS Yöntemi</a> sayfasını ziyaret edin.</p>
 </section>
-<section id="multivariate-linear-regression" class="slide level2">
-<h2>Multivariate Linear Regression</h2>
-<p>Multivariate Linear Regression, also known as Multiple Linear Regression, is a statistical method used to model the relationship between multiple independent variables and a single dependent variable. It extends the concept of simple linear regression to include more than one predictor variable.</p>
-<p>The general form of the model is:</p>
+<section id="çok-değişkenli-doğrusal-regresyon" class="slide level2">
+<h2>Çok Değişkenli Doğrusal Regresyon</h2>
+<p>Çok Değişkenli Doğrusal Regresyon, aynı zamanda Çoklu Doğrusal Regresyon olarak da bilinen, birden fazla bağımsız değişken ile tek bir bağımlı değişken arasındaki ilişkiyi modellemek için kullanılan istatistiksel bir yöntemdir. Basit doğrusal regresyon kavramını birden fazla tahmin değişkeni içerecek şekilde genişletir.</p>
+<p>Modelin genel formu şöyledir:</p>
 <p><span class="math display">\[
 y = \beta_0 + \beta_1x_1 + \beta_2x_2 + \ldots + \beta_nx_n + \varepsilon
 \]</span></p>
-<p>Where:</p>
-<p>y is the dependent variable, x₁, x₂, …, xₙ are the independent variables, β₀ is the y-intercept (the value of y when all x’s are zero), β₁, β₂, …, βₙ are the coefficients associated with each independent variable, n is the number of independent variables, ε is the error term</p>
+<p>Burada:</p>
+<p>y bağımlı değişken, x₁, x₂, …, xₙ bağımsız değişkenler, β₀ y-kesişimi (tüm x’ler sıfır olduğunda y’nin değeri), β₁, β₂, …, βₙ her bağımsız değişkenle ilişkili katsayılar, n bağımsız değişken sayısı, ε hata terimi</p>
 </section>
-<section id="polynomial-regression" class="slide level2">
-<h2>Polynomial Regression</h2>
-<p>Polynomial Regression is a form of regression analysis in which the relationship between the independent variable x and the dependent variable y is modeled as an nth degree polynomial. It’s used when the relationship between variables is not linear but can be approximated by a polynomial function.</p>
+<section id="polinom-regresyon" class="slide level2">
+<h2>Polinom Regresyon</h2>
+<p>Polinom Regresyon, bağımsız değişken x ile bağımlı değişken y arasındaki ilişkinin n’inci dereceden bir polinom olarak modellendiği bir regresyon analizi formudur. Değişkenler arasındaki ilişki doğrusal olmadığında ancak bir polinom fonksiyonuyla yaklaşık olarak ifade edilebileceği durumlarda kullanılır.</p>
 <p><span class="math display">\[
 y = \beta_0 + \beta_1x + \beta_2x^2 + \beta_3x^3 + \ldots + \beta_nx^n + \varepsilon
 \]</span></p>
-<p>Where:</p>
-<p>y is the dependent variable, x is the independent variable, β₀, β₁, β₂, …, βₙ are the coefficients to be estimated, n is the degree of the polynomial and ε is the error term</p>
+<p>Burada:</p>
+<p>y bağımlı değişken, x bağımsız değişken, β₀, β₁, β₂, …, βₙ tahmin edilecek katsayılar, n polinomun derecesi ve ε hata terimi</p>
 </section>
-<section id="polynomial-regression-1" class="slide level2">
-<h2>Polynomial Regression</h2>
+<section id="polinom-regresyon-1" class="slide level2">
+<h2>Polinom Regresyon</h2>
 
 <img data-src="images/parabolic-data-points.png" class="r-stretch"></section>
-<section id="linear-regression-in-excel" class="slide level2">
-<h2>Linear Regression in Excel</h2>
-<p>Use <a href="files/mtcars-v2.xlsx">MTCARS dataset Excel file</a> and;</p>
+<section id="excelde-doğrusal-regresyon" class="slide level2">
+<h2>Excel’de Doğrusal Regresyon</h2>
+<p><a href="files/mtcars-v2.xlsx">MTCARS veri seti Excel dosyasını</a> kullanın ve;</p>
 <ul>
-<li>draw Trendline between <strong>wt</strong> (weight) and <strong>mpg</strong> (miles per galon) columns.</li>
-<li>draw Trendline between <strong>disp</strong> (displacement) and <strong>wt</strong> (weight) columns.</li>
+<li><strong>wt</strong> (ağırlık) ve <strong>mpg</strong> (galon başına mil) sütunları arasında Eğilim Çizgisi çizin.</li>
+<li><strong>disp</strong> (silindir hacmi) ve <strong>wt</strong> (ağırlık) sütunları arasında Eğilim Çizgisi çizin.</li>
 </ul>
-<p>Please visit <a href="https://www.myexcelonline.com/blog/add-trendlines-excel-charts/">MyExcelOnline</a> in order see how to draw a Trendline in Excel</p>
+<p>Excel’de nasıl Eğilim Çizgisi çizileceğini görmek için lütfen <a href="https://www.myexcelonline.com/blog/add-trendlines-excel-charts/">MyExcelOnline</a> sayfasını ziyaret edin.</p>
 </section>
 <section id="section" class="slide level2">
 <h2></h2>
 
 <img data-src="images/Trendlines.gif" class="r-stretch"></section>
-<section id="linear-regression-in-r" class="slide level2">
-<h2>Linear Regression in R</h2>
-<p>Please refer to <a href="./r-linear-regression.html">Linear Regression with R</a> page for simple linear and polynomial regression.</p>
+<section id="r-ile-doğrusal-regresyon" class="slide level2">
+<h2>R ile Doğrusal Regresyon</h2>
+<p>Basit doğrusal ve polinom regresyon için lütfen <a href="./r-linear-regression-tr.html">R ile Doğrusal Regresyon</a> sayfasına bakın.</p>
 </section>
-<section id="regression-with-random-forest" class="slide level2">
-<h2>Regression with Random Forest</h2>
-<p>Please refer to <a href="./rf-regression-R.html">random forest regression with R</a> document.</p>
+<section id="rastgele-orman-random-forest-ile-regresyon" class="slide level2">
+<h2>Rastgele Orman (Random Forest) ile Regresyon</h2>
+<p>Lütfen <a href="./rf-regression-R-tr.html">R ile rastgele orman regresyonu</a> belgesine bakın.</p>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">

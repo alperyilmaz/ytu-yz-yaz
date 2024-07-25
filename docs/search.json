@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "FEF3001 Yapay Zekaya Giriş",
     "section": "",
-    "text": "Makine Öğrenmesinde Sınıflandırma Yöntemleri ve R Uygulamaları, Ersoy Öz & Selçuk Alp, Nobel Akademik Yayıncılık, 2020.\nVeri Madenciliği ve Makine Öğrenmesi İle Farklı Alanlarda Uygulamalar, Şenol Çelik, Nilay Köleoğlu, & Fatih Çemrek, Holistence Publications, 2022\nSağlık Bilimlerinde Yapay Zeka, Ahmet Rıza Şahin, Kamil Doğan, & Süleyman Sivri, Akademisyen Kitabevi A.Ş., 2020\nYapay Zeka, Atınç Yılmaz, Kodlab Yayın Dağıtım Yazılım Ltd. Şti., 2022\nMachine Learning Algorithms, Giuseppe Bonaccorso, Packt Publishing, 2017.\nOptimizasyon Modelleme ve Yapay Zeka Algoritmaları, Bayram Köse, Bahar Demirtürk, Efe Akademi Yayınları, 2023\n\n\n\n\nGrup2: 4 Temmuz Perşembe 8:30 - Grup1: 4 Temmuz Perşembe 18:00\nİçerik: İlk derste, ChatGPT ve benzeri büyük dil modelleri tanıtıldı. OpenAI Playground üzerinde “cümle tamamlama” kavramı ve “temparature” ayarı gösterildi. Daha iyi çıktı almak için Prompt ayarları anlatıldı. Dökümandan sorgu/chat yapmak için Gemini ve Claude örnekleri verildi. Yine Claude üzerinden kod yazdırma örneği işlendi. İngilizce Sunum linki, Türkçe Sunum linki\n\n\n\n\nGrup2: 5 Temmuz Cuma 8:30 - Grup1: 5 Temmuz Cuma 14:00\nİçerik: Veri türleri ve verilerin işlenmesine dair bilgi verildi. Sunum linki\n\n\n\nGrup2: 11 Temmuz Perşembe 8:30 - Grup1: 11 Temmuz Perşembe 14:00\nİçerik: Confusion matrix ve sınıflandırma/regresyon değerlendirmesi Sunum linki\n\n\n\nGrup2: 12 Temmuz Cuma 8:30 - Grup1: 12 Temmuz Cuma 14:00\nİçerik: Yapay sinir ağları Sunum linki. Derste kullanılan yapay sinir ağı demo sayfaları için link1 ve link2\n\n\n\nGrup2: 19 Temmuz Cuma 8:30 - Grup1: 19 Temmuz Cuma 14:00\nİçerik: Sınıflandırma metodları İngilizce Sunum linki, Türkçe Sunum Linki\n\n\n\nGrup2: 25 Temmuz Cuma 8:30 - Grup1: 25 Temmuz Cuma 14:00\nİçerik: Regresyon İngilizce Sunum linki"
+    "text": "Makine Öğrenmesinde Sınıflandırma Yöntemleri ve R Uygulamaları, Ersoy Öz & Selçuk Alp, Nobel Akademik Yayıncılık, 2020.\nVeri Madenciliği ve Makine Öğrenmesi İle Farklı Alanlarda Uygulamalar, Şenol Çelik, Nilay Köleoğlu, & Fatih Çemrek, Holistence Publications, 2022\nSağlık Bilimlerinde Yapay Zeka, Ahmet Rıza Şahin, Kamil Doğan, & Süleyman Sivri, Akademisyen Kitabevi A.Ş., 2020\nYapay Zeka, Atınç Yılmaz, Kodlab Yayın Dağıtım Yazılım Ltd. Şti., 2022\nMachine Learning Algorithms, Giuseppe Bonaccorso, Packt Publishing, 2017.\nOptimizasyon Modelleme ve Yapay Zeka Algoritmaları, Bayram Köse, Bahar Demirtürk, Efe Akademi Yayınları, 2023\n\n\n\n\nGrup2: 4 Temmuz Perşembe 8:30 - Grup1: 4 Temmuz Perşembe 18:00\nİçerik: İlk derste, ChatGPT ve benzeri büyük dil modelleri tanıtıldı. OpenAI Playground üzerinde “cümle tamamlama” kavramı ve “temparature” ayarı gösterildi. Daha iyi çıktı almak için Prompt ayarları anlatıldı. Dökümandan sorgu/chat yapmak için Gemini ve Claude örnekleri verildi. Yine Claude üzerinden kod yazdırma örneği işlendi. İngilizce Sunum linki, Türkçe Sunum linki\n\n\n\n\nGrup2: 5 Temmuz Cuma 8:30 - Grup1: 5 Temmuz Cuma 14:00\nİçerik: Veri türleri ve verilerin işlenmesine dair bilgi verildi. Sunum linki\n\n\n\nGrup2: 11 Temmuz Perşembe 8:30 - Grup1: 11 Temmuz Perşembe 14:00\nİçerik: Confusion matrix ve sınıflandırma/regresyon değerlendirmesi Sunum linki\n\n\n\nGrup2: 12 Temmuz Cuma 8:30 - Grup1: 12 Temmuz Cuma 14:00\nİçerik: Yapay sinir ağları Sunum linki. Derste kullanılan yapay sinir ağı demo sayfaları için link1 ve link2\n\n\n\nGrup2: 19 Temmuz Cuma 8:30 - Grup1: 19 Temmuz Cuma 14:00\nİçerik: Sınıflandırma metodları İngilizce Sunum linki, Türkçe Sunum Linki\n\n\n\nGrup2: 25 Temmuz Cuma 8:30 - Grup1: 25 Temmuz Cuma 14:00\nİçerik: Regresyon İngilizce Sunum linki, Türkçe Sunum linki"
   },
   {
     "objectID": "index.html#kaynaklar",
@@ -53,7 +53,7 @@
     "href": "index.html#ders6",
     "title": "FEF3001 Yapay Zekaya Giriş",
     "section": "",
-    "text": "Grup2: 25 Temmuz Cuma 8:30 - Grup1: 25 Temmuz Cuma 14:00\nİçerik: Regresyon İngilizce Sunum linki"
+    "text": "Grup2: 25 Temmuz Cuma 8:30 - Grup1: 25 Temmuz Cuma 14:00\nİçerik: Regresyon İngilizce Sunum linki, Türkçe Sunum linki"
   },
   {
     "objectID": "id3-decision-tree-TR.html",
@@ -130,7 +130,7 @@
     "href": "ders6.html#linear-regression-in-excel",
     "title": "Regression Methods",
     "section": "Linear Regression in Excel",
-    "text": "Linear Regression in Excel\nUse MTCARS dataset Excel file and;\n\ndraw Trendline between mpg (miles per galon) and wt (weight) columns.\ndraw Trendline between disp (displacement) and wt (weight) columns.\n\nPlease visit MyExcelOnline in order see how to draw a Trendline in Excel"
+    "text": "Linear Regression in Excel\nUse MTCARS dataset Excel file and;\n\ndraw Trendline between wt (weight) and mpg (miles per galon) columns.\ndraw Trendline between disp (displacement) and wt (weight) columns.\n\nPlease visit MyExcelOnline in order see how to draw a Trendline in Excel"
   },
   {
     "objectID": "ders6.html#linear-regression-in-r",
@@ -147,214 +147,123 @@
     "text": "Regression with Random Forest\nPlease refer to random forest regression with R document."
   },
   {
-    "objectID": "ders5.html#contents",
-    "href": "ders5.html#contents",
-    "title": "Classification Methods",
-    "section": "Contents",
-    "text": "Contents\n\n\n\nIntroduction to supervised learning\nDefinition and applications of classification\nPreparing the data\n\nFeature selection and preprocessing ✅\n\nMethods\n\nDecision Trees\nRandom Forest\nSupport Vector Machines (SVM)\nLogistic Regression\nK-nearest neighbor\nNaive Bayes\nArtificial Neural Networks ✅\n\n\n\n\nEnsemble methods\nEvaluation ✅\n\nConfusion Matrix ✅\nAccuracy, precision, recall, F1-score ✅\nROC curves ✅\n\nOverfitting and underfitting ✅\nCross-validation"
-  },
-  {
-    "objectID": "ders5.html#section",
-    "href": "ders5.html#section",
-    "title": "Classification Methods",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "FEF3001 Yapay Zekaya Giriş Ders Notları",
     "section": "",
-    "text": "Source"
+    "text": "YTÜ Fen Fakültesinde 2024 Yaz döneminde verilen FEF3001 kodlu dersin içerikleri sayfasıdır.\n\n\n\nVize ne zaman? Cevap: 18 Temmuz 2024 perşembe saat 12:00\nVize yüz yüze mi? Cevap: Evet\nSınavlar hangi derslikte yapılacak? Cevap: Sınav derslikleri Fen Fakültesi sayfasında duyurulmuştur. Lütfen grubunuza (İng veya Türkçe) ve bölümünüze uygun derslikte sınava giriniz.\nVize konuları nelerdir? Cevap: Yapay sinir ağı konusunun sonuna kadar\nYüklenen sunumlar dışında bir kaynaktan soru sorulacak mıdır? Cevap: Temel olarak sunumlar kullanılacaktır fakat derste anlatılanlardan da sorumluyuz, ders video kaydı ve derste aldığınız notlarınızı da çalışınız\nVize test şeklinde mi ve kaç soru sorulur? Cevap: Test şeklinde 20-30 soru planlanmaktadır\nÇok fazla formül var, vizede formüller verilebilir mi? Cevap: Bütün formüller verilmeyecektir, az kullanılan ve karmaşık olan formüller verilebilir\nHaftaya ders yapılacak mı? Cevap: Sınav olduğu gün sadece FEF3001 dersi yapılmayacaktır, Cuma günü ders işlenecektir.\nYorum soruları sorulacak mı? Cevap: Genelde bilgi ölçen sorular terich edilecektir"
   },
   {
-    "objectID": "ders5.html#section-1",
-    "href": "ders5.html#section-1",
-    "title": "Classification Methods",
+    "objectID": "about.html#sıkça-sorulan-sorular",
+    "href": "about.html#sıkça-sorulan-sorular",
+    "title": "FEF3001 Yapay Zekaya Giriş Ders Notları",
     "section": "",
-    "text": "Source"
+    "text": "Vize ne zaman? Cevap: 18 Temmuz 2024 perşembe saat 12:00\nVize yüz yüze mi? Cevap: Evet\nSınavlar hangi derslikte yapılacak? Cevap: Sınav derslikleri Fen Fakültesi sayfasında duyurulmuştur. Lütfen grubunuza (İng veya Türkçe) ve bölümünüze uygun derslikte sınava giriniz.\nVize konuları nelerdir? Cevap: Yapay sinir ağı konusunun sonuna kadar\nYüklenen sunumlar dışında bir kaynaktan soru sorulacak mıdır? Cevap: Temel olarak sunumlar kullanılacaktır fakat derste anlatılanlardan da sorumluyuz, ders video kaydı ve derste aldığınız notlarınızı da çalışınız\nVize test şeklinde mi ve kaç soru sorulur? Cevap: Test şeklinde 20-30 soru planlanmaktadır\nÇok fazla formül var, vizede formüller verilebilir mi? Cevap: Bütün formüller verilmeyecektir, az kullanılan ve karmaşık olan formüller verilebilir\nHaftaya ders yapılacak mı? Cevap: Sınav olduğu gün sadece FEF3001 dersi yapılmayacaktır, Cuma günü ders işlenecektir.\nYorum soruları sorulacak mı? Cevap: Genelde bilgi ölçen sorular terich edilecektir"
   },
   {
-    "objectID": "ders5.html#definition-of-classification",
-    "href": "ders5.html#definition-of-classification",
-    "title": "Classification Methods",
-    "section": "Definition of classification",
-    "text": "Definition of classification\n\nA type of supervised learning\nGoal: Categorize input data into predefined classes or categories\nThe model learns to draw decision boundaries between classes\nOutput is a discrete class label (unlike regression, which predicts continuous values)"
-  },
-  {
-    "objectID": "ders5.html#applications",
-    "href": "ders5.html#applications",
-    "title": "Classification Methods",
-    "section": "Applications",
-    "text": "Applications\n\n\n\nText Classification\n\nSpam detection in emails\nSentiment analysis of product reviews\nNews article categorization\n\nImage Classification\n\nMedical imaging for disease detection\nFacial recognition systems\nPlant or animal species identification\n\nFinancial Applications\n\nCredit scoring (approve/deny loan applications)\nFraud detection in transactions\n\n\n\n\nHealthcare\n\nDisease diagnosis based on symptoms and test results\nPredicting patient readmission risk\n\nEnvironmental Science\n\nClimate pattern classification\nSpecies habitat prediction\n\nLiterature and Linguistics\n\nAuthorship attribution\nGenre classification of texts\nLanguage identification"
-  },
-  {
-    "objectID": "ders5.html#your-turn",
-    "href": "ders5.html#your-turn",
-    "title": "Classification Methods",
-    "section": "Your Turn",
-    "text": "Your Turn\nIn the zoom chat window please write down your department and an example of classification task related to your domain"
-  },
-  {
-    "objectID": "ders5.html#your-turn-1",
-    "href": "ders5.html#your-turn-1",
-    "title": "Classification Methods",
-    "section": "Your Turn",
-    "text": "Your Turn\nPick one example and discuss about the data\nVisit Kaggle and find related dataset"
-  },
-  {
-    "objectID": "ders5.html#decision-trees",
-    "href": "ders5.html#decision-trees",
-    "title": "Classification Methods",
-    "section": "Decision Trees",
-    "text": "Decision Trees\nDecision Trees are a classification method that uses a tree-like model of decisions and their possible consequences. The algorithm learns a series of if-then-else decision rules that split the data based on feature values, creating a structure that resembles a flowchart. Each internal node represents a “test” on an attribute, each branch represents the outcome of the test, and each leaf node represents a class label or decision.\nbranch, test, leaf"
-  },
-  {
-    "objectID": "ders5.html#example",
-    "href": "ders5.html#example",
-    "title": "Classification Methods",
-    "section": "Example",
-    "text": "Example\n\n\n\n\n\n\n\n\n\n\n\n\nHours studied\nPrevious Score\nAttended Review\nPass?\n\n\n\n\n3\n60\nNo\n?\n\n\n4\n75\nNo\n?\n\n\n7\n80\nYes\n?"
-  },
-  {
-    "objectID": "ders5.html#key-metrics-for-decision-tree-construction",
-    "href": "ders5.html#key-metrics-for-decision-tree-construction",
-    "title": "Classification Methods",
-    "section": "Key Metrics for Decision Tree Construction",
-    "text": "Key Metrics for Decision Tree Construction\nQuestions: Which feature is the first branch? At what value we create a branch (5 hours, 70 points, etc.)\n\n\nEntropy\nInformation Gain\nGini Impurity"
-  },
-  {
-    "objectID": "ders5.html#entropy",
-    "href": "ders5.html#entropy",
-    "title": "Classification Methods",
-    "section": "Entropy",
-    "text": "Entropy\n\nEntropy is a measure of impurity or uncertainty in a set of examples. In the context of decision trees, it quantifies the disorder in the class labels of a dataset.\n\nFormula: \\(H(S) = -\\sum_{i=1}^{c} p_i \\log_2(p_i)\\)\nWhere \\(S\\) is the dataset, \\(c\\) is the number of classes, and \\(p_i\\) is the proportion of examples belonging to class \\(i\\).\n\nRanges from 0 (completely pure, all examples belong to one class) to \\(\\log_2(c)\\) (completely impure, equal distribution across all classes).\nUsed to calculate information gain."
-  },
-  {
-    "objectID": "ders5.html#information-gain",
-    "href": "ders5.html#information-gain",
-    "title": "Classification Methods",
-    "section": "Information Gain",
-    "text": "Information Gain\n\nInformation gain measures the reduction in entropy achieved by splitting the data on a particular feature. It helps determine which feature to split on at each node of the decision tree.\n\nFormula: \\(IG(S, A) = H(S) - \\sum_{v \\in Values(A)} \\frac{|S_v|}{|S|} H(S_v)\\)\nWhere \\(S\\) is the dataset, \\(A\\) is the feature being considered for splitting, \\(Values(A)\\) are the possible values of feature \\(A\\), and \\(S_v\\) is the subset of \\(S\\) where feature \\(A\\) has value \\(v\\).\n\nHigher information gain indicates a more useful feature for classification.\nThe feature with the highest information gain is typically chosen for splitting at each node."
-  },
-  {
-    "objectID": "ders5.html#gini-impurity",
-    "href": "ders5.html#gini-impurity",
-    "title": "Classification Methods",
-    "section": "Gini Impurity",
-    "text": "Gini Impurity\n\nGini impurity is an alternative to entropy for measuring the impurity of a set of examples. It represents the probability of incorrectly classifying a randomly chosen element if it were randomly labeled according to the distribution of labels in the subset.\n\nFormula: \\(Gini(S) = 1 - \\sum_{i=1}^{c} (p_i)^2\\)\nWhere \\(S\\) is the dataset, \\(c\\) is the number of classes, and \\(p_i\\) is the proportion of examples belonging to class \\(i\\).\n\nRanges from 0 (completely pure) to \\(1 - \\frac{1}{c}\\) (completely impure).\nOften used in algorithms like CART (Classification and Regression Trees).\n\nThe choice between using entropy (with information gain) or Gini impurity often depends on the specific implementation of the decision tree algorithm. In practice, they often yield similar results."
-  },
-  {
-    "objectID": "ders5.html#algoritms-for-decision-tree-construction",
-    "href": "ders5.html#algoritms-for-decision-tree-construction",
-    "title": "Classification Methods",
-    "section": "Algoritms for decision tree construction",
-    "text": "Algoritms for decision tree construction\n\nID3\nCART\n\nPlease visit this link for details about algoritms"
-  },
-  {
-    "objectID": "ders5.html#an-example-with-r",
-    "href": "ders5.html#an-example-with-r",
-    "title": "Classification Methods",
-    "section": "An example with R",
-    "text": "An example with R\nhttps://www.dataspoof.info/post/decision-tree-classification-in-r/\nhttps://forum.posit.co/t/decision-tree-in-r/5561/5"
-  },
-  {
-    "objectID": "ders5.html#section-2",
-    "href": "ders5.html#section-2",
-    "title": "Classification Methods",
+    "objectID": "ders1.html",
+    "href": "ders1.html",
+    "title": "GPT models",
     "section": "",
-    "text": "Advantages of Decision Trees:\n\nInterpretability: Easy to understand and explain, even for non-experts. The decision-making process can be visually represented.\nNo or little data preprocessing required: Can handle both numerical and categorical data without the need for normalization or scaling.\nComputationally efficient: Generally fast to train and make predictions, especially with small to medium-sized datasets.\n\nDisadvantages:\n\nOverfitting: Prone to overfitting, especially with deep trees, leading to poor generalization on new data.\nInstability: Small changes in the data can result in a completely different tree being generated.\nDifficulty with high-dimensional data: Can become computationally expensive and prone to overfitting with many features."
+    "text": "GPT1, GPT2 abd GPT3 were released couple years before ChatGPT and it was able to complete sentences. Please visit “How Does ChatGPT Work?” site for more information. After ChatGPT was released, large language models got “conversational”\nPlease visit OpenAI Playground completion site and select “gpt-3.5-turbo” as model. Type a incomplete sentence and then press Submit button.\nYou’ll see that the model will complete your sentence. If you turn on the “Show probabilities” option on right menu, you’ll get a glimpse of how GPT works.\nIf you complete the sentence and then hover over the words, you’ll see that the model had many words to chose from with certain probabilities. In this example, “my” is the 4th most probable word after Today is and “birthday” is most probable word after Today is my.\nOne of key settings of GPT models is temperature. If you decrease the temperature the model will choose the most probably words. If temperature is high, the model will be picking words with low probabalities, which will bring creative and diverse output.\nIf you decrease the temperature to zero, the output will be always same."
   },
   {
-    "objectID": "ders5.html#quiz-time",
-    "href": "ders5.html#quiz-time",
-    "title": "Classification Methods",
-    "section": "Quiz time",
-    "text": "Quiz time"
+    "objectID": "ders1.html#chatgpt-writes-code-for-us",
+    "href": "ders1.html#chatgpt-writes-code-for-us",
+    "title": "GPT models",
+    "section": "ChatGPT writes code for us",
+    "text": "ChatGPT writes code for us\nLet’s ask ChatGPT for a fast prime number function in Python\n\n\n\nimage.png\n\n\n\n\n\nimage.png\n\n\nDid you see what just happened! It provided code tailored for us and it also explained bits of the code. Have you noticed that the code contains the tricks we have learned during our lecture: * early stop: if a condition is met, return immediately True or False * instead of checking until N, we should check numbers until \\(\\sqrt{N}\\) (n  0.5** in Python)\nYou can continue the conversation. Let’s ask for memoization.\n\n\n\nimage.png\n\n\n\n\n\nimage.png\n\n\nLet’s get the code and test it here:\n\ndef is_prime(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n in (2, 3):\n        result = True\n    elif n == 1 or n % 2 == 0:\n        result = False\n    else:\n        result = True\n        for i in range(3, int(n ** 0.5) + 1, 2):\n            if n % i == 0:\n                result = False\n                break\n    memo[n] = result\n    return result\n\n\n# is_prime(100000000003)\n\n\n&lt;i class=\"fas fa-fw fa-exclamation-circle mr-3 align-self-center\"&gt;&lt;/i&gt;\n&lt;b&gt;Warning:&lt;/b&gt; At the time of writing this note (January 2023) chatGPT is known to provide results which are not exactly true!&lt;br&gt;So, be aware and don't use code or information you got from chatGPT as is without checking or confirming."
   },
   {
-    "objectID": "ders5.html#random-forest",
-    "href": "ders5.html#random-forest",
-    "title": "Classification Methods",
-    "section": "Random Forest",
-    "text": "Random Forest\nRandom forest is a commonly-used machine learning algorithm, trademarked by Leo Breiman and Adele Cutler, that combines the output of multiple decision trees to reach a single result.\nRandom forests is an ensemble learning method for classification, regression and other tasks that operates by constructing a multitude of decision trees at training time. For classification tasks, the output of the random forest is the class selected by most trees."
+    "objectID": "ders1.html#chatgpt-can-fix-or-modify-the-code",
+    "href": "ders1.html#chatgpt-can-fix-or-modify-the-code",
+    "title": "GPT models",
+    "section": "ChatGPT can fix or modify the code",
+    "text": "ChatGPT can fix or modify the code\nYou have a piece of code and it does not work as intended? Then you can ask ChatGPT to fix the code.\nLet’s provide a code with error and ask chatGPT to debug it:\n\n\n\nimage.png\n\n\n\n\n\nimage.png\n\n\nSo, ChatGPT can fix code! By the way, did you know that I used ChatGPT to prepare that example ;)\n\n\n\nimage.png\n\n\n\n\n\nimage.png"
   },
   {
-    "objectID": "ders5.html#kaggle-example",
-    "href": "ders5.html#kaggle-example",
-    "title": "Classification Methods",
-    "section": "Kaggle example",
-    "text": "Kaggle example\nPlease visit: https://www.kaggle.com/code/lara311/diabetes-prediction-using-machine-learning"
+    "objectID": "ders1.html#is-it-the-end-of-programming",
+    "href": "ders1.html#is-it-the-end-of-programming",
+    "title": "GPT models",
+    "section": "Is it the end of programming?",
+    "text": "Is it the end of programming?\nYou might think, “we learned Python for a semester and but now there’s ChatGPT, no need to learn coding at all!”. You might find content online which are exploring similar concerns. But more sane approach is “AI tools will increase speed and efficiency of developers also will decresase barriers to entry for new languages.\nThe section below is taken from Github Copilot’s page:"
   },
   {
-    "objectID": "ders5.html#support-vector-machines",
-    "href": "ders5.html#support-vector-machines",
-    "title": "Classification Methods",
-    "section": "Support Vector Machines",
-    "text": "Support Vector Machines\nThe Basic Idea\nImagine you’re trying to separate different types of objects, like apples and oranges, based on their characteristics, such as color, shape, and size. You want to find a way to draw a line (or a hyperplane in higher dimensions) that separates the two types of objects as accurately as possible."
+    "objectID": "ders1.html#thanks-for-showing-us-chatgpt-i-can-now-prepare-my-homeworks-easily",
+    "href": "ders1.html#thanks-for-showing-us-chatgpt-i-can-now-prepare-my-homeworks-easily",
+    "title": "GPT models",
+    "section": "Thanks for showing us ChatGPT, I can now prepare my homeworks easily!",
+    "text": "Thanks for showing us ChatGPT, I can now prepare my homeworks easily!\nSeeing the capabilities of ChatGPT might give some hint about misuse. First of all, a homework is for you to learn a concept (remember the playing the guitar analogy?) so being involved in AI-assisted plagiarism is still a plagiarism and a loss on your side. (please also check the file 00-academic-integrity.ipynb for adverse effects of plagiarism)\nSecond of all, OpenAI and others are working on tools and ways to include watermarks in ChatGPT output so that it can be spotted easily.\nSo, please be inspired by this tool, use it to augment your learning but do not use it for plagiarism."
   },
   {
-    "objectID": "ders5.html#the-svm-method",
-    "href": "ders5.html#the-svm-method",
-    "title": "Classification Methods",
-    "section": "The SVM Method",
-    "text": "The SVM Method\nA Support Vector Machine is a type of supervised learning algorithm that aims to find the best hyperplane that separates the data into different classes. Here’s how it works:\n\nData Preparation: Collect a dataset of objects (e.g., apples and oranges) with their corresponding characteristics (features) and labels (e.g., “apple” or “orange”).\nPlotting the Data: Plot the data points in a feature space, where each axis represents a feature (e.g., color, shape, size).\nFinding the Hyperplane: The goal is to find a hyperplane that separates the data points into different classes. A hyperplane is a line (in 2D) or a plane (in 3D) that divides the feature space into two regions.\nMaximizing the Margin: The SVM algorithm tries to find the hyperplane that maximizes the margin between the two classes. The margin is the distance between the hyperplane and the nearest data points (called support vectors) on either side of the hyperplane.\nSupport Vectors: The support vectors are the data points that lie closest to the hyperplane and have the most influence on its position. They are the “support” that helps define the hyperplane."
+    "objectID": "ders1.html#closed-and-open-models",
+    "href": "ders1.html#closed-and-open-models",
+    "title": "GPT models",
+    "section": "Closed and Open models",
+    "text": "Closed and Open models\nCurrently there are several closed-source large language models which are developed by major corparations each took hundreds of millions to train * GPT3.5 (ChatGPT) and GPT4 by OpenAI * PaLM and Bard by Google * Claude by Anthropics"
   },
   {
-    "objectID": "ders5.html#support-vector-machines-1",
-    "href": "ders5.html#support-vector-machines-1",
-    "title": "Classification Methods",
-    "section": "Support Vector Machines",
-    "text": "Support Vector Machines\nKey Concepts\n\nHyperplane: A line (in 2D) or a plane (in 3D) that separates the data into different classes.\nMargin: The distance between the hyperplane and the nearest data points (support vectors) on either side of the hyperplane.\nSupport Vectors: The data points that lie closest to the hyperplane and have the most influence on its position."
+    "objectID": "ders1.html#claude-3.5-sonnet-by-antropic",
+    "href": "ders1.html#claude-3.5-sonnet-by-antropic",
+    "title": "GPT models",
+    "section": "Claude 3.5 Sonnet by Antropic",
+    "text": "Claude 3.5 Sonnet by Antropic\nClaude 3.5 is the latest version of Claude model. Antropic releases Claude in three sizes Haiku (smallest), Sonnet (medium) and Opus (largest). Currently, Claude 3.5 Sonnest is the best LLM. Generally Claude is good at creative writing but with the latest release it excels at coding as well. Also, Claude allows preview of the code (web-based) on right panel.\nBelow is as example where Claude 3.5 Sonnet was prompted “Please write game of snake in HTML, CSS and JS”. You can actually play the game!\n\nClaude also allows uploading documents (e.g. PDF) and asking questions about the document.\nYou can use Claude (with some limitations) at https://claude.ai/chat after registering an account for free."
   },
   {
-    "objectID": "ders5.html#why-svms-are-useful",
-    "href": "ders5.html#why-svms-are-useful",
-    "title": "Classification Methods",
-    "section": "Why SVMs are Useful",
-    "text": "Why SVMs are Useful\nSVMs are powerful because they:\n\nCan handle high-dimensional data\nAre robust to noise and outliers\nCan be used for both classification and regression tasks\nProvide a clear geometric interpretation of the decision boundary"
+    "objectID": "ders1.html#gemini-by-google",
+    "href": "ders1.html#gemini-by-google",
+    "title": "GPT models",
+    "section": "Gemini by Google",
+    "text": "Gemini by Google\nGemini is actually an LLM with online search capacity. Also, you can download documents (via Google Drive) or point to YouTube videos to ask questions. Finally, Gemini has the longest context window of 1 million tokens (will fit around 10 books at once)."
   },
   {
-    "objectID": "ders5.html#section-3",
-    "href": "ders5.html#section-3",
-    "title": "Classification Methods",
-    "section": "",
-    "text": "H1 does not separate the classes. H2 does, but only with a small margin. H3 separates them with the maximal margin. Source"
+    "objectID": "ders1.html#running-models-locally",
+    "href": "ders1.html#running-models-locally",
+    "title": "GPT models",
+    "section": "Running models locally",
+    "text": "Running models locally\nSince developers share the model weights, it’s possible to download and run the models locally. There are various sizes of models. 7B (7 billion) models require around 4Gb memory, so you can run them in your laptop.\nYou can run the models by installing PyTorch and some other libraries for Python and then writing some Python code. Or you can install Ollama and then run any compatible model with it.\nAdvantages of running a model locally: 1. Less Censorship 2. Better Data Privacy 3. Offline Usage 4. Cost Savings 5. Better Customization\nDisadvantages of running a model locally: 1. Resource Intensive 2. Slower Responses and Inferior Performance 3. Complex Setup\n\nRunning a model locally using Jupyter notebook or Google Colab\nYou can actually run LLM models in Jupyter notebooks. However the process will require you to install lots of Python packages, downloading the model weights and then writing some Python code to ask questions to the model and then capturing the answer in a dictionary. Although there are some solutions for “chat-like” experience, the experince is more like “one-shot question and answer”.\nPlease check the Youtube video which describes the process in Google Colab, where Google provides GPU (or TPU) to run the model in a Jupyter notebook environment.\n\n\nRunning a model locally with Ollama\n\nPlease visit the list of models page to have an idea about specialized models. With Ollama, you can download and use any of those models.\nIn the terminal, let’s list available models\n$ ollama list\n\nNAME                ID              SIZE    MODIFIED\ndeepseek-coder:6.7b 72be2442d736    3.8 GB  5 weeks ago     \nneural-chat:latest  73940af9fe02    4.1 GB  5 weeks ago     \norca2:7b            ea98cc422de3    3.8 GB  5 weeks ago     \nphi:latest          c651b7a89d73    1.6 GB  14 hours ago    \nsolar:latest        059fdabbe6e6    6.1 GB  2 hours ago     \nstablelm-zephyr:3b  7c596e78b1fc    1.6 GB  3 weeks ago\nLet’s run Phi-2 by Microsoft. Here’s info about Phi-2:\n\na 2.7 billion-parameter language model that demonstrates outstanding reasoning and language understanding capabilities, showcasing state-of-the-art performance among base language models with less than 13 billion parameters. On complex benchmarks Phi-2 matches or outperforms models up to 25x larger, thanks to new innovations in model scaling and training data curation.\n\n$ ollama run phi:latest\n\n&gt;&gt;&gt; why sky is blue?\n\n The sky appears blue due to a phenomenon called Rayleigh scattering. When sunlight enters the Earth's atmosphere,\nit collides with molecules and tiny particles in the air, such as oxygen and nitrogen atoms. These collisions cause\nthe shorter wavelengths of light (blue) to scatter more than the longer wavelengths (red, orange, yellow, green, and\nviolet). As a result, our eyes perceive the scattered blue light to be dominant, which is why the sky appears blue to us.\nAs you can see, a small model, which can answer questions, help coding can be run locally.\n\n\nRunning a model locally with user interface\n\nOllama Web UI\n\n\n\nLLM Studio\nYou can install LM Studio and then interact with local models with its user interface"
   },
   {
-    "objectID": "ders5.html#section-4",
-    "href": "ders5.html#section-4",
-    "title": "Classification Methods",
-    "section": "",
-    "text": "Maximum-margin hyperplane and margins for an SVM trained with samples from two classes. Samples on the margin are called the support vectors. Source"
+    "objectID": "ders1.html#github-copilot",
+    "href": "ders1.html#github-copilot",
+    "title": "GPT models",
+    "section": "Github CoPilot",
+    "text": "Github CoPilot\n\n%%HTML\n&lt;iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ZapdeEJ7xJw?si=3DYWvMa7uudDhUnj\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen&gt;&lt;/iframe&gt;"
   },
   {
-    "objectID": "ders5.html#section-5",
-    "href": "ders5.html#section-5",
-    "title": "Classification Methods",
-    "section": "",
-    "text": "Please visit SVM demo site for an online interactive demo for SVM"
+    "objectID": "ders1.html#free-github-copilot-alternative",
+    "href": "ders1.html#free-github-copilot-alternative",
+    "title": "GPT models",
+    "section": "Free Github CoPilot alternative",
+    "text": "Free Github CoPilot alternative\nCody is Sourcegraph’s AI coding assistant, and it has a couple of features that no other assistant has to make you a 10x developer. You can check it out here: https://sourcegraph.com/cody"
   },
   {
-    "objectID": "ders5.html#logistic-regression",
-    "href": "ders5.html#logistic-regression",
-    "title": "Classification Methods",
-    "section": "Logistic Regression",
-    "text": "Logistic Regression\nThe Basic Idea\nLogistic regression is a supervised machine learning algorithm that accomplishes binary classification tasks by predicting the probability of an outcome, event, or observation. The model delivers a binary outcome limited to two possible outcomes: yes/no, 0/1, or true/false."
+    "objectID": "ders1.html#open-source-local-alternatives",
+    "href": "ders1.html#open-source-local-alternatives",
+    "title": "GPT models",
+    "section": "Open source local alternatives",
+    "text": "Open source local alternatives\nPlease visit https://tabby.tabbyml.com/ for more information"
   },
   {
-    "objectID": "ders5.html#the-logistic-regression-method",
-    "href": "ders5.html#the-logistic-regression-method",
-    "title": "Classification Methods",
-    "section": "The Logistic Regression Method",
-    "text": "The Logistic Regression Method\nLogistic Regression is a type of supervised learning algorithm that models the probability of an event occurring (e.g., passing an exam) based on a set of input variables (e.g., scores). Here’s how it works:\n\nData Preparation: Collect a dataset of input variables (e.g., scores) and output variables (e.g., pass/fail).\nLogistic Function: The logistic function, also known as the sigmoid function, is used to model the probability of the event occurring. It maps the input variables to a probability between 0 and 1.\nLog-Odds: The logistic function is based on the log-odds of the event occurring, which is the logarithm of the ratio of the probability of the event occurring to the probability of the event not occurring.\nCoefficients: The algorithm learns the coefficients (weights) for each input variable, which determine the importance of each variable in predicting the output.\nDecision Boundary: The algorithm uses the coefficients and the logistic function to create a decision boundary, which separates the input space into two regions: one for each class (e.g., pass and fail).\nPrediction: For a new input, the algorithm calculates the probability of the event occurring using the logistic function and the learned coefficients. If the probability is above a certain threshold (e.g., 0.5), the algorithm predicts the event will occur (e.g., the student will pass)."
+    "objectID": "ders1.html#image-generation",
+    "href": "ders1.html#image-generation",
+    "title": "GPT models",
+    "section": "Image generation",
+    "text": "Image generation\n\nDALL-E 3 by OpenAI\nPrompt: “a dna strand with istanbul city as silhoutte in background”\nRevised prompt: “Imagine a detailed science meets architecture illustration. In the foreground, there’s a strand of DNA, magnified and glowing against a dark backdrop. This helix structure is precisely depicted, its familiar double-helix shape twisting majestically. Intertwining with this scientific image, in the background, there’s a silhouette representation of Istanbul city. The skyline shows off its marvelous historical architecture, including its domed mosques and towering minarets. The cityscape sits against a dusky eveningsky, the setting sun casting an orange glow on the horizon behind the buildings. The combination results in a fascinating juxtapositionof science and urban beauty.”\nResult:\n\n\n\nMidjourney v6\nMidjourney announced v6 in December 2023. It can generate photorealistic images. Normally, you need to use their Discord channel to generate images free. Also, you can generate images using getimg.ai. I tried generating images using the following prompts\n\nMolecular biology lab with lots of students.\nBeautiful sea side with white sand beach and tropical trees on shore. The sea looks greenish blue\n\nThe results are great:\n\n\n\nDisinformation\nBe aware of deepfake or AI-generated fake photos\nFake Trump Photo\n\nFake Pope Photo"
   },
   {
-    "objectID": "ders5.html#key-concepts",
-    "href": "ders5.html#key-concepts",
-    "title": "Classification Methods",
-    "section": "Key Concepts",
-    "text": "Key Concepts\n\nLogistic Function: A mathematical function that maps input variables to a probability between 0 and 1.\nLog-Odds: The logarithm of the ratio of the probability of the event occurring to the probability of the event not occurring.\nCoefficients: The weights learned by the algorithm for each input variable, which determine their importance in predicting the output.\nDecision Boundary: The boundary that separates the input space into two regions, one for each class."
+    "objectID": "ders1.html#video-generation",
+    "href": "ders1.html#video-generation",
+    "title": "GPT models",
+    "section": "Video generation",
+    "text": "Video generation\n\nPrompt to video\n\nRunwayML Gen-2\nPika\nStable Video Diffusion by Stable Diffusion\nGENMO\n\n\n\nImage to video\n\nGENMO"
   },
   {
-    "objectID": "ders5.html#why-logistic-regression-is-useful",
-    "href": "ders5.html#why-logistic-regression-is-useful",
-    "title": "Classification Methods",
-    "section": "Why Logistic Regression is Useful",
-    "text": "Why Logistic Regression is Useful\nLogistic Regression is a popular algorithm because it:\n\nIs easy to implement and interpret\nCan handle multiple input variables\nProvides a probability estimate for each prediction\nIs widely used in many fields, such as medicine, finance, and marketing"
+    "objectID": "ders1.html#music-or-sound-generation",
+    "href": "ders1.html#music-or-sound-generation",
+    "title": "GPT models",
+    "section": "Music or sound generation",
+    "text": "Music or sound generation\n\nElevenlabs can convert text to speech online for free with our AI voice generator"
   },
   {
     "objectID": "ders1-TR.html",
@@ -488,6 +397,20 @@
     "title": "Linear Regression with R",
     "section": "Train/Test split",
     "text": "Train/Test split\nLet’s understand the topic of overfitting.\nSplit the data into train and test. Train the model with “training” data. Then predict with “test” data.\n\nsample(1:32, 5, replace=FALSE)\n\n[1] 31 12 16 17  5\n\n\n\nset.seed(2)\nidx &lt;- sample(1:32, 5, replace=FALSE)\nidx\n\n[1] 21 15  6 30  8\n\n\n\ntest &lt;- mtcars[idx,]\n\ntest\n\n                    mpg cyl  disp  hp drat    wt  qsec vs am gear carb\nToyota Corona      21.5   4 120.1  97 3.70 2.465 20.01  1  0    3    1\nCadillac Fleetwood 10.4   8 472.0 205 2.93 5.250 17.98  0  0    3    4\nValiant            18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1\nFerrari Dino       19.7   6 145.0 175 3.62 2.770 15.50  0  1    5    6\nMerc 240D          24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2\n\n\n\ntrain &lt;- mtcars[-idx,]\ntrain\n\n                   mpg cyl  disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6 160.0 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6 258.0 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8 360.0 175 3.15 3.440 17.02  0  0    3    2\nDuster 360        14.3   8 360.0 245 3.21 3.570 15.84  0  0    3    4\nMerc 230          22.8   4 140.8  95 3.92 3.150 22.90  1  0    4    2\nMerc 280          19.2   6 167.6 123 3.92 3.440 18.30  1  0    4    4\nMerc 280C         17.8   6 167.6 123 3.92 3.440 18.90  1  0    4    4\n [ reached 'max' / getOption(\"max.print\") -- omitted 18 rows ]\n\n\n\nthird_deg &lt;- lm(wt ~ poly(disp,3), data = train)\nsummary(third_deg)$r.squared\n\n[1] 0.8879368\n\n\n\npredict(third_deg, test)\n\n     Toyota Corona Cadillac Fleetwood            Valiant       Ferrari Dino \n          2.633774           5.824101           3.418857           2.970499 \n         Merc 240D \n          2.989188 \n\n\n\ntest$third_pred &lt;- predict(third_deg, test)\ntest\n\n                    mpg cyl  disp  hp drat    wt  qsec vs am gear carb\nToyota Corona      21.5   4 120.1  97 3.70 2.465 20.01  1  0    3    1\nCadillac Fleetwood 10.4   8 472.0 205 2.93 5.250 17.98  0  0    3    4\nValiant            18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1\nFerrari Dino       19.7   6 145.0 175 3.62 2.770 15.50  0  1    5    6\nMerc 240D          24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2\n                   third_pred\nToyota Corona        2.633774\nCadillac Fleetwood   5.824101\nValiant              3.418857\nFerrari Dino         2.970499\nMerc 240D            2.989188\n\n\n\nfifteen_deg &lt;- lm(wt ~ poly(disp,15), data=train)\nsummary(fifteen_deg)$r.squared\n\n[1] 0.9550231\n\n\n\npredict(fifteen_deg, test)\n\n     Toyota Corona Cadillac Fleetwood            Valiant       Ferrari Dino \n          2.644378        -844.610091           2.784157           2.761685 \n         Merc 240D \n          2.745391 \n\n\n\ntest$fifteen &lt;- predict(fifteen_deg, test)\n\ntest[c(\"disp\",\"wt\",\"third_pred\",\"fifteen\")]\n\n                    disp    wt third_pred     fifteen\nToyota Corona      120.1 2.465   2.633774    2.644378\nCadillac Fleetwood 472.0 5.250   5.824101 -844.610091\nValiant            225.0 3.460   3.418857    2.784157\nFerrari Dino       145.0 2.770   2.970499    2.761685\nMerc 240D          146.7 3.190   2.989188    2.745391\n\n\nAs you can see, “fifteenth degree” model memorized (i.e overfitted) the data and predicts horribly."
+  },
+  {
+    "objectID": "rf-regression-R-tr.html",
+    "href": "rf-regression-R-tr.html",
+    "title": "R ile Rastgele Orman Regresyonu",
+    "section": "",
+    "text": "# Gerekli kütüphaneleri yükle\nlibrary(randomForest)\nlibrary(ggplot2)\n\nset.seed(123)\n\ndata &lt;- mtcars\n\n\nVeriyi eğitim ve test setlerine ayır (Train/test split)\n\ntrain_indices &lt;- sample(1:nrow(data), 0.7 * nrow(data))\ntrain_data &lt;- data[train_indices, ]\ntest_data &lt;- data[-train_indices, ]\n\n\n\nRastgele Orman modeli eğitimi ve tahmin yapılması\n\nrf_model &lt;- randomForest(mpg ~ ., data = train_data, ntree = 500)\n\npredictions &lt;- predict(rf_model, newdata = test_data)\n\n\n\nRMSE hesapla\nRMSE: Root mean square error (Kök Ortalama Kare Hatası)\n\nrmse &lt;- sqrt(mean((test_data$mpg - predictions)^2))\ncat(\"Kök Ortalama Kare Hatası:\", rmse, \"\\n\")\n\nKök Ortalama Kare Hatası: 2.00452 \n\n\n\n\nGerçek ve tahmin edilen değerler\n\nggplot(data.frame(actual = test_data$mpg, predicted = predictions), aes(x = actual, y = predicted)) +\n  geom_point(alpha = 0.5) +\n  geom_abline(intercept = 0, slope = 1, color = \"red\", linetype = \"dashed\") +\n  labs(x = \"Gerçek Değerler\", y = \"Tahmin Edilen Değerler\", title = \"Rastgele Orman Regresyonu: Gerçek ve Tahmin Edilen\")\n\n\n\n\n\n\n\n\n\n\nÖzellik önemi\n\nimportance &lt;- importance(rf_model)\nprint(importance)\n\n     IncNodePurity\ncyl      152.64821\ndisp     224.33387\nhp       158.42647\ndrat      43.37372\nwt       178.44424\nqsec      34.05620\nvs        25.67666\nam        19.73485\ngear      10.54314\ncarb      21.62506\n\n\n\n\nÖzellik önemi - figür\n\nimportance_df &lt;- data.frame(feature = rownames(importance), importance = importance[, 1])\nggplot(importance_df, aes(x = reorder(feature, importance), y = importance)) +\n  geom_bar(stat = \"identity\") +\n  coord_flip() +\n  labs(x = \"Özellikler\", y = \"Önem\", title = \"Rastgele Orman: Özellik Önemi\")\n\n\n\n\n\n\n\n\nAlternatif kaynak: http s://hackernoon.com/random-forest-regression-in-r-code-and-interpretation"
+  },
+  {
+    "objectID": "rf-regression-R.html",
+    "href": "rf-regression-R.html",
+    "title": "Random Forest Regression with R",
+    "section": "",
+    "text": "# Load required libraries\nlibrary(randomForest)\n\nrandomForest 4.7-1.1\n\n\nType rfNews() to see new features/changes/bug fixes.\n\nlibrary(ggplot2)\n\n\nAttaching package: 'ggplot2'\n\n\nThe following object is masked from 'package:randomForest':\n\n    margin\n\n# Set seed for reproducibility\nset.seed(123)\n\ndata &lt;- mtcars\n\n\nSplit data into training and testing sets\n\ntrain_indices &lt;- sample(1:nrow(data), 0.7 * nrow(data))\ntrain_data &lt;- data[train_indices, ]\ntest_data &lt;- data[-train_indices, ]\n\n\n\nTrain Random Forest model and make predictions\n\nrf_model &lt;- randomForest(mpg ~ ., data = train_data, ntree = 500)\n\npredictions &lt;- predict(rf_model, newdata = test_data)\n\n\n\nCalculate RMSE\n\nrmse &lt;- sqrt(mean((test_data$mpg - predictions)^2))\ncat(\"Root Mean Square Error:\", rmse, \"\\n\")\n\nRoot Mean Square Error: 2.00452 \n\n\n\n\nPlot actual vs predicted values\n\nggplot(data.frame(actual = test_data$mpg, predicted = predictions), aes(x = actual, y = predicted)) +\n  geom_point(alpha = 0.5) +\n  geom_abline(intercept = 0, slope = 1, color = \"red\", linetype = \"dashed\") +\n  labs(x = \"Actual Values\", y = \"Predicted Values\", title = \"Random Forest Regression: Actual vs Predicted\")\n\n\n\n\n\n\n\n\n\n\nPrint feature importance\n\nimportance &lt;- importance(rf_model)\nprint(importance)\n\n     IncNodePurity\ncyl      152.64821\ndisp     224.33387\nhp       158.42647\ndrat      43.37372\nwt       178.44424\nqsec      34.05620\nvs        25.67666\nam        19.73485\ngear      10.54314\ncarb      21.62506\n\n\n\n\nPlot feature importance\n\nimportance_df &lt;- data.frame(feature = rownames(importance), importance = importance[, 1])\nggplot(importance_df, aes(x = reorder(feature, importance), y = importance)) +\n  geom_bar(stat = \"identity\") +\n  coord_flip() +\n  labs(x = \"Features\", y = \"Importance\", title = \"Random Forest: Feature Importance\")\n\n\n\n\n\n\n\n\nalternative at https://hackernoon.com/random-forest-regression-in-r-code-and-interpretation"
   },
   {
     "objectID": "ders5-TR.html#içerik",
@@ -700,13 +623,6 @@
     "text": "Lojistik Regresyon Neden Faydalıdır\nLojistik Regresyon popüler bir algoritmadır çünkü:\n\nUygulaması ve yorumlanması kolaydır\nBirden çok girdi değişkenini işleyebilir\nHer tahmin için bir olasılık tahmini sağlar\nTıp, finans ve pazarlama gibi birçok alanda yaygın olarak kullanılır"
   },
   {
-    "objectID": "rf-regression-R.html",
-    "href": "rf-regression-R.html",
-    "title": "Random Forest Regression with R",
-    "section": "",
-    "text": "# Load required libraries\nlibrary(randomForest)\n\nrandomForest 4.7-1.1\n\n\nType rfNews() to see new features/changes/bug fixes.\n\nlibrary(ggplot2)\n\n\nAttaching package: 'ggplot2'\n\n\nThe following object is masked from 'package:randomForest':\n\n    margin\n\n# Set seed for reproducibility\nset.seed(123)\n\ndata &lt;- mtcars\n\n\nSplit data into training and testing sets\n\ntrain_indices &lt;- sample(1:nrow(data), 0.7 * nrow(data))\ntrain_data &lt;- data[train_indices, ]\ntest_data &lt;- data[-train_indices, ]\n\n\n\nTrain Random Forest model and make predictions\n\nrf_model &lt;- randomForest(mpg ~ ., data = train_data, ntree = 500)\n\npredictions &lt;- predict(rf_model, newdata = test_data)\n\n\n\nCalculate RMSE\n\nrmse &lt;- sqrt(mean((test_data$mpg - predictions)^2))\ncat(\"Root Mean Square Error:\", rmse, \"\\n\")\n\nRoot Mean Square Error: 2.00452 \n\n\n\n\nPlot actual vs predicted values\n\nggplot(data.frame(actual = test_data$mpg, predicted = predictions), aes(x = actual, y = predicted)) +\n  geom_point(alpha = 0.5) +\n  geom_abline(intercept = 0, slope = 1, color = \"red\", linetype = \"dashed\") +\n  labs(x = \"Actual Values\", y = \"Predicted Values\", title = \"Random Forest Regression: Actual vs Predicted\")\n\n\n\n\n\n\n\n\n\n\nPrint feature importance\n\nimportance &lt;- importance(rf_model)\nprint(importance)\n\n     IncNodePurity\ncyl      152.64821\ndisp     224.33387\nhp       158.42647\ndrat      43.37372\nwt       178.44424\nqsec      34.05620\nvs        25.67666\nam        19.73485\ngear      10.54314\ncarb      21.62506\n\n\n\n\nPlot feature importance\n\nimportance_df &lt;- data.frame(feature = rownames(importance), importance = importance[, 1])\nggplot(importance_df, aes(x = reorder(feature, importance), y = importance)) +\n  geom_bar(stat = \"identity\") +\n  coord_flip() +\n  labs(x = \"Features\", y = \"Importance\", title = \"Random Forest: Feature Importance\")\n\n\n\n\n\n\n\n\nalternative at https://hackernoon.com/random-forest-regression-in-r-code-and-interpretation"
-  },
-  {
     "objectID": "midterm-grades.html",
     "href": "midterm-grades.html",
     "title": "Midterm Results / Vize Sonuçları",
@@ -868,123 +784,319 @@
     "text": "Footnotes\n\n\nBeklenen ders süresi (yaklaşık 3 saat) değil, işlenen süre. Yani maksimum süre, ders süresi olarak alınmıştır.↩︎"
   },
   {
-    "objectID": "ders1.html",
-    "href": "ders1.html",
-    "title": "GPT models",
+    "objectID": "r-linear-regression-tr.html",
+    "href": "r-linear-regression-tr.html",
+    "title": "R ile Doğrusal Regresyon",
     "section": "",
-    "text": "GPT1, GPT2 abd GPT3 were released couple years before ChatGPT and it was able to complete sentences. Please visit “How Does ChatGPT Work?” site for more information. After ChatGPT was released, large language models got “conversational”\nPlease visit OpenAI Playground completion site and select “gpt-3.5-turbo” as model. Type a incomplete sentence and then press Submit button.\nYou’ll see that the model will complete your sentence. If you turn on the “Show probabilities” option on right menu, you’ll get a glimpse of how GPT works.\nIf you complete the sentence and then hover over the words, you’ll see that the model had many words to chose from with certain probabilities. In this example, “my” is the 4th most probable word after Today is and “birthday” is most probable word after Today is my.\nOne of key settings of GPT models is temperature. If you decrease the temperature the model will choose the most probably words. If temperature is high, the model will be picking words with low probabalities, which will bring creative and diverse output.\nIf you decrease the temperature to zero, the output will be always same."
+    "text": "Burada, 1974 Motor Trend US dergisinden alınan mtcars {datasets} adlı bir verimiz var ve 32 otomobil (1973-74 modelleri) için yakıt tüketimi ve otomobil tasarımı ve performansının 10 yönünü içermektedir. Ağırlık (wt) ve Motor Hacmi (disp) parametreleri arasında matematiksel bir model bulacağız. Hadi en uygun modeli bulalım. Lütfen grafiği çizin, denklemin derecesini belirleyin (birinci, ikinci veya üçüncü) ve eğriyi çizin.\n\nmtcars\n\n                   mpg cyl  disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6 160.0 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6 258.0 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8 360.0 175 3.15 3.440 17.02  0  0    3    2\nValiant           18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1\nDuster 360        14.3   8 360.0 245 3.21 3.570 15.84  0  0    3    4\nMerc 240D         24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2\nMerc 230          22.8   4 140.8  95 3.92 3.150 22.90  1  0    4    2\n [ reached 'max' / getOption(\"max.print\") -- omitted 23 rows ]\n\n\n\nplot(mtcars)\n\n\n\n\n\n\n\n\n\nplot(mtcars$disp, mtcars$wt)\n\n\n\n\n\n\n\n\n\nfirst_wd &lt;- lm(wt ~ disp, data=mtcars)\nsummary(first_wd)\n\n\nCall:\nlm(formula = wt ~ disp, data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.89044 -0.29775 -0.00684  0.33428  0.66525 \n\nCoefficients:\n             Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) 1.5998146  0.1729964   9.248 2.74e-10 ***\ndisp        0.0070103  0.0006629  10.576 1.22e-11 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.4574 on 30 degrees of freedom\nMultiple R-squared:  0.7885,    Adjusted R-squared:  0.7815 \nF-statistic: 111.8 on 1 and 30 DF,  p-value: 1.222e-11\n\n\n\nsecond_wd &lt;- lm(wt ~ disp + I(disp^2), data=mtcars)\nsummary(second_wd)\n\n\nCall:\nlm(formula = wt ~ disp + I(disp^2), data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.88654 -0.29136 -0.00961  0.32389  0.67010 \n\nCoefficients:\n             Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) 1.631e+00  3.622e-01   4.502 0.000101 ***\ndisp        6.694e-03  3.325e-03   2.013 0.053448 .  \nI(disp^2)   6.206e-07  6.380e-06   0.097 0.923178    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.4652 on 29 degrees of freedom\nMultiple R-squared:  0.7886,    Adjusted R-squared:  0.774 \nF-statistic: 54.08 on 2 and 29 DF,  p-value: 1.639e-10\n\n\n\nthird_wd &lt;- lm(wt ~ disp + I(disp^2) + I(disp^3), data = mtcars)\nsummary(third_wd)\n\n\nCall:\nlm(formula = wt ~ disp + I(disp^2) + I(disp^3), data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.63764 -0.22785  0.00307  0.24614  0.58333 \n\nCoefficients:\n              Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) -1.111e+00  5.651e-01  -1.966   0.0593 .  \ndisp         4.945e-02  8.198e-03   6.032 1.68e-06 ***\nI(disp^2)   -1.807e-04  3.361e-05  -5.378 9.88e-06 ***\nI(disp^3)    2.243e-07  4.119e-08   5.446 8.21e-06 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.3299 on 28 degrees of freedom\nMultiple R-squared:  0.8973,    Adjusted R-squared:  0.8863 \nF-statistic: 81.57 on 3 and 28 DF,  p-value: 5.959e-14\n\n\n\nplot(mtcars$disp,mtcars$wt)\ncurve(2.243e-07*x^3 -1.807e-04*x^2 +4.945e-02*x -1.111e+00,add=TRUE)\n\n\n\n\n\n\n\n\n\nbest_model &lt;- lm(wt ~ poly(disp,15), data=mtcars)\nsummary(best_model)\n\n\nCall:\nlm(formula = wt ~ poly(disp, 15), data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.43800 -0.11202 -0.00364  0.16319  0.37783 \n\nCoefficients:\n                   Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept)       3.2172500  0.0509709  63.119  &lt; 2e-16 ***\npoly(disp, 15)1   4.8375552  0.2883350  16.778 1.41e-11 ***\npoly(disp, 15)2   0.0452475  0.2883350   0.157   0.8773    \npoly(disp, 15)3   1.7965723  0.2883350   6.231 1.20e-05 ***\npoly(disp, 15)4   0.4463962  0.2883350   1.548   0.1411    \npoly(disp, 15)5  -0.6866393  0.2883350  -2.381   0.0300 *  \npoly(disp, 15)6  -0.3384161  0.2883350  -1.174   0.2577    \npoly(disp, 15)7  -0.6134397  0.2883350  -2.128   0.0493 *  \npoly(disp, 15)8   0.0528245  0.2883350   0.183   0.8569    \npoly(disp, 15)9   0.0814084  0.2883350   0.282   0.7813    \npoly(disp, 15)10 -0.0654665  0.2883350  -0.227   0.8233    \npoly(disp, 15)11  0.2853853  0.2883350   0.990   0.3370    \npoly(disp, 15)12 -0.0007108  0.2883350  -0.002   0.9981    \npoly(disp, 15)13  0.4495723  0.2883350   1.559   0.1385    \npoly(disp, 15)14 -0.0699728  0.2883350  -0.243   0.8113    \npoly(disp, 15)15 -0.5031480  0.2883350  -1.745   0.1002    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.2883 on 16 degrees of freedom\nMultiple R-squared:  0.9552,    Adjusted R-squared:  0.9132 \nF-statistic: 22.73 on 15 and 16 DF,  p-value: 5.551e-08\n\n\n\npred &lt;- predict(best_model, data.frame(disp=50:500))\nplot(mtcars$disp, mtcars$wt)\npoints(50:500, pred, type=\"l\")\n\n\n\n\n\n\n\n\n\npredict(third_wd, data.frame(disp=420))\n\n       1 \n4.397246 \n\n\n\npredict(best_model, data.frame(disp=420))\n\n       1 \n7.329183 \n\n\n\npredict(best_model, data.frame(disp=c(20,420, 500)))\n\n           1            2            3 \n 3865.329736     7.329183 -1513.538298 \n\n\n\nYani, “best_model” model aslında hiç de en iyi değil.."
   },
   {
-    "objectID": "ders1.html#chatgpt-writes-code-for-us",
-    "href": "ders1.html#chatgpt-writes-code-for-us",
-    "title": "GPT models",
-    "section": "ChatGPT writes code for us",
-    "text": "ChatGPT writes code for us\nLet’s ask ChatGPT for a fast prime number function in Python\n\n\n\nimage.png\n\n\n\n\n\nimage.png\n\n\nDid you see what just happened! It provided code tailored for us and it also explained bits of the code. Have you noticed that the code contains the tricks we have learned during our lecture: * early stop: if a condition is met, return immediately True or False * instead of checking until N, we should check numbers until \\(\\sqrt{N}\\) (n  0.5** in Python)\nYou can continue the conversation. Let’s ask for memoization.\n\n\n\nimage.png\n\n\n\n\n\nimage.png\n\n\nLet’s get the code and test it here:\n\ndef is_prime(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n in (2, 3):\n        result = True\n    elif n == 1 or n % 2 == 0:\n        result = False\n    else:\n        result = True\n        for i in range(3, int(n ** 0.5) + 1, 2):\n            if n % i == 0:\n                result = False\n                break\n    memo[n] = result\n    return result\n\n\n# is_prime(100000000003)\n\n\n&lt;i class=\"fas fa-fw fa-exclamation-circle mr-3 align-self-center\"&gt;&lt;/i&gt;\n&lt;b&gt;Warning:&lt;/b&gt; At the time of writing this note (January 2023) chatGPT is known to provide results which are not exactly true!&lt;br&gt;So, be aware and don't use code or information you got from chatGPT as is without checking or confirming."
-  },
-  {
-    "objectID": "ders1.html#chatgpt-can-fix-or-modify-the-code",
-    "href": "ders1.html#chatgpt-can-fix-or-modify-the-code",
-    "title": "GPT models",
-    "section": "ChatGPT can fix or modify the code",
-    "text": "ChatGPT can fix or modify the code\nYou have a piece of code and it does not work as intended? Then you can ask ChatGPT to fix the code.\nLet’s provide a code with error and ask chatGPT to debug it:\n\n\n\nimage.png\n\n\n\n\n\nimage.png\n\n\nSo, ChatGPT can fix code! By the way, did you know that I used ChatGPT to prepare that example ;)\n\n\n\nimage.png\n\n\n\n\n\nimage.png"
-  },
-  {
-    "objectID": "ders1.html#is-it-the-end-of-programming",
-    "href": "ders1.html#is-it-the-end-of-programming",
-    "title": "GPT models",
-    "section": "Is it the end of programming?",
-    "text": "Is it the end of programming?\nYou might think, “we learned Python for a semester and but now there’s ChatGPT, no need to learn coding at all!”. You might find content online which are exploring similar concerns. But more sane approach is “AI tools will increase speed and efficiency of developers also will decresase barriers to entry for new languages.\nThe section below is taken from Github Copilot’s page:"
-  },
-  {
-    "objectID": "ders1.html#thanks-for-showing-us-chatgpt-i-can-now-prepare-my-homeworks-easily",
-    "href": "ders1.html#thanks-for-showing-us-chatgpt-i-can-now-prepare-my-homeworks-easily",
-    "title": "GPT models",
-    "section": "Thanks for showing us ChatGPT, I can now prepare my homeworks easily!",
-    "text": "Thanks for showing us ChatGPT, I can now prepare my homeworks easily!\nSeeing the capabilities of ChatGPT might give some hint about misuse. First of all, a homework is for you to learn a concept (remember the playing the guitar analogy?) so being involved in AI-assisted plagiarism is still a plagiarism and a loss on your side. (please also check the file 00-academic-integrity.ipynb for adverse effects of plagiarism)\nSecond of all, OpenAI and others are working on tools and ways to include watermarks in ChatGPT output so that it can be spotted easily.\nSo, please be inspired by this tool, use it to augment your learning but do not use it for plagiarism."
-  },
-  {
-    "objectID": "ders1.html#closed-and-open-models",
-    "href": "ders1.html#closed-and-open-models",
-    "title": "GPT models",
-    "section": "Closed and Open models",
-    "text": "Closed and Open models\nCurrently there are several closed-source large language models which are developed by major corparations each took hundreds of millions to train * GPT3.5 (ChatGPT) and GPT4 by OpenAI * PaLM and Bard by Google * Claude by Anthropics"
-  },
-  {
-    "objectID": "ders1.html#claude-3.5-sonnet-by-antropic",
-    "href": "ders1.html#claude-3.5-sonnet-by-antropic",
-    "title": "GPT models",
-    "section": "Claude 3.5 Sonnet by Antropic",
-    "text": "Claude 3.5 Sonnet by Antropic\nClaude 3.5 is the latest version of Claude model. Antropic releases Claude in three sizes Haiku (smallest), Sonnet (medium) and Opus (largest). Currently, Claude 3.5 Sonnest is the best LLM. Generally Claude is good at creative writing but with the latest release it excels at coding as well. Also, Claude allows preview of the code (web-based) on right panel.\nBelow is as example where Claude 3.5 Sonnet was prompted “Please write game of snake in HTML, CSS and JS”. You can actually play the game!\n\nClaude also allows uploading documents (e.g. PDF) and asking questions about the document.\nYou can use Claude (with some limitations) at https://claude.ai/chat after registering an account for free."
-  },
-  {
-    "objectID": "ders1.html#gemini-by-google",
-    "href": "ders1.html#gemini-by-google",
-    "title": "GPT models",
-    "section": "Gemini by Google",
-    "text": "Gemini by Google\nGemini is actually an LLM with online search capacity. Also, you can download documents (via Google Drive) or point to YouTube videos to ask questions. Finally, Gemini has the longest context window of 1 million tokens (will fit around 10 books at once)."
-  },
-  {
-    "objectID": "ders1.html#running-models-locally",
-    "href": "ders1.html#running-models-locally",
-    "title": "GPT models",
-    "section": "Running models locally",
-    "text": "Running models locally\nSince developers share the model weights, it’s possible to download and run the models locally. There are various sizes of models. 7B (7 billion) models require around 4Gb memory, so you can run them in your laptop.\nYou can run the models by installing PyTorch and some other libraries for Python and then writing some Python code. Or you can install Ollama and then run any compatible model with it.\nAdvantages of running a model locally: 1. Less Censorship 2. Better Data Privacy 3. Offline Usage 4. Cost Savings 5. Better Customization\nDisadvantages of running a model locally: 1. Resource Intensive 2. Slower Responses and Inferior Performance 3. Complex Setup\n\nRunning a model locally using Jupyter notebook or Google Colab\nYou can actually run LLM models in Jupyter notebooks. However the process will require you to install lots of Python packages, downloading the model weights and then writing some Python code to ask questions to the model and then capturing the answer in a dictionary. Although there are some solutions for “chat-like” experience, the experince is more like “one-shot question and answer”.\nPlease check the Youtube video which describes the process in Google Colab, where Google provides GPU (or TPU) to run the model in a Jupyter notebook environment.\n\n\nRunning a model locally with Ollama\n\nPlease visit the list of models page to have an idea about specialized models. With Ollama, you can download and use any of those models.\nIn the terminal, let’s list available models\n$ ollama list\n\nNAME                ID              SIZE    MODIFIED\ndeepseek-coder:6.7b 72be2442d736    3.8 GB  5 weeks ago     \nneural-chat:latest  73940af9fe02    4.1 GB  5 weeks ago     \norca2:7b            ea98cc422de3    3.8 GB  5 weeks ago     \nphi:latest          c651b7a89d73    1.6 GB  14 hours ago    \nsolar:latest        059fdabbe6e6    6.1 GB  2 hours ago     \nstablelm-zephyr:3b  7c596e78b1fc    1.6 GB  3 weeks ago\nLet’s run Phi-2 by Microsoft. Here’s info about Phi-2:\n\na 2.7 billion-parameter language model that demonstrates outstanding reasoning and language understanding capabilities, showcasing state-of-the-art performance among base language models with less than 13 billion parameters. On complex benchmarks Phi-2 matches or outperforms models up to 25x larger, thanks to new innovations in model scaling and training data curation.\n\n$ ollama run phi:latest\n\n&gt;&gt;&gt; why sky is blue?\n\n The sky appears blue due to a phenomenon called Rayleigh scattering. When sunlight enters the Earth's atmosphere,\nit collides with molecules and tiny particles in the air, such as oxygen and nitrogen atoms. These collisions cause\nthe shorter wavelengths of light (blue) to scatter more than the longer wavelengths (red, orange, yellow, green, and\nviolet). As a result, our eyes perceive the scattered blue light to be dominant, which is why the sky appears blue to us.\nAs you can see, a small model, which can answer questions, help coding can be run locally.\n\n\nRunning a model locally with user interface\n\nOllama Web UI\n\n\n\nLLM Studio\nYou can install LM Studio and then interact with local models with its user interface"
-  },
-  {
-    "objectID": "ders1.html#github-copilot",
-    "href": "ders1.html#github-copilot",
-    "title": "GPT models",
-    "section": "Github CoPilot",
-    "text": "Github CoPilot\n\n%%HTML\n&lt;iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/ZapdeEJ7xJw?si=3DYWvMa7uudDhUnj\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen&gt;&lt;/iframe&gt;"
-  },
-  {
-    "objectID": "ders1.html#free-github-copilot-alternative",
-    "href": "ders1.html#free-github-copilot-alternative",
-    "title": "GPT models",
-    "section": "Free Github CoPilot alternative",
-    "text": "Free Github CoPilot alternative\nCody is Sourcegraph’s AI coding assistant, and it has a couple of features that no other assistant has to make you a 10x developer. You can check it out here: https://sourcegraph.com/cody"
-  },
-  {
-    "objectID": "ders1.html#open-source-local-alternatives",
-    "href": "ders1.html#open-source-local-alternatives",
-    "title": "GPT models",
-    "section": "Open source local alternatives",
-    "text": "Open source local alternatives\nPlease visit https://tabby.tabbyml.com/ for more information"
-  },
-  {
-    "objectID": "ders1.html#image-generation",
-    "href": "ders1.html#image-generation",
-    "title": "GPT models",
-    "section": "Image generation",
-    "text": "Image generation\n\nDALL-E 3 by OpenAI\nPrompt: “a dna strand with istanbul city as silhoutte in background”\nRevised prompt: “Imagine a detailed science meets architecture illustration. In the foreground, there’s a strand of DNA, magnified and glowing against a dark backdrop. This helix structure is precisely depicted, its familiar double-helix shape twisting majestically. Intertwining with this scientific image, in the background, there’s a silhouette representation of Istanbul city. The skyline shows off its marvelous historical architecture, including its domed mosques and towering minarets. The cityscape sits against a dusky eveningsky, the setting sun casting an orange glow on the horizon behind the buildings. The combination results in a fascinating juxtapositionof science and urban beauty.”\nResult:\n\n\n\nMidjourney v6\nMidjourney announced v6 in December 2023. It can generate photorealistic images. Normally, you need to use their Discord channel to generate images free. Also, you can generate images using getimg.ai. I tried generating images using the following prompts\n\nMolecular biology lab with lots of students.\nBeautiful sea side with white sand beach and tropical trees on shore. The sea looks greenish blue\n\nThe results are great:\n\n\n\nDisinformation\nBe aware of deepfake or AI-generated fake photos\nFake Trump Photo\n\nFake Pope Photo"
-  },
-  {
-    "objectID": "ders1.html#video-generation",
-    "href": "ders1.html#video-generation",
-    "title": "GPT models",
-    "section": "Video generation",
-    "text": "Video generation\n\nPrompt to video\n\nRunwayML Gen-2\nPika\nStable Video Diffusion by Stable Diffusion\nGENMO\n\n\n\nImage to video\n\nGENMO"
-  },
-  {
-    "objectID": "ders1.html#music-or-sound-generation",
-    "href": "ders1.html#music-or-sound-generation",
-    "title": "GPT models",
-    "section": "Music or sound generation",
-    "text": "Music or sound generation\n\nElevenlabs can convert text to speech online for free with our AI voice generator"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "FEF3001 Yapay Zekaya Giriş Ders Notları",
+    "objectID": "r-linear-regression-tr.html#polinom-modeli",
+    "href": "r-linear-regression-tr.html#polinom-modeli",
+    "title": "R ile Doğrusal Regresyon",
     "section": "",
-    "text": "YTÜ Fen Fakültesinde 2024 Yaz döneminde verilen FEF3001 kodlu dersin içerikleri sayfasıdır.\n\n\n\nVize ne zaman? Cevap: 18 Temmuz 2024 perşembe saat 12:00\nVize yüz yüze mi? Cevap: Evet\nSınavlar hangi derslikte yapılacak? Cevap: Sınav derslikleri Fen Fakültesi sayfasında duyurulmuştur. Lütfen grubunuza (İng veya Türkçe) ve bölümünüze uygun derslikte sınava giriniz.\nVize konuları nelerdir? Cevap: Yapay sinir ağı konusunun sonuna kadar\nYüklenen sunumlar dışında bir kaynaktan soru sorulacak mıdır? Cevap: Temel olarak sunumlar kullanılacaktır fakat derste anlatılanlardan da sorumluyuz, ders video kaydı ve derste aldığınız notlarınızı da çalışınız\nVize test şeklinde mi ve kaç soru sorulur? Cevap: Test şeklinde 20-30 soru planlanmaktadır\nÇok fazla formül var, vizede formüller verilebilir mi? Cevap: Bütün formüller verilmeyecektir, az kullanılan ve karmaşık olan formüller verilebilir\nHaftaya ders yapılacak mı? Cevap: Sınav olduğu gün sadece FEF3001 dersi yapılmayacaktır, Cuma günü ders işlenecektir.\nYorum soruları sorulacak mı? Cevap: Genelde bilgi ölçen sorular terich edilecektir"
+    "text": "Burada, 1974 Motor Trend US dergisinden alınan mtcars {datasets} adlı bir verimiz var ve 32 otomobil (1973-74 modelleri) için yakıt tüketimi ve otomobil tasarımı ve performansının 10 yönünü içermektedir. Ağırlık (wt) ve Motor Hacmi (disp) parametreleri arasında matematiksel bir model bulacağız. Hadi en uygun modeli bulalım. Lütfen grafiği çizin, denklemin derecesini belirleyin (birinci, ikinci veya üçüncü) ve eğriyi çizin.\n\nmtcars\n\n                   mpg cyl  disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6 160.0 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6 258.0 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8 360.0 175 3.15 3.440 17.02  0  0    3    2\nValiant           18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1\nDuster 360        14.3   8 360.0 245 3.21 3.570 15.84  0  0    3    4\nMerc 240D         24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2\nMerc 230          22.8   4 140.8  95 3.92 3.150 22.90  1  0    4    2\n [ reached 'max' / getOption(\"max.print\") -- omitted 23 rows ]\n\n\n\nplot(mtcars)\n\n\n\n\n\n\n\n\n\nplot(mtcars$disp, mtcars$wt)\n\n\n\n\n\n\n\n\n\nfirst_wd &lt;- lm(wt ~ disp, data=mtcars)\nsummary(first_wd)\n\n\nCall:\nlm(formula = wt ~ disp, data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.89044 -0.29775 -0.00684  0.33428  0.66525 \n\nCoefficients:\n             Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) 1.5998146  0.1729964   9.248 2.74e-10 ***\ndisp        0.0070103  0.0006629  10.576 1.22e-11 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.4574 on 30 degrees of freedom\nMultiple R-squared:  0.7885,    Adjusted R-squared:  0.7815 \nF-statistic: 111.8 on 1 and 30 DF,  p-value: 1.222e-11\n\n\n\nsecond_wd &lt;- lm(wt ~ disp + I(disp^2), data=mtcars)\nsummary(second_wd)\n\n\nCall:\nlm(formula = wt ~ disp + I(disp^2), data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.88654 -0.29136 -0.00961  0.32389  0.67010 \n\nCoefficients:\n             Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) 1.631e+00  3.622e-01   4.502 0.000101 ***\ndisp        6.694e-03  3.325e-03   2.013 0.053448 .  \nI(disp^2)   6.206e-07  6.380e-06   0.097 0.923178    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.4652 on 29 degrees of freedom\nMultiple R-squared:  0.7886,    Adjusted R-squared:  0.774 \nF-statistic: 54.08 on 2 and 29 DF,  p-value: 1.639e-10\n\n\n\nthird_wd &lt;- lm(wt ~ disp + I(disp^2) + I(disp^3), data = mtcars)\nsummary(third_wd)\n\n\nCall:\nlm(formula = wt ~ disp + I(disp^2) + I(disp^3), data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.63764 -0.22785  0.00307  0.24614  0.58333 \n\nCoefficients:\n              Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) -1.111e+00  5.651e-01  -1.966   0.0593 .  \ndisp         4.945e-02  8.198e-03   6.032 1.68e-06 ***\nI(disp^2)   -1.807e-04  3.361e-05  -5.378 9.88e-06 ***\nI(disp^3)    2.243e-07  4.119e-08   5.446 8.21e-06 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.3299 on 28 degrees of freedom\nMultiple R-squared:  0.8973,    Adjusted R-squared:  0.8863 \nF-statistic: 81.57 on 3 and 28 DF,  p-value: 5.959e-14\n\n\n\nplot(mtcars$disp,mtcars$wt)\ncurve(2.243e-07*x^3 -1.807e-04*x^2 +4.945e-02*x -1.111e+00,add=TRUE)\n\n\n\n\n\n\n\n\n\nbest_model &lt;- lm(wt ~ poly(disp,15), data=mtcars)\nsummary(best_model)\n\n\nCall:\nlm(formula = wt ~ poly(disp, 15), data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.43800 -0.11202 -0.00364  0.16319  0.37783 \n\nCoefficients:\n                   Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept)       3.2172500  0.0509709  63.119  &lt; 2e-16 ***\npoly(disp, 15)1   4.8375552  0.2883350  16.778 1.41e-11 ***\npoly(disp, 15)2   0.0452475  0.2883350   0.157   0.8773    \npoly(disp, 15)3   1.7965723  0.2883350   6.231 1.20e-05 ***\npoly(disp, 15)4   0.4463962  0.2883350   1.548   0.1411    \npoly(disp, 15)5  -0.6866393  0.2883350  -2.381   0.0300 *  \npoly(disp, 15)6  -0.3384161  0.2883350  -1.174   0.2577    \npoly(disp, 15)7  -0.6134397  0.2883350  -2.128   0.0493 *  \npoly(disp, 15)8   0.0528245  0.2883350   0.183   0.8569    \npoly(disp, 15)9   0.0814084  0.2883350   0.282   0.7813    \npoly(disp, 15)10 -0.0654665  0.2883350  -0.227   0.8233    \npoly(disp, 15)11  0.2853853  0.2883350   0.990   0.3370    \npoly(disp, 15)12 -0.0007108  0.2883350  -0.002   0.9981    \npoly(disp, 15)13  0.4495723  0.2883350   1.559   0.1385    \npoly(disp, 15)14 -0.0699728  0.2883350  -0.243   0.8113    \npoly(disp, 15)15 -0.5031480  0.2883350  -1.745   0.1002    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.2883 on 16 degrees of freedom\nMultiple R-squared:  0.9552,    Adjusted R-squared:  0.9132 \nF-statistic: 22.73 on 15 and 16 DF,  p-value: 5.551e-08\n\n\n\npred &lt;- predict(best_model, data.frame(disp=50:500))\nplot(mtcars$disp, mtcars$wt)\npoints(50:500, pred, type=\"l\")\n\n\n\n\n\n\n\n\n\npredict(third_wd, data.frame(disp=420))\n\n       1 \n4.397246 \n\n\n\npredict(best_model, data.frame(disp=420))\n\n       1 \n7.329183 \n\n\n\npredict(best_model, data.frame(disp=c(20,420, 500)))\n\n           1            2            3 \n 3865.329736     7.329183 -1513.538298 \n\n\n\nYani, “best_model” model aslında hiç de en iyi değil.."
   },
   {
-    "objectID": "about.html#sıkça-sorulan-sorular",
-    "href": "about.html#sıkça-sorulan-sorular",
-    "title": "FEF3001 Yapay Zekaya Giriş Ders Notları",
+    "objectID": "r-linear-regression-tr.html#eğitimtest-bölünmesi-traintest-split",
+    "href": "r-linear-regression-tr.html#eğitimtest-bölünmesi-traintest-split",
+    "title": "R ile Doğrusal Regresyon",
+    "section": "Eğitim/Test Bölünmesi (Train/Test split)",
+    "text": "Eğitim/Test Bölünmesi (Train/Test split)\nAşırı öğrenme (overfitting)](https://www.investopedia.com/terms/o/overfitting.asp) konusunu anlayalım.\nVeriyi eğitim ve test olarak bölelim. Modeli “eğitim” verisiyle eğitelim. Sonra “test” verisiyle tahmin yapalım.\n\nsample(1:32, 5, replace=FALSE)\n\n[1]  9  6 20 17  5\n\n\n\nset.seed(2)\nidx &lt;- sample(1:32, 5, replace=FALSE)\nidx\n\n[1] 21 15  6 30  8\n\n\n\ntest &lt;- mtcars[idx,]\n\ntest\n\n                    mpg cyl  disp  hp drat    wt  qsec vs am gear carb\nToyota Corona      21.5   4 120.1  97 3.70 2.465 20.01  1  0    3    1\nCadillac Fleetwood 10.4   8 472.0 205 2.93 5.250 17.98  0  0    3    4\nValiant            18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1\nFerrari Dino       19.7   6 145.0 175 3.62 2.770 15.50  0  1    5    6\nMerc 240D          24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2\n\n\n\ntrain &lt;- mtcars[-idx,]\ntrain\n\n                   mpg cyl  disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6 160.0 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6 258.0 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8 360.0 175 3.15 3.440 17.02  0  0    3    2\nDuster 360        14.3   8 360.0 245 3.21 3.570 15.84  0  0    3    4\nMerc 230          22.8   4 140.8  95 3.92 3.150 22.90  1  0    4    2\nMerc 280          19.2   6 167.6 123 3.92 3.440 18.30  1  0    4    4\nMerc 280C         17.8   6 167.6 123 3.92 3.440 18.90  1  0    4    4\n [ reached 'max' / getOption(\"max.print\") -- omitted 18 rows ]\n\n\n\nthird_deg &lt;- lm(wt ~ poly(disp,3), data = train)\nsummary(third_deg)$r.squared\n\n[1] 0.8879368\n\n\n\npredict(third_deg, test)\n\n     Toyota Corona Cadillac Fleetwood            Valiant       Ferrari Dino \n          2.633774           5.824101           3.418857           2.970499 \n         Merc 240D \n          2.989188 \n\n\n\ntest$third_pred &lt;- predict(third_deg, test)\ntest\n\n                    mpg cyl  disp  hp drat    wt  qsec vs am gear carb\nToyota Corona      21.5   4 120.1  97 3.70 2.465 20.01  1  0    3    1\nCadillac Fleetwood 10.4   8 472.0 205 2.93 5.250 17.98  0  0    3    4\nValiant            18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1\nFerrari Dino       19.7   6 145.0 175 3.62 2.770 15.50  0  1    5    6\nMerc 240D          24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2\n                   third_pred\nToyota Corona        2.633774\nCadillac Fleetwood   5.824101\nValiant              3.418857\nFerrari Dino         2.970499\nMerc 240D            2.989188\n\n\n\nfifteen_deg &lt;- lm(wt ~ poly(disp,15), data=train)\nsummary(fifteen_deg)$r.squared\n\n[1] 0.9550231\n\n\n\npredict(fifteen_deg, test)\n\n     Toyota Corona Cadillac Fleetwood            Valiant       Ferrari Dino \n          2.644378        -844.610091           2.784157           2.761685 \n         Merc 240D \n          2.745391 \n\n\n\ntest$fifteen &lt;- predict(fifteen_deg, test)\n\ntest[c(\"disp\",\"wt\",\"third_pred\",\"fifteen\")]\n\n                    disp    wt third_pred     fifteen\nToyota Corona      120.1 2.465   2.633774    2.644378\nCadillac Fleetwood 472.0 5.250   5.824101 -844.610091\nValiant            225.0 3.460   3.418857    2.784157\nFerrari Dino       145.0 2.770   2.970499    2.761685\nMerc 240D          146.7 3.190   2.989188    2.745391\n\n\nGördüğünüz gibi, “on beşinci derece” model veriyi ezberlemiş (yani aşırı öğrenme/overfittng göstermiş) ve kötü tahminler yapıyor."
+  },
+  {
+    "objectID": "ders5.html#contents",
+    "href": "ders5.html#contents",
+    "title": "Classification Methods",
+    "section": "Contents",
+    "text": "Contents\n\n\n\nIntroduction to supervised learning\nDefinition and applications of classification\nPreparing the data\n\nFeature selection and preprocessing ✅\n\nMethods\n\nDecision Trees\nRandom Forest\nSupport Vector Machines (SVM)\nLogistic Regression\nK-nearest neighbor\nNaive Bayes\nArtificial Neural Networks ✅\n\n\n\n\nEnsemble methods\nEvaluation ✅\n\nConfusion Matrix ✅\nAccuracy, precision, recall, F1-score ✅\nROC curves ✅\n\nOverfitting and underfitting ✅\nCross-validation"
+  },
+  {
+    "objectID": "ders5.html#section",
+    "href": "ders5.html#section",
+    "title": "Classification Methods",
     "section": "",
-    "text": "Vize ne zaman? Cevap: 18 Temmuz 2024 perşembe saat 12:00\nVize yüz yüze mi? Cevap: Evet\nSınavlar hangi derslikte yapılacak? Cevap: Sınav derslikleri Fen Fakültesi sayfasında duyurulmuştur. Lütfen grubunuza (İng veya Türkçe) ve bölümünüze uygun derslikte sınava giriniz.\nVize konuları nelerdir? Cevap: Yapay sinir ağı konusunun sonuna kadar\nYüklenen sunumlar dışında bir kaynaktan soru sorulacak mıdır? Cevap: Temel olarak sunumlar kullanılacaktır fakat derste anlatılanlardan da sorumluyuz, ders video kaydı ve derste aldığınız notlarınızı da çalışınız\nVize test şeklinde mi ve kaç soru sorulur? Cevap: Test şeklinde 20-30 soru planlanmaktadır\nÇok fazla formül var, vizede formüller verilebilir mi? Cevap: Bütün formüller verilmeyecektir, az kullanılan ve karmaşık olan formüller verilebilir\nHaftaya ders yapılacak mı? Cevap: Sınav olduğu gün sadece FEF3001 dersi yapılmayacaktır, Cuma günü ders işlenecektir.\nYorum soruları sorulacak mı? Cevap: Genelde bilgi ölçen sorular terich edilecektir"
+    "text": "Source"
+  },
+  {
+    "objectID": "ders5.html#section-1",
+    "href": "ders5.html#section-1",
+    "title": "Classification Methods",
+    "section": "",
+    "text": "Source"
+  },
+  {
+    "objectID": "ders5.html#definition-of-classification",
+    "href": "ders5.html#definition-of-classification",
+    "title": "Classification Methods",
+    "section": "Definition of classification",
+    "text": "Definition of classification\n\nA type of supervised learning\nGoal: Categorize input data into predefined classes or categories\nThe model learns to draw decision boundaries between classes\nOutput is a discrete class label (unlike regression, which predicts continuous values)"
+  },
+  {
+    "objectID": "ders5.html#applications",
+    "href": "ders5.html#applications",
+    "title": "Classification Methods",
+    "section": "Applications",
+    "text": "Applications\n\n\n\nText Classification\n\nSpam detection in emails\nSentiment analysis of product reviews\nNews article categorization\n\nImage Classification\n\nMedical imaging for disease detection\nFacial recognition systems\nPlant or animal species identification\n\nFinancial Applications\n\nCredit scoring (approve/deny loan applications)\nFraud detection in transactions\n\n\n\n\nHealthcare\n\nDisease diagnosis based on symptoms and test results\nPredicting patient readmission risk\n\nEnvironmental Science\n\nClimate pattern classification\nSpecies habitat prediction\n\nLiterature and Linguistics\n\nAuthorship attribution\nGenre classification of texts\nLanguage identification"
+  },
+  {
+    "objectID": "ders5.html#your-turn",
+    "href": "ders5.html#your-turn",
+    "title": "Classification Methods",
+    "section": "Your Turn",
+    "text": "Your Turn\nIn the zoom chat window please write down your department and an example of classification task related to your domain"
+  },
+  {
+    "objectID": "ders5.html#your-turn-1",
+    "href": "ders5.html#your-turn-1",
+    "title": "Classification Methods",
+    "section": "Your Turn",
+    "text": "Your Turn\nPick one example and discuss about the data\nVisit Kaggle and find related dataset"
+  },
+  {
+    "objectID": "ders5.html#decision-trees",
+    "href": "ders5.html#decision-trees",
+    "title": "Classification Methods",
+    "section": "Decision Trees",
+    "text": "Decision Trees\nDecision Trees are a classification method that uses a tree-like model of decisions and their possible consequences. The algorithm learns a series of if-then-else decision rules that split the data based on feature values, creating a structure that resembles a flowchart. Each internal node represents a “test” on an attribute, each branch represents the outcome of the test, and each leaf node represents a class label or decision.\nbranch, test, leaf"
+  },
+  {
+    "objectID": "ders5.html#example",
+    "href": "ders5.html#example",
+    "title": "Classification Methods",
+    "section": "Example",
+    "text": "Example\n\n\n\n\n\n\n\n\n\n\n\n\nHours studied\nPrevious Score\nAttended Review\nPass?\n\n\n\n\n3\n60\nNo\n?\n\n\n4\n75\nNo\n?\n\n\n7\n80\nYes\n?"
+  },
+  {
+    "objectID": "ders5.html#key-metrics-for-decision-tree-construction",
+    "href": "ders5.html#key-metrics-for-decision-tree-construction",
+    "title": "Classification Methods",
+    "section": "Key Metrics for Decision Tree Construction",
+    "text": "Key Metrics for Decision Tree Construction\nQuestions: Which feature is the first branch? At what value we create a branch (5 hours, 70 points, etc.)\n\n\nEntropy\nInformation Gain\nGini Impurity"
+  },
+  {
+    "objectID": "ders5.html#entropy",
+    "href": "ders5.html#entropy",
+    "title": "Classification Methods",
+    "section": "Entropy",
+    "text": "Entropy\n\nEntropy is a measure of impurity or uncertainty in a set of examples. In the context of decision trees, it quantifies the disorder in the class labels of a dataset.\n\nFormula: \\(H(S) = -\\sum_{i=1}^{c} p_i \\log_2(p_i)\\)\nWhere \\(S\\) is the dataset, \\(c\\) is the number of classes, and \\(p_i\\) is the proportion of examples belonging to class \\(i\\).\n\nRanges from 0 (completely pure, all examples belong to one class) to \\(\\log_2(c)\\) (completely impure, equal distribution across all classes).\nUsed to calculate information gain."
+  },
+  {
+    "objectID": "ders5.html#information-gain",
+    "href": "ders5.html#information-gain",
+    "title": "Classification Methods",
+    "section": "Information Gain",
+    "text": "Information Gain\n\nInformation gain measures the reduction in entropy achieved by splitting the data on a particular feature. It helps determine which feature to split on at each node of the decision tree.\n\nFormula: \\(IG(S, A) = H(S) - \\sum_{v \\in Values(A)} \\frac{|S_v|}{|S|} H(S_v)\\)\nWhere \\(S\\) is the dataset, \\(A\\) is the feature being considered for splitting, \\(Values(A)\\) are the possible values of feature \\(A\\), and \\(S_v\\) is the subset of \\(S\\) where feature \\(A\\) has value \\(v\\).\n\nHigher information gain indicates a more useful feature for classification.\nThe feature with the highest information gain is typically chosen for splitting at each node."
+  },
+  {
+    "objectID": "ders5.html#gini-impurity",
+    "href": "ders5.html#gini-impurity",
+    "title": "Classification Methods",
+    "section": "Gini Impurity",
+    "text": "Gini Impurity\n\nGini impurity is an alternative to entropy for measuring the impurity of a set of examples. It represents the probability of incorrectly classifying a randomly chosen element if it were randomly labeled according to the distribution of labels in the subset.\n\nFormula: \\(Gini(S) = 1 - \\sum_{i=1}^{c} (p_i)^2\\)\nWhere \\(S\\) is the dataset, \\(c\\) is the number of classes, and \\(p_i\\) is the proportion of examples belonging to class \\(i\\).\n\nRanges from 0 (completely pure) to \\(1 - \\frac{1}{c}\\) (completely impure).\nOften used in algorithms like CART (Classification and Regression Trees).\n\nThe choice between using entropy (with information gain) or Gini impurity often depends on the specific implementation of the decision tree algorithm. In practice, they often yield similar results."
+  },
+  {
+    "objectID": "ders5.html#algoritms-for-decision-tree-construction",
+    "href": "ders5.html#algoritms-for-decision-tree-construction",
+    "title": "Classification Methods",
+    "section": "Algoritms for decision tree construction",
+    "text": "Algoritms for decision tree construction\n\nID3\nCART\n\nPlease visit this link for details about algoritms"
+  },
+  {
+    "objectID": "ders5.html#an-example-with-r",
+    "href": "ders5.html#an-example-with-r",
+    "title": "Classification Methods",
+    "section": "An example with R",
+    "text": "An example with R\nhttps://www.dataspoof.info/post/decision-tree-classification-in-r/\nhttps://forum.posit.co/t/decision-tree-in-r/5561/5"
+  },
+  {
+    "objectID": "ders5.html#section-2",
+    "href": "ders5.html#section-2",
+    "title": "Classification Methods",
+    "section": "",
+    "text": "Advantages of Decision Trees:\n\nInterpretability: Easy to understand and explain, even for non-experts. The decision-making process can be visually represented.\nNo or little data preprocessing required: Can handle both numerical and categorical data without the need for normalization or scaling.\nComputationally efficient: Generally fast to train and make predictions, especially with small to medium-sized datasets.\n\nDisadvantages:\n\nOverfitting: Prone to overfitting, especially with deep trees, leading to poor generalization on new data.\nInstability: Small changes in the data can result in a completely different tree being generated.\nDifficulty with high-dimensional data: Can become computationally expensive and prone to overfitting with many features."
+  },
+  {
+    "objectID": "ders5.html#quiz-time",
+    "href": "ders5.html#quiz-time",
+    "title": "Classification Methods",
+    "section": "Quiz time",
+    "text": "Quiz time"
+  },
+  {
+    "objectID": "ders5.html#random-forest",
+    "href": "ders5.html#random-forest",
+    "title": "Classification Methods",
+    "section": "Random Forest",
+    "text": "Random Forest\nRandom forest is a commonly-used machine learning algorithm, trademarked by Leo Breiman and Adele Cutler, that combines the output of multiple decision trees to reach a single result.\nRandom forests is an ensemble learning method for classification, regression and other tasks that operates by constructing a multitude of decision trees at training time. For classification tasks, the output of the random forest is the class selected by most trees."
+  },
+  {
+    "objectID": "ders5.html#kaggle-example",
+    "href": "ders5.html#kaggle-example",
+    "title": "Classification Methods",
+    "section": "Kaggle example",
+    "text": "Kaggle example\nPlease visit: https://www.kaggle.com/code/lara311/diabetes-prediction-using-machine-learning"
+  },
+  {
+    "objectID": "ders5.html#support-vector-machines",
+    "href": "ders5.html#support-vector-machines",
+    "title": "Classification Methods",
+    "section": "Support Vector Machines",
+    "text": "Support Vector Machines\nThe Basic Idea\nImagine you’re trying to separate different types of objects, like apples and oranges, based on their characteristics, such as color, shape, and size. You want to find a way to draw a line (or a hyperplane in higher dimensions) that separates the two types of objects as accurately as possible."
+  },
+  {
+    "objectID": "ders5.html#the-svm-method",
+    "href": "ders5.html#the-svm-method",
+    "title": "Classification Methods",
+    "section": "The SVM Method",
+    "text": "The SVM Method\nA Support Vector Machine is a type of supervised learning algorithm that aims to find the best hyperplane that separates the data into different classes. Here’s how it works:\n\nData Preparation: Collect a dataset of objects (e.g., apples and oranges) with their corresponding characteristics (features) and labels (e.g., “apple” or “orange”).\nPlotting the Data: Plot the data points in a feature space, where each axis represents a feature (e.g., color, shape, size).\nFinding the Hyperplane: The goal is to find a hyperplane that separates the data points into different classes. A hyperplane is a line (in 2D) or a plane (in 3D) that divides the feature space into two regions.\nMaximizing the Margin: The SVM algorithm tries to find the hyperplane that maximizes the margin between the two classes. The margin is the distance between the hyperplane and the nearest data points (called support vectors) on either side of the hyperplane.\nSupport Vectors: The support vectors are the data points that lie closest to the hyperplane and have the most influence on its position. They are the “support” that helps define the hyperplane."
+  },
+  {
+    "objectID": "ders5.html#support-vector-machines-1",
+    "href": "ders5.html#support-vector-machines-1",
+    "title": "Classification Methods",
+    "section": "Support Vector Machines",
+    "text": "Support Vector Machines\nKey Concepts\n\nHyperplane: A line (in 2D) or a plane (in 3D) that separates the data into different classes.\nMargin: The distance between the hyperplane and the nearest data points (support vectors) on either side of the hyperplane.\nSupport Vectors: The data points that lie closest to the hyperplane and have the most influence on its position."
+  },
+  {
+    "objectID": "ders5.html#why-svms-are-useful",
+    "href": "ders5.html#why-svms-are-useful",
+    "title": "Classification Methods",
+    "section": "Why SVMs are Useful",
+    "text": "Why SVMs are Useful\nSVMs are powerful because they:\n\nCan handle high-dimensional data\nAre robust to noise and outliers\nCan be used for both classification and regression tasks\nProvide a clear geometric interpretation of the decision boundary"
+  },
+  {
+    "objectID": "ders5.html#section-3",
+    "href": "ders5.html#section-3",
+    "title": "Classification Methods",
+    "section": "",
+    "text": "H1 does not separate the classes. H2 does, but only with a small margin. H3 separates them with the maximal margin. Source"
+  },
+  {
+    "objectID": "ders5.html#section-4",
+    "href": "ders5.html#section-4",
+    "title": "Classification Methods",
+    "section": "",
+    "text": "Maximum-margin hyperplane and margins for an SVM trained with samples from two classes. Samples on the margin are called the support vectors. Source"
+  },
+  {
+    "objectID": "ders5.html#section-5",
+    "href": "ders5.html#section-5",
+    "title": "Classification Methods",
+    "section": "",
+    "text": "Please visit SVM demo site for an online interactive demo for SVM"
+  },
+  {
+    "objectID": "ders5.html#logistic-regression",
+    "href": "ders5.html#logistic-regression",
+    "title": "Classification Methods",
+    "section": "Logistic Regression",
+    "text": "Logistic Regression\nThe Basic Idea\nLogistic regression is a supervised machine learning algorithm that accomplishes binary classification tasks by predicting the probability of an outcome, event, or observation. The model delivers a binary outcome limited to two possible outcomes: yes/no, 0/1, or true/false."
+  },
+  {
+    "objectID": "ders5.html#the-logistic-regression-method",
+    "href": "ders5.html#the-logistic-regression-method",
+    "title": "Classification Methods",
+    "section": "The Logistic Regression Method",
+    "text": "The Logistic Regression Method\nLogistic Regression is a type of supervised learning algorithm that models the probability of an event occurring (e.g., passing an exam) based on a set of input variables (e.g., scores). Here’s how it works:\n\nData Preparation: Collect a dataset of input variables (e.g., scores) and output variables (e.g., pass/fail).\nLogistic Function: The logistic function, also known as the sigmoid function, is used to model the probability of the event occurring. It maps the input variables to a probability between 0 and 1.\nLog-Odds: The logistic function is based on the log-odds of the event occurring, which is the logarithm of the ratio of the probability of the event occurring to the probability of the event not occurring.\nCoefficients: The algorithm learns the coefficients (weights) for each input variable, which determine the importance of each variable in predicting the output.\nDecision Boundary: The algorithm uses the coefficients and the logistic function to create a decision boundary, which separates the input space into two regions: one for each class (e.g., pass and fail).\nPrediction: For a new input, the algorithm calculates the probability of the event occurring using the logistic function and the learned coefficients. If the probability is above a certain threshold (e.g., 0.5), the algorithm predicts the event will occur (e.g., the student will pass)."
+  },
+  {
+    "objectID": "ders5.html#key-concepts",
+    "href": "ders5.html#key-concepts",
+    "title": "Classification Methods",
+    "section": "Key Concepts",
+    "text": "Key Concepts\n\nLogistic Function: A mathematical function that maps input variables to a probability between 0 and 1.\nLog-Odds: The logarithm of the ratio of the probability of the event occurring to the probability of the event not occurring.\nCoefficients: The weights learned by the algorithm for each input variable, which determine their importance in predicting the output.\nDecision Boundary: The boundary that separates the input space into two regions, one for each class."
+  },
+  {
+    "objectID": "ders5.html#why-logistic-regression-is-useful",
+    "href": "ders5.html#why-logistic-regression-is-useful",
+    "title": "Classification Methods",
+    "section": "Why Logistic Regression is Useful",
+    "text": "Why Logistic Regression is Useful\nLogistic Regression is a popular algorithm because it:\n\nIs easy to implement and interpret\nCan handle multiple input variables\nProvides a probability estimate for each prediction\nIs widely used in many fields, such as medicine, finance, and marketing"
+  },
+  {
+    "objectID": "ders6-TR.html#içerik",
+    "href": "ders6-TR.html#içerik",
+    "title": "Regresyon Yöntemleri",
+    "section": "İçerik",
+    "text": "İçerik\n\nRegresyonun tanımı\nRegresyon türleri (doğrusal, polinom ve topluluk yöntemleri)\n\nDoğrusal Regresyon: Basit Doğrusal Regresyon, En Küçük Kareler yöntemi, Model performansının değerlendirilmesi (R-kare, RMSE)\nPolinom Regresyon: Ne zaman polinom regresyon kullanılır, aşırı uyum\nRastgele Orman ile Regresyon: Regresyon için Rastgele Orman algoritması, Avantajları (doğrusal olmayan ilişkileri ele alma, özellik önemi)\nDiğer regresyon türleri: Lojistik regresyon (ikili sonuçlar için), Ridge ve Lasso regresyonu (düzenlileştirme teknikleri)\n\nExcel’de örnekler\nR ve Python’da kod örnekleri"
+  },
+  {
+    "objectID": "ders6-TR.html#regresyon",
+    "href": "ders6-TR.html#regresyon",
+    "title": "Regresyon Yöntemleri",
+    "section": "Regresyon",
+    "text": "Regresyon\nRegresyon, bir bağımlı değişken (genellikle hedef veya sonuç değişkeni olarak adlandırılır) ile bir veya daha fazla bağımsız değişken (ayrıca tahmin edici veya özellik olarak da bilinir) arasındaki ilişkiyi modellemek ve analiz etmek için veri analizinde ve makine öğrenmesinde kullanılan istatistiksel bir yöntemdir. Regresyonun temel amacı, bağımsız değişkenlerdeki değişikliklerin bağımlı değişkendeki değişikliklerle nasıl ilişkili olduğunu tahmin etmek ve çıkarım yapmaktır.\nRegresyon hakkında önemli noktalar:\n\nDeğişkenler arasındaki ilişkileri tanımlamaya ve ölçmeye yardımcı olur.\nHem tahmin hem de değişkenlerin etkisini anlamak için kullanılabilir.\nDoğrusal, polinom ve Rastgele Orman veya regresyon için Sinir Ağları gibi daha karmaşık yöntemler dahil olmak üzere çeşitli regresyon türleri vardır.\nRegresyon modelleri hem sürekli hem de kategorik değişkenleri ele alabilir.\nBilim, ekonomi ve sosyal bilimler dahil olmak üzere birçok alanda yaygın olarak kullanılır."
+  },
+  {
+    "objectID": "ders6-TR.html#doğrusal-lineer-regresyon",
+    "href": "ders6-TR.html#doğrusal-lineer-regresyon",
+    "title": "Regresyon Yöntemleri",
+    "section": "Doğrusal (Lineer) Regresyon",
+    "text": "Doğrusal (Lineer) Regresyon"
+  },
+  {
+    "objectID": "ders6-TR.html#doğrusal-regresyon",
+    "href": "ders6-TR.html#doğrusal-regresyon",
+    "title": "Regresyon Yöntemleri",
+    "section": "Doğrusal Regresyon",
+    "text": "Doğrusal Regresyon"
+  },
+  {
+    "objectID": "ders6-TR.html#doğrusal-regresyon-1",
+    "href": "ders6-TR.html#doğrusal-regresyon-1",
+    "title": "Regresyon Yöntemleri",
+    "section": "Doğrusal Regresyon",
+    "text": "Doğrusal Regresyon\nEn iyi doğruyu bulmayı deneyin: https://www.geogebra.org/m/xC6zq7Zv"
+  },
+  {
+    "objectID": "ders6-TR.html#en-küçük-kareler-ols-yöntemi",
+    "href": "ders6-TR.html#en-küçük-kareler-ols-yöntemi",
+    "title": "Regresyon Yöntemleri",
+    "section": "En Küçük Kareler (OLS) Yöntemi",
+    "text": "En Küçük Kareler (OLS) Yöntemi\nEn Küçük Kareler (Ordinary Least Squares - OLS), doğrusal bir regresyon modelinin parametrelerini tahmin etmek için kullanılan istatistiksel bir yöntemdir. Doğrusal regresyonda bir veri kümesine doğru yerleştirmek için en yaygın kullanılan tekniktir.\nOLS, gözlemlenen bağımlı değişken değerleri ile bağımsız değişken(ler)in doğrusal fonksiyonu tarafından tahmin edilen değerler arasındaki farkların karelerinin toplamını en aza indiren bir yöntemdir. Başka bir deyişle, kare artıkların toplamını en aza indirerek verilere en iyi uyan çizgiyi (veya çoklu boyutlarda hiperplane) bulur.\nTeknik detaylar için lütfen Wikipedia’daki OLS Yöntemi sayfasını ziyaret edin."
+  },
+  {
+    "objectID": "ders6-TR.html#çok-değişkenli-doğrusal-regresyon",
+    "href": "ders6-TR.html#çok-değişkenli-doğrusal-regresyon",
+    "title": "Regresyon Yöntemleri",
+    "section": "Çok Değişkenli Doğrusal Regresyon",
+    "text": "Çok Değişkenli Doğrusal Regresyon\nÇok Değişkenli Doğrusal Regresyon, aynı zamanda Çoklu Doğrusal Regresyon olarak da bilinen, birden fazla bağımsız değişken ile tek bir bağımlı değişken arasındaki ilişkiyi modellemek için kullanılan istatistiksel bir yöntemdir. Basit doğrusal regresyon kavramını birden fazla tahmin değişkeni içerecek şekilde genişletir.\nModelin genel formu şöyledir:\n\\[\ny = \\beta_0 + \\beta_1x_1 + \\beta_2x_2 + \\ldots + \\beta_nx_n + \\varepsilon\n\\]\nBurada:\ny bağımlı değişken, x₁, x₂, …, xₙ bağımsız değişkenler, β₀ y-kesişimi (tüm x’ler sıfır olduğunda y’nin değeri), β₁, β₂, …, βₙ her bağımsız değişkenle ilişkili katsayılar, n bağımsız değişken sayısı, ε hata terimi"
+  },
+  {
+    "objectID": "ders6-TR.html#polinom-regresyon",
+    "href": "ders6-TR.html#polinom-regresyon",
+    "title": "Regresyon Yöntemleri",
+    "section": "Polinom Regresyon",
+    "text": "Polinom Regresyon\nPolinom Regresyon, bağımsız değişken x ile bağımlı değişken y arasındaki ilişkinin n’inci dereceden bir polinom olarak modellendiği bir regresyon analizi formudur. Değişkenler arasındaki ilişki doğrusal olmadığında ancak bir polinom fonksiyonuyla yaklaşık olarak ifade edilebileceği durumlarda kullanılır.\n\\[\ny = \\beta_0 + \\beta_1x + \\beta_2x^2 + \\beta_3x^3 + \\ldots + \\beta_nx^n + \\varepsilon\n\\]\nBurada:\ny bağımlı değişken, x bağımsız değişken, β₀, β₁, β₂, …, βₙ tahmin edilecek katsayılar, n polinomun derecesi ve ε hata terimi"
+  },
+  {
+    "objectID": "ders6-TR.html#polinom-regresyon-1",
+    "href": "ders6-TR.html#polinom-regresyon-1",
+    "title": "Regresyon Yöntemleri",
+    "section": "Polinom Regresyon",
+    "text": "Polinom Regresyon"
+  },
+  {
+    "objectID": "ders6-TR.html#excelde-doğrusal-regresyon",
+    "href": "ders6-TR.html#excelde-doğrusal-regresyon",
+    "title": "Regresyon Yöntemleri",
+    "section": "Excel’de Doğrusal Regresyon",
+    "text": "Excel’de Doğrusal Regresyon\nMTCARS veri seti Excel dosyasını kullanın ve;\n\nwt (ağırlık) ve mpg (galon başına mil) sütunları arasında Eğilim Çizgisi çizin.\ndisp (silindir hacmi) ve wt (ağırlık) sütunları arasında Eğilim Çizgisi çizin.\n\nExcel’de nasıl Eğilim Çizgisi çizileceğini görmek için lütfen MyExcelOnline sayfasını ziyaret edin."
+  },
+  {
+    "objectID": "ders6-TR.html#r-ile-doğrusal-regresyon",
+    "href": "ders6-TR.html#r-ile-doğrusal-regresyon",
+    "title": "Regresyon Yöntemleri",
+    "section": "R ile Doğrusal Regresyon",
+    "text": "R ile Doğrusal Regresyon\nBasit doğrusal ve polinom regresyon için lütfen R ile Doğrusal Regresyon sayfasına bakın."
+  },
+  {
+    "objectID": "ders6-TR.html#rastgele-orman-random-forest-ile-regresyon",
+    "href": "ders6-TR.html#rastgele-orman-random-forest-ile-regresyon",
+    "title": "Regresyon Yöntemleri",
+    "section": "Rastgele Orman (Random Forest) ile Regresyon",
+    "text": "Rastgele Orman (Random Forest) ile Regresyon\nLütfen R ile rastgele orman regresyonu belgesine bakın."
   },
   {
     "objectID": "ders3.html#değerlendirme-ölçütleri-performance-metrics",
