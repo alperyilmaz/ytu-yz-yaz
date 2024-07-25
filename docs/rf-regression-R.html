@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>FEF3001 Yapay Zekaya Giriş</title>
+<title>FEF3001 Yapay Zekaya Giriş – Random Forest Regression with R</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -88,7 +122,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Ana Sayfa</span></a>
   </li>  
   <li class="nav-item">
@@ -119,71 +153,142 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#fef3001-yapay-zekaya-giriş" id="toc-fef3001-yapay-zekaya-giriş" class="nav-link active" data-scroll-target="#fef3001-yapay-zekaya-giriş">FEF3001 Yapay Zekaya Giriş</a>
-  <ul class="collapse">
-  <li><a href="#kaynaklar" id="toc-kaynaklar" class="nav-link" data-scroll-target="#kaynaklar">Kaynaklar</a></li>
-  <li><a href="#ders1" id="toc-ders1" class="nav-link" data-scroll-target="#ders1">Ders1</a></li>
-  <li><a href="#ders2" id="toc-ders2" class="nav-link" data-scroll-target="#ders2">Ders2</a></li>
-  <li><a href="#ders3" id="toc-ders3" class="nav-link" data-scroll-target="#ders3">Ders3</a></li>
-  <li><a href="#ders4" id="toc-ders4" class="nav-link" data-scroll-target="#ders4">Ders4</a></li>
-  <li><a href="#ders5" id="toc-ders5" class="nav-link" data-scroll-target="#ders5">Ders5</a></li>
-  <li><a href="#ders6" id="toc-ders6" class="nav-link" data-scroll-target="#ders6">Ders6</a></li>
-  </ul></li>
+  <li><a href="#split-data-into-training-and-testing-sets" id="toc-split-data-into-training-and-testing-sets" class="nav-link active" data-scroll-target="#split-data-into-training-and-testing-sets">Split data into training and testing sets</a></li>
+  <li><a href="#train-random-forest-model-and-make-predictions" id="toc-train-random-forest-model-and-make-predictions" class="nav-link" data-scroll-target="#train-random-forest-model-and-make-predictions">Train Random Forest model and make predictions</a></li>
+  <li><a href="#calculate-rmse" id="toc-calculate-rmse" class="nav-link" data-scroll-target="#calculate-rmse">Calculate RMSE</a></li>
+  <li><a href="#plot-actual-vs-predicted-values" id="toc-plot-actual-vs-predicted-values" class="nav-link" data-scroll-target="#plot-actual-vs-predicted-values">Plot actual vs predicted values</a></li>
+  <li><a href="#print-feature-importance" id="toc-print-feature-importance" class="nav-link" data-scroll-target="#print-feature-importance">Print feature importance</a></li>
+  <li><a href="#plot-feature-importance" id="toc-plot-feature-importance" class="nav-link" data-scroll-target="#plot-feature-importance">Plot feature importance</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Random Forest Regression with R</h1>
+</div>
 
 
 
-<section id="fef3001-yapay-zekaya-giriş" class="level1">
-<h1>FEF3001 Yapay Zekaya Giriş</h1>
-<section id="kaynaklar" class="level2">
-<h2 class="anchored" data-anchor-id="kaynaklar">Kaynaklar</h2>
-<ul>
-<li><em>Makine Öğrenmesinde Sınıflandırma Yöntemleri ve R Uygulamaları</em>, Ersoy Öz &amp; Selçuk Alp, Nobel Akademik Yayıncılık, 2020.</li>
-<li><em>Veri Madenciliği ve Makine Öğrenmesi İle Farklı Alanlarda Uygulamalar</em>, Şenol Çelik, Nilay Köleoğlu, &amp; Fatih Çemrek, Holistence Publications, 2022</li>
-<li><em>Sağlık Bilimlerinde Yapay Zeka</em>, Ahmet Rıza Şahin, Kamil Doğan, &amp; Süleyman Sivri, Akademisyen Kitabevi A.Ş., 2020</li>
-<li><em>Yapay Zeka</em>, Atınç Yılmaz, Kodlab Yayın Dağıtım Yazılım Ltd.&nbsp;Şti., 2022</li>
-<li><em>Machine Learning Algorithms</em>, Giuseppe Bonaccorso, Packt Publishing, 2017.</li>
-<li><em>Optimizasyon Modelleme ve Yapay Zeka Algoritmaları</em>, Bayram Köse, Bahar Demirtürk, Efe Akademi Yayınları, 2023</li>
-</ul>
-</section>
-<section id="ders1" class="level2">
-<h2 class="anchored" data-anchor-id="ders1">Ders1</h2>
-<p><em>Grup2: 4 Temmuz Perşembe 8:30 - Grup1: 4 Temmuz Perşembe 18:00</em></p>
-<p><strong>İçerik</strong>: İlk derste, ChatGPT ve benzeri büyük dil modelleri tanıtıldı. OpenAI Playground üzerinde “cümle tamamlama” kavramı ve “temparature” ayarı gösterildi. Daha iyi çıktı almak için Prompt ayarları anlatıldı. Dökümandan sorgu/chat yapmak için Gemini ve Claude örnekleri verildi. Yine Claude üzerinden kod yazdırma örneği işlendi. <a href="./ders1.html">İngilizce Sunum linki</a>, <a href="./ders1-TR.html">Türkçe Sunum linki</a></p>
-<!--  Uygulamada kullanılacak dosyalar: [mtcars (Excel)](files/mtcars.xlsx) -->
-</section>
-<section id="ders2" class="level2">
-<h2 class="anchored" data-anchor-id="ders2">Ders2</h2>
-<p><em>Grup2: 5 Temmuz Cuma 8:30 - Grup1: 5 Temmuz Cuma 14:00</em></p>
-<p><strong>İçerik</strong>: Veri türleri ve verilerin işlenmesine dair bilgi verildi. <a href="./ders2.html">Sunum linki</a></p>
-</section>
-<section id="ders3" class="level2">
-<h2 class="anchored" data-anchor-id="ders3">Ders3</h2>
-<p><em>Grup2: 11 Temmuz Perşembe 8:30 - Grup1: 11 Temmuz Perşembe 14:00</em></p>
-<p><strong>İçerik</strong>: Confusion matrix ve sınıflandırma/regresyon değerlendirmesi <a href="./ders3.html">Sunum linki</a></p>
-</section>
-<section id="ders4" class="level2">
-<h2 class="anchored" data-anchor-id="ders4">Ders4</h2>
-<p><em>Grup2: 12 Temmuz Cuma 8:30 - Grup1: 12 Temmuz Cuma 14:00</em></p>
-<p><strong>İçerik</strong>: Yapay sinir ağları <a href="files/neural_network.pdf">Sunum linki</a>. Derste kullanılan yapay sinir ağı demo sayfaları için <a href="https://ml-playground.com/">link1</a> ve <a href="https://akarzazi.github.io/neural-network-playground/">link2</a></p>
-</section>
-<section id="ders5" class="level2">
-<h2 class="anchored" data-anchor-id="ders5">Ders5</h2>
-<p><em>Grup2: 19 Temmuz Cuma 8:30 - Grup1: 19 Temmuz Cuma 14:00</em></p>
-<p><strong>İçerik</strong>: Sınıflandırma metodları <a href="./ders5.html">İngilizce Sunum linki</a>, <a href="./ders5-TR.html">Türkçe Sunum Linki</a></p>
-</section>
-<section id="ders6" class="level2">
-<h2 class="anchored" data-anchor-id="ders6">Ders6</h2>
-<p><em>Grup2: 25 Temmuz Cuma 8:30 - Grup1: 25 Temmuz Cuma 14:00</em></p>
-<p><strong>İçerik</strong>: Regresyon <a href="./ders6.html">İngilizce Sunum linki</a></p>
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
 
 
+</header>
+
+
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Load required libraries</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(randomForest)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>randomForest 4.7-1.1</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Type rfNews() to see new features/changes/bug fixes.</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'ggplot2'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following object is masked from 'package:randomForest':
+
+    margin</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Set seed for reproducibility</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> mtcars</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<section id="split-data-into-training-and-testing-sets" class="level1">
+<h1>Split data into training and testing sets</h1>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>train_indices <span class="ot">&lt;-</span> <span class="fu">sample</span>(<span class="dv">1</span><span class="sc">:</span><span class="fu">nrow</span>(data), <span class="fl">0.7</span> <span class="sc">*</span> <span class="fu">nrow</span>(data))</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>train_data <span class="ot">&lt;-</span> data[train_indices, ]</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>test_data <span class="ot">&lt;-</span> data[<span class="sc">-</span>train_indices, ]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
+<section id="train-random-forest-model-and-make-predictions" class="level1">
+<h1>Train Random Forest model and make predictions</h1>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>rf_model <span class="ot">&lt;-</span> <span class="fu">randomForest</span>(mpg <span class="sc">~</span> ., <span class="at">data =</span> train_data, <span class="at">ntree =</span> <span class="dv">500</span>)</span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>predictions <span class="ot">&lt;-</span> <span class="fu">predict</span>(rf_model, <span class="at">newdata =</span> test_data)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="calculate-rmse" class="level1">
+<h1>Calculate RMSE</h1>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>rmse <span class="ot">&lt;-</span> <span class="fu">sqrt</span>(<span class="fu">mean</span>((test_data<span class="sc">$</span>mpg <span class="sc">-</span> predictions)<span class="sc">^</span><span class="dv">2</span>))</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a><span class="fu">cat</span>(<span class="st">"Root Mean Square Error:"</span>, rmse, <span class="st">"</span><span class="sc">\n</span><span class="st">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>Root Mean Square Error: 2.00452 </code></pre>
+</div>
+</div>
+</section>
+<section id="plot-actual-vs-predicted-values" class="level1">
+<h1>Plot actual vs predicted values</h1>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="fu">data.frame</span>(<span class="at">actual =</span> test_data<span class="sc">$</span>mpg, <span class="at">predicted =</span> predictions), <span class="fu">aes</span>(<span class="at">x =</span> actual, <span class="at">y =</span> predicted)) <span class="sc">+</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_point</span>(<span class="at">alpha =</span> <span class="fl">0.5</span>) <span class="sc">+</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_abline</span>(<span class="at">intercept =</span> <span class="dv">0</span>, <span class="at">slope =</span> <span class="dv">1</span>, <span class="at">color =</span> <span class="st">"red"</span>, <span class="at">linetype =</span> <span class="st">"dashed"</span>) <span class="sc">+</span></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Actual Values"</span>, <span class="at">y =</span> <span class="st">"Predicted Values"</span>, <span class="at">title =</span> <span class="st">"Random Forest Regression: Actual vs Predicted"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="rf-regression-R_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="print-feature-importance" class="level1">
+<h1>Print feature importance</h1>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>importance <span class="ot">&lt;-</span> <span class="fu">importance</span>(rf_model)</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a><span class="fu">print</span>(importance)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>     IncNodePurity
+cyl      152.64821
+disp     224.33387
+hp       158.42647
+drat      43.37372
+wt       178.44424
+qsec      34.05620
+vs        25.67666
+am        19.73485
+gear      10.54314
+carb      21.62506</code></pre>
+</div>
+</div>
+</section>
+<section id="plot-feature-importance" class="level1">
+<h1>Plot feature importance</h1>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>importance_df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">feature =</span> <span class="fu">rownames</span>(importance), <span class="at">importance =</span> importance[, <span class="dv">1</span>])</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(importance_df, <span class="fu">aes</span>(<span class="at">x =</span> <span class="fu">reorder</span>(feature, importance), <span class="at">y =</span> importance)) <span class="sc">+</span></span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>) <span class="sc">+</span></span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_flip</span>() <span class="sc">+</span></span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Features"</span>, <span class="at">y =</span> <span class="st">"Importance"</span>, <span class="at">title =</span> <span class="st">"Random Forest: Feature Importance"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="rf-regression-R_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid figure-img" width="672"></p>
+</figure>
+</div>
+</div>
+</div>
+<p>alternative at https://hackernoon.com/random-forest-regression-in-r-code-and-interpretation</p>
+
+
 </section>
 
 </main> <!-- /main -->
