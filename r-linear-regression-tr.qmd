@@ -1,0 +1,124 @@
+---
+title: "R ile Doğrusal Regresyon"
+format: html
+typora-copy-images-to: images
+---
+
+## Polinom Modeli
+
+Burada, 1974 Motor Trend US dergisinden alınan `mtcars {datasets}` adlı bir verimiz var ve 32 otomobil (1973-74 modelleri) için yakıt tüketimi ve otomobil tasarımı ve performansının 10 yönünü içermektedir. `Ağırlık (wt)` ve `Motor Hacmi (disp)` parametreleri arasında matematiksel bir model bulacağız. Hadi en uygun modeli bulalım. Lütfen grafiği çizin, denklemin derecesini belirleyin (birinci, ikinci veya üçüncü) ve eğriyi çizin.
+
+```{r}
+mtcars
+```
+
+```{r}
+plot(mtcars)
+```
+
+```{r}
+plot(mtcars$disp, mtcars$wt)
+```
+
+```{r}
+first_wd <- lm(wt ~ disp, data=mtcars)
+summary(first_wd)
+```
+
+```{r}
+second_wd <- lm(wt ~ disp + I(disp^2), data=mtcars)
+summary(second_wd)
+```
+
+```{r}
+third_wd <- lm(wt ~ disp + I(disp^2) + I(disp^3), data = mtcars)
+summary(third_wd)
+```
+
+```{r}
+plot(mtcars$disp,mtcars$wt)
+curve(2.243e-07*x^3 -1.807e-04*x^2 +4.945e-02*x -1.111e+00,add=TRUE)
+```
+
+```{r}
+best_model <- lm(wt ~ poly(disp,15), data=mtcars)
+summary(best_model)
+```
+
+```{r}
+pred <- predict(best_model, data.frame(disp=50:500))
+plot(mtcars$disp, mtcars$wt)
+points(50:500, pred, type="l")
+```
+
+```{r}
+predict(third_wd, data.frame(disp=420))
+```
+
+```{r}
+predict(best_model, data.frame(disp=420))
+```
+
+```{r}
+predict(best_model, data.frame(disp=c(20,420, 500)))
+```
+
+> Yani, "best_model" model aslında hiç de en iyi değil..
+
+## Eğitim/Test Bölünmesi (Train/Test split)
+
+Aşırı öğrenme (overfitting)](https://www.investopedia.com/terms/o/overfitting.asp) konusunu anlayalım.
+
+Veriyi eğitim ve test olarak bölelim. Modeli "eğitim" verisiyle eğitelim. Sonra "test" verisiyle tahmin yapalım.
+
+```{r}
+sample(1:32, 5, replace=FALSE)
+```
+
+```{r}
+set.seed(2)
+idx <- sample(1:32, 5, replace=FALSE)
+idx
+```
+
+```{r}
+test <- mtcars[idx,]
+
+test
+```
+
+```{r}
+train <- mtcars[-idx,]
+train
+```
+
+```{r}
+third_deg <- lm(wt ~ poly(disp,3), data = train)
+summary(third_deg)$r.squared
+```
+
+```{r}
+predict(third_deg, test)
+```
+
+```{r}
+test$third_pred <- predict(third_deg, test)
+test
+```
+
+```{r}
+fifteen_deg <- lm(wt ~ poly(disp,15), data=train)
+summary(fifteen_deg)$r.squared
+```
+
+```{r}
+predict(fifteen_deg, test)
+```
+
+```{r}
+test$fifteen <- predict(fifteen_deg, test)
+
+test[c("disp","wt","third_pred","fifteen")]
+```
+
+Gördüğünüz gibi, "on beşinci derece" model veriyi ezberlemiş (yani aşırı öğrenme/overfittng göstermiş) ve kötü tahminler yapıyor.

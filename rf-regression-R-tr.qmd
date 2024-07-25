@@ -1,0 +1,73 @@
+---
+title: "R ile Rastgele Orman Regresyonu"
+format: html
+typora-copy-images-to: images
+---
+
+```{r}
+#| warning: false
+# Gerekli kütüphaneleri yükle
+library(randomForest)
+library(ggplot2)
+
+set.seed(123)
+
+data <- mtcars
+```
+
+# Veriyi eğitim ve test setlerine ayır (Train/test split)
+
+```{r}
+train_indices <- sample(1:nrow(data), 0.7 * nrow(data))
+train_data <- data[train_indices, ]
+test_data <- data[-train_indices, ]
+```
+
+# Rastgele Orman modeli eğitimi ve tahmin yapılması
+
+```{r}
+rf_model <- randomForest(mpg ~ ., data = train_data, ntree = 500)
+
+predictions <- predict(rf_model, newdata = test_data)
+
+```
+
+# RMSE hesapla
+
+RMSE: Root mean square error (Kök Ortalama Kare Hatası)
+
+```{r}
+rmse <- sqrt(mean((test_data$mpg - predictions)^2))
+cat("Kök Ortalama Kare Hatası:", rmse, "\n")
+
+```
+
+# Gerçek ve tahmin edilen değerler
+
+```{r}
+ggplot(data.frame(actual = test_data$mpg, predicted = predictions), aes(x = actual, y = predicted)) +
+  geom_point(alpha = 0.5) +
+  geom_abline(intercept = 0, slope = 1, color = "red", linetype = "dashed") +
+  labs(x = "Gerçek Değerler", y = "Tahmin Edilen Değerler", title = "Rastgele Orman Regresyonu: Gerçek ve Tahmin Edilen")
+```
+
+# Özellik önemi
+
+```{r}
+importance <- importance(rf_model)
+print(importance)
+```
+
+# Özellik önemi - figür
+
+```{r}
+importance_df <- data.frame(feature = rownames(importance), importance = importance[, 1])
+ggplot(importance_df, aes(x = reorder(feature, importance), y = importance)) +
+  geom_bar(stat = "identity") +
+  coord_flip() +
+  labs(x = "Özellikler", y = "Önem", title = "Rastgele Orman: Özellik Önemi")
+
+```
+
+Alternatif kaynak: http
+s://hackernoon.com/random-forest-regression-in-r-code-and-interpretation

@@ -46,4 +46,4 @@
 
 *Grup2: 25 Temmuz Cuma 8:30 - Grup1: 25 Temmuz Cuma 14:00*
 
-**İçerik**: Regresyon [İngilizce Sunum linki](ders6.qmd)
+**İçerik**: Regresyon [İngilizce Sunum linki](ders6.qmd), [Türkçe Sunum linki](ders6-TR.qmd)
