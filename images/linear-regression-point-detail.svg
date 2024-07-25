@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 400 300"
+   version="1.1"
+   id="svg42"
+   sodipodi:docname="linear-regression-point-detail.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs46" />
+  <sodipodi:namedview
+     id="namedview44"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="2.3966667"
+     inkscape:cx="191.93324"
+     inkscape:cy="149.79138"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg42" />
+  <!-- Coordinate system -->
+  <line
+     x1="50"
+     y1="250"
+     x2="350"
+     y2="250"
+     stroke="black"
+     stroke-width="2"
+     id="line2" />
+  <line
+     x1="50"
+     y1="250"
+     x2="50"
+     y2="50"
+     stroke="black"
+     stroke-width="2"
+     id="line4" />
+  <!-- Axis labels -->
+  <text
+     x="190"
+     y="290"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     id="text6">X</text>
+  <text
+     x="20"
+     y="150"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14"
+     transform="rotate(-90 20 150)"
+     id="text8">Y</text>
+  <!-- Regression line -->
+  <line
+     x1="50"
+     y1="220"
+     x2="350"
+     y2="80"
+     stroke="red"
+     stroke-width="2"
+     id="line10" />
+  <!-- Focal point -->
+  <circle
+     cx="200"
+     cy="180"
+     r="6"
+     fill="blue"
+     id="circle12" />
+  <!-- X value line -->
+  <line
+     x1="200"
+     y1="180"
+     x2="200"
+     y2="250"
+     stroke="green"
+     stroke-width="2"
+     stroke-dasharray="5,5"
+     id="line14" />
+  <text
+     x="200"
+     y="270"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     id="text16">X₁</text>
+  <!-- Y value line -->
+  <line
+     x1="50"
+     y1="180"
+     x2="200"
+     y2="180"
+     stroke="purple"
+     stroke-width="2"
+     stroke-dasharray="5,5"
+     id="line18" />
+  <text
+     x="40"
+     y="180"
+     text-anchor="end"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     id="text20">Y₁</text>
+  <!-- Prediction point -->
+  <circle
+     cx="200"
+     cy="150"
+     r="6"
+     fill="none"
+     stroke="red"
+     stroke-width="2"
+     id="circle22" />
+  <!-- Error/Residual line -->
+  <line
+     x1="200"
+     y1="180"
+     x2="200"
+     y2="150"
+     stroke="orange"
+     stroke-width="2"
+     id="line24" />
+  <text
+     x="210"
+     y="165"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     id="text26">Error (ε)</text>
+  <!-- Legend -->
+  <circle
+     cx="190"
+     cy="51.897461"
+     r="4"
+     fill="#0000ff"
+     id="circle28" />
+  <text
+     x="200"
+     y="55.00293"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     id="text30">Actual data point (X₁, Y₁)</text>
+  <circle
+     cx="70"
+     cy="51.897461"
+     r="4"
+     fill="none"
+     stroke="#ff0000"
+     stroke-width="2"
+     id="circle32" />
+  <text
+     x="80"
+     y="55"
+     font-family="Arial, sans-serif"
+     font-size="12px"
+     id="text34">Predicted point</text>
+  <!-- Equation -->
+  <text
+     x="259.2832"
+     y="96.269653"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="14px"
+     id="text40">Y = β₀ + β₁X + ε</text>
+</svg>

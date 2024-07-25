@@ -1,0 +1,72 @@
+---
+title: "Random Forest Regression with R"
+format: html
+typora-copy-images-to: images
+---
+
+```{r}
+# Load required libraries
+library(randomForest)
+library(ggplot2)
+
+# Set seed for reproducibility
+set.seed(123)
+
+data <- mtcars
+```
+
+# Split data into training and testing sets
+
+
+```{r}
+train_indices <- sample(1:nrow(data), 0.7 * nrow(data))
+train_data <- data[train_indices, ]
+test_data <- data[-train_indices, ]
+```
+
+# Train Random Forest model and make predictions
+
+
+```{r}
+rf_model <- randomForest(mpg ~ ., data = train_data, ntree = 500)
+
+predictions <- predict(rf_model, newdata = test_data)
+
+```
+
+# Calculate RMSE
+
+```{r}
+rmse <- sqrt(mean((test_data$mpg - predictions)^2))
+cat("Root Mean Square Error:", rmse, "\n")
+
+```
+
+# Plot actual vs predicted values
+
+```{r}
+ggplot(data.frame(actual = test_data$mpg, predicted = predictions), aes(x = actual, y = predicted)) +
+  geom_point(alpha = 0.5) +
+  geom_abline(intercept = 0, slope = 1, color = "red", linetype = "dashed") +
+  labs(x = "Actual Values", y = "Predicted Values", title = "Random Forest Regression: Actual vs Predicted")
+```
+
+# Print feature importance
+
+```{r}
+importance <- importance(rf_model)
+print(importance)
+```
+
+# Plot feature importance
+
+```{r}
+importance_df <- data.frame(feature = rownames(importance), importance = importance[, 1])
+ggplot(importance_df, aes(x = reorder(feature, importance), y = importance)) +
+  geom_bar(stat = "identity") +
+  coord_flip() +
+  labs(x = "Features", y = "Importance", title = "Random Forest: Feature Importance")
+
+```
+
+alternative at https://hackernoon.com/random-forest-regression-in-r-code-and-interpretation

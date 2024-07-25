@@ -1,0 +1,132 @@
+---
+title: "Linear Regression with R"
+format: html
+typora-copy-images-to: images
+---
+
+## A Polynomial Model 
+
+Here we have a data `mtcars {datasets}` that was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973-74 models). We will find a mathematical model between `Weight (wt)` and `Displacement (disp)` parameters. So let's find the most suitable model. Please draw the plot, determine the degree of equation (first, second of third) and draw the curve.  
+
+
+```{r}
+mtcars
+```
+
+
+```{r}
+plot(mtcars)
+```
+
+
+```{r}
+plot(mtcars$disp, mtcars$wt)
+```
+
+```{r}
+first_wd <- lm(wt ~ disp, data=mtcars)
+summary(first_wd)
+```
+
+```{r}
+second_wd <- lm(wt ~ disp + I(disp^2), data=mtcars)
+summary(second_wd)
+```
+
+```{r}
+third_wd <- lm(wt ~ disp + I(disp^2) + I(disp^3), data = mtcars)
+summary(third_wd)
+```
+
+```{r}
+plot(mtcars$disp,mtcars$wt)
+curve(2.243e-07*x^3 -1.807e-04*x^2 +4.945e-02*x -1.111e+00,add=TRUE)
+```
+
+
+```{r}
+best_model <- lm(wt ~ poly(disp,15), data=mtcars)
+summary(best_model)
+```
+
+```{r}
+pred <- predict(best_model, data.frame(disp=50:500))
+plot(mtcars$disp, mtcars$wt)
+points(50:500, pred, type="l")
+
+```
+
+```{r}
+predict(third_wd, data.frame(disp=420))
+```
+
+
+```{r}
+predict(best_model, data.frame(disp=420))
+```
+
+```{r}
+predict(best_model, data.frame(disp=c(20,420, 500)))
+```
+
+> So, the "best" model is **not** best at all..
+
+## Train/Test split
+
+Let's understand the topic of [overfitting](https://www.investopedia.com/terms/o/overfitting.asp).
+
+Split the data into train and test. Train the model with "training" data. Then predict with "test" data. 
+
+```{r}
+sample(1:32, 5, replace=FALSE)
+```
+
+
+```{r}
+set.seed(2)
+idx <- sample(1:32, 5, replace=FALSE)
+idx
+```
+
+```{r}
+test <- mtcars[idx,]
+
+test
+```
+
+```{r}
+train <- mtcars[-idx,]
+train
+```
+
+```{r}
+third_deg <- lm(wt ~ poly(disp,3), data = train)
+summary(third_deg)$r.squared
+```
+
+
+```{r}
+predict(third_deg, test)
+```
+
+```{r}
+test$third_pred <- predict(third_deg, test)
+test
+```
+
+```{r}
+fifteen_deg <- lm(wt ~ poly(disp,15), data=train)
+summary(fifteen_deg)$r.squared
+```
+
+```{r}
+predict(fifteen_deg, test)
+```
+
+```{r}
+test$fifteen <- predict(fifteen_deg, test)
+
+test[c("disp","wt","third_pred","fifteen")]
+```
+
+As you can see, "fifteenth degree" model memorized (i.e overfitted) the data and predicts horribly.
