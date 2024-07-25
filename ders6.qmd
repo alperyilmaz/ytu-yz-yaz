@@ -96,7 +96,7 @@ y is the dependent variable,  x is the independent variable,  β₀, β₁, β�
 
 Use [MTCARS dataset Excel file](files/mtcars-v2.xlsx) and;
 
-* draw Trendline between **mpg** (miles per galon) and **wt** (weight) columns.
+* draw Trendline between **wt** (weight) and **mpg** (miles per galon) columns.
 * draw Trendline between **disp** (displacement) and **wt** (weight) columns.
 
 Please visit [MyExcelOnline](https://www.myexcelonline.com/blog/add-trendlines-excel-charts/) in order see how to draw a Trendline in Excel
