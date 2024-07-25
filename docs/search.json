@@ -130,7 +130,7 @@
     "href": "ders6.html#linear-regression-in-excel",
     "title": "Regression Methods",
     "section": "Linear Regression in Excel",
-    "text": "Linear Regression in Excel\nUse MTCARS dataset Excel file and draw Trendline between disp (displacement) and wt (weight) columns.\nPlease visit MyExcelOnline in order see how to draw a Trendline in Excel"
+    "text": "Linear Regression in Excel\nUse MTCARS dataset Excel file and;\n\ndraw Trendline between mpg (miles per galon) and wt (weight) columns.\ndraw Trendline between disp (displacement) and wt (weight) columns.\n\nPlease visit MyExcelOnline in order see how to draw a Trendline in Excel"
   },
   {
     "objectID": "ders6.html#linear-regression-in-r",
