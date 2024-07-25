@@ -42,3 +42,8 @@
 **İçerik**: Sınıflandırma metodları [İngilizce Sunum linki](ders5.qmd), [Türkçe Sunum Linki](ders5-TR.qmd)
 
 
+## Ders6
+
+*Grup2: 25 Temmuz Cuma 8:30 - Grup1: 25 Temmuz Cuma 14:00*
+
+**İçerik**: Regresyon [İngilizce Sunum linki](ders6.qmd)
