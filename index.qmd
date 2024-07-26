@@ -25,7 +25,7 @@
 
 ## Ders3
 
-*Grup2: 11 Temmuz Perşembe 8:30 - Grup1: 11 Temmuz Perşembe 14:00*
+*Grup2: 11 Temmuz Perşembe 8:30 - Grup1: 11 Temmuz Perşembe 18:00*
 
 **İçerik**: Confusion matrix ve sınıflandırma/regresyon değerlendirmesi [Sunum linki](ders3.qmd)
 

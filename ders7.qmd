@@ -80,6 +80,25 @@ The purpose of clustering is multifaceted:
 
 **Density-based Methods**: Form clusters in areas of high data point density, separated by regions of low density, allowing for discovery of arbitrarily shaped clusters.
 
+## Applications
+
+1. Biology
+  * **Gene Expression Analysis**: Grouping genes with similar expression patterns across different conditions or time points.
+  * **Species Classification**: Clustering organisms based on genetic or morphological features.
+  * **Protein Structure Analysis**: Identifying structural motifs in proteins.
+
+2. Chemistry
+  * **Molecular Dynamics**: Analyzing conformations of molecules during simulations.
+  * **Spectroscopy**: Clustering similar spectra for compound identification.
+  * **Drug Discovery**: Grouping chemical compounds with similar properties or effects.
+
+##
+
+3. Physics
+  * **Particle Physics**: Classifying particle collision events in high-energy physics experiments.
+  * **Astrophysics**: Clustering stars or galaxies based on their properties (e.g., luminosity, temperature).
+  * **Materials Science**: Analyzing crystal structures and defects in materials.  
+
 ## Partitioning
 
 ![](images/clustering-in-machine-learning2.png)
@@ -106,25 +125,6 @@ Please visit the following sites:
 ## K-means clustering with R
 
 Please visit [K-means with R](kmeans-r.qmd) page for the code.
-
-## K-Means Clustering Applications
-
-1. Biology
-  * **Gene Expression Analysis**: Grouping genes with similar expression patterns across different conditions or time points.
-  * **Species Classification**: Clustering organisms based on genetic or morphological features.
-  * **Protein Structure Analysis**: Identifying structural motifs in proteins.
-
-2. Chemistry
-  * **Molecular Dynamics**: Analyzing conformations of molecules during simulations.
-  * **Spectroscopy**: Clustering similar spectra for compound identification.
-  * **Drug Discovery**: Grouping chemical compounds with similar properties or effects.
-
-## K-Means Clustering Applications (cont'd)
-
-3. Physics
-  * **Particle Physics**: Classifying particle collision events in high-energy physics experiments.
-  * **Astrophysics**: Clustering stars or galaxies based on their properties (e.g., luminosity, temperature).
-  * **Materials Science**: Analyzing crystal structures and defects in materials.
 
 ## Advantages of K-means clustering
 
@@ -225,3 +225,26 @@ Please visit [Visualizing DBSCAN Clustering](https://www.naftaliharris.com/blog/
 4. **Memory requirements**: Can be memory-intensive for large datasets.
 5. **Scalability**: Not as efficient for very large datasets compared to some other algorithms.
 6. **Connectivity-based**: May struggle with datasets where clusters are close but separated by sparse areas.
+
+## Evaluating clustering
+
+Definition: The silhouette score ranges from -1 to 1, where:
+
+* A score close to 1 indicates that the data point is well-matched to its own cluster and poorly-matched to neighboring clusters.
+* A score around 0 suggests that the data point is on or very close to the decision boundary between two neighboring clusters.
+* A negative score indicates that the data point might have been assigned to the wrong cluster.
+
+**Calculation**: For each data point i, the silhouette score s(i) is calculated as:
+
+s(i) = (b(i) - a(i)) / max(a(i), b(i))
+
+Where: a(i) is the average distance between i and all other points in the same clusteri, (i) is the average distance between i and all points in the nearest cluster that i is not a part of
+
+**Interpretation**:
+
+* Higher silhouette scores indicate better-defined clusters.
+* The average silhouette score across all points can be used to compare different clustering configurations.
+
+## Classification vs. Clustering
+
+please compare these two concepts
