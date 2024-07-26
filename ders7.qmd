@@ -1,0 +1,227 @@
+---
+title: "Clustering Methods"
+subtitle: "FEF3001 Yapay zekaya giriş - Ders7"
+author: "Alper Yılmaz"
+date: 2024-07-26
+format:
+  revealjs:
+    chalkboard: true
+    css: custom.css
+    smaller: true
+    scrollable: true
+    controls: true
+    touch: true
+    history: false
+    progress: true
+    slide-number: c/t
+typora-copy-images-to: images
+---
+
+## Contents
+
+:::: {.columns}
+
+::: {.column width="50%"}
+* Introduction to Clustering
+  * Definition and purpose, Unsupervised learning concept, Real-world applications in scientific fields
+
+* Types of Clustering Algorithms
+  * Partitioning methods (e.g., K-means)
+  * Hierarchical methods
+  * Density-based methods (e.g., DBSCAN)
+
+* K-means Clustering
+  * Algorithm explanation
+  * Choosing the number of clusters (elbow method)
+  * Advantages and limitations
+:::
+
+::: {.column width="50%"}
+* Hierarchical Clustering
+  * Agglomerative vs. divisive approaches
+  * Dendrogram interpretation
+  * Linkage methods (single, complete, average)
+
+* Density-Based Spatial Clustering of Applications with Noise (DBSCAN)
+  * Core concepts: core points, border points, noise
+  * Algorithm explanation
+  * Advantages
+
+* Evaluation Metrics for Clustering
+  * Silhouette score
+:::
+::::
+
+## Definition
+
+Clustering is a technique in machine learning and data analysis that involves grouping a set of objects or data points in such a way that objects in the same group (called a cluster) are more similar to each other than to those in other groups. It's a fundamental task in many data analysis and pattern recognition problems.
+
+## Purpose
+
+The purpose of clustering is multifaceted:
+
+**Pattern Discovery**: Clustering helps in identifying inherent patterns or structures within data that might not be immediately apparent.
+
+**Data Summarization**: It can be used to compress large datasets by representing many data points with fewer cluster centroids.
+
+**Anomaly Detection**: By identifying groups of similar data points, clustering can help in spotting outliers or anomalies that don't fit into any cluster.
+
+**Segmentation**: In fields like marketing, clustering is used to segment customers into groups with similar behaviors or characteristics.
+
+**Preprocessing for Other Algorithms**: Clustering can be used as a preprocessing step for other algorithms, reducing the complexity of the data.
+
+**Natural Classification**: In scientific fields, clustering can reveal natural groupings in data, such as in biology for grouping similar species or in astronomy for categorizing types of stars.
+
+## Clustering Methods
+
+**Partitioning methods**: Divide data into non-overlapping subsets, with each data point belonging to exactly one cluster, often optimizing a specific criterion.
+
+**Hierarchical Methods**: Create a tree-like structure of clusters, either by merging smaller clusters into larger ones or dividing larger clusters into smaller ones.
+
+**Density-based Methods**: Form clusters in areas of high data point density, separated by regions of low density, allowing for discovery of arbitrarily shaped clusters.
+
+## Partitioning
+
+![](images/clustering-in-machine-learning2.png)
+
+[Image source](https://tutorialforbeginner.com/clustering-in-machine-learning)
+
+## K-means clustering
+
+K-means clustering is an unsupervised machine learning algorithm used to group similar data points into clusters. It works by iteratively assigning data points to k predefined clusters based on their similarity to the cluster centers (centroids). The algorithm starts by randomly initializing k centroids in the feature space. It then repeatedly performs two steps: 
+
+1. assign each data point to the nearest centroid, and 
+2. recalculate the centroids as the mean of all points in each cluster. 
+
+This process continues until the centroids stabilize or a maximum number of iterations is reached. K-means aims to minimize the within-cluster sum of squares, resulting in compact and distinct clusters.
+
+## K-means clustering - interactive demos
+
+Please visit the following sites:
+
+1. [Two-dimensional visualization of k-means clustering algorithm](https://hckr.pl/k-means-visualization/)
+2. [K-means Clustering - Interactive Demonstration](http://alekseynp.com/viz/k-means.html)
+3. [Visualizing K-Means Clustering](https://www.naftaliharris.com/blog/visualizing-k-means-clustering/)
+
+## K-means clustering with R
+
+Please visit [K-means with R](kmeans-r.qmd) page for the code.
+
+## K-Means Clustering Applications
+
+1. Biology
+  * **Gene Expression Analysis**: Grouping genes with similar expression patterns across different conditions or time points.
+  * **Species Classification**: Clustering organisms based on genetic or morphological features.
+  * **Protein Structure Analysis**: Identifying structural motifs in proteins.
+
+2. Chemistry
+  * **Molecular Dynamics**: Analyzing conformations of molecules during simulations.
+  * **Spectroscopy**: Clustering similar spectra for compound identification.
+  * **Drug Discovery**: Grouping chemical compounds with similar properties or effects.
+
+## K-Means Clustering Applications (cont'd)
+
+3. Physics
+  * **Particle Physics**: Classifying particle collision events in high-energy physics experiments.
+  * **Astrophysics**: Clustering stars or galaxies based on their properties (e.g., luminosity, temperature).
+  * **Materials Science**: Analyzing crystal structures and defects in materials.
+
+## Advantages of K-means clustering
+
+1. **Simplicity**: Easy to understand and implement.
+2. **Efficiency**: Generally fast and computationally efficient, especially for large datasets.
+3. **Scalability**: Works well with high-dimensional data.
+4. **Flexibility**: Can be adapted to different types of data with appropriate distance metrics.
+5. **Interpretability**: Resulting clusters are often easy to interpret.
+
+## Disadvantages of K-means clustering
+
+1. **Sensitivity to initial centroids**: Results can vary based on the initial random placement of centroids.
+2. **Requires predefined k**: The number of clusters must be specified beforehand, which isn't always known.
+3. **Assumes spherical clusters**: Performs poorly with non-globular cluster shapes.
+4. **Sensitivity to outliers**: Outliers can significantly impact centroid calculation and cluster assignment.
+5. **Struggles with varying cluster sizes**: Tends to create clusters of similar spatial extent.
+6. **Local optima**: May converge to a local minimum rather than the global optimum.
+7. **Inability to handle categorical data directly**: Requires preprocessing for non-numerical data.
+
+## Hierarchical clustering
+
+Hierarchical clustering is an unsupervised machine learning technique used to group similar data points into clusters. Unlike other clustering methods that require a predefined number of clusters, hierarchical clustering creates a tree-like structure of clusters called a dendrogram. This method works by either starting with each data point as its own cluster and iteratively merging the closest clusters (agglomerative approach), or by starting with all data points in one cluster and recursively dividing it (divisive approach). The process continues until a stopping criterion is met, such as a desired number of clusters or a threshold distance between clusters. 
+
+Hierarchical clustering is particularly useful for exploring the inherent structure of data at different levels of granularity and for datasets where the number of clusters is not known in advance.
+
+## How it works
+
+Hierarchical clustering begins by calculating the distances between all pairs of data points using a chosen distance metric (e.g., Euclidean distance). In the agglomerative approach, which is more common, each data point starts as its own cluster. The algorithm then iteratively merges the two closest clusters based on a linkage criterion (e.g., single linkage, complete linkage, or average linkage). This process repeats, forming larger clusters until all data points are in a single cluster or until the desired number of clusters is reached. The result is a hierarchical structure that can be visualized as a dendrogram, allowing users to choose the level of clustering that best suits their needs.
+
+Please visit [Hierarchical Clustering in Data Mining](Hierarchical_Clustering_in_Data_Mining.qmd) and [An Introduction to Hierarchical Clustering](An_Introduction_to_Hierarchical_Clustering.qmd)
+
+## 
+
+Please visit following sites for demos
+
+1. [Clustering Demo at yFiles](https://www.yworks.com/demos/analysis/clustering/)
+
+
+## Advantages of hierarchical clustering
+
+1. **No predefined number of clusters required**: Unlike k-means, hierarchical clustering doesn't require specifying the number of clusters in advance.
+
+2. **Hierarchical representation**: Provides a dendrogram, offering insights into the data structure at different levels.
+
+3. **Flexibility in cluster granularity**: Users can choose the level of clustering that best suits their needs by cutting the dendrogram at different levels.
+
+4. **Applicability to various data types**: Can be applied to any data type for which a similarity or distance measure can be defined.
+
+5. **Interpretability**: The dendrogram provides a visually intuitive representation of the clustering process.
+
+6. **Handles different cluster shapes**: Can identify clusters of various shapes and sizes, not just spherical ones.
+
+## Disadvantages 
+
+1. **Computational complexity**: O(n^2) space complexity and O(n^3) time complexity in many implementations, making it less suitable for very large datasets.
+
+2. **Sensitivity to noise and outliers**: Outliers can significantly affect the shape of the dendrogram.
+
+3. **Difficulty in handling high-dimensional data**: Performance and interpretability may decrease as the number of dimensions increases.
+
+4. **Lack of backtracking**: Once a merge or split is made, it can't be undone, which may lead to suboptimal results.
+
+5. **Memory intensive**: Storing the distance matrix for large datasets can be memory-intensive.
+
+6. **Choice of distance metric and linkage method**: Results can vary significantly based on the chosen distance metric and linkage method, requiring careful consideration.
+
+7. **Scalability issues**: Not as scalable as some other clustering methods for very large datasets.
+
+## DBSCAN clustering
+
+DBSCAN (Density-Based Spatial Clustering of Applications with Noise) is a popular clustering algorithm that groups together points that are closely packed in space, marking points that lie alone in low-density regions as outliers. 
+
+It works by selecting a random unvisited point and exploring its neighborhood within a specified radius (ε). If this neighborhood contains a minimum number of points (MinPts), a cluster is formed. The algorithm then iteratively expands the cluster by exploring the neighborhoods of the newly added points. If a point doesn't have enough neighbors to form a cluster, it's labeled as noise. This process continues until all points have been visited, resulting in a set of dense clusters of varying shapes and sizes, along with identified noise points.
+
+## Interactive demos
+
+Please visit [DBSCAN— A visualized and detailed introduction](https://medium.com/@CrazyGalois/dbscan-a-visualized-and-detailed-introduction-8349bc0a2321) page about core concepts
+
+Please visit [Visualizing DBSCAN Clustering](https://www.naftaliharris.com/blog/visualizing-dbscan-clustering/) page for interactive demo for DBSCAN algoritm
+
+## DBSCAN Algoritm
+
+{{< video https://youtu.be/_A9Tq6mGtLI width="1200" height="600" >}}
+
+## Advantages of DBSCAN
+
+1. **Shape flexibility**: Can find arbitrarily shaped clusters, not just circular ones.
+2. **Outlier detection**: Automatically identifies noise points and outliers.
+3. **No pre-defined number of clusters**: Unlike k-means, doesn't require specifying the number of clusters beforehand.
+4. **Density-based**: Effective at separating clusters of different densities.
+5. **Robustness**: Less sensitive to outliers compared to centroid-based algorithms.
+
+## Disadvantages
+
+1. **Parameter sensitivity**: Results can vary significantly based on the choice of ε and MinPts parameters.
+2. **Struggle with varying densities**: May have difficulty when clusters have widely different densities.
+3. **High-dimensional data**: Performance and effectiveness can decrease in high-dimensional spaces due to the "curse of dimensionality".
+4. **Memory requirements**: Can be memory-intensive for large datasets.
+5. **Scalability**: Not as efficient for very large datasets compared to some other algorithms.
+6. **Connectivity-based**: May struggle with datasets where clusters are close but separated by sparse areas.

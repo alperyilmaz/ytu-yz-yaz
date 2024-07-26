@@ -44,6 +44,12 @@
 
 ## Ders6
 
-*Grup2: 25 Temmuz Cuma 8:30 - Grup1: 25 Temmuz Cuma 14:00*
+*Grup2: 25 Temmuz Perşembe 8:30 - Grup1: 25 Temmuz Perşembe 18:00*
 
 **İçerik**: Regresyon [İngilizce Sunum linki](ders6.qmd), [Türkçe Sunum linki](ders6-TR.qmd)
+
+## Ders7
+
+*Grup2: 26 Temmuz Cuma 8:30 - Grup1: 26 Temmuz Cuma 14:00*
+
+**İçerik**: Kümeleme [İngilizce Sunum linki](ders7.qmd)

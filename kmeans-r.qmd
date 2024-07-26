@@ -1,0 +1,40 @@
+---
+title: "K-means clustering with R"
+format: html
+typora-copy-images-to: images
+---
+
+taken from [Partitional Clustering in R: The Essentials](https://www.datanovia.com/en/lessons/k-means-clustering-in-r-algorith-and-practical-examples/)
+
+## The data
+
+```{r}
+#| warning: false
+library(factoextra)
+data("USArrests")
+df <- scale(USArrests)
+```
+
+```{r}
+head(df)
+```
+
+## What should K be?
+
+
+```{r}
+fviz_nbclust(df, kmeans, "wss")
+```
+
+## Clustering
+
+```{r}
+km.res <- kmeans(df, 4, nstart=25)
+print(km.res)
+```
+
+## Visualizing the results
+
+```{r}
+fviz_cluster(km.res, data=df)
+```
