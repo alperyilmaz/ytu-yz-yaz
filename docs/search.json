@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "FEF3001 Yapay Zekaya Giriş",
     "section": "",
-    "text": "Makine Öğrenmesinde Sınıflandırma Yöntemleri ve R Uygulamaları, Ersoy Öz & Selçuk Alp, Nobel Akademik Yayıncılık, 2020.\nVeri Madenciliği ve Makine Öğrenmesi İle Farklı Alanlarda Uygulamalar, Şenol Çelik, Nilay Köleoğlu, & Fatih Çemrek, Holistence Publications, 2022\nSağlık Bilimlerinde Yapay Zeka, Ahmet Rıza Şahin, Kamil Doğan, & Süleyman Sivri, Akademisyen Kitabevi A.Ş., 2020\nYapay Zeka, Atınç Yılmaz, Kodlab Yayın Dağıtım Yazılım Ltd. Şti., 2022\nMachine Learning Algorithms, Giuseppe Bonaccorso, Packt Publishing, 2017.\nOptimizasyon Modelleme ve Yapay Zeka Algoritmaları, Bayram Köse, Bahar Demirtürk, Efe Akademi Yayınları, 2023\n\n\n\n\nGrup2: 4 Temmuz Perşembe 8:30 - Grup1: 4 Temmuz Perşembe 18:00\nİçerik: İlk derste, ChatGPT ve benzeri büyük dil modelleri tanıtıldı. OpenAI Playground üzerinde “cümle tamamlama” kavramı ve “temparature” ayarı gösterildi. Daha iyi çıktı almak için Prompt ayarları anlatıldı. Dökümandan sorgu/chat yapmak için Gemini ve Claude örnekleri verildi. Yine Claude üzerinden kod yazdırma örneği işlendi. İngilizce Sunum linki, Türkçe Sunum linki\n\n\n\n\nGrup2: 5 Temmuz Cuma 8:30 - Grup1: 5 Temmuz Cuma 14:00\nİçerik: Veri türleri ve verilerin işlenmesine dair bilgi verildi. Sunum linki\n\n\n\nGrup2: 11 Temmuz Perşembe 8:30 - Grup1: 11 Temmuz Perşembe 14:00\nİçerik: Confusion matrix ve sınıflandırma/regresyon değerlendirmesi Sunum linki\n\n\n\nGrup2: 12 Temmuz Cuma 8:30 - Grup1: 12 Temmuz Cuma 14:00\nİçerik: Yapay sinir ağları Sunum linki. Derste kullanılan yapay sinir ağı demo sayfaları için link1 ve link2\n\n\n\nGrup2: 19 Temmuz Cuma 8:30 - Grup1: 19 Temmuz Cuma 14:00\nİçerik: Sınıflandırma metodları İngilizce Sunum linki, Türkçe Sunum Linki\n\n\n\nGrup2: 25 Temmuz Cuma 8:30 - Grup1: 25 Temmuz Cuma 14:00\nİçerik: Regresyon İngilizce Sunum linki, Türkçe Sunum linki"
+    "text": "Makine Öğrenmesinde Sınıflandırma Yöntemleri ve R Uygulamaları, Ersoy Öz & Selçuk Alp, Nobel Akademik Yayıncılık, 2020.\nVeri Madenciliği ve Makine Öğrenmesi İle Farklı Alanlarda Uygulamalar, Şenol Çelik, Nilay Köleoğlu, & Fatih Çemrek, Holistence Publications, 2022\nSağlık Bilimlerinde Yapay Zeka, Ahmet Rıza Şahin, Kamil Doğan, & Süleyman Sivri, Akademisyen Kitabevi A.Ş., 2020\nYapay Zeka, Atınç Yılmaz, Kodlab Yayın Dağıtım Yazılım Ltd. Şti., 2022\nMachine Learning Algorithms, Giuseppe Bonaccorso, Packt Publishing, 2017.\nOptimizasyon Modelleme ve Yapay Zeka Algoritmaları, Bayram Köse, Bahar Demirtürk, Efe Akademi Yayınları, 2023\n\n\n\n\nGrup2: 4 Temmuz Perşembe 8:30 - Grup1: 4 Temmuz Perşembe 18:00\nİçerik: İlk derste, ChatGPT ve benzeri büyük dil modelleri tanıtıldı. OpenAI Playground üzerinde “cümle tamamlama” kavramı ve “temparature” ayarı gösterildi. Daha iyi çıktı almak için Prompt ayarları anlatıldı. Dökümandan sorgu/chat yapmak için Gemini ve Claude örnekleri verildi. Yine Claude üzerinden kod yazdırma örneği işlendi. İngilizce Sunum linki, Türkçe Sunum linki\n\n\n\n\nGrup2: 5 Temmuz Cuma 8:30 - Grup1: 5 Temmuz Cuma 14:00\nİçerik: Veri türleri ve verilerin işlenmesine dair bilgi verildi. Sunum linki\n\n\n\nGrup2: 11 Temmuz Perşembe 8:30 - Grup1: 11 Temmuz Perşembe 14:00\nİçerik: Confusion matrix ve sınıflandırma/regresyon değerlendirmesi Sunum linki\n\n\n\nGrup2: 12 Temmuz Cuma 8:30 - Grup1: 12 Temmuz Cuma 14:00\nİçerik: Yapay sinir ağları Sunum linki. Derste kullanılan yapay sinir ağı demo sayfaları için link1 ve link2\n\n\n\nGrup2: 19 Temmuz Cuma 8:30 - Grup1: 19 Temmuz Cuma 14:00\nİçerik: Sınıflandırma metodları İngilizce Sunum linki, Türkçe Sunum Linki\n\n\n\nGrup2: 25 Temmuz Perşembe 8:30 - Grup1: 25 Temmuz Perşembe 18:00\nİçerik: Regresyon İngilizce Sunum linki, Türkçe Sunum linki\n\n\n\nGrup2: 26 Temmuz Cuma 8:30 - Grup1: 26 Temmuz Cuma 14:00\nİçerik: Kümeleme İngilizce Sunum linki"
   },
   {
     "objectID": "index.html#kaynaklar",
@@ -53,7 +53,14 @@
     "href": "index.html#ders6",
     "title": "FEF3001 Yapay Zekaya Giriş",
     "section": "",
-    "text": "Grup2: 25 Temmuz Cuma 8:30 - Grup1: 25 Temmuz Cuma 14:00\nİçerik: Regresyon İngilizce Sunum linki, Türkçe Sunum linki"
+    "text": "Grup2: 25 Temmuz Perşembe 8:30 - Grup1: 25 Temmuz Perşembe 18:00\nİçerik: Regresyon İngilizce Sunum linki, Türkçe Sunum linki"
+  },
+  {
+    "objectID": "index.html#ders7",
+    "href": "index.html#ders7",
+    "title": "FEF3001 Yapay Zekaya Giriş",
+    "section": "",
+    "text": "Grup2: 26 Temmuz Cuma 8:30 - Grup1: 26 Temmuz Cuma 14:00\nİçerik: Kümeleme İngilizce Sunum linki"
   },
   {
     "objectID": "id3-decision-tree-TR.html",
@@ -63,102 +70,277 @@
     "text": "Karar Ağacı Algoritması\nKaynak: https://medium.datadriveninvestor.com/decision-tree-algorithm-with-hands-on-example-e6c2afb40d38\nEntropi\nMakine öğreniminde, entropi işlenen bilgideki rastgeleliğin bir ölçüsüdür. Entropi ne kadar yüksek olursa, o bilgiden herhangi bir sonuç çıkarmak o kadar zor olur.\n\nBilgi Kazancı\nBilgi kazancı, bir rastgele değişken veya sinyalle ilgili olarak başka bir rastgele değişkeni gözlemleyerek elde edilen bilgi miktarı olarak tanımlanabilir. Ebeveyn düğümün entropisi ile çocuk düğümlerin ağırlıklı ortalama entropisi arasındaki fark olarak düşünülebilir.\n\nGini Safsızlığı\nGini safsızlığı, kümeden rastgele seçilen bir elemanın, alt kümedeki etiketlerin dağılımına göre rastgele etiketlendiğinde ne sıklıkla yanlış etiketleneceğinin bir ölçüsüdür.\n\nGini safsızlığı 0 ile alt sınırlıdır ve veri kümesi yalnızca bir sınıf içeriyorsa 0 olur.\n\nKarar ağacı oluşturmak için birçok algoritma vardır. Bunlar:\n\nCART (Sınıflandırma ve Regresyon Ağaçları) — Bu, metrik olarak Gini safsızlığını kullanır.\nID3 (Yinelemeli Bölücü 3) — Bu, metrik olarak entropi ve bilgi kazancını kullanır.\n\nBu makalede ID3’ü ele alacağım. Bunu anladıktan sonra, aynısını CART kullanarak uygulamak kolay olacaktır.\n\n\nID3 algoritması kullanarak sınıflandırma\nFutbol oynayıp oynamama kararını belirleyeceğimiz bir veri setini düşünün.\n\nBurada bağımlı değişkeni belirlemek için dört bağımsız değişken vardır. Bağımsız değişkenler Hava Durumu, Sıcaklık, Nem ve Rüzgardır. Bağımlı değişken ise futbol oynayıp oynamama durumudur.\nİlk adım olarak, karar ağacımız için ebeveyn düğümü bulmalıyız. Bunun için şu adımları izleyin:\nSınıf değişkeninin entropisini bulun.\nE(S) = -[(9/14)log(9/14) + (5/14)log(5/14)] = 0.94\nnot: Burada genellikle 2 tabanında logaritma alırız. Burada toplam 14 evet/hayır var. Bunların 9’u evet ve 5’i hayır. Buna dayanarak yukarıdaki olasılığı hesapladık.\nYukarıdaki verilerden hava durumu için aşağıdaki tabloyu kolayca elde edebiliriz:\n\nŞimdi ağırlıklı ortalama entropiyi hesaplamamız gerekiyor. Yani, her özelliğin ağırlıklarının olasılıklarla çarpımının toplamını bulduk.\nE(S, hava durumu) = (5/14)E(3,2) + (4/14)E(4,0) + (5/14)*E(2,3) = (5/14)(-(3/5)log(3/5)-(2/5)log(2/5))+ (4/14)(0) + (5/14)((2/5)log(2/5)-(3/5)log(3/5)) = 0.693\nBir sonraki adım bilgi kazancını bulmaktır. Bu, ebeveyn entropisi ile yukarıda bulduğumuz ağırlıklı ortalama entropi arasındaki farktır.\nIG(S, hava durumu) = 0.94 - 0.693 = 0.247\nBenzer şekilde Sıcaklık, Nem ve Rüzgar için Bilgi Kazancını bulun.\nIG(S, Sıcaklık) = 0.940 - 0.911 = 0.029\nIG(S, Nem) = 0.940 - 0.788 = 0.152\nIG(S, Rüzgar) = 0.940 - 0.8932 = 0.048\nŞimdi en büyük entropi kazancına sahip özelliği seçin. Burada bu Hava Durumu’dur. Dolayısıyla karar ağacımızın ilk düğümünü (kök düğüm) oluşturur.\nŞimdi verilerimiz şu şekilde görünüyor:\n\n\n\nBulutlu sadece ‘Evet’ sınıfına ait örnekler içerdiğinden, bunu evet olarak ayarlayabiliriz. Yani hava durumu bulutlu ise futbol oynanacak demektir. Şimdi karar ağacımız şu şekilde görünüyor:\n\nBir sonraki adım, karar ağacımızdaki bir sonraki düğümü bulmaktır. Şimdi güneşli altında bir tane bulacağız. Sıcaklık, Nem veya Rüzgardan hangisinin daha yüksek bilgi kazancına sahip olduğunu belirlememiz gerekiyor.\n\nEbeveyn entropisini hesaplayın E(güneşli)\nE(güneşli) = (-(3/5)log(3/5)-(2/5)log(2/5)) = 0.971.\nŞimdi Sıcaklığın bilgi kazancını hesaplayın. IG(güneşli, Sıcaklık)\n\nE(güneşli, Sıcaklık) = (2/5)E(0,2) + (2/5)E(1,1) + (1/5)*E(1,0)=2/5=0.4\nŞimdi bilgi kazancını hesaplayın.\nIG(güneşli, Sıcaklık) = 0.971–0.4 =0.571\nBenzer şekilde şunları elde ederiz:\nIG(güneşli, Nem) = 0.971\nIG(güneşli, Rüzgar) = 0.020\nBurada IG(güneşli, Nem) en büyük değerdir. Bu nedenle Nem, güneşli altına gelen düğümdür.\n\nNem için yukarıdaki tablodan, nem normal ise oyunun gerçekleşeceğini ve yüksek ise gerçekleşmeyeceğini söyleyebiliriz. Benzer şekilde, yağmurlu altındaki düğümleri bulun.\nNot: Entropisi 0’dan büyük olan bir dal daha fazla bölünmeye ihtiyaç duyar.\nSonuç olarak, karar ağacımız aşağıdaki gibi görünecektir:\n\n\n\nCART algoritması kullanarak sınıflandırma\nCART kullanarak sınıflandırma buna benzerdir. Ancak entropi yerine Gini safsızlığını kullanırız.\nİlk adım olarak karar ağacımızın kök düğümünü bulacağız. Bunun için sınıf değişkeninin Gini indeksini hesaplayın\nGini(S) = 1 - [(9/14)² + (5/14)²] = 0.4591\nBir sonraki adım olarak, Gini kazancını hesaplayacağız. Bunun için önce Hava Durumu, Sıcaklık, Nem ve Rüzgarın ağırlıklı ortalama Gini safsızlığını bulacağız.\nİlk olarak Hava Durumu durumunu ele alalım\n\nGini(S, hava durumu) = (5/14)gini(3,2) + (4/14)gini(4,0)+ (5/14)gini(2,3) = (5/14)(1 - (3/5)² - (2/5)²) + (4/14)*0 + (5/14)(1 - (2/5)² - (3/5)²)= 0.171+0+0.171 = 0.342\nGini kazancı (S, hava durumu) = 0.459 - 0.342 = 0.117\nGini kazancı(S, Sıcaklık) = 0.459 - 0.4405 = 0.0185\nGini kazancı(S, Nem) = 0.459 - 0.3674 = 0.0916\nGini kazancı(S, rüzgar) = 0.459 - 0.4286 = 0.0304\nDaha yüksek Gini kazancına sahip olanı seçin. Hava durumu için Gini kazancı daha yüksektir. Bu yüzden onu kök düğümümüz olarak seçebiliriz."
   },
   {
-    "objectID": "ders6.html#contents",
-    "href": "ders6.html#contents",
-    "title": "Regression Methods",
-    "section": "Contents",
-    "text": "Contents\n\nDefinition of regression\nTypes of regression (linear, polynomial, and ensemble methods)\n\nLinear Regression: Simple Linear Regression, Ordinary Least Squares method, Evaluating model performance (R-squared, RMSE)\nPolynomial Regression: When to use polynomial regression, overfitting\nRegression with Random Forest: Random Forest algorithm for regression, Advantages (handling non-linearity, feature importance)\nOther types of regression: Logistic regression (for binary outcomes), Ridge and Lasso regression (regularization techniques)\n\nExamples on Excel\nCode examples in R and Python"
+    "objectID": "ders3.html#değerlendirme-ölçütleri-performance-metrics",
+    "href": "ders3.html#değerlendirme-ölçütleri-performance-metrics",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Değerlendirme ölçütleri / Performance Metrics",
+    "text": "Değerlendirme ölçütleri / Performance Metrics\n\nSınıflandırma değerlendirme (Classification)\nRegresyon değerlendirme (Regression)"
   },
   {
-    "objectID": "ders6.html#regression",
-    "href": "ders6.html#regression",
-    "title": "Regression Methods",
-    "section": "Regression",
-    "text": "Regression\nRegression is a statistical method used in data analysis and machine learning to model and analyze the relationship between a dependent variable (often called the target or outcome variable) and one or more independent variables (also known as predictors or features). The primary goal of regression is to estimate how changes in the independent variables are associated with changes in the dependent variable, allowing for prediction and inference.\nKey points about regression:\n\nIt helps identify and quantify relationships between variables.\nIt can be used for both prediction and understanding the impact of variables.\nThere are various types of regression, including linear, polynomial, and more complex methods like Random Forest or Neural networks for regression.\nRegression models can handle both continuous and categorical variables.\nIt’s widely used in many fields, including science, economics, and social sciences."
+    "objectID": "ders3.html#sınıflandırma-ve-regresyon-classification-vs-regression",
+    "href": "ders3.html#sınıflandırma-ve-regresyon-classification-vs-regression",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Sınıflandırma ve Regresyon (Classification vs regression)",
+    "text": "Sınıflandırma ve Regresyon (Classification vs regression)\n\nSource"
   },
   {
-    "objectID": "ders6.html#linear-regression",
-    "href": "ders6.html#linear-regression",
-    "title": "Regression Methods",
-    "section": "Linear Regression",
-    "text": "Linear Regression"
-  },
-  {
-    "objectID": "ders6.html#linear-regression-1",
-    "href": "ders6.html#linear-regression-1",
-    "title": "Regression Methods",
-    "section": "Linear Regression",
-    "text": "Linear Regression"
-  },
-  {
-    "objectID": "ders6.html#linear-regression-2",
-    "href": "ders6.html#linear-regression-2",
-    "title": "Regression Methods",
-    "section": "Linear Regression",
-    "text": "Linear Regression\ntry finding the best line: https://www.geogebra.org/m/xC6zq7Zv"
-  },
-  {
-    "objectID": "ders6.html#ols-method",
-    "href": "ders6.html#ols-method",
-    "title": "Regression Methods",
-    "section": "OLS method",
-    "text": "OLS method\nOrdinary Least Squares (OLS) is a statistical method used to estimate the parameters of a linear regression model. It’s the most common technique for fitting a line to a set of data points in linear regression.\nOLS is a method that minimizes the sum of the squared differences between the observed dependent variable values and the predicted values by the linear function of the independent variable(s). In other words, it finds the line (or hyperplane in multiple dimensions) that best fits the data by minimizing the sum of the squared residuals.\nPlease visit OLS Method at Wikipedia for technical details."
-  },
-  {
-    "objectID": "ders6.html#multivariate-linear-regression",
-    "href": "ders6.html#multivariate-linear-regression",
-    "title": "Regression Methods",
-    "section": "Multivariate Linear Regression",
-    "text": "Multivariate Linear Regression\nMultivariate Linear Regression, also known as Multiple Linear Regression, is a statistical method used to model the relationship between multiple independent variables and a single dependent variable. It extends the concept of simple linear regression to include more than one predictor variable.\nThe general form of the model is:\n\\[\ny = \\beta_0 + \\beta_1x_1 + \\beta_2x_2 + \\ldots + \\beta_nx_n + \\varepsilon\n\\]\nWhere:\ny is the dependent variable, x₁, x₂, …, xₙ are the independent variables, β₀ is the y-intercept (the value of y when all x’s are zero), β₁, β₂, …, βₙ are the coefficients associated with each independent variable, n is the number of independent variables, ε is the error term"
-  },
-  {
-    "objectID": "ders6.html#polynomial-regression",
-    "href": "ders6.html#polynomial-regression",
-    "title": "Regression Methods",
-    "section": "Polynomial Regression",
-    "text": "Polynomial Regression\nPolynomial Regression is a form of regression analysis in which the relationship between the independent variable x and the dependent variable y is modeled as an nth degree polynomial. It’s used when the relationship between variables is not linear but can be approximated by a polynomial function.\n\\[\ny = \\beta_0 + \\beta_1x + \\beta_2x^2 + \\beta_3x^3 + \\ldots + \\beta_nx^n + \\varepsilon\n\\]\nWhere:\ny is the dependent variable, x is the independent variable, β₀, β₁, β₂, …, βₙ are the coefficients to be estimated, n is the degree of the polynomial and ε is the error term"
-  },
-  {
-    "objectID": "ders6.html#polynomial-regression-1",
-    "href": "ders6.html#polynomial-regression-1",
-    "title": "Regression Methods",
-    "section": "Polynomial Regression",
-    "text": "Polynomial Regression"
-  },
-  {
-    "objectID": "ders6.html#linear-regression-in-excel",
-    "href": "ders6.html#linear-regression-in-excel",
-    "title": "Regression Methods",
-    "section": "Linear Regression in Excel",
-    "text": "Linear Regression in Excel\nUse MTCARS dataset Excel file and;\n\ndraw Trendline between wt (weight) and mpg (miles per galon) columns.\ndraw Trendline between disp (displacement) and wt (weight) columns.\n\nPlease visit MyExcelOnline in order see how to draw a Trendline in Excel"
-  },
-  {
-    "objectID": "ders6.html#linear-regression-in-r",
-    "href": "ders6.html#linear-regression-in-r",
-    "title": "Regression Methods",
-    "section": "Linear Regression in R",
-    "text": "Linear Regression in R\nPlease refer to Linear Regression with R page for simple linear and polynomial regression."
-  },
-  {
-    "objectID": "ders6.html#regression-with-random-forest",
-    "href": "ders6.html#regression-with-random-forest",
-    "title": "Regression Methods",
-    "section": "Regression with Random Forest",
-    "text": "Regression with Random Forest\nPlease refer to random forest regression with R document."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "FEF3001 Yapay Zekaya Giriş Ders Notları",
+    "objectID": "ders3.html#section",
+    "href": "ders3.html#section",
+    "title": "Değerlendirme Ölçütleri",
     "section": "",
-    "text": "YTÜ Fen Fakültesinde 2024 Yaz döneminde verilen FEF3001 kodlu dersin içerikleri sayfasıdır.\n\n\n\nVize ne zaman? Cevap: 18 Temmuz 2024 perşembe saat 12:00\nVize yüz yüze mi? Cevap: Evet\nSınavlar hangi derslikte yapılacak? Cevap: Sınav derslikleri Fen Fakültesi sayfasında duyurulmuştur. Lütfen grubunuza (İng veya Türkçe) ve bölümünüze uygun derslikte sınava giriniz.\nVize konuları nelerdir? Cevap: Yapay sinir ağı konusunun sonuna kadar\nYüklenen sunumlar dışında bir kaynaktan soru sorulacak mıdır? Cevap: Temel olarak sunumlar kullanılacaktır fakat derste anlatılanlardan da sorumluyuz, ders video kaydı ve derste aldığınız notlarınızı da çalışınız\nVize test şeklinde mi ve kaç soru sorulur? Cevap: Test şeklinde 20-30 soru planlanmaktadır\nÇok fazla formül var, vizede formüller verilebilir mi? Cevap: Bütün formüller verilmeyecektir, az kullanılan ve karmaşık olan formüller verilebilir\nHaftaya ders yapılacak mı? Cevap: Sınav olduğu gün sadece FEF3001 dersi yapılmayacaktır, Cuma günü ders işlenecektir.\nYorum soruları sorulacak mı? Cevap: Genelde bilgi ölçen sorular terich edilecektir"
+    "text": "Source"
   },
   {
-    "objectID": "about.html#sıkça-sorulan-sorular",
-    "href": "about.html#sıkça-sorulan-sorular",
-    "title": "FEF3001 Yapay Zekaya Giriş Ders Notları",
+    "objectID": "ders3.html#sınıflandırma-ve-regresyon",
+    "href": "ders3.html#sınıflandırma-ve-regresyon",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Sınıflandırma ve Regresyon",
+    "text": "Sınıflandırma ve Regresyon\n\nSource"
+  },
+  {
+    "objectID": "ders3.html#section-1",
+    "href": "ders3.html#section-1",
+    "title": "Değerlendirme Ölçütleri",
     "section": "",
-    "text": "Vize ne zaman? Cevap: 18 Temmuz 2024 perşembe saat 12:00\nVize yüz yüze mi? Cevap: Evet\nSınavlar hangi derslikte yapılacak? Cevap: Sınav derslikleri Fen Fakültesi sayfasında duyurulmuştur. Lütfen grubunuza (İng veya Türkçe) ve bölümünüze uygun derslikte sınava giriniz.\nVize konuları nelerdir? Cevap: Yapay sinir ağı konusunun sonuna kadar\nYüklenen sunumlar dışında bir kaynaktan soru sorulacak mıdır? Cevap: Temel olarak sunumlar kullanılacaktır fakat derste anlatılanlardan da sorumluyuz, ders video kaydı ve derste aldığınız notlarınızı da çalışınız\nVize test şeklinde mi ve kaç soru sorulur? Cevap: Test şeklinde 20-30 soru planlanmaktadır\nÇok fazla formül var, vizede formüller verilebilir mi? Cevap: Bütün formüller verilmeyecektir, az kullanılan ve karmaşık olan formüller verilebilir\nHaftaya ders yapılacak mı? Cevap: Sınav olduğu gün sadece FEF3001 dersi yapılmayacaktır, Cuma günü ders işlenecektir.\nYorum soruları sorulacak mı? Cevap: Genelde bilgi ölçen sorular terich edilecektir"
+    "text": "Source"
+  },
+  {
+    "objectID": "ders3.html#fit",
+    "href": "ders3.html#fit",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Fit",
+    "text": "Fit\n\nSource"
+  },
+  {
+    "objectID": "ders3.html#training",
+    "href": "ders3.html#training",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Training",
+    "text": "Training\n\nSource"
+  },
+  {
+    "objectID": "ders3.html#training-test",
+    "href": "ders3.html#training-test",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Training / Test",
+    "text": "Training / Test\n\nSource"
+  },
+  {
+    "objectID": "ders3.html#classification-performance-metrics",
+    "href": "ders3.html#classification-performance-metrics",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Classification Performance Metrics",
+    "text": "Classification Performance Metrics\nBir Sınıflandırma modeli oluşturulduktan sonra bu model ile yapılan tahminlerin ne kadar doğru olduğuna dair değerlendirme yapılması gereklidir.\nAşağıda verilen confusion matrix (karşılaştırma matrisi) bir sınıflandırma modeline dair gerçekleşen durumları ve bu durumlara dair tahminleri verilmiştir.\n\n\n\n\n\nActual (Gerçek)\n\n\n\n\n\n\n\nTrue (Doğru)\nFalse (Yanlış)\n\n\nPrediction (Tahmin)\nPozitif\nTP\nFP\n\n\n\nNegatif\nFN\nTN\n\n\n\nTP : True Positive, FP : False Positive, FN : False Negative, TN : True Negative\nTrue ve false değeri bu modele dair gerçek sonuçları, positive ve negative ise modele dair tahminleri göstermektedir."
+  },
+  {
+    "objectID": "ders3.html#classification-performance-metrics-1",
+    "href": "ders3.html#classification-performance-metrics-1",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Classification Performance Metrics",
+    "text": "Classification Performance Metrics\nTümör ve Hasta örnekleri ele alırsak, Normal örnekler negatif olarak, Tümör örnekleri de pozitif olarak değerlendirilebilir.\n\nTP : Gerçekte Tümör olan hastayı (true/pozitif) Tümör olarak tahmin etmek (pozitif).\n\nFP : Gerçekte Normal olan örneği (false/negatif) Tümör olarak tahmin etmek (pozitif). — &gt; Type 1 Error\n\nFN : Gerçekte Tümor olan örneği (true/pozitif) Normal olarak tahmin etmek (negatif). — &gt; Type 2 Error\n\nTN : Gerçekte Normal olan örneği (false/negatif) Normal olarak tahmin etmek (negatif)."
+  },
+  {
+    "objectID": "ders3.html#metrics",
+    "href": "ders3.html#metrics",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Metrics",
+    "text": "Metrics\nAccuracy (Doğruluk) : Doğru tahminlerin toplam veri kümesine oranıdır.\nPrecision (Kesinlik): Pozitif olarak tahmin edilen verilerin kaçının gerçekten pozitif olduğunu gösterir.\nRecall or Sensitivity (Duyarlılık): Geliştirilen modelin pozitif olanların kaçını yakaladığını gösterir.\nF1 Score (F1 Skoru): F1 score, precision ve recall değerlerinin harmonik ortalamasıdır. Sınıf dağılımı benzer olduğunda accuracy kullanılabilirken, dengesiz veri setleri söz konusu olduğunda F1 skor daha iyi bir metriktir.\nROC Curve (ROC Eğrisi): Yanlış pozitif oranı ve gerçek pozitif oranı göz önünde bulundurarak x ekseninde ve y ekseninde 0’dan 100’e kadar olan değerlerin üzerinde bir eğri oluşturulur. Bu eğrinin altında kalan alana Area Under Curve (AUC) adı verilir. Bu alanın büyük olması modelin başarılı olduğunu gösterir. Grafikte yer alan mavi çizgi; ne kadar geniş bir alan kaplıyorsa modelin tahmin başarısı o kadar yüksek, ortadaki kesikli çizgiye ne kadar yakınsa modelin başarı oranı o kadar düşüktür."
+  },
+  {
+    "objectID": "ders3.html#roc-curve",
+    "href": "ders3.html#roc-curve",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "ROC Curve",
+    "text": "ROC Curve"
+  },
+  {
+    "objectID": "ders3.html#why-too-many-metrics",
+    "href": "ders3.html#why-too-many-metrics",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Why too many metrics?",
+    "text": "Why too many metrics?\n\n\nNeden birden fazla metrik kullanılıyor, bir örnek ile görelim. Yandaki durum için, 8 Normal ve 2 Tümör olan bir durumda, her örnek için Normal diye tahminde bulunursak. True Negatif (TN) sayısı 8 ve False Negatif (FN) sayısı ise 2 olmaktadır.\nBu durumda, doğruluk, accuracy\nACC = (TP + TN) / (TP + FP + TN + FN)\nformülünden dolayı 8 / 10 = 0.8 yani %80 olarak hesaplanmaktadır.\nFakat, Duyarlılık/Sensitivity\nSENS = TP / (TP + FN)\nformülünden 0 çıkmaktadır.\n\n\n\n\nActual Label\nPrediction\n\n\n\n\nTumor\nNormal\n\n\nTumor\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal"
+  },
+  {
+    "objectID": "ders3.html#example",
+    "href": "ders3.html#example",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Example",
+    "text": "Example\n100 kişilik bir çalışmada, 25 Tümör hastası ve 75 Normal birey bulunmaktadır. Normal (negatif) olan 70 kişi Normal olarak tahmin edilmştir (TN: True Negatif). 5 kişi Normal olduğu halde Tümör olarak tahmin edilmiştir (FP: False pozitif). Gerçekte Tümör olan 15 kişi Tümör olarak tahmin edilmiştir (TP: True pozitif). Son olarak, 10 kişi Tümör olduğu halde Normal olarak tahmin edilmiştir (FN: False negatif). Bu duruma göre Confusion Matrix aşağıdaki gibi hesaplanacaktır.\n\n\n\n\n\nActual\n\n\n\n\n\n\n\nTrue\nFalse\n\n\nTahmin\nPozitif\nTP (15)\nFP (5)\n\n\n\nNegatif\nFN (10)\nTN (70)"
+  },
+  {
+    "objectID": "ders3.html#example-1",
+    "href": "ders3.html#example-1",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Example",
+    "text": "Example\nBu durumda,\nDoğruluk (Accuracy) ACC = (TP + TN) / (TP + TN + FN + FP) = 0.85\nDuyarlılık (Sensitivity) SENS = TP / (TP + FN) = 0.60\nKesinlik (Precision) PREC = TP / (TP + FP) = 0.75\nF1 Skor = 2 x (PREC x SENS) / (PREC + SENS) = 0.6667"
+  },
+  {
+    "objectID": "ders3.html#summary",
+    "href": "ders3.html#summary",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Summary",
+    "text": "Summary\n\nSource"
+  },
+  {
+    "objectID": "ders3.html#python-code",
+    "href": "ders3.html#python-code",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Python code",
+    "text": "Python code\n\nfrom sklearn.metrics import confusion_matrix\n\nactual    = [1, 0, 1, 1, 0, 0, 1, 0, 1, 1]\npredicted = [0, 1, 1, 1, 1, 0, 1, 1, 0, 1]\n\nprint(\"\\nConfusion matrix\")\nconf_mat = confusion_matrix(actual, predicted) \n\nprint(conf_mat)\n\n\nConfusion matrix\n[[1 3]\n [2 4]]"
+  },
+  {
+    "objectID": "ders3.html#regression-performance-metrics",
+    "href": "ders3.html#regression-performance-metrics",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Regression Performance Metrics",
+    "text": "Regression Performance Metrics\nFollowing metrics can be used to measure the performance of regression model output.\n\nMean Error (ME)\nMean Absolute Error (MAE)\nMean Squared Error (MSE)\nRoot Mean Squared Error (RMSE)\n\nThere are much more advanced metrics but we’ll learn only essental ones"
+  },
+  {
+    "objectID": "ders3.html#mean-error-me",
+    "href": "ders3.html#mean-error-me",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Mean Error (ME)",
+    "text": "Mean Error (ME)\n\\[ \\text{ME} = \\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i) \\]\n\\(y_i\\): Actual value, \\(\\hat{y}_i\\): predicted value, n: number of observations"
+  },
+  {
+    "objectID": "ders3.html#mean-absolute-error-mae",
+    "href": "ders3.html#mean-absolute-error-mae",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Mean Absolute Error (MAE)",
+    "text": "Mean Absolute Error (MAE)\nAdding negative results is not right when using ME. Let’s take care of it.\n\\[ \\text{MAE} = \\frac{1}{n} \\sum_{i=1}^{n} |y_i - \\hat{y}_i| \\]"
+  },
+  {
+    "objectID": "ders3.html#mean-squared-error-mse",
+    "href": "ders3.html#mean-squared-error-mse",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Mean Squared Error (MSE)",
+    "text": "Mean Squared Error (MSE)\n\\[ \\text{MSE} = \\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^2 \\]\nPlease note that squaring the error with punish the model more. Also, squaring a difference will take care of negative sign."
+  },
+  {
+    "objectID": "ders3.html#root-mean-squared-error-rmse",
+    "href": "ders3.html#root-mean-squared-error-rmse",
+    "title": "Değerlendirme Ölçütleri",
+    "section": "Root Mean Squared Error (RMSE)",
+    "text": "Root Mean Squared Error (RMSE)\n\\[ \\text{RMSE} = \\sqrt{\\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^2} \\]"
+  },
+  {
+    "objectID": "ders6-TR.html#içerik",
+    "href": "ders6-TR.html#içerik",
+    "title": "Regresyon Yöntemleri",
+    "section": "İçerik",
+    "text": "İçerik\n\nRegresyonun tanımı\nRegresyon türleri (doğrusal, polinom ve topluluk yöntemleri)\n\nDoğrusal Regresyon: Basit Doğrusal Regresyon, En Küçük Kareler yöntemi, Model performansının değerlendirilmesi (R-kare, RMSE)\nPolinom Regresyon: Ne zaman polinom regresyon kullanılır, aşırı uyum\nRastgele Orman ile Regresyon: Regresyon için Rastgele Orman algoritması, Avantajları (doğrusal olmayan ilişkileri ele alma, özellik önemi)\nDiğer regresyon türleri: Lojistik regresyon (ikili sonuçlar için), Ridge ve Lasso regresyonu (düzenlileştirme teknikleri)\n\nExcel’de örnekler\nR ve Python’da kod örnekleri"
+  },
+  {
+    "objectID": "ders6-TR.html#regresyon",
+    "href": "ders6-TR.html#regresyon",
+    "title": "Regresyon Yöntemleri",
+    "section": "Regresyon",
+    "text": "Regresyon\nRegresyon, bir bağımlı değişken (genellikle hedef veya sonuç değişkeni olarak adlandırılır) ile bir veya daha fazla bağımsız değişken (ayrıca tahmin edici veya özellik olarak da bilinir) arasındaki ilişkiyi modellemek ve analiz etmek için veri analizinde ve makine öğrenmesinde kullanılan istatistiksel bir yöntemdir. Regresyonun temel amacı, bağımsız değişkenlerdeki değişikliklerin bağımlı değişkendeki değişikliklerle nasıl ilişkili olduğunu tahmin etmek ve çıkarım yapmaktır.\nRegresyon hakkında önemli noktalar:\n\nDeğişkenler arasındaki ilişkileri tanımlamaya ve ölçmeye yardımcı olur.\nHem tahmin hem de değişkenlerin etkisini anlamak için kullanılabilir.\nDoğrusal, polinom ve Rastgele Orman veya regresyon için Sinir Ağları gibi daha karmaşık yöntemler dahil olmak üzere çeşitli regresyon türleri vardır.\nRegresyon modelleri hem sürekli hem de kategorik değişkenleri ele alabilir.\nBilim, ekonomi ve sosyal bilimler dahil olmak üzere birçok alanda yaygın olarak kullanılır."
+  },
+  {
+    "objectID": "ders6-TR.html#doğrusal-lineer-regresyon",
+    "href": "ders6-TR.html#doğrusal-lineer-regresyon",
+    "title": "Regresyon Yöntemleri",
+    "section": "Doğrusal (Lineer) Regresyon",
+    "text": "Doğrusal (Lineer) Regresyon"
+  },
+  {
+    "objectID": "ders6-TR.html#doğrusal-regresyon",
+    "href": "ders6-TR.html#doğrusal-regresyon",
+    "title": "Regresyon Yöntemleri",
+    "section": "Doğrusal Regresyon",
+    "text": "Doğrusal Regresyon"
+  },
+  {
+    "objectID": "ders6-TR.html#doğrusal-regresyon-1",
+    "href": "ders6-TR.html#doğrusal-regresyon-1",
+    "title": "Regresyon Yöntemleri",
+    "section": "Doğrusal Regresyon",
+    "text": "Doğrusal Regresyon\nEn iyi doğruyu bulmayı deneyin: https://www.geogebra.org/m/xC6zq7Zv"
+  },
+  {
+    "objectID": "ders6-TR.html#en-küçük-kareler-ols-yöntemi",
+    "href": "ders6-TR.html#en-küçük-kareler-ols-yöntemi",
+    "title": "Regresyon Yöntemleri",
+    "section": "En Küçük Kareler (OLS) Yöntemi",
+    "text": "En Küçük Kareler (OLS) Yöntemi\nEn Küçük Kareler (Ordinary Least Squares - OLS), doğrusal bir regresyon modelinin parametrelerini tahmin etmek için kullanılan istatistiksel bir yöntemdir. Doğrusal regresyonda bir veri kümesine doğru yerleştirmek için en yaygın kullanılan tekniktir.\nOLS, gözlemlenen bağımlı değişken değerleri ile bağımsız değişken(ler)in doğrusal fonksiyonu tarafından tahmin edilen değerler arasındaki farkların karelerinin toplamını en aza indiren bir yöntemdir. Başka bir deyişle, kare artıkların toplamını en aza indirerek verilere en iyi uyan çizgiyi (veya çoklu boyutlarda hiperplane) bulur.\nTeknik detaylar için lütfen Wikipedia’daki OLS Yöntemi sayfasını ziyaret edin."
+  },
+  {
+    "objectID": "ders6-TR.html#çok-değişkenli-doğrusal-regresyon",
+    "href": "ders6-TR.html#çok-değişkenli-doğrusal-regresyon",
+    "title": "Regresyon Yöntemleri",
+    "section": "Çok Değişkenli Doğrusal Regresyon",
+    "text": "Çok Değişkenli Doğrusal Regresyon\nÇok Değişkenli Doğrusal Regresyon, aynı zamanda Çoklu Doğrusal Regresyon olarak da bilinen, birden fazla bağımsız değişken ile tek bir bağımlı değişken arasındaki ilişkiyi modellemek için kullanılan istatistiksel bir yöntemdir. Basit doğrusal regresyon kavramını birden fazla tahmin değişkeni içerecek şekilde genişletir.\nModelin genel formu şöyledir:\n\\[\ny = \\beta_0 + \\beta_1x_1 + \\beta_2x_2 + \\ldots + \\beta_nx_n + \\varepsilon\n\\]\nBurada:\ny bağımlı değişken, x₁, x₂, …, xₙ bağımsız değişkenler, β₀ y-kesişimi (tüm x’ler sıfır olduğunda y’nin değeri), β₁, β₂, …, βₙ her bağımsız değişkenle ilişkili katsayılar, n bağımsız değişken sayısı, ε hata terimi"
+  },
+  {
+    "objectID": "ders6-TR.html#polinom-regresyon",
+    "href": "ders6-TR.html#polinom-regresyon",
+    "title": "Regresyon Yöntemleri",
+    "section": "Polinom Regresyon",
+    "text": "Polinom Regresyon\nPolinom Regresyon, bağımsız değişken x ile bağımlı değişken y arasındaki ilişkinin n’inci dereceden bir polinom olarak modellendiği bir regresyon analizi formudur. Değişkenler arasındaki ilişki doğrusal olmadığında ancak bir polinom fonksiyonuyla yaklaşık olarak ifade edilebileceği durumlarda kullanılır.\n\\[\ny = \\beta_0 + \\beta_1x + \\beta_2x^2 + \\beta_3x^3 + \\ldots + \\beta_nx^n + \\varepsilon\n\\]\nBurada:\ny bağımlı değişken, x bağımsız değişken, β₀, β₁, β₂, …, βₙ tahmin edilecek katsayılar, n polinomun derecesi ve ε hata terimi"
+  },
+  {
+    "objectID": "ders6-TR.html#polinom-regresyon-1",
+    "href": "ders6-TR.html#polinom-regresyon-1",
+    "title": "Regresyon Yöntemleri",
+    "section": "Polinom Regresyon",
+    "text": "Polinom Regresyon"
+  },
+  {
+    "objectID": "ders6-TR.html#excelde-doğrusal-regresyon",
+    "href": "ders6-TR.html#excelde-doğrusal-regresyon",
+    "title": "Regresyon Yöntemleri",
+    "section": "Excel’de Doğrusal Regresyon",
+    "text": "Excel’de Doğrusal Regresyon\nMTCARS veri seti Excel dosyasını kullanın ve;\n\nwt (ağırlık) ve mpg (galon başına mil) sütunları arasında Eğilim Çizgisi çizin.\ndisp (silindir hacmi) ve wt (ağırlık) sütunları arasında Eğilim Çizgisi çizin.\n\nExcel’de nasıl Eğilim Çizgisi çizileceğini görmek için lütfen MyExcelOnline sayfasını ziyaret edin."
+  },
+  {
+    "objectID": "ders6-TR.html#r-ile-doğrusal-regresyon",
+    "href": "ders6-TR.html#r-ile-doğrusal-regresyon",
+    "title": "Regresyon Yöntemleri",
+    "section": "R ile Doğrusal Regresyon",
+    "text": "R ile Doğrusal Regresyon\nBasit doğrusal ve polinom regresyon için lütfen R ile Doğrusal Regresyon sayfasına bakın."
+  },
+  {
+    "objectID": "ders6-TR.html#rastgele-orman-random-forest-ile-regresyon",
+    "href": "ders6-TR.html#rastgele-orman-random-forest-ile-regresyon",
+    "title": "Regresyon Yöntemleri",
+    "section": "Rastgele Orman (Random Forest) ile Regresyon",
+    "text": "Rastgele Orman (Random Forest) ile Regresyon\nLütfen R ile rastgele orman regresyonu belgesine bakın."
+  },
+  {
+    "objectID": "kmeans-r.html",
+    "href": "kmeans-r.html",
+    "title": "K-means clustering with R",
+    "section": "",
+    "text": "taken from Partitional Clustering in R: The Essentials"
+  },
+  {
+    "objectID": "kmeans-r.html#the-data",
+    "href": "kmeans-r.html#the-data",
+    "title": "K-means clustering with R",
+    "section": "The data",
+    "text": "The data\n\nlibrary(factoextra)\ndata(\"USArrests\")\ndf &lt;- scale(USArrests)\n\n\nhead(df)\n\n               Murder   Assault   UrbanPop         Rape\nAlabama    1.24256408 0.7828393 -0.5209066 -0.003416473\nAlaska     0.50786248 1.1068225 -1.2117642  2.484202941\nArizona    0.07163341 1.4788032  0.9989801  1.042878388\nArkansas   0.23234938 0.2308680 -1.0735927 -0.184916602\nCalifornia 0.27826823 1.2628144  1.7589234  2.067820292\nColorado   0.02571456 0.3988593  0.8608085  1.864967207"
+  },
+  {
+    "objectID": "kmeans-r.html#what-should-k-be",
+    "href": "kmeans-r.html#what-should-k-be",
+    "title": "K-means clustering with R",
+    "section": "What should K be?",
+    "text": "What should K be?\n\nfviz_nbclust(df, kmeans, \"wss\")"
+  },
+  {
+    "objectID": "kmeans-r.html#clustering",
+    "href": "kmeans-r.html#clustering",
+    "title": "K-means clustering with R",
+    "section": "Clustering",
+    "text": "Clustering\n\nkm.res &lt;- kmeans(df, 4, nstart=25)\nprint(km.res)\n\nK-means clustering with 4 clusters of sizes 16, 8, 13, 13\n\nCluster means:\n      Murder    Assault   UrbanPop        Rape\n1 -0.4894375 -0.3826001  0.5758298 -0.26165379\n2  1.4118898  0.8743346 -0.8145211  0.01927104\n3 -0.9615407 -1.1066010 -0.9301069 -0.96676331\n4  0.6950701  1.0394414  0.7226370  1.27693964\n\nClustering vector:\n       Alabama         Alaska        Arizona       Arkansas     California \n             2              4              4              2              4 \n      Colorado    Connecticut       Delaware        Florida        Georgia \n             4              1              1              4              2 \n        Hawaii          Idaho       Illinois        Indiana           Iowa \n             1              3              4              1              3 \n        Kansas       Kentucky      Louisiana          Maine       Maryland \n             1              3              2              3              4 \n Massachusetts       Michigan      Minnesota    Mississippi       Missouri \n             1              4              3              2              4 \n       Montana       Nebraska         Nevada  New Hampshire     New Jersey \n             3              3              4              3              1 \n    New Mexico       New York North Carolina   North Dakota           Ohio \n             4              4              2              3              1 \n      Oklahoma         Oregon   Pennsylvania   Rhode Island South Carolina \n             1              1              1              1              2 \n  South Dakota      Tennessee          Texas           Utah        Vermont \n             3              2              4              1              3 \n      Virginia     Washington  West Virginia      Wisconsin        Wyoming \n             1              1              3              3              1 \n\nWithin cluster sum of squares by cluster:\n[1] 16.212213  8.316061 11.952463 19.922437\n (between_SS / total_SS =  71.2 %)\n\nAvailable components:\n\n[1] \"cluster\"      \"centers\"      \"totss\"        \"withinss\"     \"tot.withinss\"\n[6] \"betweenss\"    \"size\"         \"iter\"         \"ifault\""
+  },
+  {
+    "objectID": "kmeans-r.html#visualizing-the-results",
+    "href": "kmeans-r.html#visualizing-the-results",
+    "title": "K-means clustering with R",
+    "section": "Visualizing the results",
+    "text": "Visualizing the results\n\nfviz_cluster(km.res, data=df)"
   },
   {
     "objectID": "ders1.html",
@@ -266,137 +448,333 @@
     "text": "Music or sound generation\n\nElevenlabs can convert text to speech online for free with our AI voice generator"
   },
   {
-    "objectID": "ders1-TR.html",
-    "href": "ders1-TR.html",
-    "title": "GPT modelleri",
+    "objectID": "An_Introduction_to_Hierarchical_Clustering.html",
+    "href": "An_Introduction_to_Hierarchical_Clustering.html",
+    "title": "An Introduction to Hierarchical Clustering",
     "section": "",
-    "text": "GPT1, GPT2 ve GPT3, ChatGPT’den birkaç yıl önce piyasaya sürüldü ve cümleleri tamamlama yeteneğine sahipti. Daha fazla bilgi için “ChatGPT Nasıl Çalışır?” sitesini ziyaret edin. ChatGPT’nin piyasaya sürülmesinden sonra, büyük dil modelleri “konuşma yeteneği” kazandı.\nLütfen OpenAI Playground tamamlama sitesini ziyaret edin ve model olarak “gpt-3.5-turbo”yu seçin. Tamamlanmamış bir cümle yazın ve ardından Gönder düğmesine basın.\n\nModelin cümlenizi tamamladığını göreceksiniz. Sağ menüdeki “Olasılıkları göster” seçeneğini açarsanız, GPT’nin nasıl çalıştığına dair bir fikir edinebilirsiniz.\n\nCümleyi tamamlayıp kelimelerin üzerine geldiğinizde, modelin belirli olasılıklarla seçebileceği birçok kelime olduğunu göreceksiniz. Bu örnekte, “my” kelimesi Today is ifadesinden sonra 4. en olası kelimedir ve “birthday” kelimesi Today is my ifadesinden sonra en olası kelimedir.\n\n\nGPT modellerinin temel ayarlarından biri sıcaklık değeridir. Sıcaklığı azaltırsanız, model en olası kelimeleri seçecektir. Sıcaklık yüksekse, model düşük olasılıklı kelimeleri seçecektir, bu da yaratıcı ve çeşitli çıktılar sağlayacaktır.\nSıcaklığı sıfıra düşürürseniz, çıktı her zaman aynı olacaktır."
+    "text": "Taken from the article “An Introduction to Hierarchical Clustering in Python” from DataCamp"
   },
   {
-    "objectID": "ders1-TR.html#chatgpt-bizim-için-kod-yazıyor",
-    "href": "ders1-TR.html#chatgpt-bizim-için-kod-yazıyor",
-    "title": "GPT modelleri",
-    "section": "ChatGPT bizim için kod yazıyor",
-    "text": "ChatGPT bizim için kod yazıyor\nHadi ChatGPT’den Python’da hızlı bir asal sayı fonksiyonu isteyelim\n\n\nAz önce ne olduğunu gördünüz mü! Bize özel hazırlanmış bir kod sağladı ve kodun parçalarını da açıkladı. Kodun dersimiz sırasında öğrendiğimiz püf noktaları içerdiğini fark ettiniz mi: * erken durma: bir koşul karşılanırsa, hemen True veya False döndür * N’ye kadar kontrol etmek yerine, \\(\\sqrt{N}\\)’e kadar olan sayıları kontrol etmeliyiz (Python’da n  0.5**)\nKonuşmaya devam edebilirsiniz. Hadi memoization isteyelim.\n\n\nHadi kodu alalım ve burada test edelim:\ndef is_prime(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n in (2, 3):\n        result = True\n    elif n == 1 or n % 2 == 0:\n        result = False\n    else:\n        result = True\n        for i in range(3, int(n ** 0.5) + 1, 2):\n            if n % i == 0:\n                result = False\n                break\n    memo[n] = result\n    return result\n# is_prime(100000000003)\n\n\n\n\n\n\nUyarı\n\n\n\nBu notu yazdığım sırada (Ocak 2023) chatGPT’nin tam olarak doğru olmayan sonuçlar verdiği biliniyordu!Bu nedenle, chatGPT’den aldığınız kodu veya bilgiyi kontrol etmeden veya doğrulamadan olduğu gibi kullanmamaya dikkat ediniz."
+    "objectID": "An_Introduction_to_Hierarchical_Clustering.html#definition-of-hierarchical-clustering",
+    "href": "An_Introduction_to_Hierarchical_Clustering.html#definition-of-hierarchical-clustering",
+    "title": "An Introduction to Hierarchical Clustering",
+    "section": "Definition of Hierarchical Clustering",
+    "text": "Definition of Hierarchical Clustering\nA hierarchical clustering approach is based on the determination of successive clusters based on previously defined clusters. It’s a technique aimed more toward grouping data into a tree of clusters called dendrograms, which graphically represents the hierarchical relationship between the underlying clusters."
   },
   {
-    "objectID": "ders1-TR.html#chatgpt-kodu-düzeltebilir-veya-değiştirebilir",
-    "href": "ders1-TR.html#chatgpt-kodu-düzeltebilir-veya-değiştirebilir",
-    "title": "GPT modelleri",
-    "section": "ChatGPT kodu düzeltebilir veya değiştirebilir",
-    "text": "ChatGPT kodu düzeltebilir veya değiştirebilir\nElinizde bir kod parçası var ve istediğiniz gibi çalışmıyor mu? O zaman ChatGPT’den kodu düzeltmesini isteyebilirsiniz.\nHatalı bir kod verelim ve chatGPT’den hata ayıklamasını isteyelim:\n\n\nDemek ki ChatGPT kodu düzeltebiliyor! Bu arada, o örneği hazırlamak için ChatGPT’yi kullandığımı biliyor muydunuz? ;)"
+    "objectID": "An_Introduction_to_Hierarchical_Clustering.html#comparison-of-hierarchical-clustering-to-other-clustering-techniques",
+    "href": "An_Introduction_to_Hierarchical_Clustering.html#comparison-of-hierarchical-clustering-to-other-clustering-techniques",
+    "title": "An Introduction to Hierarchical Clustering",
+    "section": "Comparison of Hierarchical Clustering to Other Clustering Techniques",
+    "text": "Comparison of Hierarchical Clustering to Other Clustering Techniques\nHierarchical clustering is a powerful algorithm, but it is not the only one out there, and each type of clustering comes with its set of advantages and drawbacks.\nLet’s understand how it compares to other types of clustering, such as K-means and model-based clustering. Many more techniques exist, but these two, in addition to hierarchical clustering, are widely used and provide a framework to help better understand the others.\nYou can learn more about clustering in machine learning in our separate article, covering five essential clustering algorithms.\n\nHierarchical clustering vs K Means clustering\nUnlike Hierarchical clustering, K-means clustering seeks to partition the original data points into “K” groups or clusters where the user specifies “K” in advance.\nThe general idea is to look for clusters that minimize the squared Euclidean distance of all the points from the centers over all attributes (variables or features) and merge those individuals in an iterative manner.\nOur K-means Clustering in Python with Scikit-learn tutorial will help you understand the inner workings of K-means clustering with an interesting case study.\n\nBenefits\n\nIt is computationally efficient compared to hierarchical clustering and can be used to analyze large data sets.\nK-means is easier to understand and implement.\n\n\n\nDrawbacks\n\nIt is less flexible than hierarchical clustering because it constrains the user to specify the number of clusters beforehand, which may not be obvious in some situations.\nThe result is not stable and changes from one iteration to another for the same data set.\nIt is more sensitive to outliers because the use of outliers in the data impacts the mean of the cluster.\nBoth k-means and hierarchical clustering are incapable of handling categorical data directly and may not work well with data that is not continuous or has very large variance.\n\nDespite its limitations, k-means clustering is still a popular method due to its ease of use and computational efficiency. It is frequently used as a reference point for comparing the performance of other clustering techniques.\n\n\n\nModel-based clustering\nBoth K-means and hierarchical clustering techniques use a distance matrix to represent the distances between all the points in the dataset. Model-based clustering, on the other hand, applies statistical techniques to identify clusters in the data. Below is the general process:\n\nDecide the statistical model to use and choose the number of clusters.\nFit the model on the data.\nIdentify the clusters based on the model parameters.\n\n\nBenefits\n\nModel-based clustering is more flexible than hierarchical clustering because it allows the use of different models to identify different types of clusters.\nIt works better on data with complex shapes or structures.\n\n\n\nDrawbacks\n\nIt’s computationally more expensive than hierarchical clustering, especially for large data.\nIt requires a better understanding of statistical modeling techniques since the choice of the model can affect the final result.\nSimilarly to K-means clustering, it requires the number of clusters to be specified beforehand."
   },
   {
-    "objectID": "ders1-TR.html#bu-programlamanın-sonu-mu",
-    "href": "ders1-TR.html#bu-programlamanın-sonu-mu",
-    "title": "GPT modelleri",
-    "section": "Bu programlamanın sonu mu?",
-    "text": "Bu programlamanın sonu mu?\n“Bir dönem boyunca Python öğrendik ama şimdi ChatGPT var, hiç kod öğrenmeye gerek yok!” diye düşünebilirsiniz. Benzer endişeleri araştıran çevrimiçi içerikler bulabilirsiniz. Ancak daha makul yaklaşım, “AI araçları geliştiricilerin hızını ve verimliliğini artıracak ve ayrıca yeni dillere giriş engellerini azaltacak” şeklindedir.\nAşağıdaki bölüm Github Copilot’un sayfasından alınmıştır:"
+    "objectID": "An_Introduction_to_Hierarchical_Clustering.html#applications-of-hierarchical-clustering",
+    "href": "An_Introduction_to_Hierarchical_Clustering.html#applications-of-hierarchical-clustering",
+    "title": "An Introduction to Hierarchical Clustering",
+    "section": "Applications of Hierarchical Clustering",
+    "text": "Applications of Hierarchical Clustering\nHierarchical clustering has a variety of applications in our day-to-day life, including (but by no means limited to) biology, image processing, marketing, economics, and social network analysis.\n\nBiology\nThe clustering of DNA sequences is one of the biggest challenges in bioinformatics.\nBiologists can leverage hierarchical clustering to study genetic relationships between organisms to classify those organisms into taxonomic groups. This is beneficial for quick analysis and visualization of the underlying relationships.\n\n\nImage processing\nHierarchical clustering can be performed in image processing to group similar regions or pixels of an image in terms of color, intensity, or other features. This can be useful for further tasks such as image segmentation, image classification, and object recognition.\n\n\nMarketing\nMarketing specialists can use hierarchical clustering to draw a hierarchy between different types of customers based on their purchasing habits for better marketing strategies and product recommendations. For instance, different products in retails can be recommended to customers whether they are low, medium, or high spenders.\n\n\nSocial network analysis\nSocial networks are a great source of valuable information when exploited efficiently. Hierarchical clustering can be used to identify groups or communities and to understand their relationships to each other and the structure of the network as a whole."
   },
   {
-    "objectID": "ders1-TR.html#chatgptyi-gösterdiğiniz-için-teşekkürler-artık-ödevlerimi-kolayca-hazırlayabilirim",
-    "href": "ders1-TR.html#chatgptyi-gösterdiğiniz-için-teşekkürler-artık-ödevlerimi-kolayca-hazırlayabilirim",
-    "title": "GPT modelleri",
-    "section": "ChatGPT’yi gösterdiğiniz için teşekkürler, artık ödevlerimi kolayca hazırlayabilirim!",
-    "text": "ChatGPT’yi gösterdiğiniz için teşekkürler, artık ödevlerimi kolayca hazırlayabilirim!\nChatGPT’nin yeteneklerini görmek, yanlış kullanım hakkında bazı ipuçları verebilir. Öncelikle, bir ödev sizin bir kavramı öğrenmeniz içindir (gitar çalma benzetmesini hatırlayın?) bu nedenle AI destekli intihal yapmak hala bir intihaldir ve sizin açınızdan bir kayıptır. (lütfen intihalin olumsuz etkileri için 00-academic-integrity.ipynb dosyasını da kontrol edin)\nİkincisi, OpenAI ve diğerleri ChatGPT çıktısına kolayca fark edilebilecek filigranlar eklemek için araçlar ve yöntemler üzerinde çalışıyor.\nBu yüzden lütfen bu araçtan ilham alın, öğrenmenizi geliştirmek için kullanın ama intihal için kullanmayın."
+    "objectID": "An_Introduction_to_Hierarchical_Clustering.html#the-hierarchical-clustering-algorithm",
+    "href": "An_Introduction_to_Hierarchical_Clustering.html#the-hierarchical-clustering-algorithm",
+    "title": "An Introduction to Hierarchical Clustering",
+    "section": "The Hierarchical Clustering Algorithm",
+    "text": "The Hierarchical Clustering Algorithm\nIn this section, we will look at three main concepts. The steps of the hierarchical algorithm, a highlight of the two types of hierarchical clustering (agglomerative and divisive), and finally, some techniques to choose the right distance measure.\n\nSteps involved in the hierarchical clustering algorithm\nThe hierarchical clustering algorithm employs the use of distance measures to generate clusters. This generation process involves the following main steps:\n\n\n\nCreating Hierarchical Clustering Algorithm\n\n\nPreprocess the data by removing missing data and applying any additional tasks that make the data as clean as possible. This step is a more general one for most of the machine learning tasks.\n\nCompute the distance matrix containing the distance between each pair of data points using a particular distance metric such as Euclidean distance, Manhattan distance, or cosine similarity. But the default distance metric is the Euclidean one.\n\n2.Merge the two clusters that are the closest in distance.\n\nUpdate the distance matrix with regard to the new clusters.\nRepeat steps 1, 2, and 3 until all the clusters are merged together to create a single cluster.\n\n\n\nHierarchical clustering examples\nWe can consider agglomerative and divisive clustering as mirrors of each other. Let’s have a better look at how each one operates, along with a hierarchical clustering example and graphical visualization.\n\nAgglomerative hierarchical clustering\nThis first scenario corresponds to the approach explained above. It starts by considering each observation as a singleton cluster (cluster with only one data point). Then iteratively merges clusters until only one cluster is obtained. This process is also known as the bottom-up approach.\nAs showing in the illustration below:\n\nWe start by considering each animal to be its unique cluster.\nThen we generate three different clusters from those unique animals based on their similarities:\n\nBirds: Eagle and Peacock\nMammals: Lion and Bear\nMore than three leg animals: Spider and Scorpion.\n\nWe repeat the merging process to create the vertebrate cluster by combining the two most similar clusters: Birds and Mammals.\nAfter this step, the remaining two clusters, Vertebrate and More than three legs, are merged to create a single Animals cluster.\n\n\n\n\nDendrogram of Agglomerative Clustering Approach\n\n\nDendrogram of Agglomerative Clustering Approach\n\n\nDivisive clustering\nOn the other hand, divisive clustering is top-down because it starts by considering all the data points as a unique cluster. Then it separates them until all the data points are unique.\nFrom this divisive approach graphic:\n\nWe notice that the whole animal dataset is considered as a single bloc.\nThen, we divide that block into two clusters: Vertebrate and More than 3 legs.\nThe division process is iteratively applied to the previously created clusters until we get unique animals.\n\n\n\n\nDendrogram of Divisive Clustering Approach\n\n\nDendrogram of Divisive Clustering Approach\n\n\n\nChoosing the right distance measure\nYour choice of distance measure is a critical step in clustering, and it depends on the problem you’re trying to solve. Considering the following scenario, we could cluster students based on any number of approaches such as their:\n\nCountry of origin\nGender, either male or female\nPrevious academic background.\n\nThese are all valid clusters but differ in meaning.\nEven though Euclidean distance is the most common distance used in most clustering software, other distance measures such as Manhattan distance, Canberra distance, Pearson or Spearman correlation, and Minkowski distance exist.\n\n\nHow to measure clusters before merging them\nThe previously mentioned distances are related to items. In this section, we will cover three standard ways (not exhaustive) to measure the nearest pair of clusters before merging them: (1) Single linkage, (2) Complete linkage, and (3) Average linkage.\n\nSingle linkage\nFrom all the pairwise distances between the items in the two clusters C1 and C2, the single linkage takes the distance between the clusters as the minimum distance.\nDistance (C1, C2) = Min { d(i, j), where item i is within C1, and item j is within C2}\nOut of all the pairs of items from the two clusters, the ones highlighted in green have the minimum distance.\n\n\n\nSingle linkage illustration\n\n\nSingle linkage illustration\n\n\nComplete linkage\nFrom all the pairwise distances between the items in the two clusters C1 and C2, the single linkage takes the distance between the clusters as the maximum distance.\nDistance (C1, C2) = Max { d(i, j), where item i is within C1, and item j is within C2}\nOut of all the pairs of items from the two clusters, the ones highlighted in green have the maximum distance.\n\n\n\nComplete linkage illustration\n\n\nComplete linkage illustration\n\n\nAverage linkage\nIn the average linkage clustering, the distance between two given clusters C1 and C2 corresponds to the average distances between all pairs of items in the two clusters.\nDistance (C1, C2) = Sum{ d(i, j) } / Total Number of distances\n\n\n\nAverage linkage illustration\n\n\nAverage linkage illustration\nThen the average linkage clustering is performed as follows\nd(a,j) + d(a,h) + d(a,n) + d(d,j) + d(d,h) + d(d,n)\n————————————————————–, where Total number of distances = 6\nTotal number of distances"
   },
   {
-    "objectID": "ders1-TR.html#kapalı-ve-açık-modeller",
-    "href": "ders1-TR.html#kapalı-ve-açık-modeller",
-    "title": "GPT modelleri",
-    "section": "Kapalı ve Açık modeller",
-    "text": "Kapalı ve Açık modeller\nŞu anda, her biri eğitilmek için yüz milyonlarca dolar harcanan ve büyük şirketler tarafından geliştirilen birkaç kapalı kaynaklı büyük dil modeli var: * GPT3.5 (ChatGPT) ve GPT4 OpenAI tarafından * PaLM ve Bard Google tarafından * Claude Anthropics tarafından"
-  },
-  {
-    "objectID": "ders1-TR.html#claude-3.5-sonnet-by-antropic",
-    "href": "ders1-TR.html#claude-3.5-sonnet-by-antropic",
-    "title": "GPT modelleri",
-    "section": "Claude 3.5 Sonnet by Antropic",
-    "text": "Claude 3.5 Sonnet by Antropic\nClaude 3.5, Claude modelinin en son sürümüdür. Antropic, Claude’u üç boyutta piyasaya sürer: Haiku (en küçük), Sonnet (orta) ve Opus (en büyük). Şu anda, Claude 3.5 Sonnest en iyi LLM’dir. Genellikle Claude yaratıcı yazma konusunda iyidir, ancak son sürümüyle kodlamada da mükemmelleşmiştir. Ayrıca, Claude sağ panelde kodun önizlemesine (web tabanlı) izin verir.\nAşağıda, Claude 3.5 Sonnet’e “Lütfen HTML, CSS ve JS ile yılan oyunu yaz” komutu verildiğinde oluşturulan bir örnek yer alıyor. Oyunu gerçekten oynayabilirsiniz!\n\nClaude ayrıca belgeleri (örneğin PDF) yüklemeye ve belge hakkında sorular sormaya izin verir.\nClaude’u (bazı sınırlamalarla) ücretsiz bir hesap kaydettikten sonra https://claude.ai/chat adresinde kullanabilirsiniz."
-  },
-  {
-    "objectID": "ders1-TR.html#gemini-by-google",
-    "href": "ders1-TR.html#gemini-by-google",
-    "title": "GPT modelleri",
-    "section": "Gemini by Google",
-    "text": "Gemini by Google\nGemini aslında çevrimiçi arama kapasitesine sahip bir LLM’dir. Ayrıca, (Google Drive aracılığıyla) belgeler indirebilir veya sorular sormak için YouTube videolarına yönlendirebilirsiniz. Son olarak, Gemini 1 milyon belirteçlik en uzun bağlam penceresine sahiptir (bir kerede yaklaşık 10 kitap sığacaktır)."
-  },
-  {
-    "objectID": "ders1-TR.html#modelleri-lokal-olarak-çalıştırma",
-    "href": "ders1-TR.html#modelleri-lokal-olarak-çalıştırma",
-    "title": "GPT modelleri",
-    "section": "Modelleri lokal olarak çalıştırma",
-    "text": "Modelleri lokal olarak çalıştırma\nGeliştiriciler model ağırlıklarını paylaştığı için, modelleri indirip yerel olarak çalıştırmak mümkün. Çeşitli boyutlarda modeller var. 7B (7 milyar) modeller yaklaşık 4Gb bellek gerektiriyor, bu yüzden onları dizüstü bilgisayarınızda çalıştırabilirsiniz.\nModelleri, Python için PyTorch ve bazı diğer kütüphaneleri kurarak ve ardından biraz Python kodu yazarak çalıştırabilirsiniz. Ya da Ollama’yı kurabilir ve ardından onunla uyumlu herhangi bir modeli çalıştırabilirsiniz.\nBir modeli yerel olarak çalıştırmanın avantajları: 1. Daha Az Sansür 2. Daha İyi Veri Gizliliği 3. Çevrimdışı Kullanım 4. Maliyet Tasarrufu 5. Daha İyi Özelleştirme\nBir modeli yerel olarak çalıştırmanın dezavantajları: 1. Kaynak Yoğun 2. Daha Yavaş Yanıtlar ve Daha Düşük Performans 3. Karmaşık Kurulum\n\nJupyter notebook veya Google Colab kullanarak lokal olarak model çalıştırma\nAslında LLM modellerini Jupyter notebook’larında çalıştırabilirsiniz. Ancak bu süreç, birçok Python paketini kurmanızı, model ağırlıklarını indirmenizi ve ardından modele soru sormak ve yanıtı bir sözlükte yakalamak için biraz Python kodu yazmanızı gerektirecektir. “Sohbet benzeri” deneyim için bazı çözümler olsa da, deneyim daha çok “tek seferlik soru ve cevap” gibidir.\nLütfen Google’ın bir Jupyter notebook ortamında modeli çalıştırmak için GPU (veya TPU) sağladığı Google Colab’daki süreci anlatan YouTube videosunu kontrol edin.\n\n\nOllama ile lokal olarak model çalıştırma\n\nÖzelleştirilmiş modeller hakkında bir fikir edinmek için lütfen modeller listesi sayfasını ziyaret edin. Ollama ile, bu modellerden herhangi birini indirebilir ve kullanabilirsiniz.\nTerminalde, mevcut modelleri listeleyelim\n$ ollama list\n\nNAME                ID              SIZE    MODIFIED\ndeepseek-coder:6.7b 72be2442d736    3.8 GB  5 weeks ago     \nneural-chat:latest  73940af9fe02    4.1 GB  5 weeks ago     \norca2:7b            ea98cc422de3    3.8 GB  5 weeks ago     \nphi:latest          c651b7a89d73    1.6 GB  14 hours ago    \nsolar:latest        059fdabbe6e6    6.1 GB  2 hours ago     \nstablelm-zephyr:3b  7c596e78b1fc    1.6 GB  3 weeks ago\nMicrosoft tarafından geliştirilen Phi-2’yi çalıştıralım. İşte Phi-2 hakkında bilgi:\n\n2,7 milyar parametreli bir dil modeli olan Phi-2, olağanüstü akıl yürütme ve dil anlama yetenekleri sergiliyor ve 13 milyar parametreden daha az olan temel dil modelleri arasında en son teknoloji performansı gösteriyor. Karmaşık kıyaslamalarda Phi-2, model ölçeklendirme ve eğitim verisi kürasyon konusundaki yeni yenilikler sayesinde 25 kat daha büyük modellere eşdeğer veya daha iyi performans gösteriyor.\n\n$ ollama run phi:latest\n\n&gt;&gt;&gt; Gökyüzü neden mavi?\n\nGökyüzü, Rayleigh saçılması adı verilen bir fenomen nedeniyle mavi görünür. Güneş ışığı Dünya'nın atmosferine girdiğinde, oksijen ve azot atomları gibi havadaki moleküller ve küçük parçacıklarla çarpışır. Bu çarpışmalar, ışığın daha kısa dalga boylarının (mavi) daha uzun dalga boylarından (kırmızı, turuncu, sarı, yeşil ve mor) daha fazla saçılmasına neden olur.\nSonuç olarak, gözlerimiz saçılan mavi ışığı baskın olarak algılar ve bu nedenle gökyüzü bize mavi görünür.\nGördüğünüz gibi, soruları cevaplayabilen, kodlama konusunda yardımcı olabilen küçük bir model yerel olarak çalıştırılabilir.\n\n\nKullanıcı arayüzü ile lokal olarak model çalıştırma\n\nOllama Web UI\n\n\n\nLLM Studio\nLM Studio’yu kurabilir ve ardından kullanıcı arayüzü ile yerel modellerle etkileşime geçebilirsiniz"
-  },
-  {
-    "objectID": "ders1-TR.html#github-copilot",
-    "href": "ders1-TR.html#github-copilot",
-    "title": "GPT modelleri",
-    "section": "Github CoPilot",
-    "text": "Github CoPilot"
-  },
-  {
-    "objectID": "ders1-TR.html#ücretsiz-github-copilot-alternatifi",
-    "href": "ders1-TR.html#ücretsiz-github-copilot-alternatifi",
-    "title": "GPT modelleri",
-    "section": "Ücretsiz Github CoPilot alternatifi",
-    "text": "Ücretsiz Github CoPilot alternatifi\nCody, Sourcegraph’in AI kodlama asistanıdır ve sizi 10x geliştirici yapacak başka hiçbir asistanın sahip olmadığı birkaç özelliğe sahiptir. Buradan inceleyebilirsiniz: https://sourcegraph.com/cody"
-  },
-  {
-    "objectID": "ders1-TR.html#açık-kaynak-lokal-alternatifler",
-    "href": "ders1-TR.html#açık-kaynak-lokal-alternatifler",
-    "title": "GPT modelleri",
-    "section": "Açık kaynak lokal alternatifler",
-    "text": "Açık kaynak lokal alternatifler\nDaha fazla bilgi için lütfen https://tabby.tabbyml.com/ adresini ziyaret edin"
-  },
-  {
-    "objectID": "ders1-TR.html#görüntü-üretimi",
-    "href": "ders1-TR.html#görüntü-üretimi",
-    "title": "GPT modelleri",
-    "section": "Görüntü Üretimi",
-    "text": "Görüntü Üretimi\n\nOpenAI’dan DALL-E 3\nİstek: “arka planda istanbul şehri silüeti olan bir dna sarmalı”\nDüzeltilmiş istek: “Bilim ve mimarinin buluştuğu detaylı bir illüstrasyon hayal edin. Ön planda, karanlık bir arka plan üzerinde büyütülmüş ve parlayan bir DNA sarmalı var. Bu sarmal yapı tam olarak betimlenmiş, tanıdık çift sarmal şekli muhteşem bir şekilde kıvrılıyor. Bu bilimsel görüntüyle iç içe geçmiş şekilde, arka planda İstanbul şehrinin bir silüet temsili var. Şehir silueti, kubbeli camileri ve yükselen minareleriyle muhteşem tarihi mimarisini sergiliyor. Şehir manzarası, akşamüstü gökyüzüne karşı duruyor, batan güneş binaların arkasındaki ufukta turuncu bir parıltı yaratıyor. Bu kombinasyon, bilim ve şehir güzelliğinin büyüleyici bir yan yana gelişiyle sonuçlanıyor.”\nSonuç:\n\n\n\nMidjourney v6\nMidjourney, Aralık 2023’te v6’yı duyurdu. Fotogerçekçi görüntüler üretebiliyor. Normalde, ücretsiz görüntü üretmek için Discord kanallarını kullanmanız gerekir. Ayrıca, getimg.ai kullanarak da görüntüler üretebilirsiniz. Aşağıdaki isteklerle görüntüler üretmeyi denedim:\n\nÇok sayıda öğrencinin olduğu moleküler biyoloji laboratuvarı.\nBeyaz kumlu güzel bir deniz kenarı ve kıyıda tropikal ağaçlar. Deniz yeşilimsi mavi görünüyor.\n\nSonuçlar harika:\n\n\n\nDezenformasyon\nDeepfake veya yapay zeka tarafından üretilmiş sahte fotoğraflara dikkat edin\nSahte Trump Fotoğrafı\n\nSahte Papa Fotoğrafı"
-  },
-  {
-    "objectID": "ders1-TR.html#video-üretimi",
-    "href": "ders1-TR.html#video-üretimi",
-    "title": "GPT modelleri",
-    "section": "Video Üretimi",
-    "text": "Video Üretimi\n\nİstekten videoya\n\nRunwayML Gen-2\nPika\nStable Diffusion’dan Stable Video Diffusion\nGENMO\n\n\n\nGörüntüden videoya\n\nGENMO"
-  },
-  {
-    "objectID": "ders1-TR.html#müzik-veya-ses-üretimi",
-    "href": "ders1-TR.html#müzik-veya-ses-üretimi",
-    "title": "GPT modelleri",
-    "section": "Müzik veya Ses Üretimi",
-    "text": "Müzik veya Ses Üretimi\n\nElevenlabs yapay zeka ses üreticimizle metni çevrimiçi olarak ücretsiz konuşmaya dönüştürebilir"
-  },
-  {
-    "objectID": "id3-decision-tree.html",
-    "href": "id3-decision-tree.html",
-    "title": "Decision Tree Algoritm",
+    "objectID": "katilim.html",
+    "href": "katilim.html",
+    "title": "Attendance and Quizes / Katılım ve Quizler",
     "section": "",
-    "text": "Taken from https://medium.datadriveninvestor.com/decision-tree-algorithm-with-hands-on-example-e6c2afb40d38\nEntropy\nIn machine learning, entropy is a measure of the randomness in the information being processed. The higher the entropy, the harder it is to draw any conclusions from that information.\n\nInformation Gain\nInformation gain can be defined as the amount of information gained about a random variable or signal from observing another random variable.It can be considered as the difference between the entropy of parent node and weighted average entropy of child nodes.\n\nGini Impurity\nGini impurity is a measure of how often a randomly chosen element from the set would be incorrectly labeled if it was randomly labeled according to the distribution of labels in the subset.\n\nGini impurity is lower bounded by 0, with 0 occurring if the data set contains only one class.\n\nThere are many algorithms there to build a decision tree. They are\n\nCART (Classification and Regression Trees) — This makes use of Gini impurity as the metric.\nID3 (Iterative Dichotomiser 3) — This uses entropy and information gain as metric.\n\nIn this article, I will go through ID3. Once you got it it is easy to implement the same using CART.\n\nClassification using the ID3 algorithm\nConsider whether a dataset based on which we will determine whether to play football or not.\n\nHere There are for independent variables to determine the dependent variable. The independent variables are Outlook, Temperature, Humidity, and Wind. The dependent variable is whether to play football or not.\nAs the first step, we have to find the parent node for our decision tree. For that follow the steps:\n*Find the entropy of the class variable.*\nE(S) = -[(9/14)log(9/14) + (5/14)log(5/14)] = 0.94\nnote: Here typically we will take log to base 2.Here total there are 14 yes/no. Out of which 9 yes and 5 no.Based on it we calculated probability above.\nFrom the above data for outlook we can arrive at the following table easily\n\n*Now we have to calculate average weighted entropy*. ie, we have found the total of weights of each feature multiplied by probabilities.\nE(S, outlook) = (5/14)E(3,2) + (4/14)E(4,0) + (5/14)*E(2,3) = (5/14)(-(3/5)log(3/5)-(2/5)log(2/5))+ (4/14)(0) + (5/14)((2/5)log(2/5)-(3/5)log(3/5)) = 0.693\n*The next step is to find the information gain*. It is the difference between parent entropy and average weighted entropy we found above.\nIG(S, outlook) = 0.94 - 0.693 = 0.247\nSimilarly find Information gain for Temperature, Humidity, and Windy.\nIG(S, Temperature) = 0.940 - 0.911 = 0.029\nIG(S, Humidity) = 0.940 - 0.788 = 0.152\nIG(S, Windy) = 0.940 - 0.8932 = 0.048\n*Now select the feature having the largest entropy gain*. Here it is Outlook. So it forms the first node(root node) of our decision tree.\nNow our data look as follows\n\n\n\nSince overcast contains only examples of class ‘Yes’ we can set it as yes. That means If outlook is overcast football will be played. Now our decision tree looks as follows.\n\nThe next step is to find the next node in our decision tree. Now we will find one under sunny. We have to determine which of the following Temperature, Humidity or Wind has higher information gain.\n\nCalculate parent entropy E(sunny)\nE(sunny) = (-(3/5)log(3/5)-(2/5)log(2/5)) = 0.971.\nNow Calculate the information gain of Temperature. IG(sunny, Temperature)\n\nE(sunny, Temperature) = (2/5)E(0,2) + (2/5)E(1,1) + (1/5)*E(1,0)=2/5=0.4\nNow calculate information gain.\nIG(sunny, Temperature) = 0.971–0.4 =0.571\nSimilarly we get\nIG(sunny, Humidity) = 0.971\nIG(sunny, Windy) = 0.020\nHere IG(sunny, Humidity) is the largest value. So Humidity is the node that comes under sunny.\n\nFor humidity from the above table, we can say that play will occur if humidity is normal and will not occur if it is high. Similarly, find the nodes under rainy.\n*Note: A branch with entropy more than 0 needs further splitting.*\nFinally, our decision tree will look as below:\n\n\n\nClassification using CART algorithm\nClassification using CART is similar to it. But instead of entropy, we use Gini impurity.\nSo as the first step we will find the root node of our decision tree. For that Calculate the Gini index of the class variable\nGini(S) = 1 - [(9/14)² + (5/14)²] = 0.4591\nAs the next step, we will calculate the Gini gain. For that first, we will find the average weighted Gini impurity of Outlook, Temperature, Humidity, and Windy.\nFirst, consider case of Outlook\n\nGini(S, outlook) = (5/14)gini(3,2) + (4/14)gini(4,0)+ (5/14)gini(2,3) = (5/14)(1 - (3/5)² - (2/5)²) + (4/14)*0 + (5/14)(1 - (2/5)² - (3/5)²)= 0.171+0+0.171 = 0.342\nGini gain (S, outlook) = 0.459 - 0.342 = 0.117\nGini gain(S, Temperature) = 0.459 - 0.4405 = 0.0185\nGini gain(S, Humidity) = 0.459 - 0.3674 = 0.0916\nGini gain(S, windy) = 0.459 - 0.4286 = 0.0304\nChoose one that has a higher Gini gain. Gini gain is higher for outlook. So we can choose it as our root node."
+    "text": "Zoom üzerinden süre olarak katılımınız alınarak, toplam ders süremize1 göre oran hesaplanmıştır. Dersin üçte birinden (1/3 ya da 0.3) az katılan öğrenci o derse katılmamış sayılacaktır.\nAşağıdaki tablolarda her bir ders günü için Zoom süresi ve katılım oranı verilmiştir. (ŞU ANDA SADECE 19 TEMMUZ GÜNÜ YAPILAN DERSE GÖRE HESAPLAMA YAPILMIŞTIR)\n\n\n\n\n\n\nClick for translation\n\n\n\n\n\nYour participation time has been recorded via Zoom, and a ratio has been calculated based on our total lesson duration. A student who participates less than one-third (1/3 or 0.3) of the lesson will be considered as not having attended that lesson.\nIn the tables below, the Zoom duration and participation ratio for each lesson day are provided. (THE DATA BELOW ONLY CONSIDERS JULY 19TH LECTURE)"
   },
   {
-    "objectID": "r-linear-regression.html",
-    "href": "r-linear-regression.html",
-    "title": "Linear Regression with R",
+    "objectID": "katilim.html#group1-grup1-türkçe-1",
+    "href": "katilim.html#group1-grup1-türkçe-1",
+    "title": "Attendance and Quizes / Katılım ve Quizler",
+    "section": "Group1 / Grup1 Türkçe",
+    "text": "Group1 / Grup1 Türkçe"
+  },
+  {
+    "objectID": "katilim.html#group2-grup2-ingilizce-1",
+    "href": "katilim.html#group2-grup2-ingilizce-1",
+    "title": "Attendance and Quizes / Katılım ve Quizler",
+    "section": "Group2 / Grup2 İngilizce",
+    "text": "Group2 / Grup2 İngilizce"
+  },
+  {
+    "objectID": "katilim.html#footnotes",
+    "href": "katilim.html#footnotes",
+    "title": "Attendance and Quizes / Katılım ve Quizler",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nBeklenen ders süresi (yaklaşık 3 saat) değil, işlenen süre. Yani maksimum süre, ders süresi olarak alınmıştır.↩︎"
+  },
+  {
+    "objectID": "ders2.html#veri-analizi-veri-bilimi-makine-öğrenmesi",
+    "href": "ders2.html#veri-analizi-veri-bilimi-makine-öğrenmesi",
+    "title": "Veri tipleri ve işleme",
+    "section": "Veri analizi, veri bilimi, makine öğrenmesi",
+    "text": "Veri analizi, veri bilimi, makine öğrenmesi"
+  },
+  {
+    "objectID": "ders2.html#section",
+    "href": "ders2.html#section",
+    "title": "Veri tipleri ve işleme",
     "section": "",
-    "text": "Here we have a data mtcars {datasets} that was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973-74 models). We will find a mathematical model between Weight (wt) and Displacement (disp) parameters. So let’s find the most suitable model. Please draw the plot, determine the degree of equation (first, second of third) and draw the curve.\n\nmtcars\n\n                   mpg cyl  disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6 160.0 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6 258.0 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8 360.0 175 3.15 3.440 17.02  0  0    3    2\nValiant           18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1\nDuster 360        14.3   8 360.0 245 3.21 3.570 15.84  0  0    3    4\nMerc 240D         24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2\nMerc 230          22.8   4 140.8  95 3.92 3.150 22.90  1  0    4    2\n [ reached 'max' / getOption(\"max.print\") -- omitted 23 rows ]\n\n\n\nplot(mtcars)\n\n\n\n\n\n\n\n\n\nplot(mtcars$disp, mtcars$wt)\n\n\n\n\n\n\n\n\n\nfirst_wd &lt;- lm(wt ~ disp, data=mtcars)\nsummary(first_wd)\n\n\nCall:\nlm(formula = wt ~ disp, data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.89044 -0.29775 -0.00684  0.33428  0.66525 \n\nCoefficients:\n             Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) 1.5998146  0.1729964   9.248 2.74e-10 ***\ndisp        0.0070103  0.0006629  10.576 1.22e-11 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.4574 on 30 degrees of freedom\nMultiple R-squared:  0.7885,    Adjusted R-squared:  0.7815 \nF-statistic: 111.8 on 1 and 30 DF,  p-value: 1.222e-11\n\n\n\nsecond_wd &lt;- lm(wt ~ disp + I(disp^2), data=mtcars)\nsummary(second_wd)\n\n\nCall:\nlm(formula = wt ~ disp + I(disp^2), data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.88654 -0.29136 -0.00961  0.32389  0.67010 \n\nCoefficients:\n             Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) 1.631e+00  3.622e-01   4.502 0.000101 ***\ndisp        6.694e-03  3.325e-03   2.013 0.053448 .  \nI(disp^2)   6.206e-07  6.380e-06   0.097 0.923178    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.4652 on 29 degrees of freedom\nMultiple R-squared:  0.7886,    Adjusted R-squared:  0.774 \nF-statistic: 54.08 on 2 and 29 DF,  p-value: 1.639e-10\n\n\n\nthird_wd &lt;- lm(wt ~ disp + I(disp^2) + I(disp^3), data = mtcars)\nsummary(third_wd)\n\n\nCall:\nlm(formula = wt ~ disp + I(disp^2) + I(disp^3), data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.63764 -0.22785  0.00307  0.24614  0.58333 \n\nCoefficients:\n              Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) -1.111e+00  5.651e-01  -1.966   0.0593 .  \ndisp         4.945e-02  8.198e-03   6.032 1.68e-06 ***\nI(disp^2)   -1.807e-04  3.361e-05  -5.378 9.88e-06 ***\nI(disp^3)    2.243e-07  4.119e-08   5.446 8.21e-06 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.3299 on 28 degrees of freedom\nMultiple R-squared:  0.8973,    Adjusted R-squared:  0.8863 \nF-statistic: 81.57 on 3 and 28 DF,  p-value: 5.959e-14\n\n\n\nplot(mtcars$disp,mtcars$wt)\ncurve(2.243e-07*x^3 -1.807e-04*x^2 +4.945e-02*x -1.111e+00,add=TRUE)\n\n\n\n\n\n\n\n\n\nbest_model &lt;- lm(wt ~ poly(disp,15), data=mtcars)\nsummary(best_model)\n\n\nCall:\nlm(formula = wt ~ poly(disp, 15), data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.43800 -0.11202 -0.00364  0.16319  0.37783 \n\nCoefficients:\n                   Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept)       3.2172500  0.0509709  63.119  &lt; 2e-16 ***\npoly(disp, 15)1   4.8375552  0.2883350  16.778 1.41e-11 ***\npoly(disp, 15)2   0.0452475  0.2883350   0.157   0.8773    \npoly(disp, 15)3   1.7965723  0.2883350   6.231 1.20e-05 ***\npoly(disp, 15)4   0.4463962  0.2883350   1.548   0.1411    \npoly(disp, 15)5  -0.6866393  0.2883350  -2.381   0.0300 *  \npoly(disp, 15)6  -0.3384161  0.2883350  -1.174   0.2577    \npoly(disp, 15)7  -0.6134397  0.2883350  -2.128   0.0493 *  \npoly(disp, 15)8   0.0528245  0.2883350   0.183   0.8569    \npoly(disp, 15)9   0.0814084  0.2883350   0.282   0.7813    \npoly(disp, 15)10 -0.0654665  0.2883350  -0.227   0.8233    \npoly(disp, 15)11  0.2853853  0.2883350   0.990   0.3370    \npoly(disp, 15)12 -0.0007108  0.2883350  -0.002   0.9981    \npoly(disp, 15)13  0.4495723  0.2883350   1.559   0.1385    \npoly(disp, 15)14 -0.0699728  0.2883350  -0.243   0.8113    \npoly(disp, 15)15 -0.5031480  0.2883350  -1.745   0.1002    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.2883 on 16 degrees of freedom\nMultiple R-squared:  0.9552,    Adjusted R-squared:  0.9132 \nF-statistic: 22.73 on 15 and 16 DF,  p-value: 5.551e-08\n\n\n\npred &lt;- predict(best_model, data.frame(disp=50:500))\nplot(mtcars$disp, mtcars$wt)\npoints(50:500, pred, type=\"l\")\n\n\n\n\n\n\n\n\n\npredict(third_wd, data.frame(disp=420))\n\n       1 \n4.397246 \n\n\n\npredict(best_model, data.frame(disp=420))\n\n       1 \n7.329183 \n\n\n\npredict(best_model, data.frame(disp=c(20,420, 500)))\n\n           1            2            3 \n 3865.329736     7.329183 -1513.538298 \n\n\n\nSo, the “best” model is not best at all.."
+    "text": "source"
   },
   {
-    "objectID": "r-linear-regression.html#a-polynomial-model",
-    "href": "r-linear-regression.html#a-polynomial-model",
-    "title": "Linear Regression with R",
+    "objectID": "ders2.html#veri-tipleri",
+    "href": "ders2.html#veri-tipleri",
+    "title": "Veri tipleri ve işleme",
+    "section": "Veri tipleri",
+    "text": "Veri tipleri\n\nrecord data\ntransaction data\ndata matrix\n\nsparse data matrix\n\ngraph-based data"
+  },
+  {
+    "objectID": "ders2.html#sıralı-veri-ordered-data",
+    "href": "ders2.html#sıralı-veri-ordered-data",
+    "title": "Veri tipleri ve işleme",
+    "section": "Sıralı veri / Ordered data",
+    "text": "Sıralı veri / Ordered data\n\n\nSequential / Temporal data\nSequence data\nTime series data\nSpatial data"
+  },
+  {
+    "objectID": "ders2.html#section-3",
+    "href": "ders2.html#section-3",
+    "title": "Veri tipleri ve işleme",
     "section": "",
-    "text": "Here we have a data mtcars {datasets} that was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973-74 models). We will find a mathematical model between Weight (wt) and Displacement (disp) parameters. So let’s find the most suitable model. Please draw the plot, determine the degree of equation (first, second of third) and draw the curve.\n\nmtcars\n\n                   mpg cyl  disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6 160.0 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6 258.0 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8 360.0 175 3.15 3.440 17.02  0  0    3    2\nValiant           18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1\nDuster 360        14.3   8 360.0 245 3.21 3.570 15.84  0  0    3    4\nMerc 240D         24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2\nMerc 230          22.8   4 140.8  95 3.92 3.150 22.90  1  0    4    2\n [ reached 'max' / getOption(\"max.print\") -- omitted 23 rows ]\n\n\n\nplot(mtcars)\n\n\n\n\n\n\n\n\n\nplot(mtcars$disp, mtcars$wt)\n\n\n\n\n\n\n\n\n\nfirst_wd &lt;- lm(wt ~ disp, data=mtcars)\nsummary(first_wd)\n\n\nCall:\nlm(formula = wt ~ disp, data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.89044 -0.29775 -0.00684  0.33428  0.66525 \n\nCoefficients:\n             Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) 1.5998146  0.1729964   9.248 2.74e-10 ***\ndisp        0.0070103  0.0006629  10.576 1.22e-11 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.4574 on 30 degrees of freedom\nMultiple R-squared:  0.7885,    Adjusted R-squared:  0.7815 \nF-statistic: 111.8 on 1 and 30 DF,  p-value: 1.222e-11\n\n\n\nsecond_wd &lt;- lm(wt ~ disp + I(disp^2), data=mtcars)\nsummary(second_wd)\n\n\nCall:\nlm(formula = wt ~ disp + I(disp^2), data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.88654 -0.29136 -0.00961  0.32389  0.67010 \n\nCoefficients:\n             Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) 1.631e+00  3.622e-01   4.502 0.000101 ***\ndisp        6.694e-03  3.325e-03   2.013 0.053448 .  \nI(disp^2)   6.206e-07  6.380e-06   0.097 0.923178    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.4652 on 29 degrees of freedom\nMultiple R-squared:  0.7886,    Adjusted R-squared:  0.774 \nF-statistic: 54.08 on 2 and 29 DF,  p-value: 1.639e-10\n\n\n\nthird_wd &lt;- lm(wt ~ disp + I(disp^2) + I(disp^3), data = mtcars)\nsummary(third_wd)\n\n\nCall:\nlm(formula = wt ~ disp + I(disp^2) + I(disp^3), data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.63764 -0.22785  0.00307  0.24614  0.58333 \n\nCoefficients:\n              Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) -1.111e+00  5.651e-01  -1.966   0.0593 .  \ndisp         4.945e-02  8.198e-03   6.032 1.68e-06 ***\nI(disp^2)   -1.807e-04  3.361e-05  -5.378 9.88e-06 ***\nI(disp^3)    2.243e-07  4.119e-08   5.446 8.21e-06 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.3299 on 28 degrees of freedom\nMultiple R-squared:  0.8973,    Adjusted R-squared:  0.8863 \nF-statistic: 81.57 on 3 and 28 DF,  p-value: 5.959e-14\n\n\n\nplot(mtcars$disp,mtcars$wt)\ncurve(2.243e-07*x^3 -1.807e-04*x^2 +4.945e-02*x -1.111e+00,add=TRUE)\n\n\n\n\n\n\n\n\n\nbest_model &lt;- lm(wt ~ poly(disp,15), data=mtcars)\nsummary(best_model)\n\n\nCall:\nlm(formula = wt ~ poly(disp, 15), data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.43800 -0.11202 -0.00364  0.16319  0.37783 \n\nCoefficients:\n                   Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept)       3.2172500  0.0509709  63.119  &lt; 2e-16 ***\npoly(disp, 15)1   4.8375552  0.2883350  16.778 1.41e-11 ***\npoly(disp, 15)2   0.0452475  0.2883350   0.157   0.8773    \npoly(disp, 15)3   1.7965723  0.2883350   6.231 1.20e-05 ***\npoly(disp, 15)4   0.4463962  0.2883350   1.548   0.1411    \npoly(disp, 15)5  -0.6866393  0.2883350  -2.381   0.0300 *  \npoly(disp, 15)6  -0.3384161  0.2883350  -1.174   0.2577    \npoly(disp, 15)7  -0.6134397  0.2883350  -2.128   0.0493 *  \npoly(disp, 15)8   0.0528245  0.2883350   0.183   0.8569    \npoly(disp, 15)9   0.0814084  0.2883350   0.282   0.7813    \npoly(disp, 15)10 -0.0654665  0.2883350  -0.227   0.8233    \npoly(disp, 15)11  0.2853853  0.2883350   0.990   0.3370    \npoly(disp, 15)12 -0.0007108  0.2883350  -0.002   0.9981    \npoly(disp, 15)13  0.4495723  0.2883350   1.559   0.1385    \npoly(disp, 15)14 -0.0699728  0.2883350  -0.243   0.8113    \npoly(disp, 15)15 -0.5031480  0.2883350  -1.745   0.1002    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.2883 on 16 degrees of freedom\nMultiple R-squared:  0.9552,    Adjusted R-squared:  0.9132 \nF-statistic: 22.73 on 15 and 16 DF,  p-value: 5.551e-08\n\n\n\npred &lt;- predict(best_model, data.frame(disp=50:500))\nplot(mtcars$disp, mtcars$wt)\npoints(50:500, pred, type=\"l\")\n\n\n\n\n\n\n\n\n\npredict(third_wd, data.frame(disp=420))\n\n       1 \n4.397246 \n\n\n\npredict(best_model, data.frame(disp=420))\n\n       1 \n7.329183 \n\n\n\npredict(best_model, data.frame(disp=c(20,420, 500)))\n\n           1            2            3 \n 3865.329736     7.329183 -1513.538298 \n\n\n\nSo, the “best” model is not best at all.."
+    "text": "Figure 2.4"
   },
   {
-    "objectID": "r-linear-regression.html#traintest-split",
-    "href": "r-linear-regression.html#traintest-split",
-    "title": "Linear Regression with R",
-    "section": "Train/Test split",
-    "text": "Train/Test split\nLet’s understand the topic of overfitting.\nSplit the data into train and test. Train the model with “training” data. Then predict with “test” data.\n\nsample(1:32, 5, replace=FALSE)\n\n[1] 31 12 16 17  5\n\n\n\nset.seed(2)\nidx &lt;- sample(1:32, 5, replace=FALSE)\nidx\n\n[1] 21 15  6 30  8\n\n\n\ntest &lt;- mtcars[idx,]\n\ntest\n\n                    mpg cyl  disp  hp drat    wt  qsec vs am gear carb\nToyota Corona      21.5   4 120.1  97 3.70 2.465 20.01  1  0    3    1\nCadillac Fleetwood 10.4   8 472.0 205 2.93 5.250 17.98  0  0    3    4\nValiant            18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1\nFerrari Dino       19.7   6 145.0 175 3.62 2.770 15.50  0  1    5    6\nMerc 240D          24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2\n\n\n\ntrain &lt;- mtcars[-idx,]\ntrain\n\n                   mpg cyl  disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6 160.0 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6 258.0 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8 360.0 175 3.15 3.440 17.02  0  0    3    2\nDuster 360        14.3   8 360.0 245 3.21 3.570 15.84  0  0    3    4\nMerc 230          22.8   4 140.8  95 3.92 3.150 22.90  1  0    4    2\nMerc 280          19.2   6 167.6 123 3.92 3.440 18.30  1  0    4    4\nMerc 280C         17.8   6 167.6 123 3.92 3.440 18.90  1  0    4    4\n [ reached 'max' / getOption(\"max.print\") -- omitted 18 rows ]\n\n\n\nthird_deg &lt;- lm(wt ~ poly(disp,3), data = train)\nsummary(third_deg)$r.squared\n\n[1] 0.8879368\n\n\n\npredict(third_deg, test)\n\n     Toyota Corona Cadillac Fleetwood            Valiant       Ferrari Dino \n          2.633774           5.824101           3.418857           2.970499 \n         Merc 240D \n          2.989188 \n\n\n\ntest$third_pred &lt;- predict(third_deg, test)\ntest\n\n                    mpg cyl  disp  hp drat    wt  qsec vs am gear carb\nToyota Corona      21.5   4 120.1  97 3.70 2.465 20.01  1  0    3    1\nCadillac Fleetwood 10.4   8 472.0 205 2.93 5.250 17.98  0  0    3    4\nValiant            18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1\nFerrari Dino       19.7   6 145.0 175 3.62 2.770 15.50  0  1    5    6\nMerc 240D          24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2\n                   third_pred\nToyota Corona        2.633774\nCadillac Fleetwood   5.824101\nValiant              3.418857\nFerrari Dino         2.970499\nMerc 240D            2.989188\n\n\n\nfifteen_deg &lt;- lm(wt ~ poly(disp,15), data=train)\nsummary(fifteen_deg)$r.squared\n\n[1] 0.9550231\n\n\n\npredict(fifteen_deg, test)\n\n     Toyota Corona Cadillac Fleetwood            Valiant       Ferrari Dino \n          2.644378        -844.610091           2.784157           2.761685 \n         Merc 240D \n          2.745391 \n\n\n\ntest$fifteen &lt;- predict(fifteen_deg, test)\n\ntest[c(\"disp\",\"wt\",\"third_pred\",\"fifteen\")]\n\n                    disp    wt third_pred     fifteen\nToyota Corona      120.1 2.465   2.633774    2.644378\nCadillac Fleetwood 472.0 5.250   5.824101 -844.610091\nValiant            225.0 3.460   3.418857    2.784157\nFerrari Dino       145.0 2.770   2.970499    2.761685\nMerc 240D          146.7 3.190   2.989188    2.745391\n\n\nAs you can see, “fifteenth degree” model memorized (i.e overfitted) the data and predicts horribly."
+    "objectID": "ders2.html#veri-kalitesi",
+    "href": "ders2.html#veri-kalitesi",
+    "title": "Veri tipleri ve işleme",
+    "section": "Veri kalitesi",
+    "text": "Veri kalitesi\n Hatırlanacağı üzere, veri biliminde veri temizliği aşaması toplam sürenin %80’ini oluşturmaktadır.\n\nÖlçüm hataları / measurement error : ölçüm sırasında sayısal hata yapılması veya dahil edilmemesi gereken verinin dahil edilmesi\nGürültü / Noise and artifacts: ölçüm hatalarındaki rastgele olan bileşendir. Sinyal işleme yöntemleri ile gürültü kaldırılabilir ama bu sırada gerçek veri kaybı da gerçekleşebilir."
+  },
+  {
+    "objectID": "ders2.html#veri-kalitesi---2",
+    "href": "ders2.html#veri-kalitesi---2",
+    "title": "Veri tipleri ve işleme",
+    "section": "Veri kalitesi - 2",
+    "text": "Veri kalitesi - 2\n\nUç değer / Outlier\nKayıp veya eksik ölçüm / Missing value\n\nÇıkarma / Eliminate\nTahmin etme, doldurma / Estimate\nGöz ardı etme / Ignore\n\nUyumsuz ölçümler / Inconsistent values : örn. Ölçüm yapılan tekniğin değişmesi veya farklı tekniklerle toplanan değerlerin uyuşmazlığı\nTekrar eden veri / Duplicate data : aynı kişi bir veritabanında birden çok kez bulunabilir ama ismi aynı iki kişi tekrar sayılmaz"
+  },
+  {
+    "objectID": "ders2.html#veri-işleme",
+    "href": "ders2.html#veri-işleme",
+    "title": "Veri tipleri ve işleme",
+    "section": "Veri işleme",
+    "text": "Veri işleme\n\n\nAggregation\nSampling\nDimensionality reduction\nFeature subset selection\nFeature creation\nDiscretization and binarization\nVariable transformation"
+  },
+  {
+    "objectID": "ders2.html#aggregation",
+    "href": "ders2.html#aggregation",
+    "title": "Veri tipleri ve işleme",
+    "section": "Aggregation",
+    "text": "Aggregation\n\nGroup by - sum, mean\nHistogram"
+  },
+  {
+    "objectID": "ders2.html#aggregation-histogram",
+    "href": "ders2.html#aggregation-histogram",
+    "title": "Veri tipleri ve işleme",
+    "section": "Aggregation / Histogram",
+    "text": "Aggregation / Histogram"
+  },
+  {
+    "objectID": "ders2.html#sampling-örnekleme",
+    "href": "ders2.html#sampling-örnekleme",
+    "title": "Veri tipleri ve işleme",
+    "section": "Sampling / Örnekleme",
+    "text": "Sampling / Örnekleme\n\nSimple random sampling\nStratified sampling"
+  },
+  {
+    "objectID": "ders2.html#dimensionality-reduction",
+    "href": "ders2.html#dimensionality-reduction",
+    "title": "Veri tipleri ve işleme",
+    "section": "Dimensionality reduction",
+    "text": "Dimensionality reduction\n\n“The Curse of Dimensionality”: özellik/attribute sayısı arttıkça algoritmaların veya hesapların daha zor hale gelmesi. “Sparse” veri durumunda artık hesaplamaların (uzaklık, benzerlik) doğruluğunu yitirmesi\n\n\nLinear algebra techniques\n\nPCA: Principal Components Analysis\nSVD: Singular Value Decomposition"
+  },
+  {
+    "objectID": "ders2.html#others",
+    "href": "ders2.html#others",
+    "title": "Veri tipleri ve işleme",
+    "section": "Others",
+    "text": "Others\n\nFeature Subset Selection\n\nremove Redundant features or Irrelevant features\nFeature Weighting\n\nFeature Creation\n\nFeature Extraction: e.g Photo -&gt; edges, important areas, color scheme\nMapping the Data to a New Space : e.g Fourier Transformation\n\nDiscretization and Binarization\n\nCategory -&gt; Binary values\nContinous data -&gt; bins, categories, intervals\n\nVariable Transformation"
+  },
+  {
+    "objectID": "ders2.html#fourier-transformation",
+    "href": "ders2.html#fourier-transformation",
+    "title": "Veri tipleri ve işleme",
+    "section": "Fourier Transformation",
+    "text": "Fourier Transformation"
+  },
+  {
+    "objectID": "ders2.html#category-to-binary",
+    "href": "ders2.html#category-to-binary",
+    "title": "Veri tipleri ve işleme",
+    "section": "Category to binary",
+    "text": "Category to binary"
+  },
+  {
+    "objectID": "ders2.html#variable-transformation",
+    "href": "ders2.html#variable-transformation",
+    "title": "Veri tipleri ve işleme",
+    "section": "Variable Transformation",
+    "text": "Variable Transformation\n\n\nSimple functions: \\(x^k\\) , log(x), \\(e^x\\) , sqrt(x), \\(1/x\\), sin(x), or |x|\nNormalization or Standardization\n\nfor each value subtract mean and divide by standard deviation\ne.g. age and income data, find similarity between individuals\nmean = 0, sd = 1"
+  },
+  {
+    "objectID": "ders7.html#contents",
+    "href": "ders7.html#contents",
+    "title": "Clustering Methods",
+    "section": "Contents",
+    "text": "Contents\n\n\n\nIntroduction to Clustering\n\nDefinition and purpose, Unsupervised learning concept, Real-world applications in scientific fields\n\nTypes of Clustering Algorithms\n\nPartitioning methods (e.g., K-means)\nHierarchical methods\nDensity-based methods (e.g., DBSCAN)\n\nK-means Clustering\n\nAlgorithm explanation\nChoosing the number of clusters (elbow method)\nAdvantages and limitations\n\n\n\n\nHierarchical Clustering\n\nAgglomerative vs. divisive approaches\nDendrogram interpretation\nLinkage methods (single, complete, average)\n\nDensity-Based Spatial Clustering of Applications with Noise (DBSCAN)\n\nCore concepts: core points, border points, noise\nAlgorithm explanation\nAdvantages\n\nEvaluation Metrics for Clustering\n\nSilhouette score"
+  },
+  {
+    "objectID": "ders7.html#definition",
+    "href": "ders7.html#definition",
+    "title": "Clustering Methods",
+    "section": "Definition",
+    "text": "Definition\nClustering is a technique in machine learning and data analysis that involves grouping a set of objects or data points in such a way that objects in the same group (called a cluster) are more similar to each other than to those in other groups. It’s a fundamental task in many data analysis and pattern recognition problems."
+  },
+  {
+    "objectID": "ders7.html#purpose",
+    "href": "ders7.html#purpose",
+    "title": "Clustering Methods",
+    "section": "Purpose",
+    "text": "Purpose\nThe purpose of clustering is multifaceted:\nPattern Discovery: Clustering helps in identifying inherent patterns or structures within data that might not be immediately apparent.\nData Summarization: It can be used to compress large datasets by representing many data points with fewer cluster centroids.\nAnomaly Detection: By identifying groups of similar data points, clustering can help in spotting outliers or anomalies that don’t fit into any cluster.\nSegmentation: In fields like marketing, clustering is used to segment customers into groups with similar behaviors or characteristics.\nPreprocessing for Other Algorithms: Clustering can be used as a preprocessing step for other algorithms, reducing the complexity of the data.\nNatural Classification: In scientific fields, clustering can reveal natural groupings in data, such as in biology for grouping similar species or in astronomy for categorizing types of stars."
+  },
+  {
+    "objectID": "ders7.html#clustering-methods",
+    "href": "ders7.html#clustering-methods",
+    "title": "Clustering Methods",
+    "section": "Clustering Methods",
+    "text": "Clustering Methods\nPartitioning methods: Divide data into non-overlapping subsets, with each data point belonging to exactly one cluster, often optimizing a specific criterion.\nHierarchical Methods: Create a tree-like structure of clusters, either by merging smaller clusters into larger ones or dividing larger clusters into smaller ones.\nDensity-based Methods: Form clusters in areas of high data point density, separated by regions of low density, allowing for discovery of arbitrarily shaped clusters."
+  },
+  {
+    "objectID": "ders7.html#partitioning",
+    "href": "ders7.html#partitioning",
+    "title": "Clustering Methods",
+    "section": "Partitioning",
+    "text": "Partitioning\n\nImage source"
+  },
+  {
+    "objectID": "ders7.html#k-means-clustering",
+    "href": "ders7.html#k-means-clustering",
+    "title": "Clustering Methods",
+    "section": "K-means clustering",
+    "text": "K-means clustering\nK-means clustering is an unsupervised machine learning algorithm used to group similar data points into clusters. It works by iteratively assigning data points to k predefined clusters based on their similarity to the cluster centers (centroids). The algorithm starts by randomly initializing k centroids in the feature space. It then repeatedly performs two steps:\n\nassign each data point to the nearest centroid, and\nrecalculate the centroids as the mean of all points in each cluster.\n\nThis process continues until the centroids stabilize or a maximum number of iterations is reached. K-means aims to minimize the within-cluster sum of squares, resulting in compact and distinct clusters."
+  },
+  {
+    "objectID": "ders7.html#k-means-clustering---interactive-demos",
+    "href": "ders7.html#k-means-clustering---interactive-demos",
+    "title": "Clustering Methods",
+    "section": "K-means clustering - interactive demos",
+    "text": "K-means clustering - interactive demos\nPlease visit the following sites:\n\nTwo-dimensional visualization of k-means clustering algorithm\nK-means Clustering - Interactive Demonstration\nVisualizing K-Means Clustering"
+  },
+  {
+    "objectID": "ders7.html#k-means-clustering-with-r",
+    "href": "ders7.html#k-means-clustering-with-r",
+    "title": "Clustering Methods",
+    "section": "K-means clustering with R",
+    "text": "K-means clustering with R\nPlease visit K-means with R page for the code."
+  },
+  {
+    "objectID": "ders7.html#k-means-clustering-applications",
+    "href": "ders7.html#k-means-clustering-applications",
+    "title": "Clustering Methods",
+    "section": "K-Means Clustering Applications",
+    "text": "K-Means Clustering Applications\n\nBiology\n\n\nGene Expression Analysis: Grouping genes with similar expression patterns across different conditions or time points.\nSpecies Classification: Clustering organisms based on genetic or morphological features.\nProtein Structure Analysis: Identifying structural motifs in proteins.\n\n\nChemistry\n\n\nMolecular Dynamics: Analyzing conformations of molecules during simulations.\nSpectroscopy: Clustering similar spectra for compound identification.\nDrug Discovery: Grouping chemical compounds with similar properties or effects."
+  },
+  {
+    "objectID": "ders7.html#k-means-clustering-applications-contd",
+    "href": "ders7.html#k-means-clustering-applications-contd",
+    "title": "Clustering Methods",
+    "section": "K-Means Clustering Applications (cont’d)",
+    "text": "K-Means Clustering Applications (cont’d)\n\nPhysics\n\n\nParticle Physics: Classifying particle collision events in high-energy physics experiments.\nAstrophysics: Clustering stars or galaxies based on their properties (e.g., luminosity, temperature).\nMaterials Science: Analyzing crystal structures and defects in materials."
+  },
+  {
+    "objectID": "ders7.html#advantages-of-k-means-clustering",
+    "href": "ders7.html#advantages-of-k-means-clustering",
+    "title": "Clustering Methods",
+    "section": "Advantages of K-means clustering",
+    "text": "Advantages of K-means clustering\n\nSimplicity: Easy to understand and implement.\nEfficiency: Generally fast and computationally efficient, especially for large datasets.\nScalability: Works well with high-dimensional data.\nFlexibility: Can be adapted to different types of data with appropriate distance metrics.\nInterpretability: Resulting clusters are often easy to interpret."
+  },
+  {
+    "objectID": "ders7.html#disadvantages-of-k-means-clustering",
+    "href": "ders7.html#disadvantages-of-k-means-clustering",
+    "title": "Clustering Methods",
+    "section": "Disadvantages of K-means clustering",
+    "text": "Disadvantages of K-means clustering\n\nSensitivity to initial centroids: Results can vary based on the initial random placement of centroids.\nRequires predefined k: The number of clusters must be specified beforehand, which isn’t always known.\nAssumes spherical clusters: Performs poorly with non-globular cluster shapes.\nSensitivity to outliers: Outliers can significantly impact centroid calculation and cluster assignment.\nStruggles with varying cluster sizes: Tends to create clusters of similar spatial extent.\nLocal optima: May converge to a local minimum rather than the global optimum.\nInability to handle categorical data directly: Requires preprocessing for non-numerical data."
+  },
+  {
+    "objectID": "ders7.html#hierarchical-clustering",
+    "href": "ders7.html#hierarchical-clustering",
+    "title": "Clustering Methods",
+    "section": "Hierarchical clustering",
+    "text": "Hierarchical clustering\nHierarchical clustering is an unsupervised machine learning technique used to group similar data points into clusters. Unlike other clustering methods that require a predefined number of clusters, hierarchical clustering creates a tree-like structure of clusters called a dendrogram. This method works by either starting with each data point as its own cluster and iteratively merging the closest clusters (agglomerative approach), or by starting with all data points in one cluster and recursively dividing it (divisive approach). The process continues until a stopping criterion is met, such as a desired number of clusters or a threshold distance between clusters.\nHierarchical clustering is particularly useful for exploring the inherent structure of data at different levels of granularity and for datasets where the number of clusters is not known in advance."
+  },
+  {
+    "objectID": "ders7.html#how-it-works",
+    "href": "ders7.html#how-it-works",
+    "title": "Clustering Methods",
+    "section": "How it works",
+    "text": "How it works\nHierarchical clustering begins by calculating the distances between all pairs of data points using a chosen distance metric (e.g., Euclidean distance). In the agglomerative approach, which is more common, each data point starts as its own cluster. The algorithm then iteratively merges the two closest clusters based on a linkage criterion (e.g., single linkage, complete linkage, or average linkage). This process repeats, forming larger clusters until all data points are in a single cluster or until the desired number of clusters is reached. The result is a hierarchical structure that can be visualized as a dendrogram, allowing users to choose the level of clustering that best suits their needs.\nPlease visit Hierarchical Clustering in Data Mining and An Introduction to Hierarchical Clustering"
+  },
+  {
+    "objectID": "ders7.html#section",
+    "href": "ders7.html#section",
+    "title": "Clustering Methods",
+    "section": "",
+    "text": "Please visit following sites for demos\n\nClustering Demo at yFiles"
+  },
+  {
+    "objectID": "ders7.html#advantages-of-hierarchical-clustering",
+    "href": "ders7.html#advantages-of-hierarchical-clustering",
+    "title": "Clustering Methods",
+    "section": "Advantages of hierarchical clustering",
+    "text": "Advantages of hierarchical clustering\n\nNo predefined number of clusters required: Unlike k-means, hierarchical clustering doesn’t require specifying the number of clusters in advance.\nHierarchical representation: Provides a dendrogram, offering insights into the data structure at different levels.\nFlexibility in cluster granularity: Users can choose the level of clustering that best suits their needs by cutting the dendrogram at different levels.\nApplicability to various data types: Can be applied to any data type for which a similarity or distance measure can be defined.\nInterpretability: The dendrogram provides a visually intuitive representation of the clustering process.\nHandles different cluster shapes: Can identify clusters of various shapes and sizes, not just spherical ones."
+  },
+  {
+    "objectID": "ders7.html#disadvantages",
+    "href": "ders7.html#disadvantages",
+    "title": "Clustering Methods",
+    "section": "Disadvantages",
+    "text": "Disadvantages\n\nComputational complexity: O(n^2) space complexity and O(n^3) time complexity in many implementations, making it less suitable for very large datasets.\nSensitivity to noise and outliers: Outliers can significantly affect the shape of the dendrogram.\nDifficulty in handling high-dimensional data: Performance and interpretability may decrease as the number of dimensions increases.\nLack of backtracking: Once a merge or split is made, it can’t be undone, which may lead to suboptimal results.\nMemory intensive: Storing the distance matrix for large datasets can be memory-intensive.\nChoice of distance metric and linkage method: Results can vary significantly based on the chosen distance metric and linkage method, requiring careful consideration.\nScalability issues: Not as scalable as some other clustering methods for very large datasets."
+  },
+  {
+    "objectID": "ders7.html#dbscan-clustering",
+    "href": "ders7.html#dbscan-clustering",
+    "title": "Clustering Methods",
+    "section": "DBSCAN clustering",
+    "text": "DBSCAN clustering\nDBSCAN (Density-Based Spatial Clustering of Applications with Noise) is a popular clustering algorithm that groups together points that are closely packed in space, marking points that lie alone in low-density regions as outliers.\nIt works by selecting a random unvisited point and exploring its neighborhood within a specified radius (ε). If this neighborhood contains a minimum number of points (MinPts), a cluster is formed. The algorithm then iteratively expands the cluster by exploring the neighborhoods of the newly added points. If a point doesn’t have enough neighbors to form a cluster, it’s labeled as noise. This process continues until all points have been visited, resulting in a set of dense clusters of varying shapes and sizes, along with identified noise points."
+  },
+  {
+    "objectID": "ders7.html#interactive-demos",
+    "href": "ders7.html#interactive-demos",
+    "title": "Clustering Methods",
+    "section": "Interactive demos",
+    "text": "Interactive demos\nPlease visit DBSCAN— A visualized and detailed introduction page about core concepts\nPlease visit Visualizing DBSCAN Clustering page for interactive demo for DBSCAN algoritm"
+  },
+  {
+    "objectID": "ders7.html#dbscan-algoritm",
+    "href": "ders7.html#dbscan-algoritm",
+    "title": "Clustering Methods",
+    "section": "DBSCAN Algoritm",
+    "text": "DBSCAN Algoritm"
+  },
+  {
+    "objectID": "ders7.html#advantages-of-dbscan",
+    "href": "ders7.html#advantages-of-dbscan",
+    "title": "Clustering Methods",
+    "section": "Advantages of DBSCAN",
+    "text": "Advantages of DBSCAN\n\nShape flexibility: Can find arbitrarily shaped clusters, not just circular ones.\nOutlier detection: Automatically identifies noise points and outliers.\nNo pre-defined number of clusters: Unlike k-means, doesn’t require specifying the number of clusters beforehand.\nDensity-based: Effective at separating clusters of different densities.\nRobustness: Less sensitive to outliers compared to centroid-based algorithms."
+  },
+  {
+    "objectID": "ders7.html#disadvantages-1",
+    "href": "ders7.html#disadvantages-1",
+    "title": "Clustering Methods",
+    "section": "Disadvantages",
+    "text": "Disadvantages\n\nParameter sensitivity: Results can vary significantly based on the choice of ε and MinPts parameters.\nStruggle with varying densities: May have difficulty when clusters have widely different densities.\nHigh-dimensional data: Performance and effectiveness can decrease in high-dimensional spaces due to the “curse of dimensionality”.\nMemory requirements: Can be memory-intensive for large datasets.\nScalability: Not as efficient for very large datasets compared to some other algorithms.\nConnectivity-based: May struggle with datasets where clusters are close but separated by sparse areas."
   },
   {
     "objectID": "rf-regression-R-tr.html",
@@ -644,144 +1022,137 @@
     "text": "Group 2 (EN) results\nTotal number of students took the exam: 70 and average score is: 60.5. Below is the distribution of scores:\n\n\n\n\n\n\n\n\n\nAnd here’s the scores. You can scroll pages or search for your student number in search box."
   },
   {
-    "objectID": "ders2.html#veri-analizi-veri-bilimi-makine-öğrenmesi",
-    "href": "ders2.html#veri-analizi-veri-bilimi-makine-öğrenmesi",
-    "title": "Veri tipleri ve işleme",
-    "section": "Veri analizi, veri bilimi, makine öğrenmesi",
-    "text": "Veri analizi, veri bilimi, makine öğrenmesi"
-  },
-  {
-    "objectID": "ders2.html#section",
-    "href": "ders2.html#section",
-    "title": "Veri tipleri ve işleme",
+    "objectID": "r-linear-regression.html",
+    "href": "r-linear-regression.html",
+    "title": "Linear Regression with R",
     "section": "",
-    "text": "source"
+    "text": "Here we have a data mtcars {datasets} that was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973-74 models). We will find a mathematical model between Weight (wt) and Displacement (disp) parameters. So let’s find the most suitable model. Please draw the plot, determine the degree of equation (first, second of third) and draw the curve.\n\nmtcars\n\n                   mpg cyl  disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6 160.0 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6 258.0 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8 360.0 175 3.15 3.440 17.02  0  0    3    2\nValiant           18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1\nDuster 360        14.3   8 360.0 245 3.21 3.570 15.84  0  0    3    4\nMerc 240D         24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2\nMerc 230          22.8   4 140.8  95 3.92 3.150 22.90  1  0    4    2\n [ reached 'max' / getOption(\"max.print\") -- omitted 23 rows ]\n\n\n\nplot(mtcars)\n\n\n\n\n\n\n\n\n\nplot(mtcars$disp, mtcars$wt)\n\n\n\n\n\n\n\n\n\nfirst_wd &lt;- lm(wt ~ disp, data=mtcars)\nsummary(first_wd)\n\n\nCall:\nlm(formula = wt ~ disp, data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.89044 -0.29775 -0.00684  0.33428  0.66525 \n\nCoefficients:\n             Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) 1.5998146  0.1729964   9.248 2.74e-10 ***\ndisp        0.0070103  0.0006629  10.576 1.22e-11 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.4574 on 30 degrees of freedom\nMultiple R-squared:  0.7885,    Adjusted R-squared:  0.7815 \nF-statistic: 111.8 on 1 and 30 DF,  p-value: 1.222e-11\n\n\n\nsecond_wd &lt;- lm(wt ~ disp + I(disp^2), data=mtcars)\nsummary(second_wd)\n\n\nCall:\nlm(formula = wt ~ disp + I(disp^2), data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.88654 -0.29136 -0.00961  0.32389  0.67010 \n\nCoefficients:\n             Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) 1.631e+00  3.622e-01   4.502 0.000101 ***\ndisp        6.694e-03  3.325e-03   2.013 0.053448 .  \nI(disp^2)   6.206e-07  6.380e-06   0.097 0.923178    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.4652 on 29 degrees of freedom\nMultiple R-squared:  0.7886,    Adjusted R-squared:  0.774 \nF-statistic: 54.08 on 2 and 29 DF,  p-value: 1.639e-10\n\n\n\nthird_wd &lt;- lm(wt ~ disp + I(disp^2) + I(disp^3), data = mtcars)\nsummary(third_wd)\n\n\nCall:\nlm(formula = wt ~ disp + I(disp^2) + I(disp^3), data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.63764 -0.22785  0.00307  0.24614  0.58333 \n\nCoefficients:\n              Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) -1.111e+00  5.651e-01  -1.966   0.0593 .  \ndisp         4.945e-02  8.198e-03   6.032 1.68e-06 ***\nI(disp^2)   -1.807e-04  3.361e-05  -5.378 9.88e-06 ***\nI(disp^3)    2.243e-07  4.119e-08   5.446 8.21e-06 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.3299 on 28 degrees of freedom\nMultiple R-squared:  0.8973,    Adjusted R-squared:  0.8863 \nF-statistic: 81.57 on 3 and 28 DF,  p-value: 5.959e-14\n\n\n\nplot(mtcars$disp,mtcars$wt)\ncurve(2.243e-07*x^3 -1.807e-04*x^2 +4.945e-02*x -1.111e+00,add=TRUE)\n\n\n\n\n\n\n\n\n\nbest_model &lt;- lm(wt ~ poly(disp,15), data=mtcars)\nsummary(best_model)\n\n\nCall:\nlm(formula = wt ~ poly(disp, 15), data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.43800 -0.11202 -0.00364  0.16319  0.37783 \n\nCoefficients:\n                   Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept)       3.2172500  0.0509709  63.119  &lt; 2e-16 ***\npoly(disp, 15)1   4.8375552  0.2883350  16.778 1.41e-11 ***\npoly(disp, 15)2   0.0452475  0.2883350   0.157   0.8773    \npoly(disp, 15)3   1.7965723  0.2883350   6.231 1.20e-05 ***\npoly(disp, 15)4   0.4463962  0.2883350   1.548   0.1411    \npoly(disp, 15)5  -0.6866393  0.2883350  -2.381   0.0300 *  \npoly(disp, 15)6  -0.3384161  0.2883350  -1.174   0.2577    \npoly(disp, 15)7  -0.6134397  0.2883350  -2.128   0.0493 *  \npoly(disp, 15)8   0.0528245  0.2883350   0.183   0.8569    \npoly(disp, 15)9   0.0814084  0.2883350   0.282   0.7813    \npoly(disp, 15)10 -0.0654665  0.2883350  -0.227   0.8233    \npoly(disp, 15)11  0.2853853  0.2883350   0.990   0.3370    \npoly(disp, 15)12 -0.0007108  0.2883350  -0.002   0.9981    \npoly(disp, 15)13  0.4495723  0.2883350   1.559   0.1385    \npoly(disp, 15)14 -0.0699728  0.2883350  -0.243   0.8113    \npoly(disp, 15)15 -0.5031480  0.2883350  -1.745   0.1002    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.2883 on 16 degrees of freedom\nMultiple R-squared:  0.9552,    Adjusted R-squared:  0.9132 \nF-statistic: 22.73 on 15 and 16 DF,  p-value: 5.551e-08\n\n\n\npred &lt;- predict(best_model, data.frame(disp=50:500))\nplot(mtcars$disp, mtcars$wt)\npoints(50:500, pred, type=\"l\")\n\n\n\n\n\n\n\n\n\npredict(third_wd, data.frame(disp=420))\n\n       1 \n4.397246 \n\n\n\npredict(best_model, data.frame(disp=420))\n\n       1 \n7.329183 \n\n\n\npredict(best_model, data.frame(disp=c(20,420, 500)))\n\n           1            2            3 \n 3865.329736     7.329183 -1513.538298 \n\n\n\nSo, the “best” model is not best at all.."
   },
   {
-    "objectID": "ders2.html#veri-tipleri",
-    "href": "ders2.html#veri-tipleri",
-    "title": "Veri tipleri ve işleme",
-    "section": "Veri tipleri",
-    "text": "Veri tipleri\n\nrecord data\ntransaction data\ndata matrix\n\nsparse data matrix\n\ngraph-based data"
-  },
-  {
-    "objectID": "ders2.html#sıralı-veri-ordered-data",
-    "href": "ders2.html#sıralı-veri-ordered-data",
-    "title": "Veri tipleri ve işleme",
-    "section": "Sıralı veri / Ordered data",
-    "text": "Sıralı veri / Ordered data\n\n\nSequential / Temporal data\nSequence data\nTime series data\nSpatial data"
-  },
-  {
-    "objectID": "ders2.html#section-3",
-    "href": "ders2.html#section-3",
-    "title": "Veri tipleri ve işleme",
+    "objectID": "r-linear-regression.html#a-polynomial-model",
+    "href": "r-linear-regression.html#a-polynomial-model",
+    "title": "Linear Regression with R",
     "section": "",
-    "text": "Figure 2.4"
+    "text": "Here we have a data mtcars {datasets} that was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973-74 models). We will find a mathematical model between Weight (wt) and Displacement (disp) parameters. So let’s find the most suitable model. Please draw the plot, determine the degree of equation (first, second of third) and draw the curve.\n\nmtcars\n\n                   mpg cyl  disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6 160.0 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6 258.0 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8 360.0 175 3.15 3.440 17.02  0  0    3    2\nValiant           18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1\nDuster 360        14.3   8 360.0 245 3.21 3.570 15.84  0  0    3    4\nMerc 240D         24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2\nMerc 230          22.8   4 140.8  95 3.92 3.150 22.90  1  0    4    2\n [ reached 'max' / getOption(\"max.print\") -- omitted 23 rows ]\n\n\n\nplot(mtcars)\n\n\n\n\n\n\n\n\n\nplot(mtcars$disp, mtcars$wt)\n\n\n\n\n\n\n\n\n\nfirst_wd &lt;- lm(wt ~ disp, data=mtcars)\nsummary(first_wd)\n\n\nCall:\nlm(formula = wt ~ disp, data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.89044 -0.29775 -0.00684  0.33428  0.66525 \n\nCoefficients:\n             Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) 1.5998146  0.1729964   9.248 2.74e-10 ***\ndisp        0.0070103  0.0006629  10.576 1.22e-11 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.4574 on 30 degrees of freedom\nMultiple R-squared:  0.7885,    Adjusted R-squared:  0.7815 \nF-statistic: 111.8 on 1 and 30 DF,  p-value: 1.222e-11\n\n\n\nsecond_wd &lt;- lm(wt ~ disp + I(disp^2), data=mtcars)\nsummary(second_wd)\n\n\nCall:\nlm(formula = wt ~ disp + I(disp^2), data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.88654 -0.29136 -0.00961  0.32389  0.67010 \n\nCoefficients:\n             Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) 1.631e+00  3.622e-01   4.502 0.000101 ***\ndisp        6.694e-03  3.325e-03   2.013 0.053448 .  \nI(disp^2)   6.206e-07  6.380e-06   0.097 0.923178    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.4652 on 29 degrees of freedom\nMultiple R-squared:  0.7886,    Adjusted R-squared:  0.774 \nF-statistic: 54.08 on 2 and 29 DF,  p-value: 1.639e-10\n\n\n\nthird_wd &lt;- lm(wt ~ disp + I(disp^2) + I(disp^3), data = mtcars)\nsummary(third_wd)\n\n\nCall:\nlm(formula = wt ~ disp + I(disp^2) + I(disp^3), data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.63764 -0.22785  0.00307  0.24614  0.58333 \n\nCoefficients:\n              Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) -1.111e+00  5.651e-01  -1.966   0.0593 .  \ndisp         4.945e-02  8.198e-03   6.032 1.68e-06 ***\nI(disp^2)   -1.807e-04  3.361e-05  -5.378 9.88e-06 ***\nI(disp^3)    2.243e-07  4.119e-08   5.446 8.21e-06 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.3299 on 28 degrees of freedom\nMultiple R-squared:  0.8973,    Adjusted R-squared:  0.8863 \nF-statistic: 81.57 on 3 and 28 DF,  p-value: 5.959e-14\n\n\n\nplot(mtcars$disp,mtcars$wt)\ncurve(2.243e-07*x^3 -1.807e-04*x^2 +4.945e-02*x -1.111e+00,add=TRUE)\n\n\n\n\n\n\n\n\n\nbest_model &lt;- lm(wt ~ poly(disp,15), data=mtcars)\nsummary(best_model)\n\n\nCall:\nlm(formula = wt ~ poly(disp, 15), data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.43800 -0.11202 -0.00364  0.16319  0.37783 \n\nCoefficients:\n                   Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept)       3.2172500  0.0509709  63.119  &lt; 2e-16 ***\npoly(disp, 15)1   4.8375552  0.2883350  16.778 1.41e-11 ***\npoly(disp, 15)2   0.0452475  0.2883350   0.157   0.8773    \npoly(disp, 15)3   1.7965723  0.2883350   6.231 1.20e-05 ***\npoly(disp, 15)4   0.4463962  0.2883350   1.548   0.1411    \npoly(disp, 15)5  -0.6866393  0.2883350  -2.381   0.0300 *  \npoly(disp, 15)6  -0.3384161  0.2883350  -1.174   0.2577    \npoly(disp, 15)7  -0.6134397  0.2883350  -2.128   0.0493 *  \npoly(disp, 15)8   0.0528245  0.2883350   0.183   0.8569    \npoly(disp, 15)9   0.0814084  0.2883350   0.282   0.7813    \npoly(disp, 15)10 -0.0654665  0.2883350  -0.227   0.8233    \npoly(disp, 15)11  0.2853853  0.2883350   0.990   0.3370    \npoly(disp, 15)12 -0.0007108  0.2883350  -0.002   0.9981    \npoly(disp, 15)13  0.4495723  0.2883350   1.559   0.1385    \npoly(disp, 15)14 -0.0699728  0.2883350  -0.243   0.8113    \npoly(disp, 15)15 -0.5031480  0.2883350  -1.745   0.1002    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.2883 on 16 degrees of freedom\nMultiple R-squared:  0.9552,    Adjusted R-squared:  0.9132 \nF-statistic: 22.73 on 15 and 16 DF,  p-value: 5.551e-08\n\n\n\npred &lt;- predict(best_model, data.frame(disp=50:500))\nplot(mtcars$disp, mtcars$wt)\npoints(50:500, pred, type=\"l\")\n\n\n\n\n\n\n\n\n\npredict(third_wd, data.frame(disp=420))\n\n       1 \n4.397246 \n\n\n\npredict(best_model, data.frame(disp=420))\n\n       1 \n7.329183 \n\n\n\npredict(best_model, data.frame(disp=c(20,420, 500)))\n\n           1            2            3 \n 3865.329736     7.329183 -1513.538298 \n\n\n\nSo, the “best” model is not best at all.."
   },
   {
-    "objectID": "ders2.html#veri-kalitesi",
-    "href": "ders2.html#veri-kalitesi",
-    "title": "Veri tipleri ve işleme",
-    "section": "Veri kalitesi",
-    "text": "Veri kalitesi\n Hatırlanacağı üzere, veri biliminde veri temizliği aşaması toplam sürenin %80’ini oluşturmaktadır.\n\nÖlçüm hataları / measurement error : ölçüm sırasında sayısal hata yapılması veya dahil edilmemesi gereken verinin dahil edilmesi\nGürültü / Noise and artifacts: ölçüm hatalarındaki rastgele olan bileşendir. Sinyal işleme yöntemleri ile gürültü kaldırılabilir ama bu sırada gerçek veri kaybı da gerçekleşebilir."
+    "objectID": "r-linear-regression.html#traintest-split",
+    "href": "r-linear-regression.html#traintest-split",
+    "title": "Linear Regression with R",
+    "section": "Train/Test split",
+    "text": "Train/Test split\nLet’s understand the topic of overfitting.\nSplit the data into train and test. Train the model with “training” data. Then predict with “test” data.\n\nsample(1:32, 5, replace=FALSE)\n\n[1] 31 12 16 17  5\n\n\n\nset.seed(2)\nidx &lt;- sample(1:32, 5, replace=FALSE)\nidx\n\n[1] 21 15  6 30  8\n\n\n\ntest &lt;- mtcars[idx,]\n\ntest\n\n                    mpg cyl  disp  hp drat    wt  qsec vs am gear carb\nToyota Corona      21.5   4 120.1  97 3.70 2.465 20.01  1  0    3    1\nCadillac Fleetwood 10.4   8 472.0 205 2.93 5.250 17.98  0  0    3    4\nValiant            18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1\nFerrari Dino       19.7   6 145.0 175 3.62 2.770 15.50  0  1    5    6\nMerc 240D          24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2\n\n\n\ntrain &lt;- mtcars[-idx,]\ntrain\n\n                   mpg cyl  disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6 160.0 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6 258.0 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8 360.0 175 3.15 3.440 17.02  0  0    3    2\nDuster 360        14.3   8 360.0 245 3.21 3.570 15.84  0  0    3    4\nMerc 230          22.8   4 140.8  95 3.92 3.150 22.90  1  0    4    2\nMerc 280          19.2   6 167.6 123 3.92 3.440 18.30  1  0    4    4\nMerc 280C         17.8   6 167.6 123 3.92 3.440 18.90  1  0    4    4\n [ reached 'max' / getOption(\"max.print\") -- omitted 18 rows ]\n\n\n\nthird_deg &lt;- lm(wt ~ poly(disp,3), data = train)\nsummary(third_deg)$r.squared\n\n[1] 0.8879368\n\n\n\npredict(third_deg, test)\n\n     Toyota Corona Cadillac Fleetwood            Valiant       Ferrari Dino \n          2.633774           5.824101           3.418857           2.970499 \n         Merc 240D \n          2.989188 \n\n\n\ntest$third_pred &lt;- predict(third_deg, test)\ntest\n\n                    mpg cyl  disp  hp drat    wt  qsec vs am gear carb\nToyota Corona      21.5   4 120.1  97 3.70 2.465 20.01  1  0    3    1\nCadillac Fleetwood 10.4   8 472.0 205 2.93 5.250 17.98  0  0    3    4\nValiant            18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1\nFerrari Dino       19.7   6 145.0 175 3.62 2.770 15.50  0  1    5    6\nMerc 240D          24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2\n                   third_pred\nToyota Corona        2.633774\nCadillac Fleetwood   5.824101\nValiant              3.418857\nFerrari Dino         2.970499\nMerc 240D            2.989188\n\n\n\nfifteen_deg &lt;- lm(wt ~ poly(disp,15), data=train)\nsummary(fifteen_deg)$r.squared\n\n[1] 0.9550231\n\n\n\npredict(fifteen_deg, test)\n\n     Toyota Corona Cadillac Fleetwood            Valiant       Ferrari Dino \n          2.644378        -844.610091           2.784157           2.761685 \n         Merc 240D \n          2.745391 \n\n\n\ntest$fifteen &lt;- predict(fifteen_deg, test)\n\ntest[c(\"disp\",\"wt\",\"third_pred\",\"fifteen\")]\n\n                    disp    wt third_pred     fifteen\nToyota Corona      120.1 2.465   2.633774    2.644378\nCadillac Fleetwood 472.0 5.250   5.824101 -844.610091\nValiant            225.0 3.460   3.418857    2.784157\nFerrari Dino       145.0 2.770   2.970499    2.761685\nMerc 240D          146.7 3.190   2.989188    2.745391\n\n\nAs you can see, “fifteenth degree” model memorized (i.e overfitted) the data and predicts horribly."
   },
   {
-    "objectID": "ders2.html#veri-kalitesi---2",
-    "href": "ders2.html#veri-kalitesi---2",
-    "title": "Veri tipleri ve işleme",
-    "section": "Veri kalitesi - 2",
-    "text": "Veri kalitesi - 2\n\nUç değer / Outlier\nKayıp veya eksik ölçüm / Missing value\n\nÇıkarma / Eliminate\nTahmin etme, doldurma / Estimate\nGöz ardı etme / Ignore\n\nUyumsuz ölçümler / Inconsistent values : örn. Ölçüm yapılan tekniğin değişmesi veya farklı tekniklerle toplanan değerlerin uyuşmazlığı\nTekrar eden veri / Duplicate data : aynı kişi bir veritabanında birden çok kez bulunabilir ama ismi aynı iki kişi tekrar sayılmaz"
-  },
-  {
-    "objectID": "ders2.html#veri-işleme",
-    "href": "ders2.html#veri-işleme",
-    "title": "Veri tipleri ve işleme",
-    "section": "Veri işleme",
-    "text": "Veri işleme\n\n\nAggregation\nSampling\nDimensionality reduction\nFeature subset selection\nFeature creation\nDiscretization and binarization\nVariable transformation"
-  },
-  {
-    "objectID": "ders2.html#aggregation",
-    "href": "ders2.html#aggregation",
-    "title": "Veri tipleri ve işleme",
-    "section": "Aggregation",
-    "text": "Aggregation\n\nGroup by - sum, mean\nHistogram"
-  },
-  {
-    "objectID": "ders2.html#aggregation-histogram",
-    "href": "ders2.html#aggregation-histogram",
-    "title": "Veri tipleri ve işleme",
-    "section": "Aggregation / Histogram",
-    "text": "Aggregation / Histogram"
-  },
-  {
-    "objectID": "ders2.html#sampling-örnekleme",
-    "href": "ders2.html#sampling-örnekleme",
-    "title": "Veri tipleri ve işleme",
-    "section": "Sampling / Örnekleme",
-    "text": "Sampling / Örnekleme\n\nSimple random sampling\nStratified sampling"
-  },
-  {
-    "objectID": "ders2.html#dimensionality-reduction",
-    "href": "ders2.html#dimensionality-reduction",
-    "title": "Veri tipleri ve işleme",
-    "section": "Dimensionality reduction",
-    "text": "Dimensionality reduction\n\n“The Curse of Dimensionality”: özellik/attribute sayısı arttıkça algoritmaların veya hesapların daha zor hale gelmesi. “Sparse” veri durumunda artık hesaplamaların (uzaklık, benzerlik) doğruluğunu yitirmesi\n\n\nLinear algebra techniques\n\nPCA: Principal Components Analysis\nSVD: Singular Value Decomposition"
-  },
-  {
-    "objectID": "ders2.html#others",
-    "href": "ders2.html#others",
-    "title": "Veri tipleri ve işleme",
-    "section": "Others",
-    "text": "Others\n\nFeature Subset Selection\n\nremove Redundant features or Irrelevant features\nFeature Weighting\n\nFeature Creation\n\nFeature Extraction: e.g Photo -&gt; edges, important areas, color scheme\nMapping the Data to a New Space : e.g Fourier Transformation\n\nDiscretization and Binarization\n\nCategory -&gt; Binary values\nContinous data -&gt; bins, categories, intervals\n\nVariable Transformation"
-  },
-  {
-    "objectID": "ders2.html#fourier-transformation",
-    "href": "ders2.html#fourier-transformation",
-    "title": "Veri tipleri ve işleme",
-    "section": "Fourier Transformation",
-    "text": "Fourier Transformation"
-  },
-  {
-    "objectID": "ders2.html#category-to-binary",
-    "href": "ders2.html#category-to-binary",
-    "title": "Veri tipleri ve işleme",
-    "section": "Category to binary",
-    "text": "Category to binary"
-  },
-  {
-    "objectID": "ders2.html#variable-transformation",
-    "href": "ders2.html#variable-transformation",
-    "title": "Veri tipleri ve işleme",
-    "section": "Variable Transformation",
-    "text": "Variable Transformation\n\n\nSimple functions: \\(x^k\\) , log(x), \\(e^x\\) , sqrt(x), \\(1/x\\), sin(x), or |x|\nNormalization or Standardization\n\nfor each value subtract mean and divide by standard deviation\ne.g. age and income data, find similarity between individuals\nmean = 0, sd = 1"
-  },
-  {
-    "objectID": "katilim.html",
-    "href": "katilim.html",
-    "title": "Attendance and Quizes / Katılım ve Quizler",
+    "objectID": "id3-decision-tree.html",
+    "href": "id3-decision-tree.html",
+    "title": "Decision Tree Algoritm",
     "section": "",
-    "text": "Zoom üzerinden süre olarak katılımınız alınarak, toplam ders süremize1 göre oran hesaplanmıştır. Dersin üçte birinden (1/3 ya da 0.3) az katılan öğrenci o derse katılmamış sayılacaktır.\nAşağıdaki tablolarda her bir ders günü için Zoom süresi ve katılım oranı verilmiştir. (ŞU ANDA SADECE 19 TEMMUZ GÜNÜ YAPILAN DERSE GÖRE HESAPLAMA YAPILMIŞTIR)\n\n\n\n\n\n\nClick for translation\n\n\n\n\n\nYour participation time has been recorded via Zoom, and a ratio has been calculated based on our total lesson duration. A student who participates less than one-third (1/3 or 0.3) of the lesson will be considered as not having attended that lesson.\nIn the tables below, the Zoom duration and participation ratio for each lesson day are provided. (THE DATA BELOW ONLY CONSIDERS JULY 19TH LECTURE)"
+    "text": "Taken from https://medium.datadriveninvestor.com/decision-tree-algorithm-with-hands-on-example-e6c2afb40d38\nEntropy\nIn machine learning, entropy is a measure of the randomness in the information being processed. The higher the entropy, the harder it is to draw any conclusions from that information.\n\nInformation Gain\nInformation gain can be defined as the amount of information gained about a random variable or signal from observing another random variable.It can be considered as the difference between the entropy of parent node and weighted average entropy of child nodes.\n\nGini Impurity\nGini impurity is a measure of how often a randomly chosen element from the set would be incorrectly labeled if it was randomly labeled according to the distribution of labels in the subset.\n\nGini impurity is lower bounded by 0, with 0 occurring if the data set contains only one class.\n\nThere are many algorithms there to build a decision tree. They are\n\nCART (Classification and Regression Trees) — This makes use of Gini impurity as the metric.\nID3 (Iterative Dichotomiser 3) — This uses entropy and information gain as metric.\n\nIn this article, I will go through ID3. Once you got it it is easy to implement the same using CART.\n\nClassification using the ID3 algorithm\nConsider whether a dataset based on which we will determine whether to play football or not.\n\nHere There are for independent variables to determine the dependent variable. The independent variables are Outlook, Temperature, Humidity, and Wind. The dependent variable is whether to play football or not.\nAs the first step, we have to find the parent node for our decision tree. For that follow the steps:\n*Find the entropy of the class variable.*\nE(S) = -[(9/14)log(9/14) + (5/14)log(5/14)] = 0.94\nnote: Here typically we will take log to base 2.Here total there are 14 yes/no. Out of which 9 yes and 5 no.Based on it we calculated probability above.\nFrom the above data for outlook we can arrive at the following table easily\n\n*Now we have to calculate average weighted entropy*. ie, we have found the total of weights of each feature multiplied by probabilities.\nE(S, outlook) = (5/14)E(3,2) + (4/14)E(4,0) + (5/14)*E(2,3) = (5/14)(-(3/5)log(3/5)-(2/5)log(2/5))+ (4/14)(0) + (5/14)((2/5)log(2/5)-(3/5)log(3/5)) = 0.693\n*The next step is to find the information gain*. It is the difference between parent entropy and average weighted entropy we found above.\nIG(S, outlook) = 0.94 - 0.693 = 0.247\nSimilarly find Information gain for Temperature, Humidity, and Windy.\nIG(S, Temperature) = 0.940 - 0.911 = 0.029\nIG(S, Humidity) = 0.940 - 0.788 = 0.152\nIG(S, Windy) = 0.940 - 0.8932 = 0.048\n*Now select the feature having the largest entropy gain*. Here it is Outlook. So it forms the first node(root node) of our decision tree.\nNow our data look as follows\n\n\n\nSince overcast contains only examples of class ‘Yes’ we can set it as yes. That means If outlook is overcast football will be played. Now our decision tree looks as follows.\n\nThe next step is to find the next node in our decision tree. Now we will find one under sunny. We have to determine which of the following Temperature, Humidity or Wind has higher information gain.\n\nCalculate parent entropy E(sunny)\nE(sunny) = (-(3/5)log(3/5)-(2/5)log(2/5)) = 0.971.\nNow Calculate the information gain of Temperature. IG(sunny, Temperature)\n\nE(sunny, Temperature) = (2/5)E(0,2) + (2/5)E(1,1) + (1/5)*E(1,0)=2/5=0.4\nNow calculate information gain.\nIG(sunny, Temperature) = 0.971–0.4 =0.571\nSimilarly we get\nIG(sunny, Humidity) = 0.971\nIG(sunny, Windy) = 0.020\nHere IG(sunny, Humidity) is the largest value. So Humidity is the node that comes under sunny.\n\nFor humidity from the above table, we can say that play will occur if humidity is normal and will not occur if it is high. Similarly, find the nodes under rainy.\n*Note: A branch with entropy more than 0 needs further splitting.*\nFinally, our decision tree will look as below:\n\n\n\nClassification using CART algorithm\nClassification using CART is similar to it. But instead of entropy, we use Gini impurity.\nSo as the first step we will find the root node of our decision tree. For that Calculate the Gini index of the class variable\nGini(S) = 1 - [(9/14)² + (5/14)²] = 0.4591\nAs the next step, we will calculate the Gini gain. For that first, we will find the average weighted Gini impurity of Outlook, Temperature, Humidity, and Windy.\nFirst, consider case of Outlook\n\nGini(S, outlook) = (5/14)gini(3,2) + (4/14)gini(4,0)+ (5/14)gini(2,3) = (5/14)(1 - (3/5)² - (2/5)²) + (4/14)*0 + (5/14)(1 - (2/5)² - (3/5)²)= 0.171+0+0.171 = 0.342\nGini gain (S, outlook) = 0.459 - 0.342 = 0.117\nGini gain(S, Temperature) = 0.459 - 0.4405 = 0.0185\nGini gain(S, Humidity) = 0.459 - 0.3674 = 0.0916\nGini gain(S, windy) = 0.459 - 0.4286 = 0.0304\nChoose one that has a higher Gini gain. Gini gain is higher for outlook. So we can choose it as our root node."
   },
   {
-    "objectID": "katilim.html#group1-grup1-türkçe-1",
-    "href": "katilim.html#group1-grup1-türkçe-1",
-    "title": "Attendance and Quizes / Katılım ve Quizler",
-    "section": "Group1 / Grup1 Türkçe",
-    "text": "Group1 / Grup1 Türkçe"
+    "objectID": "ders1-TR.html",
+    "href": "ders1-TR.html",
+    "title": "GPT modelleri",
+    "section": "",
+    "text": "GPT1, GPT2 ve GPT3, ChatGPT’den birkaç yıl önce piyasaya sürüldü ve cümleleri tamamlama yeteneğine sahipti. Daha fazla bilgi için “ChatGPT Nasıl Çalışır?” sitesini ziyaret edin. ChatGPT’nin piyasaya sürülmesinden sonra, büyük dil modelleri “konuşma yeteneği” kazandı.\nLütfen OpenAI Playground tamamlama sitesini ziyaret edin ve model olarak “gpt-3.5-turbo”yu seçin. Tamamlanmamış bir cümle yazın ve ardından Gönder düğmesine basın.\n\nModelin cümlenizi tamamladığını göreceksiniz. Sağ menüdeki “Olasılıkları göster” seçeneğini açarsanız, GPT’nin nasıl çalıştığına dair bir fikir edinebilirsiniz.\n\nCümleyi tamamlayıp kelimelerin üzerine geldiğinizde, modelin belirli olasılıklarla seçebileceği birçok kelime olduğunu göreceksiniz. Bu örnekte, “my” kelimesi Today is ifadesinden sonra 4. en olası kelimedir ve “birthday” kelimesi Today is my ifadesinden sonra en olası kelimedir.\n\n\nGPT modellerinin temel ayarlarından biri sıcaklık değeridir. Sıcaklığı azaltırsanız, model en olası kelimeleri seçecektir. Sıcaklık yüksekse, model düşük olasılıklı kelimeleri seçecektir, bu da yaratıcı ve çeşitli çıktılar sağlayacaktır.\nSıcaklığı sıfıra düşürürseniz, çıktı her zaman aynı olacaktır."
   },
   {
-    "objectID": "katilim.html#group2-grup2-ingilizce-1",
-    "href": "katilim.html#group2-grup2-ingilizce-1",
-    "title": "Attendance and Quizes / Katılım ve Quizler",
-    "section": "Group2 / Grup2 İngilizce",
-    "text": "Group2 / Grup2 İngilizce"
+    "objectID": "ders1-TR.html#chatgpt-bizim-için-kod-yazıyor",
+    "href": "ders1-TR.html#chatgpt-bizim-için-kod-yazıyor",
+    "title": "GPT modelleri",
+    "section": "ChatGPT bizim için kod yazıyor",
+    "text": "ChatGPT bizim için kod yazıyor\nHadi ChatGPT’den Python’da hızlı bir asal sayı fonksiyonu isteyelim\n\n\nAz önce ne olduğunu gördünüz mü! Bize özel hazırlanmış bir kod sağladı ve kodun parçalarını da açıkladı. Kodun dersimiz sırasında öğrendiğimiz püf noktaları içerdiğini fark ettiniz mi: * erken durma: bir koşul karşılanırsa, hemen True veya False döndür * N’ye kadar kontrol etmek yerine, \\(\\sqrt{N}\\)’e kadar olan sayıları kontrol etmeliyiz (Python’da n  0.5**)\nKonuşmaya devam edebilirsiniz. Hadi memoization isteyelim.\n\n\nHadi kodu alalım ve burada test edelim:\ndef is_prime(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n in (2, 3):\n        result = True\n    elif n == 1 or n % 2 == 0:\n        result = False\n    else:\n        result = True\n        for i in range(3, int(n ** 0.5) + 1, 2):\n            if n % i == 0:\n                result = False\n                break\n    memo[n] = result\n    return result\n# is_prime(100000000003)\n\n\n\n\n\n\nUyarı\n\n\n\nBu notu yazdığım sırada (Ocak 2023) chatGPT’nin tam olarak doğru olmayan sonuçlar verdiği biliniyordu!Bu nedenle, chatGPT’den aldığınız kodu veya bilgiyi kontrol etmeden veya doğrulamadan olduğu gibi kullanmamaya dikkat ediniz."
   },
   {
-    "objectID": "katilim.html#footnotes",
-    "href": "katilim.html#footnotes",
-    "title": "Attendance and Quizes / Katılım ve Quizler",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nBeklenen ders süresi (yaklaşık 3 saat) değil, işlenen süre. Yani maksimum süre, ders süresi olarak alınmıştır.↩︎"
+    "objectID": "ders1-TR.html#chatgpt-kodu-düzeltebilir-veya-değiştirebilir",
+    "href": "ders1-TR.html#chatgpt-kodu-düzeltebilir-veya-değiştirebilir",
+    "title": "GPT modelleri",
+    "section": "ChatGPT kodu düzeltebilir veya değiştirebilir",
+    "text": "ChatGPT kodu düzeltebilir veya değiştirebilir\nElinizde bir kod parçası var ve istediğiniz gibi çalışmıyor mu? O zaman ChatGPT’den kodu düzeltmesini isteyebilirsiniz.\nHatalı bir kod verelim ve chatGPT’den hata ayıklamasını isteyelim:\n\n\nDemek ki ChatGPT kodu düzeltebiliyor! Bu arada, o örneği hazırlamak için ChatGPT’yi kullandığımı biliyor muydunuz? ;)"
+  },
+  {
+    "objectID": "ders1-TR.html#bu-programlamanın-sonu-mu",
+    "href": "ders1-TR.html#bu-programlamanın-sonu-mu",
+    "title": "GPT modelleri",
+    "section": "Bu programlamanın sonu mu?",
+    "text": "Bu programlamanın sonu mu?\n“Bir dönem boyunca Python öğrendik ama şimdi ChatGPT var, hiç kod öğrenmeye gerek yok!” diye düşünebilirsiniz. Benzer endişeleri araştıran çevrimiçi içerikler bulabilirsiniz. Ancak daha makul yaklaşım, “AI araçları geliştiricilerin hızını ve verimliliğini artıracak ve ayrıca yeni dillere giriş engellerini azaltacak” şeklindedir.\nAşağıdaki bölüm Github Copilot’un sayfasından alınmıştır:"
+  },
+  {
+    "objectID": "ders1-TR.html#chatgptyi-gösterdiğiniz-için-teşekkürler-artık-ödevlerimi-kolayca-hazırlayabilirim",
+    "href": "ders1-TR.html#chatgptyi-gösterdiğiniz-için-teşekkürler-artık-ödevlerimi-kolayca-hazırlayabilirim",
+    "title": "GPT modelleri",
+    "section": "ChatGPT’yi gösterdiğiniz için teşekkürler, artık ödevlerimi kolayca hazırlayabilirim!",
+    "text": "ChatGPT’yi gösterdiğiniz için teşekkürler, artık ödevlerimi kolayca hazırlayabilirim!\nChatGPT’nin yeteneklerini görmek, yanlış kullanım hakkında bazı ipuçları verebilir. Öncelikle, bir ödev sizin bir kavramı öğrenmeniz içindir (gitar çalma benzetmesini hatırlayın?) bu nedenle AI destekli intihal yapmak hala bir intihaldir ve sizin açınızdan bir kayıptır. (lütfen intihalin olumsuz etkileri için 00-academic-integrity.ipynb dosyasını da kontrol edin)\nİkincisi, OpenAI ve diğerleri ChatGPT çıktısına kolayca fark edilebilecek filigranlar eklemek için araçlar ve yöntemler üzerinde çalışıyor.\nBu yüzden lütfen bu araçtan ilham alın, öğrenmenizi geliştirmek için kullanın ama intihal için kullanmayın."
+  },
+  {
+    "objectID": "ders1-TR.html#kapalı-ve-açık-modeller",
+    "href": "ders1-TR.html#kapalı-ve-açık-modeller",
+    "title": "GPT modelleri",
+    "section": "Kapalı ve Açık modeller",
+    "text": "Kapalı ve Açık modeller\nŞu anda, her biri eğitilmek için yüz milyonlarca dolar harcanan ve büyük şirketler tarafından geliştirilen birkaç kapalı kaynaklı büyük dil modeli var: * GPT3.5 (ChatGPT) ve GPT4 OpenAI tarafından * PaLM ve Bard Google tarafından * Claude Anthropics tarafından"
+  },
+  {
+    "objectID": "ders1-TR.html#claude-3.5-sonnet-by-antropic",
+    "href": "ders1-TR.html#claude-3.5-sonnet-by-antropic",
+    "title": "GPT modelleri",
+    "section": "Claude 3.5 Sonnet by Antropic",
+    "text": "Claude 3.5 Sonnet by Antropic\nClaude 3.5, Claude modelinin en son sürümüdür. Antropic, Claude’u üç boyutta piyasaya sürer: Haiku (en küçük), Sonnet (orta) ve Opus (en büyük). Şu anda, Claude 3.5 Sonnest en iyi LLM’dir. Genellikle Claude yaratıcı yazma konusunda iyidir, ancak son sürümüyle kodlamada da mükemmelleşmiştir. Ayrıca, Claude sağ panelde kodun önizlemesine (web tabanlı) izin verir.\nAşağıda, Claude 3.5 Sonnet’e “Lütfen HTML, CSS ve JS ile yılan oyunu yaz” komutu verildiğinde oluşturulan bir örnek yer alıyor. Oyunu gerçekten oynayabilirsiniz!\n\nClaude ayrıca belgeleri (örneğin PDF) yüklemeye ve belge hakkında sorular sormaya izin verir.\nClaude’u (bazı sınırlamalarla) ücretsiz bir hesap kaydettikten sonra https://claude.ai/chat adresinde kullanabilirsiniz."
+  },
+  {
+    "objectID": "ders1-TR.html#gemini-by-google",
+    "href": "ders1-TR.html#gemini-by-google",
+    "title": "GPT modelleri",
+    "section": "Gemini by Google",
+    "text": "Gemini by Google\nGemini aslında çevrimiçi arama kapasitesine sahip bir LLM’dir. Ayrıca, (Google Drive aracılığıyla) belgeler indirebilir veya sorular sormak için YouTube videolarına yönlendirebilirsiniz. Son olarak, Gemini 1 milyon belirteçlik en uzun bağlam penceresine sahiptir (bir kerede yaklaşık 10 kitap sığacaktır)."
+  },
+  {
+    "objectID": "ders1-TR.html#modelleri-lokal-olarak-çalıştırma",
+    "href": "ders1-TR.html#modelleri-lokal-olarak-çalıştırma",
+    "title": "GPT modelleri",
+    "section": "Modelleri lokal olarak çalıştırma",
+    "text": "Modelleri lokal olarak çalıştırma\nGeliştiriciler model ağırlıklarını paylaştığı için, modelleri indirip yerel olarak çalıştırmak mümkün. Çeşitli boyutlarda modeller var. 7B (7 milyar) modeller yaklaşık 4Gb bellek gerektiriyor, bu yüzden onları dizüstü bilgisayarınızda çalıştırabilirsiniz.\nModelleri, Python için PyTorch ve bazı diğer kütüphaneleri kurarak ve ardından biraz Python kodu yazarak çalıştırabilirsiniz. Ya da Ollama’yı kurabilir ve ardından onunla uyumlu herhangi bir modeli çalıştırabilirsiniz.\nBir modeli yerel olarak çalıştırmanın avantajları: 1. Daha Az Sansür 2. Daha İyi Veri Gizliliği 3. Çevrimdışı Kullanım 4. Maliyet Tasarrufu 5. Daha İyi Özelleştirme\nBir modeli yerel olarak çalıştırmanın dezavantajları: 1. Kaynak Yoğun 2. Daha Yavaş Yanıtlar ve Daha Düşük Performans 3. Karmaşık Kurulum\n\nJupyter notebook veya Google Colab kullanarak lokal olarak model çalıştırma\nAslında LLM modellerini Jupyter notebook’larında çalıştırabilirsiniz. Ancak bu süreç, birçok Python paketini kurmanızı, model ağırlıklarını indirmenizi ve ardından modele soru sormak ve yanıtı bir sözlükte yakalamak için biraz Python kodu yazmanızı gerektirecektir. “Sohbet benzeri” deneyim için bazı çözümler olsa da, deneyim daha çok “tek seferlik soru ve cevap” gibidir.\nLütfen Google’ın bir Jupyter notebook ortamında modeli çalıştırmak için GPU (veya TPU) sağladığı Google Colab’daki süreci anlatan YouTube videosunu kontrol edin.\n\n\nOllama ile lokal olarak model çalıştırma\n\nÖzelleştirilmiş modeller hakkında bir fikir edinmek için lütfen modeller listesi sayfasını ziyaret edin. Ollama ile, bu modellerden herhangi birini indirebilir ve kullanabilirsiniz.\nTerminalde, mevcut modelleri listeleyelim\n$ ollama list\n\nNAME                ID              SIZE    MODIFIED\ndeepseek-coder:6.7b 72be2442d736    3.8 GB  5 weeks ago     \nneural-chat:latest  73940af9fe02    4.1 GB  5 weeks ago     \norca2:7b            ea98cc422de3    3.8 GB  5 weeks ago     \nphi:latest          c651b7a89d73    1.6 GB  14 hours ago    \nsolar:latest        059fdabbe6e6    6.1 GB  2 hours ago     \nstablelm-zephyr:3b  7c596e78b1fc    1.6 GB  3 weeks ago\nMicrosoft tarafından geliştirilen Phi-2’yi çalıştıralım. İşte Phi-2 hakkında bilgi:\n\n2,7 milyar parametreli bir dil modeli olan Phi-2, olağanüstü akıl yürütme ve dil anlama yetenekleri sergiliyor ve 13 milyar parametreden daha az olan temel dil modelleri arasında en son teknoloji performansı gösteriyor. Karmaşık kıyaslamalarda Phi-2, model ölçeklendirme ve eğitim verisi kürasyon konusundaki yeni yenilikler sayesinde 25 kat daha büyük modellere eşdeğer veya daha iyi performans gösteriyor.\n\n$ ollama run phi:latest\n\n&gt;&gt;&gt; Gökyüzü neden mavi?\n\nGökyüzü, Rayleigh saçılması adı verilen bir fenomen nedeniyle mavi görünür. Güneş ışığı Dünya'nın atmosferine girdiğinde, oksijen ve azot atomları gibi havadaki moleküller ve küçük parçacıklarla çarpışır. Bu çarpışmalar, ışığın daha kısa dalga boylarının (mavi) daha uzun dalga boylarından (kırmızı, turuncu, sarı, yeşil ve mor) daha fazla saçılmasına neden olur.\nSonuç olarak, gözlerimiz saçılan mavi ışığı baskın olarak algılar ve bu nedenle gökyüzü bize mavi görünür.\nGördüğünüz gibi, soruları cevaplayabilen, kodlama konusunda yardımcı olabilen küçük bir model yerel olarak çalıştırılabilir.\n\n\nKullanıcı arayüzü ile lokal olarak model çalıştırma\n\nOllama Web UI\n\n\n\nLLM Studio\nLM Studio’yu kurabilir ve ardından kullanıcı arayüzü ile yerel modellerle etkileşime geçebilirsiniz"
+  },
+  {
+    "objectID": "ders1-TR.html#github-copilot",
+    "href": "ders1-TR.html#github-copilot",
+    "title": "GPT modelleri",
+    "section": "Github CoPilot",
+    "text": "Github CoPilot"
+  },
+  {
+    "objectID": "ders1-TR.html#ücretsiz-github-copilot-alternatifi",
+    "href": "ders1-TR.html#ücretsiz-github-copilot-alternatifi",
+    "title": "GPT modelleri",
+    "section": "Ücretsiz Github CoPilot alternatifi",
+    "text": "Ücretsiz Github CoPilot alternatifi\nCody, Sourcegraph’in AI kodlama asistanıdır ve sizi 10x geliştirici yapacak başka hiçbir asistanın sahip olmadığı birkaç özelliğe sahiptir. Buradan inceleyebilirsiniz: https://sourcegraph.com/cody"
+  },
+  {
+    "objectID": "ders1-TR.html#açık-kaynak-lokal-alternatifler",
+    "href": "ders1-TR.html#açık-kaynak-lokal-alternatifler",
+    "title": "GPT modelleri",
+    "section": "Açık kaynak lokal alternatifler",
+    "text": "Açık kaynak lokal alternatifler\nDaha fazla bilgi için lütfen https://tabby.tabbyml.com/ adresini ziyaret edin"
+  },
+  {
+    "objectID": "ders1-TR.html#görüntü-üretimi",
+    "href": "ders1-TR.html#görüntü-üretimi",
+    "title": "GPT modelleri",
+    "section": "Görüntü Üretimi",
+    "text": "Görüntü Üretimi\n\nOpenAI’dan DALL-E 3\nİstek: “arka planda istanbul şehri silüeti olan bir dna sarmalı”\nDüzeltilmiş istek: “Bilim ve mimarinin buluştuğu detaylı bir illüstrasyon hayal edin. Ön planda, karanlık bir arka plan üzerinde büyütülmüş ve parlayan bir DNA sarmalı var. Bu sarmal yapı tam olarak betimlenmiş, tanıdık çift sarmal şekli muhteşem bir şekilde kıvrılıyor. Bu bilimsel görüntüyle iç içe geçmiş şekilde, arka planda İstanbul şehrinin bir silüet temsili var. Şehir silueti, kubbeli camileri ve yükselen minareleriyle muhteşem tarihi mimarisini sergiliyor. Şehir manzarası, akşamüstü gökyüzüne karşı duruyor, batan güneş binaların arkasındaki ufukta turuncu bir parıltı yaratıyor. Bu kombinasyon, bilim ve şehir güzelliğinin büyüleyici bir yan yana gelişiyle sonuçlanıyor.”\nSonuç:\n\n\n\nMidjourney v6\nMidjourney, Aralık 2023’te v6’yı duyurdu. Fotogerçekçi görüntüler üretebiliyor. Normalde, ücretsiz görüntü üretmek için Discord kanallarını kullanmanız gerekir. Ayrıca, getimg.ai kullanarak da görüntüler üretebilirsiniz. Aşağıdaki isteklerle görüntüler üretmeyi denedim:\n\nÇok sayıda öğrencinin olduğu moleküler biyoloji laboratuvarı.\nBeyaz kumlu güzel bir deniz kenarı ve kıyıda tropikal ağaçlar. Deniz yeşilimsi mavi görünüyor.\n\nSonuçlar harika:\n\n\n\nDezenformasyon\nDeepfake veya yapay zeka tarafından üretilmiş sahte fotoğraflara dikkat edin\nSahte Trump Fotoğrafı\n\nSahte Papa Fotoğrafı"
+  },
+  {
+    "objectID": "ders1-TR.html#video-üretimi",
+    "href": "ders1-TR.html#video-üretimi",
+    "title": "GPT modelleri",
+    "section": "Video Üretimi",
+    "text": "Video Üretimi\n\nİstekten videoya\n\nRunwayML Gen-2\nPika\nStable Diffusion’dan Stable Video Diffusion\nGENMO\n\n\n\nGörüntüden videoya\n\nGENMO"
+  },
+  {
+    "objectID": "ders1-TR.html#müzik-veya-ses-üretimi",
+    "href": "ders1-TR.html#müzik-veya-ses-üretimi",
+    "title": "GPT modelleri",
+    "section": "Müzik veya Ses Üretimi",
+    "text": "Müzik veya Ses Üretimi\n\nElevenlabs yapay zeka ses üreticimizle metni çevrimiçi olarak ücretsiz konuşmaya dönüştürebilir"
   },
   {
     "objectID": "r-linear-regression-tr.html",
@@ -1015,241 +1386,115 @@
     "text": "Why Logistic Regression is Useful\nLogistic Regression is a popular algorithm because it:\n\nIs easy to implement and interpret\nCan handle multiple input variables\nProvides a probability estimate for each prediction\nIs widely used in many fields, such as medicine, finance, and marketing"
   },
   {
-    "objectID": "ders6-TR.html#içerik",
-    "href": "ders6-TR.html#içerik",
-    "title": "Regresyon Yöntemleri",
-    "section": "İçerik",
-    "text": "İçerik\n\nRegresyonun tanımı\nRegresyon türleri (doğrusal, polinom ve topluluk yöntemleri)\n\nDoğrusal Regresyon: Basit Doğrusal Regresyon, En Küçük Kareler yöntemi, Model performansının değerlendirilmesi (R-kare, RMSE)\nPolinom Regresyon: Ne zaman polinom regresyon kullanılır, aşırı uyum\nRastgele Orman ile Regresyon: Regresyon için Rastgele Orman algoritması, Avantajları (doğrusal olmayan ilişkileri ele alma, özellik önemi)\nDiğer regresyon türleri: Lojistik regresyon (ikili sonuçlar için), Ridge ve Lasso regresyonu (düzenlileştirme teknikleri)\n\nExcel’de örnekler\nR ve Python’da kod örnekleri"
-  },
-  {
-    "objectID": "ders6-TR.html#regresyon",
-    "href": "ders6-TR.html#regresyon",
-    "title": "Regresyon Yöntemleri",
-    "section": "Regresyon",
-    "text": "Regresyon\nRegresyon, bir bağımlı değişken (genellikle hedef veya sonuç değişkeni olarak adlandırılır) ile bir veya daha fazla bağımsız değişken (ayrıca tahmin edici veya özellik olarak da bilinir) arasındaki ilişkiyi modellemek ve analiz etmek için veri analizinde ve makine öğrenmesinde kullanılan istatistiksel bir yöntemdir. Regresyonun temel amacı, bağımsız değişkenlerdeki değişikliklerin bağımlı değişkendeki değişikliklerle nasıl ilişkili olduğunu tahmin etmek ve çıkarım yapmaktır.\nRegresyon hakkında önemli noktalar:\n\nDeğişkenler arasındaki ilişkileri tanımlamaya ve ölçmeye yardımcı olur.\nHem tahmin hem de değişkenlerin etkisini anlamak için kullanılabilir.\nDoğrusal, polinom ve Rastgele Orman veya regresyon için Sinir Ağları gibi daha karmaşık yöntemler dahil olmak üzere çeşitli regresyon türleri vardır.\nRegresyon modelleri hem sürekli hem de kategorik değişkenleri ele alabilir.\nBilim, ekonomi ve sosyal bilimler dahil olmak üzere birçok alanda yaygın olarak kullanılır."
-  },
-  {
-    "objectID": "ders6-TR.html#doğrusal-lineer-regresyon",
-    "href": "ders6-TR.html#doğrusal-lineer-regresyon",
-    "title": "Regresyon Yöntemleri",
-    "section": "Doğrusal (Lineer) Regresyon",
-    "text": "Doğrusal (Lineer) Regresyon"
-  },
-  {
-    "objectID": "ders6-TR.html#doğrusal-regresyon",
-    "href": "ders6-TR.html#doğrusal-regresyon",
-    "title": "Regresyon Yöntemleri",
-    "section": "Doğrusal Regresyon",
-    "text": "Doğrusal Regresyon"
-  },
-  {
-    "objectID": "ders6-TR.html#doğrusal-regresyon-1",
-    "href": "ders6-TR.html#doğrusal-regresyon-1",
-    "title": "Regresyon Yöntemleri",
-    "section": "Doğrusal Regresyon",
-    "text": "Doğrusal Regresyon\nEn iyi doğruyu bulmayı deneyin: https://www.geogebra.org/m/xC6zq7Zv"
-  },
-  {
-    "objectID": "ders6-TR.html#en-küçük-kareler-ols-yöntemi",
-    "href": "ders6-TR.html#en-küçük-kareler-ols-yöntemi",
-    "title": "Regresyon Yöntemleri",
-    "section": "En Küçük Kareler (OLS) Yöntemi",
-    "text": "En Küçük Kareler (OLS) Yöntemi\nEn Küçük Kareler (Ordinary Least Squares - OLS), doğrusal bir regresyon modelinin parametrelerini tahmin etmek için kullanılan istatistiksel bir yöntemdir. Doğrusal regresyonda bir veri kümesine doğru yerleştirmek için en yaygın kullanılan tekniktir.\nOLS, gözlemlenen bağımlı değişken değerleri ile bağımsız değişken(ler)in doğrusal fonksiyonu tarafından tahmin edilen değerler arasındaki farkların karelerinin toplamını en aza indiren bir yöntemdir. Başka bir deyişle, kare artıkların toplamını en aza indirerek verilere en iyi uyan çizgiyi (veya çoklu boyutlarda hiperplane) bulur.\nTeknik detaylar için lütfen Wikipedia’daki OLS Yöntemi sayfasını ziyaret edin."
-  },
-  {
-    "objectID": "ders6-TR.html#çok-değişkenli-doğrusal-regresyon",
-    "href": "ders6-TR.html#çok-değişkenli-doğrusal-regresyon",
-    "title": "Regresyon Yöntemleri",
-    "section": "Çok Değişkenli Doğrusal Regresyon",
-    "text": "Çok Değişkenli Doğrusal Regresyon\nÇok Değişkenli Doğrusal Regresyon, aynı zamanda Çoklu Doğrusal Regresyon olarak da bilinen, birden fazla bağımsız değişken ile tek bir bağımlı değişken arasındaki ilişkiyi modellemek için kullanılan istatistiksel bir yöntemdir. Basit doğrusal regresyon kavramını birden fazla tahmin değişkeni içerecek şekilde genişletir.\nModelin genel formu şöyledir:\n\\[\ny = \\beta_0 + \\beta_1x_1 + \\beta_2x_2 + \\ldots + \\beta_nx_n + \\varepsilon\n\\]\nBurada:\ny bağımlı değişken, x₁, x₂, …, xₙ bağımsız değişkenler, β₀ y-kesişimi (tüm x’ler sıfır olduğunda y’nin değeri), β₁, β₂, …, βₙ her bağımsız değişkenle ilişkili katsayılar, n bağımsız değişken sayısı, ε hata terimi"
-  },
-  {
-    "objectID": "ders6-TR.html#polinom-regresyon",
-    "href": "ders6-TR.html#polinom-regresyon",
-    "title": "Regresyon Yöntemleri",
-    "section": "Polinom Regresyon",
-    "text": "Polinom Regresyon\nPolinom Regresyon, bağımsız değişken x ile bağımlı değişken y arasındaki ilişkinin n’inci dereceden bir polinom olarak modellendiği bir regresyon analizi formudur. Değişkenler arasındaki ilişki doğrusal olmadığında ancak bir polinom fonksiyonuyla yaklaşık olarak ifade edilebileceği durumlarda kullanılır.\n\\[\ny = \\beta_0 + \\beta_1x + \\beta_2x^2 + \\beta_3x^3 + \\ldots + \\beta_nx^n + \\varepsilon\n\\]\nBurada:\ny bağımlı değişken, x bağımsız değişken, β₀, β₁, β₂, …, βₙ tahmin edilecek katsayılar, n polinomun derecesi ve ε hata terimi"
-  },
-  {
-    "objectID": "ders6-TR.html#polinom-regresyon-1",
-    "href": "ders6-TR.html#polinom-regresyon-1",
-    "title": "Regresyon Yöntemleri",
-    "section": "Polinom Regresyon",
-    "text": "Polinom Regresyon"
-  },
-  {
-    "objectID": "ders6-TR.html#excelde-doğrusal-regresyon",
-    "href": "ders6-TR.html#excelde-doğrusal-regresyon",
-    "title": "Regresyon Yöntemleri",
-    "section": "Excel’de Doğrusal Regresyon",
-    "text": "Excel’de Doğrusal Regresyon\nMTCARS veri seti Excel dosyasını kullanın ve;\n\nwt (ağırlık) ve mpg (galon başına mil) sütunları arasında Eğilim Çizgisi çizin.\ndisp (silindir hacmi) ve wt (ağırlık) sütunları arasında Eğilim Çizgisi çizin.\n\nExcel’de nasıl Eğilim Çizgisi çizileceğini görmek için lütfen MyExcelOnline sayfasını ziyaret edin."
-  },
-  {
-    "objectID": "ders6-TR.html#r-ile-doğrusal-regresyon",
-    "href": "ders6-TR.html#r-ile-doğrusal-regresyon",
-    "title": "Regresyon Yöntemleri",
-    "section": "R ile Doğrusal Regresyon",
-    "text": "R ile Doğrusal Regresyon\nBasit doğrusal ve polinom regresyon için lütfen R ile Doğrusal Regresyon sayfasına bakın."
-  },
-  {
-    "objectID": "ders6-TR.html#rastgele-orman-random-forest-ile-regresyon",
-    "href": "ders6-TR.html#rastgele-orman-random-forest-ile-regresyon",
-    "title": "Regresyon Yöntemleri",
-    "section": "Rastgele Orman (Random Forest) ile Regresyon",
-    "text": "Rastgele Orman (Random Forest) ile Regresyon\nLütfen R ile rastgele orman regresyonu belgesine bakın."
-  },
-  {
-    "objectID": "ders3.html#değerlendirme-ölçütleri-performance-metrics",
-    "href": "ders3.html#değerlendirme-ölçütleri-performance-metrics",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Değerlendirme ölçütleri / Performance Metrics",
-    "text": "Değerlendirme ölçütleri / Performance Metrics\n\nSınıflandırma değerlendirme (Classification)\nRegresyon değerlendirme (Regression)"
-  },
-  {
-    "objectID": "ders3.html#sınıflandırma-ve-regresyon-classification-vs-regression",
-    "href": "ders3.html#sınıflandırma-ve-regresyon-classification-vs-regression",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Sınıflandırma ve Regresyon (Classification vs regression)",
-    "text": "Sınıflandırma ve Regresyon (Classification vs regression)\n\nSource"
-  },
-  {
-    "objectID": "ders3.html#section",
-    "href": "ders3.html#section",
-    "title": "Değerlendirme Ölçütleri",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "FEF3001 Yapay Zekaya Giriş Ders Notları",
     "section": "",
-    "text": "Source"
+    "text": "YTÜ Fen Fakültesinde 2024 Yaz döneminde verilen FEF3001 kodlu dersin içerikleri sayfasıdır.\n\n\n\nVize ne zaman? Cevap: 18 Temmuz 2024 perşembe saat 12:00\nVize yüz yüze mi? Cevap: Evet\nSınavlar hangi derslikte yapılacak? Cevap: Sınav derslikleri Fen Fakültesi sayfasında duyurulmuştur. Lütfen grubunuza (İng veya Türkçe) ve bölümünüze uygun derslikte sınava giriniz.\nVize konuları nelerdir? Cevap: Yapay sinir ağı konusunun sonuna kadar\nYüklenen sunumlar dışında bir kaynaktan soru sorulacak mıdır? Cevap: Temel olarak sunumlar kullanılacaktır fakat derste anlatılanlardan da sorumluyuz, ders video kaydı ve derste aldığınız notlarınızı da çalışınız\nVize test şeklinde mi ve kaç soru sorulur? Cevap: Test şeklinde 20-30 soru planlanmaktadır\nÇok fazla formül var, vizede formüller verilebilir mi? Cevap: Bütün formüller verilmeyecektir, az kullanılan ve karmaşık olan formüller verilebilir\nHaftaya ders yapılacak mı? Cevap: Sınav olduğu gün sadece FEF3001 dersi yapılmayacaktır, Cuma günü ders işlenecektir.\nYorum soruları sorulacak mı? Cevap: Genelde bilgi ölçen sorular terich edilecektir"
   },
   {
-    "objectID": "ders3.html#sınıflandırma-ve-regresyon",
-    "href": "ders3.html#sınıflandırma-ve-regresyon",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Sınıflandırma ve Regresyon",
-    "text": "Sınıflandırma ve Regresyon\n\nSource"
-  },
-  {
-    "objectID": "ders3.html#section-1",
-    "href": "ders3.html#section-1",
-    "title": "Değerlendirme Ölçütleri",
+    "objectID": "about.html#sıkça-sorulan-sorular",
+    "href": "about.html#sıkça-sorulan-sorular",
+    "title": "FEF3001 Yapay Zekaya Giriş Ders Notları",
     "section": "",
-    "text": "Source"
+    "text": "Vize ne zaman? Cevap: 18 Temmuz 2024 perşembe saat 12:00\nVize yüz yüze mi? Cevap: Evet\nSınavlar hangi derslikte yapılacak? Cevap: Sınav derslikleri Fen Fakültesi sayfasında duyurulmuştur. Lütfen grubunuza (İng veya Türkçe) ve bölümünüze uygun derslikte sınava giriniz.\nVize konuları nelerdir? Cevap: Yapay sinir ağı konusunun sonuna kadar\nYüklenen sunumlar dışında bir kaynaktan soru sorulacak mıdır? Cevap: Temel olarak sunumlar kullanılacaktır fakat derste anlatılanlardan da sorumluyuz, ders video kaydı ve derste aldığınız notlarınızı da çalışınız\nVize test şeklinde mi ve kaç soru sorulur? Cevap: Test şeklinde 20-30 soru planlanmaktadır\nÇok fazla formül var, vizede formüller verilebilir mi? Cevap: Bütün formüller verilmeyecektir, az kullanılan ve karmaşık olan formüller verilebilir\nHaftaya ders yapılacak mı? Cevap: Sınav olduğu gün sadece FEF3001 dersi yapılmayacaktır, Cuma günü ders işlenecektir.\nYorum soruları sorulacak mı? Cevap: Genelde bilgi ölçen sorular terich edilecektir"
   },
   {
-    "objectID": "ders3.html#fit",
-    "href": "ders3.html#fit",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Fit",
-    "text": "Fit\n\nSource"
+    "objectID": "ders6.html#contents",
+    "href": "ders6.html#contents",
+    "title": "Regression Methods",
+    "section": "Contents",
+    "text": "Contents\n\nDefinition of regression\nTypes of regression (linear, polynomial, and ensemble methods)\n\nLinear Regression: Simple Linear Regression, Ordinary Least Squares method, Evaluating model performance (R-squared, RMSE)\nPolynomial Regression: When to use polynomial regression, overfitting\nRegression with Random Forest: Random Forest algorithm for regression, Advantages (handling non-linearity, feature importance)\nOther types of regression: Logistic regression (for binary outcomes), Ridge and Lasso regression (regularization techniques)\n\nExamples on Excel\nCode examples in R and Python"
   },
   {
-    "objectID": "ders3.html#training",
-    "href": "ders3.html#training",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Training",
-    "text": "Training\n\nSource"
+    "objectID": "ders6.html#regression",
+    "href": "ders6.html#regression",
+    "title": "Regression Methods",
+    "section": "Regression",
+    "text": "Regression\nRegression is a statistical method used in data analysis and machine learning to model and analyze the relationship between a dependent variable (often called the target or outcome variable) and one or more independent variables (also known as predictors or features). The primary goal of regression is to estimate how changes in the independent variables are associated with changes in the dependent variable, allowing for prediction and inference.\nKey points about regression:\n\nIt helps identify and quantify relationships between variables.\nIt can be used for both prediction and understanding the impact of variables.\nThere are various types of regression, including linear, polynomial, and more complex methods like Random Forest or Neural networks for regression.\nRegression models can handle both continuous and categorical variables.\nIt’s widely used in many fields, including science, economics, and social sciences."
   },
   {
-    "objectID": "ders3.html#training-test",
-    "href": "ders3.html#training-test",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Training / Test",
-    "text": "Training / Test\n\nSource"
+    "objectID": "ders6.html#linear-regression",
+    "href": "ders6.html#linear-regression",
+    "title": "Regression Methods",
+    "section": "Linear Regression",
+    "text": "Linear Regression"
   },
   {
-    "objectID": "ders3.html#classification-performance-metrics",
-    "href": "ders3.html#classification-performance-metrics",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Classification Performance Metrics",
-    "text": "Classification Performance Metrics\nBir Sınıflandırma modeli oluşturulduktan sonra bu model ile yapılan tahminlerin ne kadar doğru olduğuna dair değerlendirme yapılması gereklidir.\nAşağıda verilen confusion matrix (karşılaştırma matrisi) bir sınıflandırma modeline dair gerçekleşen durumları ve bu durumlara dair tahminleri verilmiştir.\n\n\n\n\n\nActual (Gerçek)\n\n\n\n\n\n\n\nTrue (Doğru)\nFalse (Yanlış)\n\n\nPrediction (Tahmin)\nPozitif\nTP\nFP\n\n\n\nNegatif\nFN\nTN\n\n\n\nTP : True Positive, FP : False Positive, FN : False Negative, TN : True Negative\nTrue ve false değeri bu modele dair gerçek sonuçları, positive ve negative ise modele dair tahminleri göstermektedir."
+    "objectID": "ders6.html#linear-regression-1",
+    "href": "ders6.html#linear-regression-1",
+    "title": "Regression Methods",
+    "section": "Linear Regression",
+    "text": "Linear Regression"
   },
   {
-    "objectID": "ders3.html#classification-performance-metrics-1",
-    "href": "ders3.html#classification-performance-metrics-1",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Classification Performance Metrics",
-    "text": "Classification Performance Metrics\nTümör ve Hasta örnekleri ele alırsak, Normal örnekler negatif olarak, Tümör örnekleri de pozitif olarak değerlendirilebilir.\n\nTP : Gerçekte Tümör olan hastayı (true/pozitif) Tümör olarak tahmin etmek (pozitif).\n\nFP : Gerçekte Normal olan örneği (false/negatif) Tümör olarak tahmin etmek (pozitif). — &gt; Type 1 Error\n\nFN : Gerçekte Tümor olan örneği (true/pozitif) Normal olarak tahmin etmek (negatif). — &gt; Type 2 Error\n\nTN : Gerçekte Normal olan örneği (false/negatif) Normal olarak tahmin etmek (negatif)."
+    "objectID": "ders6.html#linear-regression-2",
+    "href": "ders6.html#linear-regression-2",
+    "title": "Regression Methods",
+    "section": "Linear Regression",
+    "text": "Linear Regression\ntry finding the best line: https://www.geogebra.org/m/xC6zq7Zv"
   },
   {
-    "objectID": "ders3.html#metrics",
-    "href": "ders3.html#metrics",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Metrics",
-    "text": "Metrics\nAccuracy (Doğruluk) : Doğru tahminlerin toplam veri kümesine oranıdır.\nPrecision (Kesinlik): Pozitif olarak tahmin edilen verilerin kaçının gerçekten pozitif olduğunu gösterir.\nRecall or Sensitivity (Duyarlılık): Geliştirilen modelin pozitif olanların kaçını yakaladığını gösterir.\nF1 Score (F1 Skoru): F1 score, precision ve recall değerlerinin harmonik ortalamasıdır. Sınıf dağılımı benzer olduğunda accuracy kullanılabilirken, dengesiz veri setleri söz konusu olduğunda F1 skor daha iyi bir metriktir.\nROC Curve (ROC Eğrisi): Yanlış pozitif oranı ve gerçek pozitif oranı göz önünde bulundurarak x ekseninde ve y ekseninde 0’dan 100’e kadar olan değerlerin üzerinde bir eğri oluşturulur. Bu eğrinin altında kalan alana Area Under Curve (AUC) adı verilir. Bu alanın büyük olması modelin başarılı olduğunu gösterir. Grafikte yer alan mavi çizgi; ne kadar geniş bir alan kaplıyorsa modelin tahmin başarısı o kadar yüksek, ortadaki kesikli çizgiye ne kadar yakınsa modelin başarı oranı o kadar düşüktür."
+    "objectID": "ders6.html#ols-method",
+    "href": "ders6.html#ols-method",
+    "title": "Regression Methods",
+    "section": "OLS method",
+    "text": "OLS method\nOrdinary Least Squares (OLS) is a statistical method used to estimate the parameters of a linear regression model. It’s the most common technique for fitting a line to a set of data points in linear regression.\nOLS is a method that minimizes the sum of the squared differences between the observed dependent variable values and the predicted values by the linear function of the independent variable(s). In other words, it finds the line (or hyperplane in multiple dimensions) that best fits the data by minimizing the sum of the squared residuals.\nPlease visit OLS Method at Wikipedia for technical details."
   },
   {
-    "objectID": "ders3.html#roc-curve",
-    "href": "ders3.html#roc-curve",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "ROC Curve",
-    "text": "ROC Curve"
+    "objectID": "ders6.html#multivariate-linear-regression",
+    "href": "ders6.html#multivariate-linear-regression",
+    "title": "Regression Methods",
+    "section": "Multivariate Linear Regression",
+    "text": "Multivariate Linear Regression\nMultivariate Linear Regression, also known as Multiple Linear Regression, is a statistical method used to model the relationship between multiple independent variables and a single dependent variable. It extends the concept of simple linear regression to include more than one predictor variable.\nThe general form of the model is:\n\\[\ny = \\beta_0 + \\beta_1x_1 + \\beta_2x_2 + \\ldots + \\beta_nx_n + \\varepsilon\n\\]\nWhere:\ny is the dependent variable, x₁, x₂, …, xₙ are the independent variables, β₀ is the y-intercept (the value of y when all x’s are zero), β₁, β₂, …, βₙ are the coefficients associated with each independent variable, n is the number of independent variables, ε is the error term"
   },
   {
-    "objectID": "ders3.html#why-too-many-metrics",
-    "href": "ders3.html#why-too-many-metrics",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Why too many metrics?",
-    "text": "Why too many metrics?\n\n\nNeden birden fazla metrik kullanılıyor, bir örnek ile görelim. Yandaki durum için, 8 Normal ve 2 Tümör olan bir durumda, her örnek için Normal diye tahminde bulunursak. True Negatif (TN) sayısı 8 ve False Negatif (FN) sayısı ise 2 olmaktadır.\nBu durumda, doğruluk, accuracy\nACC = (TP + TN) / (TP + FP + TN + FN)\nformülünden dolayı 8 / 10 = 0.8 yani %80 olarak hesaplanmaktadır.\nFakat, Duyarlılık/Sensitivity\nSENS = TP / (TP + FN)\nformülünden 0 çıkmaktadır.\n\n\n\n\nActual Label\nPrediction\n\n\n\n\nTumor\nNormal\n\n\nTumor\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal\n\n\nNormal\nNormal"
+    "objectID": "ders6.html#polynomial-regression",
+    "href": "ders6.html#polynomial-regression",
+    "title": "Regression Methods",
+    "section": "Polynomial Regression",
+    "text": "Polynomial Regression\nPolynomial Regression is a form of regression analysis in which the relationship between the independent variable x and the dependent variable y is modeled as an nth degree polynomial. It’s used when the relationship between variables is not linear but can be approximated by a polynomial function.\n\\[\ny = \\beta_0 + \\beta_1x + \\beta_2x^2 + \\beta_3x^3 + \\ldots + \\beta_nx^n + \\varepsilon\n\\]\nWhere:\ny is the dependent variable, x is the independent variable, β₀, β₁, β₂, …, βₙ are the coefficients to be estimated, n is the degree of the polynomial and ε is the error term"
   },
   {
-    "objectID": "ders3.html#example",
-    "href": "ders3.html#example",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Example",
-    "text": "Example\n100 kişilik bir çalışmada, 25 Tümör hastası ve 75 Normal birey bulunmaktadır. Normal (negatif) olan 70 kişi Normal olarak tahmin edilmştir (TN: True Negatif). 5 kişi Normal olduğu halde Tümör olarak tahmin edilmiştir (FP: False pozitif). Gerçekte Tümör olan 15 kişi Tümör olarak tahmin edilmiştir (TP: True pozitif). Son olarak, 10 kişi Tümör olduğu halde Normal olarak tahmin edilmiştir (FN: False negatif). Bu duruma göre Confusion Matrix aşağıdaki gibi hesaplanacaktır.\n\n\n\n\n\nActual\n\n\n\n\n\n\n\nTrue\nFalse\n\n\nTahmin\nPozitif\nTP (15)\nFP (5)\n\n\n\nNegatif\nFN (10)\nTN (70)"
+    "objectID": "ders6.html#polynomial-regression-1",
+    "href": "ders6.html#polynomial-regression-1",
+    "title": "Regression Methods",
+    "section": "Polynomial Regression",
+    "text": "Polynomial Regression"
   },
   {
-    "objectID": "ders3.html#example-1",
-    "href": "ders3.html#example-1",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Example",
-    "text": "Example\nBu durumda,\nDoğruluk (Accuracy) ACC = (TP + TN) / (TP + TN + FN + FP) = 0.85\nDuyarlılık (Sensitivity) SENS = TP / (TP + FN) = 0.60\nKesinlik (Precision) PREC = TP / (TP + FP) = 0.75\nF1 Skor = 2 x (PREC x SENS) / (PREC + SENS) = 0.6667"
+    "objectID": "ders6.html#linear-regression-in-excel",
+    "href": "ders6.html#linear-regression-in-excel",
+    "title": "Regression Methods",
+    "section": "Linear Regression in Excel",
+    "text": "Linear Regression in Excel\nUse MTCARS dataset Excel file and;\n\ndraw Trendline between wt (weight) and mpg (miles per galon) columns.\ndraw Trendline between disp (displacement) and wt (weight) columns.\n\nPlease visit MyExcelOnline in order see how to draw a Trendline in Excel"
   },
   {
-    "objectID": "ders3.html#summary",
-    "href": "ders3.html#summary",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Summary",
-    "text": "Summary\n\nSource"
+    "objectID": "ders6.html#linear-regression-in-r",
+    "href": "ders6.html#linear-regression-in-r",
+    "title": "Regression Methods",
+    "section": "Linear Regression in R",
+    "text": "Linear Regression in R\nPlease refer to Linear Regression with R page for simple linear and polynomial regression."
   },
   {
-    "objectID": "ders3.html#python-code",
-    "href": "ders3.html#python-code",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Python code",
-    "text": "Python code\n\nfrom sklearn.metrics import confusion_matrix\n\nactual    = [1, 0, 1, 1, 0, 0, 1, 0, 1, 1]\npredicted = [0, 1, 1, 1, 1, 0, 1, 1, 0, 1]\n\nprint(\"\\nConfusion matrix\")\nconf_mat = confusion_matrix(actual, predicted) \n\nprint(conf_mat)\n\n\nConfusion matrix\n[[1 3]\n [2 4]]"
+    "objectID": "ders6.html#regression-with-random-forest",
+    "href": "ders6.html#regression-with-random-forest",
+    "title": "Regression Methods",
+    "section": "Regression with Random Forest",
+    "text": "Regression with Random Forest\nPlease refer to random forest regression with R document."
   },
   {
-    "objectID": "ders3.html#regression-performance-metrics",
-    "href": "ders3.html#regression-performance-metrics",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Regression Performance Metrics",
-    "text": "Regression Performance Metrics\nFollowing metrics can be used to measure the performance of regression model output.\n\nMean Error (ME)\nMean Absolute Error (MAE)\nMean Squared Error (MSE)\nRoot Mean Squared Error (RMSE)\n\nThere are much more advanced metrics but we’ll learn only essental ones"
+    "objectID": "Hierarchical_Clustering_in_Data_Mining.html",
+    "href": "Hierarchical_Clustering_in_Data_Mining.html",
+    "title": "Hierarchical Clustering in Data Mining",
+    "section": "",
+    "text": "Contents are taken from the Article “Hierarchical Clustering in Data Mining”\nA *Hierarchical clustering* method works via grouping data into a tree of clusters. Hierarchical clustering begins by treating every data point as a separate cluster. Then, it repeatedly executes the subsequent steps:\nIn Hierarchical Clustering, the aim is to produce a hierarchical series of nested clusters. A diagram called *Dendrogram* (A Dendrogram is a tree-like diagram that statistics the sequences of merges or splits) graphically represents this hierarchy and is an inverted tree that describes the order in which factors are merged (bottom-up view) or clusters are broken up (top-down view)."
   },
   {
-    "objectID": "ders3.html#mean-error-me",
-    "href": "ders3.html#mean-error-me",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Mean Error (ME)",
-    "text": "Mean Error (ME)\n\\[ \\text{ME} = \\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i) \\]\n\\(y_i\\): Actual value, \\(\\hat{y}_i\\): predicted value, n: number of observations"
-  },
-  {
-    "objectID": "ders3.html#mean-absolute-error-mae",
-    "href": "ders3.html#mean-absolute-error-mae",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Mean Absolute Error (MAE)",
-    "text": "Mean Absolute Error (MAE)\nAdding negative results is not right when using ME. Let’s take care of it.\n\\[ \\text{MAE} = \\frac{1}{n} \\sum_{i=1}^{n} |y_i - \\hat{y}_i| \\]"
-  },
-  {
-    "objectID": "ders3.html#mean-squared-error-mse",
-    "href": "ders3.html#mean-squared-error-mse",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Mean Squared Error (MSE)",
-    "text": "Mean Squared Error (MSE)\n\\[ \\text{MSE} = \\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^2 \\]\nPlease note that squaring the error with punish the model more. Also, squaring a difference will take care of negative sign."
-  },
-  {
-    "objectID": "ders3.html#root-mean-squared-error-rmse",
-    "href": "ders3.html#root-mean-squared-error-rmse",
-    "title": "Değerlendirme Ölçütleri",
-    "section": "Root Mean Squared Error (RMSE)",
-    "text": "Root Mean Squared Error (RMSE)\n\\[ \\text{RMSE} = \\sqrt{\\frac{1}{n} \\sum_{i=1}^{n} (y_i - \\hat{y}_i)^2} \\]"
+    "objectID": "Hierarchical_Clustering_in_Data_Mining.html#what-is-hierarchical-clustering",
+    "href": "Hierarchical_Clustering_in_Data_Mining.html#what-is-hierarchical-clustering",
+    "title": "Hierarchical Clustering in Data Mining",
+    "section": "What is Hierarchical Clustering?",
+    "text": "What is Hierarchical Clustering?\nHierarchical clustering is a method of cluster analysis in data mining that creates a hierarchical representation of the clusters in a dataset. The method starts by treating each data point as a separate cluster and then iteratively combines the closest clusters until a stopping criterion is reached. The result of hierarchical clustering is a tree-like structure, called a dendrogram, which illustrates the hierarchical relationships among the clusters.\n\n*Hierarchical clustering has several advantages over other clustering methods*\n\nThe ability to handle non-convex clusters and clusters of different sizes and densities.\nThe ability to handle missing data and noisy data.\nThe ability to reveal the hierarchical structure of the data, which can be useful for understanding the relationships among the clusters.\n\n\n\n*Drawbacks of Hierarchical Clustering*\n\nThe need for a criterion to stop the clustering process and determine the final number of clusters.\nThe computational cost and memory requirements of the method can be high, especially for large datasets.\nThe results can be sensitive to the initial conditions, linkage criterion, and distance metric used. In summary, Hierarchical clustering is a method of data mining that groups similar data points into clusters by creating a hierarchical structure of the clusters.\nThis method can handle different types of data and reveal the relationships among the clusters. However, it can have high computational cost and results can be sensitive to some conditions.\n\n\n\nTypes of Hierarchical Clustering\nBasically, there are two types of hierarchical Clustering:\n\nAgglomerative Clustering\nDivisive clustering\n\n\n\n1. Agglomerative Clustering\nInitially consider every data point as an *individual* Cluster and at every step, merge the nearest pairs of the cluster. (It is a bottom-up method). At first, every dataset is considered an individual entity or cluster. At every iteration, the clusters merge with different clusters until one cluster is formed.\n\nThe algorithm for Agglomerative Hierarchical Clustering is:\n\nCalculate the similarity of one cluster with all the other clusters (calculate proximity matrix)\nConsider every data point as an individual cluster\nMerge the clusters which are highly similar or close to each other.\nRecalculate the proximity matrix for each cluster\nRepeat Steps 3 and 4 until only a single cluster remains.\n\nLet’s see the graphical representation of this algorithm using a dendrogram.\n\n*Note:* This is just a demonstration of how the actual algorithm works no calculation has been performed below all the proximity among the clusters is assumed.\n\nLet’s say we have six data points *A, B, C, D, E, and F*.\n\n\n\nAgglomerative Hierarchical clustering\n\n\nAgglomerative Hierarchical clustering\n\n*Step-1:* Consider each alphabet as a single cluster and calculate the distance of one cluster from all the other clusters.\n*Step-2:* In the second step comparable clusters are merged together to form a single cluster. Let’s say cluster (B) and cluster (C) are very similar to each other therefore we merge them in the second step similarly to cluster (D) and (E) and at last, we get the clusters [(A), (BC), (DE), (F)]\n*Step-3:* We recalculate the proximity according to the algorithm and merge the two nearest clusters([(DE), (F)]) together to form new clusters as [(A), (BC), (DEF)]\n*Step-4:* Repeating the same process; The clusters DEF and BC are comparable and merged together to form a new cluster. We’re now left with clusters [(A), (BCDEF)].\n*Step-5:* At last, the two remaining clusters are merged together to form a single cluster [(ABCDEF)].\n\n\n\n\n2. Divisive Hierarchical clustering\nWe can say that Divisive Hierarchical clustering is precisely the *opposite* of Agglomerative Hierarchical clustering. In Divisive Hierarchical clustering, we take into account all of the data points as a single cluster and in every iteration, we separate the data points from the clusters which aren’t comparable. In the end, we are left with N clusters.\n\n\n\nDivisive Hierarchical clustering\n\n\nDivisive Hierarchical clustering"
   }
 ]
