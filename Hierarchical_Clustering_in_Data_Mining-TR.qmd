@@ -1,0 +1,73 @@
+---
+title: "Veri Madenciliğinde Hiyerarşik Kümeleme"
+format: html
+typora-copy-images-to: images
+---
+# Veri Madenciliğinde Hiyerarşik Kümeleme
+
+İçerik "[Hierarchical Clustering in Data Mining](https://www.geeksforgeeks.org/hierarchical-clustering-in-data-mining/)" adlı makaleden alınmıştır.
+
+**Hiyerarşik kümeleme** yöntemi, verileri bir küme ağacı halinde gruplandırarak çalışır. Hiyerarşik kümeleme, her veri noktasını ayrı bir küme olarak ele alarak başlar. Daha sonra aşağıdaki adımları tekrar tekrar uygular:
+
+1. Birbirine en yakın 2 kümeyi belirle, ve
+2. En benzer 2 kümeyi birleştir. Tüm kümeler birleşene kadar bu adımları tekrarlamak gerekir.
+
+Hiyerarşik Kümelemede amaç, iç içe geçmiş kümelerin hiyerarşik bir serisini üretmektir. **Dendrogram** adı verilen bir diyagram (Dendrogram, birleşmelerin veya bölünmelerin sırasını gösteren ağaç benzeri bir diyagramdır) bu hiyerarşiyi grafiksel olarak temsil eder ve faktörlerin birleştirilme sırasını (aşağıdan yukarıya bakış) veya kümelerin parçalanma sırasını (yukarıdan aşağıya bakış) açıklayan ters çevrilmiş bir ağaçtır.
+
+## Hiyerarşik Kümeleme Nedir?
+
+Hiyerarşik kümeleme, veri madenciliğinde bir veri setindeki kümelerin hiyerarşik bir temsilini oluşturan bir küme analizi yöntemidir. Yöntem, her veri noktasını ayrı bir küme olarak ele alarak başlar ve daha sonra bir durdurma kriteri karşılanana kadar en yakın kümeleri yinelemeli olarak birleştirir. Hiyerarşik kümelemenin sonucu, kümeler arasındaki hiyerarşik ilişkileri gösteren dendrogram adı verilen ağaç benzeri bir yapıdır.
+
+### **Hiyerarşik kümelemenin diğer kümeleme yöntemlerine göre birkaç avantajı vardır**
+
+- Konveks olmayan kümeleri ve farklı boyut ve yoğunluktaki kümeleri işleyebilme yeteneği.
+- Eksik verileri ve gürültülü verileri işleyebilme yeteneği.
+- Verilerin hiyerarşik yapısını ortaya çıkarma yeteneği, bu da kümeler arasındaki ilişkileri anlamak için faydalı olabilir.
+
+### **Hiyerarşik Kümelemenin Dezavantajları**
+
+- Kümeleme sürecini durdurmak ve nihai küme sayısını belirlemek için bir kritere ihtiyaç duyulması.
+- Yöntemin hesaplama maliyeti ve bellek gereksinimleri, özellikle büyük veri setleri için yüksek olabilir.
+- Sonuçlar, başlangıç koşullarına, bağlantı kriterine ve kullanılan uzaklık metriğine duyarlı olabilir.
+
+Özetle, Hiyerarşik kümeleme, benzer veri noktalarını kümelerin hiyerarşik bir yapısını oluşturarak gruplayan bir veri madenciliği yöntemidir. 
+- Bu yöntem farklı türdeki verileri işleyebilir ve kümeler arasındaki ilişkileri ortaya çıkarabilir. Ancak, yüksek hesaplama maliyetine sahip olabilir ve sonuçlar bazı koşullara duyarlı olabilir.
+
+### Hiyerarşik Kümeleme Türleri
+
+Temel olarak, iki tür hiyerarşik kümeleme vardır:
+
+1. Aglomeratif Kümeleme
+2. Bölücü Kümeleme
+
+### 1. Aglomeratif Kümeleme 
+
+Başlangıçta her veri noktasını **bireysel** bir Küme olarak düşünün ve her adımda en yakın küme çiftlerini birleştirin. (Bu bir aşağıdan yukarıya yöntemdir). İlk başta, her veri seti bireysel bir varlık veya küme olarak kabul edilir. Her iterasyonda, kümeler tek bir küme oluşana kadar farklı kümelerle birleşir.
+
+#### Aglomeratif Hiyerarşik Kümeleme algoritması şu şekildedir:
+
+- Bir kümenin diğer tüm kümelerle benzerliğini hesaplayın (yakınlık matrisini hesaplayın)
+- Her veri noktasını bireysel bir küme olarak düşünün
+- Birbirine çok benzer veya yakın olan kümeleri birleştirin.
+- Her küme için yakınlık matrisini yeniden hesaplayın
+- Sadece tek bir küme kalana kadar 3. ve 4. Adımları tekrarlayın.
+
+Bu algoritmanın grafiksel gösterimini bir dendrogram kullanarak görelim. 
+
+> **Not:** Bu sadece gerçek algoritmanın nasıl çalıştığının bir gösterimidir, aşağıda hiçbir hesaplama yapılmamıştır, tüm kümeler arasındaki yakınlık varsayılmıştır. 
+
+Diyelim ki **A, B, C, D, E ve F** adında altı veri noktamız var.
+
+![Agglomerative Hierarchical clustering](attachments/Untitled-Diagram71.png)
+
+- **Adım-1:** Her harfi tek bir küme olarak düşünün ve bir kümenin diğer tüm kümelerden uzaklığını hesaplayın.
+- **Adım-2:** İkinci adımda benzer kümeler tek bir küme oluşturmak üzere birleştirilir. Diyelim ki küme (B) ve küme (C) birbirine çok benziyor, bu nedenle ikinci adımda onları birleştiriyoruz, benzer şekilde küme (D) ve (E) de birleşiyor ve sonunda [(A), (BC), (DE), (F)] kümelerini elde ediyoruz.
+- **Adım-3:** Algoritmaya göre yakınlığı yeniden hesaplarız ve en yakın iki kümeyi ([(DE), (F)]) birleştirerek yeni kümeler oluştururuz: [(A), (BC), (DEF)]
+- **Adım-4:** Aynı işlemi tekrarlayarak; DEF ve BC kümeleri benzer ve yeni bir küme oluşturmak için birleştirilir. Artık [(A), (BCDEF)] kümeleri kaldı.
+- **Adım-5:** Son olarak, kalan iki küme tek bir küme [(ABCDEF)] oluşturmak üzere birleştirilir.
+
+### 2. Bölücü Hiyerarşik kümeleme
+
+Bölücü Hiyerarşik kümelemenin, Aglomeratif Hiyerarşik kümelemenin tam **tersi** olduğunu söyleyebiliriz. Bölücü Hiyerarşik kümelemede, tüm veri noktalarını tek bir küme olarak ele alırız ve her iterasyonda benzer olmayan veri noktalarını kümelerden ayırırız. Sonunda, N küme ile kalırız. 
+
+![Divisive Hierarchical clustering](attachments/Untitled-Diagram-153-1.png)
