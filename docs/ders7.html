@@ -408,6 +408,36 @@ Alper Yılmaz
 <p><strong>Hierarchical Methods</strong>: Create a tree-like structure of clusters, either by merging smaller clusters into larger ones or dividing larger clusters into smaller ones.</p>
 <p><strong>Density-based Methods</strong>: Form clusters in areas of high data point density, separated by regions of low density, allowing for discovery of arbitrarily shaped clusters.</p>
 </section>
+<section id="applications" class="slide level2 scrollable">
+<h2>Applications</h2>
+<ol type="1">
+<li>Biology</li>
+</ol>
+<ul>
+<li><strong>Gene Expression Analysis</strong>: Grouping genes with similar expression patterns across different conditions or time points.</li>
+<li><strong>Species Classification</strong>: Clustering organisms based on genetic or morphological features.</li>
+<li><strong>Protein Structure Analysis</strong>: Identifying structural motifs in proteins.</li>
+</ul>
+<ol start="2" type="1">
+<li>Chemistry</li>
+</ol>
+<ul>
+<li><strong>Molecular Dynamics</strong>: Analyzing conformations of molecules during simulations.</li>
+<li><strong>Spectroscopy</strong>: Clustering similar spectra for compound identification.</li>
+<li><strong>Drug Discovery</strong>: Grouping chemical compounds with similar properties or effects.</li>
+</ul>
+</section>
+<section id="section" class="slide level2 scrollable">
+<h2></h2>
+<ol start="3" type="1">
+<li>Physics</li>
+</ol>
+<ul>
+<li><strong>Particle Physics</strong>: Classifying particle collision events in high-energy physics experiments.</li>
+<li><strong>Astrophysics</strong>: Clustering stars or galaxies based on their properties (e.g., luminosity, temperature).</li>
+<li><strong>Materials Science</strong>: Analyzing crystal structures and defects in materials.</li>
+</ul>
+</section>
 <section id="partitioning" class="slide level2">
 <h2>Partitioning</h2>
 
@@ -434,36 +464,6 @@ Alper Yılmaz
 <section id="k-means-clustering-with-r" class="slide level2">
 <h2>K-means clustering with R</h2>
 <p>Please visit <a href="./kmeans-r.html">K-means with R</a> page for the code.</p>
-</section>
-<section id="k-means-clustering-applications" class="slide level2 scrollable">
-<h2>K-Means Clustering Applications</h2>
-<ol type="1">
-<li>Biology</li>
-</ol>
-<ul>
-<li><strong>Gene Expression Analysis</strong>: Grouping genes with similar expression patterns across different conditions or time points.</li>
-<li><strong>Species Classification</strong>: Clustering organisms based on genetic or morphological features.</li>
-<li><strong>Protein Structure Analysis</strong>: Identifying structural motifs in proteins.</li>
-</ul>
-<ol start="2" type="1">
-<li>Chemistry</li>
-</ol>
-<ul>
-<li><strong>Molecular Dynamics</strong>: Analyzing conformations of molecules during simulations.</li>
-<li><strong>Spectroscopy</strong>: Clustering similar spectra for compound identification.</li>
-<li><strong>Drug Discovery</strong>: Grouping chemical compounds with similar properties or effects.</li>
-</ul>
-</section>
-<section id="k-means-clustering-applications-contd" class="slide level2 scrollable">
-<h2>K-Means Clustering Applications (cont’d)</h2>
-<ol start="3" type="1">
-<li>Physics</li>
-</ol>
-<ul>
-<li><strong>Particle Physics</strong>: Classifying particle collision events in high-energy physics experiments.</li>
-<li><strong>Astrophysics</strong>: Clustering stars or galaxies based on their properties (e.g., luminosity, temperature).</li>
-<li><strong>Materials Science</strong>: Analyzing crystal structures and defects in materials.</li>
-</ul>
 </section>
 <section id="advantages-of-k-means-clustering" class="slide level2 scrollable">
 <h2>Advantages of K-means clustering</h2>
@@ -497,7 +497,7 @@ Alper Yılmaz
 <p>Hierarchical clustering begins by calculating the distances between all pairs of data points using a chosen distance metric (e.g., Euclidean distance). In the agglomerative approach, which is more common, each data point starts as its own cluster. The algorithm then iteratively merges the two closest clusters based on a linkage criterion (e.g., single linkage, complete linkage, or average linkage). This process repeats, forming larger clusters until all data points are in a single cluster or until the desired number of clusters is reached. The result is a hierarchical structure that can be visualized as a dendrogram, allowing users to choose the level of clustering that best suits their needs.</p>
 <p>Please visit <a href="./Hierarchical_Clustering_in_Data_Mining.html">Hierarchical Clustering in Data Mining</a> and <a href="./An_Introduction_to_Hierarchical_Clustering.html">An Introduction to Hierarchical Clustering</a></p>
 </section>
-<section id="section" class="slide level2 scrollable">
+<section id="section-1" class="slide level2 scrollable">
 <h2></h2>
 <p>Please visit following sites for demos</p>
 <ol type="1">
@@ -561,6 +561,27 @@ Alper Yılmaz
 <li><strong>Scalability</strong>: Not as efficient for very large datasets compared to some other algorithms.</li>
 <li><strong>Connectivity-based</strong>: May struggle with datasets where clusters are close but separated by sparse areas.</li>
 </ol>
+</section>
+<section id="evaluating-clustering" class="slide level2">
+<h2>Evaluating clustering</h2>
+<p>Definition: The silhouette score ranges from -1 to 1, where:</p>
+<ul>
+<li>A score close to 1 indicates that the data point is well-matched to its own cluster and poorly-matched to neighboring clusters.</li>
+<li>A score around 0 suggests that the data point is on or very close to the decision boundary between two neighboring clusters.</li>
+<li>A negative score indicates that the data point might have been assigned to the wrong cluster.</li>
+</ul>
+<p><strong>Calculation</strong>: For each data point i, the silhouette score s(i) is calculated as:</p>
+<p>s(i) = (b(i) - a(i)) / max(a(i), b(i))</p>
+<p>Where: a(i) is the average distance between i and all other points in the same clusteri, (i) is the average distance between i and all points in the nearest cluster that i is not a part of</p>
+<p><strong>Interpretation</strong>:</p>
+<ul>
+<li>Higher silhouette scores indicate better-defined clusters.</li>
+<li>The average silhouette score across all points can be used to compare different clustering configurations.</li>
+</ul>
+</section>
+<section id="classification-vs.-clustering" class="slide level2">
+<h2>Classification vs.&nbsp;Clustering</h2>
+<p>please compare these two concepts</p>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">

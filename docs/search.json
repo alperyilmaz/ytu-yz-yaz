@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "FEF3001 Yapay Zekaya Giriş",
     "section": "",
-    "text": "Makine Öğrenmesinde Sınıflandırma Yöntemleri ve R Uygulamaları, Ersoy Öz & Selçuk Alp, Nobel Akademik Yayıncılık, 2020.\nVeri Madenciliği ve Makine Öğrenmesi İle Farklı Alanlarda Uygulamalar, Şenol Çelik, Nilay Köleoğlu, & Fatih Çemrek, Holistence Publications, 2022\nSağlık Bilimlerinde Yapay Zeka, Ahmet Rıza Şahin, Kamil Doğan, & Süleyman Sivri, Akademisyen Kitabevi A.Ş., 2020\nYapay Zeka, Atınç Yılmaz, Kodlab Yayın Dağıtım Yazılım Ltd. Şti., 2022\nMachine Learning Algorithms, Giuseppe Bonaccorso, Packt Publishing, 2017.\nOptimizasyon Modelleme ve Yapay Zeka Algoritmaları, Bayram Köse, Bahar Demirtürk, Efe Akademi Yayınları, 2023\n\n\n\n\nGrup2: 4 Temmuz Perşembe 8:30 - Grup1: 4 Temmuz Perşembe 18:00\nİçerik: İlk derste, ChatGPT ve benzeri büyük dil modelleri tanıtıldı. OpenAI Playground üzerinde “cümle tamamlama” kavramı ve “temparature” ayarı gösterildi. Daha iyi çıktı almak için Prompt ayarları anlatıldı. Dökümandan sorgu/chat yapmak için Gemini ve Claude örnekleri verildi. Yine Claude üzerinden kod yazdırma örneği işlendi. İngilizce Sunum linki, Türkçe Sunum linki\n\n\n\n\nGrup2: 5 Temmuz Cuma 8:30 - Grup1: 5 Temmuz Cuma 14:00\nİçerik: Veri türleri ve verilerin işlenmesine dair bilgi verildi. Sunum linki\n\n\n\nGrup2: 11 Temmuz Perşembe 8:30 - Grup1: 11 Temmuz Perşembe 14:00\nİçerik: Confusion matrix ve sınıflandırma/regresyon değerlendirmesi Sunum linki\n\n\n\nGrup2: 12 Temmuz Cuma 8:30 - Grup1: 12 Temmuz Cuma 14:00\nİçerik: Yapay sinir ağları Sunum linki. Derste kullanılan yapay sinir ağı demo sayfaları için link1 ve link2\n\n\n\nGrup2: 19 Temmuz Cuma 8:30 - Grup1: 19 Temmuz Cuma 14:00\nİçerik: Sınıflandırma metodları İngilizce Sunum linki, Türkçe Sunum Linki\n\n\n\nGrup2: 25 Temmuz Perşembe 8:30 - Grup1: 25 Temmuz Perşembe 18:00\nİçerik: Regresyon İngilizce Sunum linki, Türkçe Sunum linki\n\n\n\nGrup2: 26 Temmuz Cuma 8:30 - Grup1: 26 Temmuz Cuma 14:00\nİçerik: Kümeleme İngilizce Sunum linki"
+    "text": "Makine Öğrenmesinde Sınıflandırma Yöntemleri ve R Uygulamaları, Ersoy Öz & Selçuk Alp, Nobel Akademik Yayıncılık, 2020.\nVeri Madenciliği ve Makine Öğrenmesi İle Farklı Alanlarda Uygulamalar, Şenol Çelik, Nilay Köleoğlu, & Fatih Çemrek, Holistence Publications, 2022\nSağlık Bilimlerinde Yapay Zeka, Ahmet Rıza Şahin, Kamil Doğan, & Süleyman Sivri, Akademisyen Kitabevi A.Ş., 2020\nYapay Zeka, Atınç Yılmaz, Kodlab Yayın Dağıtım Yazılım Ltd. Şti., 2022\nMachine Learning Algorithms, Giuseppe Bonaccorso, Packt Publishing, 2017.\nOptimizasyon Modelleme ve Yapay Zeka Algoritmaları, Bayram Köse, Bahar Demirtürk, Efe Akademi Yayınları, 2023\n\n\n\n\nGrup2: 4 Temmuz Perşembe 8:30 - Grup1: 4 Temmuz Perşembe 18:00\nİçerik: İlk derste, ChatGPT ve benzeri büyük dil modelleri tanıtıldı. OpenAI Playground üzerinde “cümle tamamlama” kavramı ve “temparature” ayarı gösterildi. Daha iyi çıktı almak için Prompt ayarları anlatıldı. Dökümandan sorgu/chat yapmak için Gemini ve Claude örnekleri verildi. Yine Claude üzerinden kod yazdırma örneği işlendi. İngilizce Sunum linki, Türkçe Sunum linki\n\n\n\n\nGrup2: 5 Temmuz Cuma 8:30 - Grup1: 5 Temmuz Cuma 14:00\nİçerik: Veri türleri ve verilerin işlenmesine dair bilgi verildi. Sunum linki\n\n\n\nGrup2: 11 Temmuz Perşembe 8:30 - Grup1: 11 Temmuz Perşembe 18:00\nİçerik: Confusion matrix ve sınıflandırma/regresyon değerlendirmesi Sunum linki\n\n\n\nGrup2: 12 Temmuz Cuma 8:30 - Grup1: 12 Temmuz Cuma 14:00\nİçerik: Yapay sinir ağları Sunum linki. Derste kullanılan yapay sinir ağı demo sayfaları için link1 ve link2\n\n\n\nGrup2: 19 Temmuz Cuma 8:30 - Grup1: 19 Temmuz Cuma 14:00\nİçerik: Sınıflandırma metodları İngilizce Sunum linki, Türkçe Sunum Linki\n\n\n\nGrup2: 25 Temmuz Perşembe 8:30 - Grup1: 25 Temmuz Perşembe 18:00\nİçerik: Regresyon İngilizce Sunum linki, Türkçe Sunum linki\n\n\n\nGrup2: 26 Temmuz Cuma 8:30 - Grup1: 26 Temmuz Cuma 14:00\nİçerik: Kümeleme İngilizce Sunum linki"
   },
   {
     "objectID": "index.html#kaynaklar",
@@ -32,7 +32,7 @@
     "href": "index.html#ders3",
     "title": "FEF3001 Yapay Zekaya Giriş",
     "section": "",
-    "text": "Grup2: 11 Temmuz Perşembe 8:30 - Grup1: 11 Temmuz Perşembe 14:00\nİçerik: Confusion matrix ve sınıflandırma/regresyon değerlendirmesi Sunum linki"
+    "text": "Grup2: 11 Temmuz Perşembe 8:30 - Grup1: 11 Temmuz Perşembe 18:00\nİçerik: Confusion matrix ve sınıflandırma/regresyon değerlendirmesi Sunum linki"
   },
   {
     "objectID": "index.html#ders4",
@@ -651,6 +651,20 @@
     "text": "Clustering Methods\nPartitioning methods: Divide data into non-overlapping subsets, with each data point belonging to exactly one cluster, often optimizing a specific criterion.\nHierarchical Methods: Create a tree-like structure of clusters, either by merging smaller clusters into larger ones or dividing larger clusters into smaller ones.\nDensity-based Methods: Form clusters in areas of high data point density, separated by regions of low density, allowing for discovery of arbitrarily shaped clusters."
   },
   {
+    "objectID": "ders7.html#applications",
+    "href": "ders7.html#applications",
+    "title": "Clustering Methods",
+    "section": "Applications",
+    "text": "Applications\n\nBiology\n\n\nGene Expression Analysis: Grouping genes with similar expression patterns across different conditions or time points.\nSpecies Classification: Clustering organisms based on genetic or morphological features.\nProtein Structure Analysis: Identifying structural motifs in proteins.\n\n\nChemistry\n\n\nMolecular Dynamics: Analyzing conformations of molecules during simulations.\nSpectroscopy: Clustering similar spectra for compound identification.\nDrug Discovery: Grouping chemical compounds with similar properties or effects."
+  },
+  {
+    "objectID": "ders7.html#section",
+    "href": "ders7.html#section",
+    "title": "Clustering Methods",
+    "section": "",
+    "text": "Physics\n\n\nParticle Physics: Classifying particle collision events in high-energy physics experiments.\nAstrophysics: Clustering stars or galaxies based on their properties (e.g., luminosity, temperature).\nMaterials Science: Analyzing crystal structures and defects in materials."
+  },
+  {
     "objectID": "ders7.html#partitioning",
     "href": "ders7.html#partitioning",
     "title": "Clustering Methods",
@@ -677,20 +691,6 @@
     "title": "Clustering Methods",
     "section": "K-means clustering with R",
     "text": "K-means clustering with R\nPlease visit K-means with R page for the code."
-  },
-  {
-    "objectID": "ders7.html#k-means-clustering-applications",
-    "href": "ders7.html#k-means-clustering-applications",
-    "title": "Clustering Methods",
-    "section": "K-Means Clustering Applications",
-    "text": "K-Means Clustering Applications\n\nBiology\n\n\nGene Expression Analysis: Grouping genes with similar expression patterns across different conditions or time points.\nSpecies Classification: Clustering organisms based on genetic or morphological features.\nProtein Structure Analysis: Identifying structural motifs in proteins.\n\n\nChemistry\n\n\nMolecular Dynamics: Analyzing conformations of molecules during simulations.\nSpectroscopy: Clustering similar spectra for compound identification.\nDrug Discovery: Grouping chemical compounds with similar properties or effects."
-  },
-  {
-    "objectID": "ders7.html#k-means-clustering-applications-contd",
-    "href": "ders7.html#k-means-clustering-applications-contd",
-    "title": "Clustering Methods",
-    "section": "K-Means Clustering Applications (cont’d)",
-    "text": "K-Means Clustering Applications (cont’d)\n\nPhysics\n\n\nParticle Physics: Classifying particle collision events in high-energy physics experiments.\nAstrophysics: Clustering stars or galaxies based on their properties (e.g., luminosity, temperature).\nMaterials Science: Analyzing crystal structures and defects in materials."
   },
   {
     "objectID": "ders7.html#advantages-of-k-means-clustering",
@@ -721,8 +721,8 @@
     "text": "How it works\nHierarchical clustering begins by calculating the distances between all pairs of data points using a chosen distance metric (e.g., Euclidean distance). In the agglomerative approach, which is more common, each data point starts as its own cluster. The algorithm then iteratively merges the two closest clusters based on a linkage criterion (e.g., single linkage, complete linkage, or average linkage). This process repeats, forming larger clusters until all data points are in a single cluster or until the desired number of clusters is reached. The result is a hierarchical structure that can be visualized as a dendrogram, allowing users to choose the level of clustering that best suits their needs.\nPlease visit Hierarchical Clustering in Data Mining and An Introduction to Hierarchical Clustering"
   },
   {
-    "objectID": "ders7.html#section",
-    "href": "ders7.html#section",
+    "objectID": "ders7.html#section-1",
+    "href": "ders7.html#section-1",
     "title": "Clustering Methods",
     "section": "",
     "text": "Please visit following sites for demos\n\nClustering Demo at yFiles"
@@ -775,6 +775,20 @@
     "title": "Clustering Methods",
     "section": "Disadvantages",
     "text": "Disadvantages\n\nParameter sensitivity: Results can vary significantly based on the choice of ε and MinPts parameters.\nStruggle with varying densities: May have difficulty when clusters have widely different densities.\nHigh-dimensional data: Performance and effectiveness can decrease in high-dimensional spaces due to the “curse of dimensionality”.\nMemory requirements: Can be memory-intensive for large datasets.\nScalability: Not as efficient for very large datasets compared to some other algorithms.\nConnectivity-based: May struggle with datasets where clusters are close but separated by sparse areas."
+  },
+  {
+    "objectID": "ders7.html#evaluating-clustering",
+    "href": "ders7.html#evaluating-clustering",
+    "title": "Clustering Methods",
+    "section": "Evaluating clustering",
+    "text": "Evaluating clustering\nDefinition: The silhouette score ranges from -1 to 1, where:\n\nA score close to 1 indicates that the data point is well-matched to its own cluster and poorly-matched to neighboring clusters.\nA score around 0 suggests that the data point is on or very close to the decision boundary between two neighboring clusters.\nA negative score indicates that the data point might have been assigned to the wrong cluster.\n\nCalculation: For each data point i, the silhouette score s(i) is calculated as:\ns(i) = (b(i) - a(i)) / max(a(i), b(i))\nWhere: a(i) is the average distance between i and all other points in the same clusteri, (i) is the average distance between i and all points in the nearest cluster that i is not a part of\nInterpretation:\n\nHigher silhouette scores indicate better-defined clusters.\nThe average silhouette score across all points can be used to compare different clustering configurations."
+  },
+  {
+    "objectID": "ders7.html#classification-vs.-clustering",
+    "href": "ders7.html#classification-vs.-clustering",
+    "title": "Clustering Methods",
+    "section": "Classification vs. Clustering",
+    "text": "Classification vs. Clustering\nplease compare these two concepts"
   },
   {
     "objectID": "rf-regression-R-tr.html",
