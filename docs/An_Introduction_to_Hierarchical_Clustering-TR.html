@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.32">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>FEF3001 Yapay Zekaya Giriş – Hiyerarşik Kümelemeye Giriş</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">FEF3001 Yapay Zekaya Giriş</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Ana Sayfa</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./midterm-grades.html"> 
+<span class="menu-text">Notlar</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./katilim.html"> 
+<span class="menu-text">Katılım</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">Hakkında</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#hiyerarşik-kümelemeye-giriş" id="toc-hiyerarşik-kümelemeye-giriş" class="nav-link active" data-scroll-target="#hiyerarşik-kümelemeye-giriş">Hiyerarşik Kümelemeye Giriş</a>
+  <ul class="collapse">
+  <li><a href="#hiyerarşik-kümelemenin-tanımı" id="toc-hiyerarşik-kümelemenin-tanımı" class="nav-link" data-scroll-target="#hiyerarşik-kümelemenin-tanımı">Hiyerarşik Kümelemenin Tanımı</a></li>
+  <li><a href="#hiyerarşik-kümelemenin-diğer-kümeleme-teknikleriyle-karşılaştırılması" id="toc-hiyerarşik-kümelemenin-diğer-kümeleme-teknikleriyle-karşılaştırılması" class="nav-link" data-scroll-target="#hiyerarşik-kümelemenin-diğer-kümeleme-teknikleriyle-karşılaştırılması">Hiyerarşik Kümelemenin Diğer Kümeleme Teknikleriyle Karşılaştırılması</a>
+  <ul class="collapse">
+  <li><a href="#hiyerarşik-kümeleme-ve-k-means-kümeleme-karşılaştırması" id="toc-hiyerarşik-kümeleme-ve-k-means-kümeleme-karşılaştırması" class="nav-link" data-scroll-target="#hiyerarşik-kümeleme-ve-k-means-kümeleme-karşılaştırması">Hiyerarşik kümeleme ve K-Means kümeleme karşılaştırması</a></li>
+  <li><a href="#model-tabanlı-kümeleme" id="toc-model-tabanlı-kümeleme" class="nav-link" data-scroll-target="#model-tabanlı-kümeleme">Model tabanlı kümeleme</a></li>
+  </ul></li>
+  <li><a href="#hiyerarşik-kümelemenin-uygulamaları" id="toc-hiyerarşik-kümelemenin-uygulamaları" class="nav-link" data-scroll-target="#hiyerarşik-kümelemenin-uygulamaları">Hiyerarşik Kümelemenin Uygulamaları</a>
+  <ul class="collapse">
+  <li><a href="#biyoloji" id="toc-biyoloji" class="nav-link" data-scroll-target="#biyoloji">Biyoloji</a></li>
+  <li><a href="#görüntü-işleme" id="toc-görüntü-işleme" class="nav-link" data-scroll-target="#görüntü-işleme">Görüntü işleme</a></li>
+  <li><a href="#pazarlama" id="toc-pazarlama" class="nav-link" data-scroll-target="#pazarlama">Pazarlama</a></li>
+  <li><a href="#sosyal-ağ-analizi" id="toc-sosyal-ağ-analizi" class="nav-link" data-scroll-target="#sosyal-ağ-analizi">Sosyal ağ analizi</a></li>
+  </ul></li>
+  <li><a href="#hiyerarşik-kümeleme-algoritması" id="toc-hiyerarşik-kümeleme-algoritması" class="nav-link" data-scroll-target="#hiyerarşik-kümeleme-algoritması">Hiyerarşik Kümeleme Algoritması</a>
+  <ul class="collapse">
+  <li><a href="#hiyerarşik-kümeleme-algoritmasında-yer-alan-adımlar" id="toc-hiyerarşik-kümeleme-algoritmasında-yer-alan-adımlar" class="nav-link" data-scroll-target="#hiyerarşik-kümeleme-algoritmasında-yer-alan-adımlar">Hiyerarşik kümeleme algoritmasında yer alan adımlar</a></li>
+  <li><a href="#hiyerarşik-kümeleme-örnekleri" id="toc-hiyerarşik-kümeleme-örnekleri" class="nav-link" data-scroll-target="#hiyerarşik-kümeleme-örnekleri">Hiyerarşik kümeleme örnekleri</a></li>
+  <li><a href="#doğru-mesafe-ölçüsünü-seçmek" id="toc-doğru-mesafe-ölçüsünü-seçmek" class="nav-link" data-scroll-target="#doğru-mesafe-ölçüsünü-seçmek">Doğru mesafe ölçüsünü seçmek</a></li>
+  <li><a href="#kümeleri-birleştirmeden-önce-nasıl-ölçülür" id="toc-kümeleri-birleştirmeden-önce-nasıl-ölçülür" class="nav-link" data-scroll-target="#kümeleri-birleştirmeden-önce-nasıl-ölçülür">Kümeleri birleştirmeden önce nasıl ölçülür</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Hiyerarşik Kümelemeye Giriş</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="hiyerarşik-kümelemeye-giriş" class="level1">
+<h1>Hiyerarşik Kümelemeye Giriş</h1>
+<p>DataCamp’teki “<a href="https://www.datacamp.com/tutorial/introduction-hierarchical-clustering-python">An Introduction to Hierarchical Clusteringin Python</a>” adlı makaleden alınmıştır.</p>
+<section id="hiyerarşik-kümelemenin-tanımı" class="level2">
+<h2 class="anchored" data-anchor-id="hiyerarşik-kümelemenin-tanımı">Hiyerarşik Kümelemenin Tanımı</h2>
+<p>Hiyerarşik kümeleme yaklaşımı, daha önce tanımlanmış kümelere dayalı olarak ardışık kümelerin belirlenmesine dayanır. Bu teknik, verileri dendrogramlar olarak adlandırılan bir kümeler ağacında gruplamayı amaçlar ve altta yatan kümeler arasındaki hiyerarşik ilişkiyi grafiksel olarak temsil eder.</p>
+</section>
+<section id="hiyerarşik-kümelemenin-diğer-kümeleme-teknikleriyle-karşılaştırılması" class="level2">
+<h2 class="anchored" data-anchor-id="hiyerarşik-kümelemenin-diğer-kümeleme-teknikleriyle-karşılaştırılması">Hiyerarşik Kümelemenin Diğer Kümeleme Teknikleriyle Karşılaştırılması</h2>
+<p>Hiyerarşik kümeleme güçlü bir algoritmadır, ancak tek algoritma değildir ve her kümeleme türü kendi avantaj ve dezavantajlarıyla birlikte gelir.</p>
+<p>K-means ve model tabanlı kümeleme gibi diğer kümeleme türleriyle nasıl karşılaştırıldığını anlamaya çalışalım. Çok daha fazla teknik var, ancak bunlar ikisi, hiyerarşik kümelemeye ek olarak, yaygın olarak kullanılır ve diğerlerini daha iyi anlamak için bir çerçeve sağlar.</p>
+<p>Makine öğreniminde kümeleme hakkında daha fazla bilgiyi, beş temel kümeleme algoritmasını kapsayan ayrı makalemizde bulabilirsiniz.</p>
+<section id="hiyerarşik-kümeleme-ve-k-means-kümeleme-karşılaştırması" class="level3">
+<h3 class="anchored" data-anchor-id="hiyerarşik-kümeleme-ve-k-means-kümeleme-karşılaştırması">Hiyerarşik kümeleme ve K-Means kümeleme karşılaştırması</h3>
+<p>Hiyerarşik kümelemenin aksine, K-means kümeleme, orijinal veri noktalarını kullanıcının önceden belirlediği “K” gruba veya kümeye ayırmayı amaçlar.</p>
+<p>Genel fikir, tüm öznitelikler (değişkenler veya özellikler) üzerinden tüm noktaların merkezlerden karesel Öklid mesafesini minimize eden kümeler aramak ve bu bireyleri yinelemeli bir şekilde birleştirmektir.</p>
+<p>“Scikit-learn ile Python’da K-means Kümeleme” öğreticimiz, ilginç bir vaka çalışmasıyla K-means kümelemenin iç işleyişini anlamanıza yardımcı olacaktır.</p>
+<section id="faydaları" class="level4">
+<h4 class="anchored" data-anchor-id="faydaları">Faydaları</h4>
+<ul>
+<li>Hiyerarşik kümelemeye kıyasla hesaplama açısından verimlidir ve büyük veri setlerini analiz etmek için kullanılabilir.</li>
+<li>K-means anlaşılması ve uygulanması daha kolaydır.</li>
+</ul>
+</section>
+<section id="dezavantajları" class="level4">
+<h4 class="anchored" data-anchor-id="dezavantajları">Dezavantajları</h4>
+<ul>
+<li>Hiyerarşik kümelemeden daha az esnektir çünkü kullanıcıyı küme sayısını önceden belirtmeye zorlar, bu da bazı durumlarda açık olmayabilir.</li>
+<li>Sonuç kararlı değildir ve aynı veri seti için bir yinelemeden diğerine değişir.</li>
+<li>Aykırı değerlere karşı daha duyarlıdır çünkü verilerdeki aykırı değerlerin kullanımı kümenin ortalamasını etkiler.</li>
+<li>Hem k-means hem de hiyerarşik kümeleme, kategorik verileri doğrudan işleyemez ve sürekli olmayan veya çok büyük varyansa sahip verilerle iyi çalışmayabilir.</li>
+</ul>
+<p>Sınırlamalarına rağmen, k-means kümeleme hala kullanım kolaylığı ve hesaplama verimliliği nedeniyle popüler bir yöntemdir. Sıklıkla diğer kümeleme tekniklerinin performansını karşılaştırmak için bir referans noktası olarak kullanılır.</p>
+</section>
+</section>
+<section id="model-tabanlı-kümeleme" class="level3">
+<h3 class="anchored" data-anchor-id="model-tabanlı-kümeleme">Model tabanlı kümeleme</h3>
+<p>Hem K-means hem de hiyerarşik kümeleme teknikleri, veri setindeki tüm noktalar arasındaki mesafeleri temsil etmek için bir uzaklık matrisi kullanır. Öte yandan, model tabanlı kümeleme, verilerdeki kümeleri tanımlamak için istatistiksel teknikler uygular. Genel süreç aşağıdaki gibidir:</p>
+<ul>
+<li>Kullanılacak istatistiksel modele karar verin ve küme sayısını seçin.</li>
+<li>Modeli verilere uygulayın.</li>
+<li>Model parametrelerine göre kümeleri belirleyin.</li>
+</ul>
+<section id="faydaları-1" class="level4">
+<h4 class="anchored" data-anchor-id="faydaları-1">Faydaları</h4>
+<ul>
+<li>Model tabanlı kümeleme, farklı küme türlerini tanımlamak için farklı modellerin kullanılmasına izin verdiği için hiyerarşik kümelemeden daha esnektir.</li>
+<li>Karmaşık şekillere veya yapılara sahip veriler üzerinde daha iyi çalışır.</li>
+</ul>
+</section>
+<section id="dezavantajları-1" class="level4">
+<h4 class="anchored" data-anchor-id="dezavantajları-1">Dezavantajları</h4>
+<ul>
+<li>Özellikle büyük veriler için hesaplama açısından hiyerarşik kümelemeden daha pahalıdır.</li>
+<li>Model seçimi nihai sonucu etkileyebileceğinden, istatistiksel modelleme tekniklerinin daha iyi anlaşılmasını gerektirir.</li>
+<li>K-means kümelemeye benzer şekilde, küme sayısının önceden belirtilmesini gerektirir.</li>
+</ul>
+</section>
+</section>
+</section>
+<section id="hiyerarşik-kümelemenin-uygulamaları" class="level2">
+<h2 class="anchored" data-anchor-id="hiyerarşik-kümelemenin-uygulamaları">Hiyerarşik Kümelemenin Uygulamaları</h2>
+<p>Hiyerarşik kümeleme, günlük hayatımızda biyoloji, görüntü işleme, pazarlama, ekonomi ve sosyal ağ analizi dahil (ancak bunlarla sınırlıolmamak üzere) çeşitli uygulamalara sahiptir.</p>
+<section id="biyoloji" class="level3">
+<h3 class="anchored" data-anchor-id="biyoloji">Biyoloji</h3>
+<p>DNA dizilerinin kümelenmesi, biyoinformatiğin en büyük zorluklarından biridir.</p>
+<p>Biyologlar, organizmaları taksonomik gruplara sınıflandırmak için organizmalar arasındaki genetik ilişkileri incelemek üzere hiyerarşikkümelemeyi kullanabilirler. Bu, altta yatan ilişkilerin hızlı analizi ve görselleştirilmesi için faydalıdır.</p>
+</section>
+<section id="görüntü-işleme" class="level3">
+<h3 class="anchored" data-anchor-id="görüntü-işleme">Görüntü işleme</h3>
+<p>Görüntü işlemede, renk, yoğunluk veya diğer özellikler açısından bir görüntünün benzer bölgelerini veya piksellerini gruplandırmak içinhiyerarşik kümeleme gerçekleştirilebilir. Bu, görüntü segmentasyonu, görüntü sınıflandırması ve nesne tanıma gibi diğer görevler için faydalı olabilir.</p>
+</section>
+<section id="pazarlama" class="level3">
+<h3 class="anchored" data-anchor-id="pazarlama">Pazarlama</h3>
+<p>Pazarlama uzmanları, daha iyi pazarlama stratejileri ve ürün önerileri için müşterilerin satın alma alışkanlıklarına göre farklı müşteri türleri arasında bir hiyerarşi çizmek için hiyerarşik kümelemeyi kullanabilirler. Örneğin, perakendede farklı ürünler, düşük, orta veya yüksek harcama yapan müşterilere göre önerilebilir.</p>
+</section>
+<section id="sosyal-ağ-analizi" class="level3">
+<h3 class="anchored" data-anchor-id="sosyal-ağ-analizi">Sosyal ağ analizi</h3>
+<p>Sosyal ağlar, verimli bir şekilde kullanıldığında değerli bilgilerin harika bir kaynağıdır. Hiyerarşik kümeleme, grupları veya toplulukları belirlemek ve bunların birbirleriyle ve ağın bütünüyle olan ilişkilerini anlamak için kullanılabilir.</p>
+</section>
+</section>
+<section id="hiyerarşik-kümeleme-algoritması" class="level2">
+<h2 class="anchored" data-anchor-id="hiyerarşik-kümeleme-algoritması">Hiyerarşik Kümeleme Algoritması</h2>
+<p>Bu bölümde üç ana kavrama bakacağız. Hiyerarşik algoritmanın adımları, iki tür hiyerarşik kümelemenin (aglomeratif ve bölücü) vurgulanması ve son olarak doğru mesafe ölçüsünü seçmek için bazı teknikler.</p>
+<section id="hiyerarşik-kümeleme-algoritmasında-yer-alan-adımlar" class="level3">
+<h3 class="anchored" data-anchor-id="hiyerarşik-kümeleme-algoritmasında-yer-alan-adımlar">Hiyerarşik kümeleme algoritmasında yer alan adımlar</h3>
+<p>Hiyerarşik kümeleme algoritması, kümeler oluşturmak için mesafe ölçülerini kullanır. Bu oluşturma süreci aşağıdaki ana adımları içerir:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="attachments/Creating_Hierarchical_Clustering_Algorithm_0e75661cab.png" class="img-fluid figure-img"></p>
+<figcaption>Hiyerarşik Kümeleme Algoritması Oluşturma</figcaption>
+</figure>
+</div>
+<p>Eksik verileri kaldırarak ve verileri mümkün olduğunca temiz hale getiren ek görevler uygulayarak verileri ön işlemden geçirin. Bu adım, çoğu makine öğrenimi görevi için daha genel bir adımdır.</p>
+<ol type="1">
+<li><p>Öklid mesafesi, Manhattan mesafesi veya kosinüs benzerliği gibi belirli bir mesafe metriği kullanarak her veri noktası çifti arasındaki mesafeyi içeren mesafe matrisini hesaplayın. Ancak varsayılan mesafe metriği Öklid mesafesidir.</p></li>
+<li><p>Mesafe olarak en yakın olan iki kümeyi birleştirin.</p></li>
+<li><p>Mesafe matrisini yeni kümelere göre güncelleyin.</p></li>
+<li><p>Tüm kümeler tek bir küme oluşturmak üzere birleştirilene kadar 1, 2 ve 3. adımları tekrarlayın.</p></li>
+</ol>
+</section>
+<section id="hiyerarşik-kümeleme-örnekleri" class="level3">
+<h3 class="anchored" data-anchor-id="hiyerarşik-kümeleme-örnekleri">Hiyerarşik kümeleme örnekleri</h3>
+<p>Aglomeratif ve bölücü kümelemeyi birbirinin aynası olarak düşünebiliriz. Her birinin nasıl çalıştığına, hiyerarşik kümeleme örneğine vegrafiksel görselleştirmeye daha yakından bakalım.</p>
+<section id="aglomeratif-hiyerarşik-kümeleme" class="level4">
+<h4 class="anchored" data-anchor-id="aglomeratif-hiyerarşik-kümeleme">Aglomeratif hiyerarşik kümeleme</h4>
+<p>Bu ilk senaryo, yukarıda açıklanan yaklaşıma karşılık gelir. Her gözlemi tekil bir küme (yalnızca bir veri noktası içeren küme) olarak düşünerek başlar. Daha sonra yalnızca bir küme elde edilene kadar kümeleri yinelemeli olarak birleştirir. Bu süreç aşağıdan yukarıya yaklaşım olarak da bilinir.</p>
+<p>Aşağıdaki örnekte gösterildiği gibi:</p>
+<ul>
+<li>Her hayvanı kendine özgü bir küme olarak düşünerek başlıyoruz.</li>
+<li>Ardından, bu benzersiz hayvanlardan benzerliklerine göre üç farklı küme oluşturuyoruz:
+<ul>
+<li><strong>Kuşlar</strong>: Kartal ve Tavus Kuşu</li>
+<li><strong>Memeliler</strong>: Aslan ve Ayı</li>
+<li><strong>Üçten fazla bacaklı hayvanlar</strong>: Örümcek ve Akrep</li>
+</ul></li>
+<li>En benzer iki kümeyi (Kuşlar ve Memeliler) birleştirerek Omurgalıkümesini oluşturmak için birleştirme işlemini tekrarlıyoruz.</li>
+<li>Bu adımdan sonra, kalan iki küme, <strong>Omurgalı</strong> ve <strong>Üçten fazla bacaklı</strong>, tek bir Hayvanlar kümesi oluşturmak üzere birleştirilir.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="attachments/Dendrogram_of_Agglomerative_Clustering_Approach_4eba3586ec.png" class="img-fluid figure-img"></p>
+<figcaption>Aglomeratif Kümeleme Yaklaşımının Dendrogramı</figcaption>
+</figure>
+</div>
+<p><em>Aglomeratif Kümeleme Yaklaşımının Dendrogramı</em></p>
+</section>
+<section id="bölücü-kümeleme" class="level4">
+<h4 class="anchored" data-anchor-id="bölücü-kümeleme">Bölücü kümeleme</h4>
+<p>Öte yandan, bölücü kümeleme yukarıdan aşağıya bir yaklaşımdır çünkütüm veri noktalarını tek bir küme olarak düşünerek başlar. Daha sonra tüm veri noktaları benzersiz olana kadar onları ayırır.</p>
+<p>Bu bölücü yaklaşım grafiğinden:</p>
+<ul>
+<li>Tüm hayvan veri setinin tek bir blok olarak düşünüldüğünü fark ediyoruz.</li>
+<li>Ardından, bu bloğu iki kümeye ayırıyoruz: Omurgalı ve 3’ten fazlabacaklı.</li>
+<li>Bölme işlemi, benzersiz hayvanlara ulaşana kadar önceden oluşturulan kümelere yinelemeli olarak uygulanır.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="attachments/Dendrogram_of_Divisive_Clustering_Approach_8623354c7b.png" class="img-fluid figure-img"></p>
+<figcaption>Bölücü Kümeleme Yaklaşımının Dendrogramı</figcaption>
+</figure>
+</div>
+<p><em>Bölücü Kümeleme Yaklaşımının Dendrogramı</em></p>
+</section>
+</section>
+<section id="doğru-mesafe-ölçüsünü-seçmek" class="level3">
+<h3 class="anchored" data-anchor-id="doğru-mesafe-ölçüsünü-seçmek">Doğru mesafe ölçüsünü seçmek</h3>
+<p>Mesafe ölçüsü seçiminiz, kümelemede kritik bir adımdır ve çözmeye çalıştığınız probleme bağlıdır. Aşağıdaki senaryoyu düşünerek, öğrencileri şu gibi herhangi bir yaklaşıma göre kümeleyebiliriz:</p>
+<ul>
+<li>Menşe ülkesi</li>
+<li>Cinsiyet, erkek veya kadın</li>
+<li>Önceki akademik geçmiş</li>
+</ul>
+<p>Bunların hepsi geçerli kümelerdir ancak anlamları farklıdır.</p>
+<p>Öklid mesafesi çoğu kümeleme yazılımında en yaygın kullanılan mesafe olmasına rağmen, Manhattan mesafesi, Canberra mesafesi, Pearson veya Spearman korelasyonu ve Minkowski mesafesi gibi diğer mesafe ölçüleri de mevcuttur.</p>
+</section>
+<section id="kümeleri-birleştirmeden-önce-nasıl-ölçülür" class="level3">
+<h3 class="anchored" data-anchor-id="kümeleri-birleştirmeden-önce-nasıl-ölçülür">Kümeleri birleştirmeden önce nasıl ölçülür</h3>
+<p>Daha önce bahsedilen mesafeler öğelerle ilgilidir. Bu bölümde, onları birleştirmeden önce en yakın küme çiftini ölçmenin üç standart yolunu (kapsamlı değil) ele alacağız: (1) Tek bağlantı, (2) Tam bağlantı ve (3) Ortalama bağlantı.</p>
+<section id="tek-bağlantı" class="level4">
+<h4 class="anchored" data-anchor-id="tek-bağlantı">Tek bağlantı</h4>
+<p>C1 ve C2 kümelerindeki öğeler arasındaki tüm ikili mesafelerden, tek bağlantı kümeler arasındaki mesafeyi minimum mesafe olarak alır.</p>
+<p><strong><em>Mesafe (C1, C2) = Min { d(i, j), burada öğe i C1 içinde ve öğe jC2 içinde}</em></strong></p>
+<p>İki kümeden gelen tüm öğe çiftleri arasından, yeşil renkle vurgulananlar minimum mesafeye sahiptir.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="attachments/Single_linkage_illustration_ea623e18a4.png" class="img-fluid figure-img"></p>
+<figcaption>Tek bağlantı gösterimi</figcaption>
+</figure>
+</div>
+<p><em>Tek bağlantı gösterimi</em></p>
+</section>
+<section id="tam-bağlantı" class="level4">
+<h4 class="anchored" data-anchor-id="tam-bağlantı">Tam bağlantı</h4>
+<p>C1 ve C2 kümelerindeki öğeler arasındaki tüm ikili mesafelerden, tam bağlantı kümeler arasındaki mesafeyi <strong>maksimum</strong> mesafe olarak alır.</p>
+<p><strong><em>Mesafe (C1, C2) = Max { d(i, j), burada öğe i C1 içinde ve öğe jC2 içinde}</em></strong></p>
+<p>İki kümeden gelen tüm öğe çiftleri arasından, yeşil renkle vurgulananlar maksimum mesafeye sahiptir.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="attachments/Complete_linkage_illustration_982fb26b4c.png" class="img-fluid figure-img"></p>
+<figcaption>Tam bağlantı gösterimi</figcaption>
+</figure>
+</div>
+<p><em>Tam bağlantı gösterimi</em></p>
+</section>
+<section id="ortalama-bağlantı" class="level4">
+<h4 class="anchored" data-anchor-id="ortalama-bağlantı">Ortalama bağlantı</h4>
+<p>Ortalama bağlantı kümelemesinde, verilen iki küme C1 ve C2 arasındaki mesafe, iki kümedeki tüm öğe çiftleri arasındaki ortalama mesafelere karşılık gelir.</p>
+<p><strong><em>Mesafe (C1, C2) = Toplam{ d(i, j) } / Toplam mesafe sayısı</em></strong></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="attachments/Average_linkage_illustration_edeec7a09e.png" class="img-fluid figure-img"></p>
+<figcaption>Ortalama bağlantı gösterimi</figcaption>
+</figure>
+</div>
+<p><em>Ortalama bağlantı gösterimi</em></p>
+<p>Ardından ortalama bağlantı kümelemesi şu şekilde gerçekleştirilir:</p>
+<p><em>d(a,j) + d(a,h) + d(a,n) + d(d,j) + d(d,h) + d(d,n)</em></p>
+<p><em>————————————————————–</em>, burada Toplam mesafe sayısı = 6</p>
+<p><em>Toplam mesafe sayısı</em></p>
+
+
+</section>
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

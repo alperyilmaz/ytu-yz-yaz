@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "FEF3001 Yapay Zekaya Giriş",
     "section": "",
-    "text": "Makine Öğrenmesinde Sınıflandırma Yöntemleri ve R Uygulamaları, Ersoy Öz & Selçuk Alp, Nobel Akademik Yayıncılık, 2020.\nVeri Madenciliği ve Makine Öğrenmesi İle Farklı Alanlarda Uygulamalar, Şenol Çelik, Nilay Köleoğlu, & Fatih Çemrek, Holistence Publications, 2022\nSağlık Bilimlerinde Yapay Zeka, Ahmet Rıza Şahin, Kamil Doğan, & Süleyman Sivri, Akademisyen Kitabevi A.Ş., 2020\nYapay Zeka, Atınç Yılmaz, Kodlab Yayın Dağıtım Yazılım Ltd. Şti., 2022\nMachine Learning Algorithms, Giuseppe Bonaccorso, Packt Publishing, 2017.\nOptimizasyon Modelleme ve Yapay Zeka Algoritmaları, Bayram Köse, Bahar Demirtürk, Efe Akademi Yayınları, 2023\n\n\n\n\nGrup2: 4 Temmuz Perşembe 8:30 - Grup1: 4 Temmuz Perşembe 18:00\nİçerik: İlk derste, ChatGPT ve benzeri büyük dil modelleri tanıtıldı. OpenAI Playground üzerinde “cümle tamamlama” kavramı ve “temparature” ayarı gösterildi. Daha iyi çıktı almak için Prompt ayarları anlatıldı. Dökümandan sorgu/chat yapmak için Gemini ve Claude örnekleri verildi. Yine Claude üzerinden kod yazdırma örneği işlendi. İngilizce Sunum linki, Türkçe Sunum linki\n\n\n\n\nGrup2: 5 Temmuz Cuma 8:30 - Grup1: 5 Temmuz Cuma 14:00\nİçerik: Veri türleri ve verilerin işlenmesine dair bilgi verildi. Sunum linki\n\n\n\nGrup2: 11 Temmuz Perşembe 8:30 - Grup1: 11 Temmuz Perşembe 18:00\nİçerik: Confusion matrix ve sınıflandırma/regresyon değerlendirmesi Sunum linki\n\n\n\nGrup2: 12 Temmuz Cuma 8:30 - Grup1: 12 Temmuz Cuma 14:00\nİçerik: Yapay sinir ağları Sunum linki. Derste kullanılan yapay sinir ağı demo sayfaları için link1 ve link2\n\n\n\nGrup2: 19 Temmuz Cuma 8:30 - Grup1: 19 Temmuz Cuma 14:00\nİçerik: Sınıflandırma metodları İngilizce Sunum linki, Türkçe Sunum Linki\n\n\n\nGrup2: 25 Temmuz Perşembe 8:30 - Grup1: 25 Temmuz Perşembe 18:00\nİçerik: Regresyon İngilizce Sunum linki, Türkçe Sunum linki\n\n\n\nGrup2: 26 Temmuz Cuma 8:30 - Grup1: 26 Temmuz Cuma 14:00\nİçerik: Kümeleme İngilizce Sunum linki"
+    "text": "Makine Öğrenmesinde Sınıflandırma Yöntemleri ve R Uygulamaları, Ersoy Öz & Selçuk Alp, Nobel Akademik Yayıncılık, 2020.\nVeri Madenciliği ve Makine Öğrenmesi İle Farklı Alanlarda Uygulamalar, Şenol Çelik, Nilay Köleoğlu, & Fatih Çemrek, Holistence Publications, 2022\nSağlık Bilimlerinde Yapay Zeka, Ahmet Rıza Şahin, Kamil Doğan, & Süleyman Sivri, Akademisyen Kitabevi A.Ş., 2020\nYapay Zeka, Atınç Yılmaz, Kodlab Yayın Dağıtım Yazılım Ltd. Şti., 2022\nMachine Learning Algorithms, Giuseppe Bonaccorso, Packt Publishing, 2017.\nOptimizasyon Modelleme ve Yapay Zeka Algoritmaları, Bayram Köse, Bahar Demirtürk, Efe Akademi Yayınları, 2023\n\n\n\n\nGrup2: 4 Temmuz Perşembe 8:30 - Grup1: 4 Temmuz Perşembe 18:00\nİçerik: İlk derste, ChatGPT ve benzeri büyük dil modelleri tanıtıldı. OpenAI Playground üzerinde “cümle tamamlama” kavramı ve “temparature” ayarı gösterildi. Daha iyi çıktı almak için Prompt ayarları anlatıldı. Dökümandan sorgu/chat yapmak için Gemini ve Claude örnekleri verildi. Yine Claude üzerinden kod yazdırma örneği işlendi. İngilizce Sunum linki, Türkçe Sunum linki\n\n\n\n\nGrup2: 5 Temmuz Cuma 8:30 - Grup1: 5 Temmuz Cuma 14:00\nİçerik: Veri türleri ve verilerin işlenmesine dair bilgi verildi. Sunum linki\n\n\n\nGrup2: 11 Temmuz Perşembe 8:30 - Grup1: 11 Temmuz Perşembe 18:00\nİçerik: Confusion matrix ve sınıflandırma/regresyon değerlendirmesi Sunum linki\n\n\n\nGrup2: 12 Temmuz Cuma 8:30 - Grup1: 12 Temmuz Cuma 14:00\nİçerik: Yapay sinir ağları Sunum linki. Derste kullanılan yapay sinir ağı demo sayfaları için link1 ve link2\n\n\n\nGrup2: 19 Temmuz Cuma 8:30 - Grup1: 19 Temmuz Cuma 14:00\nİçerik: Sınıflandırma metodları İngilizce Sunum linki, Türkçe Sunum Linki\n\n\n\nGrup2: 25 Temmuz Perşembe 8:30 - Grup1: 25 Temmuz Perşembe 18:00\nİçerik: Regresyon İngilizce Sunum linki, Türkçe Sunum linki\n\n\n\nGrup2: 26 Temmuz Cuma 8:30 - Grup1: 26 Temmuz Cuma 14:00\nİçerik: Kümeleme İngilizce Sunum linki, Türkçe Sunum Linki"
   },
   {
     "objectID": "index.html#kaynaklar",
@@ -60,7 +60,7 @@
     "href": "index.html#ders7",
     "title": "FEF3001 Yapay Zekaya Giriş",
     "section": "",
-    "text": "Grup2: 26 Temmuz Cuma 8:30 - Grup1: 26 Temmuz Cuma 14:00\nİçerik: Kümeleme İngilizce Sunum linki"
+    "text": "Grup2: 26 Temmuz Cuma 8:30 - Grup1: 26 Temmuz Cuma 14:00\nİçerik: Kümeleme İngilizce Sunum linki, Türkçe Sunum Linki"
   },
   {
     "objectID": "id3-decision-tree-TR.html",
@@ -483,326 +483,326 @@
     "text": "The Hierarchical Clustering Algorithm\nIn this section, we will look at three main concepts. The steps of the hierarchical algorithm, a highlight of the two types of hierarchical clustering (agglomerative and divisive), and finally, some techniques to choose the right distance measure.\n\nSteps involved in the hierarchical clustering algorithm\nThe hierarchical clustering algorithm employs the use of distance measures to generate clusters. This generation process involves the following main steps:\n\n\n\nCreating Hierarchical Clustering Algorithm\n\n\nPreprocess the data by removing missing data and applying any additional tasks that make the data as clean as possible. This step is a more general one for most of the machine learning tasks.\n\nCompute the distance matrix containing the distance between each pair of data points using a particular distance metric such as Euclidean distance, Manhattan distance, or cosine similarity. But the default distance metric is the Euclidean one.\n\n2.Merge the two clusters that are the closest in distance.\n\nUpdate the distance matrix with regard to the new clusters.\nRepeat steps 1, 2, and 3 until all the clusters are merged together to create a single cluster.\n\n\n\nHierarchical clustering examples\nWe can consider agglomerative and divisive clustering as mirrors of each other. Let’s have a better look at how each one operates, along with a hierarchical clustering example and graphical visualization.\n\nAgglomerative hierarchical clustering\nThis first scenario corresponds to the approach explained above. It starts by considering each observation as a singleton cluster (cluster with only one data point). Then iteratively merges clusters until only one cluster is obtained. This process is also known as the bottom-up approach.\nAs showing in the illustration below:\n\nWe start by considering each animal to be its unique cluster.\nThen we generate three different clusters from those unique animals based on their similarities:\n\nBirds: Eagle and Peacock\nMammals: Lion and Bear\nMore than three leg animals: Spider and Scorpion.\n\nWe repeat the merging process to create the vertebrate cluster by combining the two most similar clusters: Birds and Mammals.\nAfter this step, the remaining two clusters, Vertebrate and More than three legs, are merged to create a single Animals cluster.\n\n\n\n\nDendrogram of Agglomerative Clustering Approach\n\n\nDendrogram of Agglomerative Clustering Approach\n\n\nDivisive clustering\nOn the other hand, divisive clustering is top-down because it starts by considering all the data points as a unique cluster. Then it separates them until all the data points are unique.\nFrom this divisive approach graphic:\n\nWe notice that the whole animal dataset is considered as a single bloc.\nThen, we divide that block into two clusters: Vertebrate and More than 3 legs.\nThe division process is iteratively applied to the previously created clusters until we get unique animals.\n\n\n\n\nDendrogram of Divisive Clustering Approach\n\n\nDendrogram of Divisive Clustering Approach\n\n\n\nChoosing the right distance measure\nYour choice of distance measure is a critical step in clustering, and it depends on the problem you’re trying to solve. Considering the following scenario, we could cluster students based on any number of approaches such as their:\n\nCountry of origin\nGender, either male or female\nPrevious academic background.\n\nThese are all valid clusters but differ in meaning.\nEven though Euclidean distance is the most common distance used in most clustering software, other distance measures such as Manhattan distance, Canberra distance, Pearson or Spearman correlation, and Minkowski distance exist.\n\n\nHow to measure clusters before merging them\nThe previously mentioned distances are related to items. In this section, we will cover three standard ways (not exhaustive) to measure the nearest pair of clusters before merging them: (1) Single linkage, (2) Complete linkage, and (3) Average linkage.\n\nSingle linkage\nFrom all the pairwise distances between the items in the two clusters C1 and C2, the single linkage takes the distance between the clusters as the minimum distance.\nDistance (C1, C2) = Min { d(i, j), where item i is within C1, and item j is within C2}\nOut of all the pairs of items from the two clusters, the ones highlighted in green have the minimum distance.\n\n\n\nSingle linkage illustration\n\n\nSingle linkage illustration\n\n\nComplete linkage\nFrom all the pairwise distances between the items in the two clusters C1 and C2, the single linkage takes the distance between the clusters as the maximum distance.\nDistance (C1, C2) = Max { d(i, j), where item i is within C1, and item j is within C2}\nOut of all the pairs of items from the two clusters, the ones highlighted in green have the maximum distance.\n\n\n\nComplete linkage illustration\n\n\nComplete linkage illustration\n\n\nAverage linkage\nIn the average linkage clustering, the distance between two given clusters C1 and C2 corresponds to the average distances between all pairs of items in the two clusters.\nDistance (C1, C2) = Sum{ d(i, j) } / Total Number of distances\n\n\n\nAverage linkage illustration\n\n\nAverage linkage illustration\nThen the average linkage clustering is performed as follows\nd(a,j) + d(a,h) + d(a,n) + d(d,j) + d(d,h) + d(d,n)\n————————————————————–, where Total number of distances = 6\nTotal number of distances"
   },
   {
-    "objectID": "katilim.html",
-    "href": "katilim.html",
-    "title": "Attendance and Quizes / Katılım ve Quizler",
+    "objectID": "ders1-TR.html",
+    "href": "ders1-TR.html",
+    "title": "GPT modelleri",
     "section": "",
-    "text": "Zoom üzerinden süre olarak katılımınız alınarak, toplam ders süremize1 göre oran hesaplanmıştır. Dersin üçte birinden (1/3 ya da 0.3) az katılan öğrenci o derse katılmamış sayılacaktır.\nAşağıdaki tablolarda her bir ders günü için Zoom süresi ve katılım oranı verilmiştir. (ŞU ANDA SADECE 19 TEMMUZ GÜNÜ YAPILAN DERSE GÖRE HESAPLAMA YAPILMIŞTIR)\n\n\n\n\n\n\nClick for translation\n\n\n\n\n\nYour participation time has been recorded via Zoom, and a ratio has been calculated based on our total lesson duration. A student who participates less than one-third (1/3 or 0.3) of the lesson will be considered as not having attended that lesson.\nIn the tables below, the Zoom duration and participation ratio for each lesson day are provided. (THE DATA BELOW ONLY CONSIDERS JULY 19TH LECTURE)"
+    "text": "GPT1, GPT2 ve GPT3, ChatGPT’den birkaç yıl önce piyasaya sürüldü ve cümleleri tamamlama yeteneğine sahipti. Daha fazla bilgi için “ChatGPT Nasıl Çalışır?” sitesini ziyaret edin. ChatGPT’nin piyasaya sürülmesinden sonra, büyük dil modelleri “konuşma yeteneği” kazandı.\nLütfen OpenAI Playground tamamlama sitesini ziyaret edin ve model olarak “gpt-3.5-turbo”yu seçin. Tamamlanmamış bir cümle yazın ve ardından Gönder düğmesine basın.\n\nModelin cümlenizi tamamladığını göreceksiniz. Sağ menüdeki “Olasılıkları göster” seçeneğini açarsanız, GPT’nin nasıl çalıştığına dair bir fikir edinebilirsiniz.\n\nCümleyi tamamlayıp kelimelerin üzerine geldiğinizde, modelin belirli olasılıklarla seçebileceği birçok kelime olduğunu göreceksiniz. Bu örnekte, “my” kelimesi Today is ifadesinden sonra 4. en olası kelimedir ve “birthday” kelimesi Today is my ifadesinden sonra en olası kelimedir.\n\n\nGPT modellerinin temel ayarlarından biri sıcaklık değeridir. Sıcaklığı azaltırsanız, model en olası kelimeleri seçecektir. Sıcaklık yüksekse, model düşük olasılıklı kelimeleri seçecektir, bu da yaratıcı ve çeşitli çıktılar sağlayacaktır.\nSıcaklığı sıfıra düşürürseniz, çıktı her zaman aynı olacaktır."
   },
   {
-    "objectID": "katilim.html#group1-grup1-türkçe-1",
-    "href": "katilim.html#group1-grup1-türkçe-1",
-    "title": "Attendance and Quizes / Katılım ve Quizler",
-    "section": "Group1 / Grup1 Türkçe",
-    "text": "Group1 / Grup1 Türkçe"
+    "objectID": "ders1-TR.html#chatgpt-bizim-için-kod-yazıyor",
+    "href": "ders1-TR.html#chatgpt-bizim-için-kod-yazıyor",
+    "title": "GPT modelleri",
+    "section": "ChatGPT bizim için kod yazıyor",
+    "text": "ChatGPT bizim için kod yazıyor\nHadi ChatGPT’den Python’da hızlı bir asal sayı fonksiyonu isteyelim\n\n\nAz önce ne olduğunu gördünüz mü! Bize özel hazırlanmış bir kod sağladı ve kodun parçalarını da açıkladı. Kodun dersimiz sırasında öğrendiğimiz püf noktaları içerdiğini fark ettiniz mi: * erken durma: bir koşul karşılanırsa, hemen True veya False döndür * N’ye kadar kontrol etmek yerine, \\(\\sqrt{N}\\)’e kadar olan sayıları kontrol etmeliyiz (Python’da n  0.5**)\nKonuşmaya devam edebilirsiniz. Hadi memoization isteyelim.\n\n\nHadi kodu alalım ve burada test edelim:\ndef is_prime(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n in (2, 3):\n        result = True\n    elif n == 1 or n % 2 == 0:\n        result = False\n    else:\n        result = True\n        for i in range(3, int(n ** 0.5) + 1, 2):\n            if n % i == 0:\n                result = False\n                break\n    memo[n] = result\n    return result\n# is_prime(100000000003)\n\n\n\n\n\n\nUyarı\n\n\n\nBu notu yazdığım sırada (Ocak 2023) chatGPT’nin tam olarak doğru olmayan sonuçlar verdiği biliniyordu!Bu nedenle, chatGPT’den aldığınız kodu veya bilgiyi kontrol etmeden veya doğrulamadan olduğu gibi kullanmamaya dikkat ediniz."
   },
   {
-    "objectID": "katilim.html#group2-grup2-ingilizce-1",
-    "href": "katilim.html#group2-grup2-ingilizce-1",
-    "title": "Attendance and Quizes / Katılım ve Quizler",
-    "section": "Group2 / Grup2 İngilizce",
-    "text": "Group2 / Grup2 İngilizce"
+    "objectID": "ders1-TR.html#chatgpt-kodu-düzeltebilir-veya-değiştirebilir",
+    "href": "ders1-TR.html#chatgpt-kodu-düzeltebilir-veya-değiştirebilir",
+    "title": "GPT modelleri",
+    "section": "ChatGPT kodu düzeltebilir veya değiştirebilir",
+    "text": "ChatGPT kodu düzeltebilir veya değiştirebilir\nElinizde bir kod parçası var ve istediğiniz gibi çalışmıyor mu? O zaman ChatGPT’den kodu düzeltmesini isteyebilirsiniz.\nHatalı bir kod verelim ve chatGPT’den hata ayıklamasını isteyelim:\n\n\nDemek ki ChatGPT kodu düzeltebiliyor! Bu arada, o örneği hazırlamak için ChatGPT’yi kullandığımı biliyor muydunuz? ;)"
   },
   {
-    "objectID": "katilim.html#footnotes",
-    "href": "katilim.html#footnotes",
-    "title": "Attendance and Quizes / Katılım ve Quizler",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nBeklenen ders süresi (yaklaşık 3 saat) değil, işlenen süre. Yani maksimum süre, ders süresi olarak alınmıştır.↩︎"
+    "objectID": "ders1-TR.html#bu-programlamanın-sonu-mu",
+    "href": "ders1-TR.html#bu-programlamanın-sonu-mu",
+    "title": "GPT modelleri",
+    "section": "Bu programlamanın sonu mu?",
+    "text": "Bu programlamanın sonu mu?\n“Bir dönem boyunca Python öğrendik ama şimdi ChatGPT var, hiç kod öğrenmeye gerek yok!” diye düşünebilirsiniz. Benzer endişeleri araştıran çevrimiçi içerikler bulabilirsiniz. Ancak daha makul yaklaşım, “AI araçları geliştiricilerin hızını ve verimliliğini artıracak ve ayrıca yeni dillere giriş engellerini azaltacak” şeklindedir.\nAşağıdaki bölüm Github Copilot’un sayfasından alınmıştır:"
   },
   {
-    "objectID": "ders2.html#veri-analizi-veri-bilimi-makine-öğrenmesi",
-    "href": "ders2.html#veri-analizi-veri-bilimi-makine-öğrenmesi",
-    "title": "Veri tipleri ve işleme",
-    "section": "Veri analizi, veri bilimi, makine öğrenmesi",
-    "text": "Veri analizi, veri bilimi, makine öğrenmesi"
+    "objectID": "ders1-TR.html#chatgptyi-gösterdiğiniz-için-teşekkürler-artık-ödevlerimi-kolayca-hazırlayabilirim",
+    "href": "ders1-TR.html#chatgptyi-gösterdiğiniz-için-teşekkürler-artık-ödevlerimi-kolayca-hazırlayabilirim",
+    "title": "GPT modelleri",
+    "section": "ChatGPT’yi gösterdiğiniz için teşekkürler, artık ödevlerimi kolayca hazırlayabilirim!",
+    "text": "ChatGPT’yi gösterdiğiniz için teşekkürler, artık ödevlerimi kolayca hazırlayabilirim!\nChatGPT’nin yeteneklerini görmek, yanlış kullanım hakkında bazı ipuçları verebilir. Öncelikle, bir ödev sizin bir kavramı öğrenmeniz içindir (gitar çalma benzetmesini hatırlayın?) bu nedenle AI destekli intihal yapmak hala bir intihaldir ve sizin açınızdan bir kayıptır. (lütfen intihalin olumsuz etkileri için 00-academic-integrity.ipynb dosyasını da kontrol edin)\nİkincisi, OpenAI ve diğerleri ChatGPT çıktısına kolayca fark edilebilecek filigranlar eklemek için araçlar ve yöntemler üzerinde çalışıyor.\nBu yüzden lütfen bu araçtan ilham alın, öğrenmenizi geliştirmek için kullanın ama intihal için kullanmayın."
   },
   {
-    "objectID": "ders2.html#section",
-    "href": "ders2.html#section",
-    "title": "Veri tipleri ve işleme",
+    "objectID": "ders1-TR.html#kapalı-ve-açık-modeller",
+    "href": "ders1-TR.html#kapalı-ve-açık-modeller",
+    "title": "GPT modelleri",
+    "section": "Kapalı ve Açık modeller",
+    "text": "Kapalı ve Açık modeller\nŞu anda, her biri eğitilmek için yüz milyonlarca dolar harcanan ve büyük şirketler tarafından geliştirilen birkaç kapalı kaynaklı büyük dil modeli var: * GPT3.5 (ChatGPT) ve GPT4 OpenAI tarafından * PaLM ve Bard Google tarafından * Claude Anthropics tarafından"
+  },
+  {
+    "objectID": "ders1-TR.html#claude-3.5-sonnet-by-antropic",
+    "href": "ders1-TR.html#claude-3.5-sonnet-by-antropic",
+    "title": "GPT modelleri",
+    "section": "Claude 3.5 Sonnet by Antropic",
+    "text": "Claude 3.5 Sonnet by Antropic\nClaude 3.5, Claude modelinin en son sürümüdür. Antropic, Claude’u üç boyutta piyasaya sürer: Haiku (en küçük), Sonnet (orta) ve Opus (en büyük). Şu anda, Claude 3.5 Sonnest en iyi LLM’dir. Genellikle Claude yaratıcı yazma konusunda iyidir, ancak son sürümüyle kodlamada da mükemmelleşmiştir. Ayrıca, Claude sağ panelde kodun önizlemesine (web tabanlı) izin verir.\nAşağıda, Claude 3.5 Sonnet’e “Lütfen HTML, CSS ve JS ile yılan oyunu yaz” komutu verildiğinde oluşturulan bir örnek yer alıyor. Oyunu gerçekten oynayabilirsiniz!\n\nClaude ayrıca belgeleri (örneğin PDF) yüklemeye ve belge hakkında sorular sormaya izin verir.\nClaude’u (bazı sınırlamalarla) ücretsiz bir hesap kaydettikten sonra https://claude.ai/chat adresinde kullanabilirsiniz."
+  },
+  {
+    "objectID": "ders1-TR.html#gemini-by-google",
+    "href": "ders1-TR.html#gemini-by-google",
+    "title": "GPT modelleri",
+    "section": "Gemini by Google",
+    "text": "Gemini by Google\nGemini aslında çevrimiçi arama kapasitesine sahip bir LLM’dir. Ayrıca, (Google Drive aracılığıyla) belgeler indirebilir veya sorular sormak için YouTube videolarına yönlendirebilirsiniz. Son olarak, Gemini 1 milyon belirteçlik en uzun bağlam penceresine sahiptir (bir kerede yaklaşık 10 kitap sığacaktır)."
+  },
+  {
+    "objectID": "ders1-TR.html#modelleri-lokal-olarak-çalıştırma",
+    "href": "ders1-TR.html#modelleri-lokal-olarak-çalıştırma",
+    "title": "GPT modelleri",
+    "section": "Modelleri lokal olarak çalıştırma",
+    "text": "Modelleri lokal olarak çalıştırma\nGeliştiriciler model ağırlıklarını paylaştığı için, modelleri indirip yerel olarak çalıştırmak mümkün. Çeşitli boyutlarda modeller var. 7B (7 milyar) modeller yaklaşık 4Gb bellek gerektiriyor, bu yüzden onları dizüstü bilgisayarınızda çalıştırabilirsiniz.\nModelleri, Python için PyTorch ve bazı diğer kütüphaneleri kurarak ve ardından biraz Python kodu yazarak çalıştırabilirsiniz. Ya da Ollama’yı kurabilir ve ardından onunla uyumlu herhangi bir modeli çalıştırabilirsiniz.\nBir modeli yerel olarak çalıştırmanın avantajları: 1. Daha Az Sansür 2. Daha İyi Veri Gizliliği 3. Çevrimdışı Kullanım 4. Maliyet Tasarrufu 5. Daha İyi Özelleştirme\nBir modeli yerel olarak çalıştırmanın dezavantajları: 1. Kaynak Yoğun 2. Daha Yavaş Yanıtlar ve Daha Düşük Performans 3. Karmaşık Kurulum\n\nJupyter notebook veya Google Colab kullanarak lokal olarak model çalıştırma\nAslında LLM modellerini Jupyter notebook’larında çalıştırabilirsiniz. Ancak bu süreç, birçok Python paketini kurmanızı, model ağırlıklarını indirmenizi ve ardından modele soru sormak ve yanıtı bir sözlükte yakalamak için biraz Python kodu yazmanızı gerektirecektir. “Sohbet benzeri” deneyim için bazı çözümler olsa da, deneyim daha çok “tek seferlik soru ve cevap” gibidir.\nLütfen Google’ın bir Jupyter notebook ortamında modeli çalıştırmak için GPU (veya TPU) sağladığı Google Colab’daki süreci anlatan YouTube videosunu kontrol edin.\n\n\nOllama ile lokal olarak model çalıştırma\n\nÖzelleştirilmiş modeller hakkında bir fikir edinmek için lütfen modeller listesi sayfasını ziyaret edin. Ollama ile, bu modellerden herhangi birini indirebilir ve kullanabilirsiniz.\nTerminalde, mevcut modelleri listeleyelim\n$ ollama list\n\nNAME                ID              SIZE    MODIFIED\ndeepseek-coder:6.7b 72be2442d736    3.8 GB  5 weeks ago     \nneural-chat:latest  73940af9fe02    4.1 GB  5 weeks ago     \norca2:7b            ea98cc422de3    3.8 GB  5 weeks ago     \nphi:latest          c651b7a89d73    1.6 GB  14 hours ago    \nsolar:latest        059fdabbe6e6    6.1 GB  2 hours ago     \nstablelm-zephyr:3b  7c596e78b1fc    1.6 GB  3 weeks ago\nMicrosoft tarafından geliştirilen Phi-2’yi çalıştıralım. İşte Phi-2 hakkında bilgi:\n\n2,7 milyar parametreli bir dil modeli olan Phi-2, olağanüstü akıl yürütme ve dil anlama yetenekleri sergiliyor ve 13 milyar parametreden daha az olan temel dil modelleri arasında en son teknoloji performansı gösteriyor. Karmaşık kıyaslamalarda Phi-2, model ölçeklendirme ve eğitim verisi kürasyon konusundaki yeni yenilikler sayesinde 25 kat daha büyük modellere eşdeğer veya daha iyi performans gösteriyor.\n\n$ ollama run phi:latest\n\n&gt;&gt;&gt; Gökyüzü neden mavi?\n\nGökyüzü, Rayleigh saçılması adı verilen bir fenomen nedeniyle mavi görünür. Güneş ışığı Dünya'nın atmosferine girdiğinde, oksijen ve azot atomları gibi havadaki moleküller ve küçük parçacıklarla çarpışır. Bu çarpışmalar, ışığın daha kısa dalga boylarının (mavi) daha uzun dalga boylarından (kırmızı, turuncu, sarı, yeşil ve mor) daha fazla saçılmasına neden olur.\nSonuç olarak, gözlerimiz saçılan mavi ışığı baskın olarak algılar ve bu nedenle gökyüzü bize mavi görünür.\nGördüğünüz gibi, soruları cevaplayabilen, kodlama konusunda yardımcı olabilen küçük bir model yerel olarak çalıştırılabilir.\n\n\nKullanıcı arayüzü ile lokal olarak model çalıştırma\n\nOllama Web UI\n\n\n\nLLM Studio\nLM Studio’yu kurabilir ve ardından kullanıcı arayüzü ile yerel modellerle etkileşime geçebilirsiniz"
+  },
+  {
+    "objectID": "ders1-TR.html#github-copilot",
+    "href": "ders1-TR.html#github-copilot",
+    "title": "GPT modelleri",
+    "section": "Github CoPilot",
+    "text": "Github CoPilot"
+  },
+  {
+    "objectID": "ders1-TR.html#ücretsiz-github-copilot-alternatifi",
+    "href": "ders1-TR.html#ücretsiz-github-copilot-alternatifi",
+    "title": "GPT modelleri",
+    "section": "Ücretsiz Github CoPilot alternatifi",
+    "text": "Ücretsiz Github CoPilot alternatifi\nCody, Sourcegraph’in AI kodlama asistanıdır ve sizi 10x geliştirici yapacak başka hiçbir asistanın sahip olmadığı birkaç özelliğe sahiptir. Buradan inceleyebilirsiniz: https://sourcegraph.com/cody"
+  },
+  {
+    "objectID": "ders1-TR.html#açık-kaynak-lokal-alternatifler",
+    "href": "ders1-TR.html#açık-kaynak-lokal-alternatifler",
+    "title": "GPT modelleri",
+    "section": "Açık kaynak lokal alternatifler",
+    "text": "Açık kaynak lokal alternatifler\nDaha fazla bilgi için lütfen https://tabby.tabbyml.com/ adresini ziyaret edin"
+  },
+  {
+    "objectID": "ders1-TR.html#görüntü-üretimi",
+    "href": "ders1-TR.html#görüntü-üretimi",
+    "title": "GPT modelleri",
+    "section": "Görüntü Üretimi",
+    "text": "Görüntü Üretimi\n\nOpenAI’dan DALL-E 3\nİstek: “arka planda istanbul şehri silüeti olan bir dna sarmalı”\nDüzeltilmiş istek: “Bilim ve mimarinin buluştuğu detaylı bir illüstrasyon hayal edin. Ön planda, karanlık bir arka plan üzerinde büyütülmüş ve parlayan bir DNA sarmalı var. Bu sarmal yapı tam olarak betimlenmiş, tanıdık çift sarmal şekli muhteşem bir şekilde kıvrılıyor. Bu bilimsel görüntüyle iç içe geçmiş şekilde, arka planda İstanbul şehrinin bir silüet temsili var. Şehir silueti, kubbeli camileri ve yükselen minareleriyle muhteşem tarihi mimarisini sergiliyor. Şehir manzarası, akşamüstü gökyüzüne karşı duruyor, batan güneş binaların arkasındaki ufukta turuncu bir parıltı yaratıyor. Bu kombinasyon, bilim ve şehir güzelliğinin büyüleyici bir yan yana gelişiyle sonuçlanıyor.”\nSonuç:\n\n\n\nMidjourney v6\nMidjourney, Aralık 2023’te v6’yı duyurdu. Fotogerçekçi görüntüler üretebiliyor. Normalde, ücretsiz görüntü üretmek için Discord kanallarını kullanmanız gerekir. Ayrıca, getimg.ai kullanarak da görüntüler üretebilirsiniz. Aşağıdaki isteklerle görüntüler üretmeyi denedim:\n\nÇok sayıda öğrencinin olduğu moleküler biyoloji laboratuvarı.\nBeyaz kumlu güzel bir deniz kenarı ve kıyıda tropikal ağaçlar. Deniz yeşilimsi mavi görünüyor.\n\nSonuçlar harika:\n\n\n\nDezenformasyon\nDeepfake veya yapay zeka tarafından üretilmiş sahte fotoğraflara dikkat edin\nSahte Trump Fotoğrafı\n\nSahte Papa Fotoğrafı"
+  },
+  {
+    "objectID": "ders1-TR.html#video-üretimi",
+    "href": "ders1-TR.html#video-üretimi",
+    "title": "GPT modelleri",
+    "section": "Video Üretimi",
+    "text": "Video Üretimi\n\nİstekten videoya\n\nRunwayML Gen-2\nPika\nStable Diffusion’dan Stable Video Diffusion\nGENMO\n\n\n\nGörüntüden videoya\n\nGENMO"
+  },
+  {
+    "objectID": "ders1-TR.html#müzik-veya-ses-üretimi",
+    "href": "ders1-TR.html#müzik-veya-ses-üretimi",
+    "title": "GPT modelleri",
+    "section": "Müzik veya Ses Üretimi",
+    "text": "Müzik veya Ses Üretimi\n\nElevenlabs yapay zeka ses üreticimizle metni çevrimiçi olarak ücretsiz konuşmaya dönüştürebilir"
+  },
+  {
+    "objectID": "id3-decision-tree.html",
+    "href": "id3-decision-tree.html",
+    "title": "Decision Tree Algoritm",
     "section": "",
-    "text": "source"
+    "text": "Taken from https://medium.datadriveninvestor.com/decision-tree-algorithm-with-hands-on-example-e6c2afb40d38\nEntropy\nIn machine learning, entropy is a measure of the randomness in the information being processed. The higher the entropy, the harder it is to draw any conclusions from that information.\n\nInformation Gain\nInformation gain can be defined as the amount of information gained about a random variable or signal from observing another random variable.It can be considered as the difference between the entropy of parent node and weighted average entropy of child nodes.\n\nGini Impurity\nGini impurity is a measure of how often a randomly chosen element from the set would be incorrectly labeled if it was randomly labeled according to the distribution of labels in the subset.\n\nGini impurity is lower bounded by 0, with 0 occurring if the data set contains only one class.\n\nThere are many algorithms there to build a decision tree. They are\n\nCART (Classification and Regression Trees) — This makes use of Gini impurity as the metric.\nID3 (Iterative Dichotomiser 3) — This uses entropy and information gain as metric.\n\nIn this article, I will go through ID3. Once you got it it is easy to implement the same using CART.\n\nClassification using the ID3 algorithm\nConsider whether a dataset based on which we will determine whether to play football or not.\n\nHere There are for independent variables to determine the dependent variable. The independent variables are Outlook, Temperature, Humidity, and Wind. The dependent variable is whether to play football or not.\nAs the first step, we have to find the parent node for our decision tree. For that follow the steps:\n*Find the entropy of the class variable.*\nE(S) = -[(9/14)log(9/14) + (5/14)log(5/14)] = 0.94\nnote: Here typically we will take log to base 2.Here total there are 14 yes/no. Out of which 9 yes and 5 no.Based on it we calculated probability above.\nFrom the above data for outlook we can arrive at the following table easily\n\n*Now we have to calculate average weighted entropy*. ie, we have found the total of weights of each feature multiplied by probabilities.\nE(S, outlook) = (5/14)E(3,2) + (4/14)E(4,0) + (5/14)*E(2,3) = (5/14)(-(3/5)log(3/5)-(2/5)log(2/5))+ (4/14)(0) + (5/14)((2/5)log(2/5)-(3/5)log(3/5)) = 0.693\n*The next step is to find the information gain*. It is the difference between parent entropy and average weighted entropy we found above.\nIG(S, outlook) = 0.94 - 0.693 = 0.247\nSimilarly find Information gain for Temperature, Humidity, and Windy.\nIG(S, Temperature) = 0.940 - 0.911 = 0.029\nIG(S, Humidity) = 0.940 - 0.788 = 0.152\nIG(S, Windy) = 0.940 - 0.8932 = 0.048\n*Now select the feature having the largest entropy gain*. Here it is Outlook. So it forms the first node(root node) of our decision tree.\nNow our data look as follows\n\n\n\nSince overcast contains only examples of class ‘Yes’ we can set it as yes. That means If outlook is overcast football will be played. Now our decision tree looks as follows.\n\nThe next step is to find the next node in our decision tree. Now we will find one under sunny. We have to determine which of the following Temperature, Humidity or Wind has higher information gain.\n\nCalculate parent entropy E(sunny)\nE(sunny) = (-(3/5)log(3/5)-(2/5)log(2/5)) = 0.971.\nNow Calculate the information gain of Temperature. IG(sunny, Temperature)\n\nE(sunny, Temperature) = (2/5)E(0,2) + (2/5)E(1,1) + (1/5)*E(1,0)=2/5=0.4\nNow calculate information gain.\nIG(sunny, Temperature) = 0.971–0.4 =0.571\nSimilarly we get\nIG(sunny, Humidity) = 0.971\nIG(sunny, Windy) = 0.020\nHere IG(sunny, Humidity) is the largest value. So Humidity is the node that comes under sunny.\n\nFor humidity from the above table, we can say that play will occur if humidity is normal and will not occur if it is high. Similarly, find the nodes under rainy.\n*Note: A branch with entropy more than 0 needs further splitting.*\nFinally, our decision tree will look as below:\n\n\n\nClassification using CART algorithm\nClassification using CART is similar to it. But instead of entropy, we use Gini impurity.\nSo as the first step we will find the root node of our decision tree. For that Calculate the Gini index of the class variable\nGini(S) = 1 - [(9/14)² + (5/14)²] = 0.4591\nAs the next step, we will calculate the Gini gain. For that first, we will find the average weighted Gini impurity of Outlook, Temperature, Humidity, and Windy.\nFirst, consider case of Outlook\n\nGini(S, outlook) = (5/14)gini(3,2) + (4/14)gini(4,0)+ (5/14)gini(2,3) = (5/14)(1 - (3/5)² - (2/5)²) + (4/14)*0 + (5/14)(1 - (2/5)² - (3/5)²)= 0.171+0+0.171 = 0.342\nGini gain (S, outlook) = 0.459 - 0.342 = 0.117\nGini gain(S, Temperature) = 0.459 - 0.4405 = 0.0185\nGini gain(S, Humidity) = 0.459 - 0.3674 = 0.0916\nGini gain(S, windy) = 0.459 - 0.4286 = 0.0304\nChoose one that has a higher Gini gain. Gini gain is higher for outlook. So we can choose it as our root node."
   },
   {
-    "objectID": "ders2.html#veri-tipleri",
-    "href": "ders2.html#veri-tipleri",
-    "title": "Veri tipleri ve işleme",
-    "section": "Veri tipleri",
-    "text": "Veri tipleri\n\nrecord data\ntransaction data\ndata matrix\n\nsparse data matrix\n\ngraph-based data"
-  },
-  {
-    "objectID": "ders2.html#sıralı-veri-ordered-data",
-    "href": "ders2.html#sıralı-veri-ordered-data",
-    "title": "Veri tipleri ve işleme",
-    "section": "Sıralı veri / Ordered data",
-    "text": "Sıralı veri / Ordered data\n\n\nSequential / Temporal data\nSequence data\nTime series data\nSpatial data"
-  },
-  {
-    "objectID": "ders2.html#section-3",
-    "href": "ders2.html#section-3",
-    "title": "Veri tipleri ve işleme",
+    "objectID": "r-linear-regression.html",
+    "href": "r-linear-regression.html",
+    "title": "Linear Regression with R",
     "section": "",
-    "text": "Figure 2.4"
+    "text": "Here we have a data mtcars {datasets} that was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973-74 models). We will find a mathematical model between Weight (wt) and Displacement (disp) parameters. So let’s find the most suitable model. Please draw the plot, determine the degree of equation (first, second of third) and draw the curve.\n\nmtcars\n\n                   mpg cyl  disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6 160.0 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6 258.0 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8 360.0 175 3.15 3.440 17.02  0  0    3    2\nValiant           18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1\nDuster 360        14.3   8 360.0 245 3.21 3.570 15.84  0  0    3    4\nMerc 240D         24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2\nMerc 230          22.8   4 140.8  95 3.92 3.150 22.90  1  0    4    2\n [ reached 'max' / getOption(\"max.print\") -- omitted 23 rows ]\n\n\n\nplot(mtcars)\n\n\n\n\n\n\n\n\n\nplot(mtcars$disp, mtcars$wt)\n\n\n\n\n\n\n\n\n\nfirst_wd &lt;- lm(wt ~ disp, data=mtcars)\nsummary(first_wd)\n\n\nCall:\nlm(formula = wt ~ disp, data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.89044 -0.29775 -0.00684  0.33428  0.66525 \n\nCoefficients:\n             Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) 1.5998146  0.1729964   9.248 2.74e-10 ***\ndisp        0.0070103  0.0006629  10.576 1.22e-11 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.4574 on 30 degrees of freedom\nMultiple R-squared:  0.7885,    Adjusted R-squared:  0.7815 \nF-statistic: 111.8 on 1 and 30 DF,  p-value: 1.222e-11\n\n\n\nsecond_wd &lt;- lm(wt ~ disp + I(disp^2), data=mtcars)\nsummary(second_wd)\n\n\nCall:\nlm(formula = wt ~ disp + I(disp^2), data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.88654 -0.29136 -0.00961  0.32389  0.67010 \n\nCoefficients:\n             Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) 1.631e+00  3.622e-01   4.502 0.000101 ***\ndisp        6.694e-03  3.325e-03   2.013 0.053448 .  \nI(disp^2)   6.206e-07  6.380e-06   0.097 0.923178    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.4652 on 29 degrees of freedom\nMultiple R-squared:  0.7886,    Adjusted R-squared:  0.774 \nF-statistic: 54.08 on 2 and 29 DF,  p-value: 1.639e-10\n\n\n\nthird_wd &lt;- lm(wt ~ disp + I(disp^2) + I(disp^3), data = mtcars)\nsummary(third_wd)\n\n\nCall:\nlm(formula = wt ~ disp + I(disp^2) + I(disp^3), data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.63764 -0.22785  0.00307  0.24614  0.58333 \n\nCoefficients:\n              Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) -1.111e+00  5.651e-01  -1.966   0.0593 .  \ndisp         4.945e-02  8.198e-03   6.032 1.68e-06 ***\nI(disp^2)   -1.807e-04  3.361e-05  -5.378 9.88e-06 ***\nI(disp^3)    2.243e-07  4.119e-08   5.446 8.21e-06 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.3299 on 28 degrees of freedom\nMultiple R-squared:  0.8973,    Adjusted R-squared:  0.8863 \nF-statistic: 81.57 on 3 and 28 DF,  p-value: 5.959e-14\n\n\n\nplot(mtcars$disp,mtcars$wt)\ncurve(2.243e-07*x^3 -1.807e-04*x^2 +4.945e-02*x -1.111e+00,add=TRUE)\n\n\n\n\n\n\n\n\n\nbest_model &lt;- lm(wt ~ poly(disp,15), data=mtcars)\nsummary(best_model)\n\n\nCall:\nlm(formula = wt ~ poly(disp, 15), data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.43800 -0.11202 -0.00364  0.16319  0.37783 \n\nCoefficients:\n                   Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept)       3.2172500  0.0509709  63.119  &lt; 2e-16 ***\npoly(disp, 15)1   4.8375552  0.2883350  16.778 1.41e-11 ***\npoly(disp, 15)2   0.0452475  0.2883350   0.157   0.8773    \npoly(disp, 15)3   1.7965723  0.2883350   6.231 1.20e-05 ***\npoly(disp, 15)4   0.4463962  0.2883350   1.548   0.1411    \npoly(disp, 15)5  -0.6866393  0.2883350  -2.381   0.0300 *  \npoly(disp, 15)6  -0.3384161  0.2883350  -1.174   0.2577    \npoly(disp, 15)7  -0.6134397  0.2883350  -2.128   0.0493 *  \npoly(disp, 15)8   0.0528245  0.2883350   0.183   0.8569    \npoly(disp, 15)9   0.0814084  0.2883350   0.282   0.7813    \npoly(disp, 15)10 -0.0654665  0.2883350  -0.227   0.8233    \npoly(disp, 15)11  0.2853853  0.2883350   0.990   0.3370    \npoly(disp, 15)12 -0.0007108  0.2883350  -0.002   0.9981    \npoly(disp, 15)13  0.4495723  0.2883350   1.559   0.1385    \npoly(disp, 15)14 -0.0699728  0.2883350  -0.243   0.8113    \npoly(disp, 15)15 -0.5031480  0.2883350  -1.745   0.1002    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.2883 on 16 degrees of freedom\nMultiple R-squared:  0.9552,    Adjusted R-squared:  0.9132 \nF-statistic: 22.73 on 15 and 16 DF,  p-value: 5.551e-08\n\n\n\npred &lt;- predict(best_model, data.frame(disp=50:500))\nplot(mtcars$disp, mtcars$wt)\npoints(50:500, pred, type=\"l\")\n\n\n\n\n\n\n\n\n\npredict(third_wd, data.frame(disp=420))\n\n       1 \n4.397246 \n\n\n\npredict(best_model, data.frame(disp=420))\n\n       1 \n7.329183 \n\n\n\npredict(best_model, data.frame(disp=c(20,420, 500)))\n\n           1            2            3 \n 3865.329736     7.329183 -1513.538298 \n\n\n\nSo, the “best” model is not best at all.."
   },
   {
-    "objectID": "ders2.html#veri-kalitesi",
-    "href": "ders2.html#veri-kalitesi",
-    "title": "Veri tipleri ve işleme",
-    "section": "Veri kalitesi",
-    "text": "Veri kalitesi\n Hatırlanacağı üzere, veri biliminde veri temizliği aşaması toplam sürenin %80’ini oluşturmaktadır.\n\nÖlçüm hataları / measurement error : ölçüm sırasında sayısal hata yapılması veya dahil edilmemesi gereken verinin dahil edilmesi\nGürültü / Noise and artifacts: ölçüm hatalarındaki rastgele olan bileşendir. Sinyal işleme yöntemleri ile gürültü kaldırılabilir ama bu sırada gerçek veri kaybı da gerçekleşebilir."
-  },
-  {
-    "objectID": "ders2.html#veri-kalitesi---2",
-    "href": "ders2.html#veri-kalitesi---2",
-    "title": "Veri tipleri ve işleme",
-    "section": "Veri kalitesi - 2",
-    "text": "Veri kalitesi - 2\n\nUç değer / Outlier\nKayıp veya eksik ölçüm / Missing value\n\nÇıkarma / Eliminate\nTahmin etme, doldurma / Estimate\nGöz ardı etme / Ignore\n\nUyumsuz ölçümler / Inconsistent values : örn. Ölçüm yapılan tekniğin değişmesi veya farklı tekniklerle toplanan değerlerin uyuşmazlığı\nTekrar eden veri / Duplicate data : aynı kişi bir veritabanında birden çok kez bulunabilir ama ismi aynı iki kişi tekrar sayılmaz"
-  },
-  {
-    "objectID": "ders2.html#veri-işleme",
-    "href": "ders2.html#veri-işleme",
-    "title": "Veri tipleri ve işleme",
-    "section": "Veri işleme",
-    "text": "Veri işleme\n\n\nAggregation\nSampling\nDimensionality reduction\nFeature subset selection\nFeature creation\nDiscretization and binarization\nVariable transformation"
-  },
-  {
-    "objectID": "ders2.html#aggregation",
-    "href": "ders2.html#aggregation",
-    "title": "Veri tipleri ve işleme",
-    "section": "Aggregation",
-    "text": "Aggregation\n\nGroup by - sum, mean\nHistogram"
-  },
-  {
-    "objectID": "ders2.html#aggregation-histogram",
-    "href": "ders2.html#aggregation-histogram",
-    "title": "Veri tipleri ve işleme",
-    "section": "Aggregation / Histogram",
-    "text": "Aggregation / Histogram"
-  },
-  {
-    "objectID": "ders2.html#sampling-örnekleme",
-    "href": "ders2.html#sampling-örnekleme",
-    "title": "Veri tipleri ve işleme",
-    "section": "Sampling / Örnekleme",
-    "text": "Sampling / Örnekleme\n\nSimple random sampling\nStratified sampling"
-  },
-  {
-    "objectID": "ders2.html#dimensionality-reduction",
-    "href": "ders2.html#dimensionality-reduction",
-    "title": "Veri tipleri ve işleme",
-    "section": "Dimensionality reduction",
-    "text": "Dimensionality reduction\n\n“The Curse of Dimensionality”: özellik/attribute sayısı arttıkça algoritmaların veya hesapların daha zor hale gelmesi. “Sparse” veri durumunda artık hesaplamaların (uzaklık, benzerlik) doğruluğunu yitirmesi\n\n\nLinear algebra techniques\n\nPCA: Principal Components Analysis\nSVD: Singular Value Decomposition"
-  },
-  {
-    "objectID": "ders2.html#others",
-    "href": "ders2.html#others",
-    "title": "Veri tipleri ve işleme",
-    "section": "Others",
-    "text": "Others\n\nFeature Subset Selection\n\nremove Redundant features or Irrelevant features\nFeature Weighting\n\nFeature Creation\n\nFeature Extraction: e.g Photo -&gt; edges, important areas, color scheme\nMapping the Data to a New Space : e.g Fourier Transformation\n\nDiscretization and Binarization\n\nCategory -&gt; Binary values\nContinous data -&gt; bins, categories, intervals\n\nVariable Transformation"
-  },
-  {
-    "objectID": "ders2.html#fourier-transformation",
-    "href": "ders2.html#fourier-transformation",
-    "title": "Veri tipleri ve işleme",
-    "section": "Fourier Transformation",
-    "text": "Fourier Transformation"
-  },
-  {
-    "objectID": "ders2.html#category-to-binary",
-    "href": "ders2.html#category-to-binary",
-    "title": "Veri tipleri ve işleme",
-    "section": "Category to binary",
-    "text": "Category to binary"
-  },
-  {
-    "objectID": "ders2.html#variable-transformation",
-    "href": "ders2.html#variable-transformation",
-    "title": "Veri tipleri ve işleme",
-    "section": "Variable Transformation",
-    "text": "Variable Transformation\n\n\nSimple functions: \\(x^k\\) , log(x), \\(e^x\\) , sqrt(x), \\(1/x\\), sin(x), or |x|\nNormalization or Standardization\n\nfor each value subtract mean and divide by standard deviation\ne.g. age and income data, find similarity between individuals\nmean = 0, sd = 1"
-  },
-  {
-    "objectID": "ders7.html#contents",
-    "href": "ders7.html#contents",
-    "title": "Clustering Methods",
-    "section": "Contents",
-    "text": "Contents\n\n\n\nIntroduction to Clustering\n\nDefinition and purpose, Unsupervised learning concept, Real-world applications in scientific fields\n\nTypes of Clustering Algorithms\n\nPartitioning methods (e.g., K-means)\nHierarchical methods\nDensity-based methods (e.g., DBSCAN)\n\nK-means Clustering\n\nAlgorithm explanation\nChoosing the number of clusters (elbow method)\nAdvantages and limitations\n\n\n\n\nHierarchical Clustering\n\nAgglomerative vs. divisive approaches\nDendrogram interpretation\nLinkage methods (single, complete, average)\n\nDensity-Based Spatial Clustering of Applications with Noise (DBSCAN)\n\nCore concepts: core points, border points, noise\nAlgorithm explanation\nAdvantages\n\nEvaluation Metrics for Clustering\n\nSilhouette score"
-  },
-  {
-    "objectID": "ders7.html#definition",
-    "href": "ders7.html#definition",
-    "title": "Clustering Methods",
-    "section": "Definition",
-    "text": "Definition\nClustering is a technique in machine learning and data analysis that involves grouping a set of objects or data points in such a way that objects in the same group (called a cluster) are more similar to each other than to those in other groups. It’s a fundamental task in many data analysis and pattern recognition problems."
-  },
-  {
-    "objectID": "ders7.html#purpose",
-    "href": "ders7.html#purpose",
-    "title": "Clustering Methods",
-    "section": "Purpose",
-    "text": "Purpose\nThe purpose of clustering is multifaceted:\nPattern Discovery: Clustering helps in identifying inherent patterns or structures within data that might not be immediately apparent.\nData Summarization: It can be used to compress large datasets by representing many data points with fewer cluster centroids.\nAnomaly Detection: By identifying groups of similar data points, clustering can help in spotting outliers or anomalies that don’t fit into any cluster.\nSegmentation: In fields like marketing, clustering is used to segment customers into groups with similar behaviors or characteristics.\nPreprocessing for Other Algorithms: Clustering can be used as a preprocessing step for other algorithms, reducing the complexity of the data.\nNatural Classification: In scientific fields, clustering can reveal natural groupings in data, such as in biology for grouping similar species or in astronomy for categorizing types of stars."
-  },
-  {
-    "objectID": "ders7.html#clustering-methods",
-    "href": "ders7.html#clustering-methods",
-    "title": "Clustering Methods",
-    "section": "Clustering Methods",
-    "text": "Clustering Methods\nPartitioning methods: Divide data into non-overlapping subsets, with each data point belonging to exactly one cluster, often optimizing a specific criterion.\nHierarchical Methods: Create a tree-like structure of clusters, either by merging smaller clusters into larger ones or dividing larger clusters into smaller ones.\nDensity-based Methods: Form clusters in areas of high data point density, separated by regions of low density, allowing for discovery of arbitrarily shaped clusters."
-  },
-  {
-    "objectID": "ders7.html#applications",
-    "href": "ders7.html#applications",
-    "title": "Clustering Methods",
-    "section": "Applications",
-    "text": "Applications\n\nBiology\n\n\nGene Expression Analysis: Grouping genes with similar expression patterns across different conditions or time points.\nSpecies Classification: Clustering organisms based on genetic or morphological features.\nProtein Structure Analysis: Identifying structural motifs in proteins.\n\n\nChemistry\n\n\nMolecular Dynamics: Analyzing conformations of molecules during simulations.\nSpectroscopy: Clustering similar spectra for compound identification.\nDrug Discovery: Grouping chemical compounds with similar properties or effects."
-  },
-  {
-    "objectID": "ders7.html#section",
-    "href": "ders7.html#section",
-    "title": "Clustering Methods",
+    "objectID": "r-linear-regression.html#a-polynomial-model",
+    "href": "r-linear-regression.html#a-polynomial-model",
+    "title": "Linear Regression with R",
     "section": "",
-    "text": "Physics\n\n\nParticle Physics: Classifying particle collision events in high-energy physics experiments.\nAstrophysics: Clustering stars or galaxies based on their properties (e.g., luminosity, temperature).\nMaterials Science: Analyzing crystal structures and defects in materials."
+    "text": "Here we have a data mtcars {datasets} that was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973-74 models). We will find a mathematical model between Weight (wt) and Displacement (disp) parameters. So let’s find the most suitable model. Please draw the plot, determine the degree of equation (first, second of third) and draw the curve.\n\nmtcars\n\n                   mpg cyl  disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6 160.0 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6 258.0 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8 360.0 175 3.15 3.440 17.02  0  0    3    2\nValiant           18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1\nDuster 360        14.3   8 360.0 245 3.21 3.570 15.84  0  0    3    4\nMerc 240D         24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2\nMerc 230          22.8   4 140.8  95 3.92 3.150 22.90  1  0    4    2\n [ reached 'max' / getOption(\"max.print\") -- omitted 23 rows ]\n\n\n\nplot(mtcars)\n\n\n\n\n\n\n\n\n\nplot(mtcars$disp, mtcars$wt)\n\n\n\n\n\n\n\n\n\nfirst_wd &lt;- lm(wt ~ disp, data=mtcars)\nsummary(first_wd)\n\n\nCall:\nlm(formula = wt ~ disp, data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.89044 -0.29775 -0.00684  0.33428  0.66525 \n\nCoefficients:\n             Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) 1.5998146  0.1729964   9.248 2.74e-10 ***\ndisp        0.0070103  0.0006629  10.576 1.22e-11 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.4574 on 30 degrees of freedom\nMultiple R-squared:  0.7885,    Adjusted R-squared:  0.7815 \nF-statistic: 111.8 on 1 and 30 DF,  p-value: 1.222e-11\n\n\n\nsecond_wd &lt;- lm(wt ~ disp + I(disp^2), data=mtcars)\nsummary(second_wd)\n\n\nCall:\nlm(formula = wt ~ disp + I(disp^2), data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.88654 -0.29136 -0.00961  0.32389  0.67010 \n\nCoefficients:\n             Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) 1.631e+00  3.622e-01   4.502 0.000101 ***\ndisp        6.694e-03  3.325e-03   2.013 0.053448 .  \nI(disp^2)   6.206e-07  6.380e-06   0.097 0.923178    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.4652 on 29 degrees of freedom\nMultiple R-squared:  0.7886,    Adjusted R-squared:  0.774 \nF-statistic: 54.08 on 2 and 29 DF,  p-value: 1.639e-10\n\n\n\nthird_wd &lt;- lm(wt ~ disp + I(disp^2) + I(disp^3), data = mtcars)\nsummary(third_wd)\n\n\nCall:\nlm(formula = wt ~ disp + I(disp^2) + I(disp^3), data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.63764 -0.22785  0.00307  0.24614  0.58333 \n\nCoefficients:\n              Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) -1.111e+00  5.651e-01  -1.966   0.0593 .  \ndisp         4.945e-02  8.198e-03   6.032 1.68e-06 ***\nI(disp^2)   -1.807e-04  3.361e-05  -5.378 9.88e-06 ***\nI(disp^3)    2.243e-07  4.119e-08   5.446 8.21e-06 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.3299 on 28 degrees of freedom\nMultiple R-squared:  0.8973,    Adjusted R-squared:  0.8863 \nF-statistic: 81.57 on 3 and 28 DF,  p-value: 5.959e-14\n\n\n\nplot(mtcars$disp,mtcars$wt)\ncurve(2.243e-07*x^3 -1.807e-04*x^2 +4.945e-02*x -1.111e+00,add=TRUE)\n\n\n\n\n\n\n\n\n\nbest_model &lt;- lm(wt ~ poly(disp,15), data=mtcars)\nsummary(best_model)\n\n\nCall:\nlm(formula = wt ~ poly(disp, 15), data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.43800 -0.11202 -0.00364  0.16319  0.37783 \n\nCoefficients:\n                   Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept)       3.2172500  0.0509709  63.119  &lt; 2e-16 ***\npoly(disp, 15)1   4.8375552  0.2883350  16.778 1.41e-11 ***\npoly(disp, 15)2   0.0452475  0.2883350   0.157   0.8773    \npoly(disp, 15)3   1.7965723  0.2883350   6.231 1.20e-05 ***\npoly(disp, 15)4   0.4463962  0.2883350   1.548   0.1411    \npoly(disp, 15)5  -0.6866393  0.2883350  -2.381   0.0300 *  \npoly(disp, 15)6  -0.3384161  0.2883350  -1.174   0.2577    \npoly(disp, 15)7  -0.6134397  0.2883350  -2.128   0.0493 *  \npoly(disp, 15)8   0.0528245  0.2883350   0.183   0.8569    \npoly(disp, 15)9   0.0814084  0.2883350   0.282   0.7813    \npoly(disp, 15)10 -0.0654665  0.2883350  -0.227   0.8233    \npoly(disp, 15)11  0.2853853  0.2883350   0.990   0.3370    \npoly(disp, 15)12 -0.0007108  0.2883350  -0.002   0.9981    \npoly(disp, 15)13  0.4495723  0.2883350   1.559   0.1385    \npoly(disp, 15)14 -0.0699728  0.2883350  -0.243   0.8113    \npoly(disp, 15)15 -0.5031480  0.2883350  -1.745   0.1002    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.2883 on 16 degrees of freedom\nMultiple R-squared:  0.9552,    Adjusted R-squared:  0.9132 \nF-statistic: 22.73 on 15 and 16 DF,  p-value: 5.551e-08\n\n\n\npred &lt;- predict(best_model, data.frame(disp=50:500))\nplot(mtcars$disp, mtcars$wt)\npoints(50:500, pred, type=\"l\")\n\n\n\n\n\n\n\n\n\npredict(third_wd, data.frame(disp=420))\n\n       1 \n4.397246 \n\n\n\npredict(best_model, data.frame(disp=420))\n\n       1 \n7.329183 \n\n\n\npredict(best_model, data.frame(disp=c(20,420, 500)))\n\n           1            2            3 \n 3865.329736     7.329183 -1513.538298 \n\n\n\nSo, the “best” model is not best at all.."
   },
   {
-    "objectID": "ders7.html#partitioning",
-    "href": "ders7.html#partitioning",
-    "title": "Clustering Methods",
-    "section": "Partitioning",
-    "text": "Partitioning\n\nImage source"
+    "objectID": "r-linear-regression.html#traintest-split",
+    "href": "r-linear-regression.html#traintest-split",
+    "title": "Linear Regression with R",
+    "section": "Train/Test split",
+    "text": "Train/Test split\nLet’s understand the topic of overfitting.\nSplit the data into train and test. Train the model with “training” data. Then predict with “test” data.\n\nsample(1:32, 5, replace=FALSE)\n\n[1] 31 12 16 17  5\n\n\n\nset.seed(2)\nidx &lt;- sample(1:32, 5, replace=FALSE)\nidx\n\n[1] 21 15  6 30  8\n\n\n\ntest &lt;- mtcars[idx,]\n\ntest\n\n                    mpg cyl  disp  hp drat    wt  qsec vs am gear carb\nToyota Corona      21.5   4 120.1  97 3.70 2.465 20.01  1  0    3    1\nCadillac Fleetwood 10.4   8 472.0 205 2.93 5.250 17.98  0  0    3    4\nValiant            18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1\nFerrari Dino       19.7   6 145.0 175 3.62 2.770 15.50  0  1    5    6\nMerc 240D          24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2\n\n\n\ntrain &lt;- mtcars[-idx,]\ntrain\n\n                   mpg cyl  disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6 160.0 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6 258.0 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8 360.0 175 3.15 3.440 17.02  0  0    3    2\nDuster 360        14.3   8 360.0 245 3.21 3.570 15.84  0  0    3    4\nMerc 230          22.8   4 140.8  95 3.92 3.150 22.90  1  0    4    2\nMerc 280          19.2   6 167.6 123 3.92 3.440 18.30  1  0    4    4\nMerc 280C         17.8   6 167.6 123 3.92 3.440 18.90  1  0    4    4\n [ reached 'max' / getOption(\"max.print\") -- omitted 18 rows ]\n\n\n\nthird_deg &lt;- lm(wt ~ poly(disp,3), data = train)\nsummary(third_deg)$r.squared\n\n[1] 0.8879368\n\n\n\npredict(third_deg, test)\n\n     Toyota Corona Cadillac Fleetwood            Valiant       Ferrari Dino \n          2.633774           5.824101           3.418857           2.970499 \n         Merc 240D \n          2.989188 \n\n\n\ntest$third_pred &lt;- predict(third_deg, test)\ntest\n\n                    mpg cyl  disp  hp drat    wt  qsec vs am gear carb\nToyota Corona      21.5   4 120.1  97 3.70 2.465 20.01  1  0    3    1\nCadillac Fleetwood 10.4   8 472.0 205 2.93 5.250 17.98  0  0    3    4\nValiant            18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1\nFerrari Dino       19.7   6 145.0 175 3.62 2.770 15.50  0  1    5    6\nMerc 240D          24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2\n                   third_pred\nToyota Corona        2.633774\nCadillac Fleetwood   5.824101\nValiant              3.418857\nFerrari Dino         2.970499\nMerc 240D            2.989188\n\n\n\nfifteen_deg &lt;- lm(wt ~ poly(disp,15), data=train)\nsummary(fifteen_deg)$r.squared\n\n[1] 0.9550231\n\n\n\npredict(fifteen_deg, test)\n\n     Toyota Corona Cadillac Fleetwood            Valiant       Ferrari Dino \n          2.644378        -844.610091           2.784157           2.761685 \n         Merc 240D \n          2.745391 \n\n\n\ntest$fifteen &lt;- predict(fifteen_deg, test)\n\ntest[c(\"disp\",\"wt\",\"third_pred\",\"fifteen\")]\n\n                    disp    wt third_pred     fifteen\nToyota Corona      120.1 2.465   2.633774    2.644378\nCadillac Fleetwood 472.0 5.250   5.824101 -844.610091\nValiant            225.0 3.460   3.418857    2.784157\nFerrari Dino       145.0 2.770   2.970499    2.761685\nMerc 240D          146.7 3.190   2.989188    2.745391\n\n\nAs you can see, “fifteenth degree” model memorized (i.e overfitted) the data and predicts horribly."
   },
   {
-    "objectID": "ders7.html#k-means-clustering",
-    "href": "ders7.html#k-means-clustering",
-    "title": "Clustering Methods",
-    "section": "K-means clustering",
-    "text": "K-means clustering\nK-means clustering is an unsupervised machine learning algorithm used to group similar data points into clusters. It works by iteratively assigning data points to k predefined clusters based on their similarity to the cluster centers (centroids). The algorithm starts by randomly initializing k centroids in the feature space. It then repeatedly performs two steps:\n\nassign each data point to the nearest centroid, and\nrecalculate the centroids as the mean of all points in each cluster.\n\nThis process continues until the centroids stabilize or a maximum number of iterations is reached. K-means aims to minimize the within-cluster sum of squares, resulting in compact and distinct clusters."
-  },
-  {
-    "objectID": "ders7.html#k-means-clustering---interactive-demos",
-    "href": "ders7.html#k-means-clustering---interactive-demos",
-    "title": "Clustering Methods",
-    "section": "K-means clustering - interactive demos",
-    "text": "K-means clustering - interactive demos\nPlease visit the following sites:\n\nTwo-dimensional visualization of k-means clustering algorithm\nK-means Clustering - Interactive Demonstration\nVisualizing K-Means Clustering"
-  },
-  {
-    "objectID": "ders7.html#k-means-clustering-with-r",
-    "href": "ders7.html#k-means-clustering-with-r",
-    "title": "Clustering Methods",
-    "section": "K-means clustering with R",
-    "text": "K-means clustering with R\nPlease visit K-means with R page for the code."
-  },
-  {
-    "objectID": "ders7.html#advantages-of-k-means-clustering",
-    "href": "ders7.html#advantages-of-k-means-clustering",
-    "title": "Clustering Methods",
-    "section": "Advantages of K-means clustering",
-    "text": "Advantages of K-means clustering\n\nSimplicity: Easy to understand and implement.\nEfficiency: Generally fast and computationally efficient, especially for large datasets.\nScalability: Works well with high-dimensional data.\nFlexibility: Can be adapted to different types of data with appropriate distance metrics.\nInterpretability: Resulting clusters are often easy to interpret."
-  },
-  {
-    "objectID": "ders7.html#disadvantages-of-k-means-clustering",
-    "href": "ders7.html#disadvantages-of-k-means-clustering",
-    "title": "Clustering Methods",
-    "section": "Disadvantages of K-means clustering",
-    "text": "Disadvantages of K-means clustering\n\nSensitivity to initial centroids: Results can vary based on the initial random placement of centroids.\nRequires predefined k: The number of clusters must be specified beforehand, which isn’t always known.\nAssumes spherical clusters: Performs poorly with non-globular cluster shapes.\nSensitivity to outliers: Outliers can significantly impact centroid calculation and cluster assignment.\nStruggles with varying cluster sizes: Tends to create clusters of similar spatial extent.\nLocal optima: May converge to a local minimum rather than the global optimum.\nInability to handle categorical data directly: Requires preprocessing for non-numerical data."
-  },
-  {
-    "objectID": "ders7.html#hierarchical-clustering",
-    "href": "ders7.html#hierarchical-clustering",
-    "title": "Clustering Methods",
-    "section": "Hierarchical clustering",
-    "text": "Hierarchical clustering\nHierarchical clustering is an unsupervised machine learning technique used to group similar data points into clusters. Unlike other clustering methods that require a predefined number of clusters, hierarchical clustering creates a tree-like structure of clusters called a dendrogram. This method works by either starting with each data point as its own cluster and iteratively merging the closest clusters (agglomerative approach), or by starting with all data points in one cluster and recursively dividing it (divisive approach). The process continues until a stopping criterion is met, such as a desired number of clusters or a threshold distance between clusters.\nHierarchical clustering is particularly useful for exploring the inherent structure of data at different levels of granularity and for datasets where the number of clusters is not known in advance."
-  },
-  {
-    "objectID": "ders7.html#how-it-works",
-    "href": "ders7.html#how-it-works",
-    "title": "Clustering Methods",
-    "section": "How it works",
-    "text": "How it works\nHierarchical clustering begins by calculating the distances between all pairs of data points using a chosen distance metric (e.g., Euclidean distance). In the agglomerative approach, which is more common, each data point starts as its own cluster. The algorithm then iteratively merges the two closest clusters based on a linkage criterion (e.g., single linkage, complete linkage, or average linkage). This process repeats, forming larger clusters until all data points are in a single cluster or until the desired number of clusters is reached. The result is a hierarchical structure that can be visualized as a dendrogram, allowing users to choose the level of clustering that best suits their needs.\nPlease visit Hierarchical Clustering in Data Mining and An Introduction to Hierarchical Clustering"
-  },
-  {
-    "objectID": "ders7.html#section-1",
-    "href": "ders7.html#section-1",
-    "title": "Clustering Methods",
+    "objectID": "midterm-grades.html",
+    "href": "midterm-grades.html",
+    "title": "Midterm Results / Vize Sonuçları",
     "section": "",
-    "text": "Please visit following sites for demos\n\nClustering Demo at yFiles"
+    "text": "Sınava katılan öğrenci sayısı: 189 ve vize notlarının ortalaması: 59.6. Aşağıda, vize notlarının dağılımı verilmiştir.\n\n\n\n\n\n\n\n\n\nAşağıdaki tabloda, sayfaları gezinerek veya arama kutusunda öğrenci numaranızı arayarak notlarınızı öğrenebilirsiniz."
   },
   {
-    "objectID": "ders7.html#advantages-of-hierarchical-clustering",
-    "href": "ders7.html#advantages-of-hierarchical-clustering",
-    "title": "Clustering Methods",
-    "section": "Advantages of hierarchical clustering",
-    "text": "Advantages of hierarchical clustering\n\nNo predefined number of clusters required: Unlike k-means, hierarchical clustering doesn’t require specifying the number of clusters in advance.\nHierarchical representation: Provides a dendrogram, offering insights into the data structure at different levels.\nFlexibility in cluster granularity: Users can choose the level of clustering that best suits their needs by cutting the dendrogram at different levels.\nApplicability to various data types: Can be applied to any data type for which a similarity or distance measure can be defined.\nInterpretability: The dendrogram provides a visually intuitive representation of the clustering process.\nHandles different cluster shapes: Can identify clusters of various shapes and sizes, not just spherical ones."
-  },
-  {
-    "objectID": "ders7.html#disadvantages",
-    "href": "ders7.html#disadvantages",
-    "title": "Clustering Methods",
-    "section": "Disadvantages",
-    "text": "Disadvantages\n\nComputational complexity: O(n^2) space complexity and O(n^3) time complexity in many implementations, making it less suitable for very large datasets.\nSensitivity to noise and outliers: Outliers can significantly affect the shape of the dendrogram.\nDifficulty in handling high-dimensional data: Performance and interpretability may decrease as the number of dimensions increases.\nLack of backtracking: Once a merge or split is made, it can’t be undone, which may lead to suboptimal results.\nMemory intensive: Storing the distance matrix for large datasets can be memory-intensive.\nChoice of distance metric and linkage method: Results can vary significantly based on the chosen distance metric and linkage method, requiring careful consideration.\nScalability issues: Not as scalable as some other clustering methods for very large datasets."
-  },
-  {
-    "objectID": "ders7.html#dbscan-clustering",
-    "href": "ders7.html#dbscan-clustering",
-    "title": "Clustering Methods",
-    "section": "DBSCAN clustering",
-    "text": "DBSCAN clustering\nDBSCAN (Density-Based Spatial Clustering of Applications with Noise) is a popular clustering algorithm that groups together points that are closely packed in space, marking points that lie alone in low-density regions as outliers.\nIt works by selecting a random unvisited point and exploring its neighborhood within a specified radius (ε). If this neighborhood contains a minimum number of points (MinPts), a cluster is formed. The algorithm then iteratively expands the cluster by exploring the neighborhoods of the newly added points. If a point doesn’t have enough neighbors to form a cluster, it’s labeled as noise. This process continues until all points have been visited, resulting in a set of dense clusters of varying shapes and sizes, along with identified noise points."
-  },
-  {
-    "objectID": "ders7.html#interactive-demos",
-    "href": "ders7.html#interactive-demos",
-    "title": "Clustering Methods",
-    "section": "Interactive demos",
-    "text": "Interactive demos\nPlease visit DBSCAN— A visualized and detailed introduction page about core concepts\nPlease visit Visualizing DBSCAN Clustering page for interactive demo for DBSCAN algoritm"
-  },
-  {
-    "objectID": "ders7.html#dbscan-algoritm",
-    "href": "ders7.html#dbscan-algoritm",
-    "title": "Clustering Methods",
-    "section": "DBSCAN Algoritm",
-    "text": "DBSCAN Algoritm"
-  },
-  {
-    "objectID": "ders7.html#advantages-of-dbscan",
-    "href": "ders7.html#advantages-of-dbscan",
-    "title": "Clustering Methods",
-    "section": "Advantages of DBSCAN",
-    "text": "Advantages of DBSCAN\n\nShape flexibility: Can find arbitrarily shaped clusters, not just circular ones.\nOutlier detection: Automatically identifies noise points and outliers.\nNo pre-defined number of clusters: Unlike k-means, doesn’t require specifying the number of clusters beforehand.\nDensity-based: Effective at separating clusters of different densities.\nRobustness: Less sensitive to outliers compared to centroid-based algorithms."
-  },
-  {
-    "objectID": "ders7.html#disadvantages-1",
-    "href": "ders7.html#disadvantages-1",
-    "title": "Clustering Methods",
-    "section": "Disadvantages",
-    "text": "Disadvantages\n\nParameter sensitivity: Results can vary significantly based on the choice of ε and MinPts parameters.\nStruggle with varying densities: May have difficulty when clusters have widely different densities.\nHigh-dimensional data: Performance and effectiveness can decrease in high-dimensional spaces due to the “curse of dimensionality”.\nMemory requirements: Can be memory-intensive for large datasets.\nScalability: Not as efficient for very large datasets compared to some other algorithms.\nConnectivity-based: May struggle with datasets where clusters are close but separated by sparse areas."
-  },
-  {
-    "objectID": "ders7.html#evaluating-clustering",
-    "href": "ders7.html#evaluating-clustering",
-    "title": "Clustering Methods",
-    "section": "Evaluating clustering",
-    "text": "Evaluating clustering\nDefinition: The silhouette score ranges from -1 to 1, where:\n\nA score close to 1 indicates that the data point is well-matched to its own cluster and poorly-matched to neighboring clusters.\nA score around 0 suggests that the data point is on or very close to the decision boundary between two neighboring clusters.\nA negative score indicates that the data point might have been assigned to the wrong cluster.\n\nCalculation: For each data point i, the silhouette score s(i) is calculated as:\ns(i) = (b(i) - a(i)) / max(a(i), b(i))\nWhere: a(i) is the average distance between i and all other points in the same clusteri, (i) is the average distance between i and all points in the nearest cluster that i is not a part of\nInterpretation:\n\nHigher silhouette scores indicate better-defined clusters.\nThe average silhouette score across all points can be used to compare different clustering configurations."
-  },
-  {
-    "objectID": "ders7.html#classification-vs.-clustering",
-    "href": "ders7.html#classification-vs.-clustering",
-    "title": "Clustering Methods",
-    "section": "Classification vs. Clustering",
-    "text": "Classification vs. Clustering\nplease compare these two concepts"
-  },
-  {
-    "objectID": "rf-regression-R-tr.html",
-    "href": "rf-regression-R-tr.html",
-    "title": "R ile Rastgele Orman Regresyonu",
+    "objectID": "midterm-grades.html#grup-1-türkçe-sonuçları",
+    "href": "midterm-grades.html#grup-1-türkçe-sonuçları",
+    "title": "Midterm Results / Vize Sonuçları",
     "section": "",
-    "text": "# Gerekli kütüphaneleri yükle\nlibrary(randomForest)\nlibrary(ggplot2)\n\nset.seed(123)\n\ndata &lt;- mtcars\n\n\nVeriyi eğitim ve test setlerine ayır (Train/test split)\n\ntrain_indices &lt;- sample(1:nrow(data), 0.7 * nrow(data))\ntrain_data &lt;- data[train_indices, ]\ntest_data &lt;- data[-train_indices, ]\n\n\n\nRastgele Orman modeli eğitimi ve tahmin yapılması\n\nrf_model &lt;- randomForest(mpg ~ ., data = train_data, ntree = 500)\n\npredictions &lt;- predict(rf_model, newdata = test_data)\n\n\n\nRMSE hesapla\nRMSE: Root mean square error (Kök Ortalama Kare Hatası)\n\nrmse &lt;- sqrt(mean((test_data$mpg - predictions)^2))\ncat(\"Kök Ortalama Kare Hatası:\", rmse, \"\\n\")\n\nKök Ortalama Kare Hatası: 2.00452 \n\n\n\n\nGerçek ve tahmin edilen değerler\n\nggplot(data.frame(actual = test_data$mpg, predicted = predictions), aes(x = actual, y = predicted)) +\n  geom_point(alpha = 0.5) +\n  geom_abline(intercept = 0, slope = 1, color = \"red\", linetype = \"dashed\") +\n  labs(x = \"Gerçek Değerler\", y = \"Tahmin Edilen Değerler\", title = \"Rastgele Orman Regresyonu: Gerçek ve Tahmin Edilen\")\n\n\n\n\n\n\n\n\n\n\nÖzellik önemi\n\nimportance &lt;- importance(rf_model)\nprint(importance)\n\n     IncNodePurity\ncyl      152.64821\ndisp     224.33387\nhp       158.42647\ndrat      43.37372\nwt       178.44424\nqsec      34.05620\nvs        25.67666\nam        19.73485\ngear      10.54314\ncarb      21.62506\n\n\n\n\nÖzellik önemi - figür\n\nimportance_df &lt;- data.frame(feature = rownames(importance), importance = importance[, 1])\nggplot(importance_df, aes(x = reorder(feature, importance), y = importance)) +\n  geom_bar(stat = \"identity\") +\n  coord_flip() +\n  labs(x = \"Özellikler\", y = \"Önem\", title = \"Rastgele Orman: Özellik Önemi\")\n\n\n\n\n\n\n\n\nAlternatif kaynak: http s://hackernoon.com/random-forest-regression-in-r-code-and-interpretation"
+    "text": "Sınava katılan öğrenci sayısı: 189 ve vize notlarının ortalaması: 59.6. Aşağıda, vize notlarının dağılımı verilmiştir.\n\n\n\n\n\n\n\n\n\nAşağıdaki tabloda, sayfaları gezinerek veya arama kutusunda öğrenci numaranızı arayarak notlarınızı öğrenebilirsiniz."
   },
   {
-    "objectID": "rf-regression-R.html",
-    "href": "rf-regression-R.html",
-    "title": "Random Forest Regression with R",
+    "objectID": "midterm-grades.html#group-2-en-results",
+    "href": "midterm-grades.html#group-2-en-results",
+    "title": "Midterm Results / Vize Sonuçları",
+    "section": "Group 2 (EN) results",
+    "text": "Group 2 (EN) results\nTotal number of students took the exam: 70 and average score is: 60.5. Below is the distribution of scores:\n\n\n\n\n\n\n\n\n\nAnd here’s the scores. You can scroll pages or search for your student number in search box."
+  },
+  {
+    "objectID": "ders7-TR.html#içerik",
+    "href": "ders7-TR.html#içerik",
+    "title": "Kümeleme Yöntemleri",
+    "section": "İçerik",
+    "text": "İçerik\n\n\n\nKümelemeye Giriş\n\nTanım ve amaç, Denetimsiz öğrenme kavramı, Bilimsel alanlardaki gerçek dünya uygulamaları\n\nKümeleme Algoritmaları Türleri\n\nBölümleme yöntemleri (örn. K-means)\nHiyerarşik yöntemler\nYoğunluk tabanlı yöntemler (örn. DBSCAN)\n\nK-means Kümeleme\n\nAlgoritma açıklaması\nKüme sayısını seçme (dirsek yöntemi)\nAvantajlar ve sınırlamalar\n\n\n\n\nHiyerarşik Kümeleme\n\nBirleştirici ve bölücü yaklaşımlar\nDendrogram yorumlama\nBağlantı yöntemleri (tek, tam, ortalama)\n\nYoğunluk Tabanlı Mekansal Gürültülü Uygulama Kümelemesi (DBSCAN)\n\nTemel kavramlar: çekirdek noktalar, sınır noktalar, gürültü\nAlgoritma açıklaması\nAvantajlar\n\nKümeleme için Değerlendirme Metrikleri\n\nSilüet skoru"
+  },
+  {
+    "objectID": "ders7-TR.html#tanım",
+    "href": "ders7-TR.html#tanım",
+    "title": "Kümeleme Yöntemleri",
+    "section": "Tanım",
+    "text": "Tanım\nKümeleme, makine öğrenmesi ve veri analizinde bir dizi nesneyi veya veri noktasını, aynı gruptaki (küme olarak adlandırılır) nesnelerin diğer gruplardakilere göre birbirine daha benzer olacağı şekilde gruplandırmayı içeren bir tekniktir. Bu, birçok veri analizi ve örüntü tanıma probleminde temel bir görevdir."
+  },
+  {
+    "objectID": "ders7-TR.html#amaç",
+    "href": "ders7-TR.html#amaç",
+    "title": "Kümeleme Yöntemleri",
+    "section": "Amaç",
+    "text": "Amaç\nKümelemenin amacı çok yönlüdür:\nÖrüntü Keşfi: Kümeleme, veriler içindeki hemen belli olmayan doğal örüntüleri veya yapıları tanımlamaya yardımcı olur.\nVeri Özetleme: Büyük veri setlerini, birçok veri noktasını daha az küme merkeziyle temsil ederek sıkıştırmak için kullanılabilir.\nAnomali Tespiti: Benzer veri noktalarının gruplarını tanımlayarak, herhangi bir kümeye uymayan aykırı değerleri veya anormallikleri tespit etmeye yardımcı olabilir.\nSegmentasyon: Pazarlama gibi alanlarda, müşterileri benzer davranışlara veya özelliklere sahip gruplara ayırmak için kullanılır.\nDiğer Algoritmalar için Ön İşleme: Kümeleme, verinin karmaşıklığını azaltmak için diğer algoritmalar için bir ön işleme adımı olarak kullanılabilir.\nDoğal Sınıflandırma: Bilimsel alanlarda, kümeleme verilerdeki doğal gruplandırmaları ortaya çıkarabilir, örneğin biyolojide benzer türleri gruplandırmak veya astronomide yıldız türlerini kategorilere ayırmak için."
+  },
+  {
+    "objectID": "ders7-TR.html#kümeleme-yöntemleri",
+    "href": "ders7-TR.html#kümeleme-yöntemleri",
+    "title": "Kümeleme Yöntemleri",
+    "section": "Kümeleme Yöntemleri",
+    "text": "Kümeleme Yöntemleri\nBölümleme yöntemleri: Veriyi örtüşmeyen alt kümelere böler, her veri noktası tam olarak bir kümeye ait olur, genellikle belirli bir kriteri optimize eder.\nHiyerarşik Yöntemler: Küçük kümeleri daha büyük olanlarla birleştirerek veya büyük kümeleri daha küçük olanlara bölerek kümelerin ağaç benzeri bir yapısını oluşturur.\nYoğunluk tabanlı Yöntemler: Yüksek veri noktası yoğunluğu olan alanlarda kümeler oluşturur, düşük yoğunluklu bölgelerle ayrılır, keyfi şekilli kümelerin keşfine olanak tanır."
+  },
+  {
+    "objectID": "ders7-TR.html#uygulamalar",
+    "href": "ders7-TR.html#uygulamalar",
+    "title": "Kümeleme Yöntemleri",
+    "section": "Uygulamalar",
+    "text": "Uygulamalar\n\nBiyoloji\n\n\nGen İfadesi Analizi: Farklı koşullar veya zaman noktaları arasında benzer ifade kalıplarına sahip genleri gruplandırma.\nTür Sınıflandırması: Organizmaları genetik veya morfolojik özelliklere göre kümeleme.\nProtein Yapısı Analizi: Proteinlerde yapısal motifleri tanımlama.\n\n\nKimya\n\n\nMoleküler Dinamikler: Simülasyonlar sırasında moleküllerin konformasyonlarını analiz etme.\nSpektroskopi: Bileşik tanımlama için benzer spektrumları kümeleme.\nİlaç Keşfi: Benzer özelliklere veya etkilere sahip kimyasal bileşikleri gruplandırma."
+  },
+  {
+    "objectID": "ders7-TR.html#section",
+    "href": "ders7-TR.html#section",
+    "title": "Kümeleme Yöntemleri",
     "section": "",
-    "text": "# Load required libraries\nlibrary(randomForest)\n\nrandomForest 4.7-1.1\n\n\nType rfNews() to see new features/changes/bug fixes.\n\nlibrary(ggplot2)\n\n\nAttaching package: 'ggplot2'\n\n\nThe following object is masked from 'package:randomForest':\n\n    margin\n\n# Set seed for reproducibility\nset.seed(123)\n\ndata &lt;- mtcars\n\n\nSplit data into training and testing sets\n\ntrain_indices &lt;- sample(1:nrow(data), 0.7 * nrow(data))\ntrain_data &lt;- data[train_indices, ]\ntest_data &lt;- data[-train_indices, ]\n\n\n\nTrain Random Forest model and make predictions\n\nrf_model &lt;- randomForest(mpg ~ ., data = train_data, ntree = 500)\n\npredictions &lt;- predict(rf_model, newdata = test_data)\n\n\n\nCalculate RMSE\n\nrmse &lt;- sqrt(mean((test_data$mpg - predictions)^2))\ncat(\"Root Mean Square Error:\", rmse, \"\\n\")\n\nRoot Mean Square Error: 2.00452 \n\n\n\n\nPlot actual vs predicted values\n\nggplot(data.frame(actual = test_data$mpg, predicted = predictions), aes(x = actual, y = predicted)) +\n  geom_point(alpha = 0.5) +\n  geom_abline(intercept = 0, slope = 1, color = \"red\", linetype = \"dashed\") +\n  labs(x = \"Actual Values\", y = \"Predicted Values\", title = \"Random Forest Regression: Actual vs Predicted\")\n\n\n\n\n\n\n\n\n\n\nPrint feature importance\n\nimportance &lt;- importance(rf_model)\nprint(importance)\n\n     IncNodePurity\ncyl      152.64821\ndisp     224.33387\nhp       158.42647\ndrat      43.37372\nwt       178.44424\nqsec      34.05620\nvs        25.67666\nam        19.73485\ngear      10.54314\ncarb      21.62506\n\n\n\n\nPlot feature importance\n\nimportance_df &lt;- data.frame(feature = rownames(importance), importance = importance[, 1])\nggplot(importance_df, aes(x = reorder(feature, importance), y = importance)) +\n  geom_bar(stat = \"identity\") +\n  coord_flip() +\n  labs(x = \"Features\", y = \"Importance\", title = \"Random Forest: Feature Importance\")\n\n\n\n\n\n\n\n\nalternative at https://hackernoon.com/random-forest-regression-in-r-code-and-interpretation"
+    "text": "Fizik\n\n\nParçacık Fiziği: Yüksek enerjili fizik deneylerinde parçacık çarpışma olaylarını sınıflandırma.\nAstrofizik: Yıldızları veya galaksileri özelliklerine göre (örn. parlaklık, sıcaklık) kümeleme.\nMalzeme Bilimi: Malzemelerdeki kristal yapıları ve kusurları analiz etme."
+  },
+  {
+    "objectID": "ders7-TR.html#bölümleme",
+    "href": "ders7-TR.html#bölümleme",
+    "title": "Kümeleme Yöntemleri",
+    "section": "Bölümleme",
+    "text": "Bölümleme\n\nGörsel kaynağı"
+  },
+  {
+    "objectID": "ders7-TR.html#k-means-kümeleme",
+    "href": "ders7-TR.html#k-means-kümeleme",
+    "title": "Kümeleme Yöntemleri",
+    "section": "K-means kümeleme",
+    "text": "K-means kümeleme\nK-means kümeleme, benzer veri noktalarını kümelere gruplandırmak için kullanılan denetimsiz bir makine öğrenimi algoritmasıdır. Veri noktalarını, küme merkezlerine (merkezoidlere) olan benzerliklerine göre önceden tanımlanmış k kümeye iteratif olarak atayarak çalışır. Algoritma, özellik uzayında k merkezoidi rastgele başlatarak başlar. Daha sonra tekrarlı olarak iki adım gerçekleştirir:\n\nher veri noktasını en yakın merkezoide atar, ve\nmerkezoidleri her kümedeki tüm noktaların ortalaması olarak yeniden hesaplar.\n\nBu süreç, merkezoidler stabilize olana veya maksimum iterasyon sayısına ulaşılana kadar devam eder. K-means, küme içi kareler toplamını minimize etmeyi amaçlar, bu da kompakt ve belirgin kümeler oluşturur."
+  },
+  {
+    "objectID": "ders7-TR.html#k-means-kümeleme---interaktif-demolar",
+    "href": "ders7-TR.html#k-means-kümeleme---interaktif-demolar",
+    "title": "Kümeleme Yöntemleri",
+    "section": "K-means kümeleme - interaktif demolar",
+    "text": "K-means kümeleme - interaktif demolar\nLütfen aşağıdaki siteleri ziyaret edin:\n\nK-means kümeleme algoritmasının iki boyutlu görselleştirmesi\nK-means Kümeleme - İnteraktif Gösterim\nK-Means Kümelemesini Görselleştirme"
+  },
+  {
+    "objectID": "ders7-TR.html#r-ile-k-means-kümeleme",
+    "href": "ders7-TR.html#r-ile-k-means-kümeleme",
+    "title": "Kümeleme Yöntemleri",
+    "section": "R ile K-means kümeleme",
+    "text": "R ile K-means kümeleme\nKod için lütfen R ile K-means sayfasını ziyaret edin."
+  },
+  {
+    "objectID": "ders7-TR.html#k-means-kümelemenin-avantajları",
+    "href": "ders7-TR.html#k-means-kümelemenin-avantajları",
+    "title": "Kümeleme Yöntemleri",
+    "section": "K-means kümelemenin avantajları",
+    "text": "K-means kümelemenin avantajları\n\nBasitlik: Anlaşılması ve uygulanması kolay.\nVerimlilik: Genellikle hızlı ve hesaplama açısından verimli, özellikle büyük veri setleri için.\nÖlçeklenebilirlik: Yüksek boyutlu verilerle iyi çalışır.\nEsneklik: Uygun uzaklık metrikleriyle farklı veri türlerine uyarlanabilir.\nYorumlanabilirlik: Sonuçta elde edilen kümeler genellikle yorumlanması kolaydır."
+  },
+  {
+    "objectID": "ders7-TR.html#k-means-kümelemenin-dezavantajları",
+    "href": "ders7-TR.html#k-means-kümelemenin-dezavantajları",
+    "title": "Kümeleme Yöntemleri",
+    "section": "K-means kümelemenin dezavantajları",
+    "text": "K-means kümelemenin dezavantajları\n\nBaşlangıç merkezoidlerine duyarlılık: Sonuçlar, merkezoidlerin başlangıçtaki rastgele yerleşimine bağlı olarak değişebilir.\nÖnceden tanımlanmış k gerektirir: Küme sayısı önceden belirtilmelidir, bu her zaman bilinmeyebilir.\nKüresel kümeler varsayar: Küresel olmayan küme şekilleriyle zayıf performans gösterir.\nAykırı değerlere duyarlılık: Aykırı değerler, merkezoid hesaplamasını ve küme atamasını önemli ölçüde etkileyebilir.\nDeğişen küme boyutlarıyla mücadele eder: Benzer mekansal büyüklükte kümeler oluşturma eğilimindedir.\nYerel optima: Global optimum yerine yerel bir minimuma yakınsayabilir.\nKategorik veriyi doğrudan işleyememe: Sayısal olmayan veriler için ön işleme gerektirir."
+  },
+  {
+    "objectID": "ders7-TR.html#hiyerarşik-kümeleme",
+    "href": "ders7-TR.html#hiyerarşik-kümeleme",
+    "title": "Kümeleme Yöntemleri",
+    "section": "Hiyerarşik kümeleme",
+    "text": "Hiyerarşik kümeleme\nHiyerarşik kümeleme, benzer veri noktalarını kümelere gruplandırmak için kullanılan denetimsiz bir makine öğrenimi tekniğidir. Önceden tanımlanmış bir küme sayısı gerektiren diğer kümeleme yöntemlerinin aksine, hiyerarşik kümeleme dendrogram adı verilen ağaç benzeri bir küme yapısı oluşturur. Bu yöntem, ya her veri noktasını kendi kümesi olarak başlatıp en yakın kümeleri iteratif olarak birleştirerek (birleştirici yaklaşım), ya da tüm veri noktalarını tek bir kümede başlatıp tekrarlı olarak bölerek (bölücü yaklaşım) çalışır. Bu süreç, istenen küme sayısı veya kümeler arası bir eşik mesafesi gibi bir durma kriteri karşılanana kadar devam eder.\nHiyerarşik kümeleme, verilerin doğal yapısını farklı detay seviyelerinde keşfetmek ve küme sayısının önceden bilinmediği veri setleri için özellikle kullanışlıdır."
+  },
+  {
+    "objectID": "ders7-TR.html#nasıl-çalışır",
+    "href": "ders7-TR.html#nasıl-çalışır",
+    "title": "Kümeleme Yöntemleri",
+    "section": "Nasıl çalışır",
+    "text": "Nasıl çalışır\nHiyerarşik kümeleme, seçilen bir uzaklık metriği (örn. Öklid uzaklığı) kullanarak tüm veri noktası çiftleri arasındaki uzaklıkları hesaplayarak başlar. Daha yaygın olan birleştirici yaklaşımda, her veri noktası kendi kümesi olarak başlar. Algoritma daha sonra bir bağlantı kriterine (örn. tek bağlantı, tam bağlantı veya ortalama bağlantı) göre en yakın iki kümeyi iteratif olarak birleştirir. Bu süreç, tüm veri noktaları tek bir kümede toplanana veya istenen küme sayısına ulaşılana kadar tekrarlanır, daha büyük kümeler oluşturur. Sonuç, bir dendrogram olarak görselleştirilebilen hiyerarşik bir yapıdır ve kullanıcıların ihtiyaçlarına en uygun kümeleme seviyesini seçmelerine olanak tanır.\nLütfen Veri Madenciliğinde Hiyerarşik Kümeleme ve Hiyerarşik Kümelemeye Giriş sayfalarını ziyaret edin."
+  },
+  {
+    "objectID": "ders7-TR.html#section-1",
+    "href": "ders7-TR.html#section-1",
+    "title": "Kümeleme Yöntemleri",
+    "section": "",
+    "text": "Demolar için lütfen aşağıdaki siteyi ziyaret edin:\n\nyFiles’da Kümeleme Demosu"
+  },
+  {
+    "objectID": "ders7-TR.html#hiyerarşik-kümelemenin-avantajları",
+    "href": "ders7-TR.html#hiyerarşik-kümelemenin-avantajları",
+    "title": "Kümeleme Yöntemleri",
+    "section": "Hiyerarşik kümelemenin avantajları",
+    "text": "Hiyerarşik kümelemenin avantajları\n\nÖnceden tanımlanmış küme sayısı gerekmez: K-means’in aksine, hiyerarşik kümeleme önceden küme sayısının belirtilmesini gerektirmez.\nHiyerarşik temsil: Farklı seviyelerde veri yapısına dair içgörüler sunan bir dendrogram sağlar.\nKüme detay seviyesinde esneklik: Kullanıcılar, dendrogramı farklı seviyelerden keserek ihtiyaçlarına en uygun kümeleme seviyesini seçebilirler.\nÇeşitli veri türlerine uygulanabilirlik: Benzerlik veya uzaklık ölçüsü tanımlanabilen her veri türüne uygulanabilir.\nYorumlanabilirlik: Dendrogram, kümeleme sürecinin görsel olarak sezgisel bir temsilini sunar.\nFarklı küme şekillerini işleyebilme: Sadece küresel olanlar değil, çeşitli şekil ve boyutlardaki kümeleri tanımlayabilir."
+  },
+  {
+    "objectID": "ders7-TR.html#dezavantajları",
+    "href": "ders7-TR.html#dezavantajları",
+    "title": "Kümeleme Yöntemleri",
+    "section": "Dezavantajları",
+    "text": "Dezavantajları\n\nHesaplama karmaşıklığı: Birçok uygulamada O(n^2) alan karmaşıklığı ve O(n^3) zaman karmaşıklığı, çok büyük veri setleri için daha az uygun hale getirir.\nGürültü ve aykırı değerlere duyarlılık: Aykırı değerler dendogramın şeklini önemli ölçüde etkileyebilir.\nYüksek boyutlu verileri ele almada zorluk: Boyut sayısı arttıkça performans ve yorumlanabilirlik azalabilir.\nGeri alma eksikliği: Bir birleştirme veya bölme yapıldığında geri alınamaz, bu da optimal olmayan sonuçlara yol açabilir.\nBellek yoğun: Büyük veri setleri için uzaklık matrisini saklamak bellek yoğun olabilir.\nUzaklık metriği ve bağlantı yöntemi seçimi: Sonuçlar, seçilen uzaklık metriği ve bağlantı yöntemine göre önemli ölçüde değişebilir, dikkatli düşünme gerektirir.\nÖlçeklenebilirlik sorunları: Çok büyük veri setleri için diğer bazı kümeleme yöntemlerine göre daha az ölçeklenebilir."
+  },
+  {
+    "objectID": "ders7-TR.html#dbscan-kümeleme",
+    "href": "ders7-TR.html#dbscan-kümeleme",
+    "title": "Kümeleme Yöntemleri",
+    "section": "DBSCAN kümeleme",
+    "text": "DBSCAN kümeleme\nDBSCAN (Gürültülü Uygulamalarla Yoğunluk Tabanlı Mekansal Kümeleme), uzayda yakın paketlenmiş noktaları gruplandıran ve düşük yoğunluklu bölgelerde yalnız duran noktaları aykırı değer olarak işaretleyen popüler bir kümeleme algoritmasıdır.\nRastgele bir ziyaret edilmemiş nokta seçerek ve belirli bir yarıçap (ε) içindeki komşuluğunu keşfederek çalışır. Bu komşuluk minimum sayıda nokta (MinPts) içeriyorsa, bir küme oluşturulur. Algoritma daha sonra yeni eklenen noktaların komşuluklarını keşfederek kümeyi yinelemeli olarak genişletir. Bir nokta küme oluşturmak için yeterli komşuya sahip değilse, gürültü olarak etiketlenir. Bu süreç tüm noktalar ziyaret edilene kadar devam eder ve çeşitli şekil ve boyutlarda yoğun kümeler seti ile birlikte tanımlanmış gürültü noktaları ortaya çıkar."
+  },
+  {
+    "objectID": "ders7-TR.html#interaktif-demolar",
+    "href": "ders7-TR.html#interaktif-demolar",
+    "title": "Kümeleme Yöntemleri",
+    "section": "İnteraktif demolar",
+    "text": "İnteraktif demolar\nLütfen temel kavramlar hakkında DBSCAN — Görselleştirilmiş ve detaylı bir giriş sayfasını ziyaret edin.\nDBSCAN algoritması için interaktif demo için lütfen DBSCAN Kümelemesini Görselleştirme sayfasını ziyaret edin."
+  },
+  {
+    "objectID": "ders7-TR.html#dbscan-algoritması",
+    "href": "ders7-TR.html#dbscan-algoritması",
+    "title": "Kümeleme Yöntemleri",
+    "section": "DBSCAN Algoritması",
+    "text": "DBSCAN Algoritması"
+  },
+  {
+    "objectID": "ders7-TR.html#dbscanin-avantajları",
+    "href": "ders7-TR.html#dbscanin-avantajları",
+    "title": "Kümeleme Yöntemleri",
+    "section": "DBSCAN’in Avantajları",
+    "text": "DBSCAN’in Avantajları\n\nŞekil esnekliği: Sadece dairesel olanlar değil, keyfi şekilli kümeleri bulabilir.\nAykırı değer tespiti: Otomatik olarak gürültü noktalarını ve aykırı değerleri tanımlar.\nÖnceden tanımlanmış küme sayısı yok: K-means’in aksine, önceden küme sayısını belirtmeyi gerektirmez.\nYoğunluk tabanlı: Farklı yoğunluktaki kümeleri ayırmada etkilidir.\nSağlamlık: Merkez tabanlı algoritmalara göre aykırı değerlere daha az duyarlıdır."
+  },
+  {
+    "objectID": "ders7-TR.html#dezavantajları-1",
+    "href": "ders7-TR.html#dezavantajları-1",
+    "title": "Kümeleme Yöntemleri",
+    "section": "Dezavantajları",
+    "text": "Dezavantajları\n\nParametre hassasiyeti: Sonuçlar, ε ve MinPts parametrelerinin seçimine bağlı olarak önemli ölçüde değişebilir.\nDeğişen yoğunluklarla mücadele: Kümeler çok farklı yoğunluklara sahip olduğunda zorluk yaşayabilir.\nYüksek boyutlu veriler: “Boyutsallık laneti” nedeniyle yüksek boyutlu uzaylarda performans ve etkinlik azalabilir.\nBellek gereksinimleri: Büyük veri setleri için bellek yoğun olabilir.\nÖlçeklenebilirlik: Bazı diğer algoritmalara göre çok büyük veri setleri için o kadar verimli değildir.\nBağlantı tabanlı: Kümelerin yakın ama seyrek alanlarla ayrıldığı veri setlerinde zorlanabilir."
+  },
+  {
+    "objectID": "ders7-TR.html#kümelemeyi-değerlendirme",
+    "href": "ders7-TR.html#kümelemeyi-değerlendirme",
+    "title": "Kümeleme Yöntemleri",
+    "section": "Kümelemeyi değerlendirme",
+    "text": "Kümelemeyi değerlendirme\nTanım: Silhouette skoru -1 ile 1 arasında değişir, burada:\n\n1’e yakın bir skor, veri noktasının kendi kümesine iyi uyduğunu ve komşu kümelere kötü uyduğunu gösterir.\n0 civarında bir skor, veri noktasının iki komşu küme arasındaki karar sınırında veya çok yakınında olduğunu önerir.\nNegatif bir skor, veri noktasının yanlış kümeye atanmış olabileceğini gösterir.\n\nHesaplama: Her veri noktası i için, silhouette skoru s(i) şöyle hesaplanır:\ns(i) = (b(i) - a(i)) / max(a(i), b(i))\nBurada: a(i), i ile aynı kümedeki diğer tüm noktalar arasındaki ortalama mesafedir b(i), i ile i’nin parçası olmadığı en yakın kümedeki tüm noktalar arasındaki ortalama mesafedir\nYorumlama:\n\nDaha yüksek silhouette skorları daha iyi tanımlanmış kümeleri gösterir.\nTüm noktalar üzerinden ortalama silhouette skoru, farklı kümeleme konfigürasyonlarını karşılaştırmak için kullanılabilir."
+  },
+  {
+    "objectID": "ders7-TR.html#sınıflandırma-vs.-kümeleme",
+    "href": "ders7-TR.html#sınıflandırma-vs.-kümeleme",
+    "title": "Kümeleme Yöntemleri",
+    "section": "Sınıflandırma vs. Kümeleme",
+    "text": "Sınıflandırma vs. Kümeleme\nlütfen bu iki kavramı karşılaştırın"
   },
   {
     "objectID": "ders5-TR.html#içerik",
@@ -1015,158 +1015,375 @@
     "text": "Lojistik Regresyon Neden Faydalıdır\nLojistik Regresyon popüler bir algoritmadır çünkü:\n\nUygulaması ve yorumlanması kolaydır\nBirden çok girdi değişkenini işleyebilir\nHer tahmin için bir olasılık tahmini sağlar\nTıp, finans ve pazarlama gibi birçok alanda yaygın olarak kullanılır"
   },
   {
-    "objectID": "midterm-grades.html",
-    "href": "midterm-grades.html",
-    "title": "Midterm Results / Vize Sonuçları",
+    "objectID": "rf-regression-R.html",
+    "href": "rf-regression-R.html",
+    "title": "Random Forest Regression with R",
     "section": "",
-    "text": "Sınava katılan öğrenci sayısı: 189 ve vize notlarının ortalaması: 59.6. Aşağıda, vize notlarının dağılımı verilmiştir.\n\n\n\n\n\n\n\n\n\nAşağıdaki tabloda, sayfaları gezinerek veya arama kutusunda öğrenci numaranızı arayarak notlarınızı öğrenebilirsiniz."
+    "text": "# Load required libraries\nlibrary(randomForest)\n\nrandomForest 4.7-1.1\n\n\nType rfNews() to see new features/changes/bug fixes.\n\nlibrary(ggplot2)\n\n\nAttaching package: 'ggplot2'\n\n\nThe following object is masked from 'package:randomForest':\n\n    margin\n\n# Set seed for reproducibility\nset.seed(123)\n\ndata &lt;- mtcars\n\n\nSplit data into training and testing sets\n\ntrain_indices &lt;- sample(1:nrow(data), 0.7 * nrow(data))\ntrain_data &lt;- data[train_indices, ]\ntest_data &lt;- data[-train_indices, ]\n\n\n\nTrain Random Forest model and make predictions\n\nrf_model &lt;- randomForest(mpg ~ ., data = train_data, ntree = 500)\n\npredictions &lt;- predict(rf_model, newdata = test_data)\n\n\n\nCalculate RMSE\n\nrmse &lt;- sqrt(mean((test_data$mpg - predictions)^2))\ncat(\"Root Mean Square Error:\", rmse, \"\\n\")\n\nRoot Mean Square Error: 2.00452 \n\n\n\n\nPlot actual vs predicted values\n\nggplot(data.frame(actual = test_data$mpg, predicted = predictions), aes(x = actual, y = predicted)) +\n  geom_point(alpha = 0.5) +\n  geom_abline(intercept = 0, slope = 1, color = \"red\", linetype = \"dashed\") +\n  labs(x = \"Actual Values\", y = \"Predicted Values\", title = \"Random Forest Regression: Actual vs Predicted\")\n\n\n\n\n\n\n\n\n\n\nPrint feature importance\n\nimportance &lt;- importance(rf_model)\nprint(importance)\n\n     IncNodePurity\ncyl      152.64821\ndisp     224.33387\nhp       158.42647\ndrat      43.37372\nwt       178.44424\nqsec      34.05620\nvs        25.67666\nam        19.73485\ngear      10.54314\ncarb      21.62506\n\n\n\n\nPlot feature importance\n\nimportance_df &lt;- data.frame(feature = rownames(importance), importance = importance[, 1])\nggplot(importance_df, aes(x = reorder(feature, importance), y = importance)) +\n  geom_bar(stat = \"identity\") +\n  coord_flip() +\n  labs(x = \"Features\", y = \"Importance\", title = \"Random Forest: Feature Importance\")\n\n\n\n\n\n\n\n\nalternative at https://hackernoon.com/random-forest-regression-in-r-code-and-interpretation"
   },
   {
-    "objectID": "midterm-grades.html#grup-1-türkçe-sonuçları",
-    "href": "midterm-grades.html#grup-1-türkçe-sonuçları",
-    "title": "Midterm Results / Vize Sonuçları",
+    "objectID": "rf-regression-R-tr.html",
+    "href": "rf-regression-R-tr.html",
+    "title": "R ile Rastgele Orman Regresyonu",
     "section": "",
-    "text": "Sınava katılan öğrenci sayısı: 189 ve vize notlarının ortalaması: 59.6. Aşağıda, vize notlarının dağılımı verilmiştir.\n\n\n\n\n\n\n\n\n\nAşağıdaki tabloda, sayfaları gezinerek veya arama kutusunda öğrenci numaranızı arayarak notlarınızı öğrenebilirsiniz."
+    "text": "# Gerekli kütüphaneleri yükle\nlibrary(randomForest)\nlibrary(ggplot2)\n\nset.seed(123)\n\ndata &lt;- mtcars\n\n\nVeriyi eğitim ve test setlerine ayır (Train/test split)\n\ntrain_indices &lt;- sample(1:nrow(data), 0.7 * nrow(data))\ntrain_data &lt;- data[train_indices, ]\ntest_data &lt;- data[-train_indices, ]\n\n\n\nRastgele Orman modeli eğitimi ve tahmin yapılması\n\nrf_model &lt;- randomForest(mpg ~ ., data = train_data, ntree = 500)\n\npredictions &lt;- predict(rf_model, newdata = test_data)\n\n\n\nRMSE hesapla\nRMSE: Root mean square error (Kök Ortalama Kare Hatası)\n\nrmse &lt;- sqrt(mean((test_data$mpg - predictions)^2))\ncat(\"Kök Ortalama Kare Hatası:\", rmse, \"\\n\")\n\nKök Ortalama Kare Hatası: 2.00452 \n\n\n\n\nGerçek ve tahmin edilen değerler\n\nggplot(data.frame(actual = test_data$mpg, predicted = predictions), aes(x = actual, y = predicted)) +\n  geom_point(alpha = 0.5) +\n  geom_abline(intercept = 0, slope = 1, color = \"red\", linetype = \"dashed\") +\n  labs(x = \"Gerçek Değerler\", y = \"Tahmin Edilen Değerler\", title = \"Rastgele Orman Regresyonu: Gerçek ve Tahmin Edilen\")\n\n\n\n\n\n\n\n\n\n\nÖzellik önemi\n\nimportance &lt;- importance(rf_model)\nprint(importance)\n\n     IncNodePurity\ncyl      152.64821\ndisp     224.33387\nhp       158.42647\ndrat      43.37372\nwt       178.44424\nqsec      34.05620\nvs        25.67666\nam        19.73485\ngear      10.54314\ncarb      21.62506\n\n\n\n\nÖzellik önemi - figür\n\nimportance_df &lt;- data.frame(feature = rownames(importance), importance = importance[, 1])\nggplot(importance_df, aes(x = reorder(feature, importance), y = importance)) +\n  geom_bar(stat = \"identity\") +\n  coord_flip() +\n  labs(x = \"Özellikler\", y = \"Önem\", title = \"Rastgele Orman: Özellik Önemi\")\n\n\n\n\n\n\n\n\nAlternatif kaynak: http s://hackernoon.com/random-forest-regression-in-r-code-and-interpretation"
   },
   {
-    "objectID": "midterm-grades.html#group-2-en-results",
-    "href": "midterm-grades.html#group-2-en-results",
-    "title": "Midterm Results / Vize Sonuçları",
-    "section": "Group 2 (EN) results",
-    "text": "Group 2 (EN) results\nTotal number of students took the exam: 70 and average score is: 60.5. Below is the distribution of scores:\n\n\n\n\n\n\n\n\n\nAnd here’s the scores. You can scroll pages or search for your student number in search box."
-  },
-  {
-    "objectID": "r-linear-regression.html",
-    "href": "r-linear-regression.html",
-    "title": "Linear Regression with R",
+    "objectID": "Hierarchical_Clustering_in_Data_Mining-TR.html",
+    "href": "Hierarchical_Clustering_in_Data_Mining-TR.html",
+    "title": "Veri Madenciliğinde Hiyerarşik Kümeleme",
     "section": "",
-    "text": "Here we have a data mtcars {datasets} that was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973-74 models). We will find a mathematical model between Weight (wt) and Displacement (disp) parameters. So let’s find the most suitable model. Please draw the plot, determine the degree of equation (first, second of third) and draw the curve.\n\nmtcars\n\n                   mpg cyl  disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6 160.0 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6 258.0 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8 360.0 175 3.15 3.440 17.02  0  0    3    2\nValiant           18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1\nDuster 360        14.3   8 360.0 245 3.21 3.570 15.84  0  0    3    4\nMerc 240D         24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2\nMerc 230          22.8   4 140.8  95 3.92 3.150 22.90  1  0    4    2\n [ reached 'max' / getOption(\"max.print\") -- omitted 23 rows ]\n\n\n\nplot(mtcars)\n\n\n\n\n\n\n\n\n\nplot(mtcars$disp, mtcars$wt)\n\n\n\n\n\n\n\n\n\nfirst_wd &lt;- lm(wt ~ disp, data=mtcars)\nsummary(first_wd)\n\n\nCall:\nlm(formula = wt ~ disp, data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.89044 -0.29775 -0.00684  0.33428  0.66525 \n\nCoefficients:\n             Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) 1.5998146  0.1729964   9.248 2.74e-10 ***\ndisp        0.0070103  0.0006629  10.576 1.22e-11 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.4574 on 30 degrees of freedom\nMultiple R-squared:  0.7885,    Adjusted R-squared:  0.7815 \nF-statistic: 111.8 on 1 and 30 DF,  p-value: 1.222e-11\n\n\n\nsecond_wd &lt;- lm(wt ~ disp + I(disp^2), data=mtcars)\nsummary(second_wd)\n\n\nCall:\nlm(formula = wt ~ disp + I(disp^2), data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.88654 -0.29136 -0.00961  0.32389  0.67010 \n\nCoefficients:\n             Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) 1.631e+00  3.622e-01   4.502 0.000101 ***\ndisp        6.694e-03  3.325e-03   2.013 0.053448 .  \nI(disp^2)   6.206e-07  6.380e-06   0.097 0.923178    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.4652 on 29 degrees of freedom\nMultiple R-squared:  0.7886,    Adjusted R-squared:  0.774 \nF-statistic: 54.08 on 2 and 29 DF,  p-value: 1.639e-10\n\n\n\nthird_wd &lt;- lm(wt ~ disp + I(disp^2) + I(disp^3), data = mtcars)\nsummary(third_wd)\n\n\nCall:\nlm(formula = wt ~ disp + I(disp^2) + I(disp^3), data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.63764 -0.22785  0.00307  0.24614  0.58333 \n\nCoefficients:\n              Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) -1.111e+00  5.651e-01  -1.966   0.0593 .  \ndisp         4.945e-02  8.198e-03   6.032 1.68e-06 ***\nI(disp^2)   -1.807e-04  3.361e-05  -5.378 9.88e-06 ***\nI(disp^3)    2.243e-07  4.119e-08   5.446 8.21e-06 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.3299 on 28 degrees of freedom\nMultiple R-squared:  0.8973,    Adjusted R-squared:  0.8863 \nF-statistic: 81.57 on 3 and 28 DF,  p-value: 5.959e-14\n\n\n\nplot(mtcars$disp,mtcars$wt)\ncurve(2.243e-07*x^3 -1.807e-04*x^2 +4.945e-02*x -1.111e+00,add=TRUE)\n\n\n\n\n\n\n\n\n\nbest_model &lt;- lm(wt ~ poly(disp,15), data=mtcars)\nsummary(best_model)\n\n\nCall:\nlm(formula = wt ~ poly(disp, 15), data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.43800 -0.11202 -0.00364  0.16319  0.37783 \n\nCoefficients:\n                   Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept)       3.2172500  0.0509709  63.119  &lt; 2e-16 ***\npoly(disp, 15)1   4.8375552  0.2883350  16.778 1.41e-11 ***\npoly(disp, 15)2   0.0452475  0.2883350   0.157   0.8773    \npoly(disp, 15)3   1.7965723  0.2883350   6.231 1.20e-05 ***\npoly(disp, 15)4   0.4463962  0.2883350   1.548   0.1411    \npoly(disp, 15)5  -0.6866393  0.2883350  -2.381   0.0300 *  \npoly(disp, 15)6  -0.3384161  0.2883350  -1.174   0.2577    \npoly(disp, 15)7  -0.6134397  0.2883350  -2.128   0.0493 *  \npoly(disp, 15)8   0.0528245  0.2883350   0.183   0.8569    \npoly(disp, 15)9   0.0814084  0.2883350   0.282   0.7813    \npoly(disp, 15)10 -0.0654665  0.2883350  -0.227   0.8233    \npoly(disp, 15)11  0.2853853  0.2883350   0.990   0.3370    \npoly(disp, 15)12 -0.0007108  0.2883350  -0.002   0.9981    \npoly(disp, 15)13  0.4495723  0.2883350   1.559   0.1385    \npoly(disp, 15)14 -0.0699728  0.2883350  -0.243   0.8113    \npoly(disp, 15)15 -0.5031480  0.2883350  -1.745   0.1002    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.2883 on 16 degrees of freedom\nMultiple R-squared:  0.9552,    Adjusted R-squared:  0.9132 \nF-statistic: 22.73 on 15 and 16 DF,  p-value: 5.551e-08\n\n\n\npred &lt;- predict(best_model, data.frame(disp=50:500))\nplot(mtcars$disp, mtcars$wt)\npoints(50:500, pred, type=\"l\")\n\n\n\n\n\n\n\n\n\npredict(third_wd, data.frame(disp=420))\n\n       1 \n4.397246 \n\n\n\npredict(best_model, data.frame(disp=420))\n\n       1 \n7.329183 \n\n\n\npredict(best_model, data.frame(disp=c(20,420, 500)))\n\n           1            2            3 \n 3865.329736     7.329183 -1513.538298 \n\n\n\nSo, the “best” model is not best at all.."
+    "text": "İçerik “Hierarchical Clustering in Data Mining” adlı makaleden alınmıştır.\nHiyerarşik kümeleme yöntemi, verileri bir küme ağacı halinde gruplandırarak çalışır. Hiyerarşik kümeleme, her veri noktasını ayrı bir küme olarak ele alarak başlar. Daha sonra aşağıdaki adımları tekrar tekrar uygular:\n\nBirbirine en yakın 2 kümeyi belirle, ve\nEn benzer 2 kümeyi birleştir. Tüm kümeler birleşene kadar bu adımları tekrarlamak gerekir.\n\nHiyerarşik Kümelemede amaç, iç içe geçmiş kümelerin hiyerarşik bir serisini üretmektir. Dendrogram adı verilen bir diyagram (Dendrogram, birleşmelerin veya bölünmelerin sırasını gösteren ağaç benzeri bir diyagramdır) bu hiyerarşiyi grafiksel olarak temsil eder ve faktörlerin birleştirilme sırasını (aşağıdan yukarıya bakış) veya kümelerin parçalanma sırasını (yukarıdan aşağıya bakış) açıklayan ters çevrilmiş bir ağaçtır.\n\n\nHiyerarşik kümeleme, veri madenciliğinde bir veri setindeki kümelerin hiyerarşik bir temsilini oluşturan bir küme analizi yöntemidir. Yöntem, her veri noktasını ayrı bir küme olarak ele alarak başlar ve daha sonra bir durdurma kriteri karşılanana kadar en yakın kümeleri yinelemeli olarak birleştirir. Hiyerarşik kümelemenin sonucu, kümeler arasındaki hiyerarşik ilişkileri gösteren dendrogram adı verilen ağaç benzeri bir yapıdır.\n\n\n\nKonveks olmayan kümeleri ve farklı boyut ve yoğunluktaki kümeleri işleyebilme yeteneği.\nEksik verileri ve gürültülü verileri işleyebilme yeteneği.\nVerilerin hiyerarşik yapısını ortaya çıkarma yeteneği, bu da kümeler arasındaki ilişkileri anlamak için faydalı olabilir.\n\n\n\n\n\nKümeleme sürecini durdurmak ve nihai küme sayısını belirlemek için bir kritere ihtiyaç duyulması.\nYöntemin hesaplama maliyeti ve bellek gereksinimleri, özellikle büyük veri setleri için yüksek olabilir.\nSonuçlar, başlangıç koşullarına, bağlantı kriterine ve kullanılan uzaklık metriğine duyarlı olabilir.\n\nÖzetle, Hiyerarşik kümeleme, benzer veri noktalarını kümelerin hiyerarşik bir yapısını oluşturarak gruplayan bir veri madenciliği yöntemidir. - Bu yöntem farklı türdeki verileri işleyebilir ve kümeler arasındaki ilişkileri ortaya çıkarabilir. Ancak, yüksek hesaplama maliyetine sahip olabilir ve sonuçlar bazı koşullara duyarlı olabilir.\n\n\n\nTemel olarak, iki tür hiyerarşik kümeleme vardır:\n\nAglomeratif Kümeleme\nBölücü Kümeleme\n\n\n\n\nBaşlangıçta her veri noktasını bireysel bir Küme olarak düşünün ve her adımda en yakın küme çiftlerini birleştirin. (Bu bir aşağıdan yukarıya yöntemdir). İlk başta, her veri seti bireysel bir varlık veya küme olarak kabul edilir. Her iterasyonda, kümeler tek bir küme oluşana kadar farklı kümelerle birleşir.\n\n\n\nBir kümenin diğer tüm kümelerle benzerliğini hesaplayın (yakınlık matrisini hesaplayın)\nHer veri noktasını bireysel bir küme olarak düşünün\nBirbirine çok benzer veya yakın olan kümeleri birleştirin.\nHer küme için yakınlık matrisini yeniden hesaplayın\nSadece tek bir küme kalana kadar 3. ve 4. Adımları tekrarlayın.\n\nBu algoritmanın grafiksel gösterimini bir dendrogram kullanarak görelim.\n\nNot: Bu sadece gerçek algoritmanın nasıl çalıştığının bir gösterimidir, aşağıda hiçbir hesaplama yapılmamıştır, tüm kümeler arasındaki yakınlık varsayılmıştır.\n\nDiyelim ki A, B, C, D, E ve F adında altı veri noktamız var.\n\n\n\nAgglomerative Hierarchical clustering\n\n\n\nAdım-1: Her harfi tek bir küme olarak düşünün ve bir kümenin diğer tüm kümelerden uzaklığını hesaplayın.\nAdım-2: İkinci adımda benzer kümeler tek bir küme oluşturmak üzere birleştirilir. Diyelim ki küme (B) ve küme (C) birbirine çok benziyor, bu nedenle ikinci adımda onları birleştiriyoruz, benzer şekilde küme (D) ve (E) de birleşiyor ve sonunda [(A), (BC), (DE), (F)] kümelerini elde ediyoruz.\nAdım-3: Algoritmaya göre yakınlığı yeniden hesaplarız ve en yakın iki kümeyi ([(DE), (F)]) birleştirerek yeni kümeler oluştururuz: [(A), (BC), (DEF)]\nAdım-4: Aynı işlemi tekrarlayarak; DEF ve BC kümeleri benzer ve yeni bir küme oluşturmak için birleştirilir. Artık [(A), (BCDEF)] kümeleri kaldı.\nAdım-5: Son olarak, kalan iki küme tek bir küme [(ABCDEF)] oluşturmak üzere birleştirilir.\n\n\n\n\n\nBölücü Hiyerarşik kümelemenin, Aglomeratif Hiyerarşik kümelemenin tam tersi olduğunu söyleyebiliriz. Bölücü Hiyerarşik kümelemede, tüm veri noktalarını tek bir küme olarak ele alırız ve her iterasyonda benzer olmayan veri noktalarını kümelerden ayırırız. Sonunda, N küme ile kalırız.\n\n\n\nDivisive Hierarchical clustering"
   },
   {
-    "objectID": "r-linear-regression.html#a-polynomial-model",
-    "href": "r-linear-regression.html#a-polynomial-model",
-    "title": "Linear Regression with R",
+    "objectID": "Hierarchical_Clustering_in_Data_Mining-TR.html#hiyerarşik-kümeleme-nedir",
+    "href": "Hierarchical_Clustering_in_Data_Mining-TR.html#hiyerarşik-kümeleme-nedir",
+    "title": "Veri Madenciliğinde Hiyerarşik Kümeleme",
     "section": "",
-    "text": "Here we have a data mtcars {datasets} that was extracted from the 1974 Motor Trend US magazine, and comprises fuel consumption and 10 aspects of automobile design and performance for 32 automobiles (1973-74 models). We will find a mathematical model between Weight (wt) and Displacement (disp) parameters. So let’s find the most suitable model. Please draw the plot, determine the degree of equation (first, second of third) and draw the curve.\n\nmtcars\n\n                   mpg cyl  disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6 160.0 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6 258.0 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8 360.0 175 3.15 3.440 17.02  0  0    3    2\nValiant           18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1\nDuster 360        14.3   8 360.0 245 3.21 3.570 15.84  0  0    3    4\nMerc 240D         24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2\nMerc 230          22.8   4 140.8  95 3.92 3.150 22.90  1  0    4    2\n [ reached 'max' / getOption(\"max.print\") -- omitted 23 rows ]\n\n\n\nplot(mtcars)\n\n\n\n\n\n\n\n\n\nplot(mtcars$disp, mtcars$wt)\n\n\n\n\n\n\n\n\n\nfirst_wd &lt;- lm(wt ~ disp, data=mtcars)\nsummary(first_wd)\n\n\nCall:\nlm(formula = wt ~ disp, data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.89044 -0.29775 -0.00684  0.33428  0.66525 \n\nCoefficients:\n             Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) 1.5998146  0.1729964   9.248 2.74e-10 ***\ndisp        0.0070103  0.0006629  10.576 1.22e-11 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.4574 on 30 degrees of freedom\nMultiple R-squared:  0.7885,    Adjusted R-squared:  0.7815 \nF-statistic: 111.8 on 1 and 30 DF,  p-value: 1.222e-11\n\n\n\nsecond_wd &lt;- lm(wt ~ disp + I(disp^2), data=mtcars)\nsummary(second_wd)\n\n\nCall:\nlm(formula = wt ~ disp + I(disp^2), data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.88654 -0.29136 -0.00961  0.32389  0.67010 \n\nCoefficients:\n             Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) 1.631e+00  3.622e-01   4.502 0.000101 ***\ndisp        6.694e-03  3.325e-03   2.013 0.053448 .  \nI(disp^2)   6.206e-07  6.380e-06   0.097 0.923178    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.4652 on 29 degrees of freedom\nMultiple R-squared:  0.7886,    Adjusted R-squared:  0.774 \nF-statistic: 54.08 on 2 and 29 DF,  p-value: 1.639e-10\n\n\n\nthird_wd &lt;- lm(wt ~ disp + I(disp^2) + I(disp^3), data = mtcars)\nsummary(third_wd)\n\n\nCall:\nlm(formula = wt ~ disp + I(disp^2) + I(disp^3), data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.63764 -0.22785  0.00307  0.24614  0.58333 \n\nCoefficients:\n              Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept) -1.111e+00  5.651e-01  -1.966   0.0593 .  \ndisp         4.945e-02  8.198e-03   6.032 1.68e-06 ***\nI(disp^2)   -1.807e-04  3.361e-05  -5.378 9.88e-06 ***\nI(disp^3)    2.243e-07  4.119e-08   5.446 8.21e-06 ***\n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.3299 on 28 degrees of freedom\nMultiple R-squared:  0.8973,    Adjusted R-squared:  0.8863 \nF-statistic: 81.57 on 3 and 28 DF,  p-value: 5.959e-14\n\n\n\nplot(mtcars$disp,mtcars$wt)\ncurve(2.243e-07*x^3 -1.807e-04*x^2 +4.945e-02*x -1.111e+00,add=TRUE)\n\n\n\n\n\n\n\n\n\nbest_model &lt;- lm(wt ~ poly(disp,15), data=mtcars)\nsummary(best_model)\n\n\nCall:\nlm(formula = wt ~ poly(disp, 15), data = mtcars)\n\nResiduals:\n     Min       1Q   Median       3Q      Max \n-0.43800 -0.11202 -0.00364  0.16319  0.37783 \n\nCoefficients:\n                   Estimate Std. Error t value Pr(&gt;|t|)    \n(Intercept)       3.2172500  0.0509709  63.119  &lt; 2e-16 ***\npoly(disp, 15)1   4.8375552  0.2883350  16.778 1.41e-11 ***\npoly(disp, 15)2   0.0452475  0.2883350   0.157   0.8773    \npoly(disp, 15)3   1.7965723  0.2883350   6.231 1.20e-05 ***\npoly(disp, 15)4   0.4463962  0.2883350   1.548   0.1411    \npoly(disp, 15)5  -0.6866393  0.2883350  -2.381   0.0300 *  \npoly(disp, 15)6  -0.3384161  0.2883350  -1.174   0.2577    \npoly(disp, 15)7  -0.6134397  0.2883350  -2.128   0.0493 *  \npoly(disp, 15)8   0.0528245  0.2883350   0.183   0.8569    \npoly(disp, 15)9   0.0814084  0.2883350   0.282   0.7813    \npoly(disp, 15)10 -0.0654665  0.2883350  -0.227   0.8233    \npoly(disp, 15)11  0.2853853  0.2883350   0.990   0.3370    \npoly(disp, 15)12 -0.0007108  0.2883350  -0.002   0.9981    \npoly(disp, 15)13  0.4495723  0.2883350   1.559   0.1385    \npoly(disp, 15)14 -0.0699728  0.2883350  -0.243   0.8113    \npoly(disp, 15)15 -0.5031480  0.2883350  -1.745   0.1002    \n---\nSignif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1\n\nResidual standard error: 0.2883 on 16 degrees of freedom\nMultiple R-squared:  0.9552,    Adjusted R-squared:  0.9132 \nF-statistic: 22.73 on 15 and 16 DF,  p-value: 5.551e-08\n\n\n\npred &lt;- predict(best_model, data.frame(disp=50:500))\nplot(mtcars$disp, mtcars$wt)\npoints(50:500, pred, type=\"l\")\n\n\n\n\n\n\n\n\n\npredict(third_wd, data.frame(disp=420))\n\n       1 \n4.397246 \n\n\n\npredict(best_model, data.frame(disp=420))\n\n       1 \n7.329183 \n\n\n\npredict(best_model, data.frame(disp=c(20,420, 500)))\n\n           1            2            3 \n 3865.329736     7.329183 -1513.538298 \n\n\n\nSo, the “best” model is not best at all.."
+    "text": "Hiyerarşik kümeleme, veri madenciliğinde bir veri setindeki kümelerin hiyerarşik bir temsilini oluşturan bir küme analizi yöntemidir. Yöntem, her veri noktasını ayrı bir küme olarak ele alarak başlar ve daha sonra bir durdurma kriteri karşılanana kadar en yakın kümeleri yinelemeli olarak birleştirir. Hiyerarşik kümelemenin sonucu, kümeler arasındaki hiyerarşik ilişkileri gösteren dendrogram adı verilen ağaç benzeri bir yapıdır.\n\n\n\nKonveks olmayan kümeleri ve farklı boyut ve yoğunluktaki kümeleri işleyebilme yeteneği.\nEksik verileri ve gürültülü verileri işleyebilme yeteneği.\nVerilerin hiyerarşik yapısını ortaya çıkarma yeteneği, bu da kümeler arasındaki ilişkileri anlamak için faydalı olabilir.\n\n\n\n\n\nKümeleme sürecini durdurmak ve nihai küme sayısını belirlemek için bir kritere ihtiyaç duyulması.\nYöntemin hesaplama maliyeti ve bellek gereksinimleri, özellikle büyük veri setleri için yüksek olabilir.\nSonuçlar, başlangıç koşullarına, bağlantı kriterine ve kullanılan uzaklık metriğine duyarlı olabilir.\n\nÖzetle, Hiyerarşik kümeleme, benzer veri noktalarını kümelerin hiyerarşik bir yapısını oluşturarak gruplayan bir veri madenciliği yöntemidir. - Bu yöntem farklı türdeki verileri işleyebilir ve kümeler arasındaki ilişkileri ortaya çıkarabilir. Ancak, yüksek hesaplama maliyetine sahip olabilir ve sonuçlar bazı koşullara duyarlı olabilir.\n\n\n\nTemel olarak, iki tür hiyerarşik kümeleme vardır:\n\nAglomeratif Kümeleme\nBölücü Kümeleme\n\n\n\n\nBaşlangıçta her veri noktasını bireysel bir Küme olarak düşünün ve her adımda en yakın küme çiftlerini birleştirin. (Bu bir aşağıdan yukarıya yöntemdir). İlk başta, her veri seti bireysel bir varlık veya küme olarak kabul edilir. Her iterasyonda, kümeler tek bir küme oluşana kadar farklı kümelerle birleşir.\n\n\n\nBir kümenin diğer tüm kümelerle benzerliğini hesaplayın (yakınlık matrisini hesaplayın)\nHer veri noktasını bireysel bir küme olarak düşünün\nBirbirine çok benzer veya yakın olan kümeleri birleştirin.\nHer küme için yakınlık matrisini yeniden hesaplayın\nSadece tek bir küme kalana kadar 3. ve 4. Adımları tekrarlayın.\n\nBu algoritmanın grafiksel gösterimini bir dendrogram kullanarak görelim.\n\nNot: Bu sadece gerçek algoritmanın nasıl çalıştığının bir gösterimidir, aşağıda hiçbir hesaplama yapılmamıştır, tüm kümeler arasındaki yakınlık varsayılmıştır.\n\nDiyelim ki A, B, C, D, E ve F adında altı veri noktamız var.\n\n\n\nAgglomerative Hierarchical clustering\n\n\n\nAdım-1: Her harfi tek bir küme olarak düşünün ve bir kümenin diğer tüm kümelerden uzaklığını hesaplayın.\nAdım-2: İkinci adımda benzer kümeler tek bir küme oluşturmak üzere birleştirilir. Diyelim ki küme (B) ve küme (C) birbirine çok benziyor, bu nedenle ikinci adımda onları birleştiriyoruz, benzer şekilde küme (D) ve (E) de birleşiyor ve sonunda [(A), (BC), (DE), (F)] kümelerini elde ediyoruz.\nAdım-3: Algoritmaya göre yakınlığı yeniden hesaplarız ve en yakın iki kümeyi ([(DE), (F)]) birleştirerek yeni kümeler oluştururuz: [(A), (BC), (DEF)]\nAdım-4: Aynı işlemi tekrarlayarak; DEF ve BC kümeleri benzer ve yeni bir küme oluşturmak için birleştirilir. Artık [(A), (BCDEF)] kümeleri kaldı.\nAdım-5: Son olarak, kalan iki küme tek bir küme [(ABCDEF)] oluşturmak üzere birleştirilir.\n\n\n\n\n\nBölücü Hiyerarşik kümelemenin, Aglomeratif Hiyerarşik kümelemenin tam tersi olduğunu söyleyebiliriz. Bölücü Hiyerarşik kümelemede, tüm veri noktalarını tek bir küme olarak ele alırız ve her iterasyonda benzer olmayan veri noktalarını kümelerden ayırırız. Sonunda, N küme ile kalırız.\n\n\n\nDivisive Hierarchical clustering"
   },
   {
-    "objectID": "r-linear-regression.html#traintest-split",
-    "href": "r-linear-regression.html#traintest-split",
-    "title": "Linear Regression with R",
-    "section": "Train/Test split",
-    "text": "Train/Test split\nLet’s understand the topic of overfitting.\nSplit the data into train and test. Train the model with “training” data. Then predict with “test” data.\n\nsample(1:32, 5, replace=FALSE)\n\n[1] 31 12 16 17  5\n\n\n\nset.seed(2)\nidx &lt;- sample(1:32, 5, replace=FALSE)\nidx\n\n[1] 21 15  6 30  8\n\n\n\ntest &lt;- mtcars[idx,]\n\ntest\n\n                    mpg cyl  disp  hp drat    wt  qsec vs am gear carb\nToyota Corona      21.5   4 120.1  97 3.70 2.465 20.01  1  0    3    1\nCadillac Fleetwood 10.4   8 472.0 205 2.93 5.250 17.98  0  0    3    4\nValiant            18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1\nFerrari Dino       19.7   6 145.0 175 3.62 2.770 15.50  0  1    5    6\nMerc 240D          24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2\n\n\n\ntrain &lt;- mtcars[-idx,]\ntrain\n\n                   mpg cyl  disp  hp drat    wt  qsec vs am gear carb\nMazda RX4         21.0   6 160.0 110 3.90 2.620 16.46  0  1    4    4\nMazda RX4 Wag     21.0   6 160.0 110 3.90 2.875 17.02  0  1    4    4\nDatsun 710        22.8   4 108.0  93 3.85 2.320 18.61  1  1    4    1\nHornet 4 Drive    21.4   6 258.0 110 3.08 3.215 19.44  1  0    3    1\nHornet Sportabout 18.7   8 360.0 175 3.15 3.440 17.02  0  0    3    2\nDuster 360        14.3   8 360.0 245 3.21 3.570 15.84  0  0    3    4\nMerc 230          22.8   4 140.8  95 3.92 3.150 22.90  1  0    4    2\nMerc 280          19.2   6 167.6 123 3.92 3.440 18.30  1  0    4    4\nMerc 280C         17.8   6 167.6 123 3.92 3.440 18.90  1  0    4    4\n [ reached 'max' / getOption(\"max.print\") -- omitted 18 rows ]\n\n\n\nthird_deg &lt;- lm(wt ~ poly(disp,3), data = train)\nsummary(third_deg)$r.squared\n\n[1] 0.8879368\n\n\n\npredict(third_deg, test)\n\n     Toyota Corona Cadillac Fleetwood            Valiant       Ferrari Dino \n          2.633774           5.824101           3.418857           2.970499 \n         Merc 240D \n          2.989188 \n\n\n\ntest$third_pred &lt;- predict(third_deg, test)\ntest\n\n                    mpg cyl  disp  hp drat    wt  qsec vs am gear carb\nToyota Corona      21.5   4 120.1  97 3.70 2.465 20.01  1  0    3    1\nCadillac Fleetwood 10.4   8 472.0 205 2.93 5.250 17.98  0  0    3    4\nValiant            18.1   6 225.0 105 2.76 3.460 20.22  1  0    3    1\nFerrari Dino       19.7   6 145.0 175 3.62 2.770 15.50  0  1    5    6\nMerc 240D          24.4   4 146.7  62 3.69 3.190 20.00  1  0    4    2\n                   third_pred\nToyota Corona        2.633774\nCadillac Fleetwood   5.824101\nValiant              3.418857\nFerrari Dino         2.970499\nMerc 240D            2.989188\n\n\n\nfifteen_deg &lt;- lm(wt ~ poly(disp,15), data=train)\nsummary(fifteen_deg)$r.squared\n\n[1] 0.9550231\n\n\n\npredict(fifteen_deg, test)\n\n     Toyota Corona Cadillac Fleetwood            Valiant       Ferrari Dino \n          2.644378        -844.610091           2.784157           2.761685 \n         Merc 240D \n          2.745391 \n\n\n\ntest$fifteen &lt;- predict(fifteen_deg, test)\n\ntest[c(\"disp\",\"wt\",\"third_pred\",\"fifteen\")]\n\n                    disp    wt third_pred     fifteen\nToyota Corona      120.1 2.465   2.633774    2.644378\nCadillac Fleetwood 472.0 5.250   5.824101 -844.610091\nValiant            225.0 3.460   3.418857    2.784157\nFerrari Dino       145.0 2.770   2.970499    2.761685\nMerc 240D          146.7 3.190   2.989188    2.745391\n\n\nAs you can see, “fifteenth degree” model memorized (i.e overfitted) the data and predicts horribly."
+    "objectID": "ders7.html#contents",
+    "href": "ders7.html#contents",
+    "title": "Clustering Methods",
+    "section": "Contents",
+    "text": "Contents\n\n\n\nIntroduction to Clustering\n\nDefinition and purpose, Unsupervised learning concept, Real-world applications in scientific fields\n\nTypes of Clustering Algorithms\n\nPartitioning methods (e.g., K-means)\nHierarchical methods\nDensity-based methods (e.g., DBSCAN)\n\nK-means Clustering\n\nAlgorithm explanation\nChoosing the number of clusters (elbow method)\nAdvantages and limitations\n\n\n\n\nHierarchical Clustering\n\nAgglomerative vs. divisive approaches\nDendrogram interpretation\nLinkage methods (single, complete, average)\n\nDensity-Based Spatial Clustering of Applications with Noise (DBSCAN)\n\nCore concepts: core points, border points, noise\nAlgorithm explanation\nAdvantages\n\nEvaluation Metrics for Clustering\n\nSilhouette score"
   },
   {
-    "objectID": "id3-decision-tree.html",
-    "href": "id3-decision-tree.html",
-    "title": "Decision Tree Algoritm",
+    "objectID": "ders7.html#definition",
+    "href": "ders7.html#definition",
+    "title": "Clustering Methods",
+    "section": "Definition",
+    "text": "Definition\nClustering is a technique in machine learning and data analysis that involves grouping a set of objects or data points in such a way that objects in the same group (called a cluster) are more similar to each other than to those in other groups. It’s a fundamental task in many data analysis and pattern recognition problems."
+  },
+  {
+    "objectID": "ders7.html#purpose",
+    "href": "ders7.html#purpose",
+    "title": "Clustering Methods",
+    "section": "Purpose",
+    "text": "Purpose\nThe purpose of clustering is multifaceted:\nPattern Discovery: Clustering helps in identifying inherent patterns or structures within data that might not be immediately apparent.\nData Summarization: It can be used to compress large datasets by representing many data points with fewer cluster centroids.\nAnomaly Detection: By identifying groups of similar data points, clustering can help in spotting outliers or anomalies that don’t fit into any cluster.\nSegmentation: In fields like marketing, clustering is used to segment customers into groups with similar behaviors or characteristics.\nPreprocessing for Other Algorithms: Clustering can be used as a preprocessing step for other algorithms, reducing the complexity of the data.\nNatural Classification: In scientific fields, clustering can reveal natural groupings in data, such as in biology for grouping similar species or in astronomy for categorizing types of stars."
+  },
+  {
+    "objectID": "ders7.html#clustering-methods",
+    "href": "ders7.html#clustering-methods",
+    "title": "Clustering Methods",
+    "section": "Clustering Methods",
+    "text": "Clustering Methods\nPartitioning methods: Divide data into non-overlapping subsets, with each data point belonging to exactly one cluster, often optimizing a specific criterion.\nHierarchical Methods: Create a tree-like structure of clusters, either by merging smaller clusters into larger ones or dividing larger clusters into smaller ones.\nDensity-based Methods: Form clusters in areas of high data point density, separated by regions of low density, allowing for discovery of arbitrarily shaped clusters."
+  },
+  {
+    "objectID": "ders7.html#applications",
+    "href": "ders7.html#applications",
+    "title": "Clustering Methods",
+    "section": "Applications",
+    "text": "Applications\n\nBiology\n\n\nGene Expression Analysis: Grouping genes with similar expression patterns across different conditions or time points.\nSpecies Classification: Clustering organisms based on genetic or morphological features.\nProtein Structure Analysis: Identifying structural motifs in proteins.\n\n\nChemistry\n\n\nMolecular Dynamics: Analyzing conformations of molecules during simulations.\nSpectroscopy: Clustering similar spectra for compound identification.\nDrug Discovery: Grouping chemical compounds with similar properties or effects."
+  },
+  {
+    "objectID": "ders7.html#section",
+    "href": "ders7.html#section",
+    "title": "Clustering Methods",
     "section": "",
-    "text": "Taken from https://medium.datadriveninvestor.com/decision-tree-algorithm-with-hands-on-example-e6c2afb40d38\nEntropy\nIn machine learning, entropy is a measure of the randomness in the information being processed. The higher the entropy, the harder it is to draw any conclusions from that information.\n\nInformation Gain\nInformation gain can be defined as the amount of information gained about a random variable or signal from observing another random variable.It can be considered as the difference between the entropy of parent node and weighted average entropy of child nodes.\n\nGini Impurity\nGini impurity is a measure of how often a randomly chosen element from the set would be incorrectly labeled if it was randomly labeled according to the distribution of labels in the subset.\n\nGini impurity is lower bounded by 0, with 0 occurring if the data set contains only one class.\n\nThere are many algorithms there to build a decision tree. They are\n\nCART (Classification and Regression Trees) — This makes use of Gini impurity as the metric.\nID3 (Iterative Dichotomiser 3) — This uses entropy and information gain as metric.\n\nIn this article, I will go through ID3. Once you got it it is easy to implement the same using CART.\n\nClassification using the ID3 algorithm\nConsider whether a dataset based on which we will determine whether to play football or not.\n\nHere There are for independent variables to determine the dependent variable. The independent variables are Outlook, Temperature, Humidity, and Wind. The dependent variable is whether to play football or not.\nAs the first step, we have to find the parent node for our decision tree. For that follow the steps:\n*Find the entropy of the class variable.*\nE(S) = -[(9/14)log(9/14) + (5/14)log(5/14)] = 0.94\nnote: Here typically we will take log to base 2.Here total there are 14 yes/no. Out of which 9 yes and 5 no.Based on it we calculated probability above.\nFrom the above data for outlook we can arrive at the following table easily\n\n*Now we have to calculate average weighted entropy*. ie, we have found the total of weights of each feature multiplied by probabilities.\nE(S, outlook) = (5/14)E(3,2) + (4/14)E(4,0) + (5/14)*E(2,3) = (5/14)(-(3/5)log(3/5)-(2/5)log(2/5))+ (4/14)(0) + (5/14)((2/5)log(2/5)-(3/5)log(3/5)) = 0.693\n*The next step is to find the information gain*. It is the difference between parent entropy and average weighted entropy we found above.\nIG(S, outlook) = 0.94 - 0.693 = 0.247\nSimilarly find Information gain for Temperature, Humidity, and Windy.\nIG(S, Temperature) = 0.940 - 0.911 = 0.029\nIG(S, Humidity) = 0.940 - 0.788 = 0.152\nIG(S, Windy) = 0.940 - 0.8932 = 0.048\n*Now select the feature having the largest entropy gain*. Here it is Outlook. So it forms the first node(root node) of our decision tree.\nNow our data look as follows\n\n\n\nSince overcast contains only examples of class ‘Yes’ we can set it as yes. That means If outlook is overcast football will be played. Now our decision tree looks as follows.\n\nThe next step is to find the next node in our decision tree. Now we will find one under sunny. We have to determine which of the following Temperature, Humidity or Wind has higher information gain.\n\nCalculate parent entropy E(sunny)\nE(sunny) = (-(3/5)log(3/5)-(2/5)log(2/5)) = 0.971.\nNow Calculate the information gain of Temperature. IG(sunny, Temperature)\n\nE(sunny, Temperature) = (2/5)E(0,2) + (2/5)E(1,1) + (1/5)*E(1,0)=2/5=0.4\nNow calculate information gain.\nIG(sunny, Temperature) = 0.971–0.4 =0.571\nSimilarly we get\nIG(sunny, Humidity) = 0.971\nIG(sunny, Windy) = 0.020\nHere IG(sunny, Humidity) is the largest value. So Humidity is the node that comes under sunny.\n\nFor humidity from the above table, we can say that play will occur if humidity is normal and will not occur if it is high. Similarly, find the nodes under rainy.\n*Note: A branch with entropy more than 0 needs further splitting.*\nFinally, our decision tree will look as below:\n\n\n\nClassification using CART algorithm\nClassification using CART is similar to it. But instead of entropy, we use Gini impurity.\nSo as the first step we will find the root node of our decision tree. For that Calculate the Gini index of the class variable\nGini(S) = 1 - [(9/14)² + (5/14)²] = 0.4591\nAs the next step, we will calculate the Gini gain. For that first, we will find the average weighted Gini impurity of Outlook, Temperature, Humidity, and Windy.\nFirst, consider case of Outlook\n\nGini(S, outlook) = (5/14)gini(3,2) + (4/14)gini(4,0)+ (5/14)gini(2,3) = (5/14)(1 - (3/5)² - (2/5)²) + (4/14)*0 + (5/14)(1 - (2/5)² - (3/5)²)= 0.171+0+0.171 = 0.342\nGini gain (S, outlook) = 0.459 - 0.342 = 0.117\nGini gain(S, Temperature) = 0.459 - 0.4405 = 0.0185\nGini gain(S, Humidity) = 0.459 - 0.3674 = 0.0916\nGini gain(S, windy) = 0.459 - 0.4286 = 0.0304\nChoose one that has a higher Gini gain. Gini gain is higher for outlook. So we can choose it as our root node."
+    "text": "Physics\n\n\nParticle Physics: Classifying particle collision events in high-energy physics experiments.\nAstrophysics: Clustering stars or galaxies based on their properties (e.g., luminosity, temperature).\nMaterials Science: Analyzing crystal structures and defects in materials."
   },
   {
-    "objectID": "ders1-TR.html",
-    "href": "ders1-TR.html",
-    "title": "GPT modelleri",
+    "objectID": "ders7.html#partitioning",
+    "href": "ders7.html#partitioning",
+    "title": "Clustering Methods",
+    "section": "Partitioning",
+    "text": "Partitioning\n\nImage source"
+  },
+  {
+    "objectID": "ders7.html#k-means-clustering",
+    "href": "ders7.html#k-means-clustering",
+    "title": "Clustering Methods",
+    "section": "K-means clustering",
+    "text": "K-means clustering\nK-means clustering is an unsupervised machine learning algorithm used to group similar data points into clusters. It works by iteratively assigning data points to k predefined clusters based on their similarity to the cluster centers (centroids). The algorithm starts by randomly initializing k centroids in the feature space. It then repeatedly performs two steps:\n\nassign each data point to the nearest centroid, and\nrecalculate the centroids as the mean of all points in each cluster.\n\nThis process continues until the centroids stabilize or a maximum number of iterations is reached. K-means aims to minimize the within-cluster sum of squares, resulting in compact and distinct clusters."
+  },
+  {
+    "objectID": "ders7.html#k-means-clustering---interactive-demos",
+    "href": "ders7.html#k-means-clustering---interactive-demos",
+    "title": "Clustering Methods",
+    "section": "K-means clustering - interactive demos",
+    "text": "K-means clustering - interactive demos\nPlease visit the following sites:\n\nTwo-dimensional visualization of k-means clustering algorithm\nK-means Clustering - Interactive Demonstration\nVisualizing K-Means Clustering"
+  },
+  {
+    "objectID": "ders7.html#k-means-clustering-with-r",
+    "href": "ders7.html#k-means-clustering-with-r",
+    "title": "Clustering Methods",
+    "section": "K-means clustering with R",
+    "text": "K-means clustering with R\nPlease visit K-means with R page for the code."
+  },
+  {
+    "objectID": "ders7.html#advantages-of-k-means-clustering",
+    "href": "ders7.html#advantages-of-k-means-clustering",
+    "title": "Clustering Methods",
+    "section": "Advantages of K-means clustering",
+    "text": "Advantages of K-means clustering\n\nSimplicity: Easy to understand and implement.\nEfficiency: Generally fast and computationally efficient, especially for large datasets.\nScalability: Works well with high-dimensional data.\nFlexibility: Can be adapted to different types of data with appropriate distance metrics.\nInterpretability: Resulting clusters are often easy to interpret."
+  },
+  {
+    "objectID": "ders7.html#disadvantages-of-k-means-clustering",
+    "href": "ders7.html#disadvantages-of-k-means-clustering",
+    "title": "Clustering Methods",
+    "section": "Disadvantages of K-means clustering",
+    "text": "Disadvantages of K-means clustering\n\nSensitivity to initial centroids: Results can vary based on the initial random placement of centroids.\nRequires predefined k: The number of clusters must be specified beforehand, which isn’t always known.\nAssumes spherical clusters: Performs poorly with non-globular cluster shapes.\nSensitivity to outliers: Outliers can significantly impact centroid calculation and cluster assignment.\nStruggles with varying cluster sizes: Tends to create clusters of similar spatial extent.\nLocal optima: May converge to a local minimum rather than the global optimum.\nInability to handle categorical data directly: Requires preprocessing for non-numerical data."
+  },
+  {
+    "objectID": "ders7.html#hierarchical-clustering",
+    "href": "ders7.html#hierarchical-clustering",
+    "title": "Clustering Methods",
+    "section": "Hierarchical clustering",
+    "text": "Hierarchical clustering\nHierarchical clustering is an unsupervised machine learning technique used to group similar data points into clusters. Unlike other clustering methods that require a predefined number of clusters, hierarchical clustering creates a tree-like structure of clusters called a dendrogram. This method works by either starting with each data point as its own cluster and iteratively merging the closest clusters (agglomerative approach), or by starting with all data points in one cluster and recursively dividing it (divisive approach). The process continues until a stopping criterion is met, such as a desired number of clusters or a threshold distance between clusters.\nHierarchical clustering is particularly useful for exploring the inherent structure of data at different levels of granularity and for datasets where the number of clusters is not known in advance."
+  },
+  {
+    "objectID": "ders7.html#how-it-works",
+    "href": "ders7.html#how-it-works",
+    "title": "Clustering Methods",
+    "section": "How it works",
+    "text": "How it works\nHierarchical clustering begins by calculating the distances between all pairs of data points using a chosen distance metric (e.g., Euclidean distance). In the agglomerative approach, which is more common, each data point starts as its own cluster. The algorithm then iteratively merges the two closest clusters based on a linkage criterion (e.g., single linkage, complete linkage, or average linkage). This process repeats, forming larger clusters until all data points are in a single cluster or until the desired number of clusters is reached. The result is a hierarchical structure that can be visualized as a dendrogram, allowing users to choose the level of clustering that best suits their needs.\nPlease visit Hierarchical Clustering in Data Mining and An Introduction to Hierarchical Clustering"
+  },
+  {
+    "objectID": "ders7.html#section-1",
+    "href": "ders7.html#section-1",
+    "title": "Clustering Methods",
     "section": "",
-    "text": "GPT1, GPT2 ve GPT3, ChatGPT’den birkaç yıl önce piyasaya sürüldü ve cümleleri tamamlama yeteneğine sahipti. Daha fazla bilgi için “ChatGPT Nasıl Çalışır?” sitesini ziyaret edin. ChatGPT’nin piyasaya sürülmesinden sonra, büyük dil modelleri “konuşma yeteneği” kazandı.\nLütfen OpenAI Playground tamamlama sitesini ziyaret edin ve model olarak “gpt-3.5-turbo”yu seçin. Tamamlanmamış bir cümle yazın ve ardından Gönder düğmesine basın.\n\nModelin cümlenizi tamamladığını göreceksiniz. Sağ menüdeki “Olasılıkları göster” seçeneğini açarsanız, GPT’nin nasıl çalıştığına dair bir fikir edinebilirsiniz.\n\nCümleyi tamamlayıp kelimelerin üzerine geldiğinizde, modelin belirli olasılıklarla seçebileceği birçok kelime olduğunu göreceksiniz. Bu örnekte, “my” kelimesi Today is ifadesinden sonra 4. en olası kelimedir ve “birthday” kelimesi Today is my ifadesinden sonra en olası kelimedir.\n\n\nGPT modellerinin temel ayarlarından biri sıcaklık değeridir. Sıcaklığı azaltırsanız, model en olası kelimeleri seçecektir. Sıcaklık yüksekse, model düşük olasılıklı kelimeleri seçecektir, bu da yaratıcı ve çeşitli çıktılar sağlayacaktır.\nSıcaklığı sıfıra düşürürseniz, çıktı her zaman aynı olacaktır."
+    "text": "Please visit following sites for demos\n\nClustering Demo at yFiles"
   },
   {
-    "objectID": "ders1-TR.html#chatgpt-bizim-için-kod-yazıyor",
-    "href": "ders1-TR.html#chatgpt-bizim-için-kod-yazıyor",
-    "title": "GPT modelleri",
-    "section": "ChatGPT bizim için kod yazıyor",
-    "text": "ChatGPT bizim için kod yazıyor\nHadi ChatGPT’den Python’da hızlı bir asal sayı fonksiyonu isteyelim\n\n\nAz önce ne olduğunu gördünüz mü! Bize özel hazırlanmış bir kod sağladı ve kodun parçalarını da açıkladı. Kodun dersimiz sırasında öğrendiğimiz püf noktaları içerdiğini fark ettiniz mi: * erken durma: bir koşul karşılanırsa, hemen True veya False döndür * N’ye kadar kontrol etmek yerine, \\(\\sqrt{N}\\)’e kadar olan sayıları kontrol etmeliyiz (Python’da n  0.5**)\nKonuşmaya devam edebilirsiniz. Hadi memoization isteyelim.\n\n\nHadi kodu alalım ve burada test edelim:\ndef is_prime(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n in (2, 3):\n        result = True\n    elif n == 1 or n % 2 == 0:\n        result = False\n    else:\n        result = True\n        for i in range(3, int(n ** 0.5) + 1, 2):\n            if n % i == 0:\n                result = False\n                break\n    memo[n] = result\n    return result\n# is_prime(100000000003)\n\n\n\n\n\n\nUyarı\n\n\n\nBu notu yazdığım sırada (Ocak 2023) chatGPT’nin tam olarak doğru olmayan sonuçlar verdiği biliniyordu!Bu nedenle, chatGPT’den aldığınız kodu veya bilgiyi kontrol etmeden veya doğrulamadan olduğu gibi kullanmamaya dikkat ediniz."
+    "objectID": "ders7.html#advantages-of-hierarchical-clustering",
+    "href": "ders7.html#advantages-of-hierarchical-clustering",
+    "title": "Clustering Methods",
+    "section": "Advantages of hierarchical clustering",
+    "text": "Advantages of hierarchical clustering\n\nNo predefined number of clusters required: Unlike k-means, hierarchical clustering doesn’t require specifying the number of clusters in advance.\nHierarchical representation: Provides a dendrogram, offering insights into the data structure at different levels.\nFlexibility in cluster granularity: Users can choose the level of clustering that best suits their needs by cutting the dendrogram at different levels.\nApplicability to various data types: Can be applied to any data type for which a similarity or distance measure can be defined.\nInterpretability: The dendrogram provides a visually intuitive representation of the clustering process.\nHandles different cluster shapes: Can identify clusters of various shapes and sizes, not just spherical ones."
   },
   {
-    "objectID": "ders1-TR.html#chatgpt-kodu-düzeltebilir-veya-değiştirebilir",
-    "href": "ders1-TR.html#chatgpt-kodu-düzeltebilir-veya-değiştirebilir",
-    "title": "GPT modelleri",
-    "section": "ChatGPT kodu düzeltebilir veya değiştirebilir",
-    "text": "ChatGPT kodu düzeltebilir veya değiştirebilir\nElinizde bir kod parçası var ve istediğiniz gibi çalışmıyor mu? O zaman ChatGPT’den kodu düzeltmesini isteyebilirsiniz.\nHatalı bir kod verelim ve chatGPT’den hata ayıklamasını isteyelim:\n\n\nDemek ki ChatGPT kodu düzeltebiliyor! Bu arada, o örneği hazırlamak için ChatGPT’yi kullandığımı biliyor muydunuz? ;)"
+    "objectID": "ders7.html#disadvantages",
+    "href": "ders7.html#disadvantages",
+    "title": "Clustering Methods",
+    "section": "Disadvantages",
+    "text": "Disadvantages\n\nComputational complexity: O(n^2) space complexity and O(n^3) time complexity in many implementations, making it less suitable for very large datasets.\nSensitivity to noise and outliers: Outliers can significantly affect the shape of the dendrogram.\nDifficulty in handling high-dimensional data: Performance and interpretability may decrease as the number of dimensions increases.\nLack of backtracking: Once a merge or split is made, it can’t be undone, which may lead to suboptimal results.\nMemory intensive: Storing the distance matrix for large datasets can be memory-intensive.\nChoice of distance metric and linkage method: Results can vary significantly based on the chosen distance metric and linkage method, requiring careful consideration.\nScalability issues: Not as scalable as some other clustering methods for very large datasets."
   },
   {
-    "objectID": "ders1-TR.html#bu-programlamanın-sonu-mu",
-    "href": "ders1-TR.html#bu-programlamanın-sonu-mu",
-    "title": "GPT modelleri",
-    "section": "Bu programlamanın sonu mu?",
-    "text": "Bu programlamanın sonu mu?\n“Bir dönem boyunca Python öğrendik ama şimdi ChatGPT var, hiç kod öğrenmeye gerek yok!” diye düşünebilirsiniz. Benzer endişeleri araştıran çevrimiçi içerikler bulabilirsiniz. Ancak daha makul yaklaşım, “AI araçları geliştiricilerin hızını ve verimliliğini artıracak ve ayrıca yeni dillere giriş engellerini azaltacak” şeklindedir.\nAşağıdaki bölüm Github Copilot’un sayfasından alınmıştır:"
+    "objectID": "ders7.html#dbscan-clustering",
+    "href": "ders7.html#dbscan-clustering",
+    "title": "Clustering Methods",
+    "section": "DBSCAN clustering",
+    "text": "DBSCAN clustering\nDBSCAN (Density-Based Spatial Clustering of Applications with Noise) is a popular clustering algorithm that groups together points that are closely packed in space, marking points that lie alone in low-density regions as outliers.\nIt works by selecting a random unvisited point and exploring its neighborhood within a specified radius (ε). If this neighborhood contains a minimum number of points (MinPts), a cluster is formed. The algorithm then iteratively expands the cluster by exploring the neighborhoods of the newly added points. If a point doesn’t have enough neighbors to form a cluster, it’s labeled as noise. This process continues until all points have been visited, resulting in a set of dense clusters of varying shapes and sizes, along with identified noise points."
   },
   {
-    "objectID": "ders1-TR.html#chatgptyi-gösterdiğiniz-için-teşekkürler-artık-ödevlerimi-kolayca-hazırlayabilirim",
-    "href": "ders1-TR.html#chatgptyi-gösterdiğiniz-için-teşekkürler-artık-ödevlerimi-kolayca-hazırlayabilirim",
-    "title": "GPT modelleri",
-    "section": "ChatGPT’yi gösterdiğiniz için teşekkürler, artık ödevlerimi kolayca hazırlayabilirim!",
-    "text": "ChatGPT’yi gösterdiğiniz için teşekkürler, artık ödevlerimi kolayca hazırlayabilirim!\nChatGPT’nin yeteneklerini görmek, yanlış kullanım hakkında bazı ipuçları verebilir. Öncelikle, bir ödev sizin bir kavramı öğrenmeniz içindir (gitar çalma benzetmesini hatırlayın?) bu nedenle AI destekli intihal yapmak hala bir intihaldir ve sizin açınızdan bir kayıptır. (lütfen intihalin olumsuz etkileri için 00-academic-integrity.ipynb dosyasını da kontrol edin)\nİkincisi, OpenAI ve diğerleri ChatGPT çıktısına kolayca fark edilebilecek filigranlar eklemek için araçlar ve yöntemler üzerinde çalışıyor.\nBu yüzden lütfen bu araçtan ilham alın, öğrenmenizi geliştirmek için kullanın ama intihal için kullanmayın."
+    "objectID": "ders7.html#interactive-demos",
+    "href": "ders7.html#interactive-demos",
+    "title": "Clustering Methods",
+    "section": "Interactive demos",
+    "text": "Interactive demos\nPlease visit DBSCAN— A visualized and detailed introduction page about core concepts\nPlease visit Visualizing DBSCAN Clustering page for interactive demo for DBSCAN algoritm"
   },
   {
-    "objectID": "ders1-TR.html#kapalı-ve-açık-modeller",
-    "href": "ders1-TR.html#kapalı-ve-açık-modeller",
-    "title": "GPT modelleri",
-    "section": "Kapalı ve Açık modeller",
-    "text": "Kapalı ve Açık modeller\nŞu anda, her biri eğitilmek için yüz milyonlarca dolar harcanan ve büyük şirketler tarafından geliştirilen birkaç kapalı kaynaklı büyük dil modeli var: * GPT3.5 (ChatGPT) ve GPT4 OpenAI tarafından * PaLM ve Bard Google tarafından * Claude Anthropics tarafından"
+    "objectID": "ders7.html#dbscan-algoritm",
+    "href": "ders7.html#dbscan-algoritm",
+    "title": "Clustering Methods",
+    "section": "DBSCAN Algoritm",
+    "text": "DBSCAN Algoritm"
   },
   {
-    "objectID": "ders1-TR.html#claude-3.5-sonnet-by-antropic",
-    "href": "ders1-TR.html#claude-3.5-sonnet-by-antropic",
-    "title": "GPT modelleri",
-    "section": "Claude 3.5 Sonnet by Antropic",
-    "text": "Claude 3.5 Sonnet by Antropic\nClaude 3.5, Claude modelinin en son sürümüdür. Antropic, Claude’u üç boyutta piyasaya sürer: Haiku (en küçük), Sonnet (orta) ve Opus (en büyük). Şu anda, Claude 3.5 Sonnest en iyi LLM’dir. Genellikle Claude yaratıcı yazma konusunda iyidir, ancak son sürümüyle kodlamada da mükemmelleşmiştir. Ayrıca, Claude sağ panelde kodun önizlemesine (web tabanlı) izin verir.\nAşağıda, Claude 3.5 Sonnet’e “Lütfen HTML, CSS ve JS ile yılan oyunu yaz” komutu verildiğinde oluşturulan bir örnek yer alıyor. Oyunu gerçekten oynayabilirsiniz!\n\nClaude ayrıca belgeleri (örneğin PDF) yüklemeye ve belge hakkında sorular sormaya izin verir.\nClaude’u (bazı sınırlamalarla) ücretsiz bir hesap kaydettikten sonra https://claude.ai/chat adresinde kullanabilirsiniz."
+    "objectID": "ders7.html#advantages-of-dbscan",
+    "href": "ders7.html#advantages-of-dbscan",
+    "title": "Clustering Methods",
+    "section": "Advantages of DBSCAN",
+    "text": "Advantages of DBSCAN\n\nShape flexibility: Can find arbitrarily shaped clusters, not just circular ones.\nOutlier detection: Automatically identifies noise points and outliers.\nNo pre-defined number of clusters: Unlike k-means, doesn’t require specifying the number of clusters beforehand.\nDensity-based: Effective at separating clusters of different densities.\nRobustness: Less sensitive to outliers compared to centroid-based algorithms."
   },
   {
-    "objectID": "ders1-TR.html#gemini-by-google",
-    "href": "ders1-TR.html#gemini-by-google",
-    "title": "GPT modelleri",
-    "section": "Gemini by Google",
-    "text": "Gemini by Google\nGemini aslında çevrimiçi arama kapasitesine sahip bir LLM’dir. Ayrıca, (Google Drive aracılığıyla) belgeler indirebilir veya sorular sormak için YouTube videolarına yönlendirebilirsiniz. Son olarak, Gemini 1 milyon belirteçlik en uzun bağlam penceresine sahiptir (bir kerede yaklaşık 10 kitap sığacaktır)."
+    "objectID": "ders7.html#disadvantages-1",
+    "href": "ders7.html#disadvantages-1",
+    "title": "Clustering Methods",
+    "section": "Disadvantages",
+    "text": "Disadvantages\n\nParameter sensitivity: Results can vary significantly based on the choice of ε and MinPts parameters.\nStruggle with varying densities: May have difficulty when clusters have widely different densities.\nHigh-dimensional data: Performance and effectiveness can decrease in high-dimensional spaces due to the “curse of dimensionality”.\nMemory requirements: Can be memory-intensive for large datasets.\nScalability: Not as efficient for very large datasets compared to some other algorithms.\nConnectivity-based: May struggle with datasets where clusters are close but separated by sparse areas."
   },
   {
-    "objectID": "ders1-TR.html#modelleri-lokal-olarak-çalıştırma",
-    "href": "ders1-TR.html#modelleri-lokal-olarak-çalıştırma",
-    "title": "GPT modelleri",
-    "section": "Modelleri lokal olarak çalıştırma",
-    "text": "Modelleri lokal olarak çalıştırma\nGeliştiriciler model ağırlıklarını paylaştığı için, modelleri indirip yerel olarak çalıştırmak mümkün. Çeşitli boyutlarda modeller var. 7B (7 milyar) modeller yaklaşık 4Gb bellek gerektiriyor, bu yüzden onları dizüstü bilgisayarınızda çalıştırabilirsiniz.\nModelleri, Python için PyTorch ve bazı diğer kütüphaneleri kurarak ve ardından biraz Python kodu yazarak çalıştırabilirsiniz. Ya da Ollama’yı kurabilir ve ardından onunla uyumlu herhangi bir modeli çalıştırabilirsiniz.\nBir modeli yerel olarak çalıştırmanın avantajları: 1. Daha Az Sansür 2. Daha İyi Veri Gizliliği 3. Çevrimdışı Kullanım 4. Maliyet Tasarrufu 5. Daha İyi Özelleştirme\nBir modeli yerel olarak çalıştırmanın dezavantajları: 1. Kaynak Yoğun 2. Daha Yavaş Yanıtlar ve Daha Düşük Performans 3. Karmaşık Kurulum\n\nJupyter notebook veya Google Colab kullanarak lokal olarak model çalıştırma\nAslında LLM modellerini Jupyter notebook’larında çalıştırabilirsiniz. Ancak bu süreç, birçok Python paketini kurmanızı, model ağırlıklarını indirmenizi ve ardından modele soru sormak ve yanıtı bir sözlükte yakalamak için biraz Python kodu yazmanızı gerektirecektir. “Sohbet benzeri” deneyim için bazı çözümler olsa da, deneyim daha çok “tek seferlik soru ve cevap” gibidir.\nLütfen Google’ın bir Jupyter notebook ortamında modeli çalıştırmak için GPU (veya TPU) sağladığı Google Colab’daki süreci anlatan YouTube videosunu kontrol edin.\n\n\nOllama ile lokal olarak model çalıştırma\n\nÖzelleştirilmiş modeller hakkında bir fikir edinmek için lütfen modeller listesi sayfasını ziyaret edin. Ollama ile, bu modellerden herhangi birini indirebilir ve kullanabilirsiniz.\nTerminalde, mevcut modelleri listeleyelim\n$ ollama list\n\nNAME                ID              SIZE    MODIFIED\ndeepseek-coder:6.7b 72be2442d736    3.8 GB  5 weeks ago     \nneural-chat:latest  73940af9fe02    4.1 GB  5 weeks ago     \norca2:7b            ea98cc422de3    3.8 GB  5 weeks ago     \nphi:latest          c651b7a89d73    1.6 GB  14 hours ago    \nsolar:latest        059fdabbe6e6    6.1 GB  2 hours ago     \nstablelm-zephyr:3b  7c596e78b1fc    1.6 GB  3 weeks ago\nMicrosoft tarafından geliştirilen Phi-2’yi çalıştıralım. İşte Phi-2 hakkında bilgi:\n\n2,7 milyar parametreli bir dil modeli olan Phi-2, olağanüstü akıl yürütme ve dil anlama yetenekleri sergiliyor ve 13 milyar parametreden daha az olan temel dil modelleri arasında en son teknoloji performansı gösteriyor. Karmaşık kıyaslamalarda Phi-2, model ölçeklendirme ve eğitim verisi kürasyon konusundaki yeni yenilikler sayesinde 25 kat daha büyük modellere eşdeğer veya daha iyi performans gösteriyor.\n\n$ ollama run phi:latest\n\n&gt;&gt;&gt; Gökyüzü neden mavi?\n\nGökyüzü, Rayleigh saçılması adı verilen bir fenomen nedeniyle mavi görünür. Güneş ışığı Dünya'nın atmosferine girdiğinde, oksijen ve azot atomları gibi havadaki moleküller ve küçük parçacıklarla çarpışır. Bu çarpışmalar, ışığın daha kısa dalga boylarının (mavi) daha uzun dalga boylarından (kırmızı, turuncu, sarı, yeşil ve mor) daha fazla saçılmasına neden olur.\nSonuç olarak, gözlerimiz saçılan mavi ışığı baskın olarak algılar ve bu nedenle gökyüzü bize mavi görünür.\nGördüğünüz gibi, soruları cevaplayabilen, kodlama konusunda yardımcı olabilen küçük bir model yerel olarak çalıştırılabilir.\n\n\nKullanıcı arayüzü ile lokal olarak model çalıştırma\n\nOllama Web UI\n\n\n\nLLM Studio\nLM Studio’yu kurabilir ve ardından kullanıcı arayüzü ile yerel modellerle etkileşime geçebilirsiniz"
+    "objectID": "ders7.html#evaluating-clustering",
+    "href": "ders7.html#evaluating-clustering",
+    "title": "Clustering Methods",
+    "section": "Evaluating clustering",
+    "text": "Evaluating clustering\nDefinition: The silhouette score ranges from -1 to 1, where:\n\nA score close to 1 indicates that the data point is well-matched to its own cluster and poorly-matched to neighboring clusters.\nA score around 0 suggests that the data point is on or very close to the decision boundary between two neighboring clusters.\nA negative score indicates that the data point might have been assigned to the wrong cluster.\n\nCalculation: For each data point i, the silhouette score s(i) is calculated as:\ns(i) = (b(i) - a(i)) / max(a(i), b(i))\nWhere: a(i) is the average distance between i and all other points in the same clusteri, (i) is the average distance between i and all points in the nearest cluster that i is not a part of\nInterpretation:\n\nHigher silhouette scores indicate better-defined clusters.\nThe average silhouette score across all points can be used to compare different clustering configurations."
   },
   {
-    "objectID": "ders1-TR.html#github-copilot",
-    "href": "ders1-TR.html#github-copilot",
-    "title": "GPT modelleri",
-    "section": "Github CoPilot",
-    "text": "Github CoPilot"
+    "objectID": "ders7.html#classification-vs.-clustering",
+    "href": "ders7.html#classification-vs.-clustering",
+    "title": "Clustering Methods",
+    "section": "Classification vs. Clustering",
+    "text": "Classification vs. Clustering\nplease compare these two concepts"
   },
   {
-    "objectID": "ders1-TR.html#ücretsiz-github-copilot-alternatifi",
-    "href": "ders1-TR.html#ücretsiz-github-copilot-alternatifi",
-    "title": "GPT modelleri",
-    "section": "Ücretsiz Github CoPilot alternatifi",
-    "text": "Ücretsiz Github CoPilot alternatifi\nCody, Sourcegraph’in AI kodlama asistanıdır ve sizi 10x geliştirici yapacak başka hiçbir asistanın sahip olmadığı birkaç özelliğe sahiptir. Buradan inceleyebilirsiniz: https://sourcegraph.com/cody"
+    "objectID": "ders2.html#veri-analizi-veri-bilimi-makine-öğrenmesi",
+    "href": "ders2.html#veri-analizi-veri-bilimi-makine-öğrenmesi",
+    "title": "Veri tipleri ve işleme",
+    "section": "Veri analizi, veri bilimi, makine öğrenmesi",
+    "text": "Veri analizi, veri bilimi, makine öğrenmesi"
   },
   {
-    "objectID": "ders1-TR.html#açık-kaynak-lokal-alternatifler",
-    "href": "ders1-TR.html#açık-kaynak-lokal-alternatifler",
-    "title": "GPT modelleri",
-    "section": "Açık kaynak lokal alternatifler",
-    "text": "Açık kaynak lokal alternatifler\nDaha fazla bilgi için lütfen https://tabby.tabbyml.com/ adresini ziyaret edin"
+    "objectID": "ders2.html#section",
+    "href": "ders2.html#section",
+    "title": "Veri tipleri ve işleme",
+    "section": "",
+    "text": "source"
   },
   {
-    "objectID": "ders1-TR.html#görüntü-üretimi",
-    "href": "ders1-TR.html#görüntü-üretimi",
-    "title": "GPT modelleri",
-    "section": "Görüntü Üretimi",
-    "text": "Görüntü Üretimi\n\nOpenAI’dan DALL-E 3\nİstek: “arka planda istanbul şehri silüeti olan bir dna sarmalı”\nDüzeltilmiş istek: “Bilim ve mimarinin buluştuğu detaylı bir illüstrasyon hayal edin. Ön planda, karanlık bir arka plan üzerinde büyütülmüş ve parlayan bir DNA sarmalı var. Bu sarmal yapı tam olarak betimlenmiş, tanıdık çift sarmal şekli muhteşem bir şekilde kıvrılıyor. Bu bilimsel görüntüyle iç içe geçmiş şekilde, arka planda İstanbul şehrinin bir silüet temsili var. Şehir silueti, kubbeli camileri ve yükselen minareleriyle muhteşem tarihi mimarisini sergiliyor. Şehir manzarası, akşamüstü gökyüzüne karşı duruyor, batan güneş binaların arkasındaki ufukta turuncu bir parıltı yaratıyor. Bu kombinasyon, bilim ve şehir güzelliğinin büyüleyici bir yan yana gelişiyle sonuçlanıyor.”\nSonuç:\n\n\n\nMidjourney v6\nMidjourney, Aralık 2023’te v6’yı duyurdu. Fotogerçekçi görüntüler üretebiliyor. Normalde, ücretsiz görüntü üretmek için Discord kanallarını kullanmanız gerekir. Ayrıca, getimg.ai kullanarak da görüntüler üretebilirsiniz. Aşağıdaki isteklerle görüntüler üretmeyi denedim:\n\nÇok sayıda öğrencinin olduğu moleküler biyoloji laboratuvarı.\nBeyaz kumlu güzel bir deniz kenarı ve kıyıda tropikal ağaçlar. Deniz yeşilimsi mavi görünüyor.\n\nSonuçlar harika:\n\n\n\nDezenformasyon\nDeepfake veya yapay zeka tarafından üretilmiş sahte fotoğraflara dikkat edin\nSahte Trump Fotoğrafı\n\nSahte Papa Fotoğrafı"
+    "objectID": "ders2.html#veri-tipleri",
+    "href": "ders2.html#veri-tipleri",
+    "title": "Veri tipleri ve işleme",
+    "section": "Veri tipleri",
+    "text": "Veri tipleri\n\nrecord data\ntransaction data\ndata matrix\n\nsparse data matrix\n\ngraph-based data"
   },
   {
-    "objectID": "ders1-TR.html#video-üretimi",
-    "href": "ders1-TR.html#video-üretimi",
-    "title": "GPT modelleri",
-    "section": "Video Üretimi",
-    "text": "Video Üretimi\n\nİstekten videoya\n\nRunwayML Gen-2\nPika\nStable Diffusion’dan Stable Video Diffusion\nGENMO\n\n\n\nGörüntüden videoya\n\nGENMO"
+    "objectID": "ders2.html#sıralı-veri-ordered-data",
+    "href": "ders2.html#sıralı-veri-ordered-data",
+    "title": "Veri tipleri ve işleme",
+    "section": "Sıralı veri / Ordered data",
+    "text": "Sıralı veri / Ordered data\n\n\nSequential / Temporal data\nSequence data\nTime series data\nSpatial data"
   },
   {
-    "objectID": "ders1-TR.html#müzik-veya-ses-üretimi",
-    "href": "ders1-TR.html#müzik-veya-ses-üretimi",
-    "title": "GPT modelleri",
-    "section": "Müzik veya Ses Üretimi",
-    "text": "Müzik veya Ses Üretimi\n\nElevenlabs yapay zeka ses üreticimizle metni çevrimiçi olarak ücretsiz konuşmaya dönüştürebilir"
+    "objectID": "ders2.html#section-3",
+    "href": "ders2.html#section-3",
+    "title": "Veri tipleri ve işleme",
+    "section": "",
+    "text": "Figure 2.4"
+  },
+  {
+    "objectID": "ders2.html#veri-kalitesi",
+    "href": "ders2.html#veri-kalitesi",
+    "title": "Veri tipleri ve işleme",
+    "section": "Veri kalitesi",
+    "text": "Veri kalitesi\n Hatırlanacağı üzere, veri biliminde veri temizliği aşaması toplam sürenin %80’ini oluşturmaktadır.\n\nÖlçüm hataları / measurement error : ölçüm sırasında sayısal hata yapılması veya dahil edilmemesi gereken verinin dahil edilmesi\nGürültü / Noise and artifacts: ölçüm hatalarındaki rastgele olan bileşendir. Sinyal işleme yöntemleri ile gürültü kaldırılabilir ama bu sırada gerçek veri kaybı da gerçekleşebilir."
+  },
+  {
+    "objectID": "ders2.html#veri-kalitesi---2",
+    "href": "ders2.html#veri-kalitesi---2",
+    "title": "Veri tipleri ve işleme",
+    "section": "Veri kalitesi - 2",
+    "text": "Veri kalitesi - 2\n\nUç değer / Outlier\nKayıp veya eksik ölçüm / Missing value\n\nÇıkarma / Eliminate\nTahmin etme, doldurma / Estimate\nGöz ardı etme / Ignore\n\nUyumsuz ölçümler / Inconsistent values : örn. Ölçüm yapılan tekniğin değişmesi veya farklı tekniklerle toplanan değerlerin uyuşmazlığı\nTekrar eden veri / Duplicate data : aynı kişi bir veritabanında birden çok kez bulunabilir ama ismi aynı iki kişi tekrar sayılmaz"
+  },
+  {
+    "objectID": "ders2.html#veri-işleme",
+    "href": "ders2.html#veri-işleme",
+    "title": "Veri tipleri ve işleme",
+    "section": "Veri işleme",
+    "text": "Veri işleme\n\n\nAggregation\nSampling\nDimensionality reduction\nFeature subset selection\nFeature creation\nDiscretization and binarization\nVariable transformation"
+  },
+  {
+    "objectID": "ders2.html#aggregation",
+    "href": "ders2.html#aggregation",
+    "title": "Veri tipleri ve işleme",
+    "section": "Aggregation",
+    "text": "Aggregation\n\nGroup by - sum, mean\nHistogram"
+  },
+  {
+    "objectID": "ders2.html#aggregation-histogram",
+    "href": "ders2.html#aggregation-histogram",
+    "title": "Veri tipleri ve işleme",
+    "section": "Aggregation / Histogram",
+    "text": "Aggregation / Histogram"
+  },
+  {
+    "objectID": "ders2.html#sampling-örnekleme",
+    "href": "ders2.html#sampling-örnekleme",
+    "title": "Veri tipleri ve işleme",
+    "section": "Sampling / Örnekleme",
+    "text": "Sampling / Örnekleme\n\nSimple random sampling\nStratified sampling"
+  },
+  {
+    "objectID": "ders2.html#dimensionality-reduction",
+    "href": "ders2.html#dimensionality-reduction",
+    "title": "Veri tipleri ve işleme",
+    "section": "Dimensionality reduction",
+    "text": "Dimensionality reduction\n\n“The Curse of Dimensionality”: özellik/attribute sayısı arttıkça algoritmaların veya hesapların daha zor hale gelmesi. “Sparse” veri durumunda artık hesaplamaların (uzaklık, benzerlik) doğruluğunu yitirmesi\n\n\nLinear algebra techniques\n\nPCA: Principal Components Analysis\nSVD: Singular Value Decomposition"
+  },
+  {
+    "objectID": "ders2.html#others",
+    "href": "ders2.html#others",
+    "title": "Veri tipleri ve işleme",
+    "section": "Others",
+    "text": "Others\n\nFeature Subset Selection\n\nremove Redundant features or Irrelevant features\nFeature Weighting\n\nFeature Creation\n\nFeature Extraction: e.g Photo -&gt; edges, important areas, color scheme\nMapping the Data to a New Space : e.g Fourier Transformation\n\nDiscretization and Binarization\n\nCategory -&gt; Binary values\nContinous data -&gt; bins, categories, intervals\n\nVariable Transformation"
+  },
+  {
+    "objectID": "ders2.html#fourier-transformation",
+    "href": "ders2.html#fourier-transformation",
+    "title": "Veri tipleri ve işleme",
+    "section": "Fourier Transformation",
+    "text": "Fourier Transformation"
+  },
+  {
+    "objectID": "ders2.html#category-to-binary",
+    "href": "ders2.html#category-to-binary",
+    "title": "Veri tipleri ve işleme",
+    "section": "Category to binary",
+    "text": "Category to binary"
+  },
+  {
+    "objectID": "ders2.html#variable-transformation",
+    "href": "ders2.html#variable-transformation",
+    "title": "Veri tipleri ve işleme",
+    "section": "Variable Transformation",
+    "text": "Variable Transformation\n\n\nSimple functions: \\(x^k\\) , log(x), \\(e^x\\) , sqrt(x), \\(1/x\\), sin(x), or |x|\nNormalization or Standardization\n\nfor each value subtract mean and divide by standard deviation\ne.g. age and income data, find similarity between individuals\nmean = 0, sd = 1"
+  },
+  {
+    "objectID": "katilim.html",
+    "href": "katilim.html",
+    "title": "Attendance and Quizes / Katılım ve Quizler",
+    "section": "",
+    "text": "Zoom üzerinden süre olarak katılımınız alınarak, toplam ders süremize1 göre oran hesaplanmıştır. Dersin üçte birinden (1/3 ya da 0.3) az katılan öğrenci o derse katılmamış sayılacaktır.\nAşağıdaki tablolarda her bir ders günü için Zoom süresi ve katılım oranı verilmiştir. (ŞU ANDA SADECE 19 TEMMUZ GÜNÜ YAPILAN DERSE GÖRE HESAPLAMA YAPILMIŞTIR)\n\n\n\n\n\n\nClick for translation\n\n\n\n\n\nYour participation time has been recorded via Zoom, and a ratio has been calculated based on our total lesson duration. A student who participates less than one-third (1/3 or 0.3) of the lesson will be considered as not having attended that lesson.\nIn the tables below, the Zoom duration and participation ratio for each lesson day are provided. (THE DATA BELOW ONLY CONSIDERS JULY 19TH LECTURE)"
+  },
+  {
+    "objectID": "katilim.html#group1-grup1-türkçe-1",
+    "href": "katilim.html#group1-grup1-türkçe-1",
+    "title": "Attendance and Quizes / Katılım ve Quizler",
+    "section": "Group1 / Grup1 Türkçe",
+    "text": "Group1 / Grup1 Türkçe"
+  },
+  {
+    "objectID": "katilim.html#group2-grup2-ingilizce-1",
+    "href": "katilim.html#group2-grup2-ingilizce-1",
+    "title": "Attendance and Quizes / Katılım ve Quizler",
+    "section": "Group2 / Grup2 İngilizce",
+    "text": "Group2 / Grup2 İngilizce"
+  },
+  {
+    "objectID": "katilim.html#footnotes",
+    "href": "katilim.html#footnotes",
+    "title": "Attendance and Quizes / Katılım ve Quizler",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nBeklenen ders süresi (yaklaşık 3 saat) değil, işlenen süre. Yani maksimum süre, ders süresi olarak alınmıştır.↩︎"
+  },
+  {
+    "objectID": "An_Introduction_to_Hierarchical_Clustering-TR.html",
+    "href": "An_Introduction_to_Hierarchical_Clustering-TR.html",
+    "title": "Hiyerarşik Kümelemeye Giriş",
+    "section": "",
+    "text": "DataCamp’teki “An Introduction to Hierarchical Clusteringin Python” adlı makaleden alınmıştır.\n\n\nHiyerarşik kümeleme yaklaşımı, daha önce tanımlanmış kümelere dayalı olarak ardışık kümelerin belirlenmesine dayanır. Bu teknik, verileri dendrogramlar olarak adlandırılan bir kümeler ağacında gruplamayı amaçlar ve altta yatan kümeler arasındaki hiyerarşik ilişkiyi grafiksel olarak temsil eder.\n\n\n\nHiyerarşik kümeleme güçlü bir algoritmadır, ancak tek algoritma değildir ve her kümeleme türü kendi avantaj ve dezavantajlarıyla birlikte gelir.\nK-means ve model tabanlı kümeleme gibi diğer kümeleme türleriyle nasıl karşılaştırıldığını anlamaya çalışalım. Çok daha fazla teknik var, ancak bunlar ikisi, hiyerarşik kümelemeye ek olarak, yaygın olarak kullanılır ve diğerlerini daha iyi anlamak için bir çerçeve sağlar.\nMakine öğreniminde kümeleme hakkında daha fazla bilgiyi, beş temel kümeleme algoritmasını kapsayan ayrı makalemizde bulabilirsiniz.\n\n\nHiyerarşik kümelemenin aksine, K-means kümeleme, orijinal veri noktalarını kullanıcının önceden belirlediği “K” gruba veya kümeye ayırmayı amaçlar.\nGenel fikir, tüm öznitelikler (değişkenler veya özellikler) üzerinden tüm noktaların merkezlerden karesel Öklid mesafesini minimize eden kümeler aramak ve bu bireyleri yinelemeli bir şekilde birleştirmektir.\n“Scikit-learn ile Python’da K-means Kümeleme” öğreticimiz, ilginç bir vaka çalışmasıyla K-means kümelemenin iç işleyişini anlamanıza yardımcı olacaktır.\n\n\n\nHiyerarşik kümelemeye kıyasla hesaplama açısından verimlidir ve büyük veri setlerini analiz etmek için kullanılabilir.\nK-means anlaşılması ve uygulanması daha kolaydır.\n\n\n\n\n\nHiyerarşik kümelemeden daha az esnektir çünkü kullanıcıyı küme sayısını önceden belirtmeye zorlar, bu da bazı durumlarda açık olmayabilir.\nSonuç kararlı değildir ve aynı veri seti için bir yinelemeden diğerine değişir.\nAykırı değerlere karşı daha duyarlıdır çünkü verilerdeki aykırı değerlerin kullanımı kümenin ortalamasını etkiler.\nHem k-means hem de hiyerarşik kümeleme, kategorik verileri doğrudan işleyemez ve sürekli olmayan veya çok büyük varyansa sahip verilerle iyi çalışmayabilir.\n\nSınırlamalarına rağmen, k-means kümeleme hala kullanım kolaylığı ve hesaplama verimliliği nedeniyle popüler bir yöntemdir. Sıklıkla diğer kümeleme tekniklerinin performansını karşılaştırmak için bir referans noktası olarak kullanılır.\n\n\n\n\nHem K-means hem de hiyerarşik kümeleme teknikleri, veri setindeki tüm noktalar arasındaki mesafeleri temsil etmek için bir uzaklık matrisi kullanır. Öte yandan, model tabanlı kümeleme, verilerdeki kümeleri tanımlamak için istatistiksel teknikler uygular. Genel süreç aşağıdaki gibidir:\n\nKullanılacak istatistiksel modele karar verin ve küme sayısını seçin.\nModeli verilere uygulayın.\nModel parametrelerine göre kümeleri belirleyin.\n\n\n\n\nModel tabanlı kümeleme, farklı küme türlerini tanımlamak için farklı modellerin kullanılmasına izin verdiği için hiyerarşik kümelemeden daha esnektir.\nKarmaşık şekillere veya yapılara sahip veriler üzerinde daha iyi çalışır.\n\n\n\n\n\nÖzellikle büyük veriler için hesaplama açısından hiyerarşik kümelemeden daha pahalıdır.\nModel seçimi nihai sonucu etkileyebileceğinden, istatistiksel modelleme tekniklerinin daha iyi anlaşılmasını gerektirir.\nK-means kümelemeye benzer şekilde, küme sayısının önceden belirtilmesini gerektirir.\n\n\n\n\n\n\nHiyerarşik kümeleme, günlük hayatımızda biyoloji, görüntü işleme, pazarlama, ekonomi ve sosyal ağ analizi dahil (ancak bunlarla sınırlıolmamak üzere) çeşitli uygulamalara sahiptir.\n\n\nDNA dizilerinin kümelenmesi, biyoinformatiğin en büyük zorluklarından biridir.\nBiyologlar, organizmaları taksonomik gruplara sınıflandırmak için organizmalar arasındaki genetik ilişkileri incelemek üzere hiyerarşikkümelemeyi kullanabilirler. Bu, altta yatan ilişkilerin hızlı analizi ve görselleştirilmesi için faydalıdır.\n\n\n\nGörüntü işlemede, renk, yoğunluk veya diğer özellikler açısından bir görüntünün benzer bölgelerini veya piksellerini gruplandırmak içinhiyerarşik kümeleme gerçekleştirilebilir. Bu, görüntü segmentasyonu, görüntü sınıflandırması ve nesne tanıma gibi diğer görevler için faydalı olabilir.\n\n\n\nPazarlama uzmanları, daha iyi pazarlama stratejileri ve ürün önerileri için müşterilerin satın alma alışkanlıklarına göre farklı müşteri türleri arasında bir hiyerarşi çizmek için hiyerarşik kümelemeyi kullanabilirler. Örneğin, perakendede farklı ürünler, düşük, orta veya yüksek harcama yapan müşterilere göre önerilebilir.\n\n\n\nSosyal ağlar, verimli bir şekilde kullanıldığında değerli bilgilerin harika bir kaynağıdır. Hiyerarşik kümeleme, grupları veya toplulukları belirlemek ve bunların birbirleriyle ve ağın bütünüyle olan ilişkilerini anlamak için kullanılabilir.\n\n\n\n\nBu bölümde üç ana kavrama bakacağız. Hiyerarşik algoritmanın adımları, iki tür hiyerarşik kümelemenin (aglomeratif ve bölücü) vurgulanması ve son olarak doğru mesafe ölçüsünü seçmek için bazı teknikler.\n\n\nHiyerarşik kümeleme algoritması, kümeler oluşturmak için mesafe ölçülerini kullanır. Bu oluşturma süreci aşağıdaki ana adımları içerir:\n\n\n\nHiyerarşik Kümeleme Algoritması Oluşturma\n\n\nEksik verileri kaldırarak ve verileri mümkün olduğunca temiz hale getiren ek görevler uygulayarak verileri ön işlemden geçirin. Bu adım, çoğu makine öğrenimi görevi için daha genel bir adımdır.\n\nÖklid mesafesi, Manhattan mesafesi veya kosinüs benzerliği gibi belirli bir mesafe metriği kullanarak her veri noktası çifti arasındaki mesafeyi içeren mesafe matrisini hesaplayın. Ancak varsayılan mesafe metriği Öklid mesafesidir.\nMesafe olarak en yakın olan iki kümeyi birleştirin.\nMesafe matrisini yeni kümelere göre güncelleyin.\nTüm kümeler tek bir küme oluşturmak üzere birleştirilene kadar 1, 2 ve 3. adımları tekrarlayın.\n\n\n\n\nAglomeratif ve bölücü kümelemeyi birbirinin aynası olarak düşünebiliriz. Her birinin nasıl çalıştığına, hiyerarşik kümeleme örneğine vegrafiksel görselleştirmeye daha yakından bakalım.\n\n\nBu ilk senaryo, yukarıda açıklanan yaklaşıma karşılık gelir. Her gözlemi tekil bir küme (yalnızca bir veri noktası içeren küme) olarak düşünerek başlar. Daha sonra yalnızca bir küme elde edilene kadar kümeleri yinelemeli olarak birleştirir. Bu süreç aşağıdan yukarıya yaklaşım olarak da bilinir.\nAşağıdaki örnekte gösterildiği gibi:\n\nHer hayvanı kendine özgü bir küme olarak düşünerek başlıyoruz.\nArdından, bu benzersiz hayvanlardan benzerliklerine göre üç farklı küme oluşturuyoruz:\n\nKuşlar: Kartal ve Tavus Kuşu\nMemeliler: Aslan ve Ayı\nÜçten fazla bacaklı hayvanlar: Örümcek ve Akrep\n\nEn benzer iki kümeyi (Kuşlar ve Memeliler) birleştirerek Omurgalıkümesini oluşturmak için birleştirme işlemini tekrarlıyoruz.\nBu adımdan sonra, kalan iki küme, Omurgalı ve Üçten fazla bacaklı, tek bir Hayvanlar kümesi oluşturmak üzere birleştirilir.\n\n\n\n\nAglomeratif Kümeleme Yaklaşımının Dendrogramı\n\n\nAglomeratif Kümeleme Yaklaşımının Dendrogramı\n\n\n\nÖte yandan, bölücü kümeleme yukarıdan aşağıya bir yaklaşımdır çünkütüm veri noktalarını tek bir küme olarak düşünerek başlar. Daha sonra tüm veri noktaları benzersiz olana kadar onları ayırır.\nBu bölücü yaklaşım grafiğinden:\n\nTüm hayvan veri setinin tek bir blok olarak düşünüldüğünü fark ediyoruz.\nArdından, bu bloğu iki kümeye ayırıyoruz: Omurgalı ve 3’ten fazlabacaklı.\nBölme işlemi, benzersiz hayvanlara ulaşana kadar önceden oluşturulan kümelere yinelemeli olarak uygulanır.\n\n\n\n\nBölücü Kümeleme Yaklaşımının Dendrogramı\n\n\nBölücü Kümeleme Yaklaşımının Dendrogramı\n\n\n\n\nMesafe ölçüsü seçiminiz, kümelemede kritik bir adımdır ve çözmeye çalıştığınız probleme bağlıdır. Aşağıdaki senaryoyu düşünerek, öğrencileri şu gibi herhangi bir yaklaşıma göre kümeleyebiliriz:\n\nMenşe ülkesi\nCinsiyet, erkek veya kadın\nÖnceki akademik geçmiş\n\nBunların hepsi geçerli kümelerdir ancak anlamları farklıdır.\nÖklid mesafesi çoğu kümeleme yazılımında en yaygın kullanılan mesafe olmasına rağmen, Manhattan mesafesi, Canberra mesafesi, Pearson veya Spearman korelasyonu ve Minkowski mesafesi gibi diğer mesafe ölçüleri de mevcuttur.\n\n\n\nDaha önce bahsedilen mesafeler öğelerle ilgilidir. Bu bölümde, onları birleştirmeden önce en yakın küme çiftini ölçmenin üç standart yolunu (kapsamlı değil) ele alacağız: (1) Tek bağlantı, (2) Tam bağlantı ve (3) Ortalama bağlantı.\n\n\nC1 ve C2 kümelerindeki öğeler arasındaki tüm ikili mesafelerden, tek bağlantı kümeler arasındaki mesafeyi minimum mesafe olarak alır.\nMesafe (C1, C2) = Min { d(i, j), burada öğe i C1 içinde ve öğe jC2 içinde}\nİki kümeden gelen tüm öğe çiftleri arasından, yeşil renkle vurgulananlar minimum mesafeye sahiptir.\n\n\n\nTek bağlantı gösterimi\n\n\nTek bağlantı gösterimi\n\n\n\nC1 ve C2 kümelerindeki öğeler arasındaki tüm ikili mesafelerden, tam bağlantı kümeler arasındaki mesafeyi maksimum mesafe olarak alır.\nMesafe (C1, C2) = Max { d(i, j), burada öğe i C1 içinde ve öğe jC2 içinde}\nİki kümeden gelen tüm öğe çiftleri arasından, yeşil renkle vurgulananlar maksimum mesafeye sahiptir.\n\n\n\nTam bağlantı gösterimi\n\n\nTam bağlantı gösterimi\n\n\n\nOrtalama bağlantı kümelemesinde, verilen iki küme C1 ve C2 arasındaki mesafe, iki kümedeki tüm öğe çiftleri arasındaki ortalama mesafelere karşılık gelir.\nMesafe (C1, C2) = Toplam{ d(i, j) } / Toplam mesafe sayısı\n\n\n\nOrtalama bağlantı gösterimi\n\n\nOrtalama bağlantı gösterimi\nArdından ortalama bağlantı kümelemesi şu şekilde gerçekleştirilir:\nd(a,j) + d(a,h) + d(a,n) + d(d,j) + d(d,h) + d(d,n)\n————————————————————–, burada Toplam mesafe sayısı = 6\nToplam mesafe sayısı"
+  },
+  {
+    "objectID": "An_Introduction_to_Hierarchical_Clustering-TR.html#hiyerarşik-kümelemenin-tanımı",
+    "href": "An_Introduction_to_Hierarchical_Clustering-TR.html#hiyerarşik-kümelemenin-tanımı",
+    "title": "Hiyerarşik Kümelemeye Giriş",
+    "section": "",
+    "text": "Hiyerarşik kümeleme yaklaşımı, daha önce tanımlanmış kümelere dayalı olarak ardışık kümelerin belirlenmesine dayanır. Bu teknik, verileri dendrogramlar olarak adlandırılan bir kümeler ağacında gruplamayı amaçlar ve altta yatan kümeler arasındaki hiyerarşik ilişkiyi grafiksel olarak temsil eder."
+  },
+  {
+    "objectID": "An_Introduction_to_Hierarchical_Clustering-TR.html#hiyerarşik-kümelemenin-diğer-kümeleme-teknikleriyle-karşılaştırılması",
+    "href": "An_Introduction_to_Hierarchical_Clustering-TR.html#hiyerarşik-kümelemenin-diğer-kümeleme-teknikleriyle-karşılaştırılması",
+    "title": "Hiyerarşik Kümelemeye Giriş",
+    "section": "",
+    "text": "Hiyerarşik kümeleme güçlü bir algoritmadır, ancak tek algoritma değildir ve her kümeleme türü kendi avantaj ve dezavantajlarıyla birlikte gelir.\nK-means ve model tabanlı kümeleme gibi diğer kümeleme türleriyle nasıl karşılaştırıldığını anlamaya çalışalım. Çok daha fazla teknik var, ancak bunlar ikisi, hiyerarşik kümelemeye ek olarak, yaygın olarak kullanılır ve diğerlerini daha iyi anlamak için bir çerçeve sağlar.\nMakine öğreniminde kümeleme hakkında daha fazla bilgiyi, beş temel kümeleme algoritmasını kapsayan ayrı makalemizde bulabilirsiniz.\n\n\nHiyerarşik kümelemenin aksine, K-means kümeleme, orijinal veri noktalarını kullanıcının önceden belirlediği “K” gruba veya kümeye ayırmayı amaçlar.\nGenel fikir, tüm öznitelikler (değişkenler veya özellikler) üzerinden tüm noktaların merkezlerden karesel Öklid mesafesini minimize eden kümeler aramak ve bu bireyleri yinelemeli bir şekilde birleştirmektir.\n“Scikit-learn ile Python’da K-means Kümeleme” öğreticimiz, ilginç bir vaka çalışmasıyla K-means kümelemenin iç işleyişini anlamanıza yardımcı olacaktır.\n\n\n\nHiyerarşik kümelemeye kıyasla hesaplama açısından verimlidir ve büyük veri setlerini analiz etmek için kullanılabilir.\nK-means anlaşılması ve uygulanması daha kolaydır.\n\n\n\n\n\nHiyerarşik kümelemeden daha az esnektir çünkü kullanıcıyı küme sayısını önceden belirtmeye zorlar, bu da bazı durumlarda açık olmayabilir.\nSonuç kararlı değildir ve aynı veri seti için bir yinelemeden diğerine değişir.\nAykırı değerlere karşı daha duyarlıdır çünkü verilerdeki aykırı değerlerin kullanımı kümenin ortalamasını etkiler.\nHem k-means hem de hiyerarşik kümeleme, kategorik verileri doğrudan işleyemez ve sürekli olmayan veya çok büyük varyansa sahip verilerle iyi çalışmayabilir.\n\nSınırlamalarına rağmen, k-means kümeleme hala kullanım kolaylığı ve hesaplama verimliliği nedeniyle popüler bir yöntemdir. Sıklıkla diğer kümeleme tekniklerinin performansını karşılaştırmak için bir referans noktası olarak kullanılır.\n\n\n\n\nHem K-means hem de hiyerarşik kümeleme teknikleri, veri setindeki tüm noktalar arasındaki mesafeleri temsil etmek için bir uzaklık matrisi kullanır. Öte yandan, model tabanlı kümeleme, verilerdeki kümeleri tanımlamak için istatistiksel teknikler uygular. Genel süreç aşağıdaki gibidir:\n\nKullanılacak istatistiksel modele karar verin ve küme sayısını seçin.\nModeli verilere uygulayın.\nModel parametrelerine göre kümeleri belirleyin.\n\n\n\n\nModel tabanlı kümeleme, farklı küme türlerini tanımlamak için farklı modellerin kullanılmasına izin verdiği için hiyerarşik kümelemeden daha esnektir.\nKarmaşık şekillere veya yapılara sahip veriler üzerinde daha iyi çalışır.\n\n\n\n\n\nÖzellikle büyük veriler için hesaplama açısından hiyerarşik kümelemeden daha pahalıdır.\nModel seçimi nihai sonucu etkileyebileceğinden, istatistiksel modelleme tekniklerinin daha iyi anlaşılmasını gerektirir.\nK-means kümelemeye benzer şekilde, küme sayısının önceden belirtilmesini gerektirir."
+  },
+  {
+    "objectID": "An_Introduction_to_Hierarchical_Clustering-TR.html#hiyerarşik-kümelemenin-uygulamaları",
+    "href": "An_Introduction_to_Hierarchical_Clustering-TR.html#hiyerarşik-kümelemenin-uygulamaları",
+    "title": "Hiyerarşik Kümelemeye Giriş",
+    "section": "",
+    "text": "Hiyerarşik kümeleme, günlük hayatımızda biyoloji, görüntü işleme, pazarlama, ekonomi ve sosyal ağ analizi dahil (ancak bunlarla sınırlıolmamak üzere) çeşitli uygulamalara sahiptir.\n\n\nDNA dizilerinin kümelenmesi, biyoinformatiğin en büyük zorluklarından biridir.\nBiyologlar, organizmaları taksonomik gruplara sınıflandırmak için organizmalar arasındaki genetik ilişkileri incelemek üzere hiyerarşikkümelemeyi kullanabilirler. Bu, altta yatan ilişkilerin hızlı analizi ve görselleştirilmesi için faydalıdır.\n\n\n\nGörüntü işlemede, renk, yoğunluk veya diğer özellikler açısından bir görüntünün benzer bölgelerini veya piksellerini gruplandırmak içinhiyerarşik kümeleme gerçekleştirilebilir. Bu, görüntü segmentasyonu, görüntü sınıflandırması ve nesne tanıma gibi diğer görevler için faydalı olabilir.\n\n\n\nPazarlama uzmanları, daha iyi pazarlama stratejileri ve ürün önerileri için müşterilerin satın alma alışkanlıklarına göre farklı müşteri türleri arasında bir hiyerarşi çizmek için hiyerarşik kümelemeyi kullanabilirler. Örneğin, perakendede farklı ürünler, düşük, orta veya yüksek harcama yapan müşterilere göre önerilebilir.\n\n\n\nSosyal ağlar, verimli bir şekilde kullanıldığında değerli bilgilerin harika bir kaynağıdır. Hiyerarşik kümeleme, grupları veya toplulukları belirlemek ve bunların birbirleriyle ve ağın bütünüyle olan ilişkilerini anlamak için kullanılabilir."
+  },
+  {
+    "objectID": "An_Introduction_to_Hierarchical_Clustering-TR.html#hiyerarşik-kümeleme-algoritması",
+    "href": "An_Introduction_to_Hierarchical_Clustering-TR.html#hiyerarşik-kümeleme-algoritması",
+    "title": "Hiyerarşik Kümelemeye Giriş",
+    "section": "",
+    "text": "Bu bölümde üç ana kavrama bakacağız. Hiyerarşik algoritmanın adımları, iki tür hiyerarşik kümelemenin (aglomeratif ve bölücü) vurgulanması ve son olarak doğru mesafe ölçüsünü seçmek için bazı teknikler.\n\n\nHiyerarşik kümeleme algoritması, kümeler oluşturmak için mesafe ölçülerini kullanır. Bu oluşturma süreci aşağıdaki ana adımları içerir:\n\n\n\nHiyerarşik Kümeleme Algoritması Oluşturma\n\n\nEksik verileri kaldırarak ve verileri mümkün olduğunca temiz hale getiren ek görevler uygulayarak verileri ön işlemden geçirin. Bu adım, çoğu makine öğrenimi görevi için daha genel bir adımdır.\n\nÖklid mesafesi, Manhattan mesafesi veya kosinüs benzerliği gibi belirli bir mesafe metriği kullanarak her veri noktası çifti arasındaki mesafeyi içeren mesafe matrisini hesaplayın. Ancak varsayılan mesafe metriği Öklid mesafesidir.\nMesafe olarak en yakın olan iki kümeyi birleştirin.\nMesafe matrisini yeni kümelere göre güncelleyin.\nTüm kümeler tek bir küme oluşturmak üzere birleştirilene kadar 1, 2 ve 3. adımları tekrarlayın.\n\n\n\n\nAglomeratif ve bölücü kümelemeyi birbirinin aynası olarak düşünebiliriz. Her birinin nasıl çalıştığına, hiyerarşik kümeleme örneğine vegrafiksel görselleştirmeye daha yakından bakalım.\n\n\nBu ilk senaryo, yukarıda açıklanan yaklaşıma karşılık gelir. Her gözlemi tekil bir küme (yalnızca bir veri noktası içeren küme) olarak düşünerek başlar. Daha sonra yalnızca bir küme elde edilene kadar kümeleri yinelemeli olarak birleştirir. Bu süreç aşağıdan yukarıya yaklaşım olarak da bilinir.\nAşağıdaki örnekte gösterildiği gibi:\n\nHer hayvanı kendine özgü bir küme olarak düşünerek başlıyoruz.\nArdından, bu benzersiz hayvanlardan benzerliklerine göre üç farklı küme oluşturuyoruz:\n\nKuşlar: Kartal ve Tavus Kuşu\nMemeliler: Aslan ve Ayı\nÜçten fazla bacaklı hayvanlar: Örümcek ve Akrep\n\nEn benzer iki kümeyi (Kuşlar ve Memeliler) birleştirerek Omurgalıkümesini oluşturmak için birleştirme işlemini tekrarlıyoruz.\nBu adımdan sonra, kalan iki küme, Omurgalı ve Üçten fazla bacaklı, tek bir Hayvanlar kümesi oluşturmak üzere birleştirilir.\n\n\n\n\nAglomeratif Kümeleme Yaklaşımının Dendrogramı\n\n\nAglomeratif Kümeleme Yaklaşımının Dendrogramı\n\n\n\nÖte yandan, bölücü kümeleme yukarıdan aşağıya bir yaklaşımdır çünkütüm veri noktalarını tek bir küme olarak düşünerek başlar. Daha sonra tüm veri noktaları benzersiz olana kadar onları ayırır.\nBu bölücü yaklaşım grafiğinden:\n\nTüm hayvan veri setinin tek bir blok olarak düşünüldüğünü fark ediyoruz.\nArdından, bu bloğu iki kümeye ayırıyoruz: Omurgalı ve 3’ten fazlabacaklı.\nBölme işlemi, benzersiz hayvanlara ulaşana kadar önceden oluşturulan kümelere yinelemeli olarak uygulanır.\n\n\n\n\nBölücü Kümeleme Yaklaşımının Dendrogramı\n\n\nBölücü Kümeleme Yaklaşımının Dendrogramı\n\n\n\n\nMesafe ölçüsü seçiminiz, kümelemede kritik bir adımdır ve çözmeye çalıştığınız probleme bağlıdır. Aşağıdaki senaryoyu düşünerek, öğrencileri şu gibi herhangi bir yaklaşıma göre kümeleyebiliriz:\n\nMenşe ülkesi\nCinsiyet, erkek veya kadın\nÖnceki akademik geçmiş\n\nBunların hepsi geçerli kümelerdir ancak anlamları farklıdır.\nÖklid mesafesi çoğu kümeleme yazılımında en yaygın kullanılan mesafe olmasına rağmen, Manhattan mesafesi, Canberra mesafesi, Pearson veya Spearman korelasyonu ve Minkowski mesafesi gibi diğer mesafe ölçüleri de mevcuttur.\n\n\n\nDaha önce bahsedilen mesafeler öğelerle ilgilidir. Bu bölümde, onları birleştirmeden önce en yakın küme çiftini ölçmenin üç standart yolunu (kapsamlı değil) ele alacağız: (1) Tek bağlantı, (2) Tam bağlantı ve (3) Ortalama bağlantı.\n\n\nC1 ve C2 kümelerindeki öğeler arasındaki tüm ikili mesafelerden, tek bağlantı kümeler arasındaki mesafeyi minimum mesafe olarak alır.\nMesafe (C1, C2) = Min { d(i, j), burada öğe i C1 içinde ve öğe jC2 içinde}\nİki kümeden gelen tüm öğe çiftleri arasından, yeşil renkle vurgulananlar minimum mesafeye sahiptir.\n\n\n\nTek bağlantı gösterimi\n\n\nTek bağlantı gösterimi\n\n\n\nC1 ve C2 kümelerindeki öğeler arasındaki tüm ikili mesafelerden, tam bağlantı kümeler arasındaki mesafeyi maksimum mesafe olarak alır.\nMesafe (C1, C2) = Max { d(i, j), burada öğe i C1 içinde ve öğe jC2 içinde}\nİki kümeden gelen tüm öğe çiftleri arasından, yeşil renkle vurgulananlar maksimum mesafeye sahiptir.\n\n\n\nTam bağlantı gösterimi\n\n\nTam bağlantı gösterimi\n\n\n\nOrtalama bağlantı kümelemesinde, verilen iki küme C1 ve C2 arasındaki mesafe, iki kümedeki tüm öğe çiftleri arasındaki ortalama mesafelere karşılık gelir.\nMesafe (C1, C2) = Toplam{ d(i, j) } / Toplam mesafe sayısı\n\n\n\nOrtalama bağlantı gösterimi\n\n\nOrtalama bağlantı gösterimi\nArdından ortalama bağlantı kümelemesi şu şekilde gerçekleştirilir:\nd(a,j) + d(a,h) + d(a,n) + d(d,j) + d(d,h) + d(d,n)\n————————————————————–, burada Toplam mesafe sayısı = 6\nToplam mesafe sayısı"
   },
   {
     "objectID": "r-linear-regression-tr.html",
