@@ -53,3 +53,9 @@
 *Grup2: 26 Temmuz Cuma 8:30 - Grup1: 26 Temmuz Cuma 14:00*
 
 **İçerik**: Kümeleme [İngilizce Sunum linki](ders7.qmd), [Türkçe Sunum Linki](ders7-TR.qmd)
+
+## Ders8
+
+*Grup2: 01 Ağustos Perşembe 8:30 - Grup1: 01 Ağustos Perşembe 18:00*
+
+**İçerik**: Doğal Dil İşleme [İngilizce Sunum linki](ders8.qmd)
