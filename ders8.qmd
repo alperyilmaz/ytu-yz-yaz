@@ -240,6 +240,8 @@ The Bag of Words model is a simple yet effective method for representing text as
 
 TF-IDF is a statistical measure used to evaluate the importance of a word in a document within a collection or corpus. It combines two metrics: Term Frequency (how often a word appears in a document) and Inverse Document Frequency (how rare the word is across all documents). The idea is that words frequently occurring in a document but rare in the overall corpus are likely more important for that document. TF-IDF helps to reduce the impact of common words that appear frequently across all documents but carry little meaning. This method provides a more nuanced representation than simple word counts, making it valuable for tasks like information retrieval and document ranking.
 
+Please visit [this link](https://medium.com/@er.iit.pradeep09/understanding-tf-idf-in-nlp-a-comprehensive-guide-26707db0cec5) for demonstration.
+
 ##
 
 ### N-gram models:
