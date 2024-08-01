@@ -58,4 +58,4 @@
 
 *Grup2: 01 Ağustos Perşembe 8:30 - Grup1: 01 Ağustos Perşembe 18:00*
 
-**İçerik**: Doğal Dil İşleme [İngilizce Sunum linki](ders8.qmd)
+**İçerik**: Doğal Dil İşleme [İngilizce Sunum linki](ders8.qmd), [Türkçe Sunum linki](ders8-TR.qmd)

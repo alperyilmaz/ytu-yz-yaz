@@ -103,7 +103,8 @@ Also, recordings is a text input after Speech2Text processing
 
 Text summarization is an NLP application that condenses large volumes of text into brief, coherent summaries. For humans, summarizing involves understanding context, identifying key points, and rephrasing ideas - tasks that come naturally to us. However, for computers, this process is remarkably complex. A computer must analyze the text's structure, grasp semantic meanings, determine the relative importance of different sentences or concepts, and then generate or extract a coherent summary. This requires sophisticated algorithms to mimic human-like understanding of language, context, and relevance. The challenge lies in teaching machines to distinguish between crucial information and extraneous details, a task that involves not just processing words, but understanding their relationships and significance within the broader context of the document.
 
-:::footer
+
+:::{.footer style="text-align: center;"}
 [image source](https://www.linkedin.com/pulse/text-summarization-emerging-nlp-technique-your-business-requirements-)
 :::
 
@@ -248,11 +249,17 @@ Please visit [this link](https://medium.com/@er.iit.pradeep09/understanding-tf-i
 
 N-gram models extend the idea of BoW by considering sequences of N adjacent words, rather than individual words in isolation. For example, a bigram (2-gram) model would consider pairs of adjacent words, while a trigram (3-gram) model would look at sequences of three words. N-grams capture some local context and word order information, which can be crucial for tasks like language modeling or machine translation. However, as N increases, the model's complexity and data sparsity issues also increase. N-gram models strike a balance between the simplicity of BoW and the need to capture word relationships, making them useful in various NLP applications.
 
+Please visit these links for visual explanation: [link1](https://www.kdnuggets.com/2022/06/ngram-language-modeling-natural-language-processing.html) [link2](https://www.depends-on-the-definition.com/introduction-n-gram-language-models/) [link3](https://studymachinelearning.com/an-introduction-to-n-grams/) 
+
 ##
 
 ### Word embeddings (Word2Vec, GloVe, FastText):
 
 Word embeddings are dense vector representations of words in a continuous vector space, where semantically similar words are mapped to nearby points. Unlike BoW or TF-IDF, which produce sparse, high-dimensional vectors, word embeddings typically have a few hundred dimensions. Models like Word2Vec learn these representations by analyzing word co-occurrences in large corpora, capturing semantic relationships (e.g., "king" - "man" + "woman" ≈ "queen"). FastText extends this idea to subword units, allowing it to generate embeddings for out-of-vocabulary words. These dense representations significantly improve performance on various NLP tasks and allow for interesting word algebra. However, they struggle with polysemy (words with multiple meanings) as each word has a single, fixed representation regardless of context.
+
+Please visit these links for visual explanations: [link1](https://www.scaler.com/topics/nlp/word2vec/) [link2](https://aegis4048.github.io/demystifying_neural_network_in_skip_gram_language_modeling). Please visit [Embedding Projector]() for interactive visualization.
+
+Visual explanation for [FastText](https://kavita-ganesan.com/fasttext-vs-word2vec/)
 
 ##
 

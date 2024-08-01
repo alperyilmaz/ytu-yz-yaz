@@ -1,0 +1,264 @@
+---
+title: "NLP - Doğal Dil İşleme"
+subtitle: "FEF3001 Yapay zekaya giriş - Ders8"
+author: "Alper Yılmaz"
+date: 2024-08-01
+format:
+  revealjs:
+    chalkboard: true
+    css: custom.css
+    smaller: true
+    scrollable: true
+    controls: true
+    touch: true
+    history: false
+    progress: true
+    slide-number: c/t
+typora-copy-images-to: images
+---
+
+## İçerik
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+* NLP'nin tanımı ve neden ihtiyaç duyulduğu
+* Yaygın NLP Uygulamaları
+   * Metin özetleme
+   * Duygu analizi
+   * Anahtar kelime çıkarımı ve ilişkilendirme
+   * Belge sınıflandırma
+   * Varlık ismi tanıma
+   * Makine çevirisi
+   * Soru cevaplama sistemleri
+   * Sohbet robotları
+:::
+
+::: {.column width="50%"}
+* NLP Yaklaşımları
+   * Terim tabanlı yaklaşımlar
+   * Sözlük tabanlı yaklaşımlar
+   * Derlem (Corpus) tabanlı yaklaşımlar
+   * İstatistiksel yaklaşımlar
+   * Anlamsal yaklaşımlar
+   * Derin öğrenme yaklaşımları
+:::
+::::
+
+## İçerik (devam)
+
+* NLP'de Ön İşleme Adımları: Metin temizleme ve normalleştirme, Belirteç çıkarma (Tokenization), Durak kelime (Stop words) çıkarma, Kök bulma (Stemming) ve lemmatizasyon, Kelime türü (POS) etiketleme, Sözdizimi analizi ve ayrıştırma, Varlık ismi tanıma
+* Özellik Çıkarma ve Temsil: Torba içinde Kelimeler (BoW) modeli, Terim Frekansı-Ters Belge Frekansı (TF-IDF), N-gram modelleri, Kelime gömmeleri (Word2Vec, FastText), Bağlamsal gömmeler (örn. BERT, GPT)
+
+## Tanım
+
+Doğal Dil İşleme (NLP), bilgisayarlar ve insan dili arasındaki etkileşime odaklanan bir yapay zeka dalıdır. Bilgisayarların insan dilini anlamlı bir şekilde anlamasını, yorumlamasını, üretmesini ve yanıtlamasını sağlamak için hesaplamalı dilbilim, makine öğrenimi ve derin öğrenme tekniklerini birleştirir. NLP, büyük miktarda doğal dil verisini işleyerek ve analiz ederek insan iletişimi ile bilgisayar anlayışı arasındaki boşluğu kapatmayı amaçlar. Bu alan, konuşma tanıma, metin analizi, dil çevirisi, duygu analizi ve metin üretimi gibi çeşitli görevleri kapsar ve makinelerin insan dillerinden anlam çıkarmasına ve hem anlamlı hem de bağlamsal olarak uygun bir şekilde yanıt vermesine olanak tanır.
+
+## Neden NLP?
+
+Doğal Dil İşleme (NLP), metin verisinin geleneksel makine öğrenimi görevlerinde tipik olarak kullanılan yapılandırılmış sayısal ve kategorik verilerden temelde farklı olması nedeniyle çok önemlidir. İşte NLP'nin neden gerekli olduğuna dair nedenler:
+
+1. Metnin yapılandırılmamış doğası: Her sütunun belirli bir özelliği temsil ettiği tablo verilerinin aksine, metin doğası gereği yapılandırılmamıştır. Bir cümle veya belge önceden tanımlanmış özellikler veya kategorilerle gelmez. Bu yapılandırılmamış doğa, bilgisayarların metin verisini doğrudan işlemesini ve analiz etmesini zorlaştırır.
+2. Yüksek boyutluluk: Metin verisi son derece yüksek boyutlu olabilir. Örneğin, bir kelime çantası modelinde, derlemdeki her benzersiz kelime bir özellik haline gelir. Bu, yapılandırılmış veri problemlerinde tipik olarak görülenin çok üzerinde binlerce hatta milyonlarca boyuta yol açabilir.
+3. Anlamsal karmaşıklık: Kelimeler ve ifadeler bağlama bağlı olarak birden fazla anlama sahip olabilir. Örneğin, "banka" bir finansal kurumu veya bir nehrin kenarını ifade edebilir. Geleneksel ML modelleri, NLP teknikleri olmadan bu anlamsal karmaşıklığı ele almak için donanımlı değildir.
+
+## Neden NLP?
+
+4. Sözdizimsel değişkenlik: Doğal dilde aynı anlam birçok farklı şekilde ifade edilebilir. Örneğin, "Kedi halının üstünde oturdu" ve "Halının üstünde kedi oturdu" aynı bilgiyi iletir ancak farklı kelime sıralamasına sahiptir. ML modellerinin bu varyasyonları anlaması için NLP tekniklerine ihtiyacı vardır.
+5. Gürültüyle başa çıkma: Metin verisi genellikle yazım hataları, resmi olmayan dil veya ilgisiz bilgiler gibi "gürültü" içerir. NLP, bu veriyi temizlemek ve ön işlemden geçirmek için yöntemler sağlayarak analiz için uygun hale getirir.
+6. Özellik çıkarma: Sayısal verilerde özellikler açık olduğu halde, metinsel özelliklerin çıkarılması gerekir. NLP, TF-IDF, kelime gömmeleri ve konu modellemesi gibi metni ML modellerinin çalışabileceği anlamlı sayısal temsillere dönüştürmek için teknikler sağlar.
+7. Sıra bilgisini ele alma: Birçok ML modeli özellikler arasında bağımsızlık varsayar, ancak metinde kelimelerin sırası önemlidir. Tekrarlayan sinir ağları veya transformatörler gibi NLP teknikleri bu sıralı bilgiyi yakalamak için tasarlanmıştır.
+
+## Neden NLP?
+
+8. Çok dilli zorluklar: Metin verisi birden fazla dilde gelebilir ve her birinin kendi kuralları ve nüansları vardır. NLP, dil algılama, çeviri ve diller arası analiz için araçlar sağlar.
+9. Bağlamla başa çıkma: Metni anlamak genellikle doğrudan kelimelerin ötesinde bir bağlamı kavramayı gerektirir. NLP teknikleri bu daha geniş bağlamı yakalamaya ve kullanmaya yardımcı olur.
+
+Özünde, NLP, insan dilinin zengin, karmaşık ve yapılandırılmamış doğasını bilgisayarların etkili bir şekilde işleyebileceği bir forma dönüştürmek için gerekli araç ve teknikleri sağladığı için gereklidir. İnsanların iletişim kurma şekli ile makinelerin bilgiyi işleme şekli arasındaki boşluğu kapatarak duygu analizinden makine çevirisine, sohbet robotlarına ve daha ötesine kadar geniş bir uygulama yelpazesini mümkün kılar.
+
+## Neden NLP?
+
+![](images/robot-reading-book.png)
+
+## 
+
+![](images/structured2structured.png)
+
+[görsel kaynağı](http://medinform.jmir.org/2020/7/e18599/)
+
+## 
+
+![](images/DataIceberg.webp)
+
+Ayrıca, ses kayıtları da Konuşmadan 2Metin işleminden sonra bir metin girişidir
+
+[görsel kaynağı](https://lawtomated.com/structured-data-vs-unstructured-data-what-are-they-and-why-care/)
+
+##
+
+### Yaygın NLP Uygulamaları - Özetleme
+
+![](images/text-summary.png)
+
+Metin özetleme, büyük miktardaki metni kısa ve tutarlı özetlere yoğunlaştıran bir NLP uygulamasıdır. İnsanlar için özetleme, bağlamı anlamayı, ana noktaları belirlemeyi ve fikirleri yeniden ifade etmeyi içerir - bunlar bizim için doğal gelen görevlerdir. Ancak bilgisayarlar için bu süreç oldukça karmaşıktır. Bir bilgisayar metnin yapısını analiz etmeli, anlamsal anlamları kavramalı, farklı cümlelerin veya kavramların göreceli önemini belirlemeliı ve ardından tutarlı bir özet üretmeli veya çıkarmalıdır. Bu, dil, bağlam ve ilgililik konusunda insan benzeri bir anlayışı taklit etmek için sofistike algoritmalar gerektirir. Zorluk, makinelere sadece kelimeleri işlemekle kalmayıp, daha geniş belge bağlamı içindeki ilişkilerini ve önemlerini anlamayı öğretmektedir.
+
+:::{.footer style="text-align: center;"}
+[görsel kaynağı](https://www.linkedin.com/pulse/text-summarization-emerging-nlp-technique-your-business-requirements-)
+:::
+
+## 
+
+### Yaygın NLP Uygulamaları - Duygu Analizi
+
+Duygu analizi, bir metin parçasının arkasındaki duygusal tonu belirlemeyi amaçlayan bir NLP tekniğidir. İnsanlar genellikle bir ifadedeki duyguyu sezgisel olarak algılayabilirken, bilgisayarlar için bu görev şaşırtıcı derecede karmaşıktır. Bir bilgisayar, genel duygusal bağlamı kavramak için basit anahtar kelime eşleştirmesinin ötesine geçmelidir. Örneğin, "Bu film müthiş!" ifadesi, bağlama ve konuşmacıya bağlı olarak olumlu veya olumsuz olabilir. 
+
+Lütfen Twitter/X kullanarak ABD'deki mutluluğu takip eden [https://hedonometer.org](https://hedonometer.org) adresini ziyaret edin.
+
+##
+
+### Yaygın NLP Uygulamaları - Varlık İsmi Tanıma
+
+![](images/named-entitiy.webp)
+
+Metindeki adlandırılmış varlıkları bulmayı ve bunları kişi adları, kuruluşlar, konumlar, tıbbi kodlar, zaman ifadeleri, miktarlar, parasal değerler, yüzdeler vb. önceden tanımlanmış kategorilere sınıflandırmayı amaçlayan bir NLP tekniğidir. İnsanlar metindeki bu varlıkları kolayca tanımlayıp kategorize edebilirken, bilgisayarlar için bu görev büyük zorluklar sunar.
+
+Gösterim için lütfen [Geeks4Geeks Varlık İsmi Tanıma](https://www.geeksforgeeks.org/named-entity-recognition/) adresini ziyaret edin.
+
+## NLP Yaklaşımları - Terim tabanlı
+
+NLP'deki terim tabanlı yaklaşımlar, metin verisini işlemek ve analiz etmek için temel yöntemlerden birini temsil eder. Bu yaklaşımlar, bireysel kelimeleri veya terimleri analizin temel birimleri olarak ele alır. Temel fikir, belgeleri terimler koleksiyonu olarak temsil etmektir, genellikle dilbilgisi ve kelime sırasını göz ardı ederek ancak çokluğu koruyarak. Yaygın bir uygulama, her belgenin terim frekansları vektörü olarak temsil edildiği "kelime çantası" modelidir. Basit olmasına rağmen, bu yöntem belge sınıflandırma veya bilgi alma gibi birçok görev için şaşırtıcı derecede etkili olabilir. Ancak, terim tabanlı yaklaşımlar eşanlamlılık (aynı anlamlı farklı kelimeler) ve çok anlamlılık (birden çok anlamı olan aynı kelime) ile zorluklarla karşılaşır. Ayrıca bağlamı ve kelimeler arasındaki ilişkileri yakalamakta zorlanırlar. Bu sınırlamalara rağmen, terim tabanlı yöntemler daha gelişmiş NLP teknikleri için bir temel oluşturur ve hesaplama verimliliği ve yorumlanabilirliği nedeniyle birçok uygulamada ilgili kalmaya devam eder.
+
+##
+
+![](images/disadvantage-bow-1024x650.webp)
+
+[görsel kaynağı](https://aiml.com/what-are-the-advantages-and-disadvantages-of-bag-of-words-model/)
+
+
+## NLP Yaklaşımları - Sözlük Tabanlı
+
+NLP'de sözlük tabanlı yaklaşımlar, metni işlemek ve analiz etmek için sözlükler, eşanlamlılar sözlüğü veya ontolojiler gibi önceden var olan sözcüksel kaynakları kullanır. Bu yöntemler, dili anlamak ve yorumlamak için insan tarafından oluşturulmuş bilgi tabanlarından yararlanır. Özünde, insanların bilinmeyen kelimeleri veya kavramları anlamak için sözlükleri nasıl kullandığını taklit etmeye çalışırlar. Örneğin, duygu analizinde sözlük tabanlı bir yaklaşım, ilişkili duyguları ile etiketlenmiş kelimelerin bir sözlüğünü kullanabilir.
+
+##
+
+![](images/dict-based-nlp.jpg)
+
+[görsel kaynağı](https://www.researchgate.net/publication/283954600_Sentiment_Analysis_An_Overview_from_Linguistics)
+
+## NLP Yaklaşımları - Derlem/Corpus Tabanlı
+
+NLP'de derlem tabanlı yaklaşımlar, dilbilimsel bilgi ve kalıpları türetmek için derlem olarak bilinen büyük metin veri koleksiyonlarına dayanır. Önceden var olan bilgi tabanlarına bağlı olan sözlük tabanlı yöntemlerin aksine, derlem tabanlı yaklaşımlar gerçek dünya dil kullanımından öğrenir. Bu yöntemler, kelimelerin ve ifadelerin geniş miktardaki metin içinde bağlam içinde nasıl kullanıldığını analiz etmek için istatistiksel teknikler kullanır. Örneğin, Word2Vec veya GloVe gibi kelime gömmeleri, büyük derlemlerdeki eş-oluşum kalıplarına dayalı olarak kelimelerin vektör temsillerini öğrenmek için sinir ağlarını kullanır.
+
+Derlem tabanlı yöntemler, dil kullanımındaki nüansları yakalamada, belirsizliği ele almada ve farklı alanlara veya dillere uyum sağlamada öne çıkar. Dil modelleme, makine çevirisi ve metin üretimi gibi görevler için özellikle güçlüdürler.
+
+## NLP Yaklaşımları - Anlamsal (Semantic) Yaklaşım
+
+NLP'de anlambilim yaklaşımları, dilin sadece yapısını veya istatistiksel kalıplarını değil, anlamını anlamaya odaklanır. Bu yöntemler, insan kavrayışını yansıtarak metindeki altta yatan kavramları ve ilişkileri yakalamayı ve temsil etmeyi amaçlar. Anlambilim yaklaşımları genellikle kavramlar arasındaki ilişkileri modellemek için bilgi grafikleri, ontolojiler veya anlamsal ağları kullanır. Örneğin, biyomedikal bir bağlamda, anlambilim yaklaşımı "aspirinin" bir tür "ağrı kesici" olduğunu ve "baş ağrılarını" "tedavi ettiğini" anlayabilir. Bu yöntemler karmaşık sorguları ele alabilir, yeni bilgiler çıkarabilir ve bağlama bağlı anlamları anlayabilir.
+
+## NLP Ön İşleme Adımları
+
+### Metin temizleme ve normalleştirme:
+
+Bu ilk adım, işlemeyi engelleyebilecek öğeleri kaldırarak veya standartlaştırarak ham metin verisini analize hazırlamayı içerir. Genellikle tutarlılığı sağlamak için metni küçük harfe dönüştürme, analizle ilgisi olmayan özel karakterleri veya noktalama işaretlerini kaldırma ve biçimlendirme sorunlarını ele alma gibi görevleri içerir. Örneğin, sosyal medya metninde, kısaltmaları genişletme (örn. "değil" yerine "değil"), yaygın yazım hatalarını düzeltme veya emojileri metin açıklamalarına dönüştürme işlemlerini içerebilir. Amaç, temel anlamını korurken analizi karmaşıklaştırabilecek gürültüyü ve varyasyonları azaltan standartlaştırılmış, "temiz" bir metin versiyonu oluşturmaktır.
+
+##
+
+### Belirteçlere Ayırma (Tokenization)
+
+Belirteçlere ayırma, metni genellikle kelimeler veya alt kelimeler olarak adlandırılan daha küçük birimlere (belirteçlere) ayırma işlemidir. Basit görünse de, dile özgü zorluklar nedeniyle karmaşık olabilir. Örneğin, İngilizcede boşluk ve noktalama işaretlerinden ayırabiliriz, ancak bu yaklaşım kelimeler arasında boşluk kullanmayan Çince gibi diller için başarısız olur. Belirteçlere ayırma ayrıca kısaltmalar, kısa çizgi ile birleştirilmiş kelimeler veya çok kelimeli ifadelerin nasıl ele alınacağı konusunda kararlar içerir. Belirteçlere ayırma yöntemi seçimi, modelin çalışacağı temel anlam birimlerini tanımladığı için sonraki NLP görevlerini önemli ölçüde etkileyebilir.
+
+## 
+
+### Durak kelime çıkarma
+
+Durak kelimeler, genellikle kendi başlarına önemli bir anlam taşımadıkları için metin işlemeden filtrelenen yaygın kelimelerdir (örneğin "ve", "veya", "ama", "ki" gibi). Bunları çıkarmak, verideki gürültüyü azaltmaya ve analizi daha anlamlı içerik kelimelerine odaklamaya yardımcı olabilir. Ancak, neyin durak kelime oluşturduğunun tanımı, belirli uygulamaya veya alana bağlı olarak değişebilir. Örneğin, duygu analizinde genellikle durak kelime olarak kabul edilen "değil" gibi kelimeler anlamı anlamak için çok önemli olabilir. Bu nedenle, durak kelime çıkarma verimliliği artırabilir ve gürültüyü azaltabilir, ancak belirli NLP görevinin dikkatli bir şekilde değerlendirilmesini gerektirir.
+
+##
+
+### Kök bulma (Stemming) ve Gövde bulma (Lemmatization)
+
+Bu teknikler, kelimeleri temel veya sözlük formuna indirgemeyi amaçlar, bu da farklı kelime formlarını tek bir öğe olarak ele almaya yardımcı olur. Kök bulma, kelimelerin sonlarını kesen kaba bir sezgisel süreçtir ve genellikle kelime olmayan sonuçlar verir (örn. "koşuyor" "koş" olur, ancak "evren" "evr" olur). Öte yandan, gövde bulma, bir kelimenin sözlük formunu döndürmek için kelime dağarcığı ve morfolojik analiz kullanır (örn. "koşuyor" "koşmak" olur, "am" "olmak" olur). Kök bulma daha hızlı ve basit olsa da, gövde bulma daha doğru sonuçlar sağlar. Aralarındaki seçim, işlem hızı ile dilbilimsel doğruluk arasında denge kurarak belirli NLP görevinin gereksinimlerine bağlıdır.
+
+##
+
+![](images/stem-lemma.webp)
+
+[görsel kaynağı](https://nirajbhoi.medium.com/stemming-vs-lemmatization-in-nlp-efc280d4e845)
+
+## 
+
+![](images/stemmin_lemm_ex-1.png)
+
+[görsel kaynağı](https://studymachinelearning.com/stemming-and-lemmatization/)
+
+## 
+
+### Konuşma bölümü (POS) etiketleme
+
+POS (Point of Speech) etiketleme, bir metindeki her kelimeyi hem tanımına hem de bağlamına dayalı olarak uygun konuşma bölümü (isim, fiil, sıfat vb.) ile etiketlemeyi içerir. Bu süreç, cümlelerin dilbilgisel yapısını anlamak için çok önemlidir ve adlandırılmış varlık tanıma veya sözdizimsel ayrıştırma gibi görevlerde önemli ölçüde yardımcı olabilir. Modern POS etiketleyiciler genellikle büyük açıklamalı derlemler üzerinde eğitilmiş makine öğrenimi modellerini kullanır ve yüksek doğruluk elde edebilir. Ancak, belirsiz kelimelerle (örn. "kayıt" bir isim veya fiil olabilir) veya kelimelerin alışılmadık şekillerde kullanıldığı alan spesifik dili ele almada hala zorluklarla karşılaşabilirler.
+
+## 
+
+![](images/2022_12_POS-Tagging.jpg)
+
+[görsel kaynağı](https://www.shiksha.com/online-courses/articles/pos-tagging-in-nlp/)
+
+##
+
+| **Konuşma Bölümü** | **Etiket** |
+| ------------------ | ---------- |
+| İsim (Tekil)       | NN         |
+| İsim (Çoğul)       | NNS        |
+| Fiil               | VB         |
+| Belirleyici        | DT         |
+| Sıfat              | JJ         |
+| Zarf               | RB         |
+
+## 
+
+### Sözdizimi analizi ve ayrıştırma
+
+Bu teknik, kelimelerin birbirleriyle nasıl ilişkili olduğunu anlamak için cümlelerin dilbilgisel yapısını analiz etmeyi içerir. Genellikle cümle yapısını temsil eden bir ayrıştırma ağacı veya bağımlılık grafiği üretir. İki ana yaklaşım vardır: cümleleri iç içe geçmiş bileşenlere (öbekler) bölen bileşen ayrıştırma ve bireysel kelimeler arasındaki dilbilgisel ilişkileri tanımlayan bağımlılık ayrıştırma. Ayrıştırma, makine çevirisi veya soru cevaplama gibi cümle yapısını anlamayı gerektiren görevler için çok önemlidir. Ancak, hesaplama açısından yoğun olabilir ve belirsiz cümleler veya standart olmayan dil kullanımı ile zorluklarla karşılaşabilir.
+
+Lütfen şu bağlantıları ziyaret edin: [bağlantı1](https://www.geeksforgeeks.org/syntax-tree-natural-language-processing/)
+
+## NLP'de Özellik Çıkarma ve Temsil Teknikleri
+
+## 
+
+### Torba içinde Kelimeler (BoW) modeli:
+
+Kelime Çantası modeli, metni sayısal özellikler olarak temsil etmek için basit ancak etkili bir yöntemdir. Derleme içindeki tüm benzersiz kelimelerden bir kelime dağarcığı oluşturur ve her belgeyi kelime frekanslarının bir vektörü olarak temsil eder. Kelimelerin sırası dikkate alınmaz, bu yüzden "çanta" adı verilir. BoW hesaplama açısından verimli ve anlaşılması kolay olsa da, kelime sırası ve bağlam hakkındaki tüm bilgileri kaybeder. Ayrıca, kelime dağarcığı dışındaki kelimelerle mücadele eder ve büyük kelime dağarcıkları için çok yüksek boyutlu, seyrek vektörlerle sonuçlanabilir. Bu sınırlamalara rağmen, BoW birçok metin sınıflandırma görevi için faydalı olmaya devam eder ve daha gelişmiş teknikler için bir temel oluşturur.
+
+##
+
+### Terim Frekansı-Ters Belge Frekansı (TF-IDF):
+
+TF-IDF, bir koleksiyon veya derlem içindeki bir belgede bir kelimenin önemini değerlendirmek için kullanılan istatistiksel bir ölçüdür. İki metriği birleştirir: Terim Frekansı (bir kelimenin bir belgede ne sıklıkta göründüğü) ve Ters Belge Frekansı (kelimenin tüm belgeler arasında ne kadar nadir olduğu). Fikir, bir belgede sık sık geçen ancak genel derlemde nadir olan kelimelerin muhtemelen o belge için daha önemli olduğudur. TF-IDF, tüm belgelerde sık sık görünen ancak az anlam taşıyan yaygın kelimelerin etkisini azaltmaya yardımcı olur. Bu yöntem, basit kelime sayımlarından daha nüanslı bir temsil sağlayarak bilgi alma ve belge sıralama gibi görevler için değerli hale getirir.
+
+Lütfen gösterim için [bu bağlantıyı](https://medium.com/@er.iit.pradeep09/understanding-tf-idf-in-nlp-a-comprehensive-guide-26707db0cec5) ziyaret edin.
+
+##
+
+### N-gram modelleri:
+
+N-gram modelleri, BoW (Bag of Words) fikrinin bir uzantısı olarak, tek tek kelimeleri izole olarak ele almak yerine, N bitişik kelimeden oluşan dizileri dikkate alır. Örneğin, bir bigram (2-gram) modeli bitişik kelime çiftlerini ele alırken, bir trigram (3-gram) modeli üç kelimelik dizileri inceler. N-gramlar, dil modelleme veya makine çevirisi gibi görevler için çok önemli olabilen bazı yerel bağlam ve kelime sırası bilgilerini yakalar. Ancak, N arttıkça, modelin karmaşıklığı ve veri seyrekliği sorunları da artar. N-gram modelleri, BoW'un basitliği ile kelime ilişkilerini yakalama ihtiyacı arasında bir denge kurar ve bu da onları çeşitli NLP uygulamalarında kullanışlı kılar.
+
+Görsel açıklama için lütfen bu bağlantıları ziyaret edin: [bağlantı1](https://www.kdnuggets.com/2022/06/ngram-language-modeling-natural-language-processing.html) [bağlantı2](https://www.depends-on-the-definition.com/introduction-n-gram-language-models/) [bağlantı3](https://studymachinelearning.com/an-introduction-to-n-grams/) 
+
+##
+
+### Kelime gömmeleri/embeddings (Word2Vec, GloVe, FastText):
+
+Kelime gömmeleri, anlamsal olarak benzer kelimelerin yakın noktalara eşlendiği sürekli bir vektör uzayında kelimelerin yoğun vektör temsilleridir. Seyrek, yüksek boyutlu vektörler üreten BoW veya TF-IDF'nin aksine, kelime gömmeleri genellikle birkaç yüz boyuta sahiptir. Word2Vec gibi modeller, bu temsilleri büyük metinlerde kelime eş-oluşumlarını analiz ederek öğrenir ve anlamsal ilişkileri yakalar (örn. "kral" - "adam" + "kadın" ≈ "kraliçe"). FastText bu fikri alt kelime birimlerine genişleterek, sözlük dışı kelimeler için de gömme oluşturulmasına olanak tanır. Bu yoğun temsiller, çeşitli NLP görevlerinde performansı önemli ölçüde artırır ve ilginç kelime cebiri işlemlerine izin verir. Ancak, her kelimenin bağlamdan bağımsız olarak tek, sabit bir temsili olduğu için çok anlamlılık (bir kelimenin birden fazla anlamı olması) konusunda zorlanırlar.
+
+Görsel açıklamalar için lütfen bu bağlantıları ziyaret edin: [bağlantı1](https://www.scaler.com/topics/nlp/word2vec/) [bağlantı2](https://aegis4048.github.io/demystifying_neural_network_in_skip_gram_language_modeling). İnteraktif görselleştirme için lütfen [Embedding Projector]() sayfasını ziyaret edin.
+
+[FastText](https://kavita-ganesan.com/fasttext-vs-word2vec/) için görsel açıklama
+
+##
+
+### Bağlamsal gömmeler (örn. BERT, GPT):
+
+Bağlamsal gömmeler, bir kelimenin cümle içindeki bağlamına dayalı olarak farklı temsiller üreterek geleneksel kelime gömmelerine göre önemli bir ilerlemeyi temsil eder. BERT (Bidirectional Encoder Representations from Transformers) ve GPT (Generative Pre-trained Transformer) gibi modeller, kelimeler arasındaki karmaşık, çift yönlü ilişkileri yakalamak için derin öğrenme mimarilerini kullanarak tüm cümleleri veya belgeleri aynı anda işler. Bu modeller, büyük miktarda metin verisi üzerinde önceden eğitilir ve belirli görevler için ince ayar yapılabilir. Bağlamsal gömmeler, nüanslı anlamları yakalamada, çok anlamlılığı ele almada ve metindeki uzun mesafeli bağımlılıkları anlamada mükemmeldir. Çeşitli NLP görevlerinde yeni en son teknoloji standartları belirlemişlerdir. Ancak, hesaplama açısından yoğundurlar ve eğitim ve dağıtım için önemli kaynaklar gerektirirler, bu da sınırlı hesaplama gücüne sahip veya gerçek zamanlı gereksinimler olan uygulamalar için zorluklar oluşturur.
