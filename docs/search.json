@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "FEF3001 Yapay Zekaya Giriş",
     "section": "",
-    "text": "Makine Öğrenmesinde Sınıflandırma Yöntemleri ve R Uygulamaları, Ersoy Öz & Selçuk Alp, Nobel Akademik Yayıncılık, 2020.\nVeri Madenciliği ve Makine Öğrenmesi İle Farklı Alanlarda Uygulamalar, Şenol Çelik, Nilay Köleoğlu, & Fatih Çemrek, Holistence Publications, 2022\nSağlık Bilimlerinde Yapay Zeka, Ahmet Rıza Şahin, Kamil Doğan, & Süleyman Sivri, Akademisyen Kitabevi A.Ş., 2020\nYapay Zeka, Atınç Yılmaz, Kodlab Yayın Dağıtım Yazılım Ltd. Şti., 2022\nMachine Learning Algorithms, Giuseppe Bonaccorso, Packt Publishing, 2017.\nOptimizasyon Modelleme ve Yapay Zeka Algoritmaları, Bayram Köse, Bahar Demirtürk, Efe Akademi Yayınları, 2023\n\n\n\n\nGrup2: 4 Temmuz Perşembe 8:30 - Grup1: 4 Temmuz Perşembe 18:00\nİçerik: İlk derste, ChatGPT ve benzeri büyük dil modelleri tanıtıldı. OpenAI Playground üzerinde “cümle tamamlama” kavramı ve “temparature” ayarı gösterildi. Daha iyi çıktı almak için Prompt ayarları anlatıldı. Dökümandan sorgu/chat yapmak için Gemini ve Claude örnekleri verildi. Yine Claude üzerinden kod yazdırma örneği işlendi. İngilizce Sunum linki, Türkçe Sunum linki\n\n\n\n\nGrup2: 5 Temmuz Cuma 8:30 - Grup1: 5 Temmuz Cuma 14:00\nİçerik: Veri türleri ve verilerin işlenmesine dair bilgi verildi. Sunum linki\n\n\n\nGrup2: 11 Temmuz Perşembe 8:30 - Grup1: 11 Temmuz Perşembe 18:00\nİçerik: Confusion matrix ve sınıflandırma/regresyon değerlendirmesi Sunum linki\n\n\n\nGrup2: 12 Temmuz Cuma 8:30 - Grup1: 12 Temmuz Cuma 14:00\nİçerik: Yapay sinir ağları Sunum linki. Derste kullanılan yapay sinir ağı demo sayfaları için link1 ve link2\n\n\n\nGrup2: 19 Temmuz Cuma 8:30 - Grup1: 19 Temmuz Cuma 14:00\nİçerik: Sınıflandırma metodları İngilizce Sunum linki, Türkçe Sunum Linki\n\n\n\nGrup2: 25 Temmuz Perşembe 8:30 - Grup1: 25 Temmuz Perşembe 18:00\nİçerik: Regresyon İngilizce Sunum linki, Türkçe Sunum linki\n\n\n\nGrup2: 26 Temmuz Cuma 8:30 - Grup1: 26 Temmuz Cuma 14:00\nİçerik: Kümeleme İngilizce Sunum linki, Türkçe Sunum Linki"
+    "text": "Makine Öğrenmesinde Sınıflandırma Yöntemleri ve R Uygulamaları, Ersoy Öz & Selçuk Alp, Nobel Akademik Yayıncılık, 2020.\nVeri Madenciliği ve Makine Öğrenmesi İle Farklı Alanlarda Uygulamalar, Şenol Çelik, Nilay Köleoğlu, & Fatih Çemrek, Holistence Publications, 2022\nSağlık Bilimlerinde Yapay Zeka, Ahmet Rıza Şahin, Kamil Doğan, & Süleyman Sivri, Akademisyen Kitabevi A.Ş., 2020\nYapay Zeka, Atınç Yılmaz, Kodlab Yayın Dağıtım Yazılım Ltd. Şti., 2022\nMachine Learning Algorithms, Giuseppe Bonaccorso, Packt Publishing, 2017.\nOptimizasyon Modelleme ve Yapay Zeka Algoritmaları, Bayram Köse, Bahar Demirtürk, Efe Akademi Yayınları, 2023\n\n\n\n\nGrup2: 4 Temmuz Perşembe 8:30 - Grup1: 4 Temmuz Perşembe 18:00\nİçerik: İlk derste, ChatGPT ve benzeri büyük dil modelleri tanıtıldı. OpenAI Playground üzerinde “cümle tamamlama” kavramı ve “temparature” ayarı gösterildi. Daha iyi çıktı almak için Prompt ayarları anlatıldı. Dökümandan sorgu/chat yapmak için Gemini ve Claude örnekleri verildi. Yine Claude üzerinden kod yazdırma örneği işlendi. İngilizce Sunum linki, Türkçe Sunum linki\n\n\n\n\nGrup2: 5 Temmuz Cuma 8:30 - Grup1: 5 Temmuz Cuma 14:00\nİçerik: Veri türleri ve verilerin işlenmesine dair bilgi verildi. Sunum linki\n\n\n\nGrup2: 11 Temmuz Perşembe 8:30 - Grup1: 11 Temmuz Perşembe 18:00\nİçerik: Confusion matrix ve sınıflandırma/regresyon değerlendirmesi Sunum linki\n\n\n\nGrup2: 12 Temmuz Cuma 8:30 - Grup1: 12 Temmuz Cuma 14:00\nİçerik: Yapay sinir ağları Sunum linki. Derste kullanılan yapay sinir ağı demo sayfaları için link1 ve link2\n\n\n\nGrup2: 19 Temmuz Cuma 8:30 - Grup1: 19 Temmuz Cuma 14:00\nİçerik: Sınıflandırma metodları İngilizce Sunum linki, Türkçe Sunum Linki\n\n\n\nGrup2: 25 Temmuz Perşembe 8:30 - Grup1: 25 Temmuz Perşembe 18:00\nİçerik: Regresyon İngilizce Sunum linki, Türkçe Sunum linki\n\n\n\nGrup2: 26 Temmuz Cuma 8:30 - Grup1: 26 Temmuz Cuma 14:00\nİçerik: Kümeleme İngilizce Sunum linki, Türkçe Sunum Linki\n\n\n\nGrup2: 01 Ağustos Perşembe 8:30 - Grup1: 01 Ağustos Perşembe 18:00\nİçerik: Doğal Dil İşleme İngilizce Sunum linki"
   },
   {
     "objectID": "index.html#kaynaklar",
@@ -61,6 +61,13 @@
     "title": "FEF3001 Yapay Zekaya Giriş",
     "section": "",
     "text": "Grup2: 26 Temmuz Cuma 8:30 - Grup1: 26 Temmuz Cuma 14:00\nİçerik: Kümeleme İngilizce Sunum linki, Türkçe Sunum Linki"
+  },
+  {
+    "objectID": "index.html#ders8",
+    "href": "index.html#ders8",
+    "title": "FEF3001 Yapay Zekaya Giriş",
+    "section": "",
+    "text": "Grup2: 01 Ağustos Perşembe 8:30 - Grup1: 01 Ağustos Perşembe 18:00\nİçerik: Doğal Dil İşleme İngilizce Sunum linki"
   },
   {
     "objectID": "id3-decision-tree-TR.html",
@@ -483,116 +490,277 @@
     "text": "The Hierarchical Clustering Algorithm\nIn this section, we will look at three main concepts. The steps of the hierarchical algorithm, a highlight of the two types of hierarchical clustering (agglomerative and divisive), and finally, some techniques to choose the right distance measure.\n\nSteps involved in the hierarchical clustering algorithm\nThe hierarchical clustering algorithm employs the use of distance measures to generate clusters. This generation process involves the following main steps:\n\n\n\nCreating Hierarchical Clustering Algorithm\n\n\nPreprocess the data by removing missing data and applying any additional tasks that make the data as clean as possible. This step is a more general one for most of the machine learning tasks.\n\nCompute the distance matrix containing the distance between each pair of data points using a particular distance metric such as Euclidean distance, Manhattan distance, or cosine similarity. But the default distance metric is the Euclidean one.\n\n2.Merge the two clusters that are the closest in distance.\n\nUpdate the distance matrix with regard to the new clusters.\nRepeat steps 1, 2, and 3 until all the clusters are merged together to create a single cluster.\n\n\n\nHierarchical clustering examples\nWe can consider agglomerative and divisive clustering as mirrors of each other. Let’s have a better look at how each one operates, along with a hierarchical clustering example and graphical visualization.\n\nAgglomerative hierarchical clustering\nThis first scenario corresponds to the approach explained above. It starts by considering each observation as a singleton cluster (cluster with only one data point). Then iteratively merges clusters until only one cluster is obtained. This process is also known as the bottom-up approach.\nAs showing in the illustration below:\n\nWe start by considering each animal to be its unique cluster.\nThen we generate three different clusters from those unique animals based on their similarities:\n\nBirds: Eagle and Peacock\nMammals: Lion and Bear\nMore than three leg animals: Spider and Scorpion.\n\nWe repeat the merging process to create the vertebrate cluster by combining the two most similar clusters: Birds and Mammals.\nAfter this step, the remaining two clusters, Vertebrate and More than three legs, are merged to create a single Animals cluster.\n\n\n\n\nDendrogram of Agglomerative Clustering Approach\n\n\nDendrogram of Agglomerative Clustering Approach\n\n\nDivisive clustering\nOn the other hand, divisive clustering is top-down because it starts by considering all the data points as a unique cluster. Then it separates them until all the data points are unique.\nFrom this divisive approach graphic:\n\nWe notice that the whole animal dataset is considered as a single bloc.\nThen, we divide that block into two clusters: Vertebrate and More than 3 legs.\nThe division process is iteratively applied to the previously created clusters until we get unique animals.\n\n\n\n\nDendrogram of Divisive Clustering Approach\n\n\nDendrogram of Divisive Clustering Approach\n\n\n\nChoosing the right distance measure\nYour choice of distance measure is a critical step in clustering, and it depends on the problem you’re trying to solve. Considering the following scenario, we could cluster students based on any number of approaches such as their:\n\nCountry of origin\nGender, either male or female\nPrevious academic background.\n\nThese are all valid clusters but differ in meaning.\nEven though Euclidean distance is the most common distance used in most clustering software, other distance measures such as Manhattan distance, Canberra distance, Pearson or Spearman correlation, and Minkowski distance exist.\n\n\nHow to measure clusters before merging them\nThe previously mentioned distances are related to items. In this section, we will cover three standard ways (not exhaustive) to measure the nearest pair of clusters before merging them: (1) Single linkage, (2) Complete linkage, and (3) Average linkage.\n\nSingle linkage\nFrom all the pairwise distances between the items in the two clusters C1 and C2, the single linkage takes the distance between the clusters as the minimum distance.\nDistance (C1, C2) = Min { d(i, j), where item i is within C1, and item j is within C2}\nOut of all the pairs of items from the two clusters, the ones highlighted in green have the minimum distance.\n\n\n\nSingle linkage illustration\n\n\nSingle linkage illustration\n\n\nComplete linkage\nFrom all the pairwise distances between the items in the two clusters C1 and C2, the single linkage takes the distance between the clusters as the maximum distance.\nDistance (C1, C2) = Max { d(i, j), where item i is within C1, and item j is within C2}\nOut of all the pairs of items from the two clusters, the ones highlighted in green have the maximum distance.\n\n\n\nComplete linkage illustration\n\n\nComplete linkage illustration\n\n\nAverage linkage\nIn the average linkage clustering, the distance between two given clusters C1 and C2 corresponds to the average distances between all pairs of items in the two clusters.\nDistance (C1, C2) = Sum{ d(i, j) } / Total Number of distances\n\n\n\nAverage linkage illustration\n\n\nAverage linkage illustration\nThen the average linkage clustering is performed as follows\nd(a,j) + d(a,h) + d(a,n) + d(d,j) + d(d,h) + d(d,n)\n————————————————————–, where Total number of distances = 6\nTotal number of distances"
   },
   {
-    "objectID": "ders1-TR.html",
-    "href": "ders1-TR.html",
-    "title": "GPT modelleri",
+    "objectID": "ders8.html#contents",
+    "href": "ders8.html#contents",
+    "title": "NLP - Natural Language Processing",
+    "section": "Contents",
+    "text": "Contents\n\n\n\nDefinition and why we need NLP\nCommon NLP Applications\n\nText summarization\nSentiment analysis\nKeyword extraction and association\nDocument classification\nNamed entity recognition\nMachine translation\nQuestion answering systems\nChatbots and conversational AI\n\n\n\n\nNLP Approaches\n\nTerm-based approaches\nDictionary-based approaches\nCorpus-based approaches\nStatistical approaches\nSemantic approaches\nDeep learning approaches"
+  },
+  {
+    "objectID": "ders8.html#contents-contd",
+    "href": "ders8.html#contents-contd",
+    "title": "NLP - Natural Language Processing",
+    "section": "Contents (cont’d)",
+    "text": "Contents (cont’d)\n\nPreprocessing Steps in NLP: Text cleaning and normalization, Tokenization, Stop word removal, Stemming and lemmatization, Part-of-speech (POS) tagging, Syntax analysis and parsing, Named entity recognition\nFeature Extraction and Representation: Bag of Words (BoW) model, Term Frequency-Inverse Document Frequency (TF-IDF), N-gram models, Word embeddings (Word2Vec, FastText), Contextual embeddings (e.g., BERT, GPT)"
+  },
+  {
+    "objectID": "ders8.html#definition",
+    "href": "ders8.html#definition",
+    "title": "NLP - Natural Language Processing",
+    "section": "Definition",
+    "text": "Definition\nNatural Language Processing (NLP) is a branch of artificial intelligence that focuses on the interaction between computers and human language. It combines computational linguistics, machine learning, and deep learning techniques to enable computers to understand, interpret, generate, and respond to human language in a valuable way. NLP aims to bridge the gap between human communication and computer understanding by processing and analyzing large amounts of natural language data. This field encompasses various tasks such as speech recognition, text analysis, language translation, sentiment analysis, and text generation, allowing machines to derive meaning from human languages and respond in a way that is both meaningful and contextually appropriate."
+  },
+  {
+    "objectID": "ders8.html#why-nlp",
+    "href": "ders8.html#why-nlp",
+    "title": "NLP - Natural Language Processing",
+    "section": "Why NLP?",
+    "text": "Why NLP?\nNatural Language Processing (NLP) is crucial because text data is fundamentally different from the structured numerical and categorical data typically used in traditional machine learning tasks. Here’s why NLP is necessary:\n\nUnstructured nature of text: Unlike tabular data where each column represents a specific feature, text is inherently unstructured. A sentence or document doesn’t come with predefined features or categories. This unstructured nature makes it challenging for computers to directly process and analyze text data.\nHigh dimensionality: Text data can be extremely high-dimensional. In a bag-of-words model, for instance, each unique word in the corpus becomes a feature. This can lead to thousands or even millions of dimensions, far exceeding what’s typically seen in structured data problems.\nSemantic complexity: Words and phrases can have multiple meanings depending on context. For example, “bank” could refer to a financial institution or the side of a river. Traditional ML models aren’t equipped to handle this semantic complexity without NLP techniques."
+  },
+  {
+    "objectID": "ders8.html#why-nlp-1",
+    "href": "ders8.html#why-nlp-1",
+    "title": "NLP - Natural Language Processing",
+    "section": "Why NLP?",
+    "text": "Why NLP?\n\nSyntactic variability: The same meaning can be expressed in many different ways in natural language. For example, “The cat sat on the mat” and “On the mat sat the cat” convey the same information but have different word orders. ML models need NLP techniques to understand these variations.\nDealing with noise: Text data often contains “noise” such as spelling errors, informal language, or irrelevant information. NLP provides methods to clean and preprocess this data, making it suitable for analysis.\nFeature extraction: Unlike numerical data where features are explicit, textual features need to be extracted. NLP provides techniques like TF-IDF, word embeddings, and topic modeling to convert text into meaningful numerical representations that ML models can work with.\nHandling sequence information: Many ML models assume independence between features, but in text, the order of words matters. NLP techniques like recurrent neural networks or transformers are designed to capture this sequential information."
+  },
+  {
+    "objectID": "ders8.html#why-nlp-2",
+    "href": "ders8.html#why-nlp-2",
+    "title": "NLP - Natural Language Processing",
+    "section": "Why NLP?",
+    "text": "Why NLP?\n\nMultilingual challenges: Text data can come in multiple languages, each with its own rules and nuances. NLP provides tools for language detection, translation, and cross-lingual analysis.\nDealing with context: Understanding text often requires grasping context beyond the immediate words. NLP techniques help in capturing and utilizing this broader context.\n\nIn essence, NLP is needed because it provides the necessary tools and techniques to transform the rich, complex, and unstructured nature of human language into a form that computers can process effectively. It bridges the gap between the way humans communicate and the way machines process information, enabling a wide range of applications from sentiment analysis to machine translation, chatbots, and beyond."
+  },
+  {
+    "objectID": "ders8.html#why-nlp-3",
+    "href": "ders8.html#why-nlp-3",
+    "title": "NLP - Natural Language Processing",
+    "section": "Why NLP?",
+    "text": "Why NLP?"
+  },
+  {
+    "objectID": "ders8.html#section",
+    "href": "ders8.html#section",
+    "title": "NLP - Natural Language Processing",
     "section": "",
-    "text": "GPT1, GPT2 ve GPT3, ChatGPT’den birkaç yıl önce piyasaya sürüldü ve cümleleri tamamlama yeteneğine sahipti. Daha fazla bilgi için “ChatGPT Nasıl Çalışır?” sitesini ziyaret edin. ChatGPT’nin piyasaya sürülmesinden sonra, büyük dil modelleri “konuşma yeteneği” kazandı.\nLütfen OpenAI Playground tamamlama sitesini ziyaret edin ve model olarak “gpt-3.5-turbo”yu seçin. Tamamlanmamış bir cümle yazın ve ardından Gönder düğmesine basın.\n\nModelin cümlenizi tamamladığını göreceksiniz. Sağ menüdeki “Olasılıkları göster” seçeneğini açarsanız, GPT’nin nasıl çalıştığına dair bir fikir edinebilirsiniz.\n\nCümleyi tamamlayıp kelimelerin üzerine geldiğinizde, modelin belirli olasılıklarla seçebileceği birçok kelime olduğunu göreceksiniz. Bu örnekte, “my” kelimesi Today is ifadesinden sonra 4. en olası kelimedir ve “birthday” kelimesi Today is my ifadesinden sonra en olası kelimedir.\n\n\nGPT modellerinin temel ayarlarından biri sıcaklık değeridir. Sıcaklığı azaltırsanız, model en olası kelimeleri seçecektir. Sıcaklık yüksekse, model düşük olasılıklı kelimeleri seçecektir, bu da yaratıcı ve çeşitli çıktılar sağlayacaktır.\nSıcaklığı sıfıra düşürürseniz, çıktı her zaman aynı olacaktır."
+    "text": "image source"
   },
   {
-    "objectID": "ders1-TR.html#chatgpt-bizim-için-kod-yazıyor",
-    "href": "ders1-TR.html#chatgpt-bizim-için-kod-yazıyor",
-    "title": "GPT modelleri",
-    "section": "ChatGPT bizim için kod yazıyor",
-    "text": "ChatGPT bizim için kod yazıyor\nHadi ChatGPT’den Python’da hızlı bir asal sayı fonksiyonu isteyelim\n\n\nAz önce ne olduğunu gördünüz mü! Bize özel hazırlanmış bir kod sağladı ve kodun parçalarını da açıkladı. Kodun dersimiz sırasında öğrendiğimiz püf noktaları içerdiğini fark ettiniz mi: * erken durma: bir koşul karşılanırsa, hemen True veya False döndür * N’ye kadar kontrol etmek yerine, \\(\\sqrt{N}\\)’e kadar olan sayıları kontrol etmeliyiz (Python’da n  0.5**)\nKonuşmaya devam edebilirsiniz. Hadi memoization isteyelim.\n\n\nHadi kodu alalım ve burada test edelim:\ndef is_prime(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n in (2, 3):\n        result = True\n    elif n == 1 or n % 2 == 0:\n        result = False\n    else:\n        result = True\n        for i in range(3, int(n ** 0.5) + 1, 2):\n            if n % i == 0:\n                result = False\n                break\n    memo[n] = result\n    return result\n# is_prime(100000000003)\n\n\n\n\n\n\nUyarı\n\n\n\nBu notu yazdığım sırada (Ocak 2023) chatGPT’nin tam olarak doğru olmayan sonuçlar verdiği biliniyordu!Bu nedenle, chatGPT’den aldığınız kodu veya bilgiyi kontrol etmeden veya doğrulamadan olduğu gibi kullanmamaya dikkat ediniz."
-  },
-  {
-    "objectID": "ders1-TR.html#chatgpt-kodu-düzeltebilir-veya-değiştirebilir",
-    "href": "ders1-TR.html#chatgpt-kodu-düzeltebilir-veya-değiştirebilir",
-    "title": "GPT modelleri",
-    "section": "ChatGPT kodu düzeltebilir veya değiştirebilir",
-    "text": "ChatGPT kodu düzeltebilir veya değiştirebilir\nElinizde bir kod parçası var ve istediğiniz gibi çalışmıyor mu? O zaman ChatGPT’den kodu düzeltmesini isteyebilirsiniz.\nHatalı bir kod verelim ve chatGPT’den hata ayıklamasını isteyelim:\n\n\nDemek ki ChatGPT kodu düzeltebiliyor! Bu arada, o örneği hazırlamak için ChatGPT’yi kullandığımı biliyor muydunuz? ;)"
-  },
-  {
-    "objectID": "ders1-TR.html#bu-programlamanın-sonu-mu",
-    "href": "ders1-TR.html#bu-programlamanın-sonu-mu",
-    "title": "GPT modelleri",
-    "section": "Bu programlamanın sonu mu?",
-    "text": "Bu programlamanın sonu mu?\n“Bir dönem boyunca Python öğrendik ama şimdi ChatGPT var, hiç kod öğrenmeye gerek yok!” diye düşünebilirsiniz. Benzer endişeleri araştıran çevrimiçi içerikler bulabilirsiniz. Ancak daha makul yaklaşım, “AI araçları geliştiricilerin hızını ve verimliliğini artıracak ve ayrıca yeni dillere giriş engellerini azaltacak” şeklindedir.\nAşağıdaki bölüm Github Copilot’un sayfasından alınmıştır:"
-  },
-  {
-    "objectID": "ders1-TR.html#chatgptyi-gösterdiğiniz-için-teşekkürler-artık-ödevlerimi-kolayca-hazırlayabilirim",
-    "href": "ders1-TR.html#chatgptyi-gösterdiğiniz-için-teşekkürler-artık-ödevlerimi-kolayca-hazırlayabilirim",
-    "title": "GPT modelleri",
-    "section": "ChatGPT’yi gösterdiğiniz için teşekkürler, artık ödevlerimi kolayca hazırlayabilirim!",
-    "text": "ChatGPT’yi gösterdiğiniz için teşekkürler, artık ödevlerimi kolayca hazırlayabilirim!\nChatGPT’nin yeteneklerini görmek, yanlış kullanım hakkında bazı ipuçları verebilir. Öncelikle, bir ödev sizin bir kavramı öğrenmeniz içindir (gitar çalma benzetmesini hatırlayın?) bu nedenle AI destekli intihal yapmak hala bir intihaldir ve sizin açınızdan bir kayıptır. (lütfen intihalin olumsuz etkileri için 00-academic-integrity.ipynb dosyasını da kontrol edin)\nİkincisi, OpenAI ve diğerleri ChatGPT çıktısına kolayca fark edilebilecek filigranlar eklemek için araçlar ve yöntemler üzerinde çalışıyor.\nBu yüzden lütfen bu araçtan ilham alın, öğrenmenizi geliştirmek için kullanın ama intihal için kullanmayın."
-  },
-  {
-    "objectID": "ders1-TR.html#kapalı-ve-açık-modeller",
-    "href": "ders1-TR.html#kapalı-ve-açık-modeller",
-    "title": "GPT modelleri",
-    "section": "Kapalı ve Açık modeller",
-    "text": "Kapalı ve Açık modeller\nŞu anda, her biri eğitilmek için yüz milyonlarca dolar harcanan ve büyük şirketler tarafından geliştirilen birkaç kapalı kaynaklı büyük dil modeli var: * GPT3.5 (ChatGPT) ve GPT4 OpenAI tarafından * PaLM ve Bard Google tarafından * Claude Anthropics tarafından"
-  },
-  {
-    "objectID": "ders1-TR.html#claude-3.5-sonnet-by-antropic",
-    "href": "ders1-TR.html#claude-3.5-sonnet-by-antropic",
-    "title": "GPT modelleri",
-    "section": "Claude 3.5 Sonnet by Antropic",
-    "text": "Claude 3.5 Sonnet by Antropic\nClaude 3.5, Claude modelinin en son sürümüdür. Antropic, Claude’u üç boyutta piyasaya sürer: Haiku (en küçük), Sonnet (orta) ve Opus (en büyük). Şu anda, Claude 3.5 Sonnest en iyi LLM’dir. Genellikle Claude yaratıcı yazma konusunda iyidir, ancak son sürümüyle kodlamada da mükemmelleşmiştir. Ayrıca, Claude sağ panelde kodun önizlemesine (web tabanlı) izin verir.\nAşağıda, Claude 3.5 Sonnet’e “Lütfen HTML, CSS ve JS ile yılan oyunu yaz” komutu verildiğinde oluşturulan bir örnek yer alıyor. Oyunu gerçekten oynayabilirsiniz!\n\nClaude ayrıca belgeleri (örneğin PDF) yüklemeye ve belge hakkında sorular sormaya izin verir.\nClaude’u (bazı sınırlamalarla) ücretsiz bir hesap kaydettikten sonra https://claude.ai/chat adresinde kullanabilirsiniz."
-  },
-  {
-    "objectID": "ders1-TR.html#gemini-by-google",
-    "href": "ders1-TR.html#gemini-by-google",
-    "title": "GPT modelleri",
-    "section": "Gemini by Google",
-    "text": "Gemini by Google\nGemini aslında çevrimiçi arama kapasitesine sahip bir LLM’dir. Ayrıca, (Google Drive aracılığıyla) belgeler indirebilir veya sorular sormak için YouTube videolarına yönlendirebilirsiniz. Son olarak, Gemini 1 milyon belirteçlik en uzun bağlam penceresine sahiptir (bir kerede yaklaşık 10 kitap sığacaktır)."
-  },
-  {
-    "objectID": "ders1-TR.html#modelleri-lokal-olarak-çalıştırma",
-    "href": "ders1-TR.html#modelleri-lokal-olarak-çalıştırma",
-    "title": "GPT modelleri",
-    "section": "Modelleri lokal olarak çalıştırma",
-    "text": "Modelleri lokal olarak çalıştırma\nGeliştiriciler model ağırlıklarını paylaştığı için, modelleri indirip yerel olarak çalıştırmak mümkün. Çeşitli boyutlarda modeller var. 7B (7 milyar) modeller yaklaşık 4Gb bellek gerektiriyor, bu yüzden onları dizüstü bilgisayarınızda çalıştırabilirsiniz.\nModelleri, Python için PyTorch ve bazı diğer kütüphaneleri kurarak ve ardından biraz Python kodu yazarak çalıştırabilirsiniz. Ya da Ollama’yı kurabilir ve ardından onunla uyumlu herhangi bir modeli çalıştırabilirsiniz.\nBir modeli yerel olarak çalıştırmanın avantajları: 1. Daha Az Sansür 2. Daha İyi Veri Gizliliği 3. Çevrimdışı Kullanım 4. Maliyet Tasarrufu 5. Daha İyi Özelleştirme\nBir modeli yerel olarak çalıştırmanın dezavantajları: 1. Kaynak Yoğun 2. Daha Yavaş Yanıtlar ve Daha Düşük Performans 3. Karmaşık Kurulum\n\nJupyter notebook veya Google Colab kullanarak lokal olarak model çalıştırma\nAslında LLM modellerini Jupyter notebook’larında çalıştırabilirsiniz. Ancak bu süreç, birçok Python paketini kurmanızı, model ağırlıklarını indirmenizi ve ardından modele soru sormak ve yanıtı bir sözlükte yakalamak için biraz Python kodu yazmanızı gerektirecektir. “Sohbet benzeri” deneyim için bazı çözümler olsa da, deneyim daha çok “tek seferlik soru ve cevap” gibidir.\nLütfen Google’ın bir Jupyter notebook ortamında modeli çalıştırmak için GPU (veya TPU) sağladığı Google Colab’daki süreci anlatan YouTube videosunu kontrol edin.\n\n\nOllama ile lokal olarak model çalıştırma\n\nÖzelleştirilmiş modeller hakkında bir fikir edinmek için lütfen modeller listesi sayfasını ziyaret edin. Ollama ile, bu modellerden herhangi birini indirebilir ve kullanabilirsiniz.\nTerminalde, mevcut modelleri listeleyelim\n$ ollama list\n\nNAME                ID              SIZE    MODIFIED\ndeepseek-coder:6.7b 72be2442d736    3.8 GB  5 weeks ago     \nneural-chat:latest  73940af9fe02    4.1 GB  5 weeks ago     \norca2:7b            ea98cc422de3    3.8 GB  5 weeks ago     \nphi:latest          c651b7a89d73    1.6 GB  14 hours ago    \nsolar:latest        059fdabbe6e6    6.1 GB  2 hours ago     \nstablelm-zephyr:3b  7c596e78b1fc    1.6 GB  3 weeks ago\nMicrosoft tarafından geliştirilen Phi-2’yi çalıştıralım. İşte Phi-2 hakkında bilgi:\n\n2,7 milyar parametreli bir dil modeli olan Phi-2, olağanüstü akıl yürütme ve dil anlama yetenekleri sergiliyor ve 13 milyar parametreden daha az olan temel dil modelleri arasında en son teknoloji performansı gösteriyor. Karmaşık kıyaslamalarda Phi-2, model ölçeklendirme ve eğitim verisi kürasyon konusundaki yeni yenilikler sayesinde 25 kat daha büyük modellere eşdeğer veya daha iyi performans gösteriyor.\n\n$ ollama run phi:latest\n\n&gt;&gt;&gt; Gökyüzü neden mavi?\n\nGökyüzü, Rayleigh saçılması adı verilen bir fenomen nedeniyle mavi görünür. Güneş ışığı Dünya'nın atmosferine girdiğinde, oksijen ve azot atomları gibi havadaki moleküller ve küçük parçacıklarla çarpışır. Bu çarpışmalar, ışığın daha kısa dalga boylarının (mavi) daha uzun dalga boylarından (kırmızı, turuncu, sarı, yeşil ve mor) daha fazla saçılmasına neden olur.\nSonuç olarak, gözlerimiz saçılan mavi ışığı baskın olarak algılar ve bu nedenle gökyüzü bize mavi görünür.\nGördüğünüz gibi, soruları cevaplayabilen, kodlama konusunda yardımcı olabilen küçük bir model yerel olarak çalıştırılabilir.\n\n\nKullanıcı arayüzü ile lokal olarak model çalıştırma\n\nOllama Web UI\n\n\n\nLLM Studio\nLM Studio’yu kurabilir ve ardından kullanıcı arayüzü ile yerel modellerle etkileşime geçebilirsiniz"
-  },
-  {
-    "objectID": "ders1-TR.html#github-copilot",
-    "href": "ders1-TR.html#github-copilot",
-    "title": "GPT modelleri",
-    "section": "Github CoPilot",
-    "text": "Github CoPilot"
-  },
-  {
-    "objectID": "ders1-TR.html#ücretsiz-github-copilot-alternatifi",
-    "href": "ders1-TR.html#ücretsiz-github-copilot-alternatifi",
-    "title": "GPT modelleri",
-    "section": "Ücretsiz Github CoPilot alternatifi",
-    "text": "Ücretsiz Github CoPilot alternatifi\nCody, Sourcegraph’in AI kodlama asistanıdır ve sizi 10x geliştirici yapacak başka hiçbir asistanın sahip olmadığı birkaç özelliğe sahiptir. Buradan inceleyebilirsiniz: https://sourcegraph.com/cody"
-  },
-  {
-    "objectID": "ders1-TR.html#açık-kaynak-lokal-alternatifler",
-    "href": "ders1-TR.html#açık-kaynak-lokal-alternatifler",
-    "title": "GPT modelleri",
-    "section": "Açık kaynak lokal alternatifler",
-    "text": "Açık kaynak lokal alternatifler\nDaha fazla bilgi için lütfen https://tabby.tabbyml.com/ adresini ziyaret edin"
-  },
-  {
-    "objectID": "ders1-TR.html#görüntü-üretimi",
-    "href": "ders1-TR.html#görüntü-üretimi",
-    "title": "GPT modelleri",
-    "section": "Görüntü Üretimi",
-    "text": "Görüntü Üretimi\n\nOpenAI’dan DALL-E 3\nİstek: “arka planda istanbul şehri silüeti olan bir dna sarmalı”\nDüzeltilmiş istek: “Bilim ve mimarinin buluştuğu detaylı bir illüstrasyon hayal edin. Ön planda, karanlık bir arka plan üzerinde büyütülmüş ve parlayan bir DNA sarmalı var. Bu sarmal yapı tam olarak betimlenmiş, tanıdık çift sarmal şekli muhteşem bir şekilde kıvrılıyor. Bu bilimsel görüntüyle iç içe geçmiş şekilde, arka planda İstanbul şehrinin bir silüet temsili var. Şehir silueti, kubbeli camileri ve yükselen minareleriyle muhteşem tarihi mimarisini sergiliyor. Şehir manzarası, akşamüstü gökyüzüne karşı duruyor, batan güneş binaların arkasındaki ufukta turuncu bir parıltı yaratıyor. Bu kombinasyon, bilim ve şehir güzelliğinin büyüleyici bir yan yana gelişiyle sonuçlanıyor.”\nSonuç:\n\n\n\nMidjourney v6\nMidjourney, Aralık 2023’te v6’yı duyurdu. Fotogerçekçi görüntüler üretebiliyor. Normalde, ücretsiz görüntü üretmek için Discord kanallarını kullanmanız gerekir. Ayrıca, getimg.ai kullanarak da görüntüler üretebilirsiniz. Aşağıdaki isteklerle görüntüler üretmeyi denedim:\n\nÇok sayıda öğrencinin olduğu moleküler biyoloji laboratuvarı.\nBeyaz kumlu güzel bir deniz kenarı ve kıyıda tropikal ağaçlar. Deniz yeşilimsi mavi görünüyor.\n\nSonuçlar harika:\n\n\n\nDezenformasyon\nDeepfake veya yapay zeka tarafından üretilmiş sahte fotoğraflara dikkat edin\nSahte Trump Fotoğrafı\n\nSahte Papa Fotoğrafı"
-  },
-  {
-    "objectID": "ders1-TR.html#video-üretimi",
-    "href": "ders1-TR.html#video-üretimi",
-    "title": "GPT modelleri",
-    "section": "Video Üretimi",
-    "text": "Video Üretimi\n\nİstekten videoya\n\nRunwayML Gen-2\nPika\nStable Diffusion’dan Stable Video Diffusion\nGENMO\n\n\n\nGörüntüden videoya\n\nGENMO"
-  },
-  {
-    "objectID": "ders1-TR.html#müzik-veya-ses-üretimi",
-    "href": "ders1-TR.html#müzik-veya-ses-üretimi",
-    "title": "GPT modelleri",
-    "section": "Müzik veya Ses Üretimi",
-    "text": "Müzik veya Ses Üretimi\n\nElevenlabs yapay zeka ses üreticimizle metni çevrimiçi olarak ücretsiz konuşmaya dönüştürebilir"
-  },
-  {
-    "objectID": "id3-decision-tree.html",
-    "href": "id3-decision-tree.html",
-    "title": "Decision Tree Algoritm",
+    "objectID": "ders8.html#section-1",
+    "href": "ders8.html#section-1",
+    "title": "NLP - Natural Language Processing",
     "section": "",
-    "text": "Taken from https://medium.datadriveninvestor.com/decision-tree-algorithm-with-hands-on-example-e6c2afb40d38\nEntropy\nIn machine learning, entropy is a measure of the randomness in the information being processed. The higher the entropy, the harder it is to draw any conclusions from that information.\n\nInformation Gain\nInformation gain can be defined as the amount of information gained about a random variable or signal from observing another random variable.It can be considered as the difference between the entropy of parent node and weighted average entropy of child nodes.\n\nGini Impurity\nGini impurity is a measure of how often a randomly chosen element from the set would be incorrectly labeled if it was randomly labeled according to the distribution of labels in the subset.\n\nGini impurity is lower bounded by 0, with 0 occurring if the data set contains only one class.\n\nThere are many algorithms there to build a decision tree. They are\n\nCART (Classification and Regression Trees) — This makes use of Gini impurity as the metric.\nID3 (Iterative Dichotomiser 3) — This uses entropy and information gain as metric.\n\nIn this article, I will go through ID3. Once you got it it is easy to implement the same using CART.\n\nClassification using the ID3 algorithm\nConsider whether a dataset based on which we will determine whether to play football or not.\n\nHere There are for independent variables to determine the dependent variable. The independent variables are Outlook, Temperature, Humidity, and Wind. The dependent variable is whether to play football or not.\nAs the first step, we have to find the parent node for our decision tree. For that follow the steps:\n*Find the entropy of the class variable.*\nE(S) = -[(9/14)log(9/14) + (5/14)log(5/14)] = 0.94\nnote: Here typically we will take log to base 2.Here total there are 14 yes/no. Out of which 9 yes and 5 no.Based on it we calculated probability above.\nFrom the above data for outlook we can arrive at the following table easily\n\n*Now we have to calculate average weighted entropy*. ie, we have found the total of weights of each feature multiplied by probabilities.\nE(S, outlook) = (5/14)E(3,2) + (4/14)E(4,0) + (5/14)*E(2,3) = (5/14)(-(3/5)log(3/5)-(2/5)log(2/5))+ (4/14)(0) + (5/14)((2/5)log(2/5)-(3/5)log(3/5)) = 0.693\n*The next step is to find the information gain*. It is the difference between parent entropy and average weighted entropy we found above.\nIG(S, outlook) = 0.94 - 0.693 = 0.247\nSimilarly find Information gain for Temperature, Humidity, and Windy.\nIG(S, Temperature) = 0.940 - 0.911 = 0.029\nIG(S, Humidity) = 0.940 - 0.788 = 0.152\nIG(S, Windy) = 0.940 - 0.8932 = 0.048\n*Now select the feature having the largest entropy gain*. Here it is Outlook. So it forms the first node(root node) of our decision tree.\nNow our data look as follows\n\n\n\nSince overcast contains only examples of class ‘Yes’ we can set it as yes. That means If outlook is overcast football will be played. Now our decision tree looks as follows.\n\nThe next step is to find the next node in our decision tree. Now we will find one under sunny. We have to determine which of the following Temperature, Humidity or Wind has higher information gain.\n\nCalculate parent entropy E(sunny)\nE(sunny) = (-(3/5)log(3/5)-(2/5)log(2/5)) = 0.971.\nNow Calculate the information gain of Temperature. IG(sunny, Temperature)\n\nE(sunny, Temperature) = (2/5)E(0,2) + (2/5)E(1,1) + (1/5)*E(1,0)=2/5=0.4\nNow calculate information gain.\nIG(sunny, Temperature) = 0.971–0.4 =0.571\nSimilarly we get\nIG(sunny, Humidity) = 0.971\nIG(sunny, Windy) = 0.020\nHere IG(sunny, Humidity) is the largest value. So Humidity is the node that comes under sunny.\n\nFor humidity from the above table, we can say that play will occur if humidity is normal and will not occur if it is high. Similarly, find the nodes under rainy.\n*Note: A branch with entropy more than 0 needs further splitting.*\nFinally, our decision tree will look as below:\n\n\n\nClassification using CART algorithm\nClassification using CART is similar to it. But instead of entropy, we use Gini impurity.\nSo as the first step we will find the root node of our decision tree. For that Calculate the Gini index of the class variable\nGini(S) = 1 - [(9/14)² + (5/14)²] = 0.4591\nAs the next step, we will calculate the Gini gain. For that first, we will find the average weighted Gini impurity of Outlook, Temperature, Humidity, and Windy.\nFirst, consider case of Outlook\n\nGini(S, outlook) = (5/14)gini(3,2) + (4/14)gini(4,0)+ (5/14)gini(2,3) = (5/14)(1 - (3/5)² - (2/5)²) + (4/14)*0 + (5/14)(1 - (2/5)² - (3/5)²)= 0.171+0+0.171 = 0.342\nGini gain (S, outlook) = 0.459 - 0.342 = 0.117\nGini gain(S, Temperature) = 0.459 - 0.4405 = 0.0185\nGini gain(S, Humidity) = 0.459 - 0.3674 = 0.0916\nGini gain(S, windy) = 0.459 - 0.4286 = 0.0304\nChoose one that has a higher Gini gain. Gini gain is higher for outlook. So we can choose it as our root node."
+    "text": "Also, recordings is a text input after Speech2Text processing\nimage source"
+  },
+  {
+    "objectID": "ders8.html#section-2",
+    "href": "ders8.html#section-2",
+    "title": "NLP - Natural Language Processing",
+    "section": "",
+    "text": "Common NLP Applications - Summarization\n\nText summarization is an NLP application that condenses large volumes of text into brief, coherent summaries. For humans, summarizing involves understanding context, identifying key points, and rephrasing ideas - tasks that come naturally to us. However, for computers, this process is remarkably complex. A computer must analyze the text’s structure, grasp semantic meanings, determine the relative importance of different sentences or concepts, and then generate or extract a coherent summary. This requires sophisticated algorithms to mimic human-like understanding of language, context, and relevance. The challenge lies in teaching machines to distinguish between crucial information and extraneous details, a task that involves not just processing words, but understanding their relationships and significance within the broader context of the document.\n\nimage source"
+  },
+  {
+    "objectID": "ders8.html#section-3",
+    "href": "ders8.html#section-3",
+    "title": "NLP - Natural Language Processing",
+    "section": "",
+    "text": "Common NLP Applications - Sentiment Analysis\nSentiment analysis is an NLP technique that aims to determine the emotional tone behind a piece of text. While humans can often intuitively sense the sentiment in a statement, for computers, this task is surprisingly complex. A computer must go beyond simple keyword matching to grasp the overall emotional context. For instance, the phrase “This movie is sick!” could be positive or negative depending on the context and speaker.\nPlease visit https://hedonometer.org which tracks happiness in US using Twitter/X"
+  },
+  {
+    "objectID": "ders8.html#section-4",
+    "href": "ders8.html#section-4",
+    "title": "NLP - Natural Language Processing",
+    "section": "",
+    "text": "Common NLP Applications - Named Entity Recognition\n\nis an NLP technique that seeks to locate and classify named entities in text into predefined categories such as person names, organizations, locations, medical codes, time expressions, quantities, monetary values, percentages, etc. While humans can easily identify and categorize these entities in text, for computers, this task presents great challenges.\nPlease visit Geeks4Geeks Named Entity Recognition for demonstration."
+  },
+  {
+    "objectID": "ders8.html#nlp-approaches---term-based",
+    "href": "ders8.html#nlp-approaches---term-based",
+    "title": "NLP - Natural Language Processing",
+    "section": "NLP Approaches - Term based",
+    "text": "NLP Approaches - Term based\nTerm-based approaches in NLP represent one of the fundamental methods for processing and analyzing text data. These approaches treat individual words or terms as the basic units of analysis. The core idea is to represent documents as collections of terms, often disregarding grammar and word order but keeping multiplicity. A common implementation is the “bag-of-words” model, where each document is represented as a vector of term frequencies. While simple, this method can be surprisingly effective for many tasks like document classification or information retrieval. However, term-based approaches face challenges with synonymy (different words with the same meaning) and polysemy (same word with multiple meanings). They also struggle to capture context and relationships between words. Despite these limitations, term-based methods serve as a foundation for more advanced NLP techniques and remain relevant in many applications due to their computational efficiency and interpretability"
+  },
+  {
+    "objectID": "ders8.html#section-5",
+    "href": "ders8.html#section-5",
+    "title": "NLP - Natural Language Processing",
+    "section": "",
+    "text": "image source"
+  },
+  {
+    "objectID": "ders8.html#nlp-approaches---dictionary-based",
+    "href": "ders8.html#nlp-approaches---dictionary-based",
+    "title": "NLP - Natural Language Processing",
+    "section": "NLP Approaches - Dictionary based",
+    "text": "NLP Approaches - Dictionary based\nDictionary-based approaches in NLP rely on pre-existing lexical resources, such as dictionaries, thesauri, or ontologies, to process and analyze text. These methods leverage human-curated knowledge bases to understand and interpret language. In essence, they attempt to mimic how humans use dictionaries to comprehend unfamiliar words or concepts. For instance, in sentiment analysis, a dictionary-based approach might use a lexicon of words labeled with their associated sentiments."
+  },
+  {
+    "objectID": "ders8.html#section-6",
+    "href": "ders8.html#section-6",
+    "title": "NLP - Natural Language Processing",
+    "section": "",
+    "text": "image source"
+  },
+  {
+    "objectID": "ders8.html#nlp-approaches---corpus-based",
+    "href": "ders8.html#nlp-approaches---corpus-based",
+    "title": "NLP - Natural Language Processing",
+    "section": "NLP Approaches - Corpus based",
+    "text": "NLP Approaches - Corpus based\nCorpus-based approaches in NLP rely on large collections of text data, known as corpora, to derive linguistic knowledge and patterns. Unlike dictionary-based methods that depend on pre-existing knowledge bases, corpus-based approaches learn from real-world language usage. These methods use statistical techniques to analyze how words and phrases are used in context across vast amounts of text. For example, word embeddings like Word2Vec or GloVe use neural networks to learn vector representations of words based on their co-occurrence patterns in large corpora.\nCorpus-based methods excel at capturing nuances in language use, handling ambiguity, and adapting to different domains or languages. They’re particularly powerful for tasks like language modeling, machine translation, and text generation."
+  },
+  {
+    "objectID": "ders8.html#nlp-approaches---semantic-based",
+    "href": "ders8.html#nlp-approaches---semantic-based",
+    "title": "NLP - Natural Language Processing",
+    "section": "NLP Approaches - Semantic based",
+    "text": "NLP Approaches - Semantic based\nSemantic approaches in NLP focus on understanding the meaning of language, rather than just its structure or statistical patterns. These methods aim to capture and represent the underlying concepts and relationships in text, mirroring human comprehension. Semantic approaches often utilize knowledge graphs, ontologies, or semantic networks to model relationships between concepts. For example, in a biomedical context, a semantic approach might understand that “aspirin” is a type of “pain reliever” which “treats” “headaches”. These methods can handle complex queries, infer new knowledge, and understand context-dependent meanings."
+  },
+  {
+    "objectID": "ders8.html#nlp-preprocessing-steps",
+    "href": "ders8.html#nlp-preprocessing-steps",
+    "title": "NLP - Natural Language Processing",
+    "section": "NLP Preprocessing steps",
+    "text": "NLP Preprocessing steps\nText cleaning and normalization:\nThis initial step involves preparing raw text data for analysis by removing or standardizing elements that could interfere with processing. It typically includes tasks like converting text to lowercase to ensure consistency, removing special characters or punctuation that aren’t relevant to the analysis, and handling formatting issues. For instance, in social media text, it might involve expanding contractions (e.g., “don’t” to “do not”), correcting common misspellings, or converting emojis to text descriptions. The goal is to create a standardized, “clean” version of the text that retains its essential meaning while reducing noise and variations that could complicate analysis."
+  },
+  {
+    "objectID": "ders8.html#section-7",
+    "href": "ders8.html#section-7",
+    "title": "NLP - Natural Language Processing",
+    "section": "",
+    "text": "Tokenization\nTokenization is the process of breaking down text into smaller units called tokens, typically words or subwords. While it might seem straightforward, tokenization can be complex due to language-specific challenges. For example, in English, we might split on whitespace and punctuation, but this approach fails for languages like Chinese that don’t use spaces between words. Tokenization also involves decisions about how to handle contractions, hyphenated words, or multi-word expressions. The choice of tokenization method can significantly impact downstream NLP tasks, as it defines the basic units of meaning that the model will work with."
+  },
+  {
+    "objectID": "ders8.html#section-8",
+    "href": "ders8.html#section-8",
+    "title": "NLP - Natural Language Processing",
+    "section": "",
+    "text": "Stop word removal\nStop words are common words (like “the”, “is”, “at”, “which”) that are usually filtered out from text processing because they typically don’t carry significant meaning on their own. Removing them can help reduce noise in the data and focus the analysis on the more meaningful content words. However, the definition of what constitutes a stop word can vary depending on the specific application or domain. For instance, in sentiment analysis, words like “not” that are often considered stop words can be crucial for understanding the meaning. Therefore, while stop word removal can improve efficiency and reduce noise, it requires careful consideration of the specific NLP task at hand."
+  },
+  {
+    "objectID": "ders8.html#section-9",
+    "href": "ders8.html#section-9",
+    "title": "NLP - Natural Language Processing",
+    "section": "",
+    "text": "Stemming and lemmatization\nThese techniques aim to reduce words to their base or dictionary form, which helps in treating different word forms as a single item. Stemming is a crude heuristic process that chops off the ends of words, often resulting in non-words (e.g., “running” becomes “run”, but “universe” becomes “univers”). Lemmatization, on the other hand, uses vocabulary and morphological analysis to return the dictionary form of a word (e.g., “running” becomes “run”, “am” becomes “be”). While stemming is faster and simpler, lemmatization provides more accurate results. The choice between them depends on the specific requirements of the NLP task, balancing between processing speed and linguistic accuracy."
+  },
+  {
+    "objectID": "ders8.html#section-10",
+    "href": "ders8.html#section-10",
+    "title": "NLP - Natural Language Processing",
+    "section": "",
+    "text": "image source"
+  },
+  {
+    "objectID": "ders8.html#section-11",
+    "href": "ders8.html#section-11",
+    "title": "NLP - Natural Language Processing",
+    "section": "",
+    "text": "image source"
+  },
+  {
+    "objectID": "ders8.html#section-12",
+    "href": "ders8.html#section-12",
+    "title": "NLP - Natural Language Processing",
+    "section": "",
+    "text": "Part-of-speech (POS) tagging\nPOS tagging involves labeling each word in a text with its appropriate part of speech (noun, verb, adjective, etc.), based on both its definition and context. This process is crucial for understanding the grammatical structure of sentences and can significantly aid in tasks like named entity recognition or syntactic parsing. Modern POS taggers often use machine learning models trained on large annotated corpora and can achieve high accuracy. However, they can still face challenges with ambiguous words (e.g., “record” can be a noun or a verb) or in handling domain-specific language where words might be used in unconventional ways."
+  },
+  {
+    "objectID": "ders8.html#section-13",
+    "href": "ders8.html#section-13",
+    "title": "NLP - Natural Language Processing",
+    "section": "",
+    "text": "image source"
+  },
+  {
+    "objectID": "ders8.html#section-14",
+    "href": "ders8.html#section-14",
+    "title": "NLP - Natural Language Processing",
+    "section": "",
+    "text": "Part Of Speech\nTag\n\n\n\n\nNoun (Singular)\nNN\n\n\nNoun (Plural)\nNNS\n\n\nVerb\nVB\n\n\nDeterminer\nDT\n\n\nAdjective\nJJ\n\n\nAdverb\nRB"
+  },
+  {
+    "objectID": "ders8.html#section-15",
+    "href": "ders8.html#section-15",
+    "title": "NLP - Natural Language Processing",
+    "section": "",
+    "text": "Syntax analysis and parsing\nThis technique involves analyzing the grammatical structure of sentences to understand how words relate to each other. It typically produces a parse tree or dependency graph representing the sentence structure. There are two main approaches: constituency parsing, which breaks sentences into nested constituents (phrases), and dependency parsing, which identifies grammatical relationships between individual words. Parsing is crucial for tasks that require understanding sentence structure, like machine translation or question answering. However, it can be computationally intensive and faces challenges with ambiguous sentences or non-standard language use.\nPlease visit the following links: link1"
+  },
+  {
+    "objectID": "ders8.html#feature-extraction-and-representation-techniques-in-nlp",
+    "href": "ders8.html#feature-extraction-and-representation-techniques-in-nlp",
+    "title": "NLP - Natural Language Processing",
+    "section": "Feature Extraction and Representation Techniques in NLP",
+    "text": "Feature Extraction and Representation Techniques in NLP"
+  },
+  {
+    "objectID": "ders8.html#section-16",
+    "href": "ders8.html#section-16",
+    "title": "NLP - Natural Language Processing",
+    "section": "",
+    "text": "Bag of Words (BoW) model:\nThe Bag of Words model is a simple yet effective method for representing text as numerical features. It creates a vocabulary of all unique words in the corpus and represents each document as a vector of word frequencies. The order of words is disregarded, hence the name “bag”. While BoW is computationally efficient and easy to understand, it loses all information about word order and context. It also struggles with out-of-vocabulary words and can result in very high-dimensional, sparse vectors for large vocabularies. Despite these limitations, BoW remains useful for many text classification tasks and serves as a foundation for more advanced techniques."
+  },
+  {
+    "objectID": "ders8.html#section-17",
+    "href": "ders8.html#section-17",
+    "title": "NLP - Natural Language Processing",
+    "section": "",
+    "text": "Term Frequency-Inverse Document Frequency (TF-IDF):\nTF-IDF is a statistical measure used to evaluate the importance of a word in a document within a collection or corpus. It combines two metrics: Term Frequency (how often a word appears in a document) and Inverse Document Frequency (how rare the word is across all documents). The idea is that words frequently occurring in a document but rare in the overall corpus are likely more important for that document. TF-IDF helps to reduce the impact of common words that appear frequently across all documents but carry little meaning. This method provides a more nuanced representation than simple word counts, making it valuable for tasks like information retrieval and document ranking."
+  },
+  {
+    "objectID": "ders8.html#section-18",
+    "href": "ders8.html#section-18",
+    "title": "NLP - Natural Language Processing",
+    "section": "",
+    "text": "N-gram models:\nN-gram models extend the idea of BoW by considering sequences of N adjacent words, rather than individual words in isolation. For example, a bigram (2-gram) model would consider pairs of adjacent words, while a trigram (3-gram) model would look at sequences of three words. N-grams capture some local context and word order information, which can be crucial for tasks like language modeling or machine translation. However, as N increases, the model’s complexity and data sparsity issues also increase. N-gram models strike a balance between the simplicity of BoW and the need to capture word relationships, making them useful in various NLP applications."
+  },
+  {
+    "objectID": "ders8.html#section-19",
+    "href": "ders8.html#section-19",
+    "title": "NLP - Natural Language Processing",
+    "section": "",
+    "text": "Word embeddings (Word2Vec, GloVe, FastText):\nWord embeddings are dense vector representations of words in a continuous vector space, where semantically similar words are mapped to nearby points. Unlike BoW or TF-IDF, which produce sparse, high-dimensional vectors, word embeddings typically have a few hundred dimensions. Models like Word2Vec learn these representations by analyzing word co-occurrences in large corpora, capturing semantic relationships (e.g., “king” - “man” + “woman” ≈ “queen”). FastText extends this idea to subword units, allowing it to generate embeddings for out-of-vocabulary words. These dense representations significantly improve performance on various NLP tasks and allow for interesting word algebra. However, they struggle with polysemy (words with multiple meanings) as each word has a single, fixed representation regardless of context."
+  },
+  {
+    "objectID": "ders8.html#section-20",
+    "href": "ders8.html#section-20",
+    "title": "NLP - Natural Language Processing",
+    "section": "",
+    "text": "Contextual embeddings (e.g., BERT, GPT):\nContextual embeddings represent a significant advancement over traditional word embeddings by generating different representations for a word based on its context in a sentence. Models like BERT (Bidirectional Encoder Representations from Transformers) and GPT (Generative Pre-trained Transformer) use deep learning architectures to process entire sentences or documents simultaneously, capturing complex, bidirectional relationships between words. These models are pre-trained on vast amounts of text data and can be fine-tuned for specific tasks. Contextual embeddings excel at capturing nuanced meanings, handling polysemy, and understanding long-range dependencies in text. They have set new state-of-the-art benchmarks on various NLP tasks. However, they are computationally intensive and require significant resources to train and deploy, presenting challenges for applications with limited computational power or real-time requirements."
+  },
+  {
+    "objectID": "katilim.html",
+    "href": "katilim.html",
+    "title": "Attendance and Quizes / Katılım ve Quizler",
+    "section": "",
+    "text": "Zoom üzerinden süre olarak katılımınız alınarak, toplam ders süremize1 göre oran hesaplanmıştır. Dersin üçte birinden (1/3 ya da 0.3) az katılan öğrenci o derse katılmamış sayılacaktır.\nAşağıdaki tablolarda her bir ders günü için Zoom süresi ve katılım oranı verilmiştir. (ŞU ANDA SADECE 19 TEMMUZ GÜNÜ YAPILAN DERSE GÖRE HESAPLAMA YAPILMIŞTIR)\n\n\n\n\n\n\nClick for translation\n\n\n\n\n\nYour participation time has been recorded via Zoom, and a ratio has been calculated based on our total lesson duration. A student who participates less than one-third (1/3 or 0.3) of the lesson will be considered as not having attended that lesson.\nIn the tables below, the Zoom duration and participation ratio for each lesson day are provided. (THE DATA BELOW ONLY CONSIDERS JULY 19TH LECTURE)"
+  },
+  {
+    "objectID": "katilim.html#group1-grup1-türkçe-1",
+    "href": "katilim.html#group1-grup1-türkçe-1",
+    "title": "Attendance and Quizes / Katılım ve Quizler",
+    "section": "Group1 / Grup1 Türkçe",
+    "text": "Group1 / Grup1 Türkçe"
+  },
+  {
+    "objectID": "katilim.html#group2-grup2-ingilizce-1",
+    "href": "katilim.html#group2-grup2-ingilizce-1",
+    "title": "Attendance and Quizes / Katılım ve Quizler",
+    "section": "Group2 / Grup2 İngilizce",
+    "text": "Group2 / Grup2 İngilizce"
+  },
+  {
+    "objectID": "katilim.html#footnotes",
+    "href": "katilim.html#footnotes",
+    "title": "Attendance and Quizes / Katılım ve Quizler",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nBeklenen ders süresi (yaklaşık 3 saat) değil, işlenen süre. Yani maksimum süre, ders süresi olarak alınmıştır.↩︎"
+  },
+  {
+    "objectID": "hyper-parameter-tuning-R.html",
+    "href": "hyper-parameter-tuning-R.html",
+    "title": "FEF3001 Yapay Zekaya Giriş",
+    "section": "",
+    "text": "library(cluster) library(dbscan)\nperform_dbscan &lt;- function(minPts, eps, data, datadist) { dbscan_result &lt;- dbscan(data, minPts = minPts, eps = eps) n_clusters &lt;- length(unique(dbscan_result\\(cluster[dbscan_result\\)cluster != 0])) n_noise &lt;- sum(dbscan_result$cluster == 0)\n  silhouette_score &lt;- if (n_clusters &gt; 1) {\n    mean(silhouette(dbscan_result$cluster, datadist)[, 3])\n  } else {\n    NA_real_\n  }\n\n  list(\n    n_clusters = n_clusters,\n    n_noise = n_noise,\n    silhouette_score = silhouette_score\n  )\n}\nparam_grid &lt;- expand_grid( minPts = seq(2, 10, by = 1), eps = seq(0.05, 0.5, by = 0.05) )\ndata(moons) data &lt;- moons datadist &lt;- dist(data) plot(moons,pch = 16, cex = 2)\nresults_df &lt;- param_grid %&gt;% mutate(results = map2(minPts, eps, ~perform_dbscan(.x, .y, data, datadist))) %&gt;% unnest_wider(results)\nresults_df |&gt; filter(n_clusters &gt; 1) |&gt; arrange(n_clusters+n_noise, -silhouette_score) |&gt; print(n=40)\nbest_result &lt;- dbscan(data, minPts = 3, eps = 0.3) plot(data, col=best_result$cluster+1, pch = 16, cex = 2)"
   },
   {
     "objectID": "r-linear-regression.html",
@@ -803,6 +971,13 @@
     "title": "Kümeleme Yöntemleri",
     "section": "Sınıflandırma vs. Kümeleme",
     "text": "Sınıflandırma vs. Kümeleme\nlütfen bu iki kavramı karşılaştırın"
+  },
+  {
+    "objectID": "quiz-clustering.html",
+    "href": "quiz-clustering.html",
+    "title": "FEF3001 Yapay Zekaya Giriş",
+    "section": "",
+    "text": "Question 1. The goal of clustering a set of data is to\nA* divide them into groups of data that are near each other B choose the best data from the set C determine the nearest neighbors of each of the data D predict the class of data\nQuestion 2. The choice of k, the number of clusters to partition a set of data into,\nA is a personal choice that shouldn’t be discussed in public B* depends on why you are clustering the data C should always be as large as your computer system can handle D has maximum 10\nQuestion 3. Which of the following statement about the K-means algorithm is correct?\nA* The K-means algorithm is sensitive to outliers. B For different initializations, the K-means algorithm will definitely give the same clustering results. C There’s no need to define K beforehand D The K-means algorithm is ideal for non-spherical shaped data\nQuestion 4. Considering the K-median algorithm, if points (0, 3), (2, 1), and (-2, 2) are the only points which are assigned to the first cluster now, what is the new centroid for this cluster?\nA* (0,2) B (2,1) C (2,0) D (1,2)\nQuestion 5. The Iris dataset contains information about Iris setosa and versicolor. What is the Euclidean distance between these two objects?\nA* 2.8 B 4.6 C 22.6 D -3.6\nQuestion 6. What are the two types of Hierarchical Clustering\nA* Top-Down Clustering (Divisive) B* Bottom-Top Clustering (Agglomerative) C Dendrogram D K-means\nQuestion 7. The most commonly used measure of similarity is the _____ or its square.\nA* euclidean distance B city-block distance C Chebychev’s distance D Manhattan distance\nQuestion 8. Which of the following is required by K-means clustering?\nA defined distance metric B number of clusters C initial guess as to cluster centroids D* all answers are correct\nQuestion 9. In the figure above, if you draw a horizontal line on y-axis for y=2. What will be the number of clusters formed?\nA* 2 B 3 C 4 D 5\nQuestion 10. For which of the following tasks might clustering be a suitable approach? A Given sales data from a large number of products in a supermarket, estimate future sales for each of these products. B* Given a database of information about your users, automatically group them into different market segments. C* From the user’s usage patterns on a website, identify different user groups. D Given historical weather records, predict if tomorrow’s weather will be sunny or rainy."
   },
   {
     "objectID": "ders5-TR.html#içerik",
@@ -1027,6 +1202,13 @@
     "title": "R ile Rastgele Orman Regresyonu",
     "section": "",
     "text": "# Gerekli kütüphaneleri yükle\nlibrary(randomForest)\nlibrary(ggplot2)\n\nset.seed(123)\n\ndata &lt;- mtcars\n\n\nVeriyi eğitim ve test setlerine ayır (Train/test split)\n\ntrain_indices &lt;- sample(1:nrow(data), 0.7 * nrow(data))\ntrain_data &lt;- data[train_indices, ]\ntest_data &lt;- data[-train_indices, ]\n\n\n\nRastgele Orman modeli eğitimi ve tahmin yapılması\n\nrf_model &lt;- randomForest(mpg ~ ., data = train_data, ntree = 500)\n\npredictions &lt;- predict(rf_model, newdata = test_data)\n\n\n\nRMSE hesapla\nRMSE: Root mean square error (Kök Ortalama Kare Hatası)\n\nrmse &lt;- sqrt(mean((test_data$mpg - predictions)^2))\ncat(\"Kök Ortalama Kare Hatası:\", rmse, \"\\n\")\n\nKök Ortalama Kare Hatası: 2.00452 \n\n\n\n\nGerçek ve tahmin edilen değerler\n\nggplot(data.frame(actual = test_data$mpg, predicted = predictions), aes(x = actual, y = predicted)) +\n  geom_point(alpha = 0.5) +\n  geom_abline(intercept = 0, slope = 1, color = \"red\", linetype = \"dashed\") +\n  labs(x = \"Gerçek Değerler\", y = \"Tahmin Edilen Değerler\", title = \"Rastgele Orman Regresyonu: Gerçek ve Tahmin Edilen\")\n\n\n\n\n\n\n\n\n\n\nÖzellik önemi\n\nimportance &lt;- importance(rf_model)\nprint(importance)\n\n     IncNodePurity\ncyl      152.64821\ndisp     224.33387\nhp       158.42647\ndrat      43.37372\nwt       178.44424\nqsec      34.05620\nvs        25.67666\nam        19.73485\ngear      10.54314\ncarb      21.62506\n\n\n\n\nÖzellik önemi - figür\n\nimportance_df &lt;- data.frame(feature = rownames(importance), importance = importance[, 1])\nggplot(importance_df, aes(x = reorder(feature, importance), y = importance)) +\n  geom_bar(stat = \"identity\") +\n  coord_flip() +\n  labs(x = \"Özellikler\", y = \"Önem\", title = \"Rastgele Orman: Özellik Önemi\")\n\n\n\n\n\n\n\n\nAlternatif kaynak: http s://hackernoon.com/random-forest-regression-in-r-code-and-interpretation"
+  },
+  {
+    "objectID": "quiz-clustering-tr.html",
+    "href": "quiz-clustering-tr.html",
+    "title": "Kümeleme Analizi Quiz - Türkçe Çeviri",
+    "section": "",
+    "text": "Kümeleme Analizi Quiz - Türkçe Çeviri\nSoru 1. Bir veri setini kümelemenin amacı nedir?\nA* Verileri birbirine yakın olan gruplara bölmek B Veri setinden en iyi verileri seçmek C Her bir verinin en yakın komşularını belirlemek D Verilerin sınıfını tahmin etmek\nSoru 2. Bir veri setini bölmek için kullanılan küme sayısı olan k’nin seçimi,\nA kişisel bir seçimdir ve kamuya açık tartışılmamalıdır B* verileri neden kümelediğinize bağlıdır C her zaman bilgisayar sisteminizin işleyebileceği kadar büyük olmalıdır D en fazla 10’dur\nSoru 3. K-means algoritması hakkında aşağıdaki ifadelerden hangisi doğrudur?\nA* K-means algoritması aykırı değerlere karşı hassastır. B Farklı başlangıç noktaları için, K-means algoritması kesinlikle aynı kümeleme sonuçlarını verecektir. C K’yı önceden tanımlamaya gerek yoktur D K-means algoritması küresel olmayan şekilli veriler için idealdir\nSoru 4. K-medyan algoritmasını düşünürsek, eğer (0, 3), (2, 1) ve (-2, 2) noktaları şu anda ilk kümeye atanan tek noktalar ise, bu küme için yeni merkez noktası nedir?\nA* (0,2) B (2,1) C (2,0) D (1,2)\nSoru 5. Iris veri seti, Iris setosa ve versicolor hakkında bilgi içermektedir. Bu iki nesne arasındaki Öklid mesafesi nedir?\nA* 2.8 B 4.6 C 22.6 D -3.6\nSoru 6. Hiyerarşik Kümelemenin iki türü nedir?\nA* Yukarıdan Aşağıya Kümeleme (Bölücü) B* Aşağıdan Yukarıya Kümeleme (Birleştirici) C Dendrogram D K-means\nSoru 7. En yaygın kullanılan benzerlik ölçüsü _____ veya onun karesidir.\nA* Öklid mesafesi B şehir blok mesafesi C Çebyşev mesafesi D Manhattan mesafesi\nSoru 8. Aşağıdakilerden hangisi K-means kümelemesi için gereklidir?\nA tanımlanmış bir mesafe metriği B küme sayısı C küme merkezleri için ilk tahmin D* tüm cevaplar doğrudur\nSoru 9. Yukarıdaki şekilde, y ekseninde y=2 için yatay bir çizgi çizerseniz, oluşacak küme sayısı ne olur?\nA* 2 B 3 C 4 D 5\nSoru 10. Aşağıdaki görevlerden hangisi için kümeleme uygun bir yaklaşım olabilir? A Bir süpermarkette çok sayıda ürünün satış verilerini kullanarak, bu ürünlerin gelecekteki satışlarını tahmin etmek. B* Kullanıcılarınız hakkında bir veritabanındaki bilgileri kullanarak, onları otomatik olarak farklı pazar segmentlerine gruplamak. C* Bir web sitesindeki kullanıcı kullanım modellerinden farklı kullanıcı gruplarını belirlemek. D Geçmiş hava durumu kayıtlarını kullanarak, yarının hava durumunun güneşli mi yoksa yağmurlu mu olacağını tahmin etmek."
   },
   {
     "objectID": "Hierarchical_Clustering_in_Data_Mining-TR.html",
@@ -1323,32 +1505,116 @@
     "text": "Variable Transformation\n\n\nSimple functions: \\(x^k\\) , log(x), \\(e^x\\) , sqrt(x), \\(1/x\\), sin(x), or |x|\nNormalization or Standardization\n\nfor each value subtract mean and divide by standard deviation\ne.g. age and income data, find similarity between individuals\nmean = 0, sd = 1"
   },
   {
-    "objectID": "katilim.html",
-    "href": "katilim.html",
-    "title": "Attendance and Quizes / Katılım ve Quizler",
+    "objectID": "id3-decision-tree.html",
+    "href": "id3-decision-tree.html",
+    "title": "Decision Tree Algoritm",
     "section": "",
-    "text": "Zoom üzerinden süre olarak katılımınız alınarak, toplam ders süremize1 göre oran hesaplanmıştır. Dersin üçte birinden (1/3 ya da 0.3) az katılan öğrenci o derse katılmamış sayılacaktır.\nAşağıdaki tablolarda her bir ders günü için Zoom süresi ve katılım oranı verilmiştir. (ŞU ANDA SADECE 19 TEMMUZ GÜNÜ YAPILAN DERSE GÖRE HESAPLAMA YAPILMIŞTIR)\n\n\n\n\n\n\nClick for translation\n\n\n\n\n\nYour participation time has been recorded via Zoom, and a ratio has been calculated based on our total lesson duration. A student who participates less than one-third (1/3 or 0.3) of the lesson will be considered as not having attended that lesson.\nIn the tables below, the Zoom duration and participation ratio for each lesson day are provided. (THE DATA BELOW ONLY CONSIDERS JULY 19TH LECTURE)"
+    "text": "Taken from https://medium.datadriveninvestor.com/decision-tree-algorithm-with-hands-on-example-e6c2afb40d38\nEntropy\nIn machine learning, entropy is a measure of the randomness in the information being processed. The higher the entropy, the harder it is to draw any conclusions from that information.\n\nInformation Gain\nInformation gain can be defined as the amount of information gained about a random variable or signal from observing another random variable.It can be considered as the difference between the entropy of parent node and weighted average entropy of child nodes.\n\nGini Impurity\nGini impurity is a measure of how often a randomly chosen element from the set would be incorrectly labeled if it was randomly labeled according to the distribution of labels in the subset.\n\nGini impurity is lower bounded by 0, with 0 occurring if the data set contains only one class.\n\nThere are many algorithms there to build a decision tree. They are\n\nCART (Classification and Regression Trees) — This makes use of Gini impurity as the metric.\nID3 (Iterative Dichotomiser 3) — This uses entropy and information gain as metric.\n\nIn this article, I will go through ID3. Once you got it it is easy to implement the same using CART.\n\nClassification using the ID3 algorithm\nConsider whether a dataset based on which we will determine whether to play football or not.\n\nHere There are for independent variables to determine the dependent variable. The independent variables are Outlook, Temperature, Humidity, and Wind. The dependent variable is whether to play football or not.\nAs the first step, we have to find the parent node for our decision tree. For that follow the steps:\n*Find the entropy of the class variable.*\nE(S) = -[(9/14)log(9/14) + (5/14)log(5/14)] = 0.94\nnote: Here typically we will take log to base 2.Here total there are 14 yes/no. Out of which 9 yes and 5 no.Based on it we calculated probability above.\nFrom the above data for outlook we can arrive at the following table easily\n\n*Now we have to calculate average weighted entropy*. ie, we have found the total of weights of each feature multiplied by probabilities.\nE(S, outlook) = (5/14)E(3,2) + (4/14)E(4,0) + (5/14)*E(2,3) = (5/14)(-(3/5)log(3/5)-(2/5)log(2/5))+ (4/14)(0) + (5/14)((2/5)log(2/5)-(3/5)log(3/5)) = 0.693\n*The next step is to find the information gain*. It is the difference between parent entropy and average weighted entropy we found above.\nIG(S, outlook) = 0.94 - 0.693 = 0.247\nSimilarly find Information gain for Temperature, Humidity, and Windy.\nIG(S, Temperature) = 0.940 - 0.911 = 0.029\nIG(S, Humidity) = 0.940 - 0.788 = 0.152\nIG(S, Windy) = 0.940 - 0.8932 = 0.048\n*Now select the feature having the largest entropy gain*. Here it is Outlook. So it forms the first node(root node) of our decision tree.\nNow our data look as follows\n\n\n\nSince overcast contains only examples of class ‘Yes’ we can set it as yes. That means If outlook is overcast football will be played. Now our decision tree looks as follows.\n\nThe next step is to find the next node in our decision tree. Now we will find one under sunny. We have to determine which of the following Temperature, Humidity or Wind has higher information gain.\n\nCalculate parent entropy E(sunny)\nE(sunny) = (-(3/5)log(3/5)-(2/5)log(2/5)) = 0.971.\nNow Calculate the information gain of Temperature. IG(sunny, Temperature)\n\nE(sunny, Temperature) = (2/5)E(0,2) + (2/5)E(1,1) + (1/5)*E(1,0)=2/5=0.4\nNow calculate information gain.\nIG(sunny, Temperature) = 0.971–0.4 =0.571\nSimilarly we get\nIG(sunny, Humidity) = 0.971\nIG(sunny, Windy) = 0.020\nHere IG(sunny, Humidity) is the largest value. So Humidity is the node that comes under sunny.\n\nFor humidity from the above table, we can say that play will occur if humidity is normal and will not occur if it is high. Similarly, find the nodes under rainy.\n*Note: A branch with entropy more than 0 needs further splitting.*\nFinally, our decision tree will look as below:\n\n\n\nClassification using CART algorithm\nClassification using CART is similar to it. But instead of entropy, we use Gini impurity.\nSo as the first step we will find the root node of our decision tree. For that Calculate the Gini index of the class variable\nGini(S) = 1 - [(9/14)² + (5/14)²] = 0.4591\nAs the next step, we will calculate the Gini gain. For that first, we will find the average weighted Gini impurity of Outlook, Temperature, Humidity, and Windy.\nFirst, consider case of Outlook\n\nGini(S, outlook) = (5/14)gini(3,2) + (4/14)gini(4,0)+ (5/14)gini(2,3) = (5/14)(1 - (3/5)² - (2/5)²) + (4/14)*0 + (5/14)(1 - (2/5)² - (3/5)²)= 0.171+0+0.171 = 0.342\nGini gain (S, outlook) = 0.459 - 0.342 = 0.117\nGini gain(S, Temperature) = 0.459 - 0.4405 = 0.0185\nGini gain(S, Humidity) = 0.459 - 0.3674 = 0.0916\nGini gain(S, windy) = 0.459 - 0.4286 = 0.0304\nChoose one that has a higher Gini gain. Gini gain is higher for outlook. So we can choose it as our root node."
   },
   {
-    "objectID": "katilim.html#group1-grup1-türkçe-1",
-    "href": "katilim.html#group1-grup1-türkçe-1",
-    "title": "Attendance and Quizes / Katılım ve Quizler",
-    "section": "Group1 / Grup1 Türkçe",
-    "text": "Group1 / Grup1 Türkçe"
+    "objectID": "ders1-TR.html",
+    "href": "ders1-TR.html",
+    "title": "GPT modelleri",
+    "section": "",
+    "text": "GPT1, GPT2 ve GPT3, ChatGPT’den birkaç yıl önce piyasaya sürüldü ve cümleleri tamamlama yeteneğine sahipti. Daha fazla bilgi için “ChatGPT Nasıl Çalışır?” sitesini ziyaret edin. ChatGPT’nin piyasaya sürülmesinden sonra, büyük dil modelleri “konuşma yeteneği” kazandı.\nLütfen OpenAI Playground tamamlama sitesini ziyaret edin ve model olarak “gpt-3.5-turbo”yu seçin. Tamamlanmamış bir cümle yazın ve ardından Gönder düğmesine basın.\n\nModelin cümlenizi tamamladığını göreceksiniz. Sağ menüdeki “Olasılıkları göster” seçeneğini açarsanız, GPT’nin nasıl çalıştığına dair bir fikir edinebilirsiniz.\n\nCümleyi tamamlayıp kelimelerin üzerine geldiğinizde, modelin belirli olasılıklarla seçebileceği birçok kelime olduğunu göreceksiniz. Bu örnekte, “my” kelimesi Today is ifadesinden sonra 4. en olası kelimedir ve “birthday” kelimesi Today is my ifadesinden sonra en olası kelimedir.\n\n\nGPT modellerinin temel ayarlarından biri sıcaklık değeridir. Sıcaklığı azaltırsanız, model en olası kelimeleri seçecektir. Sıcaklık yüksekse, model düşük olasılıklı kelimeleri seçecektir, bu da yaratıcı ve çeşitli çıktılar sağlayacaktır.\nSıcaklığı sıfıra düşürürseniz, çıktı her zaman aynı olacaktır."
   },
   {
-    "objectID": "katilim.html#group2-grup2-ingilizce-1",
-    "href": "katilim.html#group2-grup2-ingilizce-1",
-    "title": "Attendance and Quizes / Katılım ve Quizler",
-    "section": "Group2 / Grup2 İngilizce",
-    "text": "Group2 / Grup2 İngilizce"
+    "objectID": "ders1-TR.html#chatgpt-bizim-için-kod-yazıyor",
+    "href": "ders1-TR.html#chatgpt-bizim-için-kod-yazıyor",
+    "title": "GPT modelleri",
+    "section": "ChatGPT bizim için kod yazıyor",
+    "text": "ChatGPT bizim için kod yazıyor\nHadi ChatGPT’den Python’da hızlı bir asal sayı fonksiyonu isteyelim\n\n\nAz önce ne olduğunu gördünüz mü! Bize özel hazırlanmış bir kod sağladı ve kodun parçalarını da açıkladı. Kodun dersimiz sırasında öğrendiğimiz püf noktaları içerdiğini fark ettiniz mi: * erken durma: bir koşul karşılanırsa, hemen True veya False döndür * N’ye kadar kontrol etmek yerine, \\(\\sqrt{N}\\)’e kadar olan sayıları kontrol etmeliyiz (Python’da n  0.5**)\nKonuşmaya devam edebilirsiniz. Hadi memoization isteyelim.\n\n\nHadi kodu alalım ve burada test edelim:\ndef is_prime(n, memo={}):\n    if n in memo:\n        return memo[n]\n    if n in (2, 3):\n        result = True\n    elif n == 1 or n % 2 == 0:\n        result = False\n    else:\n        result = True\n        for i in range(3, int(n ** 0.5) + 1, 2):\n            if n % i == 0:\n                result = False\n                break\n    memo[n] = result\n    return result\n# is_prime(100000000003)\n\n\n\n\n\n\nUyarı\n\n\n\nBu notu yazdığım sırada (Ocak 2023) chatGPT’nin tam olarak doğru olmayan sonuçlar verdiği biliniyordu!Bu nedenle, chatGPT’den aldığınız kodu veya bilgiyi kontrol etmeden veya doğrulamadan olduğu gibi kullanmamaya dikkat ediniz."
   },
   {
-    "objectID": "katilim.html#footnotes",
-    "href": "katilim.html#footnotes",
-    "title": "Attendance and Quizes / Katılım ve Quizler",
-    "section": "Footnotes",
-    "text": "Footnotes\n\n\nBeklenen ders süresi (yaklaşık 3 saat) değil, işlenen süre. Yani maksimum süre, ders süresi olarak alınmıştır.↩︎"
+    "objectID": "ders1-TR.html#chatgpt-kodu-düzeltebilir-veya-değiştirebilir",
+    "href": "ders1-TR.html#chatgpt-kodu-düzeltebilir-veya-değiştirebilir",
+    "title": "GPT modelleri",
+    "section": "ChatGPT kodu düzeltebilir veya değiştirebilir",
+    "text": "ChatGPT kodu düzeltebilir veya değiştirebilir\nElinizde bir kod parçası var ve istediğiniz gibi çalışmıyor mu? O zaman ChatGPT’den kodu düzeltmesini isteyebilirsiniz.\nHatalı bir kod verelim ve chatGPT’den hata ayıklamasını isteyelim:\n\n\nDemek ki ChatGPT kodu düzeltebiliyor! Bu arada, o örneği hazırlamak için ChatGPT’yi kullandığımı biliyor muydunuz? ;)"
+  },
+  {
+    "objectID": "ders1-TR.html#bu-programlamanın-sonu-mu",
+    "href": "ders1-TR.html#bu-programlamanın-sonu-mu",
+    "title": "GPT modelleri",
+    "section": "Bu programlamanın sonu mu?",
+    "text": "Bu programlamanın sonu mu?\n“Bir dönem boyunca Python öğrendik ama şimdi ChatGPT var, hiç kod öğrenmeye gerek yok!” diye düşünebilirsiniz. Benzer endişeleri araştıran çevrimiçi içerikler bulabilirsiniz. Ancak daha makul yaklaşım, “AI araçları geliştiricilerin hızını ve verimliliğini artıracak ve ayrıca yeni dillere giriş engellerini azaltacak” şeklindedir.\nAşağıdaki bölüm Github Copilot’un sayfasından alınmıştır:"
+  },
+  {
+    "objectID": "ders1-TR.html#chatgptyi-gösterdiğiniz-için-teşekkürler-artık-ödevlerimi-kolayca-hazırlayabilirim",
+    "href": "ders1-TR.html#chatgptyi-gösterdiğiniz-için-teşekkürler-artık-ödevlerimi-kolayca-hazırlayabilirim",
+    "title": "GPT modelleri",
+    "section": "ChatGPT’yi gösterdiğiniz için teşekkürler, artık ödevlerimi kolayca hazırlayabilirim!",
+    "text": "ChatGPT’yi gösterdiğiniz için teşekkürler, artık ödevlerimi kolayca hazırlayabilirim!\nChatGPT’nin yeteneklerini görmek, yanlış kullanım hakkında bazı ipuçları verebilir. Öncelikle, bir ödev sizin bir kavramı öğrenmeniz içindir (gitar çalma benzetmesini hatırlayın?) bu nedenle AI destekli intihal yapmak hala bir intihaldir ve sizin açınızdan bir kayıptır. (lütfen intihalin olumsuz etkileri için 00-academic-integrity.ipynb dosyasını da kontrol edin)\nİkincisi, OpenAI ve diğerleri ChatGPT çıktısına kolayca fark edilebilecek filigranlar eklemek için araçlar ve yöntemler üzerinde çalışıyor.\nBu yüzden lütfen bu araçtan ilham alın, öğrenmenizi geliştirmek için kullanın ama intihal için kullanmayın."
+  },
+  {
+    "objectID": "ders1-TR.html#kapalı-ve-açık-modeller",
+    "href": "ders1-TR.html#kapalı-ve-açık-modeller",
+    "title": "GPT modelleri",
+    "section": "Kapalı ve Açık modeller",
+    "text": "Kapalı ve Açık modeller\nŞu anda, her biri eğitilmek için yüz milyonlarca dolar harcanan ve büyük şirketler tarafından geliştirilen birkaç kapalı kaynaklı büyük dil modeli var: * GPT3.5 (ChatGPT) ve GPT4 OpenAI tarafından * PaLM ve Bard Google tarafından * Claude Anthropics tarafından"
+  },
+  {
+    "objectID": "ders1-TR.html#claude-3.5-sonnet-by-antropic",
+    "href": "ders1-TR.html#claude-3.5-sonnet-by-antropic",
+    "title": "GPT modelleri",
+    "section": "Claude 3.5 Sonnet by Antropic",
+    "text": "Claude 3.5 Sonnet by Antropic\nClaude 3.5, Claude modelinin en son sürümüdür. Antropic, Claude’u üç boyutta piyasaya sürer: Haiku (en küçük), Sonnet (orta) ve Opus (en büyük). Şu anda, Claude 3.5 Sonnest en iyi LLM’dir. Genellikle Claude yaratıcı yazma konusunda iyidir, ancak son sürümüyle kodlamada da mükemmelleşmiştir. Ayrıca, Claude sağ panelde kodun önizlemesine (web tabanlı) izin verir.\nAşağıda, Claude 3.5 Sonnet’e “Lütfen HTML, CSS ve JS ile yılan oyunu yaz” komutu verildiğinde oluşturulan bir örnek yer alıyor. Oyunu gerçekten oynayabilirsiniz!\n\nClaude ayrıca belgeleri (örneğin PDF) yüklemeye ve belge hakkında sorular sormaya izin verir.\nClaude’u (bazı sınırlamalarla) ücretsiz bir hesap kaydettikten sonra https://claude.ai/chat adresinde kullanabilirsiniz."
+  },
+  {
+    "objectID": "ders1-TR.html#gemini-by-google",
+    "href": "ders1-TR.html#gemini-by-google",
+    "title": "GPT modelleri",
+    "section": "Gemini by Google",
+    "text": "Gemini by Google\nGemini aslında çevrimiçi arama kapasitesine sahip bir LLM’dir. Ayrıca, (Google Drive aracılığıyla) belgeler indirebilir veya sorular sormak için YouTube videolarına yönlendirebilirsiniz. Son olarak, Gemini 1 milyon belirteçlik en uzun bağlam penceresine sahiptir (bir kerede yaklaşık 10 kitap sığacaktır)."
+  },
+  {
+    "objectID": "ders1-TR.html#modelleri-lokal-olarak-çalıştırma",
+    "href": "ders1-TR.html#modelleri-lokal-olarak-çalıştırma",
+    "title": "GPT modelleri",
+    "section": "Modelleri lokal olarak çalıştırma",
+    "text": "Modelleri lokal olarak çalıştırma\nGeliştiriciler model ağırlıklarını paylaştığı için, modelleri indirip yerel olarak çalıştırmak mümkün. Çeşitli boyutlarda modeller var. 7B (7 milyar) modeller yaklaşık 4Gb bellek gerektiriyor, bu yüzden onları dizüstü bilgisayarınızda çalıştırabilirsiniz.\nModelleri, Python için PyTorch ve bazı diğer kütüphaneleri kurarak ve ardından biraz Python kodu yazarak çalıştırabilirsiniz. Ya da Ollama’yı kurabilir ve ardından onunla uyumlu herhangi bir modeli çalıştırabilirsiniz.\nBir modeli yerel olarak çalıştırmanın avantajları: 1. Daha Az Sansür 2. Daha İyi Veri Gizliliği 3. Çevrimdışı Kullanım 4. Maliyet Tasarrufu 5. Daha İyi Özelleştirme\nBir modeli yerel olarak çalıştırmanın dezavantajları: 1. Kaynak Yoğun 2. Daha Yavaş Yanıtlar ve Daha Düşük Performans 3. Karmaşık Kurulum\n\nJupyter notebook veya Google Colab kullanarak lokal olarak model çalıştırma\nAslında LLM modellerini Jupyter notebook’larında çalıştırabilirsiniz. Ancak bu süreç, birçok Python paketini kurmanızı, model ağırlıklarını indirmenizi ve ardından modele soru sormak ve yanıtı bir sözlükte yakalamak için biraz Python kodu yazmanızı gerektirecektir. “Sohbet benzeri” deneyim için bazı çözümler olsa da, deneyim daha çok “tek seferlik soru ve cevap” gibidir.\nLütfen Google’ın bir Jupyter notebook ortamında modeli çalıştırmak için GPU (veya TPU) sağladığı Google Colab’daki süreci anlatan YouTube videosunu kontrol edin.\n\n\nOllama ile lokal olarak model çalıştırma\n\nÖzelleştirilmiş modeller hakkında bir fikir edinmek için lütfen modeller listesi sayfasını ziyaret edin. Ollama ile, bu modellerden herhangi birini indirebilir ve kullanabilirsiniz.\nTerminalde, mevcut modelleri listeleyelim\n$ ollama list\n\nNAME                ID              SIZE    MODIFIED\ndeepseek-coder:6.7b 72be2442d736    3.8 GB  5 weeks ago     \nneural-chat:latest  73940af9fe02    4.1 GB  5 weeks ago     \norca2:7b            ea98cc422de3    3.8 GB  5 weeks ago     \nphi:latest          c651b7a89d73    1.6 GB  14 hours ago    \nsolar:latest        059fdabbe6e6    6.1 GB  2 hours ago     \nstablelm-zephyr:3b  7c596e78b1fc    1.6 GB  3 weeks ago\nMicrosoft tarafından geliştirilen Phi-2’yi çalıştıralım. İşte Phi-2 hakkında bilgi:\n\n2,7 milyar parametreli bir dil modeli olan Phi-2, olağanüstü akıl yürütme ve dil anlama yetenekleri sergiliyor ve 13 milyar parametreden daha az olan temel dil modelleri arasında en son teknoloji performansı gösteriyor. Karmaşık kıyaslamalarda Phi-2, model ölçeklendirme ve eğitim verisi kürasyon konusundaki yeni yenilikler sayesinde 25 kat daha büyük modellere eşdeğer veya daha iyi performans gösteriyor.\n\n$ ollama run phi:latest\n\n&gt;&gt;&gt; Gökyüzü neden mavi?\n\nGökyüzü, Rayleigh saçılması adı verilen bir fenomen nedeniyle mavi görünür. Güneş ışığı Dünya'nın atmosferine girdiğinde, oksijen ve azot atomları gibi havadaki moleküller ve küçük parçacıklarla çarpışır. Bu çarpışmalar, ışığın daha kısa dalga boylarının (mavi) daha uzun dalga boylarından (kırmızı, turuncu, sarı, yeşil ve mor) daha fazla saçılmasına neden olur.\nSonuç olarak, gözlerimiz saçılan mavi ışığı baskın olarak algılar ve bu nedenle gökyüzü bize mavi görünür.\nGördüğünüz gibi, soruları cevaplayabilen, kodlama konusunda yardımcı olabilen küçük bir model yerel olarak çalıştırılabilir.\n\n\nKullanıcı arayüzü ile lokal olarak model çalıştırma\n\nOllama Web UI\n\n\n\nLLM Studio\nLM Studio’yu kurabilir ve ardından kullanıcı arayüzü ile yerel modellerle etkileşime geçebilirsiniz"
+  },
+  {
+    "objectID": "ders1-TR.html#github-copilot",
+    "href": "ders1-TR.html#github-copilot",
+    "title": "GPT modelleri",
+    "section": "Github CoPilot",
+    "text": "Github CoPilot"
+  },
+  {
+    "objectID": "ders1-TR.html#ücretsiz-github-copilot-alternatifi",
+    "href": "ders1-TR.html#ücretsiz-github-copilot-alternatifi",
+    "title": "GPT modelleri",
+    "section": "Ücretsiz Github CoPilot alternatifi",
+    "text": "Ücretsiz Github CoPilot alternatifi\nCody, Sourcegraph’in AI kodlama asistanıdır ve sizi 10x geliştirici yapacak başka hiçbir asistanın sahip olmadığı birkaç özelliğe sahiptir. Buradan inceleyebilirsiniz: https://sourcegraph.com/cody"
+  },
+  {
+    "objectID": "ders1-TR.html#açık-kaynak-lokal-alternatifler",
+    "href": "ders1-TR.html#açık-kaynak-lokal-alternatifler",
+    "title": "GPT modelleri",
+    "section": "Açık kaynak lokal alternatifler",
+    "text": "Açık kaynak lokal alternatifler\nDaha fazla bilgi için lütfen https://tabby.tabbyml.com/ adresini ziyaret edin"
+  },
+  {
+    "objectID": "ders1-TR.html#görüntü-üretimi",
+    "href": "ders1-TR.html#görüntü-üretimi",
+    "title": "GPT modelleri",
+    "section": "Görüntü Üretimi",
+    "text": "Görüntü Üretimi\n\nOpenAI’dan DALL-E 3\nİstek: “arka planda istanbul şehri silüeti olan bir dna sarmalı”\nDüzeltilmiş istek: “Bilim ve mimarinin buluştuğu detaylı bir illüstrasyon hayal edin. Ön planda, karanlık bir arka plan üzerinde büyütülmüş ve parlayan bir DNA sarmalı var. Bu sarmal yapı tam olarak betimlenmiş, tanıdık çift sarmal şekli muhteşem bir şekilde kıvrılıyor. Bu bilimsel görüntüyle iç içe geçmiş şekilde, arka planda İstanbul şehrinin bir silüet temsili var. Şehir silueti, kubbeli camileri ve yükselen minareleriyle muhteşem tarihi mimarisini sergiliyor. Şehir manzarası, akşamüstü gökyüzüne karşı duruyor, batan güneş binaların arkasındaki ufukta turuncu bir parıltı yaratıyor. Bu kombinasyon, bilim ve şehir güzelliğinin büyüleyici bir yan yana gelişiyle sonuçlanıyor.”\nSonuç:\n\n\n\nMidjourney v6\nMidjourney, Aralık 2023’te v6’yı duyurdu. Fotogerçekçi görüntüler üretebiliyor. Normalde, ücretsiz görüntü üretmek için Discord kanallarını kullanmanız gerekir. Ayrıca, getimg.ai kullanarak da görüntüler üretebilirsiniz. Aşağıdaki isteklerle görüntüler üretmeyi denedim:\n\nÇok sayıda öğrencinin olduğu moleküler biyoloji laboratuvarı.\nBeyaz kumlu güzel bir deniz kenarı ve kıyıda tropikal ağaçlar. Deniz yeşilimsi mavi görünüyor.\n\nSonuçlar harika:\n\n\n\nDezenformasyon\nDeepfake veya yapay zeka tarafından üretilmiş sahte fotoğraflara dikkat edin\nSahte Trump Fotoğrafı\n\nSahte Papa Fotoğrafı"
+  },
+  {
+    "objectID": "ders1-TR.html#video-üretimi",
+    "href": "ders1-TR.html#video-üretimi",
+    "title": "GPT modelleri",
+    "section": "Video Üretimi",
+    "text": "Video Üretimi\n\nİstekten videoya\n\nRunwayML Gen-2\nPika\nStable Diffusion’dan Stable Video Diffusion\nGENMO\n\n\n\nGörüntüden videoya\n\nGENMO"
+  },
+  {
+    "objectID": "ders1-TR.html#müzik-veya-ses-üretimi",
+    "href": "ders1-TR.html#müzik-veya-ses-üretimi",
+    "title": "GPT modelleri",
+    "section": "Müzik veya Ses Üretimi",
+    "text": "Müzik veya Ses Üretimi\n\nElevenlabs yapay zeka ses üreticimizle metni çevrimiçi olarak ücretsiz konuşmaya dönüştürebilir"
   },
   {
     "objectID": "An_Introduction_to_Hierarchical_Clustering-TR.html",
