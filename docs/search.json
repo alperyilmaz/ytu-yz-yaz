@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "FEF3001 Yapay Zekaya Giriş",
     "section": "",
-    "text": "Makine Öğrenmesinde Sınıflandırma Yöntemleri ve R Uygulamaları, Ersoy Öz & Selçuk Alp, Nobel Akademik Yayıncılık, 2020.\nVeri Madenciliği ve Makine Öğrenmesi İle Farklı Alanlarda Uygulamalar, Şenol Çelik, Nilay Köleoğlu, & Fatih Çemrek, Holistence Publications, 2022\nSağlık Bilimlerinde Yapay Zeka, Ahmet Rıza Şahin, Kamil Doğan, & Süleyman Sivri, Akademisyen Kitabevi A.Ş., 2020\nYapay Zeka, Atınç Yılmaz, Kodlab Yayın Dağıtım Yazılım Ltd. Şti., 2022\nMachine Learning Algorithms, Giuseppe Bonaccorso, Packt Publishing, 2017.\nOptimizasyon Modelleme ve Yapay Zeka Algoritmaları, Bayram Köse, Bahar Demirtürk, Efe Akademi Yayınları, 2023\n\n\n\n\nGrup2: 4 Temmuz Perşembe 8:30 - Grup1: 4 Temmuz Perşembe 18:00\nİçerik: İlk derste, ChatGPT ve benzeri büyük dil modelleri tanıtıldı. OpenAI Playground üzerinde “cümle tamamlama” kavramı ve “temparature” ayarı gösterildi. Daha iyi çıktı almak için Prompt ayarları anlatıldı. Dökümandan sorgu/chat yapmak için Gemini ve Claude örnekleri verildi. Yine Claude üzerinden kod yazdırma örneği işlendi. İngilizce Sunum linki, Türkçe Sunum linki\n\n\n\n\nGrup2: 5 Temmuz Cuma 8:30 - Grup1: 5 Temmuz Cuma 14:00\nİçerik: Veri türleri ve verilerin işlenmesine dair bilgi verildi. Sunum linki\n\n\n\nGrup2: 11 Temmuz Perşembe 8:30 - Grup1: 11 Temmuz Perşembe 18:00\nİçerik: Confusion matrix ve sınıflandırma/regresyon değerlendirmesi Sunum linki\n\n\n\nGrup2: 12 Temmuz Cuma 8:30 - Grup1: 12 Temmuz Cuma 14:00\nİçerik: Yapay sinir ağları Sunum linki. Derste kullanılan yapay sinir ağı demo sayfaları için link1 ve link2\n\n\n\nGrup2: 19 Temmuz Cuma 8:30 - Grup1: 19 Temmuz Cuma 14:00\nİçerik: Sınıflandırma metodları İngilizce Sunum linki, Türkçe Sunum Linki\n\n\n\nGrup2: 25 Temmuz Perşembe 8:30 - Grup1: 25 Temmuz Perşembe 18:00\nİçerik: Regresyon İngilizce Sunum linki, Türkçe Sunum linki\n\n\n\nGrup2: 26 Temmuz Cuma 8:30 - Grup1: 26 Temmuz Cuma 14:00\nİçerik: Kümeleme İngilizce Sunum linki, Türkçe Sunum Linki\n\n\n\nGrup2: 01 Ağustos Perşembe 8:30 - Grup1: 01 Ağustos Perşembe 18:00\nİçerik: Doğal Dil İşleme İngilizce Sunum linki"
+    "text": "Makine Öğrenmesinde Sınıflandırma Yöntemleri ve R Uygulamaları, Ersoy Öz & Selçuk Alp, Nobel Akademik Yayıncılık, 2020.\nVeri Madenciliği ve Makine Öğrenmesi İle Farklı Alanlarda Uygulamalar, Şenol Çelik, Nilay Köleoğlu, & Fatih Çemrek, Holistence Publications, 2022\nSağlık Bilimlerinde Yapay Zeka, Ahmet Rıza Şahin, Kamil Doğan, & Süleyman Sivri, Akademisyen Kitabevi A.Ş., 2020\nYapay Zeka, Atınç Yılmaz, Kodlab Yayın Dağıtım Yazılım Ltd. Şti., 2022\nMachine Learning Algorithms, Giuseppe Bonaccorso, Packt Publishing, 2017.\nOptimizasyon Modelleme ve Yapay Zeka Algoritmaları, Bayram Köse, Bahar Demirtürk, Efe Akademi Yayınları, 2023\n\n\n\n\nGrup2: 4 Temmuz Perşembe 8:30 - Grup1: 4 Temmuz Perşembe 18:00\nİçerik: İlk derste, ChatGPT ve benzeri büyük dil modelleri tanıtıldı. OpenAI Playground üzerinde “cümle tamamlama” kavramı ve “temparature” ayarı gösterildi. Daha iyi çıktı almak için Prompt ayarları anlatıldı. Dökümandan sorgu/chat yapmak için Gemini ve Claude örnekleri verildi. Yine Claude üzerinden kod yazdırma örneği işlendi. İngilizce Sunum linki, Türkçe Sunum linki\n\n\n\n\nGrup2: 5 Temmuz Cuma 8:30 - Grup1: 5 Temmuz Cuma 14:00\nİçerik: Veri türleri ve verilerin işlenmesine dair bilgi verildi. Sunum linki\n\n\n\nGrup2: 11 Temmuz Perşembe 8:30 - Grup1: 11 Temmuz Perşembe 18:00\nİçerik: Confusion matrix ve sınıflandırma/regresyon değerlendirmesi Sunum linki\n\n\n\nGrup2: 12 Temmuz Cuma 8:30 - Grup1: 12 Temmuz Cuma 14:00\nİçerik: Yapay sinir ağları Sunum linki. Derste kullanılan yapay sinir ağı demo sayfaları için link1 ve link2\n\n\n\nGrup2: 19 Temmuz Cuma 8:30 - Grup1: 19 Temmuz Cuma 14:00\nİçerik: Sınıflandırma metodları İngilizce Sunum linki, Türkçe Sunum Linki\n\n\n\nGrup2: 25 Temmuz Perşembe 8:30 - Grup1: 25 Temmuz Perşembe 18:00\nİçerik: Regresyon İngilizce Sunum linki, Türkçe Sunum linki\n\n\n\nGrup2: 26 Temmuz Cuma 8:30 - Grup1: 26 Temmuz Cuma 14:00\nİçerik: Kümeleme İngilizce Sunum linki, Türkçe Sunum Linki\n\n\n\nGrup2: 01 Ağustos Perşembe 8:30 - Grup1: 01 Ağustos Perşembe 18:00\nİçerik: Doğal Dil İşleme İngilizce Sunum linki, Türkçe Sunum linki"
   },
   {
     "objectID": "index.html#kaynaklar",
@@ -67,7 +67,7 @@
     "href": "index.html#ders8",
     "title": "FEF3001 Yapay Zekaya Giriş",
     "section": "",
-    "text": "Grup2: 01 Ağustos Perşembe 8:30 - Grup1: 01 Ağustos Perşembe 18:00\nİçerik: Doğal Dil İşleme İngilizce Sunum linki"
+    "text": "Grup2: 01 Ağustos Perşembe 8:30 - Grup1: 01 Ağustos Perşembe 18:00\nİçerik: Doğal Dil İşleme İngilizce Sunum linki, Türkçe Sunum linki"
   },
   {
     "objectID": "id3-decision-tree-TR.html",
@@ -711,14 +711,14 @@
     "href": "ders8.html#section-18",
     "title": "NLP - Natural Language Processing",
     "section": "",
-    "text": "N-gram models:\nN-gram models extend the idea of BoW by considering sequences of N adjacent words, rather than individual words in isolation. For example, a bigram (2-gram) model would consider pairs of adjacent words, while a trigram (3-gram) model would look at sequences of three words. N-grams capture some local context and word order information, which can be crucial for tasks like language modeling or machine translation. However, as N increases, the model’s complexity and data sparsity issues also increase. N-gram models strike a balance between the simplicity of BoW and the need to capture word relationships, making them useful in various NLP applications."
+    "text": "N-gram models:\nN-gram models extend the idea of BoW by considering sequences of N adjacent words, rather than individual words in isolation. For example, a bigram (2-gram) model would consider pairs of adjacent words, while a trigram (3-gram) model would look at sequences of three words. N-grams capture some local context and word order information, which can be crucial for tasks like language modeling or machine translation. However, as N increases, the model’s complexity and data sparsity issues also increase. N-gram models strike a balance between the simplicity of BoW and the need to capture word relationships, making them useful in various NLP applications.\nPlease visit these links for visual explanation: link1 link2 link3"
   },
   {
     "objectID": "ders8.html#section-19",
     "href": "ders8.html#section-19",
     "title": "NLP - Natural Language Processing",
     "section": "",
-    "text": "Word embeddings (Word2Vec, GloVe, FastText):\nWord embeddings are dense vector representations of words in a continuous vector space, where semantically similar words are mapped to nearby points. Unlike BoW or TF-IDF, which produce sparse, high-dimensional vectors, word embeddings typically have a few hundred dimensions. Models like Word2Vec learn these representations by analyzing word co-occurrences in large corpora, capturing semantic relationships (e.g., “king” - “man” + “woman” ≈ “queen”). FastText extends this idea to subword units, allowing it to generate embeddings for out-of-vocabulary words. These dense representations significantly improve performance on various NLP tasks and allow for interesting word algebra. However, they struggle with polysemy (words with multiple meanings) as each word has a single, fixed representation regardless of context."
+    "text": "Word embeddings (Word2Vec, GloVe, FastText):\nWord embeddings are dense vector representations of words in a continuous vector space, where semantically similar words are mapped to nearby points. Unlike BoW or TF-IDF, which produce sparse, high-dimensional vectors, word embeddings typically have a few hundred dimensions. Models like Word2Vec learn these representations by analyzing word co-occurrences in large corpora, capturing semantic relationships (e.g., “king” - “man” + “woman” ≈ “queen”). FastText extends this idea to subword units, allowing it to generate embeddings for out-of-vocabulary words. These dense representations significantly improve performance on various NLP tasks and allow for interesting word algebra. However, they struggle with polysemy (words with multiple meanings) as each word has a single, fixed representation regardless of context.\nPlease visit these links for visual explanations: link1 link2. Please visit Embedding Projector for interactive visualization.\nVisual explanation for FastText"
   },
   {
     "objectID": "ders8.html#section-20",
@@ -1195,6 +1195,244 @@
     "title": "Random Forest Regression with R",
     "section": "",
     "text": "# Load required libraries\nlibrary(randomForest)\n\nrandomForest 4.7-1.1\n\n\nType rfNews() to see new features/changes/bug fixes.\n\nlibrary(ggplot2)\n\n\nAttaching package: 'ggplot2'\n\n\nThe following object is masked from 'package:randomForest':\n\n    margin\n\n# Set seed for reproducibility\nset.seed(123)\n\ndata &lt;- mtcars\n\n\nSplit data into training and testing sets\n\ntrain_indices &lt;- sample(1:nrow(data), 0.7 * nrow(data))\ntrain_data &lt;- data[train_indices, ]\ntest_data &lt;- data[-train_indices, ]\n\n\n\nTrain Random Forest model and make predictions\n\nrf_model &lt;- randomForest(mpg ~ ., data = train_data, ntree = 500)\n\npredictions &lt;- predict(rf_model, newdata = test_data)\n\n\n\nCalculate RMSE\n\nrmse &lt;- sqrt(mean((test_data$mpg - predictions)^2))\ncat(\"Root Mean Square Error:\", rmse, \"\\n\")\n\nRoot Mean Square Error: 2.00452 \n\n\n\n\nPlot actual vs predicted values\n\nggplot(data.frame(actual = test_data$mpg, predicted = predictions), aes(x = actual, y = predicted)) +\n  geom_point(alpha = 0.5) +\n  geom_abline(intercept = 0, slope = 1, color = \"red\", linetype = \"dashed\") +\n  labs(x = \"Actual Values\", y = \"Predicted Values\", title = \"Random Forest Regression: Actual vs Predicted\")\n\n\n\n\n\n\n\n\n\n\nPrint feature importance\n\nimportance &lt;- importance(rf_model)\nprint(importance)\n\n     IncNodePurity\ncyl      152.64821\ndisp     224.33387\nhp       158.42647\ndrat      43.37372\nwt       178.44424\nqsec      34.05620\nvs        25.67666\nam        19.73485\ngear      10.54314\ncarb      21.62506\n\n\n\n\nPlot feature importance\n\nimportance_df &lt;- data.frame(feature = rownames(importance), importance = importance[, 1])\nggplot(importance_df, aes(x = reorder(feature, importance), y = importance)) +\n  geom_bar(stat = \"identity\") +\n  coord_flip() +\n  labs(x = \"Features\", y = \"Importance\", title = \"Random Forest: Feature Importance\")\n\n\n\n\n\n\n\n\nalternative at https://hackernoon.com/random-forest-regression-in-r-code-and-interpretation"
+  },
+  {
+    "objectID": "ders8-TR.html#içerik",
+    "href": "ders8-TR.html#içerik",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "İçerik",
+    "text": "İçerik\n\n\n\nNLP’nin tanımı ve neden ihtiyaç duyulduğu\nYaygın NLP Uygulamaları\n\nMetin özetleme\nDuygu analizi\nAnahtar kelime çıkarımı ve ilişkilendirme\nBelge sınıflandırma\nVarlık ismi tanıma\nMakine çevirisi\nSoru cevaplama sistemleri\nSohbet robotları\n\n\n\n\nNLP Yaklaşımları\n\nTerim tabanlı yaklaşımlar\nSözlük tabanlı yaklaşımlar\nDerlem (Corpus) tabanlı yaklaşımlar\nİstatistiksel yaklaşımlar\nAnlamsal yaklaşımlar\nDerin öğrenme yaklaşımları"
+  },
+  {
+    "objectID": "ders8-TR.html#içerik-devam",
+    "href": "ders8-TR.html#içerik-devam",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "İçerik (devam)",
+    "text": "İçerik (devam)\n\nNLP’de Ön İşleme Adımları: Metin temizleme ve normalleştirme, Belirteç çıkarma (Tokenization), Durak kelime (Stop words) çıkarma, Kök bulma (Stemming) ve lemmatizasyon, Kelime türü (POS) etiketleme, Sözdizimi analizi ve ayrıştırma, Varlık ismi tanıma\nÖzellik Çıkarma ve Temsil: Torba içinde Kelimeler (BoW) modeli, Terim Frekansı-Ters Belge Frekansı (TF-IDF), N-gram modelleri, Kelime gömmeleri (Word2Vec, FastText), Bağlamsal gömmeler (örn. BERT, GPT)"
+  },
+  {
+    "objectID": "ders8-TR.html#tanım",
+    "href": "ders8-TR.html#tanım",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "Tanım",
+    "text": "Tanım\nDoğal Dil İşleme (NLP), bilgisayarlar ve insan dili arasındaki etkileşime odaklanan bir yapay zeka dalıdır. Bilgisayarların insan dilini anlamlı bir şekilde anlamasını, yorumlamasını, üretmesini ve yanıtlamasını sağlamak için hesaplamalı dilbilim, makine öğrenimi ve derin öğrenme tekniklerini birleştirir. NLP, büyük miktarda doğal dil verisini işleyerek ve analiz ederek insan iletişimi ile bilgisayar anlayışı arasındaki boşluğu kapatmayı amaçlar. Bu alan, konuşma tanıma, metin analizi, dil çevirisi, duygu analizi ve metin üretimi gibi çeşitli görevleri kapsar ve makinelerin insan dillerinden anlam çıkarmasına ve hem anlamlı hem de bağlamsal olarak uygun bir şekilde yanıt vermesine olanak tanır."
+  },
+  {
+    "objectID": "ders8-TR.html#neden-nlp",
+    "href": "ders8-TR.html#neden-nlp",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "Neden NLP?",
+    "text": "Neden NLP?\nDoğal Dil İşleme (NLP), metin verisinin geleneksel makine öğrenimi görevlerinde tipik olarak kullanılan yapılandırılmış sayısal ve kategorik verilerden temelde farklı olması nedeniyle çok önemlidir. İşte NLP’nin neden gerekli olduğuna dair nedenler:\n\nMetnin yapılandırılmamış doğası: Her sütunun belirli bir özelliği temsil ettiği tablo verilerinin aksine, metin doğası gereği yapılandırılmamıştır. Bir cümle veya belge önceden tanımlanmış özellikler veya kategorilerle gelmez. Bu yapılandırılmamış doğa, bilgisayarların metin verisini doğrudan işlemesini ve analiz etmesini zorlaştırır.\nYüksek boyutluluk: Metin verisi son derece yüksek boyutlu olabilir. Örneğin, bir kelime çantası modelinde, derlemdeki her benzersiz kelime bir özellik haline gelir. Bu, yapılandırılmış veri problemlerinde tipik olarak görülenin çok üzerinde binlerce hatta milyonlarca boyuta yol açabilir.\nAnlamsal karmaşıklık: Kelimeler ve ifadeler bağlama bağlı olarak birden fazla anlama sahip olabilir. Örneğin, “banka” bir finansal kurumu veya bir nehrin kenarını ifade edebilir. Geleneksel ML modelleri, NLP teknikleri olmadan bu anlamsal karmaşıklığı ele almak için donanımlı değildir."
+  },
+  {
+    "objectID": "ders8-TR.html#neden-nlp-1",
+    "href": "ders8-TR.html#neden-nlp-1",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "Neden NLP?",
+    "text": "Neden NLP?\n\nSözdizimsel değişkenlik: Doğal dilde aynı anlam birçok farklı şekilde ifade edilebilir. Örneğin, “Kedi halının üstünde oturdu” ve “Halının üstünde kedi oturdu” aynı bilgiyi iletir ancak farklı kelime sıralamasına sahiptir. ML modellerinin bu varyasyonları anlaması için NLP tekniklerine ihtiyacı vardır.\nGürültüyle başa çıkma: Metin verisi genellikle yazım hataları, resmi olmayan dil veya ilgisiz bilgiler gibi “gürültü” içerir. NLP, bu veriyi temizlemek ve ön işlemden geçirmek için yöntemler sağlayarak analiz için uygun hale getirir.\nÖzellik çıkarma: Sayısal verilerde özellikler açık olduğu halde, metinsel özelliklerin çıkarılması gerekir. NLP, TF-IDF, kelime gömmeleri ve konu modellemesi gibi metni ML modellerinin çalışabileceği anlamlı sayısal temsillere dönüştürmek için teknikler sağlar.\nSıra bilgisini ele alma: Birçok ML modeli özellikler arasında bağımsızlık varsayar, ancak metinde kelimelerin sırası önemlidir. Tekrarlayan sinir ağları veya transformatörler gibi NLP teknikleri bu sıralı bilgiyi yakalamak için tasarlanmıştır."
+  },
+  {
+    "objectID": "ders8-TR.html#neden-nlp-2",
+    "href": "ders8-TR.html#neden-nlp-2",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "Neden NLP?",
+    "text": "Neden NLP?\n\nÇok dilli zorluklar: Metin verisi birden fazla dilde gelebilir ve her birinin kendi kuralları ve nüansları vardır. NLP, dil algılama, çeviri ve diller arası analiz için araçlar sağlar.\nBağlamla başa çıkma: Metni anlamak genellikle doğrudan kelimelerin ötesinde bir bağlamı kavramayı gerektirir. NLP teknikleri bu daha geniş bağlamı yakalamaya ve kullanmaya yardımcı olur.\n\nÖzünde, NLP, insan dilinin zengin, karmaşık ve yapılandırılmamış doğasını bilgisayarların etkili bir şekilde işleyebileceği bir forma dönüştürmek için gerekli araç ve teknikleri sağladığı için gereklidir. İnsanların iletişim kurma şekli ile makinelerin bilgiyi işleme şekli arasındaki boşluğu kapatarak duygu analizinden makine çevirisine, sohbet robotlarına ve daha ötesine kadar geniş bir uygulama yelpazesini mümkün kılar."
+  },
+  {
+    "objectID": "ders8-TR.html#neden-nlp-3",
+    "href": "ders8-TR.html#neden-nlp-3",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "Neden NLP?",
+    "text": "Neden NLP?"
+  },
+  {
+    "objectID": "ders8-TR.html#section",
+    "href": "ders8-TR.html#section",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "",
+    "text": "görsel kaynağı"
+  },
+  {
+    "objectID": "ders8-TR.html#section-1",
+    "href": "ders8-TR.html#section-1",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "",
+    "text": "Ayrıca, ses kayıtları da Konuşmadan 2Metin işleminden sonra bir metin girişidir\ngörsel kaynağı"
+  },
+  {
+    "objectID": "ders8-TR.html#section-2",
+    "href": "ders8-TR.html#section-2",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "",
+    "text": "Yaygın NLP Uygulamaları - Özetleme\n\nMetin özetleme, büyük miktardaki metni kısa ve tutarlı özetlere yoğunlaştıran bir NLP uygulamasıdır. İnsanlar için özetleme, bağlamı anlamayı, ana noktaları belirlemeyi ve fikirleri yeniden ifade etmeyi içerir - bunlar bizim için doğal gelen görevlerdir. Ancak bilgisayarlar için bu süreç oldukça karmaşıktır. Bir bilgisayar metnin yapısını analiz etmeli, anlamsal anlamları kavramalı, farklı cümlelerin veya kavramların göreceli önemini belirlemeliı ve ardından tutarlı bir özet üretmeli veya çıkarmalıdır. Bu, dil, bağlam ve ilgililik konusunda insan benzeri bir anlayışı taklit etmek için sofistike algoritmalar gerektirir. Zorluk, makinelere sadece kelimeleri işlemekle kalmayıp, daha geniş belge bağlamı içindeki ilişkilerini ve önemlerini anlamayı öğretmektedir.\n\ngörsel kaynağı"
+  },
+  {
+    "objectID": "ders8-TR.html#section-3",
+    "href": "ders8-TR.html#section-3",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "",
+    "text": "Yaygın NLP Uygulamaları - Duygu Analizi\nDuygu analizi, bir metin parçasının arkasındaki duygusal tonu belirlemeyi amaçlayan bir NLP tekniğidir. İnsanlar genellikle bir ifadedeki duyguyu sezgisel olarak algılayabilirken, bilgisayarlar için bu görev şaşırtıcı derecede karmaşıktır. Bir bilgisayar, genel duygusal bağlamı kavramak için basit anahtar kelime eşleştirmesinin ötesine geçmelidir. Örneğin, “Bu film müthiş!” ifadesi, bağlama ve konuşmacıya bağlı olarak olumlu veya olumsuz olabilir.\nLütfen Twitter/X kullanarak ABD’deki mutluluğu takip eden https://hedonometer.org adresini ziyaret edin."
+  },
+  {
+    "objectID": "ders8-TR.html#section-4",
+    "href": "ders8-TR.html#section-4",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "",
+    "text": "Yaygın NLP Uygulamaları - Varlık İsmi Tanıma\n\nMetindeki adlandırılmış varlıkları bulmayı ve bunları kişi adları, kuruluşlar, konumlar, tıbbi kodlar, zaman ifadeleri, miktarlar, parasal değerler, yüzdeler vb. önceden tanımlanmış kategorilere sınıflandırmayı amaçlayan bir NLP tekniğidir. İnsanlar metindeki bu varlıkları kolayca tanımlayıp kategorize edebilirken, bilgisayarlar için bu görev büyük zorluklar sunar.\nGösterim için lütfen Geeks4Geeks Varlık İsmi Tanıma adresini ziyaret edin."
+  },
+  {
+    "objectID": "ders8-TR.html#nlp-yaklaşımları---terim-tabanlı",
+    "href": "ders8-TR.html#nlp-yaklaşımları---terim-tabanlı",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "NLP Yaklaşımları - Terim tabanlı",
+    "text": "NLP Yaklaşımları - Terim tabanlı\nNLP’deki terim tabanlı yaklaşımlar, metin verisini işlemek ve analiz etmek için temel yöntemlerden birini temsil eder. Bu yaklaşımlar, bireysel kelimeleri veya terimleri analizin temel birimleri olarak ele alır. Temel fikir, belgeleri terimler koleksiyonu olarak temsil etmektir, genellikle dilbilgisi ve kelime sırasını göz ardı ederek ancak çokluğu koruyarak. Yaygın bir uygulama, her belgenin terim frekansları vektörü olarak temsil edildiği “kelime çantası” modelidir. Basit olmasına rağmen, bu yöntem belge sınıflandırma veya bilgi alma gibi birçok görev için şaşırtıcı derecede etkili olabilir. Ancak, terim tabanlı yaklaşımlar eşanlamlılık (aynı anlamlı farklı kelimeler) ve çok anlamlılık (birden çok anlamı olan aynı kelime) ile zorluklarla karşılaşır. Ayrıca bağlamı ve kelimeler arasındaki ilişkileri yakalamakta zorlanırlar. Bu sınırlamalara rağmen, terim tabanlı yöntemler daha gelişmiş NLP teknikleri için bir temel oluşturur ve hesaplama verimliliği ve yorumlanabilirliği nedeniyle birçok uygulamada ilgili kalmaya devam eder."
+  },
+  {
+    "objectID": "ders8-TR.html#section-5",
+    "href": "ders8-TR.html#section-5",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "",
+    "text": "görsel kaynağı"
+  },
+  {
+    "objectID": "ders8-TR.html#nlp-yaklaşımları---sözlük-tabanlı",
+    "href": "ders8-TR.html#nlp-yaklaşımları---sözlük-tabanlı",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "NLP Yaklaşımları - Sözlük Tabanlı",
+    "text": "NLP Yaklaşımları - Sözlük Tabanlı\nNLP’de sözlük tabanlı yaklaşımlar, metni işlemek ve analiz etmek için sözlükler, eşanlamlılar sözlüğü veya ontolojiler gibi önceden var olan sözcüksel kaynakları kullanır. Bu yöntemler, dili anlamak ve yorumlamak için insan tarafından oluşturulmuş bilgi tabanlarından yararlanır. Özünde, insanların bilinmeyen kelimeleri veya kavramları anlamak için sözlükleri nasıl kullandığını taklit etmeye çalışırlar. Örneğin, duygu analizinde sözlük tabanlı bir yaklaşım, ilişkili duyguları ile etiketlenmiş kelimelerin bir sözlüğünü kullanabilir."
+  },
+  {
+    "objectID": "ders8-TR.html#section-6",
+    "href": "ders8-TR.html#section-6",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "",
+    "text": "görsel kaynağı"
+  },
+  {
+    "objectID": "ders8-TR.html#nlp-yaklaşımları---derlemcorpus-tabanlı",
+    "href": "ders8-TR.html#nlp-yaklaşımları---derlemcorpus-tabanlı",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "NLP Yaklaşımları - Derlem/Corpus Tabanlı",
+    "text": "NLP Yaklaşımları - Derlem/Corpus Tabanlı\nNLP’de derlem tabanlı yaklaşımlar, dilbilimsel bilgi ve kalıpları türetmek için derlem olarak bilinen büyük metin veri koleksiyonlarına dayanır. Önceden var olan bilgi tabanlarına bağlı olan sözlük tabanlı yöntemlerin aksine, derlem tabanlı yaklaşımlar gerçek dünya dil kullanımından öğrenir. Bu yöntemler, kelimelerin ve ifadelerin geniş miktardaki metin içinde bağlam içinde nasıl kullanıldığını analiz etmek için istatistiksel teknikler kullanır. Örneğin, Word2Vec veya GloVe gibi kelime gömmeleri, büyük derlemlerdeki eş-oluşum kalıplarına dayalı olarak kelimelerin vektör temsillerini öğrenmek için sinir ağlarını kullanır.\nDerlem tabanlı yöntemler, dil kullanımındaki nüansları yakalamada, belirsizliği ele almada ve farklı alanlara veya dillere uyum sağlamada öne çıkar. Dil modelleme, makine çevirisi ve metin üretimi gibi görevler için özellikle güçlüdürler."
+  },
+  {
+    "objectID": "ders8-TR.html#nlp-yaklaşımları---anlamsal-semantic-yaklaşım",
+    "href": "ders8-TR.html#nlp-yaklaşımları---anlamsal-semantic-yaklaşım",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "NLP Yaklaşımları - Anlamsal (Semantic) Yaklaşım",
+    "text": "NLP Yaklaşımları - Anlamsal (Semantic) Yaklaşım\nNLP’de anlambilim yaklaşımları, dilin sadece yapısını veya istatistiksel kalıplarını değil, anlamını anlamaya odaklanır. Bu yöntemler, insan kavrayışını yansıtarak metindeki altta yatan kavramları ve ilişkileri yakalamayı ve temsil etmeyi amaçlar. Anlambilim yaklaşımları genellikle kavramlar arasındaki ilişkileri modellemek için bilgi grafikleri, ontolojiler veya anlamsal ağları kullanır. Örneğin, biyomedikal bir bağlamda, anlambilim yaklaşımı “aspirinin” bir tür “ağrı kesici” olduğunu ve “baş ağrılarını” “tedavi ettiğini” anlayabilir. Bu yöntemler karmaşık sorguları ele alabilir, yeni bilgiler çıkarabilir ve bağlama bağlı anlamları anlayabilir."
+  },
+  {
+    "objectID": "ders8-TR.html#nlp-ön-işleme-adımları",
+    "href": "ders8-TR.html#nlp-ön-işleme-adımları",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "NLP Ön İşleme Adımları",
+    "text": "NLP Ön İşleme Adımları\nMetin temizleme ve normalleştirme:\nBu ilk adım, işlemeyi engelleyebilecek öğeleri kaldırarak veya standartlaştırarak ham metin verisini analize hazırlamayı içerir. Genellikle tutarlılığı sağlamak için metni küçük harfe dönüştürme, analizle ilgisi olmayan özel karakterleri veya noktalama işaretlerini kaldırma ve biçimlendirme sorunlarını ele alma gibi görevleri içerir. Örneğin, sosyal medya metninde, kısaltmaları genişletme (örn. “değil” yerine “değil”), yaygın yazım hatalarını düzeltme veya emojileri metin açıklamalarına dönüştürme işlemlerini içerebilir. Amaç, temel anlamını korurken analizi karmaşıklaştırabilecek gürültüyü ve varyasyonları azaltan standartlaştırılmış, “temiz” bir metin versiyonu oluşturmaktır."
+  },
+  {
+    "objectID": "ders8-TR.html#section-7",
+    "href": "ders8-TR.html#section-7",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "",
+    "text": "Belirteçlere Ayırma (Tokenization)\nBelirteçlere ayırma, metni genellikle kelimeler veya alt kelimeler olarak adlandırılan daha küçük birimlere (belirteçlere) ayırma işlemidir. Basit görünse de, dile özgü zorluklar nedeniyle karmaşık olabilir. Örneğin, İngilizcede boşluk ve noktalama işaretlerinden ayırabiliriz, ancak bu yaklaşım kelimeler arasında boşluk kullanmayan Çince gibi diller için başarısız olur. Belirteçlere ayırma ayrıca kısaltmalar, kısa çizgi ile birleştirilmiş kelimeler veya çok kelimeli ifadelerin nasıl ele alınacağı konusunda kararlar içerir. Belirteçlere ayırma yöntemi seçimi, modelin çalışacağı temel anlam birimlerini tanımladığı için sonraki NLP görevlerini önemli ölçüde etkileyebilir."
+  },
+  {
+    "objectID": "ders8-TR.html#section-8",
+    "href": "ders8-TR.html#section-8",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "",
+    "text": "Durak kelime çıkarma\nDurak kelimeler, genellikle kendi başlarına önemli bir anlam taşımadıkları için metin işlemeden filtrelenen yaygın kelimelerdir (örneğin “ve”, “veya”, “ama”, “ki” gibi). Bunları çıkarmak, verideki gürültüyü azaltmaya ve analizi daha anlamlı içerik kelimelerine odaklamaya yardımcı olabilir. Ancak, neyin durak kelime oluşturduğunun tanımı, belirli uygulamaya veya alana bağlı olarak değişebilir. Örneğin, duygu analizinde genellikle durak kelime olarak kabul edilen “değil” gibi kelimeler anlamı anlamak için çok önemli olabilir. Bu nedenle, durak kelime çıkarma verimliliği artırabilir ve gürültüyü azaltabilir, ancak belirli NLP görevinin dikkatli bir şekilde değerlendirilmesini gerektirir."
+  },
+  {
+    "objectID": "ders8-TR.html#section-9",
+    "href": "ders8-TR.html#section-9",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "",
+    "text": "Kök bulma (Stemming) ve Gövde bulma (Lemmatization)\nBu teknikler, kelimeleri temel veya sözlük formuna indirgemeyi amaçlar, bu da farklı kelime formlarını tek bir öğe olarak ele almaya yardımcı olur. Kök bulma, kelimelerin sonlarını kesen kaba bir sezgisel süreçtir ve genellikle kelime olmayan sonuçlar verir (örn. “koşuyor” “koş” olur, ancak “evren” “evr” olur). Öte yandan, gövde bulma, bir kelimenin sözlük formunu döndürmek için kelime dağarcığı ve morfolojik analiz kullanır (örn. “koşuyor” “koşmak” olur, “am” “olmak” olur). Kök bulma daha hızlı ve basit olsa da, gövde bulma daha doğru sonuçlar sağlar. Aralarındaki seçim, işlem hızı ile dilbilimsel doğruluk arasında denge kurarak belirli NLP görevinin gereksinimlerine bağlıdır."
+  },
+  {
+    "objectID": "ders8-TR.html#section-10",
+    "href": "ders8-TR.html#section-10",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "",
+    "text": "görsel kaynağı"
+  },
+  {
+    "objectID": "ders8-TR.html#section-11",
+    "href": "ders8-TR.html#section-11",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "",
+    "text": "görsel kaynağı"
+  },
+  {
+    "objectID": "ders8-TR.html#section-12",
+    "href": "ders8-TR.html#section-12",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "",
+    "text": "Konuşma bölümü (POS) etiketleme\nPOS (Point of Speech) etiketleme, bir metindeki her kelimeyi hem tanımına hem de bağlamına dayalı olarak uygun konuşma bölümü (isim, fiil, sıfat vb.) ile etiketlemeyi içerir. Bu süreç, cümlelerin dilbilgisel yapısını anlamak için çok önemlidir ve adlandırılmış varlık tanıma veya sözdizimsel ayrıştırma gibi görevlerde önemli ölçüde yardımcı olabilir. Modern POS etiketleyiciler genellikle büyük açıklamalı derlemler üzerinde eğitilmiş makine öğrenimi modellerini kullanır ve yüksek doğruluk elde edebilir. Ancak, belirsiz kelimelerle (örn. “kayıt” bir isim veya fiil olabilir) veya kelimelerin alışılmadık şekillerde kullanıldığı alan spesifik dili ele almada hala zorluklarla karşılaşabilirler."
+  },
+  {
+    "objectID": "ders8-TR.html#section-13",
+    "href": "ders8-TR.html#section-13",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "",
+    "text": "görsel kaynağı"
+  },
+  {
+    "objectID": "ders8-TR.html#section-14",
+    "href": "ders8-TR.html#section-14",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "",
+    "text": "Konuşma Bölümü\nEtiket\n\n\n\n\nİsim (Tekil)\nNN\n\n\nİsim (Çoğul)\nNNS\n\n\nFiil\nVB\n\n\nBelirleyici\nDT\n\n\nSıfat\nJJ\n\n\nZarf\nRB"
+  },
+  {
+    "objectID": "ders8-TR.html#section-15",
+    "href": "ders8-TR.html#section-15",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "",
+    "text": "Sözdizimi analizi ve ayrıştırma\nBu teknik, kelimelerin birbirleriyle nasıl ilişkili olduğunu anlamak için cümlelerin dilbilgisel yapısını analiz etmeyi içerir. Genellikle cümle yapısını temsil eden bir ayrıştırma ağacı veya bağımlılık grafiği üretir. İki ana yaklaşım vardır: cümleleri iç içe geçmiş bileşenlere (öbekler) bölen bileşen ayrıştırma ve bireysel kelimeler arasındaki dilbilgisel ilişkileri tanımlayan bağımlılık ayrıştırma. Ayrıştırma, makine çevirisi veya soru cevaplama gibi cümle yapısını anlamayı gerektiren görevler için çok önemlidir. Ancak, hesaplama açısından yoğun olabilir ve belirsiz cümleler veya standart olmayan dil kullanımı ile zorluklarla karşılaşabilir.\nLütfen şu bağlantıları ziyaret edin: bağlantı1"
+  },
+  {
+    "objectID": "ders8-TR.html#nlpde-özellik-çıkarma-ve-temsil-teknikleri",
+    "href": "ders8-TR.html#nlpde-özellik-çıkarma-ve-temsil-teknikleri",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "NLP’de Özellik Çıkarma ve Temsil Teknikleri",
+    "text": "NLP’de Özellik Çıkarma ve Temsil Teknikleri"
+  },
+  {
+    "objectID": "ders8-TR.html#section-16",
+    "href": "ders8-TR.html#section-16",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "",
+    "text": "Torba içinde Kelimeler (BoW) modeli:\nKelime Çantası modeli, metni sayısal özellikler olarak temsil etmek için basit ancak etkili bir yöntemdir. Derleme içindeki tüm benzersiz kelimelerden bir kelime dağarcığı oluşturur ve her belgeyi kelime frekanslarının bir vektörü olarak temsil eder. Kelimelerin sırası dikkate alınmaz, bu yüzden “çanta” adı verilir. BoW hesaplama açısından verimli ve anlaşılması kolay olsa da, kelime sırası ve bağlam hakkındaki tüm bilgileri kaybeder. Ayrıca, kelime dağarcığı dışındaki kelimelerle mücadele eder ve büyük kelime dağarcıkları için çok yüksek boyutlu, seyrek vektörlerle sonuçlanabilir. Bu sınırlamalara rağmen, BoW birçok metin sınıflandırma görevi için faydalı olmaya devam eder ve daha gelişmiş teknikler için bir temel oluşturur."
+  },
+  {
+    "objectID": "ders8-TR.html#section-17",
+    "href": "ders8-TR.html#section-17",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "",
+    "text": "Terim Frekansı-Ters Belge Frekansı (TF-IDF):\nTF-IDF, bir koleksiyon veya derlem içindeki bir belgede bir kelimenin önemini değerlendirmek için kullanılan istatistiksel bir ölçüdür. İki metriği birleştirir: Terim Frekansı (bir kelimenin bir belgede ne sıklıkta göründüğü) ve Ters Belge Frekansı (kelimenin tüm belgeler arasında ne kadar nadir olduğu). Fikir, bir belgede sık sık geçen ancak genel derlemde nadir olan kelimelerin muhtemelen o belge için daha önemli olduğudur. TF-IDF, tüm belgelerde sık sık görünen ancak az anlam taşıyan yaygın kelimelerin etkisini azaltmaya yardımcı olur. Bu yöntem, basit kelime sayımlarından daha nüanslı bir temsil sağlayarak bilgi alma ve belge sıralama gibi görevler için değerli hale getirir.\nLütfen gösterim için bu bağlantıyı ziyaret edin."
+  },
+  {
+    "objectID": "ders8-TR.html#section-18",
+    "href": "ders8-TR.html#section-18",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "",
+    "text": "N-gram modelleri:\nN-gram modelleri, BoW (Bag of Words) fikrinin bir uzantısı olarak, tek tek kelimeleri izole olarak ele almak yerine, N bitişik kelimeden oluşan dizileri dikkate alır. Örneğin, bir bigram (2-gram) modeli bitişik kelime çiftlerini ele alırken, bir trigram (3-gram) modeli üç kelimelik dizileri inceler. N-gramlar, dil modelleme veya makine çevirisi gibi görevler için çok önemli olabilen bazı yerel bağlam ve kelime sırası bilgilerini yakalar. Ancak, N arttıkça, modelin karmaşıklığı ve veri seyrekliği sorunları da artar. N-gram modelleri, BoW’un basitliği ile kelime ilişkilerini yakalama ihtiyacı arasında bir denge kurar ve bu da onları çeşitli NLP uygulamalarında kullanışlı kılar.\nGörsel açıklama için lütfen bu bağlantıları ziyaret edin: bağlantı1 bağlantı2 bağlantı3"
+  },
+  {
+    "objectID": "ders8-TR.html#section-19",
+    "href": "ders8-TR.html#section-19",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "",
+    "text": "Kelime gömmeleri/embeddings (Word2Vec, GloVe, FastText):\nKelime gömmeleri, anlamsal olarak benzer kelimelerin yakın noktalara eşlendiği sürekli bir vektör uzayında kelimelerin yoğun vektör temsilleridir. Seyrek, yüksek boyutlu vektörler üreten BoW veya TF-IDF’nin aksine, kelime gömmeleri genellikle birkaç yüz boyuta sahiptir. Word2Vec gibi modeller, bu temsilleri büyük metinlerde kelime eş-oluşumlarını analiz ederek öğrenir ve anlamsal ilişkileri yakalar (örn. “kral” - “adam” + “kadın” ≈ “kraliçe”). FastText bu fikri alt kelime birimlerine genişleterek, sözlük dışı kelimeler için de gömme oluşturulmasına olanak tanır. Bu yoğun temsiller, çeşitli NLP görevlerinde performansı önemli ölçüde artırır ve ilginç kelime cebiri işlemlerine izin verir. Ancak, her kelimenin bağlamdan bağımsız olarak tek, sabit bir temsili olduğu için çok anlamlılık (bir kelimenin birden fazla anlamı olması) konusunda zorlanırlar.\nGörsel açıklamalar için lütfen bu bağlantıları ziyaret edin: bağlantı1 bağlantı2. İnteraktif görselleştirme için lütfen Embedding Projector sayfasını ziyaret edin.\nFastText için görsel açıklama"
+  },
+  {
+    "objectID": "ders8-TR.html#section-20",
+    "href": "ders8-TR.html#section-20",
+    "title": "NLP - Doğal Dil İşleme",
+    "section": "",
+    "text": "Bağlamsal gömmeler (örn. BERT, GPT):\nBağlamsal gömmeler, bir kelimenin cümle içindeki bağlamına dayalı olarak farklı temsiller üreterek geleneksel kelime gömmelerine göre önemli bir ilerlemeyi temsil eder. BERT (Bidirectional Encoder Representations from Transformers) ve GPT (Generative Pre-trained Transformer) gibi modeller, kelimeler arasındaki karmaşık, çift yönlü ilişkileri yakalamak için derin öğrenme mimarilerini kullanarak tüm cümleleri veya belgeleri aynı anda işler. Bu modeller, büyük miktarda metin verisi üzerinde önceden eğitilir ve belirli görevler için ince ayar yapılabilir. Bağlamsal gömmeler, nüanslı anlamları yakalamada, çok anlamlılığı ele almada ve metindeki uzun mesafeli bağımlılıkları anlamada mükemmeldir. Çeşitli NLP görevlerinde yeni en son teknoloji standartları belirlemişlerdir. Ancak, hesaplama açısından yoğundurlar ve eğitim ve dağıtım için önemli kaynaklar gerektirirler, bu da sınırlı hesaplama gücüne sahip veya gerçek zamanlı gereksinimler olan uygulamalar için zorluklar oluşturur."
   },
   {
     "objectID": "rf-regression-R-tr.html",

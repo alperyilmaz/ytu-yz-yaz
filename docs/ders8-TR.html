@@ -12,7 +12,7 @@
 
   <meta name="author" content="Alper Yılmaz">
   <meta name="dcterms.date" content="2024-08-01">
-  <title>FEF3001 Yapay Zekaya Giriş – NLP - Natural Language Processing</title>
+  <title>FEF3001 Yapay Zekaya Giriş – NLP - Doğal Dil İşleme</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -331,7 +331,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">NLP - Natural Language Processing</h1>
+  <h1 class="title">NLP - Doğal Dil İşleme</h1>
   <p class="subtitle">FEF3001 Yapay zekaya giriş - Ders8</p>
 
 <div class="quarto-title-authors">
@@ -344,212 +344,212 @@ Alper Yılmaz
 
   <p class="date">2024-08-01</p>
 </section>
-<section id="contents" class="slide level2">
-<h2>Contents</h2>
+<section id="içerik" class="slide level2">
+<h2>İçerik</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <ul>
-<li>Definition and why we need NLP</li>
-<li>Common NLP Applications
+<li>NLP’nin tanımı ve neden ihtiyaç duyulduğu</li>
+<li>Yaygın NLP Uygulamaları
 <ul>
-<li>Text summarization</li>
-<li>Sentiment analysis</li>
-<li>Keyword extraction and association</li>
-<li>Document classification</li>
-<li>Named entity recognition</li>
-<li>Machine translation</li>
-<li>Question answering systems</li>
-<li>Chatbots and conversational AI</li>
+<li>Metin özetleme</li>
+<li>Duygu analizi</li>
+<li>Anahtar kelime çıkarımı ve ilişkilendirme</li>
+<li>Belge sınıflandırma</li>
+<li>Varlık ismi tanıma</li>
+<li>Makine çevirisi</li>
+<li>Soru cevaplama sistemleri</li>
+<li>Sohbet robotları</li>
 </ul></li>
 </ul>
 </div><div class="column" style="width:50%;">
 <ul>
-<li>NLP Approaches
+<li>NLP Yaklaşımları
 <ul>
-<li>Term-based approaches</li>
-<li>Dictionary-based approaches</li>
-<li>Corpus-based approaches</li>
-<li>Statistical approaches</li>
-<li>Semantic approaches</li>
-<li>Deep learning approaches</li>
+<li>Terim tabanlı yaklaşımlar</li>
+<li>Sözlük tabanlı yaklaşımlar</li>
+<li>Derlem (Corpus) tabanlı yaklaşımlar</li>
+<li>İstatistiksel yaklaşımlar</li>
+<li>Anlamsal yaklaşımlar</li>
+<li>Derin öğrenme yaklaşımları</li>
 </ul></li>
 </ul>
 </div>
 </div>
 </section>
-<section id="contents-contd" class="slide level2">
-<h2>Contents (cont’d)</h2>
+<section id="içerik-devam" class="slide level2">
+<h2>İçerik (devam)</h2>
 <ul>
-<li>Preprocessing Steps in NLP: Text cleaning and normalization, Tokenization, Stop word removal, Stemming and lemmatization, Part-of-speech (POS) tagging, Syntax analysis and parsing, Named entity recognition</li>
-<li>Feature Extraction and Representation: Bag of Words (BoW) model, Term Frequency-Inverse Document Frequency (TF-IDF), N-gram models, Word embeddings (Word2Vec, FastText), Contextual embeddings (e.g., BERT, GPT)</li>
+<li>NLP’de Ön İşleme Adımları: Metin temizleme ve normalleştirme, Belirteç çıkarma (Tokenization), Durak kelime (Stop words) çıkarma, Kök bulma (Stemming) ve lemmatizasyon, Kelime türü (POS) etiketleme, Sözdizimi analizi ve ayrıştırma, Varlık ismi tanıma</li>
+<li>Özellik Çıkarma ve Temsil: Torba içinde Kelimeler (BoW) modeli, Terim Frekansı-Ters Belge Frekansı (TF-IDF), N-gram modelleri, Kelime gömmeleri (Word2Vec, FastText), Bağlamsal gömmeler (örn. BERT, GPT)</li>
 </ul>
 </section>
-<section id="definition" class="slide level2">
-<h2>Definition</h2>
-<p>Natural Language Processing (NLP) is a branch of artificial intelligence that focuses on the interaction between computers and human language. It combines computational linguistics, machine learning, and deep learning techniques to enable computers to understand, interpret, generate, and respond to human language in a valuable way. NLP aims to bridge the gap between human communication and computer understanding by processing and analyzing large amounts of natural language data. This field encompasses various tasks such as speech recognition, text analysis, language translation, sentiment analysis, and text generation, allowing machines to derive meaning from human languages and respond in a way that is both meaningful and contextually appropriate.</p>
+<section id="tanım" class="slide level2">
+<h2>Tanım</h2>
+<p>Doğal Dil İşleme (NLP), bilgisayarlar ve insan dili arasındaki etkileşime odaklanan bir yapay zeka dalıdır. Bilgisayarların insan dilini anlamlı bir şekilde anlamasını, yorumlamasını, üretmesini ve yanıtlamasını sağlamak için hesaplamalı dilbilim, makine öğrenimi ve derin öğrenme tekniklerini birleştirir. NLP, büyük miktarda doğal dil verisini işleyerek ve analiz ederek insan iletişimi ile bilgisayar anlayışı arasındaki boşluğu kapatmayı amaçlar. Bu alan, konuşma tanıma, metin analizi, dil çevirisi, duygu analizi ve metin üretimi gibi çeşitli görevleri kapsar ve makinelerin insan dillerinden anlam çıkarmasına ve hem anlamlı hem de bağlamsal olarak uygun bir şekilde yanıt vermesine olanak tanır.</p>
 </section>
-<section id="why-nlp" class="slide level2 scrollable">
-<h2>Why NLP?</h2>
-<p>Natural Language Processing (NLP) is crucial because text data is fundamentally different from the structured numerical and categorical data typically used in traditional machine learning tasks. Here’s why NLP is necessary:</p>
+<section id="neden-nlp" class="slide level2 scrollable">
+<h2>Neden NLP?</h2>
+<p>Doğal Dil İşleme (NLP), metin verisinin geleneksel makine öğrenimi görevlerinde tipik olarak kullanılan yapılandırılmış sayısal ve kategorik verilerden temelde farklı olması nedeniyle çok önemlidir. İşte NLP’nin neden gerekli olduğuna dair nedenler:</p>
 <ol type="1">
-<li>Unstructured nature of text: Unlike tabular data where each column represents a specific feature, text is inherently unstructured. A sentence or document doesn’t come with predefined features or categories. This unstructured nature makes it challenging for computers to directly process and analyze text data.</li>
-<li>High dimensionality: Text data can be extremely high-dimensional. In a bag-of-words model, for instance, each unique word in the corpus becomes a feature. This can lead to thousands or even millions of dimensions, far exceeding what’s typically seen in structured data problems.</li>
-<li>Semantic complexity: Words and phrases can have multiple meanings depending on context. For example, “bank” could refer to a financial institution or the side of a river. Traditional ML models aren’t equipped to handle this semantic complexity without NLP techniques.</li>
+<li>Metnin yapılandırılmamış doğası: Her sütunun belirli bir özelliği temsil ettiği tablo verilerinin aksine, metin doğası gereği yapılandırılmamıştır. Bir cümle veya belge önceden tanımlanmış özellikler veya kategorilerle gelmez. Bu yapılandırılmamış doğa, bilgisayarların metin verisini doğrudan işlemesini ve analiz etmesini zorlaştırır.</li>
+<li>Yüksek boyutluluk: Metin verisi son derece yüksek boyutlu olabilir. Örneğin, bir kelime çantası modelinde, derlemdeki her benzersiz kelime bir özellik haline gelir. Bu, yapılandırılmış veri problemlerinde tipik olarak görülenin çok üzerinde binlerce hatta milyonlarca boyuta yol açabilir.</li>
+<li>Anlamsal karmaşıklık: Kelimeler ve ifadeler bağlama bağlı olarak birden fazla anlama sahip olabilir. Örneğin, “banka” bir finansal kurumu veya bir nehrin kenarını ifade edebilir. Geleneksel ML modelleri, NLP teknikleri olmadan bu anlamsal karmaşıklığı ele almak için donanımlı değildir.</li>
 </ol>
 </section>
-<section id="why-nlp-1" class="slide level2 scrollable">
-<h2>Why NLP?</h2>
+<section id="neden-nlp-1" class="slide level2 scrollable">
+<h2>Neden NLP?</h2>
 <ol start="4" type="1">
-<li>Syntactic variability: The same meaning can be expressed in many different ways in natural language. For example, “The cat sat on the mat” and “On the mat sat the cat” convey the same information but have different word orders. ML models need NLP techniques to understand these variations.</li>
-<li>Dealing with noise: Text data often contains “noise” such as spelling errors, informal language, or irrelevant information. NLP provides methods to clean and preprocess this data, making it suitable for analysis.</li>
-<li>Feature extraction: Unlike numerical data where features are explicit, textual features need to be extracted. NLP provides techniques like TF-IDF, word embeddings, and topic modeling to convert text into meaningful numerical representations that ML models can work with.</li>
-<li>Handling sequence information: Many ML models assume independence between features, but in text, the order of words matters. NLP techniques like recurrent neural networks or transformers are designed to capture this sequential information.</li>
+<li>Sözdizimsel değişkenlik: Doğal dilde aynı anlam birçok farklı şekilde ifade edilebilir. Örneğin, “Kedi halının üstünde oturdu” ve “Halının üstünde kedi oturdu” aynı bilgiyi iletir ancak farklı kelime sıralamasına sahiptir. ML modellerinin bu varyasyonları anlaması için NLP tekniklerine ihtiyacı vardır.</li>
+<li>Gürültüyle başa çıkma: Metin verisi genellikle yazım hataları, resmi olmayan dil veya ilgisiz bilgiler gibi “gürültü” içerir. NLP, bu veriyi temizlemek ve ön işlemden geçirmek için yöntemler sağlayarak analiz için uygun hale getirir.</li>
+<li>Özellik çıkarma: Sayısal verilerde özellikler açık olduğu halde, metinsel özelliklerin çıkarılması gerekir. NLP, TF-IDF, kelime gömmeleri ve konu modellemesi gibi metni ML modellerinin çalışabileceği anlamlı sayısal temsillere dönüştürmek için teknikler sağlar.</li>
+<li>Sıra bilgisini ele alma: Birçok ML modeli özellikler arasında bağımsızlık varsayar, ancak metinde kelimelerin sırası önemlidir. Tekrarlayan sinir ağları veya transformatörler gibi NLP teknikleri bu sıralı bilgiyi yakalamak için tasarlanmıştır.</li>
 </ol>
 </section>
-<section id="why-nlp-2" class="slide level2 scrollable">
-<h2>Why NLP?</h2>
+<section id="neden-nlp-2" class="slide level2 scrollable">
+<h2>Neden NLP?</h2>
 <ol start="8" type="1">
-<li>Multilingual challenges: Text data can come in multiple languages, each with its own rules and nuances. NLP provides tools for language detection, translation, and cross-lingual analysis.</li>
-<li>Dealing with context: Understanding text often requires grasping context beyond the immediate words. NLP techniques help in capturing and utilizing this broader context.</li>
+<li>Çok dilli zorluklar: Metin verisi birden fazla dilde gelebilir ve her birinin kendi kuralları ve nüansları vardır. NLP, dil algılama, çeviri ve diller arası analiz için araçlar sağlar.</li>
+<li>Bağlamla başa çıkma: Metni anlamak genellikle doğrudan kelimelerin ötesinde bir bağlamı kavramayı gerektirir. NLP teknikleri bu daha geniş bağlamı yakalamaya ve kullanmaya yardımcı olur.</li>
 </ol>
-<p>In essence, NLP is needed because it provides the necessary tools and techniques to transform the rich, complex, and unstructured nature of human language into a form that computers can process effectively. It bridges the gap between the way humans communicate and the way machines process information, enabling a wide range of applications from sentiment analysis to machine translation, chatbots, and beyond.</p>
+<p>Özünde, NLP, insan dilinin zengin, karmaşık ve yapılandırılmamış doğasını bilgisayarların etkili bir şekilde işleyebileceği bir forma dönüştürmek için gerekli araç ve teknikleri sağladığı için gereklidir. İnsanların iletişim kurma şekli ile makinelerin bilgiyi işleme şekli arasındaki boşluğu kapatarak duygu analizinden makine çevirisine, sohbet robotlarına ve daha ötesine kadar geniş bir uygulama yelpazesini mümkün kılar.</p>
 </section>
-<section id="why-nlp-3" class="slide level2">
-<h2>Why NLP?</h2>
+<section id="neden-nlp-3" class="slide level2">
+<h2>Neden NLP?</h2>
 
 <img data-src="images/robot-reading-book.png" class="r-stretch"></section>
 <section id="section" class="slide level2">
 <h2></h2>
 
-<img data-src="images/structured2structured.png" class="r-stretch"><p><a href="http://medinform.jmir.org/2020/7/e18599/">image source</a></p>
+<img data-src="images/structured2structured.png" class="r-stretch"><p><a href="http://medinform.jmir.org/2020/7/e18599/">görsel kaynağı</a></p>
 </section>
 <section id="section-1" class="slide level2">
 <h2></h2>
 
-<img data-src="images/DataIceberg.webp" class="r-stretch"><p>Also, recordings is a text input after Speech2Text processing</p>
-<p><a href="https://lawtomated.com/structured-data-vs-unstructured-data-what-are-they-and-why-care/">image source</a></p>
+<img data-src="images/DataIceberg.webp" class="r-stretch"><p>Ayrıca, ses kayıtları da Konuşmadan 2Metin işleminden sonra bir metin girişidir</p>
+<p><a href="https://lawtomated.com/structured-data-vs-unstructured-data-what-are-they-and-why-care/">görsel kaynağı</a></p>
 </section>
 <section id="section-2" class="slide level2">
 <h2></h2>
-<h3 id="common-nlp-applications---summarization">Common NLP Applications - Summarization</h3>
+<h3 id="yaygın-nlp-uygulamaları---özetleme">Yaygın NLP Uygulamaları - Özetleme</h3>
 
-<img data-src="images/text-summary.png" class="r-stretch"><p>Text summarization is an NLP application that condenses large volumes of text into brief, coherent summaries. For humans, summarizing involves understanding context, identifying key points, and rephrasing ideas - tasks that come naturally to us. However, for computers, this process is remarkably complex. A computer must analyze the text’s structure, grasp semantic meanings, determine the relative importance of different sentences or concepts, and then generate or extract a coherent summary. This requires sophisticated algorithms to mimic human-like understanding of language, context, and relevance. The challenge lies in teaching machines to distinguish between crucial information and extraneous details, a task that involves not just processing words, but understanding their relationships and significance within the broader context of the document.</p>
+<img data-src="images/text-summary.png" class="r-stretch"><p>Metin özetleme, büyük miktardaki metni kısa ve tutarlı özetlere yoğunlaştıran bir NLP uygulamasıdır. İnsanlar için özetleme, bağlamı anlamayı, ana noktaları belirlemeyi ve fikirleri yeniden ifade etmeyi içerir - bunlar bizim için doğal gelen görevlerdir. Ancak bilgisayarlar için bu süreç oldukça karmaşıktır. Bir bilgisayar metnin yapısını analiz etmeli, anlamsal anlamları kavramalı, farklı cümlelerin veya kavramların göreceli önemini belirlemeliı ve ardından tutarlı bir özet üretmeli veya çıkarmalıdır. Bu, dil, bağlam ve ilgililik konusunda insan benzeri bir anlayışı taklit etmek için sofistike algoritmalar gerektirir. Zorluk, makinelere sadece kelimeleri işlemekle kalmayıp, daha geniş belge bağlamı içindeki ilişkilerini ve önemlerini anlamayı öğretmektedir.</p>
 <div class="footer" style="text-align: center;">
-<p><a href="https://www.linkedin.com/pulse/text-summarization-emerging-nlp-technique-your-business-requirements-">image source</a></p>
+<p><a href="https://www.linkedin.com/pulse/text-summarization-emerging-nlp-technique-your-business-requirements-">görsel kaynağı</a></p>
 </div>
 </section>
 <section id="section-3" class="slide level2">
 <h2></h2>
-<h3 id="common-nlp-applications---sentiment-analysis">Common NLP Applications - Sentiment Analysis</h3>
-<p>Sentiment analysis is an NLP technique that aims to determine the emotional tone behind a piece of text. While humans can often intuitively sense the sentiment in a statement, for computers, this task is surprisingly complex. A computer must go beyond simple keyword matching to grasp the overall emotional context. For instance, the phrase “This movie is sick!” could be positive or negative depending on the context and speaker.</p>
-<p>Please visit <a href="https://hedonometer.org">https://hedonometer.org</a> which tracks happiness in US using Twitter/X</p>
+<h3 id="yaygın-nlp-uygulamaları---duygu-analizi">Yaygın NLP Uygulamaları - Duygu Analizi</h3>
+<p>Duygu analizi, bir metin parçasının arkasındaki duygusal tonu belirlemeyi amaçlayan bir NLP tekniğidir. İnsanlar genellikle bir ifadedeki duyguyu sezgisel olarak algılayabilirken, bilgisayarlar için bu görev şaşırtıcı derecede karmaşıktır. Bir bilgisayar, genel duygusal bağlamı kavramak için basit anahtar kelime eşleştirmesinin ötesine geçmelidir. Örneğin, “Bu film müthiş!” ifadesi, bağlama ve konuşmacıya bağlı olarak olumlu veya olumsuz olabilir.</p>
+<p>Lütfen Twitter/X kullanarak ABD’deki mutluluğu takip eden <a href="https://hedonometer.org">https://hedonometer.org</a> adresini ziyaret edin.</p>
 </section>
 <section id="section-4" class="slide level2">
 <h2></h2>
-<h3 id="common-nlp-applications---named-entity-recognition">Common NLP Applications - Named Entity Recognition</h3>
+<h3 id="yaygın-nlp-uygulamaları---varlık-ismi-tanıma">Yaygın NLP Uygulamaları - Varlık İsmi Tanıma</h3>
 
-<img data-src="images/named-entitiy.webp" class="r-stretch"><p>is an NLP technique that seeks to locate and classify named entities in text into predefined categories such as person names, organizations, locations, medical codes, time expressions, quantities, monetary values, percentages, etc. While humans can easily identify and categorize these entities in text, for computers, this task presents great challenges.</p>
-<p>Please visit <a href="https://www.geeksforgeeks.org/named-entity-recognition/">Geeks4Geeks Named Entity Recognition</a> for demonstration.</p>
+<img data-src="images/named-entitiy.webp" class="r-stretch"><p>Metindeki adlandırılmış varlıkları bulmayı ve bunları kişi adları, kuruluşlar, konumlar, tıbbi kodlar, zaman ifadeleri, miktarlar, parasal değerler, yüzdeler vb. önceden tanımlanmış kategorilere sınıflandırmayı amaçlayan bir NLP tekniğidir. İnsanlar metindeki bu varlıkları kolayca tanımlayıp kategorize edebilirken, bilgisayarlar için bu görev büyük zorluklar sunar.</p>
+<p>Gösterim için lütfen <a href="https://www.geeksforgeeks.org/named-entity-recognition/">Geeks4Geeks Varlık İsmi Tanıma</a> adresini ziyaret edin.</p>
 </section>
-<section id="nlp-approaches---term-based" class="slide level2">
-<h2>NLP Approaches - Term based</h2>
-<p>Term-based approaches in NLP represent one of the fundamental methods for processing and analyzing text data. These approaches treat individual words or terms as the basic units of analysis. The core idea is to represent documents as collections of terms, often disregarding grammar and word order but keeping multiplicity. A common implementation is the “bag-of-words” model, where each document is represented as a vector of term frequencies. While simple, this method can be surprisingly effective for many tasks like document classification or information retrieval. However, term-based approaches face challenges with synonymy (different words with the same meaning) and polysemy (same word with multiple meanings). They also struggle to capture context and relationships between words. Despite these limitations, term-based methods serve as a foundation for more advanced NLP techniques and remain relevant in many applications due to their computational efficiency and interpretability</p>
+<section id="nlp-yaklaşımları---terim-tabanlı" class="slide level2">
+<h2>NLP Yaklaşımları - Terim tabanlı</h2>
+<p>NLP’deki terim tabanlı yaklaşımlar, metin verisini işlemek ve analiz etmek için temel yöntemlerden birini temsil eder. Bu yaklaşımlar, bireysel kelimeleri veya terimleri analizin temel birimleri olarak ele alır. Temel fikir, belgeleri terimler koleksiyonu olarak temsil etmektir, genellikle dilbilgisi ve kelime sırasını göz ardı ederek ancak çokluğu koruyarak. Yaygın bir uygulama, her belgenin terim frekansları vektörü olarak temsil edildiği “kelime çantası” modelidir. Basit olmasına rağmen, bu yöntem belge sınıflandırma veya bilgi alma gibi birçok görev için şaşırtıcı derecede etkili olabilir. Ancak, terim tabanlı yaklaşımlar eşanlamlılık (aynı anlamlı farklı kelimeler) ve çok anlamlılık (birden çok anlamı olan aynı kelime) ile zorluklarla karşılaşır. Ayrıca bağlamı ve kelimeler arasındaki ilişkileri yakalamakta zorlanırlar. Bu sınırlamalara rağmen, terim tabanlı yöntemler daha gelişmiş NLP teknikleri için bir temel oluşturur ve hesaplama verimliliği ve yorumlanabilirliği nedeniyle birçok uygulamada ilgili kalmaya devam eder.</p>
 </section>
 <section id="section-5" class="slide level2">
 <h2></h2>
 
-<img data-src="images/disadvantage-bow-1024x650.webp" class="r-stretch"><p><a href="https://aiml.com/what-are-the-advantages-and-disadvantages-of-bag-of-words-model/">image source</a></p>
+<img data-src="images/disadvantage-bow-1024x650.webp" class="r-stretch"><p><a href="https://aiml.com/what-are-the-advantages-and-disadvantages-of-bag-of-words-model/">görsel kaynağı</a></p>
 </section>
-<section id="nlp-approaches---dictionary-based" class="slide level2">
-<h2>NLP Approaches - Dictionary based</h2>
-<p>Dictionary-based approaches in NLP rely on pre-existing lexical resources, such as dictionaries, thesauri, or ontologies, to process and analyze text. These methods leverage human-curated knowledge bases to understand and interpret language. In essence, they attempt to mimic how humans use dictionaries to comprehend unfamiliar words or concepts. For instance, in sentiment analysis, a dictionary-based approach might use a lexicon of words labeled with their associated sentiments.</p>
+<section id="nlp-yaklaşımları---sözlük-tabanlı" class="slide level2">
+<h2>NLP Yaklaşımları - Sözlük Tabanlı</h2>
+<p>NLP’de sözlük tabanlı yaklaşımlar, metni işlemek ve analiz etmek için sözlükler, eşanlamlılar sözlüğü veya ontolojiler gibi önceden var olan sözcüksel kaynakları kullanır. Bu yöntemler, dili anlamak ve yorumlamak için insan tarafından oluşturulmuş bilgi tabanlarından yararlanır. Özünde, insanların bilinmeyen kelimeleri veya kavramları anlamak için sözlükleri nasıl kullandığını taklit etmeye çalışırlar. Örneğin, duygu analizinde sözlük tabanlı bir yaklaşım, ilişkili duyguları ile etiketlenmiş kelimelerin bir sözlüğünü kullanabilir.</p>
 </section>
 <section id="section-6" class="slide level2">
 <h2></h2>
 
-<img data-src="images/dict-based-nlp.jpg" class="r-stretch"><p><a href="https://www.researchgate.net/publication/283954600_Sentiment_Analysis_An_Overview_from_Linguistics">image source</a></p>
+<img data-src="images/dict-based-nlp.jpg" class="r-stretch"><p><a href="https://www.researchgate.net/publication/283954600_Sentiment_Analysis_An_Overview_from_Linguistics">görsel kaynağı</a></p>
 </section>
-<section id="nlp-approaches---corpus-based" class="slide level2">
-<h2>NLP Approaches - Corpus based</h2>
-<p>Corpus-based approaches in NLP rely on large collections of text data, known as corpora, to derive linguistic knowledge and patterns. Unlike dictionary-based methods that depend on pre-existing knowledge bases, corpus-based approaches learn from real-world language usage. These methods use statistical techniques to analyze how words and phrases are used in context across vast amounts of text. For example, word embeddings like Word2Vec or GloVe use neural networks to learn vector representations of words based on their co-occurrence patterns in large corpora.</p>
-<p>Corpus-based methods excel at capturing nuances in language use, handling ambiguity, and adapting to different domains or languages. They’re particularly powerful for tasks like language modeling, machine translation, and text generation.</p>
+<section id="nlp-yaklaşımları---derlemcorpus-tabanlı" class="slide level2">
+<h2>NLP Yaklaşımları - Derlem/Corpus Tabanlı</h2>
+<p>NLP’de derlem tabanlı yaklaşımlar, dilbilimsel bilgi ve kalıpları türetmek için derlem olarak bilinen büyük metin veri koleksiyonlarına dayanır. Önceden var olan bilgi tabanlarına bağlı olan sözlük tabanlı yöntemlerin aksine, derlem tabanlı yaklaşımlar gerçek dünya dil kullanımından öğrenir. Bu yöntemler, kelimelerin ve ifadelerin geniş miktardaki metin içinde bağlam içinde nasıl kullanıldığını analiz etmek için istatistiksel teknikler kullanır. Örneğin, Word2Vec veya GloVe gibi kelime gömmeleri, büyük derlemlerdeki eş-oluşum kalıplarına dayalı olarak kelimelerin vektör temsillerini öğrenmek için sinir ağlarını kullanır.</p>
+<p>Derlem tabanlı yöntemler, dil kullanımındaki nüansları yakalamada, belirsizliği ele almada ve farklı alanlara veya dillere uyum sağlamada öne çıkar. Dil modelleme, makine çevirisi ve metin üretimi gibi görevler için özellikle güçlüdürler.</p>
 </section>
-<section id="nlp-approaches---semantic-based" class="slide level2">
-<h2>NLP Approaches - Semantic based</h2>
-<p>Semantic approaches in NLP focus on understanding the meaning of language, rather than just its structure or statistical patterns. These methods aim to capture and represent the underlying concepts and relationships in text, mirroring human comprehension. Semantic approaches often utilize knowledge graphs, ontologies, or semantic networks to model relationships between concepts. For example, in a biomedical context, a semantic approach might understand that “aspirin” is a type of “pain reliever” which “treats” “headaches”. These methods can handle complex queries, infer new knowledge, and understand context-dependent meanings.</p>
+<section id="nlp-yaklaşımları---anlamsal-semantic-yaklaşım" class="slide level2">
+<h2>NLP Yaklaşımları - Anlamsal (Semantic) Yaklaşım</h2>
+<p>NLP’de anlambilim yaklaşımları, dilin sadece yapısını veya istatistiksel kalıplarını değil, anlamını anlamaya odaklanır. Bu yöntemler, insan kavrayışını yansıtarak metindeki altta yatan kavramları ve ilişkileri yakalamayı ve temsil etmeyi amaçlar. Anlambilim yaklaşımları genellikle kavramlar arasındaki ilişkileri modellemek için bilgi grafikleri, ontolojiler veya anlamsal ağları kullanır. Örneğin, biyomedikal bir bağlamda, anlambilim yaklaşımı “aspirinin” bir tür “ağrı kesici” olduğunu ve “baş ağrılarını” “tedavi ettiğini” anlayabilir. Bu yöntemler karmaşık sorguları ele alabilir, yeni bilgiler çıkarabilir ve bağlama bağlı anlamları anlayabilir.</p>
 </section>
-<section id="nlp-preprocessing-steps" class="slide level2">
-<h2>NLP Preprocessing steps</h2>
-<h3 id="text-cleaning-and-normalization">Text cleaning and normalization:</h3>
-<p>This initial step involves preparing raw text data for analysis by removing or standardizing elements that could interfere with processing. It typically includes tasks like converting text to lowercase to ensure consistency, removing special characters or punctuation that aren’t relevant to the analysis, and handling formatting issues. For instance, in social media text, it might involve expanding contractions (e.g., “don’t” to “do not”), correcting common misspellings, or converting emojis to text descriptions. The goal is to create a standardized, “clean” version of the text that retains its essential meaning while reducing noise and variations that could complicate analysis.</p>
+<section id="nlp-ön-işleme-adımları" class="slide level2">
+<h2>NLP Ön İşleme Adımları</h2>
+<h3 id="metin-temizleme-ve-normalleştirme">Metin temizleme ve normalleştirme:</h3>
+<p>Bu ilk adım, işlemeyi engelleyebilecek öğeleri kaldırarak veya standartlaştırarak ham metin verisini analize hazırlamayı içerir. Genellikle tutarlılığı sağlamak için metni küçük harfe dönüştürme, analizle ilgisi olmayan özel karakterleri veya noktalama işaretlerini kaldırma ve biçimlendirme sorunlarını ele alma gibi görevleri içerir. Örneğin, sosyal medya metninde, kısaltmaları genişletme (örn. “değil” yerine “değil”), yaygın yazım hatalarını düzeltme veya emojileri metin açıklamalarına dönüştürme işlemlerini içerebilir. Amaç, temel anlamını korurken analizi karmaşıklaştırabilecek gürültüyü ve varyasyonları azaltan standartlaştırılmış, “temiz” bir metin versiyonu oluşturmaktır.</p>
 </section>
 <section id="section-7" class="slide level2">
 <h2></h2>
-<h3 id="tokenization">Tokenization</h3>
-<p>Tokenization is the process of breaking down text into smaller units called tokens, typically words or subwords. While it might seem straightforward, tokenization can be complex due to language-specific challenges. For example, in English, we might split on whitespace and punctuation, but this approach fails for languages like Chinese that don’t use spaces between words. Tokenization also involves decisions about how to handle contractions, hyphenated words, or multi-word expressions. The choice of tokenization method can significantly impact downstream NLP tasks, as it defines the basic units of meaning that the model will work with.</p>
+<h3 id="belirteçlere-ayırma-tokenization">Belirteçlere Ayırma (Tokenization)</h3>
+<p>Belirteçlere ayırma, metni genellikle kelimeler veya alt kelimeler olarak adlandırılan daha küçük birimlere (belirteçlere) ayırma işlemidir. Basit görünse de, dile özgü zorluklar nedeniyle karmaşık olabilir. Örneğin, İngilizcede boşluk ve noktalama işaretlerinden ayırabiliriz, ancak bu yaklaşım kelimeler arasında boşluk kullanmayan Çince gibi diller için başarısız olur. Belirteçlere ayırma ayrıca kısaltmalar, kısa çizgi ile birleştirilmiş kelimeler veya çok kelimeli ifadelerin nasıl ele alınacağı konusunda kararlar içerir. Belirteçlere ayırma yöntemi seçimi, modelin çalışacağı temel anlam birimlerini tanımladığı için sonraki NLP görevlerini önemli ölçüde etkileyebilir.</p>
 </section>
 <section id="section-8" class="slide level2">
 <h2></h2>
-<h3 id="stop-word-removal">Stop word removal</h3>
-<p>Stop words are common words (like “the”, “is”, “at”, “which”) that are usually filtered out from text processing because they typically don’t carry significant meaning on their own. Removing them can help reduce noise in the data and focus the analysis on the more meaningful content words. However, the definition of what constitutes a stop word can vary depending on the specific application or domain. For instance, in sentiment analysis, words like “not” that are often considered stop words can be crucial for understanding the meaning. Therefore, while stop word removal can improve efficiency and reduce noise, it requires careful consideration of the specific NLP task at hand.</p>
+<h3 id="durak-kelime-çıkarma">Durak kelime çıkarma</h3>
+<p>Durak kelimeler, genellikle kendi başlarına önemli bir anlam taşımadıkları için metin işlemeden filtrelenen yaygın kelimelerdir (örneğin “ve”, “veya”, “ama”, “ki” gibi). Bunları çıkarmak, verideki gürültüyü azaltmaya ve analizi daha anlamlı içerik kelimelerine odaklamaya yardımcı olabilir. Ancak, neyin durak kelime oluşturduğunun tanımı, belirli uygulamaya veya alana bağlı olarak değişebilir. Örneğin, duygu analizinde genellikle durak kelime olarak kabul edilen “değil” gibi kelimeler anlamı anlamak için çok önemli olabilir. Bu nedenle, durak kelime çıkarma verimliliği artırabilir ve gürültüyü azaltabilir, ancak belirli NLP görevinin dikkatli bir şekilde değerlendirilmesini gerektirir.</p>
 </section>
 <section id="section-9" class="slide level2">
 <h2></h2>
-<h3 id="stemming-and-lemmatization">Stemming and lemmatization</h3>
-<p>These techniques aim to reduce words to their base or dictionary form, which helps in treating different word forms as a single item. Stemming is a crude heuristic process that chops off the ends of words, often resulting in non-words (e.g., “running” becomes “run”, but “universe” becomes “univers”). Lemmatization, on the other hand, uses vocabulary and morphological analysis to return the dictionary form of a word (e.g., “running” becomes “run”, “am” becomes “be”). While stemming is faster and simpler, lemmatization provides more accurate results. The choice between them depends on the specific requirements of the NLP task, balancing between processing speed and linguistic accuracy.</p>
+<h3 id="kök-bulma-stemming-ve-gövde-bulma-lemmatization">Kök bulma (Stemming) ve Gövde bulma (Lemmatization)</h3>
+<p>Bu teknikler, kelimeleri temel veya sözlük formuna indirgemeyi amaçlar, bu da farklı kelime formlarını tek bir öğe olarak ele almaya yardımcı olur. Kök bulma, kelimelerin sonlarını kesen kaba bir sezgisel süreçtir ve genellikle kelime olmayan sonuçlar verir (örn. “koşuyor” “koş” olur, ancak “evren” “evr” olur). Öte yandan, gövde bulma, bir kelimenin sözlük formunu döndürmek için kelime dağarcığı ve morfolojik analiz kullanır (örn. “koşuyor” “koşmak” olur, “am” “olmak” olur). Kök bulma daha hızlı ve basit olsa da, gövde bulma daha doğru sonuçlar sağlar. Aralarındaki seçim, işlem hızı ile dilbilimsel doğruluk arasında denge kurarak belirli NLP görevinin gereksinimlerine bağlıdır.</p>
 </section>
 <section id="section-10" class="slide level2">
 <h2></h2>
 
-<img data-src="images/stem-lemma.webp" class="r-stretch"><p><a href="https://nirajbhoi.medium.com/stemming-vs-lemmatization-in-nlp-efc280d4e845">image source</a></p>
+<img data-src="images/stem-lemma.webp" class="r-stretch"><p><a href="https://nirajbhoi.medium.com/stemming-vs-lemmatization-in-nlp-efc280d4e845">görsel kaynağı</a></p>
 </section>
 <section id="section-11" class="slide level2">
 <h2></h2>
 
-<img data-src="images/stemmin_lemm_ex-1.png" class="r-stretch"><p><a href="https://studymachinelearning.com/stemming-and-lemmatization/">image source</a></p>
+<img data-src="images/stemmin_lemm_ex-1.png" class="r-stretch"><p><a href="https://studymachinelearning.com/stemming-and-lemmatization/">görsel kaynağı</a></p>
 </section>
 <section id="section-12" class="slide level2">
 <h2></h2>
-<h3 id="part-of-speech-pos-tagging">Part-of-speech (POS) tagging</h3>
-<p>POS tagging involves labeling each word in a text with its appropriate part of speech (noun, verb, adjective, etc.), based on both its definition and context. This process is crucial for understanding the grammatical structure of sentences and can significantly aid in tasks like named entity recognition or syntactic parsing. Modern POS taggers often use machine learning models trained on large annotated corpora and can achieve high accuracy. However, they can still face challenges with ambiguous words (e.g., “record” can be a noun or a verb) or in handling domain-specific language where words might be used in unconventional ways.</p>
+<h3 id="konuşma-bölümü-pos-etiketleme">Konuşma bölümü (POS) etiketleme</h3>
+<p>POS (Point of Speech) etiketleme, bir metindeki her kelimeyi hem tanımına hem de bağlamına dayalı olarak uygun konuşma bölümü (isim, fiil, sıfat vb.) ile etiketlemeyi içerir. Bu süreç, cümlelerin dilbilgisel yapısını anlamak için çok önemlidir ve adlandırılmış varlık tanıma veya sözdizimsel ayrıştırma gibi görevlerde önemli ölçüde yardımcı olabilir. Modern POS etiketleyiciler genellikle büyük açıklamalı derlemler üzerinde eğitilmiş makine öğrenimi modellerini kullanır ve yüksek doğruluk elde edebilir. Ancak, belirsiz kelimelerle (örn. “kayıt” bir isim veya fiil olabilir) veya kelimelerin alışılmadık şekillerde kullanıldığı alan spesifik dili ele almada hala zorluklarla karşılaşabilirler.</p>
 </section>
 <section id="section-13" class="slide level2">
 <h2></h2>
 
-<img data-src="images/2022_12_POS-Tagging.jpg" class="r-stretch"><p><a href="https://www.shiksha.com/online-courses/articles/pos-tagging-in-nlp/">image source</a></p>
+<img data-src="images/2022_12_POS-Tagging.jpg" class="r-stretch"><p><a href="https://www.shiksha.com/online-courses/articles/pos-tagging-in-nlp/">görsel kaynağı</a></p>
 </section>
 <section id="section-14" class="slide level2">
 <h2></h2>
 <table>
 <thead>
 <tr class="header">
-<th><strong>Part Of Speech</strong></th>
-<th><strong>Tag</strong></th>
+<th><strong>Konuşma Bölümü</strong></th>
+<th><strong>Etiket</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Noun (Singular)</td>
+<td>İsim (Tekil)</td>
 <td>NN</td>
 </tr>
 <tr class="even">
-<td>Noun (Plural)</td>
+<td>İsim (Çoğul)</td>
 <td>NNS</td>
 </tr>
 <tr class="odd">
-<td>Verb</td>
+<td>Fiil</td>
 <td>VB</td>
 </tr>
 <tr class="even">
-<td>Determiner</td>
+<td>Belirleyici</td>
 <td>DT</td>
 </tr>
 <tr class="odd">
-<td>Adjective</td>
+<td>Sıfat</td>
 <td>JJ</td>
 </tr>
 <tr class="even">
-<td>Adverb</td>
+<td>Zarf</td>
 <td>RB</td>
 </tr>
 </tbody>
@@ -557,41 +557,41 @@ Alper Yılmaz
 </section>
 <section id="section-15" class="slide level2">
 <h2></h2>
-<h3 id="syntax-analysis-and-parsing">Syntax analysis and parsing</h3>
-<p>This technique involves analyzing the grammatical structure of sentences to understand how words relate to each other. It typically produces a parse tree or dependency graph representing the sentence structure. There are two main approaches: constituency parsing, which breaks sentences into nested constituents (phrases), and dependency parsing, which identifies grammatical relationships between individual words. Parsing is crucial for tasks that require understanding sentence structure, like machine translation or question answering. However, it can be computationally intensive and faces challenges with ambiguous sentences or non-standard language use.</p>
-<p>Please visit the following links: <a href="https://www.geeksforgeeks.org/syntax-tree-natural-language-processing/">link1</a></p>
+<h3 id="sözdizimi-analizi-ve-ayrıştırma">Sözdizimi analizi ve ayrıştırma</h3>
+<p>Bu teknik, kelimelerin birbirleriyle nasıl ilişkili olduğunu anlamak için cümlelerin dilbilgisel yapısını analiz etmeyi içerir. Genellikle cümle yapısını temsil eden bir ayrıştırma ağacı veya bağımlılık grafiği üretir. İki ana yaklaşım vardır: cümleleri iç içe geçmiş bileşenlere (öbekler) bölen bileşen ayrıştırma ve bireysel kelimeler arasındaki dilbilgisel ilişkileri tanımlayan bağımlılık ayrıştırma. Ayrıştırma, makine çevirisi veya soru cevaplama gibi cümle yapısını anlamayı gerektiren görevler için çok önemlidir. Ancak, hesaplama açısından yoğun olabilir ve belirsiz cümleler veya standart olmayan dil kullanımı ile zorluklarla karşılaşabilir.</p>
+<p>Lütfen şu bağlantıları ziyaret edin: <a href="https://www.geeksforgeeks.org/syntax-tree-natural-language-processing/">bağlantı1</a></p>
 </section>
-<section id="feature-extraction-and-representation-techniques-in-nlp" class="slide level2">
-<h2>Feature Extraction and Representation Techniques in NLP</h2>
+<section id="nlpde-özellik-çıkarma-ve-temsil-teknikleri" class="slide level2">
+<h2>NLP’de Özellik Çıkarma ve Temsil Teknikleri</h2>
 </section>
 <section id="section-16" class="slide level2">
 <h2></h2>
-<h3 id="bag-of-words-bow-model">Bag of Words (BoW) model:</h3>
-<p>The Bag of Words model is a simple yet effective method for representing text as numerical features. It creates a vocabulary of all unique words in the corpus and represents each document as a vector of word frequencies. The order of words is disregarded, hence the name “bag”. While BoW is computationally efficient and easy to understand, it loses all information about word order and context. It also struggles with out-of-vocabulary words and can result in very high-dimensional, sparse vectors for large vocabularies. Despite these limitations, BoW remains useful for many text classification tasks and serves as a foundation for more advanced techniques.</p>
+<h3 id="torba-içinde-kelimeler-bow-modeli">Torba içinde Kelimeler (BoW) modeli:</h3>
+<p>Kelime Çantası modeli, metni sayısal özellikler olarak temsil etmek için basit ancak etkili bir yöntemdir. Derleme içindeki tüm benzersiz kelimelerden bir kelime dağarcığı oluşturur ve her belgeyi kelime frekanslarının bir vektörü olarak temsil eder. Kelimelerin sırası dikkate alınmaz, bu yüzden “çanta” adı verilir. BoW hesaplama açısından verimli ve anlaşılması kolay olsa da, kelime sırası ve bağlam hakkındaki tüm bilgileri kaybeder. Ayrıca, kelime dağarcığı dışındaki kelimelerle mücadele eder ve büyük kelime dağarcıkları için çok yüksek boyutlu, seyrek vektörlerle sonuçlanabilir. Bu sınırlamalara rağmen, BoW birçok metin sınıflandırma görevi için faydalı olmaya devam eder ve daha gelişmiş teknikler için bir temel oluşturur.</p>
 </section>
 <section id="section-17" class="slide level2">
 <h2></h2>
-<h3 id="term-frequency-inverse-document-frequency-tf-idf">Term Frequency-Inverse Document Frequency (TF-IDF):</h3>
-<p>TF-IDF is a statistical measure used to evaluate the importance of a word in a document within a collection or corpus. It combines two metrics: Term Frequency (how often a word appears in a document) and Inverse Document Frequency (how rare the word is across all documents). The idea is that words frequently occurring in a document but rare in the overall corpus are likely more important for that document. TF-IDF helps to reduce the impact of common words that appear frequently across all documents but carry little meaning. This method provides a more nuanced representation than simple word counts, making it valuable for tasks like information retrieval and document ranking.</p>
-<p>Please visit <a href="https://medium.com/@er.iit.pradeep09/understanding-tf-idf-in-nlp-a-comprehensive-guide-26707db0cec5">this link</a> for demonstration.</p>
+<h3 id="terim-frekansı-ters-belge-frekansı-tf-idf">Terim Frekansı-Ters Belge Frekansı (TF-IDF):</h3>
+<p>TF-IDF, bir koleksiyon veya derlem içindeki bir belgede bir kelimenin önemini değerlendirmek için kullanılan istatistiksel bir ölçüdür. İki metriği birleştirir: Terim Frekansı (bir kelimenin bir belgede ne sıklıkta göründüğü) ve Ters Belge Frekansı (kelimenin tüm belgeler arasında ne kadar nadir olduğu). Fikir, bir belgede sık sık geçen ancak genel derlemde nadir olan kelimelerin muhtemelen o belge için daha önemli olduğudur. TF-IDF, tüm belgelerde sık sık görünen ancak az anlam taşıyan yaygın kelimelerin etkisini azaltmaya yardımcı olur. Bu yöntem, basit kelime sayımlarından daha nüanslı bir temsil sağlayarak bilgi alma ve belge sıralama gibi görevler için değerli hale getirir.</p>
+<p>Lütfen gösterim için <a href="https://medium.com/@er.iit.pradeep09/understanding-tf-idf-in-nlp-a-comprehensive-guide-26707db0cec5">bu bağlantıyı</a> ziyaret edin.</p>
 </section>
 <section id="section-18" class="slide level2">
 <h2></h2>
-<h3 id="n-gram-models">N-gram models:</h3>
-<p>N-gram models extend the idea of BoW by considering sequences of N adjacent words, rather than individual words in isolation. For example, a bigram (2-gram) model would consider pairs of adjacent words, while a trigram (3-gram) model would look at sequences of three words. N-grams capture some local context and word order information, which can be crucial for tasks like language modeling or machine translation. However, as N increases, the model’s complexity and data sparsity issues also increase. N-gram models strike a balance between the simplicity of BoW and the need to capture word relationships, making them useful in various NLP applications.</p>
-<p>Please visit these links for visual explanation: <a href="https://www.kdnuggets.com/2022/06/ngram-language-modeling-natural-language-processing.html">link1</a> <a href="https://www.depends-on-the-definition.com/introduction-n-gram-language-models/">link2</a> <a href="https://studymachinelearning.com/an-introduction-to-n-grams/">link3</a></p>
+<h3 id="n-gram-modelleri">N-gram modelleri:</h3>
+<p>N-gram modelleri, BoW (Bag of Words) fikrinin bir uzantısı olarak, tek tek kelimeleri izole olarak ele almak yerine, N bitişik kelimeden oluşan dizileri dikkate alır. Örneğin, bir bigram (2-gram) modeli bitişik kelime çiftlerini ele alırken, bir trigram (3-gram) modeli üç kelimelik dizileri inceler. N-gramlar, dil modelleme veya makine çevirisi gibi görevler için çok önemli olabilen bazı yerel bağlam ve kelime sırası bilgilerini yakalar. Ancak, N arttıkça, modelin karmaşıklığı ve veri seyrekliği sorunları da artar. N-gram modelleri, BoW’un basitliği ile kelime ilişkilerini yakalama ihtiyacı arasında bir denge kurar ve bu da onları çeşitli NLP uygulamalarında kullanışlı kılar.</p>
+<p>Görsel açıklama için lütfen bu bağlantıları ziyaret edin: <a href="https://www.kdnuggets.com/2022/06/ngram-language-modeling-natural-language-processing.html">bağlantı1</a> <a href="https://www.depends-on-the-definition.com/introduction-n-gram-language-models/">bağlantı2</a> <a href="https://studymachinelearning.com/an-introduction-to-n-grams/">bağlantı3</a></p>
 </section>
 <section id="section-19" class="slide level2">
 <h2></h2>
-<h3 id="word-embeddings-word2vec-glove-fasttext">Word embeddings (Word2Vec, GloVe, FastText):</h3>
-<p>Word embeddings are dense vector representations of words in a continuous vector space, where semantically similar words are mapped to nearby points. Unlike BoW or TF-IDF, which produce sparse, high-dimensional vectors, word embeddings typically have a few hundred dimensions. Models like Word2Vec learn these representations by analyzing word co-occurrences in large corpora, capturing semantic relationships (e.g., “king” - “man” + “woman” ≈ “queen”). FastText extends this idea to subword units, allowing it to generate embeddings for out-of-vocabulary words. These dense representations significantly improve performance on various NLP tasks and allow for interesting word algebra. However, they struggle with polysemy (words with multiple meanings) as each word has a single, fixed representation regardless of context.</p>
-<p>Please visit these links for visual explanations: <a href="https://www.scaler.com/topics/nlp/word2vec/">link1</a> <a href="https://aegis4048.github.io/demystifying_neural_network_in_skip_gram_language_modeling">link2</a>. Please visit <a href="">Embedding Projector</a> for interactive visualization.</p>
-<p>Visual explanation for <a href="https://kavita-ganesan.com/fasttext-vs-word2vec/">FastText</a></p>
+<h3 id="kelime-gömmeleriembeddings-word2vec-glove-fasttext">Kelime gömmeleri/embeddings (Word2Vec, GloVe, FastText):</h3>
+<p>Kelime gömmeleri, anlamsal olarak benzer kelimelerin yakın noktalara eşlendiği sürekli bir vektör uzayında kelimelerin yoğun vektör temsilleridir. Seyrek, yüksek boyutlu vektörler üreten BoW veya TF-IDF’nin aksine, kelime gömmeleri genellikle birkaç yüz boyuta sahiptir. Word2Vec gibi modeller, bu temsilleri büyük metinlerde kelime eş-oluşumlarını analiz ederek öğrenir ve anlamsal ilişkileri yakalar (örn. “kral” - “adam” + “kadın” ≈ “kraliçe”). FastText bu fikri alt kelime birimlerine genişleterek, sözlük dışı kelimeler için de gömme oluşturulmasına olanak tanır. Bu yoğun temsiller, çeşitli NLP görevlerinde performansı önemli ölçüde artırır ve ilginç kelime cebiri işlemlerine izin verir. Ancak, her kelimenin bağlamdan bağımsız olarak tek, sabit bir temsili olduğu için çok anlamlılık (bir kelimenin birden fazla anlamı olması) konusunda zorlanırlar.</p>
+<p>Görsel açıklamalar için lütfen bu bağlantıları ziyaret edin: <a href="https://www.scaler.com/topics/nlp/word2vec/">bağlantı1</a> <a href="https://aegis4048.github.io/demystifying_neural_network_in_skip_gram_language_modeling">bağlantı2</a>. İnteraktif görselleştirme için lütfen <a href="">Embedding Projector</a> sayfasını ziyaret edin.</p>
+<p><a href="https://kavita-ganesan.com/fasttext-vs-word2vec/">FastText</a> için görsel açıklama</p>
 </section>
 <section id="section-20" class="slide level2">
 <h2></h2>
-<h3 id="contextual-embeddings-e.g.-bert-gpt">Contextual embeddings (e.g., BERT, GPT):</h3>
-<p>Contextual embeddings represent a significant advancement over traditional word embeddings by generating different representations for a word based on its context in a sentence. Models like BERT (Bidirectional Encoder Representations from Transformers) and GPT (Generative Pre-trained Transformer) use deep learning architectures to process entire sentences or documents simultaneously, capturing complex, bidirectional relationships between words. These models are pre-trained on vast amounts of text data and can be fine-tuned for specific tasks. Contextual embeddings excel at capturing nuanced meanings, handling polysemy, and understanding long-range dependencies in text. They have set new state-of-the-art benchmarks on various NLP tasks. However, they are computationally intensive and require significant resources to train and deploy, presenting challenges for applications with limited computational power or real-time requirements.</p>
+<h3 id="bağlamsal-gömmeler-örn.-bert-gpt">Bağlamsal gömmeler (örn. BERT, GPT):</h3>
+<p>Bağlamsal gömmeler, bir kelimenin cümle içindeki bağlamına dayalı olarak farklı temsiller üreterek geleneksel kelime gömmelerine göre önemli bir ilerlemeyi temsil eder. BERT (Bidirectional Encoder Representations from Transformers) ve GPT (Generative Pre-trained Transformer) gibi modeller, kelimeler arasındaki karmaşık, çift yönlü ilişkileri yakalamak için derin öğrenme mimarilerini kullanarak tüm cümleleri veya belgeleri aynı anda işler. Bu modeller, büyük miktarda metin verisi üzerinde önceden eğitilir ve belirli görevler için ince ayar yapılabilir. Bağlamsal gömmeler, nüanslı anlamları yakalamada, çok anlamlılığı ele almada ve metindeki uzun mesafeli bağımlılıkları anlamada mükemmeldir. Çeşitli NLP görevlerinde yeni en son teknoloji standartları belirlemişlerdir. Ancak, hesaplama açısından yoğundurlar ve eğitim ve dağıtım için önemli kaynaklar gerektirirler, bu da sınırlı hesaplama gücüne sahip veya gerçek zamanlı gereksinimler olan uygulamalar için zorluklar oluşturur.</p>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
