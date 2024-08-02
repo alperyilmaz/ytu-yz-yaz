@@ -1,0 +1,74 @@
+---
+title: "NLP ve ötesi"
+subtitle: "FEF3001 Yapay zekaya giriş - Ders9"
+author: "Alper Yılmaz"
+date: 2024-08-02
+format:
+  revealjs:
+    chalkboard: true
+    css: custom.css
+    smaller: true
+    scrollable: true
+    controls: true
+    touch: true
+    history: false
+    progress: true
+    slide-number: c/t
+typora-copy-images-to: images
+---
+
+## İçerik
+
+* Video: "[The moment we stopped understanding AI](https://www.youtube.com/watch?v=UZDiGooFs54)"
+   * Video about CNN
+   * Video about CNN
+* HuggingFace
+* Word2Vec demo on Google Collab
+
+## ChatGPT ve CNN hakkında
+
+{{< video https://youtu.be/UZDiGooFs54 width="1200" height="600" >}}
+
+## CNN katmanları
+
+![](images/1722588633.png)
+
+:::{.footer}
+[link](https://www.youtube.com/watch?v=JboZfxUjLSk)
+:::
+
+## CNN animasyon1
+
+{{< video https://youtu.be/w4kNHKcBGzA width="1200" height="600" >}}
+
+## CNN animasyon2
+
+{{< video https://youtu.be/enjnRVUoH9g width="1200" height="600" >}}
+
+## CNN interaktif sayfa
+
+![](images/1722587126.png)
+
+:::{.footer}
+[link](https://poloclub.github.io/cnn-explainer/)
+:::
+
+## HuggingFace
+
+HuggingFace, yapay zeka ve doğal dil işleme alanında önemli bir platformdur. Açık kaynak kodlu modeller, araçlar ve veri setleri sunarak, geliştiricilerin ve araştırmacıların en son makine öğrenimi teknolojilerini kullanmalarını kolaylaştırır. Platform, özellikle Transformers kütüphanesiyle tanınır ve bu kütüphane, BERT, GPT ve diğer modern dil modellerinin kullanımını basitleştirir. HuggingFace, ayrıca topluluk odaklı yaklaşımıyla, kullanıcıların kendi modellerini paylaşmalarına ve başkalarının modellerini kullanmalarına olanak tanır. HuggingFace, modeller ile web tabanlı arayüz ile etkileşim de sağlar.
+
+## HuggingFace - örnek
+
+[ProtBert](https://huggingface.co/Rostlab/prot_bert) isimli protein modeli sayfasını ziyaret ediniz.
+
+`D L I P T S S K L V V [MASK] D T S L Q V K K A F F A L V T` şeklindeki protein dizisinde, `[MASK]` yerine hangi amino asit gelebilir?
+
+
+## Word2Vec
+
+Google Colab'taki [not defterini](https://colab.research.google.com/drive/1qa-wnu2gwBJlFV_nnOYM-kFxKx22CXI5?usp=sharing) ziyaret ediniz.
+```python
+result = model["king"] - model["man"] + model["building"]
+```
+
+Yukarıdaki sonuç vektörü, hangi kelimeye en yakın görünmektedir?
