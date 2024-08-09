@@ -1,0 +1,46 @@
+---
+title: "Harf notları / Letter grades"
+date: "20240809"
+format: html
+typora-copy-images-to: images
+---
+
+## Harf notları ve aralıkları
+
+Değerli öğrenciler,
+
+Her bir grup için harf aralıkları aşağıdaki gibidir. Vizenin ağırlığı %60, Final sınavının ağırlığı %40 olarak hesaplanmıştır. Henüz quiz ve katılım değerlendirmesini notlara ekleyemedim. Quiz ve katılımdan gelen değerlendirmeyi de Vize veya Final notunuza ekleyerek yansıtmaya çalışacağım.
+
+Farkedildiği üzere, harf aralıkları bağıl değerlendirme ile belirlenmiştir. Bu hesaplama da OBS tarafından otomatik olarak yapılmaktadır. O yüzden, quiz ve katılımdan gelen eklemeler  yapıldığında harf aralıkları güncellenecektir.
+
+> **Quiz ve katılıma dair**: vize ve final yanında "katılım" şeklinde bir değerlendirme eklemek mümkün olmadı. O yüzden quiz ve katılım puanlarınızı vize ve final notlarınıza ekleyerek yansıtmaya çalışacağım. O yüzden, derse katılamayan veya quize katılamayan öğrencilerin 100 üzerinden herhangi bir kaybı olmayacaktır. Derse katılan ve quize giren öğrenciler ise artı puan almış olacaklardır. 
+
+
+### Gr1 Türkçe
+
+> Türk Dili ve Edebiyatı bölümünün ortalaması diğer bölümler ile uyumlu olacak şekilde ayarlanmıştır.
+
+| Harf | Başlangıç | Bitiş | Öğrenci sayısı |
+|------|-----------|-------|----------------|
+|AA|81|100|27|
+|BA|74|80,99|28|
+|BB|67|73,99|38|
+|CB|59|66,99|32|
+|CC|52|58,99|26|
+|DC|44|51,99|28|
+|DD|37|43,99|10|
+|FD|30|36,99|2|
+|FF|0|29,99|18|
+
+### Gr2 İngilizce
+
+| Harf | Başlangıç | Bitiş | Öğrenci sayısı |
+|------|-----------|-------|----------------|
+|AA|82|100|9|
+|BA|74|81,99|7|
+|BB|67|73,99|8|
+|CB|59|66,99|18|
+|CC|51|58,99|13|
+|DC|44|50,99|2|
+|DD|36|43,99|6|
+|FF|0|35,99|8|

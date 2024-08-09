@@ -11,8 +11,10 @@ website:
     left:
       - href: index.qmd
         text: Ana Sayfa
+      - href: letter-grades.qmd
+        text: Harf Notları
       - href: midterm-grades.qmd
-        text: Notlar
+        text: Vize-Final Notlar
       - href: katilim.qmd
         text: Katılım
       - href: about.qmd
