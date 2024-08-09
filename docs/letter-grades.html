@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2024-07-22">
+<meta name="dcterms.date" content="2024-08-09">
 
-<title>FEF3001 Yapay Zekaya Giriş – Attendance and Quizes / Katılım ve Quizler</title>
+<title>FEF3001 Yapay Zekaya Giriş – Harf notları / Letter grades</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -67,16 +67,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<link href="site_libs/htmltools-fill-0.5.8.1/fill.css" rel="stylesheet">
-<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
-<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet">
-<script src="site_libs/datatables-binding-0.33/datatables.js"></script>
-<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
-<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.min.css" rel="stylesheet">
-<link href="site_libs/dt-core-1.13.6/css/jquery.dataTables.extra.css" rel="stylesheet">
-<script src="site_libs/dt-core-1.13.6/js/jquery.dataTables.min.js"></script>
-<link href="site_libs/crosstalk-1.2.1/css/crosstalk.min.css" rel="stylesheet">
-<script src="site_libs/crosstalk-1.2.1/js/crosstalk.min.js"></script>
 
 
 </head>
@@ -103,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Ana Sayfa</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./letter-grades.html"> 
+    <a class="nav-link active" href="./letter-grades.html" aria-current="page"> 
 <span class="menu-text">Harf Notları</span></a>
   </li>  
   <li class="nav-item">
@@ -111,7 +101,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Vize-Final Notlar</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./katilim.html" aria-current="page"> 
+    <a class="nav-link" href="./katilim.html"> 
 <span class="menu-text">Katılım</span></a>
   </li>  
   <li class="nav-item">
@@ -134,15 +124,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#derse-katılım-attendance" id="toc-derse-katılım-attendance" class="nav-link active" data-scroll-target="#derse-katılım-attendance">Derse Katılım / Attendance</a>
+  <li><a href="#harf-notları-ve-aralıkları" id="toc-harf-notları-ve-aralıkları" class="nav-link active" data-scroll-target="#harf-notları-ve-aralıkları">Harf notları ve aralıkları</a>
   <ul class="collapse">
-  <li><a href="#group1-grup1-türkçe" id="toc-group1-grup1-türkçe" class="nav-link" data-scroll-target="#group1-grup1-türkçe">Group1 / Grup1 Türkçe</a></li>
-  <li><a href="#group2-grup2-ingilizce" id="toc-group2-grup2-ingilizce" class="nav-link" data-scroll-target="#group2-grup2-ingilizce">Group2 / Grup2 İngilizce</a></li>
-  </ul></li>
-  <li><a href="#quizler" id="toc-quizler" class="nav-link" data-scroll-target="#quizler">Quizler</a>
-  <ul class="collapse">
-  <li><a href="#group1-grup1-türkçe-1" id="toc-group1-grup1-türkçe-1" class="nav-link" data-scroll-target="#group1-grup1-türkçe-1">Group1 / Grup1 Türkçe</a></li>
-  <li><a href="#group2-grup2-ingilizce-1" id="toc-group2-grup2-ingilizce-1" class="nav-link" data-scroll-target="#group2-grup2-ingilizce-1">Group2 / Grup2 İngilizce</a></li>
+  <li><a href="#gr1-türkçe" id="toc-gr1-türkçe" class="nav-link" data-scroll-target="#gr1-türkçe">Gr1 Türkçe</a></li>
+  <li><a href="#gr2-ingilizce" id="toc-gr2-ingilizce" class="nav-link" data-scroll-target="#gr2-ingilizce">Gr2 İngilizce</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -152,7 +137,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Attendance and Quizes / Katılım ve Quizler</h1>
+<h1 class="title">Harf notları / Letter grades</h1>
 </div>
 
 
@@ -163,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">July 22, 2024</p>
+      <p class="date">August 9, 2024</p>
     </div>
   </div>
   
@@ -175,96 +160,154 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="derse-katılım-attendance" class="level1">
-<h1>Derse Katılım / Attendance</h1>
-<p>Zoom üzerinden süre olarak katılımınız alınarak, toplam ders süremize<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> göre oran hesaplanmıştır. Dersin üçte birinden (1/3 ya da 0.3) az katılan öğrenci o derse katılmamış sayılacaktır.</p>
-<p>Aşağıdaki tablolarda her bir ders günü için Zoom süresi ve katılım oranı verilmiştir. (<strong>ŞU ANDA SADECE 19 TEMMUZ GÜNÜ YAPILAN DERSE GÖRE HESAPLAMA YAPILMIŞTIR</strong>)</p>
-<div class="callout callout-style-default callout-caution no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Click for translation
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Your participation time has been recorded via Zoom, and a ratio has been calculated based on our total lesson duration. A student who participates less than one-third (1/3 or 0.3) of the lesson will be considered as not having attended that lesson.</p>
-<p>In the tables below, the Zoom duration and participation ratio for each lesson day are provided. (<strong>THE DATA BELOW ONLY CONSIDERS JULY 19TH LECTURE</strong>)</p>
-</div>
-</div>
-</div>
-<section id="group1-grup1-türkçe" class="level2">
-<h2 class="anchored" data-anchor-id="group1-grup1-türkçe">Group1 / Grup1 Türkçe</h2>
-<div class="cell" data-messages="false">
-<div class="cell-output-display">
-<div class="datatables html-widget html-fill-item" id="htmlwidget-7bcc089793eb49741a48" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-7bcc089793eb49741a48">{"x":{"filter":"none","vertical":false,"data":[["17022049","18028029","19012505","19024013","19025045","20023035","20023043","20023049","20023051","20023056","20023057","20023062","20023067","20023083","20023085","20023904","20025051","20025083","20027047","20028011","20028068","21022014","21022022","21022042","21022068","21022079","21023006","21023009","21023010","21023025","21023026","21023030","21023033","21023034","21023043","21023051","21023053","21023054","21023055","21023056","21023057","21023063","21023071","21023079","21023081","21023608","21023611","21024070","21024090","21025006","21025007","21025011","21025014","21025019","21025023","21025035","21025043","21025058","21025061","21025069","21025074","21025080","21025608","21027001","21027002","21027003","21027004","21027005","21027008","21027009","21027011","21027012","21027015","21027016","21027023","21027024","21027025","21027026","21027027","21027028","21027030","21027040","21027041","21027042","21027043","21027044","21027045","21027047","21027049","21027050","21027051","21027052","21027054","21027061","21027062","21027063","21027064","21027067","21027068","21027069","21027071","21027900","21028006","21028008","21028022","21028042","21028049","21028061","21028068","21028919","22012062","22022072","22023026","22023028","22023046","22023058","22023601","22023606","22023613","22023617","22023618","22023620","22023623","22023628","22025005","22025012","22025014","22025015","22025023","22025031","22025053","22025061","22025065","22025071","22025079","22025083","22027016","22027018","22027020","22027024","22027026","22027032","22027033","22027034","22027037","22027044","22027046","22027049","22027057","22027064","22027066","22027067","22027068","22027069","22027601","22027602","22027603","22028011","22028012","22028014","22028018","22028023","22028024","22028027","22028029","22028031","22028032","22028033","22028037","22028038","22028040","22028041","22028046","22028055","22028057","22028058","22028062","22028063","22028065","22028067","22028068","22028072","22028073","22028074","22028078","22028613","22028701","22028704","23023602","23023603","23023625","23023626","23023627","23023632","23025003","23025012","23025019","23025037","23025501","23025609","23025610","23025613","23027049","23028051","23028606","23028609","23028615","23028703","Ç19046086","Ç19056064","Ç20023040"],[0,0,45,0,23,0,105,0,0,0,0,27,0,0,70,139,79,12,0,0,0,0,0,119,0,142,0,0,0,0,0,14,1,138,0,0,0,0,128,0,8,0,124,112,0,0,0,0,121,0,0,0,0,0,0,136,140,71,0,141,0,142,94,134,0,0,0,97,0,142,138,142,0,127,0,129,140,142,0,0,34,0,0,0,133,91,141,0,0,141,0,0,0,80,0,19,103,142,117,136,141,0,0,0,141,93,72,0,127,0,138,0,142,40,0,80,103,0,0,0,0,0,0,0,108,82,142,0,0,0,0,0,140,120,0,0,141,0,0,142,0,81,0,0,139,0,103,0,0,131,0,0,65,0,0,0,0,138,0,0,23,38,0,0,128,0,0,0,0,0,24,0,0,0,0,0,0,119,0,137,139,3,37,0,0,0,27,97,97,142,0,127,0,138,0,0,0,0,140,0,135,88,0,0,0,0,123,95,93,0,1],[0,0,0.3,0,0.2,0,0.7,0,0,0,0,0.2,0,0,0.5,1,0.6,0.1,0,0,0,0,0,0.8,0,1,0,0,0,0,0,0.1,0,1,0,0,0,0,0.9,0,0.1,0,0.9,0.8,0,0,0,0,0.9,0,0,0,0,0,0,1,1,0.5,0,1,0,1,0.7,0.9,0,0,0,0.7,0,1,1,1,0,0.9,0,0.9,1,1,0,0,0.2,0,0,0,0.9,0.6,1,0,0,1,0,0,0,0.6,0,0.1,0.7,1,0.8,1,1,0,0,0,1,0.7,0.5,0,0.9,0,1,0,1,0.3,0,0.6,0.7,0,0,0,0,0,0,0,0.8,0.6,1,0,0,0,0,0,1,0.8,0,0,1,0,0,1,0,0.6,0,0,1,0,0.7,0,0,0.9,0,0,0.5,0,0,0,0,1,0,0,0.2,0.3,0,0,0.9,0,0,0,0,0,0.2,0,0,0,0,0,0,0.8,0,1,1,0,0.3,0,0,0,0.2,0.7,0.7,1,0,0.9,0,1,0,0,0,0,1,0,1,0.6,0,0,0,0,0.9,0.7,0.7,0,0]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>student_id<\/th>\n      <th>katilim_suresi<\/th>\n      <th>ratio<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[1,2]},{"name":"student_id","targets":0},{"name":"katilim_suresi","targets":1},{"name":"ratio","targets":2}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
+<section id="harf-notları-ve-aralıkları" class="level2">
+<h2 class="anchored" data-anchor-id="harf-notları-ve-aralıkları">Harf notları ve aralıkları</h2>
+<p>Değerli öğrenciler,</p>
+<p>Her bir grup için harf aralıkları aşağıdaki gibidir. Vizenin ağırlığı %60, Final sınavının ağırlığı %40 olarak hesaplanmıştır. Henüz quiz ve katılım değerlendirmesini notlara ekleyemedim. Quiz ve katılımdan gelen değerlendirmeyi de Vize veya Final notunuza ekleyerek yansıtmaya çalışacağım.</p>
+<p>Farkedildiği üzere, harf aralıkları bağıl değerlendirme ile belirlenmiştir. Bu hesaplama da OBS tarafından otomatik olarak yapılmaktadır. O yüzden, quiz ve katılımdan gelen eklemeler yapıldığında harf aralıkları güncellenecektir.</p>
+<blockquote class="blockquote">
+<p><strong>Quiz ve katılıma dair</strong>: vize ve final yanında “katılım” şeklinde bir değerlendirme eklemek mümkün olmadı. O yüzden quiz ve katılım puanlarınızı vize ve final notlarınıza ekleyerek yansıtmaya çalışacağım. O yüzden, derse katılamayan veya quize katılamayan öğrencilerin 100 üzerinden herhangi bir kaybı olmayacaktır. Derse katılan ve quize giren öğrenciler ise artı puan almış olacaklardır.</p>
+</blockquote>
+<section id="gr1-türkçe" class="level3">
+<h3 class="anchored" data-anchor-id="gr1-türkçe">Gr1 Türkçe</h3>
+<blockquote class="blockquote">
+<p>Türk Dili ve Edebiyatı bölümünün ortalaması diğer bölümler ile uyumlu olacak şekilde ayarlanmıştır.</p>
+</blockquote>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Harf</th>
+<th>Başlangıç</th>
+<th>Bitiş</th>
+<th>Öğrenci sayısı</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>AA</td>
+<td>81</td>
+<td>100</td>
+<td>27</td>
+</tr>
+<tr class="even">
+<td>BA</td>
+<td>74</td>
+<td>80,99</td>
+<td>28</td>
+</tr>
+<tr class="odd">
+<td>BB</td>
+<td>67</td>
+<td>73,99</td>
+<td>38</td>
+</tr>
+<tr class="even">
+<td>CB</td>
+<td>59</td>
+<td>66,99</td>
+<td>32</td>
+</tr>
+<tr class="odd">
+<td>CC</td>
+<td>52</td>
+<td>58,99</td>
+<td>26</td>
+</tr>
+<tr class="even">
+<td>DC</td>
+<td>44</td>
+<td>51,99</td>
+<td>28</td>
+</tr>
+<tr class="odd">
+<td>DD</td>
+<td>37</td>
+<td>43,99</td>
+<td>10</td>
+</tr>
+<tr class="even">
+<td>FD</td>
+<td>30</td>
+<td>36,99</td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td>FF</td>
+<td>0</td>
+<td>29,99</td>
+<td>18</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="group2-grup2-ingilizce" class="level2">
-<h2 class="anchored" data-anchor-id="group2-grup2-ingilizce">Group2 / Grup2 İngilizce</h2>
-<div class="cell" data-messages="false">
-<div class="cell-output-display">
-<div class="datatables html-widget html-fill-item" id="htmlwidget-f248dbb099e56a65860e" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-f248dbb099e56a65860e">{"x":{"filter":"none","vertical":false,"data":[["16022040","17022012","17022014","17022022","17022043","17022058","18022028","18022047","18022056","18022067","19022015","19022016","19022017","19022049","19022058","19022081","19022084","19022605","19022801","20022017","20022022","20022035","20022067","20022070","20022071","20022074","20022080","20022084","20022605","21022041","21022048","21022049","21022051","21022052","21022062","21022066","21022069","21022073","21022081","21022602","21025004","21025013","21025038","21025050","21025052","21025053","21025065","21025066","2102D004","2102D009","22022002","22022003","22022005","22022059","22022076","22025018","22025039","22025043","22025050","22025080","2202D003","2202D011","23022017","23022025","23022049","23025023","23025605","23025614","Ç20022006","Ç22022027"],[172,0,0,0,0,0,0,0,0,0,0,80,0,28,99,0,0,0,145,138,0,104,19,1,0,0,0,12,0,156,0,0,0,0,0,0,174,0,49,141,0,84,0,176,106,176,0,29,0,0,176,0,0,0,0,0,18,16,0,0,0,74,0,115,0,0,0,0,51,0],[1,0,0,0,0,0,0,0,0,0,0,0.5,0,0.2,0.6,0,0,0,0.8,0.8,0,0.6,0.1,0,0,0,0,0.1,0,0.9,0,0,0,0,0,0,1,0,0.3,0.8,0,0.5,0,1,0.6,1,0,0.2,0,0,1,0,0,0,0,0,0.1,0.1,0,0,0,0.4,0,0.7,0,0,0,0,0.3,0]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>student_id<\/th>\n      <th>katilim_suresi<\/th>\n      <th>ratio<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":[1,2]},{"name":"student_id","targets":0},{"name":"katilim_suresi","targets":1},{"name":"ratio","targets":2}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
-</section>
-</section>
-<section id="quizler" class="level1">
-<h1>Quizler</h1>
-<p>Derste yapılan quizlerde en az bir doğru cevap verilmesi gerekmektedir. Bütün cevapları yanlış olan öğrenciler quize girmemiş sayılacaktır.</p>
-<p>Aşağıdaki tablolarda her bir quiz için doğru cevap ve toplam soru sayısı verilmiştir.</p>
-<div class="callout callout-style-default callout-caution no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Click for translation
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>In the quizzes given during the lesson, at least one correct answer is required. Students who have all answers incorrect will be considered as not having taken the quiz.</p>
-<p>In the tables below, the number of correct answers and total number of questions for each quiz are provided.</p>
-</div>
-</div>
-</div>
-<section id="group1-grup1-türkçe-1" class="level2">
-<h2 class="anchored" data-anchor-id="group1-grup1-türkçe-1">Group1 / Grup1 Türkçe</h2>
-<div class="cell" data-messages="false">
-<div class="cell-output-display">
-<div class="datatables html-widget html-fill-item" id="htmlwidget-9199e76d3066a1e95e81" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-9199e76d3066a1e95e81">{"x":{"filter":"none","vertical":false,"data":[["20023904","21022079","21023079","21025013","21025035","21025069","21027009","21027011","21027012","21027024","21027043","21027064","21027067","21027069","21027071","21028005","22012062","22023028","22023058","22023601","22025005","22025014","22025065","22027016","22027024","22027037","22028011","22028018","22028029","22028040","22028041","22028063","22028067","22028704","23023602","23023603","23023632","23025501","23025610","23025613","23028703"],["1 / 3","2 / 3","0 / 3","3 / 3","1 / 3","3 / 3","2 / 3","1 / 3","2 / 3","2 / 3","3 / 3","1 / 3","1 / 3","0 / 3","2 / 3","3 / 3","1 / 3","1 / 3","3 / 3","2 / 3","1 / 3","1 / 3","2 / 3","2 / 3","2 / 3","2 / 3","2 / 3","0 / 3","1 / 3","1 / 3","2 / 3","2 / 3","2 / 3","1 / 3","3 / 3","3 / 3","1 / 3","3 / 3","2 / 3","1 / 3","2 / 3"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>student_id<\/th>\n      <th>result<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"name":"student_id","targets":0},{"name":"result","targets":1}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
-</section>
-<section id="group2-grup2-ingilizce-1" class="level2">
-<h2 class="anchored" data-anchor-id="group2-grup2-ingilizce-1">Group2 / Grup2 İngilizce</h2>
-<div class="cell" data-messages="false">
-<div class="cell-output-display">
-<div class="datatables html-widget html-fill-item" id="htmlwidget-b1c9f798d029b2dae7fd" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-b1c9f798d029b2dae7fd">{"x":{"filter":"none","vertical":false,"data":[["16022040","19022016","19022016","19022058","20022035","20022067","20022084","21022069","21022081","21025013","21025050","21025053","21025066","22022002","23022025","601166??"],["1 / 3","3 / 3","0 / 3","2 / 3","2 / 3","1 / 3","2 / 3","1 / 3","1 / 3","0 / 3","3 / 3","1 / 3","1 / 3","2 / 3","1 / 3","1 / 3"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>student_id<\/th>\n      <th>result<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"name":"student_id","targets":0},{"name":"result","targets":1}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
-</div>
-</div>
+<section id="gr2-ingilizce" class="level3">
+<h3 class="anchored" data-anchor-id="gr2-ingilizce">Gr2 İngilizce</h3>
+<table class="table">
+<thead>
+<tr class="header">
+<th>Harf</th>
+<th>Başlangıç</th>
+<th>Bitiş</th>
+<th>Öğrenci sayısı</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>AA</td>
+<td>82</td>
+<td>100</td>
+<td>9</td>
+</tr>
+<tr class="even">
+<td>BA</td>
+<td>74</td>
+<td>81,99</td>
+<td>7</td>
+</tr>
+<tr class="odd">
+<td>BB</td>
+<td>67</td>
+<td>73,99</td>
+<td>8</td>
+</tr>
+<tr class="even">
+<td>CB</td>
+<td>59</td>
+<td>66,99</td>
+<td>18</td>
+</tr>
+<tr class="odd">
+<td>CC</td>
+<td>51</td>
+<td>58,99</td>
+<td>13</td>
+</tr>
+<tr class="even">
+<td>DC</td>
+<td>44</td>
+<td>50,99</td>
+<td>2</td>
+</tr>
+<tr class="odd">
+<td>DD</td>
+<td>36</td>
+<td>43,99</td>
+<td>6</td>
+</tr>
+<tr class="even">
+<td>FF</td>
+<td>0</td>
+<td>35,99</td>
+<td>8</td>
+</tr>
+</tbody>
+</table>
 
 
 </section>
 </section>
 
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>Beklenen ders süresi (yaklaşık 3 saat) değil, işlenen süre. Yani maksimum süre, ders süresi olarak alınmıştır.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
